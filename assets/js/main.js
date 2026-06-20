@@ -94,6 +94,27 @@
     });
   }
 
+  // ----- inline video play (no pop-out) -----
+  function playVideo(v) {
+    if (v.classList.contains('playing')) return;
+    var id = v.getAttribute('data-yt');
+    var thumb = v.querySelector('.thumb');
+    if (!id || !thumb) return;
+    var ifr = document.createElement('iframe');
+    ifr.src = 'https://www.youtube-nocookie.com/embed/' + id + '?autoplay=1&rel=0';
+    ifr.setAttribute('allow', 'autoplay; encrypted-media; picture-in-picture; fullscreen');
+    ifr.setAttribute('allowfullscreen', '');
+    ifr.setAttribute('title', 'Video');
+    thumb.appendChild(ifr);
+    v.classList.add('playing');
+  }
+  document.querySelectorAll('.video[data-yt]').forEach(function (v) {
+    v.addEventListener('click', function () { playVideo(v); });
+    v.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); playVideo(v); }
+    });
+  });
+
   // ----- footer year -----
   var yr = document.getElementById('yr');
   if (yr) yr.textContent = new Date().getFullYear();
