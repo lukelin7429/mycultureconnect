@@ -144,6 +144,14 @@ section.soft{background:var(--bg-soft)}
 .card h3{margin-bottom:.4em}
 .card p{color:var(--muted);font-size:1rem;margin:0}
 
+/* path chooser */
+.anchor{scroll-margin-top:90px}
+a.card.choice{display:flex;flex-direction:column;cursor:pointer}
+a.card.choice:hover{text-decoration:none}
+a.card.choice h3{color:var(--ink)}
+.choice-go{margin-top:18px;font-family:var(--eyebrow);letter-spacing:.04em;font-size:.92rem;color:var(--orange-dark);font-weight:700;transition:transform .28s}
+a.card.choice:hover .choice-go{transform:translateX(6px)}
+
 /* people */
 .people{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:24px}
 .person{text-align:center}
