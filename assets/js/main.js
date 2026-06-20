@@ -115,6 +115,29 @@
     });
   });
 
+  // Keep YouTube video links embedded on the page instead of opening YouTube.
+  function youtubeIdFromUrl(url) {
+    try {
+      var u = new URL(url, window.location.href);
+      if (u.hostname.indexOf('youtu.be') !== -1) return u.pathname.replace('/', '');
+      if (u.hostname.indexOf('youtube.com') !== -1) return u.searchParams.get('v');
+    } catch (err) {}
+    return '';
+  }
+  document.querySelectorAll('a[href*="youtube.com/watch"],a[href*="youtu.be/"]').forEach(function (a) {
+    var id = youtubeIdFromUrl(a.href);
+    if (!id) return;
+    a.addEventListener('click', function (e) {
+      e.preventDefault();
+      var frame = document.createElement('div');
+      frame.className = 'inline-youtube';
+      frame.innerHTML = '<iframe src="https://www.youtube-nocookie.com/embed/' +
+        encodeURIComponent(id) +
+        '?autoplay=1&rel=0" title="Video" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>';
+      a.replaceWith(frame);
+    });
+  });
+
   // ----- footer year -----
   var yr = document.getElementById('yr');
   if (yr) yr.textContent = new Date().getFullYear();
