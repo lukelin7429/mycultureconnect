@@ -103,7 +103,7 @@ nav.main a.active::after{content:"";position:absolute;left:0;right:0;bottom:-2px
 .page-hero::before{width:380px;height:380px;background:rgba(255,214,150,.55);top:-130px;left:4%;animation:floatOrb 16s ease-in-out infinite}
 .page-hero::after{width:320px;height:320px;background:rgba(255,86,38,.45);bottom:-150px;right:6%;animation:floatOrb 13s ease-in-out infinite reverse}
 .page-hero .ph-bg{display:none}
-.page-hero .wrap{position:relative;z-index:2;padding:96px 24px 88px}
+.page-hero .wrap{position:relative;z-index:2;padding:52px 24px 48px}
 .page-hero .eyebrow{color:#fff;opacity:.92}
 .page-hero h1{color:#fff;text-shadow:0 3px 22px rgba(150,60,0,.22)}
 .page-hero p.lead{color:#fff;opacity:.96;max-width:62ch;margin:14px auto 0}
