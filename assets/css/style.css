@@ -118,7 +118,7 @@ section.soft{background:var(--bg-soft)}
 .grid{display:grid;gap:26px}
 .grid.cols-3{grid-template-columns:repeat(3,1fr)}
 .grid.cols-2{grid-template-columns:repeat(2,1fr)}
-.card{position:relative;background:#fff;border:1px solid var(--line);border-radius:16px;padding:32px;transition:transform .28s cubic-bezier(.2,.8,.2,1),box-shadow .28s,border-color .28s;overflow:hidden}
+.card{position:relative;background:#fff;border:1px solid #e7e7e7;border-radius:16px;padding:32px;box-shadow:0 6px 22px rgba(20,20,20,.06);transition:transform .28s cubic-bezier(.2,.8,.2,1),box-shadow .28s,border-color .28s;overflow:hidden}
 .card::before{content:"";position:absolute;left:0;top:0;height:4px;width:100%;background:linear-gradient(90deg,var(--orange),#ffb35c);transform:scaleX(0);transform-origin:left;transition:transform .35s ease}
 .card:hover{box-shadow:0 22px 48px rgba(245,130,32,.18);transform:translateY(-7px);border-color:transparent}
 .card:hover::before{transform:scaleX(1)}
@@ -236,6 +236,33 @@ section.soft{background:var(--bg-soft)}
 .center{text-align:center}
 .mt-l{margin-top:42px}
 .muted{color:var(--muted)}
+
+/* framed org cards (with brand top accent) */
+.orgcard{position:relative;background:#fff;border:1px solid #e7e7e7;border-top:4px solid var(--orange);
+  border-radius:14px;padding:26px 28px;box-shadow:0 6px 22px rgba(20,20,20,.06);transition:transform .25s,box-shadow .25s}
+.orgcard:hover{transform:translateY(-5px);box-shadow:0 18px 40px rgba(245,130,32,.16)}
+.orgcard h3{margin:0 0 .25em;font-size:1.25rem}
+.orgcard .place{font-family:var(--eyebrow);letter-spacing:.05em;color:var(--orange-dark);font-size:.92rem;text-transform:uppercase}
+
+/* partner link cards (hub → subpage) */
+.pcards{display:grid;grid-template-columns:repeat(2,1fr);gap:26px}
+.pcard{display:flex;flex-direction:column;background:#fff;border:1px solid #e7e7e7;border-radius:18px;overflow:hidden;
+  box-shadow:0 8px 26px rgba(20,20,20,.07);transition:transform .28s,box-shadow .28s;text-decoration:none;color:var(--ink)}
+.pcard:hover{transform:translateY(-7px);box-shadow:0 24px 50px rgba(245,130,32,.18);text-decoration:none}
+.pcard .pc-img{aspect-ratio:16/9;background:#eee center/cover;position:relative}
+.pcard .pc-img::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 55%,rgba(0,0,0,.4))}
+.pcard .pc-body{padding:26px 28px;flex:1;display:flex;flex-direction:column}
+.pcard .pc-tag{font-family:var(--eyebrow);text-transform:uppercase;letter-spacing:.12em;font-size:.74rem;color:var(--orange);margin-bottom:8px}
+.pcard h3{margin:0 0 .4em;font-size:1.4rem}
+.pcard p{color:var(--muted);font-size:1rem;margin:0 0 18px}
+.pcard .pc-go{margin-top:auto;font-family:var(--eyebrow);letter-spacing:.04em;color:var(--orange-dark);font-weight:600}
+.pcard:hover .pc-go{color:var(--orange)}
+@media(max-width:760px){.pcards{grid-template-columns:1fr}}
+
+/* back link */
+.backlink{display:inline-flex;align-items:center;gap:8px;font-family:var(--eyebrow);letter-spacing:.04em;
+  color:var(--muted-2);margin-bottom:8px}
+.backlink:hover{color:var(--orange);text-decoration:none}
 
 /* ---------- motion layer ---------- */
 @keyframes kenburns{from{transform:scale(1.02)}to{transform:scale(1.14)}}
