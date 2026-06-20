@@ -76,24 +76,6 @@
   }, { threshold: 0.18 });
   document.querySelectorAll('[data-reveal]').forEach(function (el) { io.observe(el); });
 
-  // ----- contact form (mailto fallback; swap to Apps Script later) -----
-  var cf = document.getElementById('contactForm');
-  if (cf) {
-    cf.addEventListener('submit', function (e) {
-      e.preventDefault();
-      var get = function (n) { var el = cf.elements[n]; return el ? el.value.trim() : ''; };
-      var subject = 'Website inquiry — ' + (get('interest') || 'General') + ' (' + (get('name') || 'no name') + ')';
-      var body =
-        'Name: ' + get('name') + '\n' +
-        'Email: ' + get('email') + '\n' +
-        'From (City, State, Country): ' + get('location') + '\n' +
-        'Interested in: ' + get('interest') + '\n\n' +
-        'Message:\n' + get('message') + '\n';
-      window.location.href = 'mailto:luke@mycultureconnect.org?subject=' +
-        encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
-    });
-  }
-
   // ----- inline video play (no pop-out) -----
   function playVideo(v) {
     if (v.classList.contains('playing')) return;
