@@ -78,8 +78,8 @@ nav.main a.active::after{content:"";position:absolute;left:0;right:0;bottom:-2px
 .nav-toggle span{display:block;width:26px;height:2px;background:var(--ink);margin:5px 0;transition:.25s}
 
 /* ---------- hero ---------- */
-.hero{position:relative;background:#222;overflow:hidden}
-.hero-img{width:100%;height:min(70vh,640px);object-fit:cover;display:block}
+.hero{position:relative;height:min(78vh,660px);min-height:440px;background:#000;overflow:hidden}
+.hero-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
 .hero::after{content:"";position:absolute;inset:0;background:
   linear-gradient(180deg,rgba(0,0,0,.18) 0%,rgba(0,0,0,0) 32%,rgba(0,0,0,0) 55%,rgba(0,0,0,.55) 100%)}
 .hero-copy{position:absolute;z-index:2;left:0;right:0;bottom:84px}
