@@ -96,8 +96,8 @@ nav.main a.active::after{content:"";position:absolute;left:0;right:0;bottom:-2px
 /* page hero (interior pages) — soft & modern: white base, soft orange shapes, left-aligned */
 .page-hero{position:relative;overflow:hidden;text-align:left;background:#fff;border-bottom:1px solid var(--line)}
 .page-hero::before,.page-hero::after{content:"";position:absolute;border-radius:50%;pointer-events:none;z-index:0}
-.page-hero::before{width:560px;height:560px;background:#ffe7d2;right:-170px;top:-170px}
-.page-hero::after{width:330px;height:330px;background:#ffd6b0;right:60px;bottom:-185px}
+.page-hero::before{width:300px;height:300px;background:#ffe7d2;right:-120px;top:-110px}
+.page-hero::after{width:170px;height:170px;background:#ffd6b0;right:90px;bottom:-90px}
 .page-hero .ph-bg{display:none}
 .page-hero .wrap{position:relative;z-index:2;padding:62px 24px 56px}
 .page-hero .eyebrow{color:var(--orange-dark)}
