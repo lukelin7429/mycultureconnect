@@ -1,359 +1,273 @@
 <!doctype html>
-<html class="lang-en" lang="en">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Dom Jones School Tour — My Culture Connect</title>
-<meta name="description" content="Dom Jones — Chair of the My Culture Connect Advocacy Board and UN SDG Ambassador — on a nationwide school assembly tour across Taiwan. Watch the campus-news videos from every visit.">
+<title>School Tour — My Culture Connect</title>
+<meta name="description" content="Dom Jones and My Culture Connect bring English education, global connections, and kindness to schools across Changhua County through student-produced campus news videos.">
 <link rel="icon" type="image/png" href="assets/img/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/hub.css">
-<link rel="stylesheet" href="assets/css/resources.css">
-<style>.dom-card{cursor:pointer}.dom-card.playing .dom-play{display:none}.dom-card.playing .dom-thumb{position:relative}.dom-card .dom-thumb iframe{position:absolute;inset:0;width:100%;height:100%;border:0;z-index:3}.dom-school .dom-school-sub{display:block;font-weight:400;font-size:.82em;color:#5a6b7a;margin-top:3px;letter-spacing:.01em}</style>
+<link href="https://fonts.googleapis.com/css2?family=Noticia+Text:wght@400;700&family=Questrial&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<style>
+.tour-portrait{border-radius:18px;box-shadow:var(--shadow);background:#fff}
+.tour-quote{border-left:4px solid var(--orange);padding:18px 0 18px 24px;margin:24px 0;color:var(--muted);font-family:var(--serif);font-size:1.25rem;line-height:1.55}
+.tour-facts{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:26px}
+.tour-fact{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 6px 22px rgba(20,20,20,.05)}
+.tour-fact b{display:block;font-family:var(--serif);font-size:1.25rem;font-weight:400;margin-bottom:6px}
+.tour-fact small{display:block;color:var(--muted);line-height:1.55}
+.tour-feature{border-radius:18px;overflow:hidden;box-shadow:var(--shadow-lg);background:#fff;border:1px solid var(--line)}
+.tour-feature img{width:100%;height:auto}
+.tour-feature figcaption{padding:16px 20px;color:var(--muted);font-size:.98rem}
+.playlist-frame,.tour-video .thumb{position:relative;aspect-ratio:16/9;background:#111}
+.playlist-frame iframe,.tour-video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.tour-video .thumb::after{display:none}
+.tour-video .meta small{display:block;line-height:1.45}
+@media(max-width:880px){.tour-facts{grid-template-columns:1fr}}
+</style>
 </head>
 <body>
-<header style="background:#fff;border-bottom:1px solid #e2e8ee"><div style="max-width:1160px;margin:0 auto;padding:14px 22px;display:flex;align-items:center;gap:14px"><a href="index.html" style="font-weight:800;color:#0a3d62;text-decoration:none;font-family:Inter,sans-serif">← My Culture Connect</a></div></header>
-<main>
-<!-- ===== Hero / Bio ===== -->
-<section class="hub-section">
-<p class="hub-eyebrow">Resources · Dom Jones</p>
-<h1 class="hub-h1">From Compton to Changhua.</h1>
-<div class="dom-hero">
-<div>
-<p class="dom-section-lede">
-<strong>Dom Jones</strong> — internationally recognized social advocate, educator, and media personality from California — has chosen Taiwan as her home. Since <strong>December 2025</strong>, she has partnered with My Culture Connect to bring a nationwide <strong>school assembly tour</strong> to Changhua County, built around three pillars: <strong>English education, global connections, and kindness</strong>.
- </p>
 
-</div>
-<figure class="dom-portrait">
-<img alt="Dom Jones · Chairwoman of MCC's Advocacy Board" src="assets/img/dom/dom-jones.png"/>
-<figcaption class="dom-portrait-caption">
-<strong>Dom Jones </strong>
- UN SDG Ambassador · MCC Advocacy Board
- </figcaption>
-</figure>
-</div>
-<div class="dom-bio">
-<div class="dom-bio-text">
-<p>Born in the challenging streets of Compton to a mother of thirteen, Dom grew up in poverty and homelessness — and refused to be defined by it. She pursued higher education across the Midwest and Southern California in the humanities, communication studies, and women's studies.</p>
-<p>With nearly <strong>20 years</strong> in fitness, yoga, and wellness advocacy, she is also the owner and CEO of <strong>Propel Cycle</strong>, Southern California's premier indoor cycling studio. She hosts <em>The Dom Jones Show</em> on <strong>Pho Bolsa TV (PBTV)</strong>, reaching millions of viewers across the United States and Vietnam.</p>
-<p>In 2022, Dom appeared on CBS's <strong>The Amazing Race (Season 34)</strong>, sharing her message of empathy and cross-cultural understanding with a global audience. As <strong>Government Affairs Ambassador</strong> for the United Nations Association — Orange County Chapter, she has dedicated her career to advancing the UN 2030 Agenda.</p>
-<div class="dom-quote">
- "Growing up without the love, safety, and guidance every child deserves, Dom made a vow to become the love she did not receive. Her life mission is to give kindness, unity, and hope to the world — especially to young people who need to know their voice and dreams matter."
- <span class="dom-quote-attr">— Dom Jones</span>
-</div>
-<a class="dom-bio-cta" href="dom-jones.html">Read Dom's full bio →</a>
-</div>
+<header class="site-header"><div class="wrap">
+  <a class="brand" href="index.html">
+    <img src="assets/img/logo.png" alt="My Culture Connect logo">
+    <span><b>My Culture Connect</b><span>Renshi · 人師教育協會</span></span>
+  </a>
+  <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  <nav class="main">
+    <a href="index.html">Home</a>
+    <a href="team.html">Team</a>
+    <a href="partners.html">Partners</a>
+    <a href="opportunities.html">Opportunities</a>
+    <a href="programs.html" class="active">School Tour</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</div></header>
 
-</div>
-<div class="dom-roles">
-<div class="dom-role">
-<span class="dom-role-icon">🌏</span>
-<div class="dom-role-title">Chairwoman, Advocacy Board</div>
-<div class="dom-role-sub">人師教育協會 </div>
-</div>
-<div class="dom-role">
-<span class="dom-role-icon">🇺🇳</span>
-<div class="dom-role-title">UN Ambassador</div>
-<div class="dom-role-sub">UN Association · Orange County</div>
-</div>
-<div class="dom-role">
-<span class="dom-role-icon">📺</span>
-<div class="dom-role-title">The Dom Jones Show</div>
-<div class="dom-role-sub">Pho Bolsa TV</div>
-</div>
-<div class="dom-role">
-<span class="dom-role-icon">🏆</span>
-<div class="dom-role-title">The Amazing Race S34</div>
-<div class="dom-role-sub">CBS</div>
-</div>
-<div class="dom-role">
-<span class="dom-role-icon">💪</span>
-<div class="dom-role-title">Propel Cycle CEO</div>
-<div class="dom-role-sub"></div>
-</div>
-<div class="dom-role">
-<span class="dom-role-icon">💚</span>
-<div class="dom-role-title">DemocraShe Co-Founder</div>
-<div class="dom-role-sub">501(c)(3) </div>
-</div>
-</div>
+<section class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow">School Tour</p>
+    <h1>Dom Jones in Changhua classrooms</h1>
+    <p class="lead">A school assembly tour built around English education, global connections, and kindness.</p>
+  </div>
 </section>
-<!-- ===== Mission · Three Pillars ===== -->
-<section class="hub-section" style="padding-top:8px">
-<h2 class="resources-h2">Our Mission <small></small></h2>
-<p class="dom-section-lede">
- Every campus visit is built around three commitments that Dom carries from California to every Changhua classroom.
- </p>
 
-<div class="dom-mission">
-<article class="dom-pillar">
-<div class="dom-pillar-icon">🗣️</div>
-<h3>English Education</h3>
-
-<p class="dom-pillar-body">Real, lived English in every classroom. Dom speaks to students as a working American media personality — every word is something she would actually say in California tomorrow, not textbook English.</p>
-
-</article>
-<article class="dom-pillar">
-<div class="dom-pillar-icon">🌐</div>
-<h3>Global Connections</h3>
-
-<p class="dom-pillar-body">From Compton to the UN to Taiwan. Dom shows students that Changhua is connected to Los Angeles, to Hanoi, to the UN — and that their voices matter on every one of those stages.</p>
-
-</article>
-<article class="dom-pillar">
-<div class="dom-pillar-icon">💛</div>
-<h3>Kindness</h3>
-
-<p class="dom-pillar-body">"Be the love you did not receive." Dom leads every assembly with empathy and unity, and the belief that every student's dreams matter — especially those who are told they don't.</p>
-
-</article>
-</div>
+<section>
+  <div class="wrap split">
+    <div data-reveal>
+      <p class="eyebrow">From Compton to Changhua</p>
+      <h2>Real English, global stories, and a message every student can carry forward.</h2>
+      <p><strong>Dom Jones</strong> is an internationally recognized social advocate, educator, and media personality from California. Since <strong>December 2025</strong>, she has partnered with My Culture Connect to bring a school assembly tour to Changhua County.</p>
+      <p>Each campus visit gives students the chance to hear living English from an American speaker, connect their local school to the wider world, and reflect on kindness, courage, and the value of their own voice.</p>
+      <div class="tour-quote">"Be the love you did not receive."</div>
+      <a class="btn" href="dom-jones.html">Read Dom's full bio</a>
+    </div>
+    <img class="tour-portrait" src="assets/img/dom/dom-jones.png" alt="Dom Jones, Chairwoman of the My Culture Connect Advocacy Board" loading="lazy">
+  </div>
 </section>
-<!-- ===== Playlist embed ===== -->
-<section class="hub-section" style="padding-top:8px">
-<h2 class="resources-h2">School Assembly Tour <small>Spring 2026</small></h2>
-<p class="dom-section-lede">
- Each visit is a full-school assembly: Dom takes the stage in English, students answer back, and every school's young reporters cover the day in a short news segment. Watch the playlist below — every campus, every classroom welcome.
- </p>
 
-<figure class="dom-feature-photo">
-<img alt="Dom Jones with students of Yuxin Elementary, Changhua" src="assets/img/dom/yushin-group.jpg"/>
-<figcaption>
-<strong>With the students of Yuxin Elementary</strong>
- — one of the many campuses on Dom's Spring 2026 Changhua tour
- </figcaption>
-</figure>
-<div class="playlist-wrap">
-<div class="playlist-frame">
-<iframe allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL01OhMUI2G8U6ZR7rywO4yQ5OnuQ3fSPJ&amp;rel=0" title="Dom's School Visits · "></iframe>
-</div>
-<p class="playlist-credit">
- 🎬 Playlist <strong>Dom's School Visits</strong> · curated by <a href="index.html" rel="noopener" target="_blank">My Culture Connect 人師教育協會</a>
-</p>
-</div>
+<section class="soft">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Three commitments</p>
+      <h2>What Dom brings to every assembly</h2>
+    </div>
+    <div class="grid cols-3">
+      <div class="card" data-reveal>
+        <div class="num">01</div>
+        <h3>English Education</h3>
+        <p>Students hear natural, lived English from a working American media personality and respond in a real assembly setting.</p>
+      </div>
+      <div class="card" data-reveal>
+        <div class="num">02</div>
+        <h3>Global Connections</h3>
+        <p>Dom connects Changhua classrooms with Los Angeles, the United Nations, and the wider world students are preparing to enter.</p>
+      </div>
+      <div class="card" data-reveal>
+        <div class="num">03</div>
+        <h3>Kindness</h3>
+        <p>Every visit centers empathy, unity, and the belief that every student's voice and dreams matter.</p>
+      </div>
+    </div>
+  </div>
 </section>
-<!-- ===== Individual video grid ===== -->
-<section class="hub-section" style="padding-top:24px">
-<h2 class="resources-h2">Every campus, every visit <small>Campus News</small></h2>
-<p class="dom-section-lede">
- Click any school below to watch its student-produced news segment of Dom's assembly visit.
- </p>
 
-<div class="dom-grid">
-<div class="dom-card" data-yt="5Oghv3gQETU" role="button" tabindex="0">
-<div class="dom-thumb"><img alt=" — Dom Jones Campus News" loading="lazy" src="https://i.ytimg.com/vi/5Oghv3gQETU/mqdefault.jpg"/><span class="dom-play">▶</span></div>
-<div class="dom-meta">
-<h3 class="dom-school">Yuhua Elementary<span class="dom-school-sub">Dom Jones · Campus News</span></h3>
-<p class="dom-date">2026.06.02</p>
-</div>
-</div>
-<div class="dom-card" data-yt="-wW0IOjTUT4" role="button" tabindex="0">
-<div class="dom-thumb"><img alt=" — Dom Jones Campus News" loading="lazy" src="https://i.ytimg.com/vi/-wW0IOjTUT4/mqdefault.jpg"/><span class="dom-play">▶</span></div>
-<div class="dom-meta">
-<h3 class="dom-school">Houliao Elementary<span class="dom-school-sub">Dom Jones · Campus News</span></h3>
-<p class="dom-date">2026.06.02</p>
-</div>
-</div>
-<div class="dom-card" data-yt="WTxOjT5OXiE" role="button" tabindex="0">
-<div class="dom-thumb"><img alt=" — Dom Jones Campus News" loading="lazy" src="https://i.ytimg.com/vi/WTxOjT5OXiE/mqdefault.jpg"/><span class="dom-play">▶</span></div>
-<div class="dom-meta">
-<h3 class="dom-school">Minsheng Elementary<span class="dom-school-sub">Dom Jones · Campus News</span></h3>
-<p class="dom-date">2026.05.25</p>
-</div>
-</div>
-<div class="dom-card" data-yt="rCQuOmELjbM" role="button" tabindex="0">
-<div class="dom-thumb"><img alt=" — Dom Jones Campus News" loading="lazy" src="https://i.ytimg.com/vi/rCQuOmELjbM/mqdefault.jpg"/><span class="dom-play">▶</span></div>
-<div class="dom-meta">
-<h3 class="dom-school">Yude Elementary<span class="dom-school-sub">Dom Jones · Campus News</span></h3>
-<p class="dom-date">2026.05.25</p>
-</div>
-</div>
-<div class="dom-card" data-yt="mlDqgsMuV0c" role="button" tabindex="0">
-<div class="dom-thumb"><img alt=" — Dom Jones Campus News" loading="lazy" src="https://i.ytimg.com/vi/mlDqgsMuV0c/mqdefault.jpg"/><span class="dom-play">▶</span></div>
-<div class="dom-meta">
-<h3 class="dom-school">Hubei Elementary<span class="dom-school-sub">Dom Jones · Campus News</span></h3>
-<p class="dom-date">2026.05.19</p>
-</div>
-</div>
-<div class="dom-card" data-yt="lPfb-TbozhU" role="button" tabindex="0">
-<div class="dom-thumb"><img alt=" — Dom Jones Campus News" loading="lazy" src="https://i.ytimg.com/vi/lPfb-TbozhU/mqdefault.jpg"/><span class="dom-play">▶</span></div>
-<div class="dom-meta">
-<h3 class="dom-school">Wanxing Elementary<span class="dom-school-sub">Dom Jones · Campus News</span></h3>
-<p class="dom-date">2026.05.19</p>
-</div>
-</div>
-<div class="dom-card" data-yt="7VJodV2HwnE" role="button" tabindex="0">
-<div class="dom-thumb"><img alt=" — Dom Jones Campus News" loading="lazy" src="https://i.ytimg.com/vi/7VJodV2HwnE/mqdefault.jpg"/><span class="dom-play">▶</span></div>
-<div class="dom-meta">
-<h3 class="dom-school">Wenchang Elementary<span class="dom-school-sub">Dom Jones · Campus News</span></h3>
-<p class="dom-date">2026.05.12</p>
-</div>
-</div>
-<div class="dom-card" data-yt="x--JEdN8xPY" role="button" tabindex="0">
-<div class="dom-thumb"><img alt=" — Dom Jones Campus News" loading="lazy" src="https://i.ytimg.com/vi/x--JEdN8xPY/mqdefault.jpg"/><span class="dom-play">▶</span></div>
-<div class="dom-meta">
-<h3 class="dom-school">Zhonghe Elementary<span class="dom-school-sub">Dom Jones · Campus News</span></h3>
-<p class="dom-date">2026.05.12</p>
-</div>
-</div>
-<div class="dom-card" data-yt="2flGVrz2fDE" role="button" tabindex="0">
-<div class="dom-thumb"><img alt=" — Dom Jones Campus News" loading="lazy" src="https://i.ytimg.com/vi/2flGVrz2fDE/mqdefault.jpg"/><span class="dom-play">▶</span></div>
-<div class="dom-meta">
-<h3 class="dom-school">Kuaiguan Elementary<span class="dom-school-sub">Dom Jones · Campus News</span></h3>
-<p class="dom-date">2026.05.05</p>
-</div>
-</div>
-<div class="dom-card" data-yt="FY2SjU8L04w" role="button" tabindex="0">
-<div class="dom-thumb"><img alt=" — Dom Jones Campus News" loading="lazy" src="https://i.ytimg.com/vi/FY2SjU8L04w/mqdefault.jpg"/><span class="dom-play">▶</span></div>
-<div class="dom-meta">
-<h3 class="dom-school">Xizhou Elementary<span class="dom-school-sub">Dom Jones · Campus News</span></h3>
-<p class="dom-date">2026.05.05</p>
-</div>
-</div>
-<div class="dom-card" data-yt="1CaTsQJHkpk" role="button" tabindex="0">
-<div class="dom-thumb"><img alt=" — Dom Jones Campus News" loading="lazy" src="https://i.ytimg.com/vi/1CaTsQJHkpk/mqdefault.jpg"/><span class="dom-play">▶</span></div>
-<div class="dom-meta">
-<h3 class="dom-school">Qiaoxin Elementary<span class="dom-school-sub">Dom Jones · Campus News</span></h3>
-<p class="dom-date">2026.04.28</p>
-</div>
-</div>
-<div class="dom-card" data-yt="ul5CBsV0QkA" role="button" tabindex="0">
-<div class="dom-thumb"><img alt=" — Dom Jones Campus News" loading="lazy" src="https://i.ytimg.com/vi/ul5CBsV0QkA/mqdefault.jpg"/><span class="dom-play">▶</span></div>
-<div class="dom-meta">
-<h3 class="dom-school">Xinmin Elementary<span class="dom-school-sub">Dom Jones · Campus News</span></h3>
-<p class="dom-date">2026.04.21</p>
-</div>
-</div>
-<div class="dom-card" data-yt="dH0MQxB4x8o" role="button" tabindex="0">
-<div class="dom-thumb"><img alt=" — Dom Jones Campus News" loading="lazy" src="https://i.ytimg.com/vi/dH0MQxB4x8o/mqdefault.jpg"/><span class="dom-play">▶</span></div>
-<div class="dom-meta">
-<h3 class="dom-school">Renfeng Elementary<span class="dom-school-sub">Dom Jones · Campus News</span></h3>
-<p class="dom-date">2026.04.21</p>
-</div>
-</div>
-<div class="dom-card" data-yt="ugPeclZYyQM" role="button" tabindex="0">
-<div class="dom-thumb"><img alt=" — Dom Jones Campus News" loading="lazy" src="https://i.ytimg.com/vi/ugPeclZYyQM/mqdefault.jpg"/><span class="dom-play">▶</span></div>
-<div class="dom-meta">
-<h3 class="dom-school">Mingli Elementary<span class="dom-school-sub">Dom Jones · Campus News</span></h3>
-<p class="dom-date">2026.04.14</p>
-</div>
-</div>
-<div class="dom-card" data-yt="UHlL9GpBeco" role="button" tabindex="0">
-<div class="dom-thumb"><img alt=" — Dom Jones Campus News" loading="lazy" src="https://i.ytimg.com/vi/UHlL9GpBeco/mqdefault.jpg"/><span class="dom-play">▶</span></div>
-<div class="dom-meta">
-<h3 class="dom-school">Lufeng Elementary<span class="dom-school-sub">Dom Jones · Campus News</span></h3>
-<p class="dom-date">2026.04.14</p>
-</div>
-</div>
-<div class="dom-card" data-yt="kYcVaoMnYBo" role="button" tabindex="0">
-<div class="dom-thumb"><img alt=" — Dom Jones Campus News" loading="lazy" src="https://i.ytimg.com/vi/kYcVaoMnYBo/mqdefault.jpg"/><span class="dom-play">▶</span></div>
-<div class="dom-meta">
-<h3 class="dom-school">Yuxin Elementary<span class="dom-school-sub">Dom Jones · Campus News</span></h3>
-<p class="dom-date">2026.04.07</p>
-</div>
-</div>
-<div class="dom-card" data-yt="hMMbheEwZkI" role="button" tabindex="0">
-<div class="dom-thumb"><img alt=" — Dom Jones Campus News" loading="lazy" src="https://i.ytimg.com/vi/hMMbheEwZkI/mqdefault.jpg"/><span class="dom-play">▶</span></div>
-<div class="dom-meta">
-<h3 class="dom-school">Fusing Junior High<span class="dom-school-sub">Dom Jones · Campus News</span></h3>
-<p class="dom-date">2026.04.07</p>
-</div>
-</div>
-<div class="dom-card" data-yt="3a2LlsTmLIU" role="button" tabindex="0">
-<div class="dom-thumb"><img alt=" — Dom Jones Campus News" loading="lazy" src="https://i.ytimg.com/vi/3a2LlsTmLIU/mqdefault.jpg"/><span class="dom-play">▶</span></div>
-<div class="dom-meta">
-<h3 class="dom-school">Dexing Elementary<span class="dom-school-sub">Dom Jones · Campus News</span></h3>
-<p class="dom-date">2026.03.31</p>
-</div>
-</div>
-<div class="dom-card" data-yt="0CPDATRfMJ8" role="button" tabindex="0">
-<div class="dom-thumb"><img alt=" — Dom Jones Campus News" loading="lazy" src="https://i.ytimg.com/vi/0CPDATRfMJ8/mqdefault.jpg"/><span class="dom-play">▶</span></div>
-<div class="dom-meta">
-<h3 class="dom-school">Fusing Elementary<span class="dom-school-sub">Dom Jones · Campus News</span></h3>
-<p class="dom-date">2026.03.31</p>
-</div>
-</div>
-<div class="dom-card" data-yt="CRdHUTZHl_8" role="button" tabindex="0">
-<div class="dom-thumb"><img alt=" — Dom Jones Campus News" loading="lazy" src="https://i.ytimg.com/vi/CRdHUTZHl_8/mqdefault.jpg"/><span class="dom-play">▶</span></div>
-<div class="dom-meta">
-<h3 class="dom-school">Dacheng Junior High<span class="dom-school-sub">Dom Jones · Campus News</span></h3>
-<p class="dom-date">2026.03.24</p>
-</div>
-</div>
-<div class="dom-card" data-yt="19rekCsqAjk" role="button" tabindex="0">
-<div class="dom-thumb"><img alt=" — Dom Jones Campus News" loading="lazy" src="https://i.ytimg.com/vi/19rekCsqAjk/mqdefault.jpg"/><span class="dom-play">▶</span></div>
-<div class="dom-meta">
-<h3 class="dom-school">Dacheng Elementary<span class="dom-school-sub">Dom Jones · Campus News</span></h3>
-<p class="dom-date">2026.03.24</p>
-</div>
-</div>
-<div class="dom-card" data-yt="h9XbU-mVjsY" role="button" tabindex="0">
-<div class="dom-thumb"><img alt=" — Small Hands, Big Impact" loading="lazy" src="https://i.ytimg.com/vi/h9XbU-mVjsY/mqdefault.jpg"/><span class="dom-play">▶</span></div>
-<div class="dom-meta">
-<h3 class="dom-school">Datong<span class="dom-school-sub">Dom Jones · Campus News</span></h3>
-<p class="dom-date">Campus News</p>
-</div>
-</div>
-<div class="dom-card" data-yt="exNWJilPGMo" role="button" tabindex="0">
-<div class="dom-thumb"><img alt=" — Dom Jones" loading="lazy" src="https://i.ytimg.com/vi/exNWJilPGMo/mqdefault.jpg"/><span class="dom-play">▶</span></div>
-<div class="dom-meta">
-<h3 class="dom-school">Daxin Elementary<span class="dom-school-sub">Dom Jones · Campus News</span></h3>
-<p class="dom-date">International exchange</p>
-</div>
-</div>
-<div class="dom-card" data-yt="xQ-aT5w1e9A" role="button" tabindex="0">
-<div class="dom-thumb"><img alt=" — Dom Jones" loading="lazy" src="https://i.ytimg.com/vi/xQ-aT5w1e9A/mqdefault.jpg"/><span class="dom-play">▶</span></div>
-<div class="dom-meta">
-<h3 class="dom-school">Beidou Elementary<span class="dom-school-sub">Dom Jones · Campus News</span></h3>
-<p class="dom-date">International exchange</p>
-</div>
-</div>
-<div class="dom-card" data-yt="gcDCu03Io2k" role="button" tabindex="0">
-<div class="dom-thumb"><img alt=" — Dom Jones " loading="lazy" src="https://i.ytimg.com/vi/gcDCu03Io2k/mqdefault.jpg"/><span class="dom-play">▶</span></div>
-<div class="dom-meta">
-<h3 class="dom-school">Yangming Junior High<span class="dom-school-sub">Dom Jones · Campus News</span></h3>
-<p class="dom-date">School visit</p>
-</div>
-</div>
-</div>
-<p style="margin-top:48px;color:var(--hub-ink-faint);font-size:.92rem">
-<a href="/resources/">← Back to Resources</a>
-</p>
+<section>
+  <div class="wrap split">
+    <figure class="tour-feature" data-reveal>
+      <img src="assets/img/dom/yushin-group.jpg" alt="Dom Jones with students of Yuxin Elementary in Changhua" loading="lazy">
+      <figcaption><strong>With the students of Yuxin Elementary</strong> — one of the campuses on Dom's Spring 2026 Changhua tour.</figcaption>
+    </figure>
+    <div data-reveal>
+      <p class="eyebrow">Spring 2026</p>
+      <h2>School assembly tour playlist</h2>
+      <p>Every visit is a full-school assembly: Dom takes the stage in English, students answer back, and each school's young reporters document the day in a short campus news segment.</p>
+      <div class="playlist-frame" aria-label="Dom Jones school visits playlist">
+        <iframe src="https://www.youtube-nocookie.com/embed/videoseries?list=PL01OhMUI2G8U6ZR7rywO4yQ5OnuQ3fSPJ&amp;rel=0" title="Dom Jones school visits playlist" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
 </section>
-</main>
-<footer class="hub-footer">
-<div class="hub-footer-inner">
-<div>
-<h4>About</h4>
-<p>A directory of bilingual school sites, foreign-teacher profiles, and classroom resources across Changhua County.</p>
 
-</div>
-<div>
-<h4>Producing Units</h4>
-<a href="https://www.cieetrc.chc.edu.tw/" rel="noopener" target="_blank">CIEETRC<br/></a>
-<a href="index.html" rel="noopener" target="_blank">My Culture Connect<br/>人師教育協會</a>
-</div>
-<div>
-<h4>Contact</h4>
-<a href="mailto:luke@mycultureconnect.org">luke@mycultureconnect.org</a>
-</div>
-</div>
-<p class="hub-footer-credit">Map data: <a href="https://github.com/ronnywang/twgeojson" rel="noopener" target="_blank">ronnywang/twgeojson</a></p>
-</footer>
-<script>
-document.querySelectorAll('.dom-card[data-yt]').forEach(function(c){
-  function play(){ if(c.classList.contains('playing'))return;
-    var id=c.getAttribute('data-yt'),t=c.querySelector('.dom-thumb'); if(!id||!t)return;
-    var f=document.createElement('iframe');
-    f.src='https://www.youtube-nocookie.com/embed/'+id+'?autoplay=1&rel=0';
-    f.setAttribute('allow','autoplay;encrypted-media;picture-in-picture;fullscreen');
-    f.setAttribute('allowfullscreen','');t.appendChild(f);c.classList.add('playing');}
-  c.addEventListener('click',play);
-  c.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();play();}});
-});
-</script>
+<section class="soft">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Campus News</p>
+      <h2>Every campus, every visit</h2>
+      <p class="muted">Student-produced videos from Dom Jones's school assembly visits across Changhua County.</p>
+    </div>
+    <div class="videos">
+      <article class="video tour-video" data-reveal>
+        <div class="thumb"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/5Oghv3gQETU?rel=0" title="Yuhua Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="meta"><b>Yuhua Elementary</b><small>Dom Jones Campus News · 2026.06.02</small></div>
+      </article>
+      <article class="video tour-video" data-reveal>
+        <div class="thumb"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/-wW0IOjTUT4?rel=0" title="Houliao Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="meta"><b>Houliao Elementary</b><small>Dom Jones Campus News · 2026.06.02</small></div>
+      </article>
+      <article class="video tour-video" data-reveal>
+        <div class="thumb"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/WTxOjT5OXiE?rel=0" title="Minsheng Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="meta"><b>Minsheng Elementary</b><small>Dom Jones Campus News · 2026.05.25</small></div>
+      </article>
+      <article class="video tour-video" data-reveal>
+        <div class="thumb"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/rCQuOmELjbM?rel=0" title="Yude Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="meta"><b>Yude Elementary</b><small>Dom Jones Campus News · 2026.05.25</small></div>
+      </article>
+      <article class="video tour-video" data-reveal>
+        <div class="thumb"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/mlDqgsMuV0c?rel=0" title="Hubei Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="meta"><b>Hubei Elementary</b><small>Dom Jones Campus News · 2026.05.19</small></div>
+      </article>
+      <article class="video tour-video" data-reveal>
+        <div class="thumb"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/lPfb-TbozhU?rel=0" title="Wanxing Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="meta"><b>Wanxing Elementary</b><small>Dom Jones Campus News · 2026.05.19</small></div>
+      </article>
+      <article class="video tour-video" data-reveal>
+        <div class="thumb"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/7VJodV2HwnE?rel=0" title="Wenchang Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="meta"><b>Wenchang Elementary</b><small>Dom Jones Campus News · 2026.05.12</small></div>
+      </article>
+      <article class="video tour-video" data-reveal>
+        <div class="thumb"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/x--JEdN8xPY?rel=0" title="Zhonghe Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="meta"><b>Zhonghe Elementary</b><small>Dom Jones Campus News · 2026.05.12</small></div>
+      </article>
+      <article class="video tour-video" data-reveal>
+        <div class="thumb"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/2flGVrz2fDE?rel=0" title="Kuaiguan Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="meta"><b>Kuaiguan Elementary</b><small>Dom Jones Campus News · 2026.05.05</small></div>
+      </article>
+      <article class="video tour-video" data-reveal>
+        <div class="thumb"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/FY2SjU8L04w?rel=0" title="Xizhou Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="meta"><b>Xizhou Elementary</b><small>Dom Jones Campus News · 2026.05.05</small></div>
+      </article>
+      <article class="video tour-video" data-reveal>
+        <div class="thumb"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/1CaTsQJHkpk?rel=0" title="Qiaoxin Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="meta"><b>Qiaoxin Elementary</b><small>Dom Jones Campus News · 2026.04.28</small></div>
+      </article>
+      <article class="video tour-video" data-reveal>
+        <div class="thumb"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/ul5CBsV0QkA?rel=0" title="Xinmin Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="meta"><b>Xinmin Elementary</b><small>Dom Jones Campus News · 2026.04.21</small></div>
+      </article>
+      <article class="video tour-video" data-reveal>
+        <div class="thumb"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/dH0MQxB4x8o?rel=0" title="Renfeng Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="meta"><b>Renfeng Elementary</b><small>Dom Jones Campus News · 2026.04.21</small></div>
+      </article>
+      <article class="video tour-video" data-reveal>
+        <div class="thumb"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/ugPeclZYyQM?rel=0" title="Mingli Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="meta"><b>Mingli Elementary</b><small>Dom Jones Campus News · 2026.04.14</small></div>
+      </article>
+      <article class="video tour-video" data-reveal>
+        <div class="thumb"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/UHlL9GpBeco?rel=0" title="Lufeng Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="meta"><b>Lufeng Elementary</b><small>Dom Jones Campus News · 2026.04.14</small></div>
+      </article>
+      <article class="video tour-video" data-reveal>
+        <div class="thumb"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/kYcVaoMnYBo?rel=0" title="Yuxin Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="meta"><b>Yuxin Elementary</b><small>Dom Jones Campus News · 2026.04.07</small></div>
+      </article>
+      <article class="video tour-video" data-reveal>
+        <div class="thumb"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/hMMbheEwZkI?rel=0" title="Fusing Junior High - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="meta"><b>Fusing Junior High</b><small>Dom Jones Campus News · 2026.04.07</small></div>
+      </article>
+      <article class="video tour-video" data-reveal>
+        <div class="thumb"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/3a2LlsTmLIU?rel=0" title="Dexing Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="meta"><b>Dexing Elementary</b><small>Dom Jones Campus News · 2026.03.31</small></div>
+      </article>
+      <article class="video tour-video" data-reveal>
+        <div class="thumb"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/0CPDATRfMJ8?rel=0" title="Fusing Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="meta"><b>Fusing Elementary</b><small>Dom Jones Campus News · 2026.03.31</small></div>
+      </article>
+      <article class="video tour-video" data-reveal>
+        <div class="thumb"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/CRdHUTZHl_8?rel=0" title="Dacheng Junior High - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="meta"><b>Dacheng Junior High</b><small>Dom Jones Campus News · 2026.03.24</small></div>
+      </article>
+      <article class="video tour-video" data-reveal>
+        <div class="thumb"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/19rekCsqAjk?rel=0" title="Dacheng Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="meta"><b>Dacheng Elementary</b><small>Dom Jones Campus News · 2026.03.24</small></div>
+      </article>
+      <article class="video tour-video" data-reveal>
+        <div class="thumb"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/h9XbU-mVjsY?rel=0" title="Datong Elementary - Small Hands, Big Impact" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="meta"><b>Datong Elementary</b><small>Small Hands, Big Impact</small></div>
+      </article>
+      <article class="video tour-video" data-reveal>
+        <div class="thumb"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/exNWJilPGMo?rel=0" title="Daxin Elementary - Dom Jones International Exchange" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="meta"><b>Daxin Elementary</b><small>International Exchange</small></div>
+      </article>
+      <article class="video tour-video" data-reveal>
+        <div class="thumb"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/xQ-aT5w1e9A?rel=0" title="Beidou Elementary - Dom Jones International Exchange" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="meta"><b>Beidou Elementary</b><small>International Exchange</small></div>
+      </article>
+      <article class="video tour-video" data-reveal>
+        <div class="thumb"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/gcDCu03Io2k?rel=0" title="Yangming Junior High - Dom Jones School Visit" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="meta"><b>Yangming Junior High</b><small>School Visit</small></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="orbs"><span class="orb a"></span><span class="orb b"></span><span class="orb c"></span></div>
+  <div class="wrap center" data-reveal>
+    <p class="eyebrow">Learn more</p>
+    <h2>Meet Dom Jones</h2>
+    <p class="lead" style="max-width:54ch;margin:0 auto 28px;color:#fff;opacity:.96">Read more about Dom's story, advocacy work, and the experience she brings to students in Taiwan.</p>
+    <a class="btn" href="dom-jones.html" style="background:#fff;color:var(--orange-dark)">Read Dom's full bio</a>
+  </div>
+</section>
+
+<footer class="site-footer"><div class="wrap">
+  <div class="foot-grid">
+    <div>
+      <div class="brand" style="margin-bottom:14px">
+        <img src="assets/img/logo.png" alt="My Culture Connect" style="width:40px;height:40px;border-radius:9px">
+        <span><b>My Culture Connect</b><span>Renshi · 人師教育協會</span></span>
+      </div>
+      <p style="color:#9a9a9a;max-width:34ch">A Taiwan-based nonprofit since 2009, connecting classrooms in rural Changhua with the wider world.</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="partners.html">Partners</a></li>
+        <li><a href="opportunities.html">Opportunities</a></li>
+        <li><a href="programs.html">School Tour</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Connect</h4>
+      <ul>
+        <li><a href="mailto:luke@mycultureconnect.org">luke@mycultureconnect.org</a></li>
+        <li><a href="https://www.twrses.org/" target="_blank" rel="noopener">MCC Chinese Website</a></li>
+        <li><a href="https://changhua-bilingual.org/" target="_blank" rel="noopener">Changhua Bilingual Hub</a></li>
+        <li><a href="https://www.youtube.com/channel/UCMc6hY5BYKIyOgfUxepCLZg" target="_blank" rel="noopener">YouTube Channel</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="cb-credit">
+    © <span id="yr"></span> My Culture Connect · 人師教育協會. All rights reserved.<br>
+    No. 136, Sec. 1, Wenyuan Rd., Beidou Township, Changhua County 521, Taiwan (R.O.C.)
+  </div>
+</div></footer>
+
+<script src="assets/js/main.js"></script>
 </body>
 </html>
