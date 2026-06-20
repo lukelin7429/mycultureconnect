@@ -25,6 +25,21 @@
 .tour-video .thumb::after{display:none}
 .tour-video .meta small{display:block;line-height:1.45}
 @media(max-width:880px){.tour-facts{grid-template-columns:1fr}}
+/* school-tour timeline */
+.tl{display:flex;gap:12px;align-items:center;justify-content:center;flex-wrap:wrap;margin:34px auto 0;max-width:760px}
+.tl .node{background:#fff;border:1px solid var(--line);border-radius:30px;padding:11px 24px;box-shadow:0 6px 18px rgba(20,20,20,.05);text-align:center}
+.tl .node small{display:block;font-family:var(--eyebrow);letter-spacing:.1em;text-transform:uppercase;font-size:.7rem;color:var(--muted-2)}
+.tl .node b{font-family:var(--serif);font-weight:400;font-size:1.15rem}
+.tl .arrow{color:var(--orange);font-size:1.5rem;line-height:1}
+/* legacy (Grandpa Mike) — warm 'memory' tone */
+.legacy{background:linear-gradient(180deg,#faf6ef 0%,#f3ebdf 100%)}
+.legacy .mem-ribbon{display:inline-block;font-family:var(--eyebrow);letter-spacing:.16em;text-transform:uppercase;font-size:.72rem;color:#9a7b43;background:#fff;border:1px solid #e7dcc7;padding:7px 18px;border-radius:30px;margin-bottom:18px}
+.legacy .mike-portrait{filter:saturate(.97)}
+.legacy .tour-quote{border-left-color:#c79a4e;color:#6b5836}
+.legacy .card{border-color:#ece1cf}
+.legacy .card .num{background:linear-gradient(135deg,#bb8a3f,#d8b066);box-shadow:0 8px 20px rgba(160,120,50,.28)}
+.mike-media h3{text-align:center;margin-bottom:18px}
+@media(max-width:880px){.tl .node b{font-size:1rem}}
 </style>
 </head>
 <body>
@@ -47,13 +62,87 @@
 
 <section class="page-hero">
   <div class="wrap">
-    <p class="eyebrow">School Tour</p>
-    <h1>Dom Jones in Changhua classrooms</h1>
-    <p class="lead">A school assembly tour built around English education, global connections, and kindness.</p>
+    <p class="eyebrow">Our School Tour</p>
+    <h1>Bringing the world to Changhua classrooms</h1>
+    <p class="lead">For more than a decade, remarkable visitors have brought living English, global connection, and kindness to schools across Changhua — first Grandpa Mike, and today Dom Jones.</p>
+    <div class="tl">
+      <div class="node"><small>Where it began</small><b>Grandpa Mike</b></div>
+      <span class="arrow">→</span>
+      <div class="node"><small>Today</small><b>Dom Jones</b></div>
+    </div>
   </div>
 </section>
 
-<section>
+<!-- ===== CHAPTER ONE · GRANDPA MIKE (in loving memory) ===== -->
+<section class="legacy">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="mem-ribbon">In loving memory</span>
+      <h2>Grandpa Mike</h2>
+      <p class="muted">Long before Dom, the school tour was carried by one extraordinary American volunteer — Michael “Grandpa Mike” Dishnow, who made five self-funded visits to Taiwan and touched countless schools. He passed away in 2025; his kindness still travels through every classroom he loved.</p>
+    </div>
+    <div class="split">
+      <img class="tour-portrait mike-portrait" src="assets/img/mike/mike-12.jpg" alt="Michael ‘Grandpa Mike’ Dishnow in Changhua" loading="lazy">
+      <div data-reveal>
+        <p><strong>Michael Dishnow</strong> — a former guidance counselor and school principal in the United States — began more than a decade ago by coaching Changhua’s children to speak English through video calls, at a time when the whole county had only about six foreign teachers.</p>
+        <p>When he made his first self-funded visit, students and teachers felt they already knew him. Schools welcomed him with performances, singing, dancing — even lion dances. He embraced Taiwan in return: he studied Chinese, kept records of every friend’s name and address, and faithfully mailed handwritten calligraphy and cards from the US every Lunar New Year.</p>
+        <p>Back home he taught virtual classes five days a week, wrote articles urging Americans to volunteer in Taiwan, and over ten years shipped boxes of cards, pens, and T-shirts printed <em>“Learn English with Grandpa Mike.”</em> He traveled without complaint to schools as far away as Penghu and Pingtung.</p>
+        <div class="tour-quote">“He taught English, but more importantly, he taught love, respect, and the power of doing good.”</div>
+      </div>
+    </div>
+
+    <div class="grid cols-2" style="margin-top:8px">
+      <div class="card" data-reveal><div class="num">1</div><h3>Unwavering character</h3><p>Humble, kind, endlessly encouraging, and quick with a wonderful sense of humor — he never promoted himself.</p></div>
+      <div class="card" data-reveal><div class="num">2</div><h3>Dedicated advocacy</h3><p>Taiwan’s tireless spokesperson in the US — writing books and articles and giving his own resources to support Taiwanese schools.</p></div>
+      <div class="card" data-reveal><div class="num">3</div><h3>Philosophy of action</h3><p>“People change their views because of your actions, not because of what you say.” He lived it every day.</p></div>
+      <div class="card" data-reveal><div class="num">4</div><h3>Tireless service</h3><p>From Changhua to Penghu and Pingtung, he went wherever students needed him — without complaint.</p></div>
+    </div>
+
+    <div class="mike-media" style="margin-top:58px">
+      <h3>Moments from his visits</h3>
+      <div class="slideshow" data-reveal>
+        <div class="slides">
+          <div class="slide on"><img src="assets/img/mike/mike-01.jpg" alt="Grandpa Mike during a school visit in Changhua"></div>
+          <div class="slide"><img src="assets/img/mike/mike-02.jpg" alt="Grandpa Mike teaching English at a Changhua school" loading="lazy"></div>
+          <div class="slide"><img src="assets/img/mike/mike-03.jpg" alt="Grandpa Mike with a class of students" loading="lazy"></div>
+          <div class="slide"><img src="assets/img/mike/mike-04.jpg" alt="Grandpa Mike interacting with students" loading="lazy"></div>
+          <div class="slide"><img src="assets/img/mike/mike-05.jpg" alt="Grandpa Mike with students" loading="lazy"></div>
+          <div class="slide"><img src="assets/img/mike/mike-06.jpg" alt="Grandpa Mike with a school group" loading="lazy"></div>
+          <div class="slide"><img src="assets/img/mike/mike-07.jpg" alt="Grandpa Mike with students celebrating" loading="lazy"></div>
+          <div class="slide"><img src="assets/img/mike/mike-08.jpg" alt="Grandpa Mike with a large student group" loading="lazy"></div>
+          <div class="slide"><img src="assets/img/mike/mike-09.jpg" alt="Grandpa Mike joining a school celebration" loading="lazy"></div>
+          <div class="slide"><img src="assets/img/mike/mike-10.jpg" alt="Grandpa Mike with friends in Changhua" loading="lazy"></div>
+          <div class="slide"><img src="assets/img/mike/mike-11.jpg" alt="Grandpa Mike with a teacher" loading="lazy"></div>
+          <div class="slide"><img src="assets/img/mike/mike-12.jpg" alt="Grandpa Mike smiling with a friend" loading="lazy"></div>
+          <div class="slide"><img src="assets/img/mike/mike-13.jpg" alt="Grandpa Mike at a classroom event" loading="lazy"></div>
+          <div class="slide"><img src="assets/img/mike/mike-14.jpg" alt="Grandpa Mike at a school" loading="lazy"></div>
+          <div class="slide"><img src="assets/img/mike/mike-15.jpg" alt="Grandpa Mike with a child" loading="lazy"></div>
+        </div>
+        <button class="slidearrow prev" aria-label="Previous">‹</button>
+        <button class="slidearrow next" aria-label="Next">›</button>
+        <div class="slidenav"></div>
+      </div>
+    </div>
+
+    <div class="mike-media" style="margin-top:58px">
+      <h3>Watch his school visits</h3>
+      <div class="playlist-frame" style="max-width:900px;margin:0 auto" aria-label="Grandpa Mike school visits playlist">
+        <iframe src="https://www.youtube-nocookie.com/embed/videoseries?list=PLInBvsiVqy_asGGwnwuglzWBYteO7E61K&amp;rel=0" title="Grandpa Mike school visits playlist" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <p class="center" style="margin-top:18px"><a href="https://www.peopo.org/news/430163" target="_blank" rel="noopener">Read a news story about Grandpa Mike →</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CHAPTER TWO · TODAY ===== -->
+<section style="padding:64px 0 0">
+  <div class="wrap center" data-reveal>
+    <p class="eyebrow" style="color:var(--orange)">The tour continues · Today</p>
+    <h2 style="margin:0">Dom Jones</h2>
+  </div>
+</section>
+
+<section style="padding-top:48px">
   <div class="wrap split">
     <div data-reveal>
       <p class="eyebrow">From Compton to Changhua</p>
