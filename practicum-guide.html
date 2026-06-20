@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Practicum Guide — My Culture Connect</title>
-<meta name="description" content="Internal practicum guide for My Culture Connect TEFL and TESOL volunteers.">
+<title>Practicum Handbook — My Culture Connect</title>
+<meta name="description" content="Internal practicum handbook for My Culture Connect TEFL and TESOL volunteers — observation, tutoring, and co-teaching in one place.">
 <meta name="robots" content="noindex,nofollow">
 <link rel="icon" type="image/png" href="assets/img/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,15 +14,35 @@
 <style>
 .resource-wrap{max-width:900px}
 .resource-note{background:#fff7ef;border:1px solid #f6d4b2;border-left:4px solid var(--orange);border-radius:12px;padding:18px 22px;color:var(--muted);margin-bottom:34px}
-.resource-nav{display:flex;flex-wrap:wrap;gap:10px;margin:24px 0 0;justify-content:center}
-.resource-nav a{border:1px solid var(--line);border-radius:999px;padding:9px 16px;background:#fff;font-family:var(--eyebrow);font-size:.82rem;letter-spacing:.04em;color:var(--ink)}
-.resource-nav a.active{background:var(--orange);border-color:var(--orange);color:#fff}
 .guide-section{background:#fff;border:1px solid var(--line);border-radius:18px;padding:34px;margin-bottom:24px;box-shadow:0 6px 22px rgba(20,20,20,.05)}
 .guide-section h2{font-size:1.85rem}
 .guide-section h3{font-size:1.25rem;margin-top:24px}
 .guide-section ul,.guide-section ol{margin:0 0 1.1em 1.25em;color:var(--muted)}
 .guide-section li{margin-bottom:.42em}
 .guide-section p{color:var(--muted)}
+/* sticky handbook sub-nav */
+.hb-nav{position:sticky;top:74px;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.hb-nav .wrap{display:flex;gap:8px;overflow-x:auto;padding:12px 24px;justify-content:center;-webkit-overflow-scrolling:touch}
+.hb-nav a{white-space:nowrap;border:1px solid var(--line);border-radius:999px;padding:8px 16px;background:#fff;font-family:var(--eyebrow);font-size:.8rem;letter-spacing:.04em;color:var(--ink);transition:background .25s,border-color .25s,color .25s}
+.hb-nav a:hover{border-color:var(--orange);color:var(--orange-dark);text-decoration:none}
+.hb-nav a.active{background:var(--orange);border-color:var(--orange);color:#fff}
+/* section dividers */
+.hb-divider{margin:42px 0 22px}
+.hb-divider:first-of-type{margin-top:8px}
+.hb-step{display:inline-flex;align-items:center;justify-content:center;width:46px;height:46px;border-radius:13px;background:linear-gradient(135deg,var(--orange),#ffa94d);color:#fff;font-family:var(--serif);font-size:1.25rem;box-shadow:0 8px 20px rgba(245,130,32,.3);margin-bottom:14px}
+.hb-divider h2{font-size:2.15rem;margin:0 0 .25em;color:var(--ink)}
+.hb-divider p{color:var(--muted);max-width:62ch;margin:0;font-size:1.08rem;line-height:1.65}
+.anchor{scroll-margin-top:146px}
+/* flow steps */
+.flow{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:6px}
+.flow .step{background:#fff7ef;border:1px solid #f6d4b2;border-radius:14px;padding:20px}
+.flow .step b{font-family:var(--serif);font-weight:400;color:var(--orange-dark);font-size:1.15rem;display:block;margin-bottom:6px}
+.flow .step p{margin:0;font-size:.98rem}
+@media(max-width:680px){.flow{grid-template-columns:1fr}.hb-nav .wrap{justify-content:flex-start}}
+/* back to top */
+.to-top{position:fixed;right:20px;bottom:20px;z-index:60;width:46px;height:46px;border-radius:50%;background:var(--orange);color:#fff;border:0;font-size:1.2rem;line-height:1;box-shadow:0 10px 26px rgba(245,130,32,.4);cursor:pointer;opacity:0;pointer-events:none;transition:opacity .3s,transform .3s}
+.to-top.show{opacity:1;pointer-events:auto}
+.to-top:hover{transform:translateY(-3px)}
 </style>
 </head>
 <body>
@@ -46,31 +66,55 @@
 <section class="page-hero">
   <div class="wrap">
     <p class="eyebrow">Internal Practicum Resource</p>
-    <h1>Practicum Guide</h1>
-    <p class="lead">A starting guide for TEFL and TESOL volunteers completing practicum hours with My Culture Connect.</p>
-    <div class="resource-nav">
-      <a href="tutor-orientation.html">Tutoring</a>
-      <a href="co-teaching.html">Co-Teaching</a>
-      <a class="active" href="practicum-guide.html">Practicum Guide</a>
-    </div>
+    <h1>Practicum Handbook</h1>
+    <p class="lead">Everything you need to complete your TEFL or TESOL practicum hours with My Culture Connect — observation, tutoring, and co-teaching, all in one place.</p>
   </div>
 </section>
 
+<!-- sticky section nav -->
+<nav class="hb-nav" aria-label="Handbook sections"><div class="wrap">
+  <a href="#overview">Overview</a>
+  <a href="#observation">Observation</a>
+  <a href="#tutoring">Tutoring</a>
+  <a href="#co-teaching">Co-Teaching</a>
+  <a href="#hours">Verifying Hours</a>
+  <a href="#contact">Next Steps</a>
+</div></nav>
+
 <section class="soft">
   <div class="wrap resource-wrap">
-    <div class="resource-note">This page is intended for MCC practicum volunteers and is not listed in the public site navigation.</div>
+    <div class="resource-note">This handbook is for MCC practicum volunteers and is not listed in the public site navigation. Use the bar above to jump to a section.</div>
+
+    <!-- ===== OVERVIEW ===== -->
+    <div class="hb-divider anchor" id="overview" data-reveal>
+      <span class="hb-step">01</span>
+      <h2>Overview</h2>
+      <p>What MCC is, and how your practicum comes together: most volunteers start with observation, then move into tutoring or co-teaching to earn their teaching hours.</p>
+    </div>
 
     <article class="guide-section" data-reveal>
       <h2>Welcome to My Culture Connect</h2>
       <p>Thank you for your interest in volunteering with us to complete your practicum hours for TEFL or TESOL certification. At My Culture Connect, we support aspiring teachers while enriching education for students in Taiwan.</p>
-      <p>This guide will help you get started and make the most of your experience with MCC.</p>
+      <p>This handbook will help you get started and make the most of your experience with MCC.</p>
+      <h3>Who We Are</h3>
+      <p>Founded on January 1, 2009, My Culture Connect is a Taiwan-based nonprofit organization focused on enriching education and culture, especially in Changhua County. Known locally as Renshi (人師), meaning role models or people's teachers, MCC fosters cooperation and global understanding through education.</p>
     </article>
 
     <article class="guide-section" data-reveal>
-      <h2>Who We Are</h2>
-      <p>Founded on January 1, 2009, My Culture Connect is a Taiwan-based nonprofit organization focused on enriching education and culture, especially in Changhua County.</p>
-      <p>Known locally as Renshi (人師), meaning role models or people's teachers, MCC fosters cooperation and global understanding through education.</p>
+      <h2>How Your Practicum Works</h2>
+      <div class="flow">
+        <div class="step"><b>1 · Observe</b><p>Join real English classes in rural Taiwan over Google Meet and log your observation hours.</p></div>
+        <div class="step"><b>2 · Teach</b><p>Move into one-on-one tutoring or classroom co-teaching to complete your student-teaching hours.</p></div>
+        <div class="step"><b>3 · Verify</b><p>Keep a record of your hours; Luke can confirm them for your certification program.</p></div>
+      </div>
     </article>
+
+    <!-- ===== OBSERVATION ===== -->
+    <div class="hb-divider anchor" id="observation" data-reveal>
+      <span class="hb-step">02</span>
+      <h2>Observation</h2>
+      <p>Watching real English classes is the foundation of teacher training and where most volunteers begin. All observations happen over Google Meet — the only requirement is a free account.</p>
+    </div>
 
     <article class="guide-section" data-reveal>
       <h2>Getting Started with Observation</h2>
@@ -98,12 +142,183 @@
       <p>During observations, stay muted and keep your camera off to minimize disruption.</p>
     </article>
 
+    <!-- ===== TUTORING ===== -->
+    <div class="hb-divider anchor" id="tutoring" data-reveal>
+      <span class="hb-step">03</span>
+      <h2>Tutoring</h2>
+      <p>One-on-one tutoring is how many volunteers complete their teaching hours. Part of your practicum can be observation, but the rest must involve actual student teaching — and tutoring is one of the most flexible ways to do it.</p>
+    </div>
+
+    <article class="guide-section" data-reveal>
+      <h2>Who You Will Be Tutoring</h2>
+      <p>Our students range widely in age, from elementary and junior high students to high school students and adults.</p>
+      <p>Younger students are typically paired with a tutor by their parents. Older students, college-age learners, and adults often seek more conversation practice.</p>
+      <p>Some adult students are English teachers in Taiwan who want to improve their conversational skills. For example, if someone teaches elementary English every day, they may not often use English at an advanced conversational level and may want more practice beyond the level they teach.</p>
+    </article>
+
+    <article class="guide-section" data-reveal>
+      <h2>Student Availability</h2>
+      <p>Most participants in our program are based in the United States, which is 12 to 15 hours behind Taiwan.</p>
+      <p>For school-aged children, tutoring usually needs to happen outside Taiwan school hours. If you are on the U.S. East Coast, children in Taiwan are in school from about 8:00 AM to 4:00 PM, which corresponds to 8:00 PM to 4:00 AM your time.</p>
+      <p>Saturday evenings in the U.S. or Sunday mornings in Taiwan are often the most popular times for tutoring. Adult and college students may have more flexible schedules, so being open to different age groups can make matching easier.</p>
+    </article>
+
+    <article class="guide-section" data-reveal>
+      <h2>Student Goals</h2>
+      <ul>
+        <li>Younger learners may need help with specific grammar points or vocabulary.</li>
+        <li>Adult students often seek conversational practice.</li>
+        <li>Many students live in rural areas of Taiwan with limited exposure to native or native-level English speakers.</li>
+      </ul>
+      <p>Conversation is a common goal, but tutors can also include structured lessons, readings, current events, or specific topics during sessions.</p>
+    </article>
+
+    <article class="guide-section" data-reveal>
+      <h2>Tutor Expectations</h2>
+      <h3>Responsiveness to Messages</h3>
+      <ul>
+        <li>We primarily communicate through Google Chat.</li>
+        <li>Download the Google Chat app and enable notifications.</li>
+        <li>Respond promptly, especially to messages from Luke, who manages student matches.</li>
+      </ul>
+      <h3>Attendance and Timeliness</h3>
+      <ul>
+        <li>Attend all scheduled sessions and arrive on time.</li>
+        <li>Communicate promptly with your student if rescheduling is needed.</li>
+        <li>Professionalism matters even though this is a volunteer position.</li>
+      </ul>
+      <h3>Room Setup, Lighting, and Audio</h3>
+      <ul>
+        <li>Use a non-distracting, professional background.</li>
+        <li>Ensure proper lighting for clear communication.</li>
+        <li>Use a headset or earbuds with a microphone to improve audio quality.</li>
+      </ul>
+      <h3>Posture and Etiquette</h3>
+      <ul>
+        <li>Sit upright and maintain professional behavior.</li>
+        <li>Avoid gum chewing.</li>
+        <li>Communicate politely and clearly.</li>
+      </ul>
+      <h3>Have a Plan</h3>
+      <p>Prepare a clear plan for each session, including topics or activities. Avoid fully unstructured conversations. Articles, current events, visuals, and other materials can help create a stronger session.</p>
+    </article>
+
+    <article class="guide-section" data-reveal>
+      <h2>Teaching Platform Guidelines</h2>
+      <p>At MCC, we primarily use Google Meet as our teaching platform. To support coordination and documentation, please follow these guidelines:</p>
+      <ul>
+        <li>Use Google Meet as the main teaching platform unless otherwise arranged.</li>
+        <li>Provide proof of your teaching sessions by taking screenshots during class or recording the session if your account supports recording.</li>
+        <li>If you have a paid subscription to another platform such as Microsoft Teams or Zoom, you may guide your student to use your preferred platform.</li>
+      </ul>
+    </article>
+
+    <article class="guide-section" data-reveal>
+      <h2>The First Session</h2>
+      <ul>
+        <li>Introduce yourself with a short presentation about your life, family, city, or interests.</li>
+        <li>Ask the student about their background, hobbies, and goals.</li>
+        <li>Assess their language level through conversation, writing, or listening activities.</li>
+        <li>Remember that many students may have stronger reading and writing skills but need more practice in speaking and listening.</li>
+      </ul>
+    </article>
+
+    <!-- ===== CO-TEACHING ===== -->
+    <div class="hb-divider anchor" id="co-teaching" data-reveal>
+      <span class="hb-step">04</span>
+      <h2>Co-Teaching</h2>
+      <p>Co-teaching is the most advanced pathway: you teach a full class in Taiwan alongside a local English teacher, giving students exposure to a native or native-level speaker.</p>
+    </div>
+
+    <article class="guide-section" data-reveal>
+      <h2>What Is Co-Teaching?</h2>
+      <p>The main difference between one-on-one tutoring and co-teaching is that co-teaching involves working with a classroom of students in Taiwan alongside an English teacher in Taiwan.</p>
+      <p>As a co-teacher, you help teach the lesson to an entire class and give students exposure to a native or native-level English speaker. Many of these students live in rural areas of Taiwan and have limited opportunities to interact with English speakers.</p>
+      <p>During co-teaching, you are responsible for teaching the lesson, while the English teacher in Taiwan focuses on classroom management and may provide occasional Mandarin explanations for complex topics.</p>
+    </article>
+
+    <article class="guide-section" data-reveal>
+      <h2>The Process</h2>
+      <h3>Step 1: Orientation</h3>
+      <p>To begin, read this section of the handbook carefully.</p>
+      <h3>Step 2: Matching with a School</h3>
+      <p>Luke will begin finding a partner school and class for you to teach. The timing can vary depending on the number of co-teaching volunteers and the availability of schools.</p>
+    </article>
+
+    <article class="guide-section" data-reveal>
+      <h2>Scheduling and Class Details</h2>
+      <h3>Time Zones</h3>
+      <p>Taiwan is 12 to 15 hours ahead of the U.S. and Canada. Most co-teaching sessions occur during Taiwan school hours, which often means evening or late-night hours in North America.</p>
+      <h3>Class Length</h3>
+      <ul>
+        <li>Elementary school: 40 minutes</li>
+        <li>Junior high school: 45 minutes</li>
+        <li>High school: 50 minutes</li>
+        <li>Special sessions during school breaks may last one hour.</li>
+      </ul>
+      <h3>Platform</h3>
+      <p>Unless otherwise instructed, co-teaching sessions are conducted on Google Meet. If you have a paid subscription to another platform such as Microsoft Teams or Zoom, you may guide the class to use your preferred platform.</p>
+    </article>
+
+    <article class="guide-section" data-reveal>
+      <h2>Lesson Planning</h2>
+      <ul>
+        <li><strong>Format:</strong> Use the PPP model: Presentation, Practice, and Production.</li>
+        <li><strong>Supplement materials:</strong> Textbooks or syllabi are guides, not the full lesson. Create your own activities to supplement learning.</li>
+        <li><strong>Focus on verbal output:</strong> The primary goal is to encourage students to speak English during the lesson.</li>
+      </ul>
+      <h3>Materials to Use</h3>
+      <ul>
+        <li>Presentations such as Google Slides, PowerPoint, or Prezi.</li>
+        <li>Videos and audio files, including resources from YouTube.</li>
+        <li>Worksheets, either self-created or downloaded.</li>
+        <li>Games from platforms such as Wordwall.net or other interactive tools.</li>
+      </ul>
+    </article>
+
+    <article class="guide-section" data-reveal>
+      <h2>Do's and Don'ts</h2>
+      <h3>Do</h3>
+      <ul>
+        <li>Use a headset, good lighting, and a professional background.</li>
+        <li>Test all materials before class, including videos, games, and worksheets.</li>
+        <li>Introduce yourself at the start of class.</li>
+        <li>Correct errors kindly and maintain student confidence.</li>
+        <li>Over-plan so you have extra material if activities finish early.</li>
+        <li>Make it fun with games and engaging activities.</li>
+      </ul>
+      <h3>Don't</h3>
+      <ul>
+        <li>Avoid classroom competitions that may create imbalances or discourage participation.</li>
+        <li>Avoid group work that may be difficult for the local co-teacher to manage online.</li>
+        <li>Do not introduce too much new vocabulary. Six to seven new words is usually enough.</li>
+      </ul>
+    </article>
+
+    <article class="guide-section" data-reveal>
+      <h2>Resources for Lesson Planning</h2>
+      <ul>
+        <li><strong>ISL Collective:</strong> Worksheets and PowerPoint presentations, especially for younger learners.</li>
+        <li><strong>All Things Grammar:</strong> Grammar-focused worksheets.</li>
+        <li><strong>Lingua House:</strong> Useful for upper-level students and audio files.</li>
+        <li><strong>Wordwall.net:</strong> Interactive games and activities.</li>
+        <li><strong>MyWorksheetMaker.com:</strong> Custom worksheets such as word searches or fill-in-the-blank exercises.</li>
+      </ul>
+    </article>
+
+    <!-- ===== VERIFYING HOURS ===== -->
+    <div class="hb-divider anchor" id="hours" data-reveal>
+      <span class="hb-step">05</span>
+      <h2>Verifying Hours</h2>
+      <p>How to move from observation into teaching, and how to keep a record of your hours that your institution can accept.</p>
+    </div>
+
     <article class="guide-section" data-reveal>
       <h2>Transitioning to Tutoring or Co-Teaching</h2>
       <p>When you are ready to move beyond observation into tutoring or co-teaching, contact Luke Lin, MCC's executive director.</p>
       <p>The process includes:</p>
       <ul>
-        <li>Reading the orientation pages Luke shares with you.</li>
+        <li>Reading the relevant sections of this handbook.</li>
         <li>Submitting your availability form to schedule sessions.</li>
       </ul>
       <p><strong>Important:</strong> If you need our help finding students to complete your teaching hours, please contact Luke in advance. Coordinating schedules takes time, and last-minute requests put a lot of strain on our volunteer team.</p>
@@ -121,19 +336,66 @@
       <p>Because our classes take place on Google Meet, the free Google Meet Attendance List extension can help track your observation time and serve as proof that you observed a class.</p>
     </article>
 
+    <!-- ===== NEXT STEPS ===== -->
+    <div class="hb-divider anchor" id="contact" data-reveal>
+      <span class="hb-step">06</span>
+      <h2>Next Steps</h2>
+      <p>Ready to begin, or ready to move into teaching? Here's how to get matched.</p>
+    </div>
+
     <article class="guide-section" data-reveal>
-      <h2>Contact</h2>
-      <p>Thank you for choosing to volunteer with My Culture Connect. Your efforts make a significant difference in the lives of students while helping you grow as an educator.</p>
-      <p>If you have any questions, email Luke at <a href="mailto:luke@mycultureconnect.org">luke@mycultureconnect.org</a>.</p>
-      <p>We look forward to working with you and supporting your journey as a teacher of English as a foreign language.</p>
+      <h2>Submit Your Availability</h2>
+      <ul>
+        <li>Complete the <a href="https://docs.google.com/forms/d/e/1FAIpQLSed0rhWeGCx4vsCLsb7dgRnqBTlgH9HvKKI22wHTF0lLQtZzw/viewform" target="_blank" rel="noopener">availability form</a>, including your time zone, age preferences, available days and times, and any deadlines.</li>
+        <li>Be open to different age groups for quicker matches.</li>
+        <li>Plan ahead so there is enough time to match you with a student or school.</li>
+      </ul>
+      <p style="margin-top:8px">
+        <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSed0rhWeGCx4vsCLsb7dgRnqBTlgH9HvKKI22wHTF0lLQtZzw/viewform" target="_blank" rel="noopener">Open the availability form</a>
+        <a class="btn ghost" href="mailto:luke@mycultureconnect.org" style="margin-left:10px">Email Luke Lin</a>
+      </p>
     </article>
+
+    <article class="guide-section" data-reveal>
+      <h2>Thank You</h2>
+      <p>Thank you for choosing to volunteer with My Culture Connect. Your efforts make a significant difference in the lives of students in rural Taiwan while helping you grow as an educator.</p>
+      <p>If you have any questions, email Luke at <a href="mailto:luke@mycultureconnect.org">luke@mycultureconnect.org</a>. We look forward to supporting your journey as a teacher of English as a foreign language. Good luck, and happy teaching.</p>
+    </article>
+
   </div>
 </section>
+
+<button class="to-top" aria-label="Back to top">↑</button>
 
 <footer class="site-footer"><div class="wrap">
   <div class="cb-credit">© <span id="yr"></span> My Culture Connect · 人師教育協會. Internal practicum resource.</div>
 </div></footer>
 
 <script src="assets/js/main.js"></script>
+<script>
+(function () {
+  // ----- scroll-spy for handbook sub-nav -----
+  var nav = document.querySelector('.hb-nav');
+  if (nav) {
+    var links = Array.prototype.slice.call(nav.querySelectorAll('a'));
+    var secs = links.map(function (a) { return document.getElementById(a.getAttribute('href').slice(1)); });
+    var onScroll = function () {
+      var y = window.scrollY + 170, cur = 0;
+      for (var i = 0; i < secs.length; i++) { if (secs[i] && secs[i].offsetTop <= y) cur = i; }
+      links.forEach(function (a, i) { a.classList.toggle('active', i === cur); });
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  }
+  // ----- back to top -----
+  var top = document.querySelector('.to-top');
+  if (top) {
+    top.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+    window.addEventListener('scroll', function () {
+      top.classList.toggle('show', window.scrollY > 600);
+    }, { passive: true });
+  }
+})();
+</script>
 </body>
 </html>
