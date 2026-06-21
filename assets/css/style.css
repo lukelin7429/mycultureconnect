@@ -158,6 +158,13 @@ a.card.choice:hover .choice-go{transform:translateX(6px)}
 .card.has-photo:hover .card-photo img{transform:scale(1.07)}
 .card.has-photo .num{position:absolute;left:16px;bottom:16px;margin:0;width:48px;height:48px;border-radius:13px;font-size:1.3rem;box-shadow:0 8px 22px rgba(0,0,0,.28)}
 
+/* instagram invite */
+.ig-badge{display:inline-flex;align-items:center;justify-content:center;width:76px;height:76px;border-radius:21px;background:radial-gradient(circle at 30% 107%,#fdf497 0%,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285AEB 90%);box-shadow:0 14px 32px rgba(214,36,159,.32);transition:transform .35s cubic-bezier(.2,.8,.2,1)}
+.ig-badge:hover{transform:translateY(-5px) rotate(-3deg)}
+.ig-badge svg{width:40px;height:40px;fill:#fff}
+.btn.ig-btn{background:linear-gradient(120deg,#fd5949,#d6249f 55%,#285AEB)}
+.btn.ig-btn:hover{filter:brightness(1.06);box-shadow:0 16px 32px rgba(214,36,159,.4)}
+
 /* people */
 .people{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:24px}
 .person{text-align:center}
