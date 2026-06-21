@@ -10,6 +10,13 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noticia+Text:wght@400;700&family=Questrial&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
+<style>
+.profile-link{font-family:var(--eyebrow);letter-spacing:.04em;font-size:.92rem;font-weight:400;color:var(--orange-dark)}
+.profile-link:hover{color:var(--orange);text-decoration:none}
+a.leader-photo{display:block;cursor:pointer}
+a.leader-photo img{transition:transform .4s ease}
+a.leader-photo:hover img{transform:scale(1.05)}
+</style>
 </head>
 <body>
 
@@ -43,11 +50,12 @@
     <div class="section-head left"><p class="eyebrow">Leadership</p><h2>Founder &amp; President</h2></div>
     <div class="leaders">
       <article class="leader" data-reveal>
-        <div class="leader-photo"><img src="assets/img/team/luke.png" alt="Luke Lin" loading="lazy"></div>
+        <a class="leader-photo" href="founder.html" aria-label="Read Luke Lin's full story"><img src="assets/img/team/luke.png" alt="Luke Lin" loading="lazy"></a>
         <div class="leader-body">
           <span class="role">Founder</span>
           <h3>Luke Lin</h3>
           <p>In 2001, Luke became a full-time volunteer teacher in rural Taiwan. For over two decades he has offered free English classes and organized events promoting higher education and cultural exchange. He serves as a consultant to Changhua’s International Education and English Education Center, supporting 70+ foreign English teachers, sits on the board of the Chinese Culture Connection in Boston, and directs several educational projects. Under his leadership, My Culture Connect continues to connect classrooms across Taiwan with people worldwide.</p>
+          <p style="margin-top:14px"><a class="profile-link" href="founder.html">Read his full story &rarr;</a></p>
         </div>
       </article>
       <article class="leader flip" data-reveal>
