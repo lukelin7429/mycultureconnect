@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tutoring Lesson 1: Get to Know Each Other — My Culture Connect</title>
+<meta name="description" content="A ready-to-teach 60-minute first lesson for MCC practicum tutors: break the ice, build rapport, and gauge your student's level.">
+<meta name="robots" content="noindex,nofollow">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noticia+Text:wght@400;700&family=Questrial&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<style>
+.resource-wrap{max-width:900px}
+.guide-section{background:#fff;border:1px solid var(--line);border-radius:18px;padding:32px;margin-bottom:22px;box-shadow:0 6px 22px rgba(20,20,20,.05)}
+.guide-section h2{font-size:1.7rem;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.guide-section h3{font-size:1.18rem;margin-top:22px}
+.guide-section p,.guide-section li{color:var(--muted)}
+.guide-section ul,.guide-section ol{margin:0 0 1em 1.2em}
+.guide-section li{margin-bottom:.4em}
+/* lesson meta bar */
+.lesson-meta{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0 8px}
+.lesson-meta span{background:#fff7ef;border:1px solid #f6d4b2;border-radius:999px;padding:8px 16px;font-family:var(--eyebrow);font-size:.86rem;color:var(--orange-dark);letter-spacing:.02em}
+/* time pill on section heads */
+.tpill{font-family:var(--eyebrow);font-size:.72rem;letter-spacing:.06em;background:var(--orange);color:#fff;border-radius:999px;padding:5px 12px;line-height:1}
+/* sticky sub-nav */
+.hb-nav{position:sticky;top:74px;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.hb-nav .wrap{display:flex;gap:8px;overflow-x:auto;padding:11px 24px;justify-content:center;-webkit-overflow-scrolling:touch}
+.hb-nav a{white-space:nowrap;border:1px solid var(--line);border-radius:999px;padding:7px 14px;background:#fff;font-family:var(--eyebrow);font-size:.76rem;letter-spacing:.03em;color:var(--ink);transition:background .25s,border-color .25s,color .25s}
+.hb-nav a:hover{border-color:var(--orange);color:var(--orange-dark);text-decoration:none}
+.hb-nav a.active{background:var(--orange);border-color:var(--orange);color:#fff}
+.anchor{scroll-margin-top:140px}
+/* tutor tip callout */
+.tip{background:#eef7f1;border:1px solid #bfe3cd;border-left:4px solid #1f9d57;border-radius:12px;padding:14px 18px;margin:16px 0 0;color:#235}
+.tip b{color:#157a41}
+/* level question blocks */
+.levels{display:grid;gap:12px;margin-top:6px}
+.lvl{border:1px solid var(--line);border-left-width:5px;border-radius:0 12px 12px 0;padding:14px 18px;background:#fff}
+.lvl .tag{font-family:var(--eyebrow);font-size:.74rem;letter-spacing:.05em;font-weight:700;display:inline-block;margin-bottom:6px}
+.lvl.beg{border-left-color:#3b9c5a}.lvl.beg .tag{color:#2c7a44}
+.lvl.int{border-left-color:#e09227}.lvl.int .tag{color:#b9700f}
+.lvl.adv{border-left-color:#b4532e}.lvl.adv .tag{color:#8f3c1c}
+.lvl ul{margin:0 0 0 1.1em}
+.lvl li{margin-bottom:.3em}
+/* vocab list with speaker */
+.vocab{list-style:none;margin:0;padding:0}
+.vocab li{display:flex;gap:12px;align-items:flex-start;padding:11px 0;border-bottom:1px dashed var(--line)}
+.vocab li:last-child{border-bottom:0}
+.say{flex:none;width:40px;height:40px;border-radius:11px;border:0;background:linear-gradient(135deg,var(--orange),#ffa94d);color:#fff;font-size:1.05rem;cursor:pointer;box-shadow:0 6px 14px rgba(245,130,32,.3);transition:transform .2s}
+.say:hover{transform:translateY(-2px)}
+.say:active{transform:scale(.94)}
+.vphrase b{font-family:var(--body);color:var(--ink);font-size:1.08rem}
+.vphrase .ex{display:block;color:var(--muted-2);font-size:.97rem;margin-top:2px}
+/* model frames */
+.frames{background:#faf7f2;border:1px solid var(--line);border-radius:12px;padding:16px 20px;margin-top:8px}
+.frames p{margin:.3em 0;color:var(--ink)}
+.frames .blank{color:var(--orange-dark);font-weight:700}
+.to-top{position:fixed;right:20px;bottom:20px;z-index:60;width:46px;height:46px;border-radius:50%;background:var(--orange);color:#fff;border:0;font-size:1.2rem;box-shadow:0 10px 26px rgba(245,130,32,.4);cursor:pointer;opacity:0;pointer-events:none;transition:opacity .3s,transform .3s}
+.to-top.show{opacity:1;pointer-events:auto}.to-top:hover{transform:translateY(-3px)}
+</style>
+</head>
+<body>
+
+<header class="site-header"><div class="wrap">
+  <a class="brand" href="index.html">
+    <img src="assets/img/logo.png" alt="My Culture Connect logo">
+    <span><b>My Culture Connect</b><span>Renshi · 人師教育協會</span></span>
+  </a>
+  <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  <nav class="main">
+    <a href="index.html">Home</a>
+    <a href="team.html">Team</a>
+    <a href="partners.html">Partners</a>
+    <a href="opportunities.html">Opportunities</a>
+    <a href="school-tour.html">School Tour</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</div></header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow">Tutoring Lesson Library · Lesson 1</p>
+    <h1>Get to Know Each Other</h1>
+    <p class="lead">A ready-to-teach first session. Break the ice, build trust, and quietly figure out your student's level — no preparation needed. Just open this page and follow it from top to bottom.</p>
+    <div class="lesson-meta">
+      <span>⏱ About 60 minutes</span>
+      <span>🎯 First session · all levels</span>
+      <span>📋 No prep — tap 🔊 to hear any phrase</span>
+    </div>
+  </div>
+</section>
+
+<nav class="hb-nav" aria-label="Lesson sections"><div class="wrap">
+  <a href="#prep">Before you start</a>
+  <a href="#warmup">Warm-up</a>
+  <a href="#tutor">Meet your tutor</a>
+  <a href="#phrases">Key phrases</a>
+  <a href="#student">All about you</a>
+  <a href="#talk">Let's talk</a>
+  <a href="#activity">Activity</a>
+  <a href="#wrap">Wrap-up</a>
+  <a href="#notes">Tutor notes</a>
+</div></nav>
+
+<section class="soft">
+  <div class="wrap resource-wrap">
+
+    <!-- BEFORE YOU START -->
+    <article class="guide-section anchor" id="prep" data-reveal>
+      <h2>Before you start <span class="tpill">tutor prep</span></h2>
+      <p>This part is for you, not class time. Sixty seconds before the student joins:</p>
+      <ul>
+        <li>Test your camera, microphone, and headset. Sit somewhere quiet and well-lit.</li>
+        <li>Have this page open. You'll teach straight from it, top to bottom.</li>
+        <li>Your one goal today: make the student feel comfortable and <em>talking</em>. Everything else is a bonus.</li>
+      </ul>
+      <div class="tip"><b>Mindset:</b> In the first lesson, don't correct every mistake — it can make a shy student shut down. Smile, nod, and react warmly to every answer. Let the student talk about <b>70%</b> of the time, and don't be afraid of a little silence — give them time to think.</div>
+    </article>
+
+    <!-- WARM-UP -->
+    <article class="guide-section anchor" id="warmup" data-reveal>
+      <h2>1 · Warm-up — say hello <span class="tpill">5 min</span></h2>
+      <p>Start with very easy questions so the student gets an early "win." Ask one, then really listen:</p>
+      <ul>
+        <li>Hi! How are you today?</li>
+        <li>Can you see and hear me okay?</li>
+        <li>What's the weather like where you are?</li>
+        <li>What did you have for breakfast (or lunch) today?</li>
+      </ul>
+      <div class="tip"><b>Tip:</b> React to every answer — "Oh, nice!", "Me too!", "That sounds good!" Warmth in the first two minutes sets the tone for the whole hour.</div>
+    </article>
+
+    <!-- MEET YOUR TUTOR -->
+    <article class="guide-section anchor" id="tutor" data-reveal>
+      <h2>2 · Meet your tutor — you go first <span class="tpill">8–10 min</span></h2>
+      <p>Introduce <em>yourself</em> first. When the student hears the pattern from you, they'll find it much easier to do their own. Speak slowly and use these simple frames:</p>
+      <div class="frames">
+        <p>My name is <span class="blank">___</span>. You can call me <span class="blank">___</span>.</p>
+        <p>I'm from <span class="blank">___</span>. <span style="color:var(--muted-2)">(your city and country)</span></p>
+        <p>In my family, there are <span class="blank">___</span> people.</p>
+        <p>In my free time, I like <span class="blank">___</span>.</p>
+        <p>My favorite food is <span class="blank">___</span>.</p>
+        <p>I'm really happy to be your tutor!</p>
+      </div>
+      <p style="margin-top:14px">Then hand it over gently: <strong>"Do you have any questions for me?"</strong> — this invites the student to speak without pressure.</p>
+      <div class="tip"><b>Tip:</b> Keep it short and friendly (a minute or two). You're modeling, not giving a speech. If you can, share a photo of your hometown or pet — students love that.</div>
+    </article>
+
+    <!-- KEY PHRASES -->
+    <article class="guide-section anchor" id="phrases" data-reveal>
+      <h2>3 · Key phrases for introducing yourself <span class="tpill">8 min</span></h2>
+      <p>Practice these together: you say it, the student repeats. Tap <b>🔊</b> to hear the pronunciation.</p>
+      <ul class="vocab">
+        <li><button class="say" aria-label="Hear pronunciation" onclick="say('Nice to meet you.')">🔊</button><span class="vphrase"><b>Nice to meet you.</b><span class="ex">Nice to meet you! I'm your tutor.</span></span></li>
+        <li><button class="say" aria-label="Hear pronunciation" onclick="say('My name is. You can call me.')">🔊</button><span class="vphrase"><b>My name is… / You can call me…</b><span class="ex">My name is Daniel. You can call me Dan.</span></span></li>
+        <li><button class="say" aria-label="Hear pronunciation" onclick="say('I am from.')">🔊</button><span class="vphrase"><b>I'm from…</b><span class="ex">I'm from Changhua, Taiwan.</span></span></li>
+        <li><button class="say" aria-label="Hear pronunciation" onclick="say('I am ten years old.')">🔊</button><span class="vphrase"><b>I'm ___ years old.</b><span class="ex">I'm ten years old.</span></span></li>
+        <li><button class="say" aria-label="Hear pronunciation" onclick="say('I like. I love.')">🔊</button><span class="vphrase"><b>I like… / I love…</b><span class="ex">I love basketball and drawing.</span></span></li>
+        <li><button class="say" aria-label="Hear pronunciation" onclick="say('My favorite color is blue.')">🔊</button><span class="vphrase"><b>My favorite ___ is ___.</b><span class="ex">My favorite color is blue.</span></span></li>
+        <li><button class="say" aria-label="Hear pronunciation" onclick="say('I have one brother and one sister.')">🔊</button><span class="vphrase"><b>I have ___ brothers and sisters.</b><span class="ex">I have one brother and one sister.</span></span></li>
+        <li><button class="say" aria-label="Hear pronunciation" onclick="say('Can you say that again, please?')">🔊</button><span class="vphrase"><b>Can you say that again, please?</b><span class="ex">Teach this one — it lets the student ask for help politely.</span></span></li>
+        <li><button class="say" aria-label="Hear pronunciation" onclick="say('How do you say this in English?')">🔊</button><span class="vphrase"><b>How do you say ___ in English?</b><span class="ex">How do you say 謝謝 in English? — "Thank you!"</span></span></li>
+      </ul>
+      <div class="tip"><b>Tip:</b> Teaching "Can you say that again?" early gives shy students a safe way to keep going instead of freezing. Praise them when they use it.</div>
+    </article>
+
+    <!-- ALL ABOUT YOU -->
+    <article class="guide-section anchor" id="student" data-reveal>
+      <h2>4 · All about you — student's turn <span class="tpill">12–15 min</span></h2>
+      <p>Now the student introduces themselves, using the same frames. Start with the easy questions; move up only if they're comfortable.</p>
+      <div class="levels">
+        <div class="lvl beg"><span class="tag">BEGINNER</span><ul><li>What's your name? How old are you?</li><li>Where are you from?</li><li>Do you like school? What's your favorite subject?</li></ul></div>
+        <div class="lvl int"><span class="tag">INTERMEDIATE</span><ul><li>Tell me about your family.</li><li>What do you usually do after school?</li><li>What are you good at?</li></ul></div>
+        <div class="lvl adv"><span class="tag">ADVANCED</span><ul><li>What's a normal day like for you?</li><li>What's something you're proud of?</li><li>If you could change one thing about your week, what would it be?</li></ul></div>
+      </div>
+      <div class="tip"><b>Tip:</b> This is where you quietly gauge their level (see <a href="#notes">Tutor notes</a>). Don't rush — give them time to build full sentences, and gently feed a word if they're stuck.</div>
+    </article>
+
+    <!-- LET'S TALK -->
+    <article class="guide-section anchor" id="talk" data-reveal>
+      <h2>5 · Let's talk — favorites &amp; free time <span class="tpill">10–12 min</span></h2>
+      <p>Keep the conversation going around things they enjoy — it's the easiest way to get a student talking.</p>
+      <div class="levels">
+        <div class="lvl beg"><span class="tag">BEGINNER</span><ul><li>What's your favorite food? Color? Animal?</li><li>Do you like music? What kind?</li></ul></div>
+        <div class="lvl int"><span class="tag">INTERMEDIATE</span><ul><li>What do you like to do on weekends?</li><li>What's a movie or show you love? Why do you like it?</li></ul></div>
+        <div class="lvl adv"><span class="tag">ADVANCED</span><ul><li>If you had a totally free day, what would you do?</li><li>Is there a hobby you'd love to try? What stops you?</li></ul></div>
+      </div>
+      <div class="tip"><b>Tip:</b> Every time they answer, follow up with <b>"Why?"</b> or <b>"Tell me more."</b> That one extra question is where the real speaking practice happens.</div>
+    </article>
+
+    <!-- ACTIVITY -->
+    <article class="guide-section anchor" id="activity" data-reveal>
+      <h2>6 · Activity — find 3 things in common <span class="tpill">8–10 min</span></h2>
+      <p>A fun game to build rapport. The goal: discover <b>three</b> things you and your student both like or both do.</p>
+      <h3>How to play</h3>
+      <ol>
+        <li>Take turns asking: <em>"Do you like ___?"</em> or <em>"Do you ___?"</em></li>
+        <li>When you <em>both</em> say "yes," that's one thing in common!</li>
+        <li>Keep going until you've found three.</li>
+      </ol>
+      <div class="frames">
+        <p>You: "Do you like pizza?" — Student: "Yes!" — You: "Me too! That's one!" 🍕</p>
+        <p>End with: "We both like <span class="blank">___</span>, <span class="blank">___</span>, and <span class="blank">___</span>. We have a lot in common!"</p>
+      </div>
+      <div class="tip"><b>Tip:</b> Let the student ask <em>you</em> questions too — practicing question forms ("Do you…?") is great speaking practice, and it makes the lesson feel like a real conversation, not a test.</div>
+    </article>
+
+    <!-- WRAP-UP -->
+    <article class="guide-section anchor" id="wrap" data-reveal>
+      <h2>7 · Wrap-up — end on a high note <span class="tpill">5 min</span></h2>
+      <ul>
+        <li>Ask the student to tell you <b>2–3 things they remember about you</b> (a gentle, low-pressure review).</li>
+        <li>Give honest, specific praise: <em>"You spoke in full sentences today — great job!"</em></li>
+        <li>Let them choose what's next: <em>"What would you like to talk about next time — food, travel, or your hometown?"</em> When students pick the topic, they show up excited.</li>
+        <li>Say a warm goodbye and confirm your next session.</li>
+      </ul>
+      <div class="tip"><b>Tip:</b> The last 30 seconds are what they'll remember. Smile, use their name, and tell them you're looking forward to next time.</div>
+    </article>
+
+    <!-- TUTOR NOTES -->
+    <article class="guide-section anchor" id="notes" data-reveal>
+      <h2>🧭 Tutor notes — reading your student's level</h2>
+      <p>Use this first session to figure out their level, so you can plan the next one. Jot down what you notice:</p>
+      <div class="levels">
+        <div class="lvl beg"><span class="tag">BEGINNER LOOKS LIKE…</span><ul><li>Short answers, single words; needs lots of repetition and help.</li><li><strong>Next time:</strong> more vocabulary, simple yes/no and this-or-that questions, plenty of modeling.</li></ul></div>
+        <div class="lvl int"><span class="tag">INTERMEDIATE LOOKS LIKE…</span><ul><li>Full sentences with some hesitation; can answer "why."</li><li><strong>Next time:</strong> short readings, opinion questions, simple role-plays.</li></ul></div>
+        <div class="lvl adv"><span class="tag">ADVANCED LOOKS LIKE…</span><ul><li>Speaks freely, asks you questions back, handles abstract topics.</li><li><strong>Next time:</strong> discussions, current events, longer conversations and debates.</li></ul></div>
+      </div>
+      <div class="tip"><b>Most important:</b> write down their <b>name, interests, and 1–2 topics they enjoyed</b> — and bring those back next time. Nothing builds rapport like a tutor who remembers.</div>
+    </article>
+
+  </div>
+</section>
+
+<button class="to-top" aria-label="Back to top">↑</button>
+
+<footer class="site-footer"><div class="wrap">
+  <div class="cb-credit">© <span id="yr"></span> My Culture Connect · 人師教育協會. Internal tutoring resource.</div>
+</div></footer>
+
+<script src="assets/js/main.js"></script>
+<script>
+function say(t){ try{ window.speechSynthesis.cancel(); var u=new SpeechSynthesisUtterance(t); u.lang='en-US'; u.rate=0.9; window.speechSynthesis.speak(u);}catch(e){} }
+(function(){
+  var d=document.getElementById('yr'); if(d) d.textContent=(new Date()).getFullYear();
+  var nav=document.querySelector('.hb-nav');
+  if(nav){
+    var links=[].slice.call(nav.querySelectorAll('a'));
+    var secs=links.map(function(a){return document.getElementById(a.getAttribute('href').slice(1));});
+    var onScroll=function(){ var y=window.scrollY+170,cur=0; for(var i=0;i<secs.length;i++){ if(secs[i]&&secs[i].offsetTop<=y) cur=i; } links.forEach(function(a,i){a.classList.toggle('active',i===cur);}); };
+    window.addEventListener('scroll',onScroll,{passive:true}); onScroll();
+  }
+  var top=document.querySelector('.to-top');
+  if(top){ top.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'});}); window.addEventListener('scroll',function(){top.classList.toggle('show',window.scrollY>600);},{passive:true}); }
+})();
+</script>
+</body>
+</html>
