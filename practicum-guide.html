@@ -78,6 +78,10 @@
 .tzbar-diff strong{color:#ffd79a}
 .tzbar-note{margin:14px auto 0;max-width:60ch;font-size:1rem;line-height:1.6;opacity:.92}
 @media(max-width:560px){.tzbar-vs{display:none}.tzbar-clocks{gap:8px}}
+/* slim point-of-use reminder inside Observation */
+.tz-reminder{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px;background:#fff7ef;border:1px solid #f6d4b2;border-left:4px solid var(--orange);border-radius:12px;padding:14px 18px;margin:0 0 24px;color:var(--ink);font-size:1rem;line-height:1.5}
+.tz-reminder .js-diff strong{color:#a85a0c}
+.tz-reminder a{font-weight:700;color:#a85a0c;white-space:nowrap}
 </style>
 </head>
 <body>
@@ -107,7 +111,7 @@
 </section>
 
 <!-- ===== prominent time-zone banner (everyone sees this first) ===== -->
-<section class="tzbar" aria-label="Live Taiwan time and your time-zone difference">
+<section class="tzbar" id="top-time" aria-label="Live Taiwan time and your time-zone difference">
   <div class="wrap tzbar-wrap">
     <div class="tzbar-clocks">
       <div class="tzbar-clock">
@@ -174,24 +178,7 @@
       <p>Watching real English classes is the foundation of teacher training and where most volunteers begin. All observations happen over Google Meet — the only requirement is a free account.</p>
     </div>
 
-    <section class="tz-card" data-reveal aria-label="Taiwan time and time-zone difference">
-      <p class="tz-eyebrow">Before you schedule</p>
-      <h2>We run on Taiwan time</h2>
-      <div class="tz-clocks">
-        <div class="tz-clock">
-          <p class="tz-label">🇹🇼 Taiwan</p>
-          <p class="tz-time js-tw">--:--:--</p>
-          <p class="tz-sub">Taipei · GMT+8 · <strong>No Daylight Saving Time</strong></p>
-        </div>
-        <div class="tz-clock">
-          <p class="tz-label">🏠 Your time</p>
-          <p class="tz-time js-local">--:--:--</p>
-          <p class="tz-sub js-zone">Detecting your time zone…</p>
-        </div>
-      </div>
-      <p class="tz-diff js-diff">Calculating the time difference…</p>
-      <p class="tz-note">Taiwan does <strong>not</strong> observe Daylight Saving Time. When the clocks change in your country, this gap shifts on its own — so always check the live difference here before you pick an observation slot.</p>
-    </section>
+    <p class="tz-reminder" data-reveal>⏰ <strong>Picking a slot?</strong> The observation schedule is in Taiwan time — <span class="js-diff">Taiwan and your time are being compared…</span> <a href="#top-time">See the live clocks ↑</a></p>
 
     <article class="guide-section" data-reveal>
       <h2>Getting Started with Observation</h2>
