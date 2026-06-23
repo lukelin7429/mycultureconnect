@@ -43,6 +43,28 @@
 .to-top{position:fixed;right:20px;bottom:20px;z-index:60;width:46px;height:46px;border-radius:50%;background:var(--orange);color:#fff;border:0;font-size:1.2rem;line-height:1;box-shadow:0 10px 26px rgba(245,130,32,.4);cursor:pointer;opacity:0;pointer-events:none;transition:opacity .3s,transform .3s}
 .to-top.show{opacity:1;pointer-events:auto}
 .to-top:hover{transform:translateY(-3px)}
+/* sticky-nav live Taiwan clock pill */
+.hb-clock{margin-left:auto;white-space:nowrap;display:inline-flex;align-items:center;gap:7px;border:1px solid #f6d4b2;border-radius:999px;padding:8px 14px;background:#fff7ef;font-family:var(--eyebrow);font-size:.8rem;letter-spacing:.04em;color:var(--ink)}
+.hb-clock b{font-variant-numeric:tabular-nums;font-weight:700;letter-spacing:.02em}
+.hb-clock small{color:var(--muted);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase}
+.hb-clock .live-dot{width:7px;height:7px;border-radius:50%;background:#2fae7a;box-shadow:0 0 0 0 rgba(47,174,122,.6);animation:tzPulse 1.8s ease-out infinite}
+@keyframes tzPulse{0%{box-shadow:0 0 0 0 rgba(47,174,122,.6)}70%{box-shadow:0 0 0 7px rgba(47,174,122,0)}100%{box-shadow:0 0 0 0 rgba(47,174,122,0)}}
+@media(max-width:680px){.hb-clock{margin-left:8px}}
+/* Observation time-zone teaching card */
+.tz-card{position:relative;overflow:hidden;border-radius:18px;padding:28px 30px;margin-bottom:24px;color:#fff;background:linear-gradient(135deg,#b85e10 0%,var(--orange) 58%,#ffa94d 100%);box-shadow:0 12px 30px rgba(245,130,32,.28)}
+.tz-card::before{content:"";position:absolute;top:-45%;right:-4%;width:260px;height:260px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.22),transparent 65%);pointer-events:none}
+.tz-eyebrow{font-family:var(--eyebrow);font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;opacity:.92;margin:0 0 6px}
+.tz-card h2{color:#fff!important;font-size:1.7rem;margin:0 0 18px;position:relative}
+.tz-clocks{display:grid;grid-template-columns:1fr 1fr;gap:18px;position:relative}
+@media(max-width:560px){.tz-clocks{grid-template-columns:1fr}}
+.tz-clock{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:13px;padding:15px 18px}
+.tz-label{font-family:var(--eyebrow);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;opacity:.85;margin:0 0 5px;display:flex;align-items:center;gap:7px}
+.tz-time{margin:0;font-weight:700;font-size:clamp(1.7rem,4.5vw,2.1rem);line-height:1;font-variant-numeric:tabular-nums}
+.tz-sub{margin:6px 0 0;font-size:.86rem;opacity:.9;line-height:1.4}
+.tz-diff{position:relative;margin:18px 0 0;padding:14px 18px;background:rgba(0,0,0,.16);border-radius:12px;font-size:1.05rem;line-height:1.5}
+.tz-diff strong{font-weight:700}
+.tz-note{position:relative;margin:12px 0 0;font-size:.86rem;opacity:.9;line-height:1.55}
+@media(prefers-reduced-motion:reduce){.hb-clock .live-dot{animation:none}}
 </style>
 </head>
 <body>
@@ -80,6 +102,9 @@
   <a href="#co-teaching">Co-Teaching</a>
   <a href="#hours">Verifying Hours</a>
   <a href="#contact">Next Steps</a>
+  <div class="hb-clock" id="navClock" title="Current local time in Taiwan (GMT+8, no Daylight Saving)" aria-label="Current time in Taiwan">
+    <span class="live-dot" aria-hidden="true"></span>🇹🇼 <b id="navClockTime">--:--</b> <small>Taiwan</small>
+  </div>
 </div></nav>
 
 <section class="soft">
@@ -114,6 +139,25 @@
       <h2>Observation</h2>
       <p>Watching real English classes is the foundation of teacher training and where most volunteers begin. All observations happen over Google Meet — the only requirement is a free account.</p>
     </div>
+
+    <section class="tz-card" data-reveal aria-label="Taiwan time and time-zone difference">
+      <p class="tz-eyebrow">Before you schedule</p>
+      <h2>We run on Taiwan time</h2>
+      <div class="tz-clocks">
+        <div class="tz-clock">
+          <p class="tz-label">🇹🇼 Taiwan</p>
+          <p class="tz-time" id="twTime">--:--:--</p>
+          <p class="tz-sub">Taipei · GMT+8 · <strong>No Daylight Saving Time</strong></p>
+        </div>
+        <div class="tz-clock">
+          <p class="tz-label">🏠 Your time</p>
+          <p class="tz-time" id="localTime">--:--:--</p>
+          <p class="tz-sub" id="localZone">Detecting your time zone…</p>
+        </div>
+      </div>
+      <p class="tz-diff" id="tzDiff">Calculating the time difference…</p>
+      <p class="tz-note">Taiwan does <strong>not</strong> observe Daylight Saving Time. When the clocks change in your country, this gap shifts on its own — so always check the live difference here before you pick an observation slot.</p>
+    </section>
 
     <article class="guide-section" data-reveal>
       <h2>Getting Started with Observation</h2>
@@ -447,6 +491,47 @@
       top.classList.toggle('show', window.scrollY > 600);
     }, { passive: true });
   }
+  // ----- live Taiwan clock + visitor time-zone difference -----
+  (function () {
+    var TW = 'Asia/Taipei', localTz = '';
+    try { localTz = Intl.DateTimeFormat().resolvedOptions().timeZone; } catch (e) {}
+    var fHMS = { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false };
+    var fHM = { hour: '2-digit', minute: '2-digit', hour12: false };
+    function fmt(tz, opts) {
+      try { return new Intl.DateTimeFormat('en-GB', Object.assign({ timeZone: tz }, opts)).format(new Date()); }
+      catch (e) { return '--:--'; }
+    }
+    // current offset of a zone from UTC, in minutes
+    function offsetMin(tz) {
+      var now = new Date();
+      var p = { hour12: false, year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit' };
+      var loc = now.toLocaleString('en-US', Object.assign({ timeZone: tz }, p));
+      var utc = now.toLocaleString('en-US', Object.assign({ timeZone: 'UTC' }, p));
+      return Math.round((new Date(loc) - new Date(utc)) / 60000);
+    }
+    var twEl = document.getElementById('twTime'),
+        locEl = document.getElementById('localTime'),
+        zoneEl = document.getElementById('localZone'),
+        diffEl = document.getElementById('tzDiff'),
+        navEl = document.getElementById('navClockTime');
+    function diffText() {
+      var d;
+      try { d = offsetMin(TW) - offsetMin(localTz); } catch (e) { return null; }
+      if (d === 0) return "You're on Taiwan time right now — no difference to worry about. 🎉";
+      var ahead = d > 0, m = Math.abs(d), h = Math.floor(m / 60), mm = m % 60;
+      var span = h + (h === 1 ? ' hour' : ' hours') + (mm ? ' ' + mm + ' minutes' : '');
+      return 'Taiwan is currently <strong>' + span + (ahead ? ' ahead of' : ' behind') + '</strong> your local time.';
+    }
+    function tick() {
+      if (twEl) twEl.textContent = fmt(TW, fHMS);
+      if (navEl) navEl.textContent = fmt(TW, fHM);
+      if (locEl) locEl.textContent = localTz ? fmt(localTz, fHMS) : '--:--:--';
+      if (zoneEl) zoneEl.innerHTML = localTz ? ('Your device · ' + localTz.replace(/_/g, ' ')) : 'Your device time';
+      if (diffEl) { var t = diffText(); if (t) diffEl.innerHTML = t; }
+    }
+    tick();
+    setInterval(tick, 1000);
+  })();
 })();
 </script>
 </body>
