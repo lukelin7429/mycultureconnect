@@ -65,6 +65,19 @@
 .tz-diff strong{font-weight:700}
 .tz-note{position:relative;margin:12px 0 0;font-size:.86rem;opacity:.9;line-height:1.55}
 @media(prefers-reduced-motion:reduce){.hb-clock .live-dot{animation:none}}
+/* prominent top time-zone banner */
+.tzbar{background:linear-gradient(135deg,#1a1208 0%,#7a3c0a 55%,var(--orange) 100%);color:#fff;padding:30px 0 34px}
+.tzbar-wrap{text-align:center}
+.tzbar-clocks{display:flex;align-items:center;justify-content:center;gap:clamp(18px,5vw,54px);flex-wrap:wrap}
+.tzbar-clock{display:flex;flex-direction:column;align-items:center;gap:4px}
+.tzbar-flag{font-size:clamp(1.6rem,4vw,2.2rem);line-height:1}
+.tzbar-time{font-weight:800;font-size:clamp(2.4rem,8vw,4rem);line-height:1;font-variant-numeric:tabular-nums;letter-spacing:.01em}
+.tzbar-place{font-family:var(--eyebrow);font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;opacity:.85}
+.tzbar-vs{font-family:var(--eyebrow);font-size:.9rem;letter-spacing:.14em;text-transform:uppercase;opacity:.6;align-self:center}
+.tzbar-diff{margin:20px auto 0;font-weight:800;font-size:clamp(1.5rem,4.5vw,2.4rem);line-height:1.2;max-width:18ch}
+.tzbar-diff strong{color:#ffd79a}
+.tzbar-note{margin:14px auto 0;max-width:60ch;font-size:1rem;line-height:1.6;opacity:.92}
+@media(max-width:560px){.tzbar-vs{display:none}.tzbar-clocks{gap:8px}}
 </style>
 </head>
 <body>
@@ -93,6 +106,27 @@
   </div>
 </section>
 
+<!-- ===== prominent time-zone banner (everyone sees this first) ===== -->
+<section class="tzbar" aria-label="Live Taiwan time and your time-zone difference">
+  <div class="wrap tzbar-wrap">
+    <div class="tzbar-clocks">
+      <div class="tzbar-clock">
+        <span class="tzbar-flag">🇹🇼</span>
+        <span class="tzbar-time js-tw">--:--:--</span>
+        <span class="tzbar-place">Taiwan · GMT+8</span>
+      </div>
+      <span class="tzbar-vs">vs</span>
+      <div class="tzbar-clock">
+        <span class="tzbar-flag">🏠</span>
+        <span class="tzbar-time js-local">--:--:--</span>
+        <span class="tzbar-place js-zone">Your time</span>
+      </div>
+    </div>
+    <p class="tzbar-diff js-diff">Calculating the time difference…</p>
+    <p class="tzbar-note">All observation and tutoring times are set in <strong>Taiwan time</strong>. We have <strong>no Daylight Saving</strong>, so this gap shifts when your country changes — always check it live here.</p>
+  </div>
+</section>
+
 <!-- sticky section nav -->
 <nav class="hb-nav" aria-label="Handbook sections"><div class="wrap">
   <a href="#overview">Overview</a>
@@ -103,7 +137,7 @@
   <a href="#hours">Verifying Hours</a>
   <a href="#contact">Next Steps</a>
   <div class="hb-clock" id="navClock" title="Current local time in Taiwan (GMT+8, no Daylight Saving)" aria-label="Current time in Taiwan">
-    <span class="live-dot" aria-hidden="true"></span>🇹🇼 <b id="navClockTime">--:--</b> <small>Taiwan</small>
+    <span class="live-dot" aria-hidden="true"></span>🇹🇼 <b class="js-nav">--:--</b> <small>Taiwan</small>
   </div>
 </div></nav>
 
@@ -146,16 +180,16 @@
       <div class="tz-clocks">
         <div class="tz-clock">
           <p class="tz-label">🇹🇼 Taiwan</p>
-          <p class="tz-time" id="twTime">--:--:--</p>
+          <p class="tz-time js-tw">--:--:--</p>
           <p class="tz-sub">Taipei · GMT+8 · <strong>No Daylight Saving Time</strong></p>
         </div>
         <div class="tz-clock">
           <p class="tz-label">🏠 Your time</p>
-          <p class="tz-time" id="localTime">--:--:--</p>
-          <p class="tz-sub" id="localZone">Detecting your time zone…</p>
+          <p class="tz-time js-local">--:--:--</p>
+          <p class="tz-sub js-zone">Detecting your time zone…</p>
         </div>
       </div>
-      <p class="tz-diff" id="tzDiff">Calculating the time difference…</p>
+      <p class="tz-diff js-diff">Calculating the time difference…</p>
       <p class="tz-note">Taiwan does <strong>not</strong> observe Daylight Saving Time. When the clocks change in your country, this gap shifts on its own — so always check the live difference here before you pick an observation slot.</p>
     </section>
 
@@ -509,25 +543,24 @@
       var utc = now.toLocaleString('en-US', Object.assign({ timeZone: 'UTC' }, p));
       return Math.round((new Date(loc) - new Date(utc)) / 60000);
     }
-    var twEl = document.getElementById('twTime'),
-        locEl = document.getElementById('localTime'),
-        zoneEl = document.getElementById('localZone'),
-        diffEl = document.getElementById('tzDiff'),
-        navEl = document.getElementById('navClockTime');
+    function setAll(sel, val, html) {
+      var els = document.querySelectorAll(sel);
+      for (var i = 0; i < els.length; i++) { if (html) els[i].innerHTML = val; else els[i].textContent = val; }
+    }
     function diffText() {
       var d;
       try { d = offsetMin(TW) - offsetMin(localTz); } catch (e) { return null; }
       if (d === 0) return "You're on Taiwan time right now — no difference to worry about. 🎉";
       var ahead = d > 0, m = Math.abs(d), h = Math.floor(m / 60), mm = m % 60;
       var span = h + (h === 1 ? ' hour' : ' hours') + (mm ? ' ' + mm + ' minutes' : '');
-      return 'Taiwan is currently <strong>' + span + (ahead ? ' ahead of' : ' behind') + '</strong> your local time.';
+      return 'Taiwan is <strong>' + span + (ahead ? ' ahead of' : ' behind') + '</strong> you right now.';
     }
     function tick() {
-      if (twEl) twEl.textContent = fmt(TW, fHMS);
-      if (navEl) navEl.textContent = fmt(TW, fHM);
-      if (locEl) locEl.textContent = localTz ? fmt(localTz, fHMS) : '--:--:--';
-      if (zoneEl) zoneEl.innerHTML = localTz ? ('Your device · ' + localTz.replace(/_/g, ' ')) : 'Your device time';
-      if (diffEl) { var t = diffText(); if (t) diffEl.innerHTML = t; }
+      setAll('.js-tw', fmt(TW, fHMS));
+      setAll('.js-nav', fmt(TW, fHM));
+      setAll('.js-local', localTz ? fmt(localTz, fHMS) : '--:--:--');
+      setAll('.js-zone', localTz ? ('Your device · ' + localTz.replace(/_/g, ' ')) : 'Your device time');
+      var t = diffText(); if (t) setAll('.js-diff', t, true);
     }
     tick();
     setInterval(tick, 1000);
