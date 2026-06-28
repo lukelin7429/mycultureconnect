@@ -605,3 +605,6 @@ a.epac{color:var(--green);font-weight:700;border-bottom:1px solid rgba(30,132,73
   .eshow-arrow{width:38px;height:38px;font-size:22px;}
   .eshow-slide img{aspect-ratio:4/3;}
 }
+
+/* signature hover: lift + accent-coloured glow (house style) */
+.enav-card:hover,.eaud-card:hover{transform:translateY(-8px)!important;box-shadow:0 26px 52px -18px var(--ac,var(--navy,#0a3d62)),0 8px 18px rgba(20,24,31,.10)!important;}

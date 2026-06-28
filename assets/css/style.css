@@ -357,3 +357,48 @@ a.card.choice:hover .choice-go{transform:translateX(6px)}
   .gallery{grid-template-columns:repeat(2,1fr)}
   .contact-card{padding:30px}
 }
+
+/* ====================================================================
+   SIGNATURE COLOURFUL CARDS  (Luke's house style — see memory
+   reference_signature_card_motion_style). Layered on top of the
+   existing MCC card styles; adds per-card hue, a corner colour-circle
+   that grows on hover, a colour left-bar, and an accent-coloured glow.
+   ==================================================================== */
+.card,.orgcard,.lcard,.role-card,.pcard{
+  position:relative;
+  transition:transform .28s cubic-bezier(.2,.7,.2,1),box-shadow .28s ease,border-color .28s ease;
+}
+:where(.card,.orgcard,.lcard,.role-card,.pcard):nth-child(6n+1){--accent:#b8431c;}
+:where(.card,.orgcard,.lcard,.role-card,.pcard):nth-child(6n+2){--accent:#0c8599;}
+:where(.card,.orgcard,.lcard,.role-card,.pcard):nth-child(6n+3){--accent:#7048e8;}
+:where(.card,.orgcard,.lcard,.role-card,.pcard):nth-child(6n+4){--accent:#2f9e44;}
+:where(.card,.orgcard,.lcard,.role-card,.pcard):nth-child(6n+5){--accent:#d6336c;}
+:where(.card,.orgcard,.lcard,.role-card,.pcard):nth-child(6n+6){--accent:#e8590c;}
+/* corner colour-circle (grows + brightens on hover) */
+.card::after,.orgcard::after,.lcard::after,.role-card::after,.pcard::after{
+  content:"";position:absolute;right:-55px;top:-55px;width:160px;height:160px;border-radius:50%;
+  background:radial-gradient(circle at 32% 32%,var(--accent,#F58220),transparent 70%);
+  opacity:.08;pointer-events:none;z-index:0;
+  transition:opacity .35s ease,transform .6s cubic-bezier(.22,.61,.36,1);
+}
+.card:hover::after,.orgcard:hover::after,.lcard:hover::after,.role-card:hover::after,.pcard:hover::after{
+  opacity:.2;transform:scale(1.35);
+}
+/* TEXT cards: colour left-bar + lift + accent glow */
+.card,.orgcard,.lcard,.role-card{
+  box-shadow:inset 5px 0 0 0 var(--accent,#F58220),0 4px 14px rgba(20,20,20,.06);
+}
+.card:hover,.orgcard:hover,.lcard:hover,.role-card:hover{
+  transform:translateY(-8px);border-color:var(--accent);
+  box-shadow:inset 5px 0 0 0 var(--accent,#F58220),0 26px 52px -18px var(--accent,rgba(245,130,32,.4)),0 8px 18px rgba(20,20,20,.08);
+}
+/* PHOTO cards (pcard): lift + accent glow, no left-bar */
+.pcard:hover{
+  transform:translateY(-8px);border-color:var(--accent);
+  box-shadow:0 26px 52px -18px var(--accent,rgba(245,130,32,.4)),0 8px 18px rgba(20,20,20,.08);
+}
+@media (prefers-reduced-motion:reduce){
+  .card,.orgcard,.lcard,.role-card,.pcard{transition:none;}
+  .card:hover,.orgcard:hover,.lcard:hover,.role-card:hover,.pcard:hover{transform:none;}
+  .card:hover::after,.orgcard:hover::after,.lcard:hover::after,.role-card:hover::after,.pcard:hover::after{transform:none;}
+}
