@@ -237,15 +237,35 @@ a.card.choice:hover .choice-go{transform:translateX(6px)}
 
 /* video grid (Dom programs) */
 .videos{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
-.video{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;transition:.25s}
-.video:hover{box-shadow:var(--shadow-lg);transform:translateY(-4px)}
-.video .thumb{position:relative;aspect-ratio:16/9;background:#000 center/cover;display:block}
-.video{cursor:pointer}
-.video .thumb::after{content:"▶";position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#fff;font-size:1.5rem;background:rgba(0,0,0,.25);opacity:.9;transition:.2s}
-.video:hover .thumb::after{background:rgba(245,130,32,.6)}
-.video.playing{cursor:default;transform:none}
-.video.playing .thumb::after{display:none}
-.video .thumb iframe{position:absolute;inset:0;width:100%;height:100%;border:0;z-index:2}
+.video{position:relative;background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;cursor:pointer;
+  box-shadow:0 6px 22px rgba(20,20,20,.06);
+  transition:transform .28s cubic-bezier(.2,.7,.2,1),box-shadow .28s ease,border-color .28s ease}
+/* per-card accent hue (Luke's signature colourful-card cycle) */
+.video:nth-child(6n+1){--accent:#b8431c}
+.video:nth-child(6n+2){--accent:#0c8599}
+.video:nth-child(6n+3){--accent:#7048e8}
+.video:nth-child(6n+4){--accent:#2f9e44}
+.video:nth-child(6n+5){--accent:#d6336c}
+.video:nth-child(6n+6){--accent:#e8590c}
+.video:hover{transform:translateY(-8px);border-color:var(--accent,#F58220);
+  box-shadow:0 26px 52px -18px var(--accent,rgba(245,130,32,.4)),0 8px 18px rgba(20,20,20,.08)}
+.video .thumb{position:relative;aspect-ratio:16/9;background:#000 center/cover;display:block;overflow:hidden}
+/* light bottom gradient only — keeps the photo bright, no full-frame scrim */
+.video .thumb::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;
+  background:linear-gradient(to top,rgba(0,0,0,.34),transparent 46%);transition:opacity .3s}
+.video:hover .thumb::before{opacity:.55}
+/* white play button that lifts + turns accent on hover */
+.video .thumb::after{content:"▶";position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:2;
+  width:60px;height:60px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+  padding-left:4px;font-size:1.3rem;color:var(--accent,#F58220);background:rgba(255,255,255,.94);
+  box-shadow:0 8px 22px rgba(0,0,0,.3);
+  transition:transform .32s cubic-bezier(.2,.8,.2,1),background .3s ease,color .3s ease}
+.video:hover .thumb::after{transform:translate(-50%,-50%) scale(1.12);background:var(--accent,#F58220);color:#fff;
+  box-shadow:0 12px 30px -6px var(--accent,rgba(245,130,32,.6))}
+.video.playing{cursor:default;transform:none;border-color:var(--line)}
+.video.playing:hover{box-shadow:0 6px 22px rgba(20,20,20,.06)}
+.video.playing .thumb::after,.video.playing .thumb::before{display:none}
+.video .thumb iframe{position:absolute;inset:0;width:100%;height:100%;border:0;z-index:3}
 .video .meta{padding:16px 18px}
 .video .meta b{font-family:var(--serif);font-weight:400;font-size:1.1rem;display:block}
 .video .meta small{color:var(--muted-2);font-family:var(--eyebrow);letter-spacing:.04em}
