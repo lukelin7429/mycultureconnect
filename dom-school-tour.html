@@ -24,6 +24,10 @@
 .playlist-frame iframe,.tour-video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 .tour-video .thumb::after{display:none}
 .tour-video .meta small{display:block;line-height:1.45}
+.slides-link{display:inline-block;margin-top:8px;font-size:.86rem;font-weight:700;color:var(--orange-dark)}
+.slides-link:hover{color:var(--orange)}
+.slides-cta{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px 26px;margin-bottom:26px;box-shadow:0 6px 22px rgba(20,20,20,.05)}
+.slides-cta p{margin:0;color:var(--muted);font-size:.98rem;max-width:52ch}
 @media(max-width:880px){.tour-facts{grid-template-columns:1fr}}
 /* school-tour timeline */
 .tl{display:flex;gap:12px;align-items:center;justify-content:center;flex-wrap:wrap;margin:34px auto 0;max-width:760px}
@@ -138,26 +142,35 @@
       <h2>Every campus, every visit</h2>
       <p class="muted">Student-produced videos from Dom Jones's school assembly visits across Changhua County.</p>
     </div>
+    <div class="slides-cta">
+      <p>The bilingual slide decks Dom actually presents at each assembly are also collected in a swipeable slide library — browse them, or reuse the format for the next school on the tour.</p>
+      <a class="btn" href="https://www.twrses.org/media/dom-jones/slides/" target="_blank" rel="noopener">📑 View Slide Library →</a>
+    </div>
     <div class="videos">
       <article class="video tour-video" data-reveal>
         <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/5Oghv3gQETU?rel=0" title="Yuhua Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div class="meta"><b>Yuhua Elementary</b><small>Dom Jones Campus News · 2026.06.02</small></div>
+        <a class="slides-link" href="https://www.twrses.org/media/dom-jones/slides/#deck-yuhua" target="_blank" rel="noopener">📑 View Slides</a>
       </article>
       <article class="video tour-video" data-reveal>
         <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/-wW0IOjTUT4?rel=0" title="Houliao Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div class="meta"><b>Houliao Elementary</b><small>Dom Jones Campus News · 2026.06.02</small></div>
+        <a class="slides-link" href="https://www.twrses.org/media/dom-jones/slides/#deck-houliao" target="_blank" rel="noopener">📑 View Slides</a>
       </article>
       <article class="video tour-video" data-reveal>
         <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/WTxOjT5OXiE?rel=0" title="Minsheng Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div class="meta"><b>Minsheng Elementary</b><small>Dom Jones Campus News · 2026.05.25</small></div>
+        <a class="slides-link" href="https://www.twrses.org/media/dom-jones/slides/#deck-minsheng" target="_blank" rel="noopener">📑 View Slides</a>
       </article>
       <article class="video tour-video" data-reveal>
         <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/rCQuOmELjbM?rel=0" title="Yude Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div class="meta"><b>Yude Elementary</b><small>Dom Jones Campus News · 2026.05.25</small></div>
+        <a class="slides-link" href="https://www.twrses.org/media/dom-jones/slides/#deck-yude" target="_blank" rel="noopener">📑 View Slides</a>
       </article>
       <article class="video tour-video" data-reveal>
         <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/mlDqgsMuV0c?rel=0" title="Hubei Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div class="meta"><b>Hubei Elementary</b><small>Dom Jones Campus News · 2026.05.19</small></div>
+        <a class="slides-link" href="https://www.twrses.org/media/dom-jones/slides/#deck-hubei" target="_blank" rel="noopener">📑 View Slides</a>
       </article>
       <article class="video tour-video" data-reveal>
         <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/lPfb-TbozhU?rel=0" title="Wanxing Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
@@ -166,6 +179,7 @@
       <article class="video tour-video" data-reveal>
         <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/7VJodV2HwnE?rel=0" title="Wenchang Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div class="meta"><b>Wenchang Elementary</b><small>Dom Jones Campus News · 2026.05.12</small></div>
+        <a class="slides-link" href="https://www.twrses.org/media/dom-jones/slides/#deck-wenchang" target="_blank" rel="noopener">📑 View Slides</a>
       </article>
       <article class="video tour-video" data-reveal>
         <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/x--JEdN8xPY?rel=0" title="Zhonghe Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
@@ -174,26 +188,32 @@
       <article class="video tour-video" data-reveal>
         <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/2flGVrz2fDE?rel=0" title="Kuaiguan Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div class="meta"><b>Kuaiguan Elementary</b><small>Dom Jones Campus News · 2026.05.05</small></div>
+        <a class="slides-link" href="https://www.twrses.org/media/dom-jones/slides/#deck-kuaiguan" target="_blank" rel="noopener">📑 View Slides</a>
       </article>
       <article class="video tour-video" data-reveal>
         <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/FY2SjU8L04w?rel=0" title="Xizhou Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div class="meta"><b>Xizhou Elementary</b><small>Dom Jones Campus News · 2026.05.05</small></div>
+        <a class="slides-link" href="https://www.twrses.org/media/dom-jones/slides/#deck-sijhou" target="_blank" rel="noopener">📑 View Slides</a>
       </article>
       <article class="video tour-video" data-reveal>
         <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/1CaTsQJHkpk?rel=0" title="Qiaoxin Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div class="meta"><b>Qiaoxin Elementary</b><small>Dom Jones Campus News · 2026.04.28</small></div>
+        <a class="slides-link" href="https://www.twrses.org/media/dom-jones/slides/#deck-ciaosin" target="_blank" rel="noopener">📑 View Slides</a>
       </article>
       <article class="video tour-video" data-reveal>
         <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/ul5CBsV0QkA?rel=0" title="Xinmin Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div class="meta"><b>Xinmin Elementary</b><small>Dom Jones Campus News · 2026.04.21</small></div>
+        <a class="slides-link" href="https://www.twrses.org/media/dom-jones/slides/#deck-hsinmin" target="_blank" rel="noopener">📑 View Slides</a>
       </article>
       <article class="video tour-video" data-reveal>
         <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/dH0MQxB4x8o?rel=0" title="Renfeng Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div class="meta"><b>Renfeng Elementary</b><small>Dom Jones Campus News · 2026.04.21</small></div>
+        <a class="slides-link" href="https://www.twrses.org/media/dom-jones/slides/#deck-renfeng" target="_blank" rel="noopener">📑 View Slides</a>
       </article>
       <article class="video tour-video" data-reveal>
         <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/ugPeclZYyQM?rel=0" title="Mingli Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div class="meta"><b>Mingli Elementary</b><small>Dom Jones Campus News · 2026.04.14</small></div>
+        <a class="slides-link" href="https://www.twrses.org/media/dom-jones/slides/#deck-mingli" target="_blank" rel="noopener">📑 View Slides</a>
       </article>
       <article class="video tour-video" data-reveal>
         <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/UHlL9GpBeco?rel=0" title="Lufeng Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
@@ -202,6 +222,7 @@
       <article class="video tour-video" data-reveal>
         <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/kYcVaoMnYBo?rel=0" title="Yuxin Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div class="meta"><b>Yuxin Elementary</b><small>Dom Jones Campus News · 2026.04.07</small></div>
+        <a class="slides-link" href="https://www.twrses.org/media/dom-jones/slides/#deck-yushin" target="_blank" rel="noopener">📑 View Slides</a>
       </article>
       <article class="video tour-video" data-reveal>
         <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/hMMbheEwZkI?rel=0" title="Fusing Junior High - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
@@ -210,18 +231,22 @@
       <article class="video tour-video" data-reveal>
         <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/3a2LlsTmLIU?rel=0" title="Dexing Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div class="meta"><b>Dexing Elementary</b><small>Dom Jones Campus News · 2026.03.31</small></div>
+        <a class="slides-link" href="https://www.twrses.org/media/dom-jones/slides/#deck-desing" target="_blank" rel="noopener">📑 View Slides</a>
       </article>
       <article class="video tour-video" data-reveal>
         <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/0CPDATRfMJ8?rel=0" title="Fusing Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div class="meta"><b>Fusing Elementary</b><small>Dom Jones Campus News · 2026.03.31</small></div>
+        <a class="slides-link" href="https://www.twrses.org/media/dom-jones/slides/#deck-fushing" target="_blank" rel="noopener">📑 View Slides</a>
       </article>
       <article class="video tour-video" data-reveal>
         <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/CRdHUTZHl_8?rel=0" title="Dacheng Junior High - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div class="meta"><b>Dacheng Junior High</b><small>Dom Jones Campus News · 2026.03.24</small></div>
+        <a class="slides-link" href="https://www.twrses.org/media/dom-jones/slides/#deck-dacheng-jh" target="_blank" rel="noopener">📑 View Slides</a>
       </article>
       <article class="video tour-video" data-reveal>
         <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/19rekCsqAjk?rel=0" title="Dacheng Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div class="meta"><b>Dacheng Elementary</b><small>Dom Jones Campus News · 2026.03.24</small></div>
+        <a class="slides-link" href="https://www.twrses.org/media/dom-jones/slides/#deck-dacheng-elem" target="_blank" rel="noopener">📑 View Slides</a>
       </article>
       <article class="video tour-video" data-reveal>
         <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/h9XbU-mVjsY?rel=0" title="Datong Elementary - Small Hands, Big Impact" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
