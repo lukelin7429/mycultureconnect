@@ -44,16 +44,47 @@
 .legacy .card .num{background:linear-gradient(135deg,#bb8a3f,#d8b066);box-shadow:0 8px 20px rgba(160,120,50,.28)}
 .mike-media h3{text-align:center;margin-bottom:18px}
 @media(max-width:880px){.tl .node b{font-size:1rem}}
-/* Voices in Education — principal interviews (cool tone, distinct from Campus News) */
-.voices{background:linear-gradient(180deg,#f6f8fb 0%,#eef2f7 100%)}
-.voices .eyebrow{color:#5b7a9d}
-.voices .section-head{max-width:820px}
-.voices .section-head p.voices-zh{font-family:'PingFang TC','Apple LiGothic Medium','Microsoft JhengHei',var(--body);font-size:1.5rem;font-weight:500;letter-spacing:.04em;color:#3f556e;margin:-10px 0 20px}
-.voices .section-head p.voices-zh-body{font-family:'PingFang TC','Apple LiGothic Medium','Microsoft JhengHei',var(--body);font-size:1.06rem;line-height:1.85;margin-top:14px}
-.voices-frame{position:relative;aspect-ratio:16/9;max-width:920px;margin:0 auto;background:#111;border-radius:18px;overflow:hidden;box-shadow:var(--shadow-lg)}
-.voices-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
-.voices-credit{text-align:center;margin-top:18px;font-size:.9rem;color:var(--muted-2);font-family:var(--eyebrow);letter-spacing:.04em}
-@media(max-width:680px){.voices-zh{font-size:1.2rem}}
+/* Video library — sticky tabs over two card collections */
+.vlib .section-head{margin-bottom:26px}
+.vlib-bar{position:sticky;top:0;z-index:20;display:flex;gap:10px;justify-content:center;flex-wrap:wrap;
+  padding:14px 0;margin:0 0 26px;background:var(--bg-soft);box-shadow:0 1px 0 var(--line)}
+.vlib-tab{display:flex;align-items:center;gap:10px;cursor:pointer;background:#fff;
+  border:1px solid var(--line);border-radius:999px;padding:11px 22px;color:var(--muted);
+  font-family:var(--body);font-size:1rem;line-height:1.2;transition:.18s}
+.vlib-tab .en{font-weight:700;color:var(--ink)}
+.vlib-tab .zh{font-family:'PingFang TC','Apple LiGothic Medium','Microsoft JhengHei',var(--body);
+  font-size:.9rem;color:var(--muted-2)}
+.vlib-tab .n{font-family:var(--eyebrow);font-size:.82rem;background:var(--bg-soft);color:var(--muted-2);
+  border-radius:999px;padding:3px 10px;min-width:30px;text-align:center}
+.vlib-tab:hover{border-color:var(--orange);color:var(--ink)}
+.vlib-tab.is-on{background:var(--orange);border-color:var(--orange)}
+.vlib-tab.is-on .en,.vlib-tab.is-on .zh{color:#fff}
+.vlib-tab.is-on .n{background:rgba(255,255,255,.28);color:#fff}
+.vlib-panel{display:none}
+.vlib-panel.is-on{display:block}
+.vlib-note{max-width:70ch;margin:0 auto 28px;text-align:center;color:var(--muted);
+  font-size:1.02rem;line-height:1.75}
+.vlib-note .zh{display:block;margin-top:8px;
+  font-family:'PingFang TC','Apple LiGothic Medium','Microsoft JhengHei',var(--body);
+  font-size:.98rem;color:var(--muted-2)}
+.vlib-more{text-align:center;margin-top:30px}
+.vlib-more a{font-family:var(--eyebrow);letter-spacing:.06em;font-weight:700;color:var(--orange-dark)}
+.vlib-more a:hover{color:var(--orange)}
+/* click-to-load facade — restores the ▶ overlay the stylesheet already ships */
+.tour-video .thumb{width:100%;padding:0;border:0;cursor:pointer;background-size:cover;background-position:center}
+.tour-video .thumb::after{display:block}
+.tour-video.playing .thumb::before,.tour-video.playing .thumb::after{display:none}
+.tour-video .meta small.zh{font-family:'PingFang TC','Apple LiGothic Medium','Microsoft JhengHei',var(--body);
+  font-size:.97rem;letter-spacing:0;margin-top:4px;color:var(--muted)}
+@media(max-width:680px){
+  /* one row that scrolls, rather than wrapping into a 130px-tall sticky bar */
+  .vlib-bar{flex-wrap:nowrap;overflow-x:auto;justify-content:flex-start;
+    scrollbar-width:none;-webkit-overflow-scrolling:touch;padding:11px 0}
+  .vlib-bar::-webkit-scrollbar{display:none}
+  .vlib-tab{flex:0 0 auto;padding:9px 16px;font-size:.94rem}
+  .vlib-tab .zh{display:none}
+  .vlib-note{font-size:.98rem}
+}
 /* school-tour feedback Padlet wall */
 .padlet-wall{max-width:920px;margin:8px auto 0;border-radius:18px;overflow:hidden;background:#fff;border:1px solid var(--line);box-shadow:var(--shadow)}
 .padlet-wall iframe{display:block;width:100%;height:680px;border:0}
@@ -145,151 +176,230 @@
   </div>
 </section>
 
-<section class="voices">
+<section class="soft vlib" id="videos">
   <div class="wrap">
     <div class="section-head">
-      <p class="eyebrow">Voices in Education · 教育之聲</p>
-      <h2>Why they became principals</h2>
-      <p class="voices-zh">校長為什麼成為校長</p>
-      <p class="muted">Between each assembly, Dom sat down with the principal of the school she had just visited. Nineteen conversations, one question at the heart of each: why did you choose this work — and what do English and international education mean for the children in your care?</p>
-      <p class="muted voices-zh-body">在每一場晨會之後，Dom 與當天造訪學校的校長對談。十九段訪談，共同的提問是：您為什麼走上教育這條路？英語教育與國際教育，對您照顧的孩子又意味著什麼？</p>
+      <p class="eyebrow">Every campus, every visit</p>
+      <h2>The tour, on video</h2>
+      <p class="muted">Two collections from Dom Jones's assembly tour across Changhua County — the students' own campus-news reports, and the principals in their own words.</p>
     </div>
-    <div class="voices-frame" aria-label="Voices in Education playlist">
-      <iframe src="https://www.youtube.com/embed/videoseries?list=PLXjTAIiEub1Q&amp;rel=0" title="Voices in Education — Dom Jones interviews Changhua principals" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    <p class="voices-credit">19 episodes · 19 schools · Spring 2026 &nbsp;·&nbsp; 十九集，十九所彰化縣的學校</p>
-  </div>
-</section>
 
-<section class="soft">
-  <div class="wrap">
-    <div class="section-head">
-      <p class="eyebrow">Campus News</p>
-      <h2>Every campus, every visit</h2>
-      <p class="muted">Student-produced videos from Dom Jones's school assembly visits across Changhua County.</p>
+    <div class="vlib-bar" role="tablist" aria-label="Video collections">
+      <button class="vlib-tab is-on" role="tab" aria-selected="true" data-panel="voices">
+        <span class="en">Voices in Education</span><span class="zh">教育之聲 · 校長專訪</span><span class="n">19</span>
+      </button>
+      <button class="vlib-tab" role="tab" aria-selected="false" data-panel="news">
+        <span class="en">Campus News</span><span class="zh">校園新聞 · 學生製作</span><span class="n">25</span>
+      </button>
     </div>
-    <div class="slides-cta">
-      <p>The bilingual slide decks Dom actually presents at each assembly are also collected in a swipeable slide library — browse them, or reuse the format for the next school on the tour.</p>
-      <a class="btn" href="https://www.twrses.org/media/dom-jones/slides/" target="_blank" rel="noopener">📑 View Slide Library →</a>
+
+    <div class="vlib-panel is-on" id="panel-voices">
+      <p class="vlib-note">Dom sat down with the principal of every school she visited and asked the same two questions: why did you choose to lead a school, and what do English and international education mean for your children?<span class="zh">Dom 在每一場晨會之後與該校校長對談，問的都是同樣兩個問題：您為什麼走上校長這條路？英語教育與國際教育，對您的孩子又意味著什麼？</span></p>
+      <div class="videos">
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="xp_DbyGqnAc" style="background-image:url(https://i.ytimg.com/vi/xp_DbyGqnAc/hqdefault.jpg)" aria-label="Play: Yuhua Elementary"></button>
+        <div class="meta"><b>Yuhua Elementary</b><small>Voices in Education · Ep19 · 2026.06.02</small><small class="zh">Dom Jones 採訪育華國小校長</small></div>
+      </article>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="01Wonw-UBRU" style="background-image:url(https://i.ytimg.com/vi/01Wonw-UBRU/hqdefault.jpg)" aria-label="Play: Houliao Elementary"></button>
+        <div class="meta"><b>Houliao Elementary</b><small>Voices in Education · Ep18 · 2026.06.02</small><small class="zh">Dom Jones 採訪後寮國小校長</small></div>
+      </article>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="zKw0WL7DGu8" style="background-image:url(https://i.ytimg.com/vi/zKw0WL7DGu8/hqdefault.jpg)" aria-label="Play: Yude Elementary"></button>
+        <div class="meta"><b>Yude Elementary</b><small>Voices in Education · Ep17 · 2026.05.25</small><small class="zh">Dom Jones 採訪育德國小校長</small></div>
+      </article>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="yuf8GLlfGLs" style="background-image:url(https://i.ytimg.com/vi/yuf8GLlfGLs/hqdefault.jpg)" aria-label="Play: Minsheng Elementary"></button>
+        <div class="meta"><b>Minsheng Elementary</b><small>Voices in Education · Ep16 · 2026.05.25</small><small class="zh">Dom Jones 採訪民生國小校長</small></div>
+      </article>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="EX9ECX_rOq4" style="background-image:url(https://i.ytimg.com/vi/EX9ECX_rOq4/hqdefault.jpg)" aria-label="Play: Hubei Elementary"></button>
+        <div class="meta"><b>Hubei Elementary</b><small>Voices in Education · Ep15 · 2026.05.19</small><small class="zh">Dom Jones 採訪湖北國小校長</small></div>
+      </article>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="_AYlf-4OSl4" style="background-image:url(https://i.ytimg.com/vi/_AYlf-4OSl4/hqdefault.jpg)" aria-label="Play: Wanxing Elementary"></button>
+        <div class="meta"><b>Wanxing Elementary</b><small>Voices in Education · Ep14 · 2026.05.19</small><small class="zh">Dom Jones 採訪萬興國小校長</small></div>
+      </article>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="Y1oyv7UuE7k" style="background-image:url(https://i.ytimg.com/vi/Y1oyv7UuE7k/hqdefault.jpg)" aria-label="Play: Zhonghe Elementary"></button>
+        <div class="meta"><b>Zhonghe Elementary</b><small>Voices in Education · Ep13 · 2026.05.12</small><small class="zh">Dom Jones 採訪中和國小校長</small></div>
+      </article>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="W57Ks6--3Tk" style="background-image:url(https://i.ytimg.com/vi/W57Ks6--3Tk/hqdefault.jpg)" aria-label="Play: Wenchang Elementary"></button>
+        <div class="meta"><b>Wenchang Elementary</b><small>Voices in Education · Ep12 · 2026.05.12</small><small class="zh">Dom Jones 採訪文昌國小校長</small></div>
+      </article>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="NW-Ld9NzOsA" style="background-image:url(https://i.ytimg.com/vi/NW-Ld9NzOsA/hqdefault.jpg)" aria-label="Play: Xizhou Elementary"></button>
+        <div class="meta"><b>Xizhou Elementary</b><small>Voices in Education · Ep11 · 2026.05.05</small><small class="zh">Dom Jones 採訪溪州國小校長</small></div>
+      </article>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="AmXnzSQCirc" style="background-image:url(https://i.ytimg.com/vi/AmXnzSQCirc/hqdefault.jpg)" aria-label="Play: Kuaiguan Elementary"></button>
+        <div class="meta"><b>Kuaiguan Elementary</b><small>Voices in Education · Ep10 · 2026.05.05</small><small class="zh">Dom Jones 採訪快官國小校長</small></div>
+      </article>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="_wa-MmwTIWM" style="background-image:url(https://i.ytimg.com/vi/_wa-MmwTIWM/hqdefault.jpg)" aria-label="Play: Qiaoxin Elementary"></button>
+        <div class="meta"><b>Qiaoxin Elementary</b><small>Voices in Education · Ep9 · 2026.04.28</small><small class="zh">Dom Jones 採訪僑信國小校長</small></div>
+      </article>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="u9BiSr6LefI" style="background-image:url(https://i.ytimg.com/vi/u9BiSr6LefI/hqdefault.jpg)" aria-label="Play: Renfeng Elementary"></button>
+        <div class="meta"><b>Renfeng Elementary</b><small>Voices in Education · Ep8 · 2026.04.21</small><small class="zh">Dom Jones 採訪仁豐國小校長</small></div>
+      </article>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="_SX6aqAFMoY" style="background-image:url(https://i.ytimg.com/vi/_SX6aqAFMoY/hqdefault.jpg)" aria-label="Play: Xinmin Elementary"></button>
+        <div class="meta"><b>Xinmin Elementary</b><small>Voices in Education · Ep7 · 2026.04.21</small><small class="zh">Dom Jones 採訪新民國小校長</small></div>
+      </article>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="dlZvvwyHbfo" style="background-image:url(https://i.ytimg.com/vi/dlZvvwyHbfo/hqdefault.jpg)" aria-label="Play: Mingli Elementary"></button>
+        <div class="meta"><b>Mingli Elementary</b><small>Voices in Education · Ep6 · 2026.04.14</small><small class="zh">Dom Jones 採訪明禮國小校長</small></div>
+      </article>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="V75GdrMV9OQ" style="background-image:url(https://i.ytimg.com/vi/V75GdrMV9OQ/hqdefault.jpg)" aria-label="Play: Yuxin Elementary"></button>
+        <div class="meta"><b>Yuxin Elementary</b><small>Voices in Education · Ep5 · 2026.04.07</small><small class="zh">Dom Jones 採訪育新國小校長</small></div>
+      </article>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="7om_ARwwK7c" style="background-image:url(https://i.ytimg.com/vi/7om_ARwwK7c/hqdefault.jpg)" aria-label="Play: Fusing Junior High"></button>
+        <div class="meta"><b>Fusing Junior High</b><small>Voices in Education · Ep4 · 2026.04.07</small><small class="zh">Dom Jones 採訪福興國中校長</small></div>
+      </article>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="VSKKtyrP8JI" style="background-image:url(https://i.ytimg.com/vi/VSKKtyrP8JI/hqdefault.jpg)" aria-label="Play: Fusing Elementary"></button>
+        <div class="meta"><b>Fusing Elementary</b><small>Voices in Education · Ep3 · 2026.03.31</small><small class="zh">Dom Jones 採訪福興國小校長</small></div>
+      </article>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="as28NTe49ic" style="background-image:url(https://i.ytimg.com/vi/as28NTe49ic/hqdefault.jpg)" aria-label="Play: Dexing Elementary"></button>
+        <div class="meta"><b>Dexing Elementary</b><small>Voices in Education · Ep2 · 2026.03.31</small><small class="zh">Dom Jones 採訪德興國小校長</small></div>
+      </article>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="LArd9gafybg" style="background-image:url(https://i.ytimg.com/vi/LArd9gafybg/hqdefault.jpg)" aria-label="Play: Dacheng Junior High"></button>
+        <div class="meta"><b>Dacheng Junior High</b><small>Voices in Education · Ep1 · 2026.03.24</small><small class="zh">Dom Jones 採訪大城國中校長</small></div>
+      </article>
+      </div>
+      <p class="vlib-more"><a href="https://www.youtube.com/playlist?list=PLXjTAIiEub1Q" target="_blank" rel="noopener">Watch all 19 on YouTube ↗</a></p>
     </div>
-    <div class="videos">
-      <article class="video tour-video" data-reveal>
-        <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/5Oghv3gQETU?rel=0" title="Yuhua Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+    <div class="vlib-panel" id="panel-news">
+      <div class="slides-cta">
+        <p>The bilingual slide decks Dom actually presents at each assembly are also collected in a swipeable slide library — browse them, or reuse the format for the next school on the tour.</p>
+        <a class="btn" href="https://www.twrses.org/media/dom-jones/slides/" target="_blank" rel="noopener">📑 View Slide Library →</a>
+      </div>
+      <div class="videos">
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="5Oghv3gQETU" style="background-image:url(https://i.ytimg.com/vi/5Oghv3gQETU/hqdefault.jpg)" aria-label="Play: Yuhua Elementary"></button>
         <div class="meta"><b>Yuhua Elementary</b><small>Dom Jones Campus News · 2026.06.02</small></div>
         <a class="slides-link" href="https://www.twrses.org/media/dom-jones/slides/#deck-yuhua" target="_blank" rel="noopener">📑 View Slides</a>
       </article>
-      <article class="video tour-video" data-reveal>
-        <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/-wW0IOjTUT4?rel=0" title="Houliao Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="-wW0IOjTUT4" style="background-image:url(https://i.ytimg.com/vi/-wW0IOjTUT4/hqdefault.jpg)" aria-label="Play: Houliao Elementary"></button>
         <div class="meta"><b>Houliao Elementary</b><small>Dom Jones Campus News · 2026.06.02</small></div>
         <a class="slides-link" href="https://www.twrses.org/media/dom-jones/slides/#deck-houliao" target="_blank" rel="noopener">📑 View Slides</a>
       </article>
-      <article class="video tour-video" data-reveal>
-        <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/WTxOjT5OXiE?rel=0" title="Minsheng Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="WTxOjT5OXiE" style="background-image:url(https://i.ytimg.com/vi/WTxOjT5OXiE/hqdefault.jpg)" aria-label="Play: Minsheng Elementary"></button>
         <div class="meta"><b>Minsheng Elementary</b><small>Dom Jones Campus News · 2026.05.25</small></div>
         <a class="slides-link" href="https://www.twrses.org/media/dom-jones/slides/#deck-minsheng" target="_blank" rel="noopener">📑 View Slides</a>
       </article>
-      <article class="video tour-video" data-reveal>
-        <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/rCQuOmELjbM?rel=0" title="Yude Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="rCQuOmELjbM" style="background-image:url(https://i.ytimg.com/vi/rCQuOmELjbM/hqdefault.jpg)" aria-label="Play: Yude Elementary"></button>
         <div class="meta"><b>Yude Elementary</b><small>Dom Jones Campus News · 2026.05.25</small></div>
         <a class="slides-link" href="https://www.twrses.org/media/dom-jones/slides/#deck-yude" target="_blank" rel="noopener">📑 View Slides</a>
       </article>
-      <article class="video tour-video" data-reveal>
-        <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/mlDqgsMuV0c?rel=0" title="Hubei Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="mlDqgsMuV0c" style="background-image:url(https://i.ytimg.com/vi/mlDqgsMuV0c/hqdefault.jpg)" aria-label="Play: Hubei Elementary"></button>
         <div class="meta"><b>Hubei Elementary</b><small>Dom Jones Campus News · 2026.05.19</small></div>
         <a class="slides-link" href="https://www.twrses.org/media/dom-jones/slides/#deck-hubei" target="_blank" rel="noopener">📑 View Slides</a>
       </article>
-      <article class="video tour-video" data-reveal>
-        <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/lPfb-TbozhU?rel=0" title="Wanxing Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="lPfb-TbozhU" style="background-image:url(https://i.ytimg.com/vi/lPfb-TbozhU/hqdefault.jpg)" aria-label="Play: Wanxing Elementary"></button>
         <div class="meta"><b>Wanxing Elementary</b><small>Dom Jones Campus News · 2026.05.19</small></div>
       </article>
-      <article class="video tour-video" data-reveal>
-        <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/7VJodV2HwnE?rel=0" title="Wenchang Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="7VJodV2HwnE" style="background-image:url(https://i.ytimg.com/vi/7VJodV2HwnE/hqdefault.jpg)" aria-label="Play: Wenchang Elementary"></button>
         <div class="meta"><b>Wenchang Elementary</b><small>Dom Jones Campus News · 2026.05.12</small></div>
         <a class="slides-link" href="https://www.twrses.org/media/dom-jones/slides/#deck-wenchang" target="_blank" rel="noopener">📑 View Slides</a>
       </article>
-      <article class="video tour-video" data-reveal>
-        <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/x--JEdN8xPY?rel=0" title="Zhonghe Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="x--JEdN8xPY" style="background-image:url(https://i.ytimg.com/vi/x--JEdN8xPY/hqdefault.jpg)" aria-label="Play: Zhonghe Elementary"></button>
         <div class="meta"><b>Zhonghe Elementary</b><small>Dom Jones Campus News · 2026.05.12</small></div>
       </article>
-      <article class="video tour-video" data-reveal>
-        <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/2flGVrz2fDE?rel=0" title="Kuaiguan Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="2flGVrz2fDE" style="background-image:url(https://i.ytimg.com/vi/2flGVrz2fDE/hqdefault.jpg)" aria-label="Play: Kuaiguan Elementary"></button>
         <div class="meta"><b>Kuaiguan Elementary</b><small>Dom Jones Campus News · 2026.05.05</small></div>
         <a class="slides-link" href="https://www.twrses.org/media/dom-jones/slides/#deck-kuaiguan" target="_blank" rel="noopener">📑 View Slides</a>
       </article>
-      <article class="video tour-video" data-reveal>
-        <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/FY2SjU8L04w?rel=0" title="Xizhou Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="FY2SjU8L04w" style="background-image:url(https://i.ytimg.com/vi/FY2SjU8L04w/hqdefault.jpg)" aria-label="Play: Xizhou Elementary"></button>
         <div class="meta"><b>Xizhou Elementary</b><small>Dom Jones Campus News · 2026.05.05</small></div>
         <a class="slides-link" href="https://www.twrses.org/media/dom-jones/slides/#deck-sijhou" target="_blank" rel="noopener">📑 View Slides</a>
       </article>
-      <article class="video tour-video" data-reveal>
-        <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/1CaTsQJHkpk?rel=0" title="Qiaoxin Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="1CaTsQJHkpk" style="background-image:url(https://i.ytimg.com/vi/1CaTsQJHkpk/hqdefault.jpg)" aria-label="Play: Qiaoxin Elementary"></button>
         <div class="meta"><b>Qiaoxin Elementary</b><small>Dom Jones Campus News · 2026.04.28</small></div>
         <a class="slides-link" href="https://www.twrses.org/media/dom-jones/slides/#deck-ciaosin" target="_blank" rel="noopener">📑 View Slides</a>
       </article>
-      <article class="video tour-video" data-reveal>
-        <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/ul5CBsV0QkA?rel=0" title="Xinmin Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="ul5CBsV0QkA" style="background-image:url(https://i.ytimg.com/vi/ul5CBsV0QkA/hqdefault.jpg)" aria-label="Play: Xinmin Elementary"></button>
         <div class="meta"><b>Xinmin Elementary</b><small>Dom Jones Campus News · 2026.04.21</small></div>
         <a class="slides-link" href="https://www.twrses.org/media/dom-jones/slides/#deck-hsinmin" target="_blank" rel="noopener">📑 View Slides</a>
       </article>
-      <article class="video tour-video" data-reveal>
-        <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/dH0MQxB4x8o?rel=0" title="Renfeng Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="dH0MQxB4x8o" style="background-image:url(https://i.ytimg.com/vi/dH0MQxB4x8o/hqdefault.jpg)" aria-label="Play: Renfeng Elementary"></button>
         <div class="meta"><b>Renfeng Elementary</b><small>Dom Jones Campus News · 2026.04.21</small></div>
         <a class="slides-link" href="https://www.twrses.org/media/dom-jones/slides/#deck-renfeng" target="_blank" rel="noopener">📑 View Slides</a>
       </article>
-      <article class="video tour-video" data-reveal>
-        <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/ugPeclZYyQM?rel=0" title="Mingli Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="ugPeclZYyQM" style="background-image:url(https://i.ytimg.com/vi/ugPeclZYyQM/hqdefault.jpg)" aria-label="Play: Mingli Elementary"></button>
         <div class="meta"><b>Mingli Elementary</b><small>Dom Jones Campus News · 2026.04.14</small></div>
         <a class="slides-link" href="https://www.twrses.org/media/dom-jones/slides/#deck-mingli" target="_blank" rel="noopener">📑 View Slides</a>
       </article>
-      <article class="video tour-video" data-reveal>
-        <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/UHlL9GpBeco?rel=0" title="Lufeng Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="UHlL9GpBeco" style="background-image:url(https://i.ytimg.com/vi/UHlL9GpBeco/hqdefault.jpg)" aria-label="Play: Lufeng Elementary"></button>
         <div class="meta"><b>Lufeng Elementary</b><small>Dom Jones Campus News · 2026.04.14</small></div>
       </article>
-      <article class="video tour-video" data-reveal>
-        <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/kYcVaoMnYBo?rel=0" title="Yuxin Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="kYcVaoMnYBo" style="background-image:url(https://i.ytimg.com/vi/kYcVaoMnYBo/hqdefault.jpg)" aria-label="Play: Yuxin Elementary"></button>
         <div class="meta"><b>Yuxin Elementary</b><small>Dom Jones Campus News · 2026.04.07</small></div>
         <a class="slides-link" href="https://www.twrses.org/media/dom-jones/slides/#deck-yushin" target="_blank" rel="noopener">📑 View Slides</a>
       </article>
-      <article class="video tour-video" data-reveal>
-        <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/hMMbheEwZkI?rel=0" title="Fusing Junior High - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="hMMbheEwZkI" style="background-image:url(https://i.ytimg.com/vi/hMMbheEwZkI/hqdefault.jpg)" aria-label="Play: Fusing Junior High"></button>
         <div class="meta"><b>Fusing Junior High</b><small>Dom Jones Campus News · 2026.04.07</small></div>
       </article>
-      <article class="video tour-video" data-reveal>
-        <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/3a2LlsTmLIU?rel=0" title="Dexing Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="3a2LlsTmLIU" style="background-image:url(https://i.ytimg.com/vi/3a2LlsTmLIU/hqdefault.jpg)" aria-label="Play: Dexing Elementary"></button>
         <div class="meta"><b>Dexing Elementary</b><small>Dom Jones Campus News · 2026.03.31</small></div>
         <a class="slides-link" href="https://www.twrses.org/media/dom-jones/slides/#deck-desing" target="_blank" rel="noopener">📑 View Slides</a>
       </article>
-      <article class="video tour-video" data-reveal>
-        <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/0CPDATRfMJ8?rel=0" title="Fusing Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="0CPDATRfMJ8" style="background-image:url(https://i.ytimg.com/vi/0CPDATRfMJ8/hqdefault.jpg)" aria-label="Play: Fusing Elementary"></button>
         <div class="meta"><b>Fusing Elementary</b><small>Dom Jones Campus News · 2026.03.31</small></div>
         <a class="slides-link" href="https://www.twrses.org/media/dom-jones/slides/#deck-fushing" target="_blank" rel="noopener">📑 View Slides</a>
       </article>
-      <article class="video tour-video" data-reveal>
-        <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/CRdHUTZHl_8?rel=0" title="Dacheng Junior High - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="CRdHUTZHl_8" style="background-image:url(https://i.ytimg.com/vi/CRdHUTZHl_8/hqdefault.jpg)" aria-label="Play: Dacheng Junior High"></button>
         <div class="meta"><b>Dacheng Junior High</b><small>Dom Jones Campus News · 2026.03.24</small></div>
         <a class="slides-link" href="https://www.twrses.org/media/dom-jones/slides/#deck-dacheng-jh" target="_blank" rel="noopener">📑 View Slides</a>
       </article>
-      <article class="video tour-video" data-reveal>
-        <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/19rekCsqAjk?rel=0" title="Dacheng Elementary - Dom Jones Campus News" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="19rekCsqAjk" style="background-image:url(https://i.ytimg.com/vi/19rekCsqAjk/hqdefault.jpg)" aria-label="Play: Dacheng Elementary"></button>
         <div class="meta"><b>Dacheng Elementary</b><small>Dom Jones Campus News · 2026.03.24</small></div>
         <a class="slides-link" href="https://www.twrses.org/media/dom-jones/slides/#deck-dacheng-elem" target="_blank" rel="noopener">📑 View Slides</a>
       </article>
-      <article class="video tour-video" data-reveal>
-        <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/h9XbU-mVjsY?rel=0" title="Datong Elementary - Small Hands, Big Impact" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="h9XbU-mVjsY" style="background-image:url(https://i.ytimg.com/vi/h9XbU-mVjsY/hqdefault.jpg)" aria-label="Play: Datong Elementary"></button>
         <div class="meta"><b>Datong Elementary</b><small>Small Hands, Big Impact</small></div>
       </article>
-      <article class="video tour-video" data-reveal>
-        <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/exNWJilPGMo?rel=0" title="Daxin Elementary - Dom Jones International Exchange" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="exNWJilPGMo" style="background-image:url(https://i.ytimg.com/vi/exNWJilPGMo/hqdefault.jpg)" aria-label="Play: Daxin Elementary"></button>
         <div class="meta"><b>Daxin Elementary</b><small>International Exchange</small></div>
       </article>
-      <article class="video tour-video" data-reveal>
-        <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/xQ-aT5w1e9A?rel=0" title="Beidou Elementary - Dom Jones International Exchange" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="xQ-aT5w1e9A" style="background-image:url(https://i.ytimg.com/vi/xQ-aT5w1e9A/hqdefault.jpg)" aria-label="Play: Beidou Elementary"></button>
         <div class="meta"><b>Beidou Elementary</b><small>International Exchange</small></div>
       </article>
-      <article class="video tour-video" data-reveal>
-        <div class="thumb"><iframe loading="lazy" src="https://www.youtube.com/embed/gcDCu03Io2k?rel=0" title="Yangming Junior High - Dom Jones School Visit" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <article class="video tour-video">
+        <button class="thumb" type="button" data-yt="gcDCu03Io2k" style="background-image:url(https://i.ytimg.com/vi/gcDCu03Io2k/hqdefault.jpg)" aria-label="Play: Yangming Junior High"></button>
         <div class="meta"><b>Yangming Junior High</b><small>School Visit</small></div>
       </article>
+      </div>
     </div>
   </div>
 </section>
@@ -358,6 +468,37 @@
   </div>
 </div></footer>
 
+<script>
+/* Video library: sticky tabs + click-to-load YouTube (no iframe until asked) */
+(function(){
+  var bar = document.querySelector('.vlib-bar');
+  if (bar) bar.addEventListener('click', function(e){
+    var t = e.target.closest('.vlib-tab'); if (!t) return;
+    bar.querySelectorAll('.vlib-tab').forEach(function(b){
+      var on = b === t;
+      b.classList.toggle('is-on', on);
+      b.setAttribute('aria-selected', on);
+    });
+    document.querySelectorAll('.vlib-panel').forEach(function(p){
+      p.classList.toggle('is-on', p.id === 'panel-' + t.dataset.panel);
+    });
+  });
+  document.addEventListener('click', function(e){
+    var b = e.target.closest('.tour-video .thumb[data-yt]'); if (!b) return;
+    var f = document.createElement('iframe');
+    f.src = 'https://www.youtube-nocookie.com/embed/' + b.dataset.yt + '?autoplay=1&rel=0';
+    f.title = b.getAttribute('aria-label') || 'Video';
+    f.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+    f.allowFullscreen = true;
+    f.referrerPolicy = 'strict-origin-when-cross-origin';
+    var wrap = document.createElement('div');
+    wrap.className = 'thumb';
+    wrap.appendChild(f);
+    b.closest('.video').classList.add('playing');
+    b.replaceWith(wrap);
+  });
+})();
+</script>
 <script src="assets/js/main.js"></script>
   <script defer src="/assets/js/search.js"></script>
 </body>
