@@ -422,3 +422,29 @@ a.card.choice:hover .choice-go{transform:translateX(6px)}
   .card:hover,.orgcard:hover,.lcard:hover,.role-card:hover,.pcard:hover{transform:none;}
   .card:hover::after,.orgcard:hover::after,.lcard:hover::after,.role-card:hover::after,.pcard:hover::after{transform:none;}
 }
+
+/* featured partnership band — full-width hero card (partners.html, ccc-chinese-school.html) */
+.pfeature{display:grid;grid-template-columns:1.05fr .95fr;background:#fff;border:1px solid #e7e7e7;
+  border-radius:22px;overflow:hidden;text-decoration:none;color:var(--ink);
+  box-shadow:0 12px 40px rgba(20,20,20,.09);transition:transform .3s,box-shadow .3s}
+.pfeature:hover{transform:translateY(-6px);box-shadow:0 30px 66px rgba(245,130,32,.22);text-decoration:none}
+.pf-img{min-height:340px;background:#eee center/cover;position:relative}
+.pf-img::after{content:"";position:absolute;inset:0;
+  background:linear-gradient(90deg,rgba(0,0,0,.18),rgba(0,0,0,0) 60%)}
+.pf-body{padding:44px 48px;display:flex;flex-direction:column;justify-content:center}
+.pf-badge{align-self:flex-start;background:var(--orange);color:#fff;border-radius:30px;
+  padding:5px 15px;font-family:var(--eyebrow);text-transform:uppercase;letter-spacing:.1em;
+  font-size:.72rem;font-weight:700;margin-bottom:16px}
+.pf-tag{font-family:var(--eyebrow);text-transform:uppercase;letter-spacing:.12em;
+  font-size:.76rem;color:var(--muted-2);margin:0 0 10px}
+.pfeature h2{margin:0 0 .45em;font-size:2.15rem;line-height:1.15}
+.pf-lead{color:var(--muted);font-size:1.06rem;line-height:1.75;margin:0 0 16px}
+.pf-meta{font-family:var(--eyebrow);letter-spacing:.05em;font-size:.84rem;color:var(--muted-2);margin:0 0 22px}
+.pf-go{font-family:var(--eyebrow);letter-spacing:.05em;font-weight:700;color:var(--orange-dark);font-size:1rem}
+.pfeature:hover .pf-go{color:var(--orange)}
+@media(max-width:860px){
+  .pfeature{grid-template-columns:1fr}
+  .pf-img{min-height:220px;aspect-ratio:16/9}
+  .pf-body{padding:30px 26px}
+  .pfeature h2{font-size:1.7rem}
+}
