@@ -12,11 +12,11 @@
 <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="/assets/css/search.css">
 <style>
-  .latest-cta{margin-top:18px;padding:14px 18px;border-radius:14px;
-    background:var(--bg-soft);border:1px dashed var(--orange)}
-  .latest-cta a{color:var(--ink,#2a2725);line-height:1.6}
-  .latest-cta a b{color:var(--orange-dark)}
-  .latest-cta a:hover{color:var(--orange)}
+  /* plain sentence link — the pointer cursor is the only affordance needed */
+  .latest-cta{margin-top:4px}
+  .latest-cta a{cursor:pointer;color:var(--orange-dark);font-weight:700;
+    text-decoration:none;border-bottom:1px solid transparent;transition:border-color .2s,color .2s}
+  .latest-cta a:hover{color:var(--orange);border-bottom-color:currentColor}
 </style>
 </head>
 <body>
@@ -51,7 +51,7 @@
       <h2>One partnership, two shores of the Pacific</h2>
       <p>Since 2022, My Culture Connect has partnered with <b>CCC Chinese School</b> in Albany, the capital of New York State. Their students tutor Taiwan's elementary children in English online — turning a 12-hour time difference into real cultural exchange and language practice.</p>
       <p>In July 2024, fourteen CCC students came to Taiwan for meaningful volunteer work. In 2025 they returned to Changhua — visiting elementary and vocational schools, making tofu, trying calligraphy, dragon dance and Chinese music, and co-teaching alongside local students.</p>
-      <p class="latest-cta"><a href="ccc-trip-2026.html"><b>August 2026 &middot; the newest visit</b> — six volunteers, five service days, nine short films and thirty-three photos &rarr;</a></p>
+      <p class="latest-cta">Their newest visit was in <a href="ccc-trip-2026.html">August 2026</a> &mdash; six volunteers, five service days, nine short films and a reflection.</p>
     </div>
     <img src="assets/img/partners/ccc-school.jpg" alt="CCC Chinese School students with Changhua children" loading="lazy" style="border-radius:18px">
   </div>
