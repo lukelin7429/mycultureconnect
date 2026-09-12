@@ -46,18 +46,28 @@
 @media(max-width:880px){.tl .node b{font-size:1rem}}
 /* Video library — sticky tabs over two card collections */
 .vlib .section-head{margin-bottom:26px}
-.vlib-bar{position:sticky;top:0;z-index:20;display:flex;gap:10px;justify-content:center;flex-wrap:wrap;
+.vlib-bar{position:sticky;top:0;z-index:20;display:flex;flex-direction:column;align-items:center;gap:9px;
   padding:14px 0;margin:0 0 26px;background:var(--bg-soft);box-shadow:0 1px 0 var(--line)}
-.vlib-tab{display:flex;align-items:center;gap:10px;cursor:pointer;background:#fff;
-  border:1px solid var(--line);border-radius:999px;padding:11px 22px;color:var(--muted);
-  font-family:var(--body);font-size:1rem;line-height:1.2;transition:.18s}
+.vlib-hint{margin:0;font-family:var(--eyebrow);text-transform:uppercase;letter-spacing:.16em;
+  font-size:.7rem;color:var(--muted-2)}
+.vlib-switch{display:inline-flex;gap:6px;padding:6px;background:#e8e5e1;border-radius:999px;
+  box-shadow:inset 0 1px 3px rgba(20,20,20,.10)}
+.vlib-tab{display:flex;align-items:center;gap:9px;cursor:pointer;background:#fff;
+  border:1px solid transparent;border-radius:999px;padding:10px 20px;color:var(--muted);
+  font-family:var(--body);font-size:1rem;line-height:1.2;box-shadow:0 2px 6px rgba(20,20,20,.12);
+  transition:transform .18s,box-shadow .18s,background .18s,border-color .18s}
+.vlib-tab .ico{font-size:1.05rem;line-height:1}
+.vlib-tab .en-short{display:none}
 .vlib-tab .en{font-weight:700;color:var(--ink)}
 .vlib-tab .zh{font-family:'PingFang TC','Apple LiGothic Medium','Microsoft JhengHei',var(--body);
   font-size:.9rem;color:var(--muted-2)}
 .vlib-tab .n{font-family:var(--eyebrow);font-size:.82rem;background:var(--bg-soft);color:var(--muted-2);
   border-radius:999px;padding:3px 10px;min-width:30px;text-align:center}
-.vlib-tab:hover{border-color:var(--orange);color:var(--ink)}
-.vlib-tab.is-on{background:var(--orange);border-color:var(--orange)}
+.vlib-tab:hover{transform:translateY(-2px);border-color:var(--orange);
+  box-shadow:0 9px 20px rgba(245,130,32,.24)}
+.vlib-tab.is-on{background:linear-gradient(135deg,var(--orange),#ff9d3c);border-color:transparent;
+  transform:none;box-shadow:0 6px 16px rgba(245,130,32,.38)}
+.vlib-tab.is-on:hover{transform:none}
 .vlib-tab.is-on .en,.vlib-tab.is-on .zh{color:#fff}
 .vlib-tab.is-on .n{background:rgba(255,255,255,.28);color:#fff}
 .vlib-panel{display:none}
@@ -77,12 +87,15 @@
 .tour-video .meta small.zh{font-family:'PingFang TC','Apple LiGothic Medium','Microsoft JhengHei',var(--body);
   font-size:.97rem;letter-spacing:0;margin-top:4px;color:var(--muted)}
 @media(max-width:680px){
-  /* one row that scrolls, rather than wrapping into a 130px-tall sticky bar */
-  .vlib-bar{flex-wrap:nowrap;overflow-x:auto;justify-content:flex-start;
-    scrollbar-width:none;-webkit-overflow-scrolling:touch;padding:11px 0}
-  .vlib-bar::-webkit-scrollbar{display:none}
-  .vlib-tab{flex:0 0 auto;padding:9px 16px;font-size:.94rem}
-  .vlib-tab .zh{display:none}
+  /* both halves stay on screen: equal-width tabs, no sideways scroll to discover
+     the second one. "Voices in Education" and the count badge don't fit in half a
+     phone screen, so the short label takes over and the badge is dropped. */
+  .vlib-bar{padding:11px 0;gap:7px}
+  .vlib-switch{display:flex;width:100%}
+  .vlib-tab{flex:1 1 0;min-width:0;justify-content:center;padding:9px 10px;font-size:.88rem}
+  .vlib-tab .en,.vlib-tab .zh,.vlib-tab .n{display:none}
+  .vlib-tab .en-short{display:block;white-space:nowrap;font-weight:700;color:var(--ink)}
+  .vlib-tab.is-on .en-short{color:#fff}
   .vlib-note{font-size:.98rem}
 }
 /* school-tour feedback Padlet wall */
@@ -183,13 +196,16 @@
       <p class="muted">Two collections from Dom Jones's assembly tour across Changhua County — the students' own campus-news reports, and the principals in their own words.</p>
     </div>
 
-    <div class="vlib-bar" role="tablist" aria-label="Video collections">
-      <button class="vlib-tab is-on" role="tab" aria-selected="true" data-panel="voices">
-        <span class="en">Voices in Education</span><span class="zh">教育之聲 · 校長專訪</span><span class="n">19</span>
-      </button>
-      <button class="vlib-tab" role="tab" aria-selected="false" data-panel="news">
-        <span class="en">Campus News</span><span class="zh">校園新聞 · 學生製作</span><span class="n">25</span>
-      </button>
+    <div class="vlib-bar">
+      <p class="vlib-hint">點擊切換 Switch collection</p>
+      <div class="vlib-switch" role="tablist" aria-label="Video collections">
+        <button class="vlib-tab is-on" role="tab" aria-selected="true" data-panel="voices">
+          <span class="ico" aria-hidden="true">🎙</span><span class="en">Voices in Education</span><span class="en-short">Principals</span><span class="zh">教育之聲 · 校長專訪</span><span class="n">19</span>
+        </button>
+        <button class="vlib-tab" role="tab" aria-selected="false" data-panel="news">
+          <span class="ico" aria-hidden="true">📹</span><span class="en">Campus News</span><span class="en-short">Campus News</span><span class="zh">校園新聞 · 學生製作</span><span class="n">25</span>
+        </button>
+      </div>
     </div>
 
     <div class="vlib-panel is-on" id="panel-voices">
