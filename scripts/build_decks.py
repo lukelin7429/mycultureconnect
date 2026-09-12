@@ -200,12 +200,27 @@ def t_truefalse(s, d):
 
 
 def t_game(s, d):
-    hints = "".join(f'<span class="hs-hint">{e(h)}</span>' for h in s.get("hints", []))
+    # A hint can be a plain string (a vocabulary prompt, always visible) or an
+    # object carrying an answer — those must stay hidden until tapped, otherwise
+    # the answer is printed on the slide and there is no game left to play.
+    parts = []
+    for h in s.get("hints", []):
+        if isinstance(h, dict):
+            mark = "👍" if h["a"] == "up" else "👎"
+            parts.append(
+                f'<button type="button" class="hs-hintbtn">'
+                f'<span class="hs-hint-q"><b>{e(h["en"])}</b> {e(h["zh"])}</span>'
+                f'<span class="hs-hint-a">{mark}</span></button>')
+        else:
+            parts.append(f'<span class="hs-hint">{e(h)}</span>')
+    hints = "".join(parts)
+    # long revealable items pack far better in two columns than as wrapping pills
+    hints_cls = "hs-hints hs-hints-reveal" if any(isinstance(h, dict) for h in s.get("hints", [])) else "hs-hints"
     bonus = '<span class="hs-bonus">BONUS 加碼</span>' if s.get("bonus") else ""
     return f'''<div class="hs hs-game">
   <h3 class="hs-head">{e(s.get("icon", "🎯"))} {e(s["head_en"])}<span>{e(s["head_zh"])}</span></h3>{bonus}
   <div class="hs-rule-box">{bi(e(s["rule_en"]), e(s["rule_zh"]))}</div>
-  <div class="hs-hints">{hints}</div>
+  <div class="{hints_cls}">{hints}</div>
   <div class="hs-target">{bi(e(s["target_en"]), e(s["target_zh"]))}</div>
 </div>'''
 
@@ -251,14 +266,10 @@ def t_phrases(s, d):
 
 def t_padlet(s, d):
     return f'''<div class="hs hs-padlet">
-  <h3 class="hs-head">📱 {e(s["head_en"])}<span>{e(s["head_zh"])}</span></h3>
-  <div class="hs-padletrow">
-    <img class="hs-qr" src="qr.svg" alt="Padlet QR code">
-    <div>
-      <div class="hs-prompt">{bi(e(s["body_en"]), e(s["body_zh"]))}</div>
-      <div class="hs-sentence"><b>{e(s["sentence_en"])}</b><span>{e(s["sentence_zh"])}</span></div>
-    </div>
-  </div>
+  <h3 class="hs-head">💬 {e(s["head_en"])}<span>{e(s["head_zh"])}</span></h3>
+  <div class="hs-prompt">{bi(e(s["body_en"]), e(s["body_zh"]))}</div>
+  <div class="hs-site">{e(s.get("site",""))}</div>
+  <div class="hs-sentence"><b>{e(s["sentence_en"])}</b><span>{e(s["sentence_zh"])}</span></div>
 </div>'''
 
 
@@ -277,20 +288,6 @@ RENDER = {
     "game": t_game, "pairshare": t_pairshare, "rank": t_rank, "action": t_action,
     "phrases": t_phrases, "padlet": t_padlet, "closing": t_closing,
 }
-
-
-# -------------------------------------------------------------------- the QR
-def write_qr(slug, url):
-    try:
-        import qrcode
-        import qrcode.image.svg
-    except ImportError:
-        print("  ! qrcode not installed — skipping QR (pip install qrcode)")
-        return
-    out = os.path.join(OUT_DIR, slug, "qr.svg")
-    os.makedirs(os.path.dirname(out), exist_ok=True)
-    qrcode.make(url, image_factory=qrcode.image.svg.SvgPathImage,
-                box_size=10, border=2).save(out)
 
 
 # ----------------------------------------------------------------- the pages
@@ -513,8 +510,6 @@ def main():
     decks = load_decks()
     for d in decks:
         write(f"{LIB}{d['slug']}/", deck_page(d))
-        if d.get("padlet"):
-            write_qr(d["slug"], d["padlet"])
         print(f"  ✓ {d['slug']}  ({len(d['slides'])} slides, interactive)")
 
     img = load_image_decks()

@@ -10,7 +10,6 @@
   "sdg": "2",
   "theme": "amber",
   "footer": "Teacher Dom · SDG #2 Zero Hunger 消除飢餓",
-  "padlet": "https://padlet.com/bdes11308/teacher-dom-s-school-tour-our-english-journey-map-owp5252c3wtbylnt",
   "slides": [
     {
       "type": "title",
@@ -429,23 +428,54 @@
       "rule_en": "I say an item. Thumbs UP = we can still eat it. Thumbs DOWN = it must go.",
       "rule_zh": "我說一樣東西，大拇指向上＝還能吃，向下＝該丟了。",
       "hints": [
-        "A banana with brown spots 有黑點的香蕉 → 👍",
-        "Bread one day past the date 過期一天的麵包 → 👍",
-        "Rice left out all night 放整晚的白飯 → 👎",
-        "A bent carrot 彎掉的紅蘿蔔 → 👍",
-        "Milk that smells sour 聞起來酸掉的牛奶 → 👎"
+        {
+          "en": "A banana with brown spots",
+          "zh": "有黑點的香蕉",
+          "a": "up"
+        },
+        {
+          "en": "Bread one day past the date",
+          "zh": "過期一天的麵包",
+          "a": "up"
+        },
+        {
+          "en": "Rice left out all night",
+          "zh": "放整晚的白飯",
+          "a": "down"
+        },
+        {
+          "en": "A bent carrot",
+          "zh": "彎掉的紅蘿蔔",
+          "a": "up"
+        },
+        {
+          "en": "Milk that smells sour",
+          "zh": "聞起來酸掉的牛奶",
+          "a": "down"
+        },
+        {
+          "en": "An apple with one bruise",
+          "zh": "有一塊撞傷的蘋果",
+          "a": "up"
+        },
+        {
+          "en": "Soup left on the desk since yesterday",
+          "zh": "昨天放到現在的湯",
+          "a": "down"
+        }
       ],
-      "target_en": "Teacher's tip: use this if you have extra time.",
-      "target_zh": "時間有多再用這頁。"
+      "target_en": "Tap each item to reveal the answer.",
+      "target_zh": "點每一項公布答案。"
     },
     {
       "type": "padlet",
-      "head_en": "Tell Dom What You Learned",
-      "head_zh": "把你學到的告訴 Dom",
-      "body_en": "Scan the code or open the link — write one sentence in English.",
-      "body_zh": "掃描 QR code 或開啟連結，用英文寫一句話。",
+      "head_en": "Leave a Message for Dom",
+      "head_zh": "留言給 Dom",
+      "body_en": "Go to our School Tour page and find the Beidou Junior High column. No sign-up, no login — just write your comment for Teacher Dom.",
+      "body_zh": "到我們網站的 School Tour 頁面，找到北斗國中那一欄，免註冊、免登入，直接留言跟 Teacher Dom 互動。",
       "sentence_en": "Today I learned ______.",
-      "sentence_zh": "今天我學到 ______。"
+      "sentence_zh": "今天我學到 ______。",
+      "site": "mycultureconnect.org/dom-school-tour.html"
     },
     {
       "type": "closing",
