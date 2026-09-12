@@ -1,0 +1,48 @@
+{
+  "slug": "2026-09-15-beidou-jh",
+  "school": "北斗國中",
+  "school_en": "Beidou Junior High",
+  "date": "2026.09.15",
+  "weekday_zh": "星期二",
+  "weekday_en": "Tuesday",
+  "items": [
+    {
+      "time": "08:40",
+      "label_en": "Arrive · Principal's office",
+      "label_zh": "抵達校長室",
+      "detail_en": "Set up for the principal interview.",
+      "detail_zh": "準備進行校長採訪。"
+    },
+    {
+      "period_en": "Period 2",
+      "period_zh": "第 2 節",
+      "time": "09:25 – 10:10",
+      "class": "704",
+      "label_en": "SDG 10 Reduced Inequalities",
+      "label_zh": "SDG 10 減少不平等",
+      "deck": "beidou-jh-sdg10-inequality"
+    },
+    {
+      "period_en": "Period 3",
+      "period_zh": "第 3 節",
+      "time": "10:20 – 11:05",
+      "class": "705",
+      "label_en": "SDG 2 Zero Hunger",
+      "label_zh": "SDG 2 消除飢餓",
+      "deck": "beidou-jh-sdg2-zerohunger"
+    },
+    {
+      "period_en": "Period 4",
+      "period_zh": "第 4 節",
+      "time": "11:15 – 12:00",
+      "class": "709",
+      "label_en": "SDG 2 Zero Hunger",
+      "label_zh": "SDG 2 消除飢餓",
+      "deck": "beidou-jh-sdg2-zerohunger",
+      "note_en": "Same deck as Period 3.",
+      "note_zh": "與第 3 節同一套簡報。"
+    }
+  ],
+  "footnote_en": "Each class is 45 minutes, with a 10-minute break between periods.",
+  "footnote_zh": "每節 45 分鐘，節與節之間休息 10 分鐘。"
+}

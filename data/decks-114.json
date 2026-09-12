@@ -1,44 +1,247 @@
 {
   "life_story": {
-    "slug": "dom-life-story", "title": "Dom Jones — A Life of Inspiration", "title_zh": "Dom 的生命故事", "count": 11
+    "slug": "dom-life-story",
+    "title": "Dom Jones — A Life of Inspiration",
+    "title_zh": "Dom 的生命故事",
+    "count": 11,
+    "title_en": "Dom Jones — A Life of Inspiration"
   },
   "schools": [
-    {"slug": "dacheng-elem-sdg10", "group": "dacheng-elem", "school": "大城國小", "date": "2026.03.24", "title": "SDG 10 減少不平等", "count": 10},
-    {"slug": "dacheng-jh-sdg14-bilingual", "group": "dacheng-jh", "school": "大城國中", "date": "2026.03.24", "title": "SDG 14 保育海洋生態（中學雙語版）", "count": 12},
-    {"slug": "dacheng-jh-sdg14-simplified", "group": "dacheng-jh", "school": "大城國中", "date": "2026.03.24", "title": "SDG 14 保育海洋生態（簡化版）", "count": 10},
-
-    {"slug": "desing-sdg2-zerohunger", "group": "desing", "school": "德興國小", "date": "2026.03.31", "title": "SDG 2 消除飢餓", "count": 10},
-    {"slug": "desing-food-agriculture", "group": "desing", "school": "德興國小", "date": "2026.03.31", "title": "食農教育", "count": 10},
-    {"slug": "fushing-character-education", "group": "fushing", "school": "福興國小", "date": "2026.03.31", "title": "品格教育", "count": 10},
-
-    {"slug": "yushin-sdg2-dairy", "group": "yushin", "school": "育新國小", "date": "2026.04.07", "title": "SDG 2 消除飢餓（酪農版）", "count": 20},
-
-    {"slug": "mingli-eco-bilingual", "group": "mingli", "school": "明禮國小", "date": "2026.04.14", "title": "生態教育（四年級雙語版）", "count": 14},
-
-    {"slug": "hsinmin-earth-day", "group": "hsinmin", "school": "新民國小", "date": "2026.04.21", "title": "地球日 Earth Day", "count": 20},
-    {"slug": "renfeng-sdg2-game", "group": "renfeng", "school": "仁豐國小", "date": "2026.04.21", "title": "SDG 2 消除飢餓（遊戲互動版）", "count": 18},
-
-    {"slug": "ciaosin-taiwan-vs-california-lunch", "group": "ciaosin", "school": "僑信國小", "date": "2026.04.28", "title": "台灣 vs 加州午餐文化", "count": 16},
-
-    {"slug": "kuaiguan-food-agri-sdg", "group": "kuaiguan", "school": "快官國小", "date": "2026.05.05", "title": "食農教育 SDG 2·3·12", "count": 16},
-    {"slug": "sijhou-sdg4", "group": "sijhou", "school": "溪州國小", "date": "2026.05.05", "title": "SDG 4 優質教育", "count": 20},
-
-    {"slug": "wenchang-sdg14-life-below-water", "group": "wenchang", "school": "文昌國小", "date": "2026.05.12", "title": "SDG 14 保育海洋生態", "count": 17},
-
-    {"slug": "hubei-sdg15-life-on-land", "group": "hubei", "school": "湖北國小", "date": "2026.05.19", "title": "SDG 15 陸地生態", "count": 13},
-
-    {"slug": "minsheng-earth-day", "group": "minsheng", "school": "民生國小", "date": "2026.05.25", "title": "地球日 Earth Day", "count": 20},
-    {"slug": "minsheng-california-home", "group": "minsheng", "school": "民生國小", "date": "2026.05.25", "title": "My California Home", "count": 20},
-    {"slug": "yude-sdg4-quality-education", "group": "yude", "school": "育德國小", "date": "2026.05.25", "title": "SDG 4 優質教育", "count": 20},
-    {"slug": "yude-food-agriculture-action", "group": "yude", "school": "育德國小", "date": "2026.05.25", "title": "食農行動 Food & Agriculture Action", "count": 20},
-
-    {"slug": "houliao-character-education", "group": "houliao", "school": "後寮國小", "date": "2026.06.02", "title": "品格教育", "count": 13},
-    {"slug": "yuhua-sdg7-solar", "group": "yuhua", "school": "育華國小", "date": "2026.06.02", "title": "SDG 7 太陽能", "count": 18}
+    {
+      "slug": "dacheng-elem-sdg10",
+      "group": "dacheng-elem",
+      "school": "大城國小",
+      "date": "2026.03.24",
+      "title": "SDG 10 減少不平等",
+      "count": 10,
+      "title_en": "SDG 10 Reduced Inequalities",
+      "school_en": "Dacheng Elementary"
+    },
+    {
+      "slug": "dacheng-jh-sdg14-bilingual",
+      "group": "dacheng-jh",
+      "school": "大城國中",
+      "date": "2026.03.24",
+      "title": "SDG 14 保育海洋生態（中學雙語版）",
+      "count": 12,
+      "title_en": "SDG 14 Life Below Water (JH bilingual)",
+      "school_en": "Dacheng Junior High"
+    },
+    {
+      "slug": "dacheng-jh-sdg14-simplified",
+      "group": "dacheng-jh",
+      "school": "大城國中",
+      "date": "2026.03.24",
+      "title": "SDG 14 保育海洋生態（簡化版）",
+      "count": 10,
+      "title_en": "SDG 14 Life Below Water (simplified)",
+      "school_en": "Dacheng Junior High"
+    },
+    {
+      "slug": "desing-sdg2-zerohunger",
+      "group": "desing",
+      "school": "德興國小",
+      "date": "2026.03.31",
+      "title": "SDG 2 消除飢餓",
+      "count": 10,
+      "title_en": "SDG 2 Zero Hunger",
+      "school_en": "Dexing Elementary"
+    },
+    {
+      "slug": "desing-food-agriculture",
+      "group": "desing",
+      "school": "德興國小",
+      "date": "2026.03.31",
+      "title": "食農教育",
+      "count": 10,
+      "title_en": "Food & Agriculture Education",
+      "school_en": "Dexing Elementary"
+    },
+    {
+      "slug": "fushing-character-education",
+      "group": "fushing",
+      "school": "福興國小",
+      "date": "2026.03.31",
+      "title": "品格教育",
+      "count": 10,
+      "title_en": "Character Education",
+      "school_en": "Fusing Elementary"
+    },
+    {
+      "slug": "yushin-sdg2-dairy",
+      "group": "yushin",
+      "school": "育新國小",
+      "date": "2026.04.07",
+      "title": "SDG 2 消除飢餓（酪農版）",
+      "count": 20,
+      "title_en": "SDG 2 Zero Hunger (dairy farming)",
+      "school_en": "Yuxin Elementary"
+    },
+    {
+      "slug": "mingli-eco-bilingual",
+      "group": "mingli",
+      "school": "明禮國小",
+      "date": "2026.04.14",
+      "title": "生態教育（四年級雙語版）",
+      "count": 14,
+      "title_en": "Eco Education (Grade 4 bilingual)",
+      "school_en": "Mingli Elementary"
+    },
+    {
+      "slug": "hsinmin-earth-day",
+      "group": "hsinmin",
+      "school": "新民國小",
+      "date": "2026.04.21",
+      "title": "地球日 Earth Day",
+      "count": 20,
+      "title_en": "Earth Day",
+      "school_en": "Xinmin Elementary"
+    },
+    {
+      "slug": "renfeng-sdg2-game",
+      "group": "renfeng",
+      "school": "仁豐國小",
+      "date": "2026.04.21",
+      "title": "SDG 2 消除飢餓（遊戲互動版）",
+      "count": 18,
+      "title_en": "SDG 2 Zero Hunger (interactive game)",
+      "school_en": "Renfeng Elementary"
+    },
+    {
+      "slug": "ciaosin-taiwan-vs-california-lunch",
+      "group": "ciaosin",
+      "school": "僑信國小",
+      "date": "2026.04.28",
+      "title": "台灣 vs 加州午餐文化",
+      "count": 16,
+      "title_en": "Taiwan vs California School Lunch",
+      "school_en": "Qiaoxin Elementary"
+    },
+    {
+      "slug": "kuaiguan-food-agri-sdg",
+      "group": "kuaiguan",
+      "school": "快官國小",
+      "date": "2026.05.05",
+      "title": "食農教育 SDG 2·3·12",
+      "count": 16,
+      "title_en": "Food & Agriculture (SDG 2·3·12)",
+      "school_en": "Kuaiguan Elementary"
+    },
+    {
+      "slug": "sijhou-sdg4",
+      "group": "sijhou",
+      "school": "溪州國小",
+      "date": "2026.05.05",
+      "title": "SDG 4 優質教育",
+      "count": 20,
+      "title_en": "SDG 4 Quality Education",
+      "school_en": "Xizhou Elementary"
+    },
+    {
+      "slug": "wenchang-sdg14-life-below-water",
+      "group": "wenchang",
+      "school": "文昌國小",
+      "date": "2026.05.12",
+      "title": "SDG 14 保育海洋生態",
+      "count": 17,
+      "title_en": "SDG 14 Life Below Water",
+      "school_en": "Wenchang Elementary"
+    },
+    {
+      "slug": "hubei-sdg15-life-on-land",
+      "group": "hubei",
+      "school": "湖北國小",
+      "date": "2026.05.19",
+      "title": "SDG 15 陸地生態",
+      "count": 13,
+      "title_en": "SDG 15 Life on Land",
+      "school_en": "Hubei Elementary"
+    },
+    {
+      "slug": "minsheng-earth-day",
+      "group": "minsheng",
+      "school": "民生國小",
+      "date": "2026.05.25",
+      "title": "地球日 Earth Day",
+      "count": 20,
+      "title_en": "Earth Day",
+      "school_en": "Minsheng Elementary"
+    },
+    {
+      "slug": "minsheng-california-home",
+      "group": "minsheng",
+      "school": "民生國小",
+      "date": "2026.05.25",
+      "title": "My California Home",
+      "count": 20,
+      "title_en": "My California Home",
+      "school_en": "Minsheng Elementary"
+    },
+    {
+      "slug": "yude-sdg4-quality-education",
+      "group": "yude",
+      "school": "育德國小",
+      "date": "2026.05.25",
+      "title": "SDG 4 優質教育",
+      "count": 20,
+      "title_en": "SDG 4 Quality Education",
+      "school_en": "Yude Elementary"
+    },
+    {
+      "slug": "yude-food-agriculture-action",
+      "group": "yude",
+      "school": "育德國小",
+      "date": "2026.05.25",
+      "title": "食農行動 Food & Agriculture Action",
+      "count": 20,
+      "title_en": "Food & Agriculture Action",
+      "school_en": "Yude Elementary"
+    },
+    {
+      "slug": "houliao-character-education",
+      "group": "houliao",
+      "school": "後寮國小",
+      "date": "2026.06.02",
+      "title": "品格教育",
+      "count": 13,
+      "title_en": "Character Education",
+      "school_en": "Houliao Elementary"
+    },
+    {
+      "slug": "yuhua-sdg7-solar",
+      "group": "yuhua",
+      "school": "育華國小",
+      "date": "2026.06.02",
+      "title": "SDG 7 太陽能",
+      "count": 18,
+      "title_en": "SDG 7 Solar Energy",
+      "school_en": "Yuhua Elementary"
+    }
   ],
   "templates": [
-    {"slug": "template-eco-education", "title": "生態環境教育 Eco-Education", "count": 10},
-    {"slug": "template-sdg4-quality-education", "title": "SDG 4 優質教育（國小版）", "count": 10},
-    {"slug": "template-sdg2-zerohunger-compact", "title": "SDG 2 消除飢餓（精簡版）", "count": 10},
-    {"slug": "template-sdg2-zerohunger-elementary", "title": "SDG 2 消除飢餓（國小版）", "count": 10}
+    {
+      "slug": "template-eco-education",
+      "title": "生態環境教育 Eco-Education",
+      "count": 10,
+      "title_en": "Eco-Education"
+    },
+    {
+      "slug": "template-sdg4-quality-education",
+      "title": "SDG 4 優質教育（國小版）",
+      "count": 10,
+      "title_en": "SDG 4 Quality Education (elementary)"
+    },
+    {
+      "slug": "template-sdg2-zerohunger-compact",
+      "title": "SDG 2 消除飢餓（精簡版）",
+      "count": 10,
+      "title_en": "SDG 2 Zero Hunger (compact)"
+    },
+    {
+      "slug": "template-sdg2-zerohunger-elementary",
+      "title": "SDG 2 消除飢餓（國小版）",
+      "count": 10,
+      "title_en": "SDG 2 Zero Hunger (elementary)"
+    }
   ]
 }
