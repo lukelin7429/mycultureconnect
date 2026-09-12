@@ -50,9 +50,7 @@
           "en": "people worldwide",
           "zh": "全球人口比例"
         }
-      ],
-      "t": 1.0,
-      "say": "Open big. Point at the SDG 2 badge. 'Today we are talking about food — and about people who don't have any.' Read the three numbers out loud, slowly."
+      ]
     },
     {
       "type": "intro",
@@ -77,9 +75,7 @@
         }
       ],
       "ask_en": "Raise your hand: who has been to another country?",
-      "ask_zh": "舉手：誰去過其他國家？",
-      "t": 2.0,
-      "say": "Introduce yourself. Compton → Taiwan. Keep it personal, not a CV. End with the raise-your-hand question and WAIT for hands — don't rush past it."
+      "ask_zh": "舉手：誰去過其他國家？"
     },
     {
       "type": "video",
@@ -87,9 +83,7 @@
       "head_zh": "成為那個改變",
       "yt": "otT9zA42dK0",
       "note_en": "Watch — then tell me one word you remember.",
-      "note_zh": "看完之後，告訴我你記得的一個英文單字。",
-      "t": 2.5,
-      "say": "Click the thumbnail to play. Before it starts: 'Listen for one English word you already know.' After it ends, take 3–4 answers. This is your first energy check."
+      "note_zh": "看完之後，告訴我你記得的一個英文單字。"
     },
     {
       "type": "standup",
@@ -110,9 +104,7 @@
         }
       ],
       "punch_en": "Look around. This is why SDG 2 exists.",
-      "punch_zh": "看看四周——這就是為什麼有 SDG 2。",
-      "t": 3.0,
-      "say": "Do all three in a row, don't explain between them. By #3 only a few stay standing — let the silence sit for 2 seconds, then deliver the punch line. This is the emotional anchor of the whole lesson."
+      "punch_zh": "看看四周——這就是為什麼有 SDG 2。"
     },
     {
       "type": "topic",
@@ -137,9 +129,7 @@
           "en": "enough",
           "zh": "足夠"
         }
-      ],
-      "t": 2.0,
-      "say": "Keep it short — this is the only 'lecture' slide. Say the 4 keywords out loud and have them repeat each one."
+      ]
     },
     {
       "type": "quiz",
@@ -166,9 +156,7 @@
       ],
       "answer": 2,
       "explain_en": "That's about 1 in every 11 people on Earth.",
-      "explain_zh": "大約每 11 個人就有 1 人。",
-      "t": 3.0,
-      "say": "Read the question. Take a vote by show of hands for A/B/C/D BEFORE revealing. Then tap any option to reveal. React to how many got it right."
+      "explain_zh": "大約每 11 個人就有 1 人。"
     },
     {
       "type": "bigstat",
@@ -178,9 +166,7 @@
       "body_en": "It is grown, harvested, shipped, cooked — and then thrown away.",
       "body_zh": "被種出來、採收、運送、煮好——然後被丟掉。",
       "ask_en": "If we already grow enough food for everyone, why are people still hungry?",
-      "ask_zh": "如果我們種的食物已經夠所有人吃，為什麼還有人挨餓？",
-      "t": 2.0,
-      "say": "Let the big number land. Ask the question at the bottom and take 2–3 answers. Do NOT answer it yourself — the next slides answer it."
+      "ask_zh": "如果我們種的食物已經夠所有人吃，為什麼還有人挨餓？"
     },
     {
       "type": "quiz",
@@ -207,9 +193,7 @@
       ],
       "answer": 2,
       "explain_en": "If food waste were a country, it would be the 3rd biggest polluter on Earth.",
-      "explain_zh": "如果「食物浪費」是一個國家，它會是全球第三大污染國。",
-      "t": 3.0,
-      "say": "Same routine: vote first, then tap to reveal. The '3rd biggest polluter' line usually gets a reaction — use it."
+      "explain_zh": "如果「食物浪費」是一個國家，它會是全球第三大污染國。"
     },
     {
       "type": "truefalse",
@@ -244,9 +228,7 @@
           "note_en": "This class alone eats about 15,000 school lunches a year.",
           "note_zh": "光是這個班，一年就吃掉大約 15,000 份營養午餐。"
         }
-      ],
-      "t": 5.0,
-      "say": "Four statements. For each: hands up ⭕ or ❌, then tap that row to reveal. Slowest slide on purpose — good place to slow down if you're ahead of time."
+      ]
     },
     {
       "type": "quiz",
@@ -273,9 +255,7 @@
       ],
       "answer": 3,
       "explain_en": "More than half of all food waste happens at home — that means we can fix it ourselves.",
-      "explain_zh": "超過一半的食物浪費發生在家裡——這代表我們自己就能改善。",
-      "t": 3.0,
-      "say": "Vote, then reveal. The point is 'we can fix it ourselves' — say that line twice."
+      "explain_zh": "超過一半的食物浪費發生在家裡——這代表我們自己就能改善。"
     },
     {
       "type": "game",
@@ -295,9 +275,7 @@
         "potato 馬鈴薯"
       ],
       "target_en": "Class record to beat: 15",
-      "target_zh": "要打破的班級紀錄：15 個",
-      "t": 4.0,
-      "say": "Energy slide. Actually count out loud. Let them shout. The hints are on screen if they stall. Celebrate whatever number they get."
+      "target_zh": "要打破的班級紀錄：15 個"
     },
     {
       "type": "pairshare",
@@ -308,9 +286,7 @@
       "sentence_en": "I never finish ______ because ______.",
       "sentence_zh": "我總是吃不完 ______，因為 ______。",
       "time_en": "60 seconds — then 3 pairs share with the class.",
-      "time_zh": "60 秒，然後請 3 組跟全班分享。",
-      "t": 4.0,
-      "say": "60 seconds of pair talk. Walk around while they talk. Then call on 3 pairs. Make them use the sentence frame on screen."
+      "time_zh": "60 秒，然後請 3 組跟全班分享。"
     },
     {
       "type": "rank",
@@ -337,9 +313,7 @@
         }
       ],
       "reveal_en": "There is no wrong answer — every one of these works. The biggest one is #4, because it multiplies.",
-      "reveal_zh": "沒有錯的答案，四個都有效。最強的是第 4 個，因為它會擴散出去。",
-      "t": 3.0,
-      "say": "Hands-up vote 1/2/3/4. Then tap Reveal. Emphasise that #4 multiplies — 'you tell one person, they tell one person.'"
+      "reveal_zh": "沒有錯的答案，四個都有效。最強的是第 4 個，因為它會擴散出去。"
     },
     {
       "type": "action",
@@ -361,9 +335,7 @@
           "en": "Tell one person at home about SDG 2.",
           "zh": "回家跟一個家人說 SDG 2。"
         }
-      ],
-      "t": 2.0,
-      "say": "Three actions, read each one, have the class repeat #1 together."
+      ]
     },
     {
       "type": "phrases",
@@ -390,9 +362,7 @@
           "en": "Be the change.",
           "zh": "成為那個改變。"
         }
-      ],
-      "t": 3.0,
-      "say": "Choral repetition. Say each line, they repeat. Go faster each round — make it a game by the 3rd pass."
+      ]
     },
     {
       "type": "quiz",
@@ -420,9 +390,7 @@
       ],
       "answer": 1,
       "explain_en": "A tomato has seeds inside — that makes it a fruit!",
-      "explain_zh": "番茄裡面有種子，所以在植物學上算水果！",
-      "t": 2.5,
-      "say": "BONUS — skip if short on time. Light relief, the tomato answer usually surprises them."
+      "explain_zh": "番茄裡面有種子，所以在植物學上算水果！"
     },
     {
       "type": "quiz",
@@ -450,9 +418,7 @@
       ],
       "answer": 1,
       "explain_en": "'Best before' is about quality, not safety. Look, smell, then decide.",
-      "explain_zh": "「最佳賞味期限」講的是品質，不是安全。看一看、聞一聞再決定。",
-      "t": 2.5,
-      "say": "BONUS — skip if short on time. Practical and slightly surprising; good for older classes."
+      "explain_zh": "「最佳賞味期限」講的是品質，不是安全。看一看、聞一聞再決定。"
     },
     {
       "type": "game",
@@ -470,9 +436,7 @@
         "Milk that smells sour 聞起來酸掉的牛奶 → 👎"
       ],
       "target_en": "Teacher's tip: use this if you have extra time.",
-      "target_zh": "時間有多再用這頁。",
-      "t": 4.0,
-      "say": "BONUS GAME — your main time-filler. Thumbs up/down on each item. You can invent more items beyond the list if you still have time."
+      "target_zh": "時間有多再用這頁。"
     },
     {
       "type": "padlet",
@@ -481,23 +445,14 @@
       "body_en": "Scan the code or open the link — write one sentence in English.",
       "body_zh": "掃描 QR code 或開啟連結，用英文寫一句話。",
       "sentence_en": "Today I learned ______.",
-      "sentence_zh": "今天我學到 ______。",
-      "t": 2.0,
-      "say": "Point at the QR. Give them 2 minutes to post. Read one or two posts out loud if any come in."
+      "sentence_zh": "今天我學到 ______。"
     },
     {
       "type": "closing",
       "big_en": "Be kind, be brave,<br>be the change.",
       "big_zh": "善良、勇敢，成為那個改變。",
       "sign_en": "Thank you, Beidou Junior High!",
-      "sign_zh": "謝謝北斗國中！",
-      "t": 1.0,
-      "say": "Close strong. Say the line, then have the whole class say it back to you. Thank them by name of the school."
+      "sign_zh": "謝謝北斗國中！"
     }
-  ],
-  "pacing": {
-    "core_min": 46,
-    "bonus_min": 9,
-    "period_min": 45
-  }
+  ]
 }

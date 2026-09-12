@@ -8,11 +8,14 @@ Reads one JSON per deck from data/decks/ and writes:
 
     slides/index.html                 bilingual library (English first)
     slides/<slug>/index.html          the deck itself — no site chrome
-    slides/<slug>/notes/index.html    Dom's English run sheet (phone / print)
     slides/<slug>/qr.svg              Padlet QR, generated locally
 
 Deck pages carry no site navigation on purpose: you open one to project it in
-a classroom. The run sheet is English-only — it is written for Dom.
+a classroom, so the site menu would only be clutter.
+
+Two kinds of deck live here: the 115 decks are built from typed slides (quiz,
+game, video…) and are interactive; the 114 decks are the original pre-rendered
+JPG sets and just page through their images.
 """
 import html
 import json
@@ -20,6 +23,23 @@ import os
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+
+def _asset_version():
+    """Hash of the deck assets, appended to their URLs so a fix never reaches a
+    classroom as a stale cached file."""
+    import hashlib
+    h = hashlib.sha1()
+    for rel in ("assets/css/deck.css", "assets/js/deck.js"):
+        try:
+            with open(os.path.join(ROOT, rel), "rb") as f:
+                h.update(f.read())
+        except FileNotFoundError:
+            pass
+    return h.hexdigest()[:8]
+
+
+ASSET_V = _asset_version()
 DECK_DIR = os.path.join(ROOT, "data", "decks")
 OUT_DIR = os.path.join(ROOT, "slides")
 LIB = "/slides/"
@@ -33,6 +53,29 @@ def load_decks():
         if fn.endswith(".json"):
             with open(os.path.join(DECK_DIR, fn), encoding="utf-8") as f:
                 out.append(json.load(f))
+    return out
+
+
+IMG_DECKS_FILE = os.path.join(ROOT, "data", "decks-114.json")
+
+
+def load_image_decks():
+    """The 114 decks: one folder of NN.jpg per deck, described in decks-114.json."""
+    if not os.path.isfile(IMG_DECKS_FILE):
+        return []
+    with open(IMG_DECKS_FILE, encoding="utf-8") as f:
+        raw = json.load(f)
+    out = []
+    ls = raw.get("life_story")
+    if ls:
+        out.append({**ls, "kind": "image", "year": "story",
+                    "sub": ls.get("title_zh", ""), "title_en": ls["title"]})
+    for d in raw.get("schools", []):
+        out.append({**d, "kind": "image", "year": "114",
+                    "sub": f'{d["school"]} · {d["date"]}', "title_en": d["title"]})
+    for d in raw.get("templates", []):
+        out.append({**d, "kind": "image", "year": "template",
+                    "sub": "Reusable template · 通用範本", "title_en": d["title"]})
     return out
 
 
@@ -270,7 +313,7 @@ def deck_page(d):
 <title>{e(d["title_en"])} · {e(d["school_en"])} — My Culture Connect</title>
 <meta name="description" content="Dom Jones bilingual assembly deck for {e(d["school_en"])} ({e(d["date"])}).">
 <link rel="icon" type="image/png" href="/assets/img/favicon.png">
-<link rel="stylesheet" href="/assets/css/deck.css">
+<link rel="stylesheet" href="/assets/css/deck.css?v={ASSET_V}">
 </head>
 <body class="deck-body">
 <div class="deck">
@@ -278,7 +321,6 @@ def deck_page(d):
     <a class="deck-back" href="{LIB}">← Slide Library</a>
     <div class="deck-heading"><h1>{e(d["title_en"])}</h1>
       <div class="sub">{e(d["school_en"])} {e(d["school"])} · {e(d["date"])}</div></div>
-    <a class="deck-notes-link" href="notes/">📋 Teaching notes</a>
     <div class="deck-pos-wrap"><b class="deck-pos">1</b> / {n}</div>
   </div>
   <div class="deck-stage">
@@ -291,124 +333,92 @@ def deck_page(d):
   <div class="deck-progress"><div class="bar"></div></div>
   <p class="deck-hint">Swipe or use ← → to change slides · tap a question to reveal the answer</p>
 </div>
-<script src="/assets/js/deck.js"></script>
+<script src="/assets/js/deck.js?v={ASSET_V}"></script>
 </body>
 </html>'''
 
 
-def notes_page(d):
-    """Dom's run sheet. English only — it is written for her."""
-    rows = []
-    running = 0.0
-    for i, s in enumerate(d["slides"], 1):
-        t = float(s.get("t", 0))
-        running += 0 if s.get("bonus") else t
-        tag = '<span class="bonus">BONUS · skip if short</span>' if s.get("bonus") else ""
-        mark = "—" if s.get("bonus") else f"{running:.0f} min"
-        rows.append(f'''<tr{' class="is-bonus"' if s.get("bonus") else ''}>
-  <td class="n">{i}</td>
-  <td class="t">{t:g} min<span class="run">{mark}</span></td>
-  <td><b>{e(slide_label(s, d))}</b>{tag}<p>{e(s.get("say",""))}</p></td>
-</tr>''')
-    p = d.get("pacing", {})
+def image_deck_page(d):
+    n = int(d["count"])
     nl = "\n"
+    slides = nl.join(
+        f'<div class="deck-slide"><img src="{i:02d}.jpg" alt="{e(d["title"])} — slide {i}" '
+        f'loading="{"eager" if i == 1 else "lazy"}"></div>' for i in range(1, n + 1))
     return f'''<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Teaching notes · {e(d["title_en"])} — {e(d["school_en"])}</title>
-<meta name="robots" content="noindex">
+<title>{e(d["title"])} · {e(d.get("school", "Dom Jones"))} — My Culture Connect</title>
+<meta name="description" content="Dom Jones bilingual assembly deck: {e(d["title"])}.">
 <link rel="icon" type="image/png" href="/assets/img/favicon.png">
-<style>
-  :root {{ --ink:#1b2321; --muted:#5d6b67; --key:#e2620f; --line:#e6e2d8; }}
-  * {{ box-sizing:border-box; }}
-  body {{ margin:0; padding:26px 18px 70px; background:#fbf9f4; color:var(--ink);
-    font:16px/1.6 -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }}
-  .wrap {{ max-width:760px; margin:0 auto; }}
-  a.back {{ color:var(--key); font-weight:700; text-decoration:none; font-size:.92rem; }}
-  h1 {{ font-size:1.6rem; margin:.5em 0 .1em; line-height:1.2; }}
-  .sub {{ color:var(--muted); margin-bottom:1.2em; }}
-  .box {{ background:#fff; border:1px solid var(--line); border-left:5px solid var(--key);
-    border-radius:12px; padding:16px 20px; margin-bottom:1.6em; }}
-  .box b {{ display:block; margin-bottom:.3em; }}
-  table {{ width:100%; border-collapse:collapse; }}
-  td {{ vertical-align:top; border-top:1px solid var(--line); padding:14px 6px; }}
-  td.n {{ width:34px; color:var(--muted); font-weight:700; }}
-  td.t {{ width:96px; color:var(--key); font-weight:700; white-space:nowrap; }}
-  td.t .run {{ display:block; color:var(--muted); font-weight:400; font-size:.82rem; }}
-  td p {{ margin:.35em 0 0; color:var(--muted); }}
-  tr.is-bonus {{ background:#fdf6ec; }}
-  .bonus {{ display:inline-block; margin-left:8px; background:var(--key); color:#fff;
-    border-radius:999px; padding:2px 10px; font-size:.7rem; font-weight:700; vertical-align:2px; }}
-  @media print {{ body {{ background:#fff; padding:0; }} a.back {{ display:none; }} }}
-</style>
+<link rel="stylesheet" href="/assets/css/deck.css?v={ASSET_V}">
 </head>
-<body>
-<div class="wrap">
-  <a class="back" href="../">← Back to the slides</a>
-  <h1>Teaching notes</h1>
-  <div class="sub">{e(d["title_en"])} · {e(d["school_en"])} {e(d["school"])} ·
-    {e(d["date"])} · classes {e(d.get("classes",""))}</div>
-
-  <div class="box">
-    <b>Pacing — you have {p.get("period_min",45)} minutes</b>
-    The core lesson is about {p.get("core_min","?")} minutes and the bonus slides add
-    another {p.get("bonus_min","?")}. That is deliberately more than one period: if you
-    finish the core early, go to the BONUS slides rather than filling time. The slowest
-    slides on purpose are the True/False round and the two games — stretch those.
+<body class="deck-body">
+<div class="deck">
+  <div class="deck-top">
+    <a class="deck-back" href="{LIB}">← Slide Library</a>
+    <div class="deck-heading"><h1>{e(d["title"])}</h1>
+      <div class="sub">{e(d["sub"])}</div></div>
+    <div class="deck-pos-wrap"><b class="deck-pos">1</b> / {n}</div>
   </div>
-
-  <div class="box">
-    <b>How the slides work</b>
-    Quiz slides: take a show-of-hands vote first, then tap any option and the correct
-    answer lights up with an explanation. True/False: tap each row separately. The
-    animation on slide 3 plays when you click the thumbnail. Nothing is timed — you
-    control every reveal.
+  <div class="deck-stage">
+    <div class="deck-track">
+{slides}
+    </div>
+    <button class="deck-arrow prev" aria-label="Previous">&lsaquo;</button>
+    <button class="deck-arrow next" aria-label="Next">&rsaquo;</button>
   </div>
-
-  <table>
-{nl.join(rows)}
-  </table>
+  <div class="deck-progress"><div class="bar"></div></div>
+  <p class="deck-hint">Swipe or use ← → to change slides</p>
 </div>
+<script src="/assets/js/deck.js?v={ASSET_V}"></script>
 </body>
 </html>'''
 
 
-def slide_label(s, d):
-    t = s["type"]
-    if t == "quiz":
-        return f'Q{s["n"]}: {s["q_en"]}'
-    for k in ("head_en", "big_en", "eyebrow_en"):
-        if k in s:
-            return s[k].replace("<br>", " ")
-    return t
-
-
 def library_page(decks):
     def card(d):
-        return f'''<a class="dcard" href="{LIB}{d["slug"]}/">
-  <span class="dc-cover" data-theme="{d.get("theme","amber")}">
-    <span class="dc-sdg">SDG {e(d["sdg"])}</span>
-    <span class="dc-en">{e(d["title_en"])}</span>
-    <span class="dc-zh">{e(d["title"])}</span>
-  </span>
-  <span class="dc-body">
-    <b>{e(d["title_en"])}</b>
-    <span class="dc-sub">{e(d["school_en"])} {e(d["school"])} · {e(d["date"])}</span>
-    <span class="dc-cnt">{len(d["slides"])} slides · interactive →</span>
-  </span>
+        interactive = d.get("kind") != "image"
+        if interactive:
+            cover = (f'<span class="dc-cover" data-theme="{d.get("theme","amber")}">'
+                     f'<span class="dc-sdg">SDG {e(d["sdg"])}</span>'
+                     f'<span class="dc-en">{e(d["title_en"])}</span>'
+                     f'<span class="dc-zh">{e(d["title"])}</span></span>')
+            sub = f'{e(d["school_en"])} {e(d["school"])} · {e(d["date"])}'
+            cnt = f'{len(d["slides"])} slides · interactive →'
+        else:
+            cover = (f'<span class="dc-cover dc-photo">'
+                     f'<img loading="lazy" src="{LIB}{d["slug"]}/01.jpg" alt="{e(d["title"])}"></span>')
+            sub = e(d["sub"])
+            cnt = f'{d["count"]} slides →'
+        anchor = f' id="deck-{e(d["group"])}"' if d.get("group") else ""
+        return f'''<a class="dcard" href="{LIB}{d["slug"]}/"{anchor}>
+  {cover}
+  <span class="dc-body"><b>{e(d["title_en"])}</b>
+    <span class="dc-sub">{sub}</span><span class="dc-cnt">{cnt}</span></span>
 </a>'''
 
-    by_year = {}
+    order = ["115", "114", "story", "template"]
+    labels = {
+        "115": ("2026–2027 · 115 學年度", "Interactive decks — questions reveal their answers when you tap them."),
+        "114": ("2025–2026 · 114 學年度", "The first school tour across Changhua County."),
+        "story": ("Dom's Own Story · Dom 的故事", ""),
+        "template": ("Reusable Templates · 通用範本", ""),
+    }
+    by = {}
     for d in decks:
-        by_year.setdefault(str(d.get("year", "—")), []).append(d)
+        by.setdefault(str(d.get("year", "114")), []).append(d)
+
     groups = []
-    for y in sorted(by_year, reverse=True):
-        label = {"115": "2026–2027 · 115 學年度"}.get(y, y)
+    for y in order:
+        if not by.get(y):
+            continue
+        title, blurb = labels[y]
+        note = f'<p class="muted" style="margin-top:-.6em">{blurb}</p>' if blurb else ""
         groups.append(f'''<section class="dgroup">
-  <h2>{label}</h2>
-  <div class="dgrid">{"".join(card(d) for d in by_year[y])}</div>
+  <h2>{title}</h2>{note}
+  <div class="dgrid">{"".join(card(d) for d in by[y])}</div>
 </section>''')
 
     nl = "\n"
@@ -418,19 +428,20 @@ def library_page(decks):
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Slide Library — Dom Jones School Tour · My Culture Connect</title>
-<meta name="description" content="The bilingual slide decks Dom Jones presents at each school assembly in Changhua County.">
+<meta name="description" content="Every bilingual slide deck Dom Jones presents at school assemblies across Changhua County.">
 <link rel="icon" type="image/png" href="/assets/img/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noticia+Text:wght@400;700&family=Questrial&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/css/style.css">
 <style>
-  .dgroup {{ margin-bottom:56px; }}
-  .dgroup h2 {{ font-size:1.5rem; margin-bottom:22px; }}
-  .dgrid {{ display:grid; grid-template-columns:repeat(3,1fr); gap:26px; }}
+  .dgroup {{ margin-bottom:60px; }}
+  .dgroup h2 {{ font-size:1.5rem; margin-bottom:.5em; }}
+  .dgrid {{ display:grid; grid-template-columns:repeat(3,1fr); gap:26px; margin-top:24px; }}
   .dcard {{ display:flex; flex-direction:column; background:#fff; border:1px solid #e7e7e7;
     border-radius:16px; overflow:hidden; text-decoration:none; color:var(--ink);
-    box-shadow:0 8px 26px rgba(20,20,20,.07); transition:transform .28s, box-shadow .28s; }}
+    box-shadow:0 8px 26px rgba(20,20,20,.07); transition:transform .28s, box-shadow .28s;
+    scroll-margin-top:100px; }}
   .dcard:hover {{ transform:translateY(-6px); box-shadow:0 24px 50px rgba(245,130,32,.18);
     text-decoration:none; }}
   .dc-cover {{ aspect-ratio:16/9; display:flex; flex-direction:column; justify-content:center;
@@ -438,18 +449,17 @@ def library_page(decks):
   .dc-cover[data-theme="amber"]  {{ --c-bg:#fdf4e3; --c-key:#e2620f; --c-key2:#b8480a; --c-ink:#3a2a12; }}
   .dc-cover[data-theme="teal"]   {{ --c-bg:#093a4a; --c-key:#16a394; --c-key2:#8fd8d0; --c-ink:#eaf6f8; }}
   .dc-cover[data-theme="violet"] {{ --c-bg:#f5f0fb; --c-key:#7a3fc4; --c-key2:#5b2a9b; --c-ink:#2c1a48; }}
+  .dc-photo {{ padding:0; background:#eee; }}
+  .dc-photo img {{ width:100%; height:100%; object-fit:cover; display:block; }}
   .dc-sdg {{ align-self:flex-start; background:var(--c-key); color:#fff; border-radius:999px;
     padding:5px 15px; font-size:.78rem; font-weight:800; font-family:var(--eyebrow); }}
   .dc-en {{ font-family:var(--serif); font-size:1.55rem; color:var(--c-key2); line-height:1.1; }}
   .dc-zh {{ font-size:.98rem; color:var(--c-ink); opacity:.8; }}
   .dc-body {{ padding:22px 24px; display:flex; flex-direction:column; gap:5px; }}
-  .dc-body b {{ font-family:var(--serif); font-weight:400; font-size:1.2rem; }}
+  .dc-body b {{ font-family:var(--serif); font-weight:400; font-size:1.2rem; line-height:1.2; }}
   .dc-sub {{ color:var(--muted-2); font-size:.94rem; }}
   .dc-cnt {{ margin-top:8px; font-family:var(--eyebrow); color:var(--orange-dark);
     font-weight:700; font-size:.92rem; }}
-  .archive {{ background:var(--bg-soft); border:1px solid var(--line); border-radius:16px;
-    padding:26px 30px; }}
-  .archive h3 {{ margin:0 0 .4em; }}
   @media(max-width:880px) {{ .dgrid {{ grid-template-columns:1fr; }} }}
 </style>
 </head>
@@ -476,24 +486,15 @@ def library_page(decks):
     <p class="eyebrow">Slide Library · 簡報庫</p>
     <h1>The decks Dom presents, slide by slide</h1>
     <p class="lead">Every bilingual deck Dom Jones uses in a Changhua classroom — swipe through
-      on any device. Questions reveal their answers when you tap them.</p>
-    <p class="lead bi-en" style="color:var(--muted-2);font-size:1rem">
-      Dom 在彰化每一場集會實際使用的雙語簡報，手機電腦都能左右滑動瀏覽，題目點一下就公布答案。</p>
+      on any device.</p>
+    <p class="lead" style="color:var(--muted-2);font-size:1rem">
+      Dom 在彰化每一場集會實際使用的雙語簡報，手機電腦都能左右滑動瀏覽。</p>
   </div>
 </section>
 
 <section>
   <div class="wrap">
 {nl.join(groups)}
-
-    <div class="archive">
-      <h3>2025–2026 · 114 學年度</h3>
-      <p class="muted">The first 21 school decks from Dom's Spring 2026 tour are still on the
-        Chinese site while we move them across.<br>
-        <span style="font-family:var(--body)">114 學年度的 21 支簡報目前仍在中文站，搬移中。</span></p>
-      <p><a class="btn ghost" href="https://www.twrses.org/media/dom-jones/slides/" target="_blank" rel="noopener">
-        Browse the 114 archive →</a></p>
-    </div>
   </div>
 </section>
 
@@ -510,16 +511,22 @@ def library_page(decks):
 
 def main():
     decks = load_decks()
-    if not decks:
-        sys.exit("no decks found in data/decks/")
     for d in decks:
         write(f"{LIB}{d['slug']}/", deck_page(d))
-        write(f"{LIB}{d['slug']}/notes/", notes_page(d))
         if d.get("padlet"):
             write_qr(d["slug"], d["padlet"])
-        print(f"  ✓ {d['slug']}  ({len(d['slides'])} slides + notes)")
-    write(LIB, library_page(decks))
-    print(f"  ✓ {LIB} (library, {len(decks)} deck(s))")
+        print(f"  ✓ {d['slug']}  ({len(d['slides'])} slides, interactive)")
+
+    img = load_image_decks()
+    for d in img:
+        write(f"{LIB}{d['slug']}/", image_deck_page(d))
+    print(f"  ✓ {len(img)} image deck(s) from 114")
+
+    alld = decks + img
+    if not alld:
+        sys.exit("no decks found")
+    write(LIB, library_page(alld))
+    print(f"  ✓ {LIB} (library, {len(alld)} decks)")
 
 
 if __name__ == "__main__":
