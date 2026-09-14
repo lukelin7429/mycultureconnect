@@ -310,21 +310,23 @@ body.deck-body { background:var(--page); min-height:100vh; font-family:var(--san
 
 /* 進場動畫：切到某頁時，該頁元素依序浮現 */
 @media (prefers-reduced-motion: no-preference) {
-  .deck-slide .hs > *,
-  .deck-slide .hs-art { opacity:0; transform:translateY(16px); }
-  .deck-slide.is-active .hs > *,
-  .deck-slide.is-active .hs-art {
+  /* 只有在 deck.js 跑起來（加上 .anim-ready）之後才把內容藏起來準備動畫。
+     否則萬一 JS 沒載入，教室裡會看到整片空白投影片。 */
+  .deck.anim-ready .deck-slide .hs > *,
+  .deck.anim-ready .deck-slide .hs-art { opacity:0; transform:translateY(16px); }
+  .deck.anim-ready .deck-slide.is-active .hs > *,
+  .deck.anim-ready .deck-slide.is-active .hs-art {
     opacity:1; transform:none;
     transition:opacity .45s ease, transform .45s cubic-bezier(.2,.7,.3,1); }
-  .deck-slide.is-active .hs-art { transition-delay:.05s; transform:none; }
-  .deck-slide.is-active .hs > *:nth-child(1) { transition-delay:.10s; }
-  .deck-slide.is-active .hs > *:nth-child(2) { transition-delay:.18s; }
-  .deck-slide.is-active .hs > *:nth-child(3) { transition-delay:.26s; }
-  .deck-slide.is-active .hs > *:nth-child(4) { transition-delay:.34s; }
-  .deck-slide.is-active .hs > *:nth-child(5) { transition-delay:.42s; }
-  .deck-slide.is-active .hs > *:nth-child(6) { transition-delay:.50s; }
+  .deck.anim-ready .deck-slide.is-active .hs-art { transition-delay:.05s; transform:none; }
+  .deck.anim-ready .deck-slide.is-active .hs > *:nth-child(1) { transition-delay:.10s; }
+  .deck.anim-ready .deck-slide.is-active .hs > *:nth-child(2) { transition-delay:.18s; }
+  .deck.anim-ready .deck-slide.is-active .hs > *:nth-child(3) { transition-delay:.26s; }
+  .deck.anim-ready .deck-slide.is-active .hs > *:nth-child(4) { transition-delay:.34s; }
+  .deck.anim-ready .deck-slide.is-active .hs > *:nth-child(5) { transition-delay:.42s; }
+  .deck.anim-ready .deck-slide.is-active .hs > *:nth-child(6) { transition-delay:.50s; }
   /* 插圖本身輕微放大，帶一點生氣 */
-  .deck-slide.is-active .hs-art img {
+  .deck.anim-ready .deck-slide.is-active .hs-art img {
     animation:artZoom 9s ease-out both; }
   @keyframes artZoom { from { transform:scale(1.06); } to { transform:scale(1); } }
 }
@@ -365,3 +367,14 @@ body.deck-body { background:var(--page); min-height:100vh; font-family:var(--san
 .hs-quiz.has-art .hs-q { padding:10px 16px; }
 .hs-quiz.has-art .hs-opt { padding:5px 13px; }
 .hs-quiz.has-art .hs-tap { font-size:15px; }
+
+/* 整頁地圖：地圖是橫向的，塞進側邊窄欄只會被裁掉八成 */
+.hs-map { gap:12px; }
+.hs-map .hs-head { font-size:36px; }
+.hs-map .hs-head span { font-size:23px; }
+.hs-mapimg { flex:1; min-height:0; border-radius:14px; overflow:hidden;
+  border:3px solid var(--hs-key); background:#fff; }
+.hs-mapimg img { width:100%; height:100%; object-fit:contain; display:block; }
+.hs-map .hs-ask { margin-top:0; padding:11px 18px; }
+.hs-map .hs-ask .hs-en { font-size:22px; }
+.hs-map .hs-ask .hs-zh { font-size:18px; }

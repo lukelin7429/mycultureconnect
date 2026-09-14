@@ -75,8 +75,15 @@
         }
       ],
       "ask_en": "Raise your hand: who has been to another country?",
-      "ask_zh": "舉手：誰去過其他國家？",
-      "img": "california-taiwan"
+      "ask_zh": "舉手：誰去過其他國家？"
+    },
+    {
+      "type": "map",
+      "head_en": "From California to Changhua",
+      "head_zh": "從加州到彰化",
+      "img": "map-usa-taiwan.svg",
+      "ask_en": "That is a 13-hour flight. What would you miss most if you moved that far?",
+      "ask_zh": "那是 13 小時的飛行。如果你搬那麼遠，最想念的會是什麼？"
     },
     {
       "type": "video",
@@ -168,7 +175,7 @@
       "body_zh": "被種出來、採收、運送、煮好——然後被丟掉。",
       "ask_en": "If we already grow enough food for everyone, why are people still hungry?",
       "ask_zh": "如果我們種的食物已經夠所有人吃，為什麼還有人挨餓？",
-      "img": "sdg2-waste"
+      "img": "sdg2-waste-v"
     },
     {
       "type": "quiz",

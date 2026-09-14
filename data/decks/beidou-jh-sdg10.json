@@ -75,8 +75,15 @@
         }
       ],
       "ask_en": "Raise your hand: has anyone ever guessed something wrong about you?",
-      "ask_zh": "舉手：有沒有人曾經對你有過錯誤的猜測？",
-      "img": "california-taiwan"
+      "ask_zh": "舉手：有沒有人曾經對你有過錯誤的猜測？"
+    },
+    {
+      "type": "map",
+      "head_en": "From California to Changhua",
+      "head_zh": "從加州到彰化",
+      "img": "map-usa-taiwan.svg",
+      "ask_en": "That is a 13-hour flight. What would you miss most if you moved that far?",
+      "ask_zh": "那是 13 小時的飛行。如果你搬那麼遠，最想念的會是什麼？"
     },
     {
       "type": "video",

@@ -135,6 +135,8 @@
       }
     });
 
+    // 標記「JS 已就緒」，進場動畫才會啟用（見 deck.css 的說明）
+    deck.classList.add('anim-ready');
     go(0);
   }
 

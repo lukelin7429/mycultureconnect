@@ -109,8 +109,10 @@ def art(s_):
     right-hand panel and the text column narrows to make room."""
     if not s_.get("img"):
         return "", ""
+    name = s_["img"]
+    src = name if "." in name else name + ".png"
     return (" has-art",
-            f'<div class="hs-art"><img src="/assets/img/decks/{e(s_["img"])}.png" alt="" loading="lazy"></div>')
+            f'<div class="hs-art"><img src="/assets/img/decks/{e(src)}" alt="" loading="lazy"></div>')
 
 
 def bi(en, zh, cls=""):
@@ -300,6 +302,15 @@ def t_padlet(s, d):
 </div>'''
 
 
+def t_map(s, d):
+    """A full-width map slide — a wide map cannot survive the narrow side panel."""
+    return f'''<div class="hs hs-map">
+  <h3 class="hs-head">{e(s["head_en"])}<span>{e(s["head_zh"])}</span></h3>
+  <div class="hs-mapimg"><img src="/assets/img/decks/{e(s["img"])}" alt="" loading="lazy"></div>
+  <div class="hs-ask">🌏 {bi(e(s["ask_en"]), e(s["ask_zh"]))}</div>
+</div>'''
+
+
 def t_closing(s, d):
     acls, aimg = art(s)
     return f'''<div class="hs hs-closing{acls}">{aimg}
@@ -314,7 +325,7 @@ RENDER = {
     "title": t_title, "intro": t_intro, "video": t_video, "standup": t_standup,
     "topic": t_topic, "quiz": t_quiz, "bigstat": t_bigstat, "truefalse": t_truefalse,
     "game": t_game, "pairshare": t_pairshare, "rank": t_rank, "action": t_action,
-    "phrases": t_phrases, "padlet": t_padlet, "closing": t_closing,
+    "map": t_map, "phrases": t_phrases, "padlet": t_padlet, "closing": t_closing,
 }
 
 
