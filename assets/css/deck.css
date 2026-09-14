@@ -70,9 +70,9 @@ body.deck-body { background:var(--page); min-height:100vh; font-family:var(--san
 
 .hs-en { display:block; font-weight:700; line-height:1.25; }
 .hs-zh { display:block; font-family:var(--zh); opacity:.82; line-height:1.4; font-weight:400; }
-.hs-bi .hs-en { font-size:26px; } .hs-bi .hs-zh { font-size:21px; }
-.hs-head { font-size:44px; font-weight:800; margin:0; line-height:1.15; color:var(--hs-key2); }
-.hs-head span { display:block; font-family:var(--zh); font-size:27px; font-weight:600;
+.hs-bi .hs-en { font-size:29px; } .hs-bi .hs-zh { font-size:23px; }
+.hs-head { font-size:48px; font-weight:800; margin:0; line-height:1.15; color:var(--hs-key2); }
+.hs-head span { display:block; font-family:var(--zh); font-size:30px; font-weight:600;
   color:var(--hs-ink); opacity:.8; margin-top:4px; }
 .hs-rule { height:5px; width:180px; background:var(--hs-key); border-radius:3px; }
 
@@ -81,27 +81,27 @@ body.deck-body { background:var(--page); min-height:100vh; font-family:var(--san
 .hs-titlerow { display:flex; align-items:center; gap:26px; }
 .hs-badge { flex:0 0 132px; height:132px; border-radius:50%; background:var(--hs-key); color:#fff;
   display:grid; place-content:center; text-align:center; line-height:1.05; }
-.hs-badge span { font-size:23px; font-weight:700; display:block; }
-.hs-badge b { font-size:44px; display:block; }
-.hs-titletext h2 { font-size:72px; margin:0; line-height:1.02; color:var(--hs-key2); font-weight:800; }
-.hs-zh-big { font-family:var(--zh); font-size:37px; margin:4px 0 0; color:var(--hs-ink); }
-.hs-eyebrow .hs-en { font-size:23px; font-weight:600; } .hs-eyebrow .hs-zh { font-size:19px; }
+.hs-badge span { font-size:25px; font-weight:700; display:block; }
+.hs-badge b { font-size:48px; display:block; }
+.hs-titletext h2 { font-size:79px; margin:0; line-height:1.02; color:var(--hs-key2); font-weight:800; }
+.hs-zh-big { font-family:var(--zh); font-size:41px; margin:4px 0 0; color:var(--hs-ink); }
+.hs-eyebrow .hs-en { font-size:25px; font-weight:600; } .hs-eyebrow .hs-zh { font-size:21px; }
 .hs-chips { display:flex; gap:13px; }
 .hs-chip { flex:1; background:var(--hs-soft); border:2px solid var(--hs-key); border-radius:12px;
   padding:13px 10px; text-align:center; }
-.hs-chip .hs-en { font-size:19px; } .hs-chip .hs-zh { font-size:17px; }
+.hs-chip .hs-en { font-size:21px; } .hs-chip .hs-zh { font-size:19px; }
 .hs-strip { display:flex; gap:34px; margin-top:4px; }
-.hs-stat b { font-size:34px; color:var(--hs-key); display:block; line-height:1; }
-.hs-stat .hs-en { font-size:17px; font-weight:600; } .hs-stat .hs-zh { font-size:15px; }
-.hs-school { position:absolute; right:60px; top:40px; font-family:var(--zh); font-size:19px;
+.hs-stat b { font-size:37px; color:var(--hs-key); display:block; line-height:1; }
+.hs-stat .hs-en { font-size:19px; font-weight:600; } .hs-stat .hs-zh { font-size:16px; }
+.hs-school { position:absolute; right:60px; top:40px; font-family:var(--zh); font-size:21px;
   color:var(--hs-key2); font-weight:600; }
 
 /* lines / intro */
 .hs-lines { display:flex; flex-direction:column; gap:13px; }
 .hs-line { border-left:6px solid var(--hs-key); padding-left:16px; }
-.hs-line .hs-en { font-size:28px; } .hs-line .hs-zh { font-size:22px; }
+.hs-line .hs-en { font-size:31px; } .hs-line .hs-zh { font-size:24px; }
 .hs-ask { margin-top:auto; background:var(--hs-key); color:#fff; border-radius:14px; padding:16px 22px; }
-.hs-ask .hs-en { font-size:26px; } .hs-ask .hs-zh { font-size:21px; opacity:.95; }
+.hs-ask .hs-en { font-size:29px; } .hs-ask .hs-zh { font-size:23px; opacity:.95; }
 
 /* video */
 .hs-video { align-items:center; }
@@ -109,11 +109,11 @@ body.deck-body { background:var(--page); min-height:100vh; font-family:var(--san
   background:#000; box-shadow:0 14px 40px rgba(0,0,0,.3); cursor:pointer; }
 .hs-yt img, .hs-yt iframe { width:100%; height:100%; object-fit:cover; border:0; display:block; }
 .hs-play { position:absolute; inset:0; margin:auto; width:92px; height:92px; border-radius:50%;
-  border:0; background:rgba(255,255,255,.94); color:var(--hs-key); font-size:34px; cursor:pointer;
+  border:0; background:rgba(255,255,255,.94); color:var(--hs-key); font-size:37px; cursor:pointer;
   display:grid; place-content:center; padding-left:6px; }
 .hs-yt:hover .hs-play { background:var(--hs-key); color:#fff; }
 .hs-note { text-align:center; }
-.hs-note .hs-en { font-size:24px; } .hs-note .hs-zh { font-size:20px; }
+.hs-note .hs-en { font-size:26px; } .hs-note .hs-zh { font-size:22px; }
 
 /* stand up if */
 .hs-prompts { list-style:none; counter-reset:p; margin:0; padding:0;
@@ -122,37 +122,37 @@ body.deck-body { background:var(--page); min-height:100vh; font-family:var(--san
   padding:17px 22px 17px 74px; position:relative; box-shadow:0 3px 10px rgba(0,0,0,.07); }
 .hs-prompts li::before { content:counter(p); position:absolute; left:20px; top:50%; translate:0 -50%;
   width:38px; height:38px; border-radius:50%; background:var(--hs-key); color:#fff;
-  display:grid; place-content:center; font-weight:800; font-size:21px; }
-.hs-prompts .hs-en { font-size:26px; } .hs-prompts .hs-zh { font-size:21px; }
+  display:grid; place-content:center; font-weight:800; font-size:23px; }
+.hs-prompts .hs-en { font-size:29px; } .hs-prompts .hs-zh { font-size:23px; }
 .hs-punch { margin-top:auto; text-align:center; background:var(--hs-key2); color:#fff;
   border-radius:14px; padding:16px; }
-.hs-punch .hs-en { font-size:29px; } .hs-punch .hs-zh { font-size:22px; }
+.hs-punch .hs-en { font-size:32px; } .hs-punch .hs-zh { font-size:24px; }
 
 /* topic */
-.hs-body-en { font-size:28px; line-height:1.42; margin:0; font-weight:600; }
-.hs-body-zh { font-family:var(--zh); font-size:23px; line-height:1.55; margin:0; opacity:.85; }
+.hs-body-en { font-size:31px; line-height:1.42; margin:0; font-weight:600; }
+.hs-body-zh { font-family:var(--zh); font-size:25px; line-height:1.55; margin:0; opacity:.85; }
 .hs-kws { display:flex; gap:13px; margin-top:auto; }
 .hs-kw { flex:1; background:var(--hs-key); color:#fff; border-radius:12px; padding:13px;
-  text-align:center; font-family:var(--zh); font-size:19px; }
-.hs-kw b { display:block; font-family:var(--sans); font-size:25px; }
+  text-align:center; font-family:var(--zh); font-size:21px; }
+.hs-kw b { display:block; font-family:var(--sans); font-size:28px; }
 
 /* quiz */
 .hs-qbar { display:flex; align-items:center; gap:12px; }
 .hs-qtag { background:var(--hs-band); color:#fff; border-radius:999px; padding:9px 20px;
-  font-family:var(--zh); font-size:21px; font-weight:700; }
+  font-family:var(--zh); font-size:23px; font-weight:700; }
 .hs-bonus { background:var(--hs-key2); color:#fff; border-radius:999px; padding:7px 15px;
-  font-size:15px; font-family:var(--zh); font-weight:700; }
-.hs-qn { margin-left:auto; font-size:27px; font-weight:800; color:var(--hs-key2); }
+  font-size:16px; font-family:var(--zh); font-weight:700; }
+.hs-qn { margin-left:auto; font-size:30px; font-weight:800; color:var(--hs-key2); }
 .hs-q { background:var(--hs-soft); border:3px solid var(--hs-key); border-radius:14px; padding:17px 22px; }
-.hs-q .hs-en { font-size:31px; } .hs-q .hs-zh { font-size:23px; }
+.hs-q .hs-en { font-size:34px; } .hs-q .hs-zh { font-size:25px; }
 .hs-opts { display:grid; grid-template-columns:1fr 1fr; gap:13px; }
 .hs-opt { display:flex; align-items:center; gap:13px; text-align:left; cursor:pointer;
   background:var(--hs-soft); border:2px solid transparent; border-radius:12px; padding:11px 18px;
   font-family:inherit; color:inherit; box-shadow:0 3px 10px rgba(0,0,0,.08); transition:.18s; }
 .hs-opt:hover { border-color:var(--hs-key); }
 .hs-letter { flex:0 0 40px; height:40px; border-radius:10px; background:var(--hs-key); color:#fff;
-  display:grid; place-content:center; font-weight:800; font-size:21px; }
-.hs-opt .hs-en { font-size:22px; } .hs-opt .hs-zh { font-size:18px; }
+  display:grid; place-content:center; font-weight:800; font-size:23px; }
+.hs-opt .hs-en { font-size:24px; } .hs-opt .hs-zh { font-size:20px; }
 .hs-opt > span:nth-child(2), .hs-opt > span:nth-child(3) { flex:1; }
 .is-revealed .hs-opt { opacity:.42; }
 .is-revealed .hs-opt.is-right { opacity:1; background:var(--hs-key); color:#fff; border-color:var(--hs-key2); }
@@ -160,63 +160,63 @@ body.deck-body { background:var(--page); min-height:100vh; font-family:var(--san
 .is-revealed .hs-opt.is-right .hs-zh { opacity:.95; }
 .hs-explain { display:none; background:var(--hs-key2); color:#fff; border-radius:12px; padding:11px 20px; }
 .is-revealed .hs-explain { display:block; }
-.hs-explain .hs-en { font-size:23px; } .hs-explain .hs-zh { font-size:19px; }
-.hs-tap { margin-top:auto; text-align:center; font-family:var(--zh); font-size:17px; opacity:.6; }
+.hs-explain .hs-en { font-size:25px; } .hs-explain .hs-zh { font-size:21px; }
+.hs-tap { margin-top:auto; text-align:center; font-family:var(--zh); font-size:19px; opacity:.6; }
 .is-revealed .hs-tap { visibility:hidden; }
 
 /* big stat */
 .hs-bigstat { justify-content:center; text-align:center; align-items:center; }
-.hs-bignum { font-size:150px; font-weight:800; color:var(--hs-key); line-height:1; }
-.hs-bighead { font-size:38px; margin:0; font-weight:700; }
-.hs-bighead-zh { font-family:var(--zh); font-size:27px; margin:0; opacity:.85; }
+.hs-bignum { font-size:165px; font-weight:800; color:var(--hs-key); line-height:1; }
+.hs-bighead { font-size:42px; margin:0; font-weight:700; }
+.hs-bighead-zh { font-family:var(--zh); font-size:30px; margin:0; opacity:.85; }
 
 /* true / false */
 .hs-tflist { gap:12px; }
-.hs-tflist .hs-head { font-size:34px; }
-.hs-tflist .hs-head span { font-size:22px; }
+.hs-tflist .hs-head { font-size:37px; }
+.hs-tflist .hs-head span { font-size:24px; }
 .hs-tfs { display:flex; flex-direction:column; gap:7px; }
 .hs-tf { display:flex; align-items:center; gap:16px; text-align:left; cursor:pointer;
   background:var(--hs-soft); border:2px solid transparent; border-radius:12px; padding:6px 18px;
   font-family:inherit; color:inherit; box-shadow:0 3px 10px rgba(0,0,0,.07); transition:.18s; }
 .hs-tf:hover { border-color:var(--hs-key); }
 .hs-tfq { flex:1; }
-.hs-tfq .hs-en { font-size:21px; } .hs-tfq .hs-zh { font-size:17px; }
-.hs-tfa { display:none; flex:0 0 320px; font-weight:800; font-size:19px; color:var(--hs-key2); }
-.hs-tfa em { display:block; font-style:normal; font-weight:500; font-size:14px; font-family:var(--zh);
+.hs-tfq .hs-en { font-size:23px; } .hs-tfq .hs-zh { font-size:19px; }
+.hs-tfa { display:none; flex:0 0 320px; font-weight:800; font-size:21px; color:var(--hs-key2); }
+.hs-tfa em { display:block; font-style:normal; font-weight:500; font-size:15px; font-family:var(--zh);
   opacity:.85; margin-top:2px; line-height:1.3; }
 .hs-tf.is-revealed .hs-tfa { display:block; }
 .hs-tf.is-revealed { border-color:var(--hs-key); }
 
 /* game */
 .hs-rule-box { background:var(--hs-key); color:#fff; border-radius:14px; padding:18px 24px; }
-.hs-rule-box .hs-en { font-size:28px; } .hs-rule-box .hs-zh { font-size:22px; }
+.hs-rule-box .hs-en { font-size:31px; } .hs-rule-box .hs-zh { font-size:24px; }
 .hs-hints { display:flex; flex-wrap:wrap; gap:10px; }
 .hs-hints .hs-hint { background:var(--hs-soft); border:2px solid var(--hs-key); border-radius:999px;
-  padding:9px 17px; font-family:var(--zh); font-size:19px; }
+  padding:9px 17px; font-family:var(--zh); font-size:21px; }
 .hs-target { margin-top:auto; text-align:center; }
-.hs-target .hs-en { font-size:25px; color:var(--hs-key2); } .hs-target .hs-zh { font-size:20px; }
+.hs-target .hs-en { font-size:28px; color:var(--hs-key2); } .hs-target .hs-zh { font-size:22px; }
 
 /* pair share */
 .hs-prompt { background:var(--hs-soft); border-left:8px solid var(--hs-key); border-radius:12px;
   padding:18px 24px; }
-.hs-prompt .hs-en { font-size:28px; } .hs-prompt .hs-zh { font-size:22px; }
+.hs-prompt .hs-en { font-size:31px; } .hs-prompt .hs-zh { font-size:24px; }
 .hs-sentence { background:var(--hs-key); color:#fff; border-radius:14px; padding:20px 26px; text-align:center; }
-.hs-sentence b { display:block; font-size:33px; }
-.hs-sentence span { display:block; font-family:var(--zh); font-size:24px; opacity:.94; margin-top:5px; }
+.hs-sentence b { display:block; font-size:36px; }
+.hs-sentence span { display:block; font-family:var(--zh); font-size:26px; opacity:.94; margin-top:5px; }
 .hs-time { margin-top:auto; text-align:center; }
-.hs-time .hs-en { font-size:23px; } .hs-time .hs-zh { font-size:19px; }
+.hs-time .hs-en { font-size:25px; } .hs-time .hs-zh { font-size:21px; }
 
 /* rank vote */
 .hs-sub { text-align:center; }
-.hs-sub .hs-en { font-size:24px; } .hs-sub .hs-zh { font-size:20px; }
+.hs-sub .hs-en { font-size:26px; } .hs-sub .hs-zh { font-size:22px; }
 .hs-ranks { display:grid; grid-template-columns:1fr 1fr; gap:13px; }
 .hs-rankitem { display:flex; align-items:center; gap:14px; background:var(--hs-soft);
   border-radius:12px; padding:15px 18px; box-shadow:0 3px 10px rgba(0,0,0,.07); }
 .hs-rankitem b { flex:0 0 42px; height:42px; border-radius:50%; background:var(--hs-key); color:#fff;
-  display:grid; place-content:center; font-size:22px; }
-.hs-rankitem .hs-en { font-size:21px; } .hs-rankitem .hs-zh { font-size:18px; }
+  display:grid; place-content:center; font-size:24px; }
+.hs-rankitem .hs-en { font-size:23px; } .hs-rankitem .hs-zh { font-size:20px; }
 .hs-revealbtn { align-self:center; background:var(--hs-key2); color:#fff; border:0; border-radius:999px;
-  padding:12px 34px; font-size:21px; font-family:var(--zh); font-weight:700; cursor:pointer; }
+  padding:12px 34px; font-size:23px; font-family:var(--zh); font-weight:700; cursor:pointer; }
 .is-revealed .hs-revealbtn { display:none; }
 
 /* actions */
@@ -224,37 +224,37 @@ body.deck-body { background:var(--page); min-height:100vh; font-family:var(--san
 .hs-act { display:flex; align-items:center; gap:20px; background:var(--hs-soft); border-radius:14px;
   padding:19px 24px; box-shadow:0 3px 10px rgba(0,0,0,.07); }
 .hs-act b { flex:0 0 52px; height:52px; border-radius:50%; background:var(--hs-key); color:#fff;
-  display:grid; place-content:center; font-size:27px; }
-.hs-act .hs-en { font-size:28px; } .hs-act .hs-zh { font-size:22px; }
+  display:grid; place-content:center; font-size:30px; }
+.hs-act .hs-en { font-size:31px; } .hs-act .hs-zh { font-size:24px; }
 
 /* phrases */
 .hs-phraselist { display:flex; flex-direction:column; gap:9px; flex:1; justify-content:center; }
 .hs-phrase { background:var(--hs-soft); border-left:8px solid var(--hs-key); border-radius:12px;
   padding:7px 20px; }
-.hs-phrase b { display:block; font-size:22px; line-height:1.25; }
-.hs-phrase span { display:block; font-family:var(--zh); font-size:16px; opacity:.82; line-height:1.3; }
+.hs-phrase b { display:block; font-size:24px; line-height:1.25; }
+.hs-phrase span { display:block; font-family:var(--zh); font-size:18px; opacity:.82; line-height:1.3; }
 
 /* game items whose answer must stay hidden until tapped */
 .hs-hintbtn { display:flex; align-items:center; gap:11px; cursor:pointer; font-family:inherit;
   color:inherit; background:var(--hs-soft); border:2px solid var(--hs-key); border-radius:999px;
   padding:6px 17px; box-shadow:0 3px 10px rgba(0,0,0,.07); transition:.18s; }
 .hs-hintbtn:hover { transform:translateY(-2px); }
-.hs-hint-q { font-size:18px; font-family:var(--zh); }
+.hs-hint-q { font-size:20px; font-family:var(--zh); }
 .hs-hint-q b { font-family:var(--sans); font-weight:700; }
-.hs-hint-a { visibility:hidden; font-size:24px; line-height:1; }
+.hs-hint-a { visibility:hidden; font-size:26px; line-height:1; }
 .hs-hintbtn.is-revealed { background:var(--hs-key); color:#fff; }
 .hs-hintbtn.is-revealed .hs-hint-a { visibility:visible; }
 
 /* padlet / leave a message */
 .hs-site { align-self:flex-start; background:var(--hs-key2); color:#fff; border-radius:999px;
-  padding:10px 24px; font-size:23px; font-weight:700; letter-spacing:.01em; }
+  padding:10px 24px; font-size:25px; font-weight:700; letter-spacing:.01em; }
 
 /* closing */
 .hs-closing { justify-content:center; align-items:center; text-align:center; gap:14px; }
-.hs-bigline { font-size:66px; font-weight:800; line-height:1.12; color:var(--hs-key2); }
-.hs-bigline-zh { font-family:var(--zh); font-size:33px; opacity:.85; }
-.hs-sign { font-size:27px; font-weight:700; margin-top:10px; }
-.hs-sign span { display:block; font-family:var(--zh); font-size:22px; opacity:.8; }
+.hs-bigline { font-size:73px; font-weight:800; line-height:1.12; color:var(--hs-key2); }
+.hs-bigline-zh { font-family:var(--zh); font-size:36px; opacity:.85; }
+.hs-sign { font-size:30px; font-weight:700; margin-top:10px; }
+.hs-sign span { display:block; font-family:var(--zh); font-size:24px; opacity:.8; }
 
 @media (max-width:640px) {
   .deck-stage { max-height:64vh; border-radius:10px; }
@@ -266,20 +266,20 @@ body.deck-body { background:var(--page); min-height:100vh; font-family:var(--san
    避免內容被畫布裁掉。以「有沒有超出 675px」為準，不是憑感覺調。 */
 .hs-quiz { gap:13px; }
 .hs-quiz .hs-q { padding:13px 20px; }
-.hs-quiz .hs-q .hs-en { font-size:28px; }
-.hs-quiz .hs-q .hs-zh { font-size:21px; }
+.hs-quiz .hs-q .hs-en { font-size:31px; }
+.hs-quiz .hs-q .hs-zh { font-size:23px; }
 .hs-game .hs-hints { gap:8px; }
 .hs-game .hs-rule-box { padding:14px 22px; }
-.hs-game .hs-rule-box .hs-en { font-size:25px; }
-.hs-game .hs-rule-box .hs-zh { font-size:20px; }
+.hs-game .hs-rule-box .hs-en { font-size:28px; }
+.hs-game .hs-rule-box .hs-zh { font-size:22px; }
 
 .hs-hints-reveal { display:grid; grid-template-columns:1fr 1fr; gap:8px; align-content:start; }
 .hs-hints-reveal .hs-hintbtn { border-radius:12px; justify-content:space-between; }
-.hs-hints-reveal .hs-hint-q { font-size:16px; line-height:1.25; text-align:left; }
+.hs-hints-reveal .hs-hint-q { font-size:18px; line-height:1.25; text-align:left; }
 .hs-hints-reveal .hs-hintbtn { padding:5px 14px; }
 /* 這頁項目多，標題與規則框再讓出一點高度 */
-.hs-game .hs-head { font-size:38px; }
-.hs-game .hs-head span { font-size:24px; }
+.hs-game .hs-head { font-size:42px; }
+.hs-game .hs-head span { font-size:26px; }
 
 /* ==========================================================================
    插圖版面 + 進場動畫
@@ -334,47 +334,102 @@ body.deck-body { background:var(--page); min-height:100vh; font-family:var(--san
   .hs-art { display:none; } }
 
 /* SDG 10 的題幹與是非題敘述比 SDG 2 長，這兩種版型再收一點才不會被裁掉 */
+.hs-tflist .hs-tfq .hs-en { font-size:22px; }
+.hs-tflist .hs-tfq .hs-zh { font-size:18px; }
+.hs-tflist .hs-tfa { font-size:20px; }
+.hs-quiz .hs-opt { padding:10px 16px; }
+.hs-tflist .hs-tf { padding:4px 16px; }
+.hs-tflist .hs-tfa em { font-size:14px; }
+
+/* 有插圖的頁面文字欄較窄、行數變多，字級對應縮一階才不會被裁掉 */
+.hs-intro.has-art .hs-line .hs-en { font-size:26px; }
+.hs-intro.has-art .hs-line .hs-zh { font-size:21px; }
+.hs-intro.has-art .hs-lines { gap:10px; }
+.hs-intro.has-art .hs-ask { padding:12px 18px; }
+.hs-intro.has-art .hs-ask .hs-en { font-size:24px; }
+.hs-intro.has-art .hs-ask .hs-zh { font-size:20px; }
+.hs-quiz.has-art .hs-opts { grid-template-columns:1fr; gap:8px; }
+.hs-quiz.has-art .hs-q .hs-en { font-size:28px; }
+.hs-quiz.has-art .hs-q .hs-zh { font-size:21px; }
+.hs-quiz.has-art .hs-opt { padding:7px 14px; }
+.hs-quiz.has-art .hs-opt .hs-en { font-size:21px; }
+.hs-quiz.has-art .hs-opt .hs-zh { font-size:18px; }
+.hs-quiz.has-art .hs-letter { flex:0 0 32px; height:32px; font-size:20px; }
+.hs-quiz.has-art .hs-explain { padding:9px 16px; }
+.hs-quiz.has-art .hs-explain .hs-en { font-size:21px; }
+.hs-quiz.has-art .hs-explain .hs-zh { font-size:18px; }
+.hs-bigstat.has-art .hs-bignum { font-size:114px; }
+.hs-bigstat.has-art .hs-bighead { font-size:33px; }
+.hs-bigstat.has-art .hs-bighead-zh { font-size:24px; }
+/* 有插圖的測驗題四個選項改單欄後仍偏高，再收一階 */
+.hs-quiz.has-art { gap:9px; }
+.hs-quiz.has-art .hs-qbar .hs-qtag { font-size:20px; padding:6px 15px; }
+.hs-quiz.has-art .hs-q { padding:10px 16px; }
+.hs-quiz.has-art .hs-opt { padding:5px 13px; }
+.hs-quiz.has-art .hs-tap { font-size:16px; }
+
+/* 滿版地圖：圖鋪滿整頁，標題與提問疊在上面，不留信箱式黑邊白邊 */
+.hs-map { padding:0; position:relative; justify-content:flex-start; gap:0; }
+.hs-mapimg { position:absolute; inset:0; z-index:0; }
+.hs-mapimg img { width:100%; height:100%; object-fit:cover; display:block; }
+.hs-map .hs-head { position:relative; z-index:1; margin:26px 0 0 40px;
+  align-self:flex-start; background:rgba(255,255,255,.93); border-radius:16px;
+  padding:14px 26px; font-size:44px; box-shadow:0 6px 20px rgba(0,0,0,.12); }
+.hs-map .hs-head span { font-size:29px; }
+.hs-map .hs-ask { position:absolute; left:0; right:0; bottom:0; z-index:1; margin:0;
+  border-radius:0; padding:16px 40px; }
+.hs-map .hs-ask .hs-en { font-size:29px; }
+.hs-map .hs-ask .hs-zh { font-size:23px; }
+
+/* 整體字級放大後，這三種版型內容較多，個別收斂——其餘版型維持大字 */
+.hs-intro .hs-lines { gap:11px; }
+.hs-intro .hs-line .hs-en { font-size:28px; }
+.hs-intro .hs-line .hs-zh { font-size:22px; }
+.hs-standup .hs-prompts { gap:12px; }
+.hs-standup .hs-prompts li { padding:13px 22px 13px 74px; }
+.hs-map .hs-head { margin-top:16px; padding:10px 22px; font-size:36px; }
+.hs-map .hs-head span { font-size:24px; }
+
+/* 內容清單撐滿垂直空間，不要擠在上方、下面留一大塊空白。
+   只分配空間、不改變內容高度，所以不會造成溢出。 */
+.hs-tfs, .hs-prompts, .hs-opts, .hs-ranks, .hs-hints { flex:1; }
+.hs-tfs, .hs-prompts { justify-content:space-evenly; }
+.hs-opts, .hs-ranks { align-content:space-evenly; }
+.hs-hints { align-content:center; }
+.hs-quiz .hs-opts { align-content:space-evenly; }
+
+/* SDG 10 的選項與遊戲項目字數較多，這幾種版型單獨收斂，其餘維持放大後的字級 */
+.hs-quiz .hs-opt .hs-en { font-size:22px; }
+.hs-quiz .hs-opt .hs-zh { font-size:18px; }
+.hs-quiz .hs-opt { padding:9px 15px; }
+.hs-quiz .hs-explain .hs-en { font-size:22px; }
+.hs-quiz .hs-explain .hs-zh { font-size:18px; }
+.hs-game .hs-hints-reveal .hs-hint-q { font-size:17px; }
+.hs-game .hs-hints-reveal .hs-hintbtn { padding:6px 15px; }
+.hs-game .hs-rule-box .hs-en { font-size:26px; }
+.hs-game .hs-rule-box .hs-zh { font-size:21px; }
+.hs-tflist .hs-tf { padding:6px 18px; }
+
+/* 加碼遊戲頁（7 個可揭曉項目 + 規則框）與是非題頁內容量最大，整頁比例再壓一階 */
+.hs-game { gap:12px; }
+.hs-game .hs-head { font-size:32px; }
+.hs-game .hs-head span { font-size:21px; }
+.hs-game .hs-rule-box { padding:11px 20px; }
+.hs-game .hs-rule-box .hs-en { font-size:23px; }
+.hs-game .hs-rule-box .hs-zh { font-size:19px; }
+.hs-game .hs-hints-reveal { gap:7px; }
+.hs-game .hs-hints-reveal .hs-hint-q { font-size:16px; }
+.hs-game .hs-hints-reveal .hs-hintbtn { padding:5px 14px; }
+.hs-game .hs-target .hs-en { font-size:21px; }
+.hs-game .hs-target .hs-zh { font-size:18px; }
+.hs-tflist { gap:10px; }
+.hs-tflist .hs-head { font-size:32px; }
+.hs-tflist .hs-head span { font-size:21px; }
 .hs-tflist .hs-tfq .hs-en { font-size:20px; }
 .hs-tflist .hs-tfq .hs-zh { font-size:16px; }
 .hs-tflist .hs-tfa { font-size:18px; }
-.hs-quiz .hs-opt { padding:10px 16px; }
-.hs-tflist .hs-tf { padding:4px 16px; }
 .hs-tflist .hs-tfa em { font-size:13px; }
-
-/* 有插圖的頁面文字欄較窄、行數變多，字級對應縮一階才不會被裁掉 */
-.hs-intro.has-art .hs-line .hs-en { font-size:24px; }
-.hs-intro.has-art .hs-line .hs-zh { font-size:19px; }
-.hs-intro.has-art .hs-lines { gap:10px; }
-.hs-intro.has-art .hs-ask { padding:12px 18px; }
-.hs-intro.has-art .hs-ask .hs-en { font-size:22px; }
-.hs-intro.has-art .hs-ask .hs-zh { font-size:18px; }
-.hs-quiz.has-art .hs-opts { grid-template-columns:1fr; gap:8px; }
-.hs-quiz.has-art .hs-q .hs-en { font-size:25px; }
-.hs-quiz.has-art .hs-q .hs-zh { font-size:19px; }
-.hs-quiz.has-art .hs-opt { padding:7px 14px; }
-.hs-quiz.has-art .hs-opt .hs-en { font-size:19px; }
-.hs-quiz.has-art .hs-opt .hs-zh { font-size:16px; }
-.hs-quiz.has-art .hs-letter { flex:0 0 32px; height:32px; font-size:18px; }
-.hs-quiz.has-art .hs-explain { padding:9px 16px; }
-.hs-quiz.has-art .hs-explain .hs-en { font-size:19px; }
-.hs-quiz.has-art .hs-explain .hs-zh { font-size:16px; }
-.hs-bigstat.has-art .hs-bignum { font-size:104px; }
-.hs-bigstat.has-art .hs-bighead { font-size:30px; }
-.hs-bigstat.has-art .hs-bighead-zh { font-size:22px; }
-/* 有插圖的測驗題四個選項改單欄後仍偏高，再收一階 */
-.hs-quiz.has-art { gap:9px; }
-.hs-quiz.has-art .hs-qbar .hs-qtag { font-size:18px; padding:6px 15px; }
-.hs-quiz.has-art .hs-q { padding:10px 16px; }
-.hs-quiz.has-art .hs-opt { padding:5px 13px; }
-.hs-quiz.has-art .hs-tap { font-size:15px; }
-
-/* 整頁地圖：地圖是橫向的，塞進側邊窄欄只會被裁掉八成 */
-.hs-map { gap:12px; }
-.hs-map .hs-head { font-size:36px; }
-.hs-map .hs-head span { font-size:23px; }
-.hs-mapimg { flex:1; min-height:0; border-radius:14px; overflow:hidden;
-  border:3px solid var(--hs-key); background:#fff; }
-.hs-mapimg img { width:100%; height:100%; object-fit:contain; display:block; }
-.hs-map .hs-ask { margin-top:0; padding:11px 18px; }
-.hs-map .hs-ask .hs-en { font-size:22px; }
-.hs-map .hs-ask .hs-zh { font-size:18px; }
+.hs-quiz { gap:11px; }
+.hs-quiz .hs-q { padding:11px 18px; }
+.hs-map { overflow:hidden; }
+.hs-map .hs-head { margin-top:14px; }

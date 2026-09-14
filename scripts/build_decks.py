@@ -303,10 +303,11 @@ def t_padlet(s, d):
 
 
 def t_map(s, d):
-    """A full-width map slide — a wide map cannot survive the narrow side panel."""
+    """Full-bleed map: the heading and the question sit on top of it, so none of
+    the slide is wasted on letterbox bars beside a contained image."""
     return f'''<div class="hs hs-map">
-  <h3 class="hs-head">{e(s["head_en"])}<span>{e(s["head_zh"])}</span></h3>
   <div class="hs-mapimg"><img src="/assets/img/decks/{e(s["img"])}" alt="" loading="lazy"></div>
+  <h3 class="hs-head">{e(s["head_en"])}<span>{e(s["head_zh"])}</span></h3>
   <div class="hs-ask">🌏 {bi(e(s["ask_en"]), e(s["ask_zh"]))}</div>
 </div>'''
 
