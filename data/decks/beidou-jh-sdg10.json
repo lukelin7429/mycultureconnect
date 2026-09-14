@@ -16,29 +16,67 @@
       "eyebrow_en": "A Bilingual Lesson for Junior High Students",
       "eyebrow_zh": "國中雙語課程",
       "chips": [
-        {"en": "What Is Fair?", "zh": "什麼是公平"},
-        {"en": "Dom's Story", "zh": "Dom 的故事"},
-        {"en": "Games", "zh": "互動遊戲"},
-        {"en": "Our Actions", "zh": "行動方案"}
+        {
+          "en": "What Is Fair?",
+          "zh": "什麼是公平"
+        },
+        {
+          "en": "Dom's Story",
+          "zh": "Dom 的故事"
+        },
+        {
+          "en": "Games",
+          "zh": "互動遊戲"
+        },
+        {
+          "en": "Our Actions",
+          "zh": "行動方案"
+        }
       ],
       "strip": [
-        {"num": "1 in 5", "en": "people face discrimination", "zh": "人曾遭受歧視"},
-        {"num": "17", "en": "Global Goals, this is #10", "zh": "全球目標，這是第 10 項"},
-        {"num": "0", "en": "students should feel invisible", "zh": "沒有人該被當作透明人"}
-      ]
+        {
+          "num": "1 in 5",
+          "en": "people face discrimination",
+          "zh": "人曾遭受歧視"
+        },
+        {
+          "num": "17",
+          "en": "Global Goals, this is #10",
+          "zh": "全球目標，這是第 10 項"
+        },
+        {
+          "num": "0",
+          "en": "students should feel invisible",
+          "zh": "沒有人該被當作透明人"
+        }
+      ],
+      "img": "sdg10-title"
     },
     {
       "type": "intro",
       "head_en": "Hello, I'm Dom!",
       "head_zh": "大家好，我是 Dom！",
       "lines": [
-        {"en": "I grew up in Compton, California.", "zh": "我在美國加州的 Compton 長大。"},
-        {"en": "People judged my town before they ever met me.", "zh": "在還沒認識我之前，人們就先用我住的地方評斷我。"},
-        {"en": "I won the UNA 2024 Young Leader of the Year Award.", "zh": "我獲得 2024 年聯合國協會青年領袖獎。"},
-        {"en": "Today: why fairness is not the same as sameness.", "zh": "今天要談：公平，並不等於一模一樣。"}
+        {
+          "en": "I grew up in Compton, California.",
+          "zh": "我在美國加州的 Compton 長大。"
+        },
+        {
+          "en": "People judged my town before they ever met me.",
+          "zh": "在還沒認識我之前，人們就先用我住的地方評斷我。"
+        },
+        {
+          "en": "I won the UNA 2024 Young Leader of the Year Award.",
+          "zh": "我獲得 2024 年聯合國協會青年領袖獎。"
+        },
+        {
+          "en": "Today: why fairness is not the same as sameness.",
+          "zh": "今天要談：公平，並不等於一模一樣。"
+        }
       ],
       "ask_en": "Raise your hand: has anyone ever guessed something wrong about you?",
-      "ask_zh": "舉手：有沒有人曾經對你有過錯誤的猜測？"
+      "ask_zh": "舉手：有沒有人曾經對你有過錯誤的猜測？",
+      "img": "california-taiwan"
     },
     {
       "type": "video",
@@ -53,9 +91,18 @@
       "head_en": "Stand Up If…",
       "head_zh": "如果是你，就站起來！",
       "prompts": [
-        {"en": "Stand up if you have ever been the new person somewhere.", "zh": "曾經是某個地方的新來的人，站起來。"},
-        {"en": "Stay standing if nobody talked to you that first day.", "zh": "如果第一天沒有人跟你說話，繼續站著。"},
-        {"en": "Sit down if someone finally did talk to you.", "zh": "如果後來有人主動跟你說話了，請坐下。"}
+        {
+          "en": "Stand up if you have ever been the new person somewhere.",
+          "zh": "曾經是某個地方的新來的人，站起來。"
+        },
+        {
+          "en": "Stay standing if nobody talked to you that first day.",
+          "zh": "如果第一天沒有人跟你說話，繼續站著。"
+        },
+        {
+          "en": "Sit down if someone finally did talk to you.",
+          "zh": "如果後來有人主動跟你說話了，請坐下。"
+        }
       ],
       "punch_en": "That one person changed everything. Today, you can be that person.",
       "punch_zh": "那一個人改變了一切。今天，你可以當那個人。"
@@ -67,10 +114,22 @@
       "body_en": "In 2015, every country agreed on 17 Global Goals for 2030. Goal 10 is Reduced Inequalities — no one should be left behind because of where they are from, what they look like, or what they have.",
       "body_zh": "2015 年，全世界所有國家訂下 17 項全球目標，要在 2030 年前達成。第 10 項是「減少不平等」——不該有人因為出身、長相或擁有的多寡而被丟下。",
       "keywords": [
-        {"en": "fair", "zh": "公平"},
-        {"en": "include", "zh": "接納"},
-        {"en": "respect", "zh": "尊重"},
-        {"en": "belong", "zh": "歸屬"}
+        {
+          "en": "fair",
+          "zh": "公平"
+        },
+        {
+          "en": "include",
+          "zh": "接納"
+        },
+        {
+          "en": "respect",
+          "zh": "尊重"
+        },
+        {
+          "en": "belong",
+          "zh": "歸屬"
+        }
       ]
     },
     {
@@ -79,14 +138,27 @@
       "q_en": "Two students need to see over a wall. One is tall, one is short. What is FAIR?",
       "q_zh": "兩個學生要看過一道牆，一高一矮。怎樣才叫「公平」？",
       "options": [
-        {"en": "Give both the same size box", "zh": "兩個人給一樣高的箱子"},
-        {"en": "Give nobody a box", "zh": "兩個人都不給箱子"},
-        {"en": "Give the shorter one a taller box", "zh": "矮的那個給比較高的箱子"},
-        {"en": "Make the short one leave", "zh": "叫矮的那個離開"}
+        {
+          "en": "Give both the same size box",
+          "zh": "兩個人給一樣高的箱子"
+        },
+        {
+          "en": "Give nobody a box",
+          "zh": "兩個人都不給箱子"
+        },
+        {
+          "en": "Give the shorter one a taller box",
+          "zh": "矮的那個給比較高的箱子"
+        },
+        {
+          "en": "Make the short one leave",
+          "zh": "叫矮的那個離開"
+        }
       ],
       "answer": 2,
       "explain_en": "Equality gives everyone the same. Equity gives everyone what they need to reach the same view.",
-      "explain_zh": "平等是「給一樣的」；公平是「給他所需要的」，讓大家都看得到一樣的風景。"
+      "explain_zh": "平等是「給一樣的」；公平是「給他所需要的」，讓大家都看得到一樣的風景。",
+      "img": "sdg10-equity"
     },
     {
       "type": "bigstat",
@@ -104,10 +176,22 @@
       "q_en": "Which of these is the BEST way to include a new classmate?",
       "q_zh": "下列哪一個是接納新同學最好的方法？",
       "options": [
-        {"en": "Tell them they can join if they want", "zh": "跟他說他想加入的話可以來"},
-        {"en": "Say their name and ask them to sit with you", "zh": "叫出他的名字，請他坐你旁邊"},
-        {"en": "Wait for them to ask you first", "zh": "等他先來找你"},
-        {"en": "Tell the teacher to assign them a friend", "zh": "請老師指派一個朋友給他"}
+        {
+          "en": "Tell them they can join if they want",
+          "zh": "跟他說他想加入的話可以來"
+        },
+        {
+          "en": "Say their name and ask them to sit with you",
+          "zh": "叫出他的名字，請他坐你旁邊"
+        },
+        {
+          "en": "Wait for them to ask you first",
+          "zh": "等他先來找你"
+        },
+        {
+          "en": "Tell the teacher to assign them a friend",
+          "zh": "請老師指派一個朋友給他"
+        }
       ],
       "answer": 1,
       "explain_en": "Using someone's name is the fastest way to make them feel real to you. An invitation beats permission.",
@@ -118,14 +202,34 @@
       "head_en": "True or False? 快問快答",
       "head_zh": "手比 ⭕ 或 ❌",
       "items": [
-        {"en": "Treating everyone exactly the same is always fair.", "zh": "對每個人一模一樣，就一定公平。", "answer": false,
-         "note_en": "People start from different places — fair means giving what is needed.", "note_zh": "每個人的起點不同，公平是給他需要的。"},
-        {"en": "Leaving someone out can hurt as much as saying something mean.", "zh": "把人排除在外，可能跟說難聽話一樣傷人。", "answer": true,
-         "note_en": "Being ignored is one of the most common forms of bullying.", "note_zh": "被忽略是最常見的霸凌形式之一。"},
-        {"en": "Inequality only happens in poor countries.", "zh": "不平等只發生在貧窮國家。", "answer": false,
-         "note_en": "It happens everywhere — including the USA and Taiwan.", "note_zh": "每個地方都有，包括美國和台灣。"},
-        {"en": "One student speaking up can change how a whole class behaves.", "zh": "一個學生出聲，就可能改變全班的氣氛。", "answer": true,
-         "note_en": "Research calls this the first follower — the second person makes it safe.", "note_zh": "研究稱為「第一個跟隨者」，第二個人讓這件事變安全。"}
+        {
+          "en": "Treating everyone exactly the same is always fair.",
+          "zh": "對每個人一模一樣，就一定公平。",
+          "answer": false,
+          "note_en": "People start from different places — fair means giving what is needed.",
+          "note_zh": "每個人的起點不同，公平是給他需要的。"
+        },
+        {
+          "en": "Leaving someone out can hurt as much as saying something mean.",
+          "zh": "把人排除在外，可能跟說難聽話一樣傷人。",
+          "answer": true,
+          "note_en": "Being ignored is one of the most common forms of bullying.",
+          "note_zh": "被忽略是最常見的霸凌形式之一。"
+        },
+        {
+          "en": "Inequality only happens in poor countries.",
+          "zh": "不平等只發生在貧窮國家。",
+          "answer": false,
+          "note_en": "It happens everywhere — including the USA and Taiwan.",
+          "note_zh": "每個地方都有，包括美國和台灣。"
+        },
+        {
+          "en": "One student speaking up can change how a whole class behaves.",
+          "zh": "一個學生出聲，就可能改變全班的氣氛。",
+          "answer": true,
+          "note_en": "Research calls this the first follower — the second person makes it safe.",
+          "note_zh": "研究稱為「第一個跟隨者」，第二個人讓這件事變安全。"
+        }
       ]
     },
     {
@@ -134,10 +238,22 @@
       "q_en": "Someone is being left out at lunch. What helps MOST?",
       "q_zh": "午餐時有人被排擠，怎麼做幫助最大？",
       "options": [
-        {"en": "Feel sorry for them", "zh": "為他感到難過"},
-        {"en": "Tell others they are being mean", "zh": "去說別人很壞"},
-        {"en": "Go and sit with them yourself", "zh": "自己走過去坐在他旁邊"},
-        {"en": "Post about it online", "zh": "在網路上發文講這件事"}
+        {
+          "en": "Feel sorry for them",
+          "zh": "為他感到難過"
+        },
+        {
+          "en": "Tell others they are being mean",
+          "zh": "去說別人很壞"
+        },
+        {
+          "en": "Go and sit with them yourself",
+          "zh": "自己走過去坐在他旁邊"
+        },
+        {
+          "en": "Post about it online",
+          "zh": "在網路上發文講這件事"
+        }
       ],
       "answer": 2,
       "explain_en": "Sympathy changes nothing. Sitting down next to someone changes everything.",
@@ -150,7 +266,16 @@
       "head_zh": "30 秒挑戰",
       "rule_en": "In 30 seconds, shout out as many countries in English as you can. I will count!",
       "rule_zh": "30 秒內，用英文喊出越多國家名越好，我來數！",
-      "hints": ["Japan 日本", "Vietnam 越南", "Thailand 泰國", "Philippines 菲律賓", "Indonesia 印尼", "Korea 韓國", "Canada 加拿大", "Kenya 肯亞"],
+      "hints": [
+        "Japan 日本",
+        "Vietnam 越南",
+        "Thailand 泰國",
+        "Philippines 菲律賓",
+        "Indonesia 印尼",
+        "Korea 韓國",
+        "Canada 加拿大",
+        "Kenya 肯亞"
+      ],
       "target_en": "Class record to beat: 15",
       "target_zh": "要打破的班級紀錄：15 個"
     },
@@ -172,10 +297,22 @@
       "sub_en": "Vote with your hands — 1, 2, 3, or 4 fingers.",
       "sub_zh": "用手指投票——比 1、2、3 或 4。",
       "items": [
-        {"en": "Learn and use people's names", "zh": "記住並叫出別人的名字"},
-        {"en": "Invite someone into your group", "zh": "邀請別人加入你的小組"},
-        {"en": "Speak up when you hear a mean joke", "zh": "聽到傷人的玩笑時出聲"},
-        {"en": "Ask someone about their family's home town", "zh": "問問對方家人的家鄉"}
+        {
+          "en": "Learn and use people's names",
+          "zh": "記住並叫出別人的名字"
+        },
+        {
+          "en": "Invite someone into your group",
+          "zh": "邀請別人加入你的小組"
+        },
+        {
+          "en": "Speak up when you hear a mean joke",
+          "zh": "聽到傷人的玩笑時出聲"
+        },
+        {
+          "en": "Ask someone about their family's home town",
+          "zh": "問問對方家人的家鄉"
+        }
       ],
       "reveal_en": "All four work. #3 is the hardest and the most powerful — it changes what the whole room thinks is okay.",
       "reveal_zh": "四個都有效。第 3 個最難也最有力量——它會改變整個班認為「可以接受」的界線。"
@@ -185,9 +322,21 @@
       "head_en": "3 Things You Can Do This Week",
       "head_zh": "這週你可以做的 3 件事",
       "items": [
-        {"num": "1", "en": "Learn the name of someone you rarely talk to.", "zh": "記住一個你很少講到話的同學的名字。"},
-        {"num": "2", "en": "Invite one person into something you're doing.", "zh": "邀請一個人加入你正在做的事。"},
-        {"num": "3", "en": "If a joke hurts someone, don't laugh.", "zh": "如果一個玩笑傷到人，就不要跟著笑。"}
+        {
+          "num": "1",
+          "en": "Learn the name of someone you rarely talk to.",
+          "zh": "記住一個你很少講到話的同學的名字。"
+        },
+        {
+          "num": "2",
+          "en": "Invite one person into something you're doing.",
+          "zh": "邀請一個人加入你正在做的事。"
+        },
+        {
+          "num": "3",
+          "en": "If a joke hurts someone, don't laugh.",
+          "zh": "如果一個玩笑傷到人，就不要跟著笑。"
+        }
       ]
     },
     {
@@ -195,11 +344,26 @@
       "head_en": "Say It With Me",
       "head_zh": "跟著我唸",
       "items": [
-        {"en": "Everyone belongs here.", "zh": "每個人都屬於這裡。"},
-        {"en": "Come sit with us.", "zh": "過來跟我們一起坐。"},
-        {"en": "That's not funny.", "zh": "那並不好笑。"},
-        {"en": "What's your name?", "zh": "你叫什麼名字？"},
-        {"en": "Be the change.", "zh": "成為那個改變。"}
+        {
+          "en": "Everyone belongs here.",
+          "zh": "每個人都屬於這裡。"
+        },
+        {
+          "en": "Come sit with us.",
+          "zh": "過來跟我們一起坐。"
+        },
+        {
+          "en": "That's not funny.",
+          "zh": "那並不好笑。"
+        },
+        {
+          "en": "What's your name?",
+          "zh": "你叫什麼名字？"
+        },
+        {
+          "en": "Be the change.",
+          "zh": "成為那個改變。"
+        }
       ]
     },
     {
@@ -209,10 +373,22 @@
       "q_en": "What does the word 'equity' mean?",
       "q_zh": "equity（公平）這個字是什麼意思？",
       "options": [
-        {"en": "Everyone gets exactly the same", "zh": "每個人拿到完全一樣的東西"},
-        {"en": "Everyone gets what they need", "zh": "每個人拿到他所需要的"},
-        {"en": "Nobody gets anything", "zh": "每個人都拿不到"},
-        {"en": "The fastest person wins", "zh": "最快的人贏"}
+        {
+          "en": "Everyone gets exactly the same",
+          "zh": "每個人拿到完全一樣的東西"
+        },
+        {
+          "en": "Everyone gets what they need",
+          "zh": "每個人拿到他所需要的"
+        },
+        {
+          "en": "Nobody gets anything",
+          "zh": "每個人都拿不到"
+        },
+        {
+          "en": "The fastest person wins",
+          "zh": "最快的人贏"
+        }
       ],
       "answer": 1,
       "explain_en": "Equality = same. Equity = what each person needs. Remember the boxes and the wall.",
@@ -225,10 +401,22 @@
       "q_en": "About how many languages are spoken in Taiwan?",
       "q_zh": "台灣大約有多少種語言在使用？",
       "options": [
-        {"en": "Just 1", "zh": "只有 1 種"},
-        {"en": "About 3", "zh": "大約 3 種"},
-        {"en": "More than 20", "zh": "超過 20 種"},
-        {"en": "Exactly 10", "zh": "剛好 10 種"}
+        {
+          "en": "Just 1",
+          "zh": "只有 1 種"
+        },
+        {
+          "en": "About 3",
+          "zh": "大約 3 種"
+        },
+        {
+          "en": "More than 20",
+          "zh": "超過 20 種"
+        },
+        {
+          "en": "Exactly 10",
+          "zh": "剛好 10 種"
+        }
       ],
       "answer": 2,
       "explain_en": "Mandarin, Taiwanese, Hakka and 16+ indigenous languages. Difference is normal here.",
@@ -243,13 +431,41 @@
       "rule_en": "I say an action. Thumbs UP = it includes people. Thumbs DOWN = it leaves someone out.",
       "rule_zh": "我說一個行為，大拇指向上＝接納，向下＝把人排除在外。",
       "hints": [
-        {"en": "Saving a seat for someone", "zh": "幫別人留位子", "a": "up"},
-        {"en": "An inside joke nobody else gets", "zh": "只有小圈圈懂的玩笑", "a": "down"},
-        {"en": "Asking how to say a name correctly", "zh": "問對方名字怎麼唸才對", "a": "up"},
-        {"en": "A group chat that leaves one person out", "zh": "刻意少加一個人的群組", "a": "down"},
-        {"en": "Explaining the game rules to the new kid", "zh": "跟新同學解釋遊戲規則", "a": "up"},
-        {"en": "Copying someone's accent to be funny", "zh": "模仿別人的口音取笑", "a": "down"},
-        {"en": "Splitting teams so nobody is picked last", "zh": "分組時不讓任何人最後被挑", "a": "up"}
+        {
+          "en": "Saving a seat for someone",
+          "zh": "幫別人留位子",
+          "a": "up"
+        },
+        {
+          "en": "An inside joke nobody else gets",
+          "zh": "只有小圈圈懂的玩笑",
+          "a": "down"
+        },
+        {
+          "en": "Asking how to say a name correctly",
+          "zh": "問對方名字怎麼唸才對",
+          "a": "up"
+        },
+        {
+          "en": "A group chat that leaves one person out",
+          "zh": "刻意少加一個人的群組",
+          "a": "down"
+        },
+        {
+          "en": "Explaining the game rules to the new kid",
+          "zh": "跟新同學解釋遊戲規則",
+          "a": "up"
+        },
+        {
+          "en": "Copying someone's accent to be funny",
+          "zh": "模仿別人的口音取笑",
+          "a": "down"
+        },
+        {
+          "en": "Splitting teams so nobody is picked last",
+          "zh": "分組時不讓任何人最後被挑",
+          "a": "up"
+        }
       ],
       "target_en": "Tap each item to reveal the answer.",
       "target_zh": "點每一項公布答案。"
@@ -269,7 +485,8 @@
       "big_en": "Be kind, be brave,<br>be the change.",
       "big_zh": "善良、勇敢，成為那個改變。",
       "sign_en": "Thank you, Beidou Junior High!",
-      "sign_zh": "謝謝北斗國中！"
+      "sign_zh": "謝謝北斗國中！",
+      "img": "sdg10-closing"
     }
   ]
 }

@@ -49,7 +49,8 @@
           "en": "people worldwide",
           "zh": "全球人口比例"
         }
-      ]
+      ],
+      "img": "sdg2-title"
     },
     {
       "type": "intro",
@@ -74,7 +75,8 @@
         }
       ],
       "ask_en": "Raise your hand: who has been to another country?",
-      "ask_zh": "舉手：誰去過其他國家？"
+      "ask_zh": "舉手：誰去過其他國家？",
+      "img": "california-taiwan"
     },
     {
       "type": "video",
@@ -165,7 +167,8 @@
       "body_en": "It is grown, harvested, shipped, cooked — and then thrown away.",
       "body_zh": "被種出來、採收、運送、煮好——然後被丟掉。",
       "ask_en": "If we already grow enough food for everyone, why are people still hungry?",
-      "ask_zh": "如果我們種的食物已經夠所有人吃，為什麼還有人挨餓？"
+      "ask_zh": "如果我們種的食物已經夠所有人吃，為什麼還有人挨餓？",
+      "img": "sdg2-waste"
     },
     {
       "type": "quiz",
@@ -482,7 +485,8 @@
       "big_en": "Be kind, be brave,<br>be the change.",
       "big_zh": "善良、勇敢，成為那個改變。",
       "sign_en": "Thank you, Beidou Junior High!",
-      "sign_zh": "謝謝北斗國中！"
+      "sign_zh": "謝謝北斗國中！",
+      "img": "sdg2-closing"
     }
   ]
 }

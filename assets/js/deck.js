@@ -32,7 +32,13 @@
       track.style.transform = 'translateX(' + (-i * 100) + '%)';
       if (posEl) posEl.textContent = (i + 1);
       if (bar) bar.style.width = ((i + 1) / n * 100) + '%';
-      slides.forEach(function (s, idx) { s.setAttribute('aria-hidden', idx === i ? 'false' : 'true'); });
+      slides.forEach(function (s, idx) {
+        var on = idx === i;
+        s.setAttribute('aria-hidden', on ? 'false' : 'true');
+        // drives the per-slide entrance animation; removed on exit so the
+        // animation replays every time you come back to a slide
+        s.classList.toggle('is-active', on);
+      });
     }
     function next() { go(i + 1); }
     function prev() { go(i - 1); }

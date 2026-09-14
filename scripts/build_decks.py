@@ -104,6 +104,15 @@ def e(s):
     return html.escape(str(s))
 
 
+def art(s_):
+    """Optional illustration. Any slide type can carry one — it renders as a
+    right-hand panel and the text column narrows to make room."""
+    if not s_.get("img"):
+        return "", ""
+    return (" has-art",
+            f'<div class="hs-art"><img src="/assets/img/decks/{e(s_["img"])}.png" alt="" loading="lazy"></div>')
+
+
 def bi(en, zh, cls=""):
     c = f" {cls}" if cls else ""
     return f'<div class="hs-bi{c}"><span class="hs-en">{en}</span><span class="hs-zh">{zh}</span></div>'
@@ -116,7 +125,8 @@ def t_title(s, d):
         f'<div class="hs-stat"><b>{e(x["num"])}</b>'
         f'<span class="hs-en">{e(x["en"])}</span><span class="hs-zh">{e(x["zh"])}</span></div>'
         for x in s.get("strip", []))
-    return f'''<div class="hs hs-title">
+    acls, aimg = art(s)
+    return f'''<div class="hs hs-title{acls}">{aimg}
   <div class="hs-titlerow">
     <div class="hs-badge"><span>SDG</span><b>{e(d["sdg"])}</b></div>
     <div class="hs-titletext"><h2>{e(d["title_en"])}</h2><p class="hs-zh-big">{e(d["title"])}</p></div>
@@ -131,7 +141,8 @@ def t_title(s, d):
 
 def t_intro(s, d):
     lines = "".join(bi(e(x["en"]), e(x["zh"]), "hs-line") for x in s["lines"])
-    return f'''<div class="hs hs-intro">
+    acls, aimg = art(s)
+    return f'''<div class="hs hs-intro{acls}">{aimg}
   <h3 class="hs-head">{e(s["head_en"])}<span>{e(s["head_zh"])}</span></h3>
   <div class="hs-lines">{lines}</div>
   <div class="hs-ask">🙋 {bi(e(s["ask_en"]), e(s["ask_zh"]))}</div>
@@ -161,7 +172,8 @@ def t_standup(s, d):
 def t_topic(s, d):
     kws = "".join(f'<span class="hs-kw"><b>{e(k["en"])}</b>{e(k["zh"])}</span>'
                   for k in s.get("keywords", []))
-    return f'''<div class="hs hs-topic">
+    acls, aimg = art(s)
+    return f'''<div class="hs hs-topic{acls}">{aimg}
   <h3 class="hs-head">{e(s["head_en"])}<span>{e(s["head_zh"])}</span></h3>
   <p class="hs-body-en">{e(s["body_en"])}</p>
   <p class="hs-body-zh">{e(s["body_zh"])}</p>
@@ -177,7 +189,8 @@ def t_quiz(s, d):
         f'<span class="hs-en">{e(o["en"])}</span><span class="hs-zh">{e(o["zh"])}</span></button>'
         for i, o in enumerate(s["options"]))
     bonus = '<span class="hs-bonus">BONUS 加碼</span>' if s.get("bonus") else ""
-    return f'''<div class="hs hs-quiz" data-reveal-group>
+    acls, aimg = art(s)
+    return f'''<div class="hs hs-quiz{acls}" data-reveal-group>{aimg}
   <div class="hs-qbar"><span class="hs-qtag">🎮 Game Time! 遊戲時間</span>{bonus}
     <span class="hs-qn">Q{s["n"]}</span></div>
   <div class="hs-q">{bi(e(s["q_en"]), e(s["q_zh"]))}</div>
@@ -188,7 +201,8 @@ def t_quiz(s, d):
 
 
 def t_bigstat(s, d):
-    return f'''<div class="hs hs-bigstat">
+    acls, aimg = art(s)
+    return f'''<div class="hs hs-bigstat{acls}">{aimg}
   <div class="hs-bignum">{e(s["num"])}</div>
   <h3 class="hs-bighead">{e(s["head_en"])}</h3>
   <p class="hs-bighead-zh">{e(s["head_zh"])}</p>
@@ -287,7 +301,8 @@ def t_padlet(s, d):
 
 
 def t_closing(s, d):
-    return f'''<div class="hs hs-closing">
+    acls, aimg = art(s)
+    return f'''<div class="hs hs-closing{acls}">{aimg}
   <div class="hs-bigline">{s["big_en"]}</div>
   <div class="hs-bigline-zh">{e(s["big_zh"])}</div>
   <div class="hs-rule"></div>

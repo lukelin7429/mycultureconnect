@@ -280,3 +280,88 @@ body.deck-body { background:var(--page); min-height:100vh; font-family:var(--san
 /* 這頁項目多，標題與規則框再讓出一點高度 */
 .hs-game .hs-head { font-size:38px; }
 .hs-game .hs-head span { font-size:24px; }
+
+/* ==========================================================================
+   插圖版面 + 進場動畫
+   ========================================================================== */
+/* 有插圖時：文字欄收窄，右側讓給圖。用絕對定位而不是改 flex 方向，
+   這樣既有各版型內部的排版規則完全不受影響。 */
+.hs.has-art { padding-right:404px; }
+.hs-art { position:absolute; right:0; top:0; bottom:46px; width:376px;
+  overflow:hidden; display:flex; align-items:center; justify-content:center;
+  background:var(--hs-soft); }
+.hs-art img { width:100%; height:100%; object-fit:cover; display:block; }
+/* 圖與文字之間給一道品牌色細邊，避免兩塊直接相撞 */
+.hs-art::before { content:""; position:absolute; left:0; top:0; bottom:0; width:5px;
+  background:var(--hs-key); z-index:2; }
+/* 封面與結尾的圖改成滿版襯底，文字壓在上面更有氣勢 */
+.hs-title.has-art, .hs-closing.has-art { padding-right:60px; }
+/* 封面與結尾：圖墊到文字後面。用 z-index:-1 而不是把子元素改成 relative——
+   那會連 .hs-art 與 .hs-school 自己的絕對定位一起打掉。 */
+.hs-title.has-art .hs-art, .hs-closing.has-art .hs-art {
+  left:0; right:0; width:auto; z-index:-1; background:transparent; }
+/* 淡化套在 img 上，不要套在 .hs-art——進場動畫會把容器的 opacity 改回 1 */
+.hs-title.has-art .hs-art img, .hs-closing.has-art .hs-art img { opacity:.22; }
+/* 再加一層由左向右的底色遮罩，確保左半邊的文字一定讀得清楚 */
+.hs-title.has-art::after, .hs-closing.has-art::after {
+  content:""; position:absolute; left:0; top:0; bottom:46px; right:0; z-index:-1;
+  background:linear-gradient(100deg, var(--hs-bg) 30%, rgba(255,255,255,0) 78%); }
+.hs-title.has-art .hs-art::before, .hs-closing.has-art .hs-art::before { display:none; }
+
+/* 進場動畫：切到某頁時，該頁元素依序浮現 */
+@media (prefers-reduced-motion: no-preference) {
+  .deck-slide .hs > *,
+  .deck-slide .hs-art { opacity:0; transform:translateY(16px); }
+  .deck-slide.is-active .hs > *,
+  .deck-slide.is-active .hs-art {
+    opacity:1; transform:none;
+    transition:opacity .45s ease, transform .45s cubic-bezier(.2,.7,.3,1); }
+  .deck-slide.is-active .hs-art { transition-delay:.05s; transform:none; }
+  .deck-slide.is-active .hs > *:nth-child(1) { transition-delay:.10s; }
+  .deck-slide.is-active .hs > *:nth-child(2) { transition-delay:.18s; }
+  .deck-slide.is-active .hs > *:nth-child(3) { transition-delay:.26s; }
+  .deck-slide.is-active .hs > *:nth-child(4) { transition-delay:.34s; }
+  .deck-slide.is-active .hs > *:nth-child(5) { transition-delay:.42s; }
+  .deck-slide.is-active .hs > *:nth-child(6) { transition-delay:.50s; }
+  /* 插圖本身輕微放大，帶一點生氣 */
+  .deck-slide.is-active .hs-art img {
+    animation:artZoom 9s ease-out both; }
+  @keyframes artZoom { from { transform:scale(1.06); } to { transform:scale(1); } }
+}
+@media (max-width:640px) { .hs.has-art { padding-right:60px; }
+  .hs-art { display:none; } }
+
+/* SDG 10 的題幹與是非題敘述比 SDG 2 長，這兩種版型再收一點才不會被裁掉 */
+.hs-tflist .hs-tfq .hs-en { font-size:20px; }
+.hs-tflist .hs-tfq .hs-zh { font-size:16px; }
+.hs-tflist .hs-tfa { font-size:18px; }
+.hs-quiz .hs-opt { padding:10px 16px; }
+.hs-tflist .hs-tf { padding:4px 16px; }
+.hs-tflist .hs-tfa em { font-size:13px; }
+
+/* 有插圖的頁面文字欄較窄、行數變多，字級對應縮一階才不會被裁掉 */
+.hs-intro.has-art .hs-line .hs-en { font-size:24px; }
+.hs-intro.has-art .hs-line .hs-zh { font-size:19px; }
+.hs-intro.has-art .hs-lines { gap:10px; }
+.hs-intro.has-art .hs-ask { padding:12px 18px; }
+.hs-intro.has-art .hs-ask .hs-en { font-size:22px; }
+.hs-intro.has-art .hs-ask .hs-zh { font-size:18px; }
+.hs-quiz.has-art .hs-opts { grid-template-columns:1fr; gap:8px; }
+.hs-quiz.has-art .hs-q .hs-en { font-size:25px; }
+.hs-quiz.has-art .hs-q .hs-zh { font-size:19px; }
+.hs-quiz.has-art .hs-opt { padding:7px 14px; }
+.hs-quiz.has-art .hs-opt .hs-en { font-size:19px; }
+.hs-quiz.has-art .hs-opt .hs-zh { font-size:16px; }
+.hs-quiz.has-art .hs-letter { flex:0 0 32px; height:32px; font-size:18px; }
+.hs-quiz.has-art .hs-explain { padding:9px 16px; }
+.hs-quiz.has-art .hs-explain .hs-en { font-size:19px; }
+.hs-quiz.has-art .hs-explain .hs-zh { font-size:16px; }
+.hs-bigstat.has-art .hs-bignum { font-size:104px; }
+.hs-bigstat.has-art .hs-bighead { font-size:30px; }
+.hs-bigstat.has-art .hs-bighead-zh { font-size:22px; }
+/* 有插圖的測驗題四個選項改單欄後仍偏高，再收一階 */
+.hs-quiz.has-art { gap:9px; }
+.hs-quiz.has-art .hs-qbar .hs-qtag { font-size:18px; padding:6px 15px; }
+.hs-quiz.has-art .hs-q { padding:10px 16px; }
+.hs-quiz.has-art .hs-opt { padding:5px 13px; }
+.hs-quiz.has-art .hs-tap { font-size:15px; }
