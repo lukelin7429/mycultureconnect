@@ -53,6 +53,70 @@
    "year": "115"
   },
   {
+   "en": "Beidou Elementary",
+   "zh": "北斗國小",
+   "town_zh": "北斗鎮",
+   "town_en": "Beidou",
+   "lat": 23.876745,
+   "lng": 120.523272,
+   "dates": [
+    "2025.12.16"
+   ],
+   "status": "visited",
+   "year": "114",
+   "note_en": "International Exchange",
+   "note_zh": "國際交流",
+   "news": "xQ-aT5w1e9A"
+  },
+  {
+   "en": "Yangming Junior High",
+   "zh": "陽明國中",
+   "town_zh": "彰化市",
+   "town_en": "Changhua City",
+   "lat": 24.086401,
+   "lng": 120.550932,
+   "dates": [
+    "2025.12.16"
+   ],
+   "status": "visited",
+   "year": "114",
+   "note_en": "School Visit",
+   "note_zh": "到校參訪",
+   "news": "gcDCu03Io2k"
+  },
+  {
+   "en": "Daxin Elementary",
+   "zh": "大新國小",
+   "town_zh": "北斗鎮",
+   "town_en": "Beidou",
+   "lat": 23.85517,
+   "lng": 120.557569,
+   "dates": [
+    "2025.12.17"
+   ],
+   "status": "visited",
+   "year": "114",
+   "note_en": "International Exchange",
+   "note_zh": "國際交流",
+   "news": "exNWJilPGMo"
+  },
+  {
+   "en": "Datong Elementary",
+   "zh": "大同國小",
+   "town_zh": "伸港鄉",
+   "town_en": "Shengang",
+   "lat": 24.160454,
+   "lng": 120.491704,
+   "dates": [
+    "2026.02.03"
+   ],
+   "status": "visited",
+   "year": "114",
+   "note_en": "Small Hands, Big Impact",
+   "note_zh": "小手大影響",
+   "news": "h9XbU-mVjsY"
+  },
+  {
    "en": "Dacheng Elementary",
    "zh": "大城國小",
    "town_zh": "大城鄉",
@@ -503,62 +567,6 @@
      "title_en": "SDG 7 Solar Energy"
     }
    ]
-  },
-  {
-   "en": "Beidou Elementary",
-   "zh": "北斗國小",
-   "town_zh": "北斗鎮",
-   "town_en": "Beidou",
-   "lat": 23.876745,
-   "lng": 120.523272,
-   "dates": [],
-   "status": "visited",
-   "year": "earlier",
-   "note_en": "International Exchange",
-   "note_zh": "國際交流",
-   "news": "xQ-aT5w1e9A"
-  },
-  {
-   "en": "Datong Elementary",
-   "zh": "大同國小",
-   "town_zh": "伸港鄉",
-   "town_en": "Shengang",
-   "lat": 24.160454,
-   "lng": 120.491704,
-   "dates": [],
-   "status": "visited",
-   "year": "earlier",
-   "note_en": "Small Hands, Big Impact",
-   "note_zh": "小手大影響",
-   "news": "h9XbU-mVjsY"
-  },
-  {
-   "en": "Daxin Elementary",
-   "zh": "大新國小",
-   "town_zh": "北斗鎮",
-   "town_en": "Beidou",
-   "lat": 23.85517,
-   "lng": 120.557569,
-   "dates": [],
-   "status": "visited",
-   "year": "earlier",
-   "note_en": "International Exchange",
-   "note_zh": "國際交流",
-   "news": "exNWJilPGMo"
-  },
-  {
-   "en": "Yangming Junior High",
-   "zh": "陽明國中",
-   "town_zh": "彰化市",
-   "town_en": "Changhua City",
-   "lat": 24.086401,
-   "lng": 120.550932,
-   "dates": [],
-   "status": "visited",
-   "year": "earlier",
-   "note_en": "School Visit",
-   "note_zh": "到校參訪",
-   "news": "gcDCu03Io2k"
   }
  ]
 }

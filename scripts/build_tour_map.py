@@ -184,7 +184,9 @@ def build():
         side = ' is-l' if left < 26 else (' is-r' if left > 74 else '')
         below = ' is-below' if top < 17 else ''
         kind = 'upcoming' if s.get('status') == 'upcoming' else s['year']
-        when = ' · '.join(s['dates']) if s['dates'] else esc(s.get('note_en', ''))
+        when = ' · '.join(s['dates']) if s['dates'] else s.get('note_en', '')
+        note = (f'{s["note_en"]} {s["note_zh"]}'
+                if s.get('note_en') and s['dates'] else '')
         year_label = next(z for y, _, z in YEARS if y == s['year'])
 
         bits = []
@@ -212,6 +214,7 @@ def build():
             f'<span class="tm-c-town">{esc(s["town_en"])} {esc(s["town_zh"])}</span>'
             + (f'<span class="tm-c-when">{esc(when)}'
                f'<span class="tm-c-year">{esc(year_label)}</span></span>' if when else '')
+            + (f'<span class="tm-c-note">{esc(note)}</span>' if note else '')
             + (f'<span class="tm-c-bits">{esc(" · ".join(bits))}</span>' if bits else '')
             + '</span></button>')
 
@@ -242,18 +245,28 @@ def build():
             + (f'<span class="tm-row-links">{"".join(links)}</span>' if links else '')
             + '</li>')
 
+    tabs = [t for t in [
+        ('all', 'All', '全部', '🗺', 'All', len(schools)),
+        ('115', '115', '學年度 2026–27', '📍', '115', counts['115']),
+        ('114', '114', '學年度 2025–26', '🗂', '114', counts['114']),
+        ('earlier', 'Earlier', '更早的到訪', '🕰', 'Earlier', counts['earlier']),
+    ] if t[5]]
     switch = ''.join(
         f'<button class="vlib-tab{" is-on" if i == 0 else ""}" role="tab" '
         f'aria-selected="{"true" if i == 0 else "false"}" data-y="{y}">'
         f'<span class="ico" aria-hidden="true">{ico}</span>'
         f'<span class="en">{en}</span><span class="en-short">{short}</span>'
         f'<span class="zh">{zh}</span><span class="n">{n}</span></button>'
-        for i, (y, en, zh, ico, short, n) in enumerate([
-            ('all', 'All', '全部', '🗺', 'All', len(schools)),
-            ('115', '115', '學年度 2026–27', '📍', '115', counts['115']),
-            ('114', '114', '學年度 2025–26', '🗂', '114', counts['114']),
-            ('earlier', 'Earlier', '更早的到訪', '🕰', 'Earlier', counts['earlier']),
-        ]))
+        for i, (y, en, zh, ico, short, n) in enumerate(tabs))
+
+    keys = [(f'var(--tm-{y})', label) for y, label in
+            [('115', '115 · 2026–2027'), ('114', '114 · 2025–2026'),
+             ('earlier', 'Earlier 更早的到訪')] if counts[y]]
+    legend = ''.join(f'<span><i class="tm-key" style="--k:{c}"></i>{esc(t)}</span>'
+                     for c, t in keys)
+    if any(s.get('status') == 'upcoming' for s in schools):
+        legend += '<span><i class="tm-key tm-key--soon"></i>Upcoming 即將前往</span>'
+    legend += '<span><i class="tm-key tm-key--land"></i>Township visited 已到訪的鄉鎮市</span>'
 
     stats = [(len(schools), 'Campuses', '所學校'),
              (len(visited_towns), 'Townships', '個鄉鎮市'),
@@ -264,7 +277,7 @@ def build():
         towns=''.join(towns), outline=''.join(
             f'<path class="tm-outline" d="{d}"/>' for d in geo['outline']),
         labels=''.join(labels), leaders=''.join(leaders),
-        pins=''.join(pins), rows=''.join(rows), switch=switch,
+        pins=''.join(pins), rows=''.join(rows), switch=switch, legend=legend,
         n_schools=len(schools), n_towns=len(visited_towns),
         stats=''.join(f'<div class="tm-stat"><b>{n}</b><span>{en}</span><i>{zh}</i></div>'
                       for n, en, zh in stats),

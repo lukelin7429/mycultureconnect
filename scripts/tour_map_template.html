@@ -88,6 +88,8 @@
   font-size:.8rem;color:var(--ink)}
 .tm-c-year{font-family:var(--eyebrow);font-size:.63rem;letter-spacing:.07em;border-radius:999px;
   padding:2px 8px;background:var(--c,var(--tm-115));color:#fff;white-space:nowrap}
+.tm-c-note{display:block;margin-top:5px;font-size:.76rem;color:var(--muted-2);
+  font-family:'PingFang TC','Apple LiGothic Medium','Microsoft JhengHei',var(--body)}
 .tm-c-bits{display:block;margin-top:8px;padding-top:8px;border-top:1px dashed var(--line);
   font-size:.73rem;line-height:1.5;color:var(--muted-2);
   font-family:'PingFang TC','Apple LiGothic Medium','Microsoft JhengHei',var(--body)}
@@ -202,13 +204,7 @@
       <ol class="tm-list">{{rows}}</ol>
     </div>
 
-    <p class="tm-legend">
-      <span><i class="tm-key" style="--k:var(--tm-115)"></i>115 · 2026–2027</span>
-      <span><i class="tm-key" style="--k:var(--tm-114)"></i>114 · 2025–2026</span>
-      <span><i class="tm-key" style="--k:var(--tm-earlier)"></i>Earlier 更早的到訪</span>
-      <span><i class="tm-key tm-key--soon"></i>Upcoming 即將前往</span>
-      <span><i class="tm-key tm-key--land"></i>Township visited 已到訪的鄉鎮市</span>
-    </p>
+    <p class="tm-legend">{{legend}}</p>
     <p class="tm-hint">Tap a pin on touch screens · 觸控螢幕請點一下圖釘</p>
   </div>
 
@@ -255,10 +251,16 @@
     rows.forEach(function (r) { r.classList.remove('is-active'); });
   });
 
+  /* Once the entrance has played, drop its classes for good. A pin that was
+     display:none while filtered out would otherwise replay the drop — with its
+     stagger delay — every time it comes back, blanking the map for a second. */
+  function settle() { sec.classList.remove('tm-ready', 'tm-in'); }
+
   /* year filter — the site-wide .vlib-bar handler already moves the is-on class */
   var bar = document.getElementById('tm-switch');
   if (bar) bar.addEventListener('click', function (e) {
     var t = e.target.closest('.vlib-tab'); if (!t) return;
+    settle();
     var y = t.dataset.y;
     pins.concat(rows).forEach(function (el) {
       el.hidden = !(y === 'all' || el.dataset.year === y);
@@ -294,7 +296,7 @@
       sec.classList.add('tm-ready');
       void sec.offsetWidth;
       sec.classList.add('tm-in');
-      setTimeout(function () { sec.classList.remove('tm-ready'); }, 4000);
+      setTimeout(settle, 4000);
     });
   }, { threshold: 0.12 });
   io.observe(sec);
