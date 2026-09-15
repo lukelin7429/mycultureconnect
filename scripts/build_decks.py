@@ -588,6 +588,7 @@ def library_page(decks):
     font-weight:700; font-size:.92rem; }}
   @media(max-width:880px) {{ .dgrid {{ grid-template-columns:1fr; }} }}
 </style>
+<link rel="stylesheet" href="/assets/css/search.css">
 </head>
 <body>
 <header class="site-header"><div class="wrap">
@@ -631,6 +632,7 @@ def library_page(decks):
   </div>
 </div></footer>
 <script src="/assets/js/main.js"></script>
+<script defer src="/assets/js/search.js"></script>
 </body>
 </html>'''
 

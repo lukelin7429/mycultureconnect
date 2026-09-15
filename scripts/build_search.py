@@ -9,6 +9,15 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SKIP_DIRS = {'.git', 'assets', 'scripts', 'node_modules', 'vendor', '_site',
              '_layouts', '_includes', 'apps-script', 'data'}
 
+# Projection pages: the assembly decks and the per-visit itineraries are shown on
+# a classroom projector, so they carry no site chrome by design — never index them
+# and never wire the search overlay into them. slides/index.html is the ordinary
+# library page and stays in.
+def is_projection(rel):
+    rel = rel.replace(os.sep, '/')
+    return rel.startswith('visits/') or (rel.startswith('slides/') and rel != 'slides/index.html')
+
+
 CSS_LINK = '<link rel="stylesheet" href="/assets/css/search.css">'
 JS_TAG   = '<script defer src="/assets/js/search.js"></script>'
 
@@ -56,8 +65,12 @@ def walk_html():
     for dp, dns, fns in os.walk(ROOT):
         dns[:] = [d for d in dns if d not in SKIP_DIRS and not d.startswith('.')]
         for fn in fns:
-            if fn.endswith('.html'):
-                yield os.path.join(dp, fn)
+            if not fn.endswith('.html'):
+                continue
+            full = os.path.join(dp, fn)
+            if is_projection(os.path.relpath(full, ROOT)):
+                continue
+            yield full
 
 
 entries = []

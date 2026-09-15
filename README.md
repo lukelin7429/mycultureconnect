@@ -14,6 +14,28 @@ Design mirrors the original: Noticia Text + Questrial + Avenir, brand orange `#F
 - `programs.html` — Dom Jones Taiwan school tour (videos)
 - `contact.html` — Contact info & form
 
+## Build scripts
+
+Everything generated lives under `data/` as JSON — edit the JSON, re-run the
+script, never hand-edit the generated HTML.
+
+| Command | Reads | Writes |
+|---|---|---|
+| `python3 scripts/build_decks.py` | `data/decks/*.json`, `data/decks-114.json`, `data/visits/*.json` | `slides/`, `visits/` |
+| `python3 scripts/build_tour_map.py` | `data/tour-map.json`, `data/changhua-map.json` | the map section in `dom-school-tour.html` |
+| `python3 scripts/build_search.py` | every site page | `search.json` + wires the search box in |
+| `python3 scripts/make_changhua_geo.py` | a national township GeoJSON (see its docstring) | `data/changhua-map.json` — one-off |
+
+**Adding a school to the tour map:** append a record to `data/tour-map.json`
+(`en`, `zh`, `town_zh`, `town_en`, `lat`, `lng`, `dates`, `year`, `status`, and
+optional `decks` / `visit` / `news` / `voices`) and re-run `build_tour_map.py`.
+Coordinates come from OpenStreetMap; every pin is checked to fall inside the
+township it claims.
+
+The assembly decks under `slides/` and the itineraries under `visits/` are
+projection pages: no site header, no footer, no search box. `build_search.py`
+skips them on purpose.
+
 ## Notes
 - Images in `assets/img/` were converted from HEIC/JPG and optimized for web.
 - Contact form currently opens the visitor's mail app (mailto). Can be swapped to

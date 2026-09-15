@@ -1,0 +1,564 @@
+{
+ "schools": [
+  {
+   "en": "Beidou Junior High",
+   "zh": "北斗國中",
+   "town_zh": "北斗鎮",
+   "town_en": "Beidou",
+   "lat": 23.877263,
+   "lng": 120.521482,
+   "dates": [
+    "2026.09.15"
+   ],
+   "status": "visited",
+   "year": "115",
+   "decks": [
+    {
+     "slug": "beidou-jh-sdg10-inequality",
+     "title": "SDG 10 減少不平等",
+     "title_en": "Reduced Inequalities"
+    },
+    {
+     "slug": "beidou-jh-sdg2-zerohunger",
+     "title": "SDG 2 消除飢餓",
+     "title_en": "Zero Hunger"
+    }
+   ],
+   "visit": "2026-09-15-beidou-jh"
+  },
+  {
+   "en": "Nanzhen Elementary",
+   "zh": "南鎮國小",
+   "town_zh": "田尾鄉",
+   "town_en": "Tianwei",
+   "lat": 23.886409,
+   "lng": 120.560368,
+   "dates": [
+    "2026.09.22"
+   ],
+   "status": "upcoming",
+   "year": "115"
+  },
+  {
+   "en": "Nanzhou Elementary",
+   "zh": "南州國小",
+   "town_zh": "溪州鄉",
+   "town_en": "Xizhou",
+   "lat": 23.852656,
+   "lng": 120.491114,
+   "dates": [
+    "2026.09.22"
+   ],
+   "status": "upcoming",
+   "year": "115"
+  },
+  {
+   "en": "Dacheng Elementary",
+   "zh": "大城國小",
+   "town_zh": "大城鄉",
+   "town_en": "Dacheng",
+   "lat": 23.851986,
+   "lng": 120.320121,
+   "dates": [
+    "2026.03.24"
+   ],
+   "status": "visited",
+   "year": "114",
+   "news": "19rekCsqAjk",
+   "decks": [
+    {
+     "slug": "dacheng-elem-sdg10",
+     "title": "SDG 10 減少不平等",
+     "title_en": "SDG 10 Reduced Inequalities"
+    }
+   ]
+  },
+  {
+   "en": "Dacheng Junior High",
+   "zh": "大城國中",
+   "town_zh": "大城鄉",
+   "town_en": "Dacheng",
+   "lat": 23.8532,
+   "lng": 120.324101,
+   "dates": [
+    "2026.03.24"
+   ],
+   "status": "visited",
+   "year": "114",
+   "news": "CRdHUTZHl_8",
+   "voices": "LArd9gafybg",
+   "decks": [
+    {
+     "slug": "dacheng-jh-sdg14-bilingual",
+     "title": "SDG 14 保育海洋生態（中學雙語版）",
+     "title_en": "SDG 14 Life Below Water (JH bilingual)"
+    },
+    {
+     "slug": "dacheng-jh-sdg14-simplified",
+     "title": "SDG 14 保育海洋生態（簡化版）",
+     "title_en": "SDG 14 Life Below Water (simplified)"
+    }
+   ]
+  },
+  {
+   "en": "Dexing Elementary",
+   "zh": "德興國小",
+   "town_zh": "永靖鄉",
+   "town_en": "Yongjing",
+   "lat": 23.929973,
+   "lng": 120.503209,
+   "dates": [
+    "2026.03.31"
+   ],
+   "status": "visited",
+   "year": "114",
+   "news": "3a2LlsTmLIU",
+   "voices": "as28NTe49ic",
+   "decks": [
+    {
+     "slug": "desing-sdg2-zerohunger",
+     "title": "SDG 2 消除飢餓",
+     "title_en": "SDG 2 Zero Hunger"
+    },
+    {
+     "slug": "desing-food-agriculture",
+     "title": "食農教育",
+     "title_en": "Food & Agriculture Education"
+    }
+   ]
+  },
+  {
+   "en": "Fusing Elementary",
+   "zh": "福興國小",
+   "town_zh": "永靖鄉",
+   "town_en": "Yongjing",
+   "lat": 23.920069,
+   "lng": 120.522742,
+   "dates": [
+    "2026.03.31"
+   ],
+   "status": "visited",
+   "year": "114",
+   "news": "0CPDATRfMJ8",
+   "voices": "VSKKtyrP8JI",
+   "decks": [
+    {
+     "slug": "fushing-character-education",
+     "title": "品格教育",
+     "title_en": "Character Education"
+    }
+   ]
+  },
+  {
+   "en": "Fusing Junior High",
+   "zh": "福興國中",
+   "town_zh": "福興鄉",
+   "town_en": "Fuxing",
+   "lat": 24.041188,
+   "lng": 120.437087,
+   "dates": [
+    "2026.04.07"
+   ],
+   "status": "visited",
+   "year": "114",
+   "news": "hMMbheEwZkI",
+   "voices": "7om_ARwwK7c"
+  },
+  {
+   "en": "Yuxin Elementary",
+   "zh": "育新國小",
+   "town_zh": "福興鄉",
+   "town_en": "Fuxing",
+   "lat": 24.041806,
+   "lng": 120.412927,
+   "dates": [
+    "2026.04.07"
+   ],
+   "status": "visited",
+   "year": "114",
+   "news": "kYcVaoMnYBo",
+   "voices": "V75GdrMV9OQ",
+   "decks": [
+    {
+     "slug": "yushin-sdg2-dairy",
+     "title": "SDG 2 消除飢餓（酪農版）",
+     "title_en": "SDG 2 Zero Hunger (dairy farming)"
+    }
+   ]
+  },
+  {
+   "en": "Lufeng Elementary",
+   "zh": "陸豐國小",
+   "town_zh": "田尾鄉",
+   "town_en": "Tianwei",
+   "lat": 23.91797,
+   "lng": 120.504808,
+   "dates": [
+    "2026.04.14"
+   ],
+   "status": "visited",
+   "year": "114",
+   "news": "UHlL9GpBeco"
+  },
+  {
+   "en": "Mingli Elementary",
+   "zh": "明禮國小",
+   "town_zh": "田中鎮",
+   "town_en": "Tianzhong",
+   "lat": 23.876875,
+   "lng": 120.566769,
+   "dates": [
+    "2026.04.14"
+   ],
+   "status": "visited",
+   "year": "114",
+   "news": "ugPeclZYyQM",
+   "voices": "dlZvvwyHbfo",
+   "decks": [
+    {
+     "slug": "mingli-eco-bilingual",
+     "title": "生態教育（四年級雙語版）",
+     "title_en": "Eco Education (Grade 4 bilingual)"
+    }
+   ]
+  },
+  {
+   "en": "Renfeng Elementary",
+   "zh": "仁豐國小",
+   "town_zh": "田尾鄉",
+   "town_en": "Tianwei",
+   "lat": 23.901972,
+   "lng": 120.508617,
+   "dates": [
+    "2026.04.21"
+   ],
+   "status": "visited",
+   "year": "114",
+   "news": "dH0MQxB4x8o",
+   "voices": "u9BiSr6LefI",
+   "decks": [
+    {
+     "slug": "renfeng-sdg2-game",
+     "title": "SDG 2 消除飢餓（遊戲互動版）",
+     "title_en": "SDG 2 Zero Hunger (interactive game)"
+    }
+   ]
+  },
+  {
+   "en": "Xinmin Elementary",
+   "zh": "新民國小",
+   "town_zh": "田中鎮",
+   "town_en": "Tianzhong",
+   "lat": 23.854618,
+   "lng": 120.586143,
+   "dates": [
+    "2026.04.21"
+   ],
+   "status": "visited",
+   "year": "114",
+   "news": "ul5CBsV0QkA",
+   "voices": "_SX6aqAFMoY",
+   "decks": [
+    {
+     "slug": "hsinmin-earth-day",
+     "title": "地球日 Earth Day",
+     "title_en": "Earth Day"
+    }
+   ]
+  },
+  {
+   "en": "Qiaoxin Elementary",
+   "zh": "僑信國小",
+   "town_zh": "員林市",
+   "town_en": "Yuanlin City",
+   "lat": 23.968032,
+   "lng": 120.572488,
+   "dates": [
+    "2026.04.28"
+   ],
+   "status": "visited",
+   "year": "114",
+   "news": "1CaTsQJHkpk",
+   "voices": "_wa-MmwTIWM",
+   "decks": [
+    {
+     "slug": "ciaosin-taiwan-vs-california-lunch",
+     "title": "台灣 vs 加州午餐文化",
+     "title_en": "Taiwan vs California School Lunch"
+    }
+   ]
+  },
+  {
+   "en": "Kuaiguan Elementary",
+   "zh": "快官國小",
+   "town_zh": "彰化市",
+   "town_en": "Changhua City",
+   "lat": 24.068327,
+   "lng": 120.611868,
+   "dates": [
+    "2026.05.05"
+   ],
+   "status": "visited",
+   "year": "114",
+   "news": "2flGVrz2fDE",
+   "voices": "AmXnzSQCirc",
+   "decks": [
+    {
+     "slug": "kuaiguan-food-agri-sdg",
+     "title": "食農教育 SDG 2·3·12",
+     "title_en": "Food & Agriculture (SDG 2·3·12)"
+    }
+   ]
+  },
+  {
+   "en": "Xizhou Elementary",
+   "zh": "溪州國小",
+   "town_zh": "溪州鄉",
+   "town_en": "Xizhou",
+   "lat": 23.853434,
+   "lng": 120.497505,
+   "dates": [
+    "2026.05.05"
+   ],
+   "status": "visited",
+   "year": "114",
+   "news": "FY2SjU8L04w",
+   "voices": "NW-Ld9NzOsA",
+   "decks": [
+    {
+     "slug": "sijhou-sdg4",
+     "title": "SDG 4 優質教育",
+     "title_en": "SDG 4 Quality Education"
+    }
+   ]
+  },
+  {
+   "en": "Wenchang Elementary",
+   "zh": "文昌國小",
+   "town_zh": "福興鄉",
+   "town_en": "Fuxing",
+   "lat": 24.007688,
+   "lng": 120.419141,
+   "dates": [
+    "2026.05.12"
+   ],
+   "status": "visited",
+   "year": "114",
+   "news": "7VJodV2HwnE",
+   "voices": "W57Ks6--3Tk",
+   "decks": [
+    {
+     "slug": "wenchang-sdg14-life-below-water",
+     "title": "SDG 14 保育海洋生態",
+     "title_en": "SDG 14 Life Below Water"
+    }
+   ]
+  },
+  {
+   "en": "Zhonghe Elementary",
+   "zh": "中和國小",
+   "town_zh": "埤頭鄉",
+   "town_en": "Pitou",
+   "lat": 23.847844,
+   "lng": 120.460358,
+   "dates": [
+    "2026.05.12"
+   ],
+   "status": "visited",
+   "year": "114",
+   "news": "x--JEdN8xPY",
+   "voices": "Y1oyv7UuE7k"
+  },
+  {
+   "en": "Hubei Elementary",
+   "zh": "湖北國小",
+   "town_zh": "溪湖鎮",
+   "town_en": "Xihu",
+   "lat": 23.965722,
+   "lng": 120.476575,
+   "dates": [
+    "2026.05.19"
+   ],
+   "status": "visited",
+   "year": "114",
+   "news": "mlDqgsMuV0c",
+   "voices": "EX9ECX_rOq4",
+   "decks": [
+    {
+     "slug": "hubei-sdg15-life-on-land",
+     "title": "SDG 15 陸地生態",
+     "title_en": "SDG 15 Life on Land"
+    }
+   ]
+  },
+  {
+   "en": "Wanxing Elementary",
+   "zh": "萬興國小",
+   "town_zh": "二林鎮",
+   "town_en": "Erlin",
+   "lat": 23.954166,
+   "lng": 120.419508,
+   "dates": [
+    "2026.05.19"
+   ],
+   "status": "visited",
+   "year": "114",
+   "news": "lPfb-TbozhU",
+   "voices": "_AYlf-4OSl4"
+  },
+  {
+   "en": "Minsheng Elementary",
+   "zh": "民生國小",
+   "town_zh": "彰化市",
+   "town_en": "Changhua City",
+   "lat": 24.084509,
+   "lng": 120.54289,
+   "dates": [
+    "2026.05.25"
+   ],
+   "status": "visited",
+   "year": "114",
+   "news": "WTxOjT5OXiE",
+   "voices": "yuf8GLlfGLs",
+   "decks": [
+    {
+     "slug": "minsheng-earth-day",
+     "title": "地球日 Earth Day",
+     "title_en": "Earth Day"
+    },
+    {
+     "slug": "minsheng-california-home",
+     "title": "My California Home",
+     "title_en": "My California Home"
+    }
+   ]
+  },
+  {
+   "en": "Yude Elementary",
+   "zh": "育德國小",
+   "town_zh": "二林鎮",
+   "town_en": "Erlin",
+   "lat": 23.874392,
+   "lng": 120.386754,
+   "dates": [
+    "2026.05.25"
+   ],
+   "status": "visited",
+   "year": "114",
+   "news": "rCQuOmELjbM",
+   "voices": "zKw0WL7DGu8",
+   "decks": [
+    {
+     "slug": "yude-sdg4-quality-education",
+     "title": "SDG 4 優質教育",
+     "title_en": "SDG 4 Quality Education"
+    },
+    {
+     "slug": "yude-food-agriculture-action",
+     "title": "食農行動 Food & Agriculture Action",
+     "title_en": "Food & Agriculture Action"
+    }
+   ]
+  },
+  {
+   "en": "Houliao Elementary",
+   "zh": "後寮國小",
+   "town_zh": "芳苑鄉",
+   "town_en": "Fangyuan",
+   "lat": 23.920815,
+   "lng": 120.341524,
+   "dates": [
+    "2026.06.02"
+   ],
+   "status": "visited",
+   "year": "114",
+   "news": "-wW0IOjTUT4",
+   "voices": "01Wonw-UBRU",
+   "decks": [
+    {
+     "slug": "houliao-character-education",
+     "title": "品格教育",
+     "title_en": "Character Education"
+    }
+   ]
+  },
+  {
+   "en": "Yuhua Elementary",
+   "zh": "育華國小",
+   "town_zh": "芳苑鄉",
+   "town_en": "Fangyuan",
+   "lat": 23.945824,
+   "lng": 120.332478,
+   "dates": [
+    "2026.06.02"
+   ],
+   "status": "visited",
+   "year": "114",
+   "news": "5Oghv3gQETU",
+   "voices": "xp_DbyGqnAc",
+   "decks": [
+    {
+     "slug": "yuhua-sdg7-solar",
+     "title": "SDG 7 太陽能",
+     "title_en": "SDG 7 Solar Energy"
+    }
+   ]
+  },
+  {
+   "en": "Beidou Elementary",
+   "zh": "北斗國小",
+   "town_zh": "北斗鎮",
+   "town_en": "Beidou",
+   "lat": 23.876745,
+   "lng": 120.523272,
+   "dates": [],
+   "status": "visited",
+   "year": "earlier",
+   "note_en": "International Exchange",
+   "note_zh": "國際交流",
+   "news": "xQ-aT5w1e9A"
+  },
+  {
+   "en": "Datong Elementary",
+   "zh": "大同國小",
+   "town_zh": "伸港鄉",
+   "town_en": "Shengang",
+   "lat": 24.160454,
+   "lng": 120.491704,
+   "dates": [],
+   "status": "visited",
+   "year": "earlier",
+   "note_en": "Small Hands, Big Impact",
+   "note_zh": "小手大影響",
+   "news": "h9XbU-mVjsY"
+  },
+  {
+   "en": "Daxin Elementary",
+   "zh": "大新國小",
+   "town_zh": "北斗鎮",
+   "town_en": "Beidou",
+   "lat": 23.85517,
+   "lng": 120.557569,
+   "dates": [],
+   "status": "visited",
+   "year": "earlier",
+   "note_en": "International Exchange",
+   "note_zh": "國際交流",
+   "news": "exNWJilPGMo"
+  },
+  {
+   "en": "Yangming Junior High",
+   "zh": "陽明國中",
+   "town_zh": "彰化市",
+   "town_en": "Changhua City",
+   "lat": 24.086401,
+   "lng": 120.550932,
+   "dates": [],
+   "status": "visited",
+   "year": "earlier",
+   "note_en": "School Visit",
+   "note_zh": "到校參訪",
+   "news": "gcDCu03Io2k"
+  }
+ ]
+}
