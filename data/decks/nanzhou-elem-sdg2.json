@@ -1,0 +1,313 @@
+{
+  "slug": "nanzhou-elem-sdg2-zerohunger",
+  "school": "南州國小",
+  "school_en": "Nanzhou Elementary",
+  "date": "2026.09.22",
+  "year": "115",
+  "classes": "Grade 2 二年級",
+  "title": "SDG 2 消除飢餓",
+  "title_en": "Zero Hunger",
+  "sdg": "2",
+  "theme": "amber",
+  "footer": "Teacher Dom · SDG #2 Zero Hunger 消除飢餓",
+  "slides": [
+    {
+      "type": "title",
+      "eyebrow_en": "A Bilingual Lesson for Grade 2",
+      "eyebrow_zh": "二年級雙語課程",
+      "chips": [
+        { "en": "Hungry?", "zh": "肚子餓" },
+        { "en": "Count!", "zh": "數一數" },
+        { "en": "Share!", "zh": "分享" },
+        { "en": "Say It!", "zh": "說說看" }
+      ],
+      "strip": [
+        { "num": "3", "en": "English sentences today", "zh": "今天學三句英文" },
+        { "num": "20", "en": "friends in one class", "zh": "一班 20 個小朋友" },
+        { "num": "1", "en": "cookie to share", "zh": "一塊餅乾要分" }
+      ],
+      "img": "g2-title"
+    },
+    {
+      "type": "intro",
+      "head_en": "Hello! I am Dom.",
+      "head_zh": "哈囉！我是 Dom。",
+      "lines": [
+        { "en": "I come from California, USA.", "zh": "我從美國加州來。" },
+        { "en": "I love food. Do you love food?", "zh": "我很愛吃東西。你呢？" },
+        { "en": "Today we learn three English sentences.", "zh": "今天我們要學三句英文。" }
+      ],
+      "ask_en": "Wave your hand and say: Hello, Dom!",
+      "ask_zh": "揮揮手，一起說：Hello, Dom！"
+    },
+    {
+      "type": "map",
+      "head_en": "From California to Changhua",
+      "head_zh": "從加州到彰化",
+      "img": "map-usa-taiwan.svg",
+      "ask_en": "So far away! Wave to my home — bye-bye, California!",
+      "ask_zh": "好遠喔！跟我的家揮揮手——bye-bye, California！"
+    },
+    {
+      "type": "standup",
+      "head_en": "Stand Up If…",
+      "head_zh": "如果是你，就站起來！",
+      "prompts": [
+        { "en": "Stand up if you ate breakfast today.", "zh": "今天有吃早餐的，站起來。" },
+        { "en": "Stay standing if you like rice.", "zh": "喜歡吃飯的，繼續站著。" },
+        { "en": "Stay standing if you finished ALL your lunch yesterday.", "zh": "昨天午餐全部吃完的，繼續站著。" }
+      ],
+      "punch_en": "Wow! Give yourselves a big clap!",
+      "punch_zh": "哇！給自己一個大大的掌聲！"
+    },
+    {
+      "type": "tpr",
+      "head_en": "Show Me: HUNGRY",
+      "head_zh": "做給我看：肚子餓",
+      "say_en": "I am hungry!",
+      "say_zh": "我餓了！",
+      "steps": [
+        { "icon": "🤲", "en": "Rub your tummy", "zh": "摸摸肚子" },
+        { "icon": "😫", "en": "Make a hungry face", "zh": "做出很餓的表情" },
+        { "icon": "🗣️", "en": "Say it three times", "zh": "大聲說三次" }
+      ],
+      "img": "g2-hungry-v"
+    },
+    {
+      "type": "tpr",
+      "head_en": "Show Me: FULL",
+      "head_zh": "做給我看：吃飽了",
+      "say_en": "I am full. Thank you!",
+      "say_zh": "我吃飽了。謝謝！",
+      "steps": [
+        { "icon": "🍚", "en": "Show me an empty bowl", "zh": "亮出空空的碗" },
+        { "icon": "😄", "en": "Big smile", "zh": "大大的笑容" },
+        { "icon": "👍", "en": "Thumbs up", "zh": "比個讚" }
+      ],
+      "img": "g2-full-v"
+    },
+    {
+      "type": "count",
+      "head_en": "How many bowls of rice?",
+      "head_zh": "有幾碗飯？",
+      "icon": "🍚",
+      "n": 7,
+      "say_en": "Seven bowls of rice!",
+      "say_zh": "七碗飯！",
+      "hint_en": "Point and count in English",
+      "hint_zh": "用手指著，用英文一起數"
+    },
+    {
+      "type": "truefalse",
+      "head_en": "Food or Not Food?",
+      "head_zh": "是食物嗎？手比 ⭕ 或 ❌",
+      "items": [
+        {
+          "en": "Rice is food.",
+          "zh": "飯是食物。",
+          "answer": true,
+          "note_en": "Yes! We eat rice every day.",
+          "note_zh": "對！我們每天都吃飯。"
+        },
+        {
+          "en": "A pencil is food.",
+          "zh": "鉛筆是食物。",
+          "answer": false,
+          "note_en": "No! Please do not eat your pencil.",
+          "note_zh": "不是！拜託不要吃鉛筆。"
+        },
+        {
+          "en": "Milk is food.",
+          "zh": "牛奶是食物。",
+          "answer": true,
+          "note_en": "Yes! Milk helps you grow tall.",
+          "note_zh": "對！牛奶會讓你長高。"
+        },
+        {
+          "en": "A shoe is food.",
+          "zh": "鞋子是食物。",
+          "answer": false,
+          "note_en": "No! Shoes are for your feet.",
+          "note_zh": "不是！鞋子是穿在腳上的。"
+        }
+      ]
+    },
+    {
+      "type": "people",
+      "head_en": "In a class of 20 friends…",
+      "head_zh": "如果一個班有 20 個小朋友…",
+      "total": 20,
+      "mark": 2,
+      "icon": "🧒",
+      "reveal_en": "2 friends have no lunch today.",
+      "reveal_zh": "有 2 個小朋友，今天沒有午餐吃。",
+      "ask_en": "Let's count the friends first!",
+      "ask_zh": "我們先一起數數看有幾個人！"
+    },
+    {
+      "type": "video",
+      "head_en": "Be the Change",
+      "head_zh": "成為那個改變",
+      "yt": "otT9zA42dK0",
+      "note_en": "Watch! Then show me your favourite part.",
+      "note_zh": "看完之後，把你最喜歡的那一段做出來給我看。"
+    },
+    {
+      "type": "quiz",
+      "n": 1,
+      "q_en": "You have ONE cookie. Your friend has none. What do you do?",
+      "q_zh": "你有一塊餅乾，你的好朋友沒有。你會怎麼做？",
+      "options": [
+        { "en": "Eat it all myself", "zh": "自己全部吃掉" },
+        { "en": "Share it with my friend", "zh": "分一半給朋友" }
+      ],
+      "answer": 1,
+      "explain_en": "Share it! Now TWO friends are smiling.",
+      "explain_zh": "分享！這樣兩個人都會笑。"
+    },
+    {
+      "type": "chant",
+      "head_en": "Our Sharing Chant",
+      "head_zh": "我們的分享口訣",
+      "lines": [
+        {
+          "en": "Share, share, share your food!",
+          "zh": "分享、分享、分享食物！",
+          "do_en": "clap twice",
+          "do_zh": "拍手兩下"
+        },
+        {
+          "en": "Eat it all, don't throw it away!",
+          "zh": "全部吃完，不要丟掉！",
+          "do_en": "pat your tummy",
+          "do_zh": "拍拍肚子"
+        },
+        {
+          "en": "Thank you, thank you, thank you!",
+          "zh": "謝謝、謝謝、謝謝！",
+          "do_en": "bow",
+          "do_zh": "鞠躬"
+        }
+      ],
+      "note_en": "Three times — louder every time!",
+      "note_zh": "唸三遍——一次比一次大聲！"
+    },
+    {
+      "type": "tpr",
+      "head_en": "Show Me: SHARE",
+      "head_zh": "做給我看：分享",
+      "say_en": "Let's share!",
+      "say_zh": "一起分享！",
+      "steps": [
+        { "icon": "🤝", "en": "Turn to your friend", "zh": "轉向你旁邊的同學" },
+        { "icon": "🍪", "en": "Give with two hands", "zh": "用雙手遞出去" },
+        { "icon": "😊", "en": "Say: Thank you!", "zh": "說：Thank you！" }
+      ],
+      "img": "g2-share-v"
+    },
+    {
+      "type": "truefalse",
+      "head_en": "True or False?",
+      "head_zh": "真的還假的？手比 ⭕ 或 ❌",
+      "items": [
+        {
+          "en": "Only grown-ups can help hungry people.",
+          "zh": "只有大人才能幫助肚子餓的人。",
+          "answer": false,
+          "note_en": "You can help today — right now!",
+          "note_zh": "你今天就可以幫忙——現在就可以！"
+        },
+        {
+          "en": "Finishing your lunch helps.",
+          "zh": "把午餐吃完也是在幫忙。",
+          "answer": true,
+          "note_en": "Yes! No food in the bin is a win.",
+          "note_zh": "對！廚餘桶裡沒東西就是成功。"
+        },
+        {
+          "en": "A funny-shaped carrot tastes bad.",
+          "zh": "長得奇怪的紅蘿蔔不好吃。",
+          "answer": false,
+          "note_en": "It tastes the same. Don't judge a carrot!",
+          "note_zh": "味道一模一樣。不要以貌取蘿蔔！"
+        },
+        {
+          "en": "Sharing makes two people happy.",
+          "zh": "分享會讓兩個人都開心。",
+          "answer": true,
+          "note_en": "You and your friend. That's two!",
+          "note_zh": "你和你的朋友，就是兩個人！"
+        }
+      ]
+    },
+    {
+      "type": "action",
+      "head_en": "3 Things I Can Do",
+      "head_zh": "我可以做的 3 件事",
+      "items": [
+        { "num": "1", "en": "Take only what I can finish.", "zh": "只拿我吃得完的份量。" },
+        { "num": "2", "en": "Finish everything on my tray.", "zh": "把餐盤上的東西吃光光。" },
+        { "num": "3", "en": "Share with a friend and say thank you.", "zh": "和朋友分享，並且說謝謝。" }
+      ]
+    },
+    {
+      "type": "phrases",
+      "head_en": "Say It With Me",
+      "head_zh": "跟著我唸",
+      "items": [
+        { "en": "I am hungry.", "zh": "我餓了。" },
+        { "en": "I am full. Thank you!", "zh": "我吃飽了。謝謝！" },
+        { "en": "Let's share!", "zh": "一起分享！" },
+        { "en": "Zero hunger!", "zh": "消除飢餓！" }
+      ]
+    },
+    {
+      "type": "count",
+      "head_en": "BONUS: How many apples?",
+      "head_zh": "加碼：有幾顆蘋果？",
+      "icon": "🍎",
+      "n": 12,
+      "say_en": "Twelve apples!",
+      "say_zh": "十二顆蘋果！",
+      "hint_en": "Harder! Count in English",
+      "hint_zh": "更難囉！用英文數數看"
+    },
+    {
+      "type": "game",
+      "icon": "👍",
+      "bonus": true,
+      "head_en": "BONUS: Can We Eat It?",
+      "head_zh": "加碼遊戲：這個還能吃嗎？",
+      "rule_en": "I show you something. Thumbs UP = we can eat it. Thumbs DOWN = we cannot.",
+      "rule_zh": "我說一樣東西，大拇指向上＝還能吃，向下＝不能吃。",
+      "hints": [
+        { "en": "A banana with brown spots", "zh": "有黑點點的香蕉", "a": "up" },
+        { "en": "A bent carrot", "zh": "彎彎的紅蘿蔔", "a": "up" },
+        { "en": "A small apple", "zh": "小小顆的蘋果", "a": "up" },
+        { "en": "Rice left out all night", "zh": "放了一整晚的白飯", "a": "down" },
+        { "en": "A green banana", "zh": "青青的香蕉", "a": "up" },
+        { "en": "Milk that smells bad", "zh": "聞起來臭臭的牛奶", "a": "down" }
+      ],
+      "target_en": "Ugly food is still good food!",
+      "target_zh": "長得醜的食物，還是好食物！"
+    },
+    {
+      "type": "padlet",
+      "head_en": "Draw a Picture for Dom",
+      "head_zh": "畫一張圖給 Dom",
+      "body_en": "Ask your teacher to open our School Tour page and find the Nanzhou Elementary column. Put up a photo of your picture — I will read every one!",
+      "body_zh": "請老師打開我們網站的 School Tour 頁面，找到南州國小那一欄，把你畫的圖拍照貼上去——我每一張都會看！",
+      "sentence_en": "Today I learned ______.",
+      "sentence_zh": "今天我學到 ______。",
+      "site": "mycultureconnect.org/dom-school-tour.html"
+    },
+    {
+      "type": "closing",
+      "big_en": "Share your food,<br>share your smile.",
+      "big_zh": "分享你的食物，分享你的笑容。",
+      "sign_en": "Thank you, Nanzhou Elementary!",
+      "sign_zh": "謝謝南州國小！",
+      "img": "g2-closing"
+    }
+  ]
+}

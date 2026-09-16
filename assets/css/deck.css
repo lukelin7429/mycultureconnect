@@ -446,3 +446,58 @@ body.deck-body { background:var(--page); min-height:100vh; font-family:var(--san
 .hs-quiz .hs-q { padding:11px 18px; }
 .hs-map { overflow:hidden; }
 .hs-map .hs-head { margin-top:14px; }
+
+/* ===================== 低年級版型（二年級）=====================
+   共同原則：字更大、一頁一件事、答案點擊才出現。 */
+
+/* 跟我做 TPR */
+.hs-tpr .hs-say { align-self:flex-start; background:var(--hs-key); color:#fff;
+  border-radius:16px; padding:14px 28px; }
+.hs-tpr .hs-say b { display:block; font-size:46px; line-height:1.1; }
+.hs-tpr .hs-say span { display:block; font-family:var(--zh); font-size:26px; opacity:.92; }
+.hs-tprsteps { list-style:none; margin:0; padding:0; display:flex; gap:14px; flex:1;
+  align-items:stretch; }
+.hs-tprsteps li { flex:1; background:var(--hs-soft); border:2px solid var(--hs-key);
+  border-radius:16px; padding:16px 14px; display:flex; flex-direction:column;
+  align-items:center; justify-content:center; gap:8px; text-align:center; }
+.hs-tprico { font-size:52px; line-height:1; }
+.hs-tprsteps .hs-en { font-size:24px; font-weight:700; }
+.hs-tprsteps .hs-zh { font-size:20px; }
+.hs-tpr.has-art .hs-tprsteps { flex-direction:column; }
+.hs-tpr.has-art .hs-tprsteps li { flex-direction:row; justify-content:flex-start;
+  text-align:left; padding:10px 16px; }
+.hs-tpr.has-art .hs-tprico { font-size:38px; }
+.hs-tpr.has-art .hs-say b { font-size:38px; }
+
+/* 數數 */
+.hs-count .hs-cntrow { flex:1; display:flex; flex-wrap:wrap; gap:10px;
+  align-items:center; justify-content:center; }
+.hs-cntitem { font-size:92px; line-height:1; }
+.hs-cntans { display:none; align-items:center; gap:20px; }
+.is-revealed .hs-cntans { display:flex; }
+.hs-cntans b { font-size:64px; line-height:1; }
+.hs-cntans .hs-en { font-size:30px; } .hs-cntans .hs-zh { font-size:24px; }
+
+/* 口訣 */
+.hs-chantlines { list-style:none; margin:0; padding:0; flex:1;
+  display:flex; flex-direction:column; justify-content:space-evenly; gap:10px; }
+.hs-chantlines li { background:var(--hs-soft); border-left:8px solid var(--hs-key);
+  border-radius:14px; padding:9px 20px; }
+.hs-chantlines .hs-en { font-size:29px; font-weight:700; line-height:1.2; }
+.hs-chantlines .hs-zh { font-size:21px; }
+.hs-chantdo { display:block; margin-top:2px; font-family:var(--zh); font-size:17px;
+  color:var(--hs-key2); font-weight:700; }
+.hs-chant .hs-punch { padding:10px 20px; }
+.hs-chant .hs-punch .hs-en { font-size:24px; } .hs-chant .hs-punch .hs-zh { font-size:20px; }
+.hs-chant.has-art .hs-chantlines .hs-en { font-size:27px; }
+.hs-chant.has-art .hs-chantlines .hs-zh { font-size:20px; }
+.hs-chant.has-art .hs-chantdo { font-size:16px; }
+
+/* 我們班有幾個 */
+.hs-people .hs-figs { flex:1; display:grid; grid-template-columns:repeat(10, 1fr);
+  gap:4px 8px; align-content:center; justify-items:center; }
+.hs-fig { font-size:60px; line-height:1; transition:filter .3s ease, opacity .3s ease; }
+.is-revealed .hs-fig { filter:grayscale(1); opacity:.2; transform:scale(.88); }
+.is-revealed .hs-fig.is-mark { filter:none; opacity:1; transform:scale(1.1);
+  background:rgba(226,98,15,.16); border-radius:50%; outline:4px solid var(--hs-key);
+  outline-offset:-2px; }

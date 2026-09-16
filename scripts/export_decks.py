@@ -23,6 +23,7 @@ import os, re, sys, glob, time, subprocess, tempfile
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CHROME = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
 CANVAS_W, CANVAS_H = 1200, 675
+CHUNK = 8              # printed pages per Chrome run
 
 
 def slide_blocks(html):
@@ -74,30 +75,32 @@ PRINT_PAGE = """<!doctype html><meta charset="utf-8">
 """
 
 
-def build_print_html(slug, dest_dir):
+def build_pages(slug):
+    """One HTML page per printed page — a slide with a hidden answer yields two."""
     src = os.path.join(ROOT, 'slides', slug, 'index.html')
     html = open(src, encoding='utf-8').read()
     blocks = slide_blocks(html)
     if not blocks:
         raise SystemExit(f'{slug}: no slides found')
-
-    pages, revealed_pages = [], 0
+    pages, revealed = [], 0
     for b in blocks:
-        pages.append('<div class="pg">' + b + '</div>')
+        pages.append(b)
         if has_hidden_answer(b):
-            pages.append('<div class="pg">' + reveal(b) + '</div>')
-            revealed_pages += 1
+            pages.append(reveal(b))
+            revealed += 1
+    return pages, len(blocks), revealed
 
-    body = '\n'.join(pages)
+
+def write_print_html(dest, pages, tag):
+    body = '\n'.join('<div class="pg">' + p + '</div>' for p in pages)
     # /assets/... only resolves over http; make it absolute for file:// printing
     body = body.replace('src="/assets/', 'src="file://' + ROOT + '/assets/')
     body = body.replace('href="/assets/', 'href="file://' + ROOT + '/assets/')
-
-    out = os.path.join(dest_dir, 'print.html')
+    out = os.path.join(dest, f'print-{tag}.html')
     open(out, 'w', encoding='utf-8').write(PRINT_PAGE.format(
         css=os.path.join(ROOT, 'assets', 'css', 'deck.css'),
         w=CANVAS_W, h=CANVAS_H, pages=body))
-    return out, len(blocks), revealed_pages
+    return out
 
 
 def to_pdf(print_html, pdf_path, timeout=180):
@@ -161,13 +164,30 @@ def is_stale(slug):
     return any(os.path.getmtime(o) < os.path.getmtime(src) for o in outs)
 
 
-def export(slug):
+def merge(parts, out):
+    import fitz
+    doc = fitz.open()
+    for p in parts:
+        with fitz.open(p) as part:
+            doc.insert_pdf(part)
+    doc.save(out)
+    doc.close()
+
+
+def export(slug, chunk=CHUNK):
     out_dir = os.path.join(ROOT, 'slides', slug)
     pdf = os.path.join(out_dir, slug + '.pdf')
     pptx = os.path.join(out_dir, slug + '.pptx')
     with tempfile.TemporaryDirectory() as tmp:
-        print_html, n_slides, n_revealed = build_print_html(slug, tmp)
-        to_pdf(print_html, pdf)
+        pages, n_slides, n_revealed = build_pages(slug)
+        # Chrome's print pipeline gives up on a long, image-heavy document
+        # ("Printing failed" with no output), so print in batches and stitch.
+        parts = []
+        for i in range(0, len(pages), chunk):
+            part = os.path.join(tmp, f'part-{i:03d}.pdf')
+            to_pdf(write_print_html(tmp, pages[i:i + chunk], i), part)
+            parts.append(part)
+        merge(parts, pdf)
         n_pages = to_pptx(pdf, pptx)
     print(f'  ✓ {slug}: {n_slides} slides (+{n_revealed} answer pages) '
           f'-> {n_pages}p  pdf {os.path.getsize(pdf)//1024}KB  '

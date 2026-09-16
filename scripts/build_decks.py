@@ -351,11 +351,70 @@ def t_closing(s, d):
 </div>'''
 
 
+# ------------------------------------------- 低年級版型（二年級用，英文近乎零基礎）
+# 共同原則：抽象換成身體動作、答案一律點擊才出現、一頁只做一件事。
+def t_tpr(s, d):
+    """跟我做：一句目標句 ＋ 三個動作。低年級靠身體記英文，不靠翻譯。"""
+    steps = "".join(
+        f'<li><span class="hs-tprico">{e(x["icon"])}</span>{bi(e(x["en"]), e(x["zh"]))}</li>'
+        for x in s["steps"])
+    acls, aimg = art(s)
+    return f'''<div class="hs hs-tpr{acls}">{aimg}
+  <h3 class="hs-head">🙌 {e(s["head_en"])}<span>{e(s["head_zh"])}</span></h3>
+  <div class="hs-say"><b>{e(s["say_en"])}</b><span>{e(s["say_zh"])}</span></div>
+  <ol class="hs-tprsteps">{steps}</ol>
+</div>'''
+
+
+def t_count(s, d):
+    """數數：整排圖案數得出來，數字點擊才公布。"""
+    n = int(s["n"])
+    icon = e(s.get("icon", "🍚"))
+    row = "".join(f'<span class="hs-cntitem">{icon}</span>' for _ in range(n))
+    return f'''<div class="hs hs-count" data-reveal-group>
+  <h3 class="hs-head">🔢 {e(s["head_en"])}<span>{e(s["head_zh"])}</span></h3>
+  <div class="hs-cntrow">{row}</div>
+  <button type="button" class="hs-revealbtn">Count together 一起數</button>
+  <div class="hs-explain hs-cntans"><b>{n}</b>{bi(e(s["say_en"]), e(s["say_zh"]))}</div>
+  <div class="hs-tap">👆 {e(s["hint_en"])} · {e(s["hint_zh"])}</div>
+</div>'''
+
+
+def t_chant(s, d):
+    """口訣：每一句配一個動作，唸三遍就記住了。"""
+    lines = "".join(
+        f'<li>{bi(e(x["en"]), e(x["zh"]))}'
+        f'<span class="hs-chantdo">{e(x["do_en"])} · {e(x["do_zh"])}</span></li>'
+        for x in s["lines"])
+    acls, aimg = art(s)
+    return f'''<div class="hs hs-chant{acls}">{aimg}
+  <h3 class="hs-head">🎵 {e(s["head_en"])}<span>{e(s["head_zh"])}</span></h3>
+  <ol class="hs-chantlines">{lines}</ol>
+  <div class="hs-punch">{bi(e(s["note_en"]), e(s["note_zh"]))}</div>
+</div>'''
+
+
+def t_people(s, d):
+    """把大數字換成「我們班」：一排小人，點一下才有人變灰。"""
+    total, mark = int(s["total"]), int(s["mark"])
+    figs = "".join(
+        f'<span class="hs-fig{" is-mark" if i < mark else ""}">{e(s.get("icon", "🧒"))}</span>'
+        for i in range(total))
+    return f'''<div class="hs hs-people" data-reveal-group>
+  <h3 class="hs-head">👥 {e(s["head_en"])}<span>{e(s["head_zh"])}</span></h3>
+  <div class="hs-figs">{figs}</div>
+  <button type="button" class="hs-revealbtn">Show me 讓我看看</button>
+  <div class="hs-explain">{bi(e(s["reveal_en"]), e(s["reveal_zh"]))}</div>
+  <div class="hs-tap">👆 {e(s["ask_en"])} · {e(s["ask_zh"])}</div>
+</div>'''
+
+
 RENDER = {
     "title": t_title, "intro": t_intro, "video": t_video, "standup": t_standup,
     "topic": t_topic, "quiz": t_quiz, "bigstat": t_bigstat, "truefalse": t_truefalse,
     "game": t_game, "pairshare": t_pairshare, "rank": t_rank, "action": t_action,
     "map": t_map, "phrases": t_phrases, "padlet": t_padlet, "closing": t_closing,
+    "tpr": t_tpr, "count": t_count, "chant": t_chant, "people": t_people,
 }
 
 

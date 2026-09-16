@@ -50,7 +50,14 @@
     "2026.09.22"
    ],
    "status": "upcoming",
-   "year": "115"
+   "year": "115",
+   "decks": [
+    {
+     "slug": "nanzhou-elem-sdg2-zerohunger",
+     "title": "SDG 2 消除飢餓",
+     "title_en": "Zero Hunger"
+    }
+   ]
   },
   {
    "en": "Beidou Elementary",
