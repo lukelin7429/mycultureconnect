@@ -1,0 +1,440 @@
+{
+  "slug": "nanzhen-elem-sdg14-ocean",
+  "school": "南鎮國小",
+  "school_en": "Nanzhen Elementary",
+  "date": "2026.09.22",
+  "year": "115",
+  "classes": "Grade 6 六年級",
+  "title": "SDG 14 保育海洋生態",
+  "title_en": "Life Below Water",
+  "sdg": "14",
+  "theme": "teal",
+  "footer": "Teacher Dom · SDG #14 Life Below Water 保育海洋生態",
+  "slides": [
+    {
+      "type": "title",
+      "eyebrow_en": "The ocean is closer than you think",
+      "eyebrow_zh": "海，比你以為的近",
+      "chips": [
+        {
+          "en": "The Ocean Next Door",
+          "zh": "家門口的海"
+        },
+        {
+          "en": "White Dolphins",
+          "zh": "白海豚"
+        },
+        {
+          "en": "Plastic",
+          "zh": "塑膠"
+        },
+        {
+          "en": "Our Actions",
+          "zh": "行動方案"
+        }
+      ],
+      "strip": [
+        {
+          "num": "27 km",
+          "en": "to the Changhua coast",
+          "zh": "到彰化海邊的距離"
+        },
+        {
+          "num": "< 50",
+          "en": "Taiwanese white dolphins left",
+          "zh": "台灣白海豚剩不到"
+        },
+        {
+          "num": "50%",
+          "en": "of your oxygen is from the sea",
+          "zh": "你呼吸的氧氣來自海洋"
+        }
+      ],
+      "img": "sdg14-title"
+    },
+    {
+      "type": "intro",
+      "head_en": "I grew up beside the Pacific Ocean.",
+      "head_zh": "我在太平洋旁邊長大。",
+      "lines": [
+        {
+          "en": "In California, the sea was at the end of my street.",
+          "zh": "在加州，走到街底就是海。"
+        },
+        {
+          "en": "I thought Taiwan would feel far from the ocean.",
+          "zh": "我以為台灣會離海很遠。"
+        },
+        {
+          "en": "Then I looked at a map of Changhua.",
+          "zh": "後來我看了彰化的地圖。"
+        }
+      ],
+      "ask_en": "Put up your hand — how many of you have seen the sea this year?",
+      "ask_zh": "舉手看看——今年看過海的有多少人？"
+    },
+    {
+      "type": "map",
+      "head_en": "From California to Changhua",
+      "head_zh": "從加州到彰化",
+      "img": "map-usa-taiwan.svg",
+      "ask_en": "Everything between my home and yours is ocean. It is one ocean, not two.",
+      "ask_zh": "我家和你家之間全部都是海。那是同一片海，不是兩片。"
+    },
+    {
+      "type": "standup",
+      "head_en": "Stand Up If…",
+      "head_zh": "如果是你，就站起來！",
+      "prompts": [
+        {
+          "en": "Stand up if you have eaten oysters.",
+          "zh": "吃過蚵仔的，站起來。"
+        },
+        {
+          "en": "Stay standing if you have been to the Changhua coast.",
+          "zh": "去過彰化海邊的，繼續站著。"
+        },
+        {
+          "en": "Stay standing if you have ever picked up litter on a beach.",
+          "zh": "曾經在海邊撿過垃圾的，繼續站著。"
+        }
+      ],
+      "punch_en": "Look around. Those oysters grew 27 km from this classroom.",
+      "punch_zh": "看看四周。你吃的那些蚵仔，就長在離這間教室 27 公里的地方。"
+    },
+    {
+      "type": "bigstat",
+      "num": "27 km",
+      "head_en": "from your school to the sea",
+      "head_zh": "從你的學校到海邊",
+      "body_en": "Tianwei is inland — but Fangyuan is less than an hour away by car.",
+      "body_zh": "田尾是內陸鄉，但開車到芳苑不用一小時。",
+      "ask_en": "Does living inland mean the ocean is not your problem?",
+      "ask_zh": "住在內陸，海洋就不關你的事嗎？",
+      "img": "sdg14-coast-v"
+    },
+    {
+      "type": "topic",
+      "head_en": "The River Runs Past Your School",
+      "head_zh": "那條溪，就從你們學校旁邊流過",
+      "body_en": "The Dongluo River — the old Zhuoshui River — runs along the edge of Tianwei, through Pitou and Erlin, and reaches the Taiwan Strait at Fusing. A plastic wrapper dropped into a drain here can be in the sea in a few days.",
+      "body_zh": "東螺溪（舊濁水溪）沿著田尾鄉界流過，經過埤頭、二林，最後在福興鄉出海。在這裡掉進水溝的一個塑膠包裝，幾天後就可能在海裡。",
+      "keywords": [
+        {
+          "en": "river",
+          "zh": "河流"
+        },
+        {
+          "en": "drain",
+          "zh": "水溝"
+        },
+        {
+          "en": "estuary",
+          "zh": "出海口"
+        },
+        {
+          "en": "downstream",
+          "zh": "下游"
+        }
+      ]
+    },
+    {
+      "type": "bigstat",
+      "num": "< 50",
+      "head_en": "Taiwanese white dolphins are left in the world",
+      "head_zh": "全世界的台灣白海豚，剩下不到 50 隻",
+      "body_en": "Fishers call them Matsu fish. They live only along Taiwan's west coast.",
+      "body_zh": "漁民叫牠們「媽祖魚」，只住在台灣西海岸。",
+      "ask_en": "This school has more students than the world has white dolphins.",
+      "ask_zh": "這所學校的學生，比全世界的白海豚還多。",
+      "img": "sdg14-dolphin-v"
+    },
+    {
+      "type": "quiz",
+      "n": 1,
+      "q_en": "How much of the oxygen you are breathing right now came from the ocean?",
+      "q_zh": "你現在呼吸的氧氣，有多少來自海洋？",
+      "options": [
+        {
+          "en": "About 10%",
+          "zh": "大約 10%"
+        },
+        {
+          "en": "About 25%",
+          "zh": "大約 25%"
+        },
+        {
+          "en": "About 50%",
+          "zh": "大約 50%"
+        },
+        {
+          "en": "Almost none",
+          "zh": "幾乎沒有"
+        }
+      ],
+      "answer": 2,
+      "explain_en": "Half. Every second breath you take was made by the sea.",
+      "explain_zh": "一半。你每呼吸兩次，就有一次是海洋給的。"
+    },
+    {
+      "type": "bigstat",
+      "num": "8M",
+      "head_en": "tonnes of plastic enter the ocean every year",
+      "head_zh": "每年有 800 萬噸塑膠進入海洋",
+      "body_en": "About one rubbish truck emptied into the sea every minute, all year.",
+      "body_zh": "大約等於每分鐘一台垃圾車倒進海裡，全年無休。",
+      "ask_en": "Ships, or the land — where does most of it come from?",
+      "ask_zh": "船上還是陸地？大部分是從哪裡來的？",
+      "img": "sdg14-plastic-v"
+    },
+    {
+      "type": "quiz",
+      "n": 2,
+      "q_en": "How long does a plastic bottle take to break down in the sea?",
+      "q_zh": "一個塑膠瓶在海裡要多久才會分解？",
+      "options": [
+        {
+          "en": "About 5 years",
+          "zh": "大約 5 年"
+        },
+        {
+          "en": "About 50 years",
+          "zh": "大約 50 年"
+        },
+        {
+          "en": "About 450 years",
+          "zh": "大約 450 年"
+        },
+        {
+          "en": "It never fully disappears",
+          "zh": "永遠不會完全消失"
+        }
+      ],
+      "answer": 2,
+      "explain_en": "About 450 years — and it never really vanishes. It just breaks into microplastic.",
+      "explain_zh": "大約 450 年——而且它其實不會消失，只是碎成塑膠微粒。"
+    },
+    {
+      "type": "truefalse",
+      "head_en": "True or False?",
+      "head_zh": "真的還假的？手比 ⭕ 或 ❌",
+      "items": [
+        {
+          "en": "Most ocean plastic comes from ships.",
+          "zh": "海洋裡的塑膠大多來自船隻。",
+          "answer": false,
+          "note_en": "Most of it comes from the land — through rivers and drains.",
+          "note_zh": "大部分來自陸地，經由河流和水溝流進海裡。"
+        },
+        {
+          "en": "Fangyuan has the last and largest natural tidal flat in Taiwan.",
+          "zh": "芳苑有全台灣最後也最大的一片原始潮間帶。",
+          "answer": true,
+          "note_en": "It is in your county — and it is still working farmland for oysters.",
+          "note_zh": "就在你們縣內，而且到現在還是活生生的蚵田。"
+        },
+        {
+          "en": "Microplastic has been found in the fish people eat.",
+          "zh": "人吃的魚身上已經驗出塑膠微粒。",
+          "answer": true,
+          "note_en": "What we throw into the sea comes back to our own plates.",
+          "note_zh": "我們丟進海裡的東西，會回到自己的餐盤上。"
+        },
+        {
+          "en": "One school is too small to change anything.",
+          "zh": "一所學校太小，改變不了什麼。",
+          "answer": false,
+          "note_en": "Fangyuan's ox-cart oyster farming survives because local people refused to let it go.",
+          "note_zh": "芳苑的海牛採蚵能留到今天，就是因為在地人不肯放手。"
+        }
+      ]
+    },
+    {
+      "type": "video",
+      "head_en": "Be the Change",
+      "head_zh": "成為那個改變",
+      "yt": "otT9zA42dK0",
+      "note_en": "Watch — then tell me one thing you would protect.",
+      "note_zh": "看完之後，告訴我一件你想保護的東西。"
+    },
+    {
+      "type": "topic",
+      "head_en": "12 Oxen Left",
+      "head_zh": "只剩下 12 頭牛",
+      "body_en": "For sixty years, Fangyuan farmers have walked oxen onto the mudflat to harvest oysters. Machines took over. About twelve working oxen remain — the last place on Earth.",
+      "body_zh": "六十年來，芳苑蚵農趕著黃牛走進潮間帶採蚵。機械取代之後，只剩約十二頭海牛——地球上最後一個。",
+      "keywords": [
+        {
+          "en": "tidal flat",
+          "zh": "潮間帶"
+        },
+        {
+          "en": "oyster",
+          "zh": "牡蠣・蚵仔"
+        },
+        {
+          "en": "heritage",
+          "zh": "文化資產"
+        },
+        {
+          "en": "disappear",
+          "zh": "消失"
+        }
+      ],
+      "img": "sdg14-oxcart-v"
+    },
+    {
+      "type": "game",
+      "icon": "⏱",
+      "head_en": "30-Second Challenge",
+      "head_zh": "30 秒挑戰",
+      "rule_en": "In 30 seconds, shout out as many sea creatures in English as you can. I will count!",
+      "rule_zh": "30 秒內，用英文喊出越多海洋生物越好，我來數！",
+      "hints": [
+        "dolphin 海豚",
+        "oyster 蚵仔",
+        "crab 螃蟹",
+        "jellyfish 水母",
+        "seaweed 海藻",
+        "turtle 海龜",
+        "shrimp 蝦子",
+        "whale 鯨魚"
+      ],
+      "target_en": "Class record to beat: 18",
+      "target_zh": "要打破的班級紀錄：18 個"
+    },
+    {
+      "type": "rank",
+      "head_en": "Which Helps the Ocean Most?",
+      "head_zh": "哪一件事對海洋幫助最大？",
+      "sub_en": "Rank these four from most helpful to least. Argue for your answer!",
+      "sub_zh": "把這四件事從幫助最大排到最小。說出你的理由！",
+      "items": [
+        {
+          "en": "Refusing a plastic straw once",
+          "zh": "拒絕一支塑膠吸管"
+        },
+        {
+          "en": "Picking up litter near your school drain",
+          "zh": "撿起學校水溝旁的垃圾"
+        },
+        {
+          "en": "Getting your whole family to use one less plastic bag a day",
+          "zh": "讓全家每天少用一個塑膠袋"
+        },
+        {
+          "en": "Telling ten people what you learned today",
+          "zh": "把今天學到的告訴十個人"
+        }
+      ],
+      "reveal_en": "There is no single right answer — but the last two multiply. One person's habit becomes many.",
+      "reveal_zh": "沒有標準答案——但後面兩個會「放大」。一個人的習慣會變成很多人的習慣。"
+    },
+    {
+      "type": "pairshare",
+      "head_en": "Turn and Tell Your Partner",
+      "head_zh": "轉過去，告訴你的同學",
+      "prompt_en": "If the white dolphins disappear, what will Changhua have lost?",
+      "prompt_zh": "如果白海豚消失了，彰化會失去什麼？",
+      "sentence_en": "If the dolphins disappear, Changhua will lose ______.",
+      "sentence_zh": "如果白海豚消失了，彰化會失去 ______。",
+      "time_en": "One minute each. Then I will ask two of you.",
+      "time_zh": "每人一分鐘。然後我會請兩位分享。"
+    },
+    {
+      "type": "action",
+      "head_en": "3 Things You Can Do This Week",
+      "head_zh": "這週你可以做的 3 件事",
+      "items": [
+        {
+          "num": "1",
+          "en": "Carry your own bottle and bag for one week.",
+          "zh": "帶自己的水壺和袋子，撐一個星期。"
+        },
+        {
+          "num": "2",
+          "en": "Pick up one piece of litter near a drain on your way home.",
+          "zh": "回家路上，在水溝旁撿起一件垃圾。"
+        },
+        {
+          "num": "3",
+          "en": "Ask your family to visit the Changhua coast — and see it for yourself.",
+          "zh": "跟家人提議去一趟彰化海邊，親眼看看。"
+        }
+      ]
+    },
+    {
+      "type": "phrases",
+      "head_en": "Say It With Me",
+      "head_zh": "跟著我唸",
+      "items": [
+        {
+          "en": "Life below water.",
+          "zh": "水面下的生命。"
+        },
+        {
+          "en": "The ocean gives me half my air.",
+          "zh": "海洋給了我一半的空氣。"
+        },
+        {
+          "en": "The river carries what I drop.",
+          "zh": "我丟的東西，河會帶走。"
+        },
+        {
+          "en": "Fewer than fifty are left.",
+          "zh": "剩下不到五十隻。"
+        },
+        {
+          "en": "I can be the change.",
+          "zh": "我可以成為那個改變。"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "n": 3,
+      "bonus": true,
+      "q_en": "How much of the Earth's surface is ocean?",
+      "q_zh": "地球表面有多少比例是海洋？",
+      "options": [
+        {
+          "en": "About 40%",
+          "zh": "大約 40%"
+        },
+        {
+          "en": "About 55%",
+          "zh": "大約 55%"
+        },
+        {
+          "en": "About 71%",
+          "zh": "大約 71%"
+        },
+        {
+          "en": "About 90%",
+          "zh": "大約 90%"
+        }
+      ],
+      "answer": 2,
+      "explain_en": "About 71%. We call it Earth — but it is mostly ocean.",
+      "explain_zh": "大約 71%。我們叫它「地球」，但它其實大部分是海。"
+    },
+    {
+      "type": "padlet",
+      "head_en": "Leave a Message for Dom",
+      "head_zh": "留言給 Dom",
+      "body_en": "Go to our School Tour page and find the Nanzhen Elementary column. No sign-up, no login — tell me what you will protect.",
+      "body_zh": "到我們網站的 School Tour 頁面，找到南鎮國小那一欄，免註冊、免登入，告訴我你想保護什麼。",
+      "sentence_en": "I will protect ______ because ______.",
+      "sentence_zh": "我想保護 ______，因為 ______。",
+      "site": "mycultureconnect.org/dom-school-tour.html"
+    },
+    {
+      "type": "closing",
+      "big_en": "The ocean is not far away.<br>It is downstream.",
+      "big_zh": "海不遠。<br>海就在下游。",
+      "sign_en": "Thank you, Nanzhen Elementary!",
+      "sign_zh": "謝謝南鎮國小！",
+      "img": "sdg14-closing"
+    }
+  ]
+}
