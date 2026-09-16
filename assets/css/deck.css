@@ -58,6 +58,15 @@ body.deck-body { background:var(--page); min-height:100vh; font-family:var(--san
 .deck-progress .bar { height:100%; background:var(--gold); border-radius:999px;
   transition:width .35s cubic-bezier(.2,.7,.3,1); }
 .deck-hint { text-align:center; color:rgba(255,255,255,.5); font-size:.85rem; margin:1rem 0 2.4rem; }
+/* 離線備用檔：教室電腦顯示器規格不一，先下載到本機最保險 */
+.deck-dl { display:flex; align-items:center; justify-content:center; gap:10px; flex-wrap:wrap;
+  margin:-1.6rem 0 2.4rem; }
+.deck-dl-lab { color:rgba(255,255,255,.42); font-size:.8rem; }
+.deck-dl-btn { display:inline-flex; align-items:center; gap:6px; font-size:.82rem; font-weight:700;
+  color:var(--gold); text-decoration:none; border:1px solid rgba(245,160,79,.5);
+  border-radius:999px; padding:6px 15px; transition:background .2s, color .2s; }
+.deck-dl-btn:hover { background:var(--gold); color:#16201f; }
+@media (max-width:640px) { .deck-dl { margin-top:-1.2rem; } .deck-dl-lab { width:100%; text-align:center; } }
 
 /* ---------- the slide canvas: fixed 1200x675, scaled by deck.js ---------- */
 .hs-canvas { width:1200px; height:675px; flex:0 0 1200px;

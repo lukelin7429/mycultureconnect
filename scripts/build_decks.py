@@ -25,6 +25,25 @@ import sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
+
+def download_row(slug):
+    """Offline copies for the classroom PC — see scripts/export_decks.py.
+
+    Classroom displays differ, and a browser is one more thing that can go wrong
+    five minutes before an assembly. The PDF and PPTX are byte-identical in
+    appearance on any machine, and the click-to-reveal answers survive as
+    separate pages.
+    """
+    here = os.path.join(ROOT, 'slides', slug)
+    have = [(ext, label) for ext, label in (('pdf', 'PDF'), ('pptx', 'PowerPoint'))
+            if os.path.exists(os.path.join(here, f'{slug}.{ext}'))]
+    if not have:
+        return ''
+    btns = ''.join(f'<a class="deck-dl-btn" href="{slug}.{ext}" download>⬇ {label}</a>'
+                   for ext, label in have)
+    return ('  <p class="deck-dl"><span class="deck-dl-lab">'
+            '離線備用 · Offline backup for the classroom PC</span>' + btns + '</p>')
+
 def _asset_version():
     """Hash of the deck assets, appended to their URLs so a fix never reaches a
     classroom as a stale cached file."""
@@ -93,8 +112,18 @@ def load_image_decks():
 
 
 def write(rel, content):
+    """Only touch the file when the bytes actually change.
+
+    The offline PDF/PPTX are considered stale when they are older than
+    index.html, so rewriting an unchanged page every run would make them look
+    stale forever.
+    """
     path = os.path.join(ROOT, rel.strip("/"), "index.html")
     os.makedirs(os.path.dirname(path), exist_ok=True)
+    if os.path.exists(path):
+        with open(path, encoding="utf-8") as f:
+            if f.read() == content:
+                return path
     with open(path, "w", encoding="utf-8") as f:
         f.write(content)
     return path
@@ -369,6 +398,7 @@ def deck_page(d):
   </div>
   <div class="deck-progress"><div class="bar"></div></div>
   <p class="deck-hint">Swipe or use ← → to change slides · tap a question to reveal the answer</p>
+{download_row(d["slug"])}
 </div>
 <script src="/assets/js/deck.js?v={ASSET_V}"></script>
 </body>
@@ -657,6 +687,20 @@ def main():
         sys.exit("no decks found")
     write(LIB, library_page(alld))
     print(f"  ✓ {LIB} (library, {len(alld)} decks)")
+
+    # the offline PDF/PPTX are produced by a separate pass; say so when they are
+    # missing or older than the page, otherwise the download buttons go stale
+    stale = []
+    for d in decks:
+        here = os.path.join(ROOT, "slides", d["slug"])
+        src = os.path.join(here, "index.html")
+        outs = [os.path.join(here, f'{d["slug"]}.{x}') for x in ("pdf", "pptx")]
+        if any(not os.path.exists(o) or os.path.getmtime(o) < os.path.getmtime(src)
+               for o in outs):
+            stale.append(d["slug"])
+    if stale:
+        print(f"  ! {len(stale)} deck(s) need offline files — "
+              f"run: python3 scripts/export_decks.py")
 
 
 if __name__ == "__main__":

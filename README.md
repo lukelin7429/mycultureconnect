@@ -22,6 +22,7 @@ script, never hand-edit the generated HTML.
 | Command | Reads | Writes |
 |---|---|---|
 | `python3 scripts/build_decks.py` | `data/decks/*.json`, `data/decks-114.json`, `data/visits/*.json` | `slides/`, `visits/` |
+| `python3 scripts/export_decks.py` | `slides/<slug>/index.html` | `slides/<slug>/<slug>.pdf` + `.pptx` — offline copies for the classroom PC |
 | `python3 scripts/build_tour_map.py` | `data/tour-map.json`, `data/changhua-map.json` | the map section in `dom-school-tour.html` |
 | `python3 scripts/build_search.py` | every site page | `search.json` + wires the search box in |
 | `python3 scripts/make_changhua_geo.py` | a national township GeoJSON (see its docstring) | `data/changhua-map.json` — one-off |
@@ -31,6 +32,13 @@ script, never hand-edit the generated HTML.
 optional `decks` / `visit` / `news` / `voices`) and re-run `build_tour_map.py`.
 Coordinates come from OpenStreetMap; every pin is checked to fall inside the
 township it claims.
+
+**Offline copies:** classroom displays vary and a browser is one more thing that
+can fail before an assembly, so every interactive deck also ships as a PDF and a
+PPTX, linked from two buttons under the deck. Run `build_decks.py` first, then
+`export_decks.py` (it skips decks already up to date; `--force` rebuilds all).
+Slides with a hidden answer are exported twice — question page, then answer page
+— so a click-to-reveal never turns into a printed answer.
 
 The assembly decks under `slides/` and the itineraries under `visits/` are
 projection pages: no site header, no footer, no search box. `build_search.py`
