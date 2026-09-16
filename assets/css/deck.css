@@ -34,7 +34,11 @@ body.deck-body { background:var(--page); min-height:100vh; font-family:var(--san
 
 /* ---------- stage ---------- */
 .deck { position:relative; }
-.deck-stage { position:relative; width:min(1180px,94vw); max-height:78vh; margin:0 auto;
+/* The width has to account for the height cap as well, or a short screen
+   (1366x768 classroom TVs and 4:3 projectors) caps the stage height while the
+   canvas is still sized for the full width — and the bottom of every slide is
+   cut off. Folding the cap into the width keeps the stage exactly 16:9. */
+.deck-stage { position:relative; width:min(1180px, 94vw, calc(78vh * 16 / 9)); margin:0 auto;
   aspect-ratio:16/9; overflow:hidden; border-radius:14px; background:#000;
   box-shadow:0 30px 80px -30px rgba(0,0,0,.6); cursor:grab; touch-action:pan-y; user-select:none; }
 .deck-stage:active { cursor:grabbing; }
@@ -257,7 +261,7 @@ body.deck-body { background:var(--page); min-height:100vh; font-family:var(--san
 .hs-sign span { display:block; font-family:var(--zh); font-size:24px; opacity:.8; }
 
 @media (max-width:640px) {
-  .deck-stage { max-height:64vh; border-radius:10px; }
+  .deck-stage { width:min(1180px, 94vw, calc(64vh * 16 / 9)); border-radius:10px; }
   .deck-arrow { width:2.4rem; height:2.4rem; font-size:1.3rem; }
   .deck-heading h1 { font-size:.95rem; }
 }

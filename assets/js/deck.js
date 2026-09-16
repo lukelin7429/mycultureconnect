@@ -104,8 +104,10 @@
     var canvases = Array.prototype.slice.call(deck.querySelectorAll('.hs-canvas'));
     function rescale() {
       if (!canvases.length) return;
-      var w = deck.querySelector('.deck-stage').clientWidth;
-      var s = w / 1200;
+      var st = deck.querySelector('.deck-stage');
+      // fit, not fill: scaling by width alone clips the slide on any screen
+      // whose stage ends up shorter than width x 9/16
+      var s = Math.min(st.clientWidth / 1200, st.clientHeight / 675);
       canvases.forEach(function (c) { c.style.setProperty('--hs-scale', s); });
     }
     if (canvases.length) {
