@@ -1,0 +1,51 @@
+{
+  "slug": "2026-09-22-nanzhou-elem",
+  "school": "南州國小",
+  "school_en": "Nanzhou Elementary",
+  "date": "2026.09.22",
+  "weekday_zh": "星期二",
+  "weekday_en": "Tuesday",
+  "items": [
+    {
+      "time": "13:20",
+      "label_en": "Arrive · Set up",
+      "label_zh": "抵達・架設",
+      "detail_en": "Projector and sound ready before the principal interview.",
+      "detail_zh": "在校長採訪開始前架好投影與音響。"
+    },
+    {
+      "period_en": "Period 5",
+      "period_zh": "第 5 節",
+      "time": "13:30 – 14:10",
+      "label_en": "Principal interview & discussion",
+      "label_zh": "校長採訪與座談",
+      "detail_en": "Three questions, about ten minutes — the rest is an open chat.",
+      "detail_zh": "三個題目、大約十分鐘，其餘時間輕鬆座談。",
+      "note_en": "For the Voices in Education series.",
+      "note_zh": "收錄於「教育之聲」校長專訪系列。"
+    },
+    {
+      "period_en": "Period 6",
+      "period_zh": "第 6 節",
+      "time": "14:20 – 15:00",
+      "class": "Grade 2 二年級",
+      "label_en": "SDG 2 Zero Hunger",
+      "label_zh": "SDG 2 消除飢餓",
+      "deck": "nanzhou-elem-sdg2-zerohunger"
+    },
+    {
+      "period_en": "Period 7",
+      "period_zh": "第 7 節",
+      "time": "15:20 – 16:00",
+      "label_en": "Flexible time — school's choice",
+      "label_zh": "彈性時間・由學校安排",
+      "detail_en": "Decided by the school: a second class, a campus tour, or time with the teachers.",
+      "detail_zh": "由學校決定：可以是第二個班級、校園參觀，或與老師們交流。",
+      "note_en": "If it becomes a second class, the same deck works — it ends with two bonus activities.",
+      "note_zh": "如果安排成第二個班級，同一套簡報就可以用——結尾有兩個加碼活動。",
+      "deck": "nanzhou-elem-sdg2-zerohunger"
+    }
+  ],
+  "footnote_en": "Each period is 40 minutes — a 10-minute break after Period 5, and 20 minutes before Period 7.",
+  "footnote_zh": "每節 40 分鐘——第 5 節後休息 10 分鐘，第 7 節前休息 20 分鐘。"
+}
