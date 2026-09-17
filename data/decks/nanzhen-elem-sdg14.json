@@ -4,7 +4,7 @@
   "school_en": "Nanzhen Elementary",
   "date": "2026.09.22",
   "year": "115",
-  "classes": "Grade 6 六年級",
+  "classes": "6A · 6B 六年級",
   "title": "SDG 14 保育海洋生態",
   "title_en": "Life Below Water",
   "sdg": "14",
@@ -250,14 +250,6 @@
       ]
     },
     {
-      "type": "video",
-      "head_en": "Be the Change",
-      "head_zh": "成為那個改變",
-      "yt": "otT9zA42dK0",
-      "note_en": "Watch — then tell me one thing you would protect.",
-      "note_zh": "看完之後，告訴我一件你想保護的東西。"
-    },
-    {
       "type": "topic",
       "head_en": "12 Oxen Left",
       "head_zh": "只剩下 12 頭牛",
@@ -340,6 +332,14 @@
       "sentence_zh": "如果白海豚消失了，彰化會失去 ______。",
       "time_en": "One minute each. Then I will ask two of you.",
       "time_zh": "每人一分鐘。然後我會請兩位分享。"
+    },
+    {
+      "type": "video",
+      "head_en": "Be the Change",
+      "head_zh": "成為那個改變",
+      "yt": "otT9zA42dK0",
+      "note_en": "Watch — then tell me the one thing you will protect.",
+      "note_zh": "看完之後，告訴我你決定要保護的那一件事。"
     },
     {
       "type": "action",

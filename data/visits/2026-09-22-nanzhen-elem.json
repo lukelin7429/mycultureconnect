@@ -1,0 +1,57 @@
+{
+  "slug": "2026-09-22-nanzhen-elem",
+  "school": "南鎮國小",
+  "school_en": "Nanzhen Elementary",
+  "date": "2026.09.22",
+  "weekday_zh": "星期二",
+  "weekday_en": "Tuesday",
+  "items": [
+    {
+      "time": "09:10",
+      "label_en": "Arrive · English classroom",
+      "label_zh": "抵達・英語教室",
+      "detail_en": "Set up the projector and sound before Period 2.",
+      "detail_zh": "在第 2 節開始前架好投影與音響。"
+    },
+    {
+      "period_en": "Period 2",
+      "period_zh": "第 2 節",
+      "time": "09:30 – 10:10",
+      "class": "6A",
+      "label_en": "SDG 14 Life Below Water",
+      "label_zh": "SDG 14 保育海洋生態",
+      "deck": "nanzhen-elem-sdg14-ocean"
+    },
+    {
+      "period_en": "Period 3",
+      "period_zh": "第 3 節",
+      "time": "10:30 – 11:10",
+      "class": "6B",
+      "label_en": "SDG 14 Life Below Water",
+      "label_zh": "SDG 14 保育海洋生態",
+      "deck": "nanzhen-elem-sdg14-ocean",
+      "note_en": "Same deck as Period 2.",
+      "note_zh": "與第 2 節同一套簡報。"
+    },
+    {
+      "period_en": "Period 4",
+      "period_zh": "第 4 節",
+      "time": "11:20 – 12:00",
+      "label_en": "Principal interview & discussion",
+      "label_zh": "校長採訪與座談",
+      "detail_en": "Three questions, about ten minutes — the rest is an open chat.",
+      "detail_zh": "三個題目、大約十分鐘，其餘時間輕鬆座談。",
+      "note_en": "For the Voices in Education series.",
+      "note_zh": "收錄於「教育之聲」校長專訪系列。"
+    },
+    {
+      "time": "12:00",
+      "label_en": "Lunch",
+      "label_zh": "午餐",
+      "detail_en": "4 vegetarian bento boxes for the team — we cover the cost.",
+      "detail_zh": "團隊 4 份素食便當，費用由我們支付。"
+    }
+  ],
+  "footnote_en": "Each period is 40 minutes, with a 20-minute break between Periods 2 and 3.",
+  "footnote_zh": "每節 40 分鐘，第 2 節與第 3 節之間有 20 分鐘下課。"
+}
