@@ -49,13 +49,14 @@ def reveal(block):
     b = re.sub(r'(<div class="[^"]*?)"([^>]*data-reveal-group)', r'\1 is-revealed"\2', block)
     b = re.sub(r'(class=")((?:[^"]*\s)?hs-tf)(["\s])', r'\1\2 is-revealed\3', b)
     b = re.sub(r'(class=")((?:[^"]*\s)?hs-hintbtn)(["\s])', r'\1\2 is-revealed\3', b)
+    b = re.sub(r'(class=")((?:[^"]*\s)?hs-sortitem)(["\s])', r'\1\2 is-revealed\3', b)
     b = re.sub(r'(<[^>]*\bdata-reveal-group\b[^>]*class=")', r'\1is-revealed ', b)
     return b
 
 
 def has_hidden_answer(block):
     return ('data-reveal-group' in block or 'hs-tf ' in block
-            or 'hs-tf"' in block or 'hs-hintbtn' in block)
+            or 'hs-tf"' in block or 'hs-hintbtn' in block or 'hs-sortitem' in block)
 
 
 PRINT_PAGE = """<!doctype html><meta charset="utf-8">

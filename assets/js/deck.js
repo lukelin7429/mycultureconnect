@@ -54,7 +54,7 @@
       if (e.target.closest('.deck-arrow')) return;
       // HTML slides carry their own controls (quiz options, reveal buttons, the
       // video facade) — a tap on those must not also flip the slide.
-      if (e.target.closest('.hs-opt, .hs-tf, .hs-hintbtn, .hs-revealbtn, .hs-yt')) return;
+      if (e.target.closest('.hs-opt, .hs-tf, .hs-hintbtn, .hs-revealbtn, .hs-sortitem, .hs-yt')) return;
       var r = stage.getBoundingClientRect();
       var x = e.clientX - r.left;
       if (x < r.width * 0.32) prev();
@@ -124,7 +124,7 @@
         if (group) group.classList.add('is-revealed');
         return;
       }
-      var tf = e.target.closest('.hs-tf, .hs-hintbtn');
+      var tf = e.target.closest('.hs-tf, .hs-hintbtn, .hs-sortitem');
       if (tf) { tf.classList.toggle('is-revealed'); return; }
       var yt = e.target.closest('.hs-yt');
       if (yt && !yt.querySelector('iframe')) {

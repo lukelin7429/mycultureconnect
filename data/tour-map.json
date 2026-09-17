@@ -64,6 +64,11 @@
      "slug": "nanzhou-elem-sdg2-zerohunger",
      "title": "SDG 2 消除飢餓",
      "title_en": "Zero Hunger"
+    },
+    {
+     "slug": "nanzhou-elem-sdg12-consumption",
+     "title": "SDG 12 責任消費及生產",
+     "title_en": "Responsible Consumption"
     }
    ],
    "visit": "2026-09-22-nanzhou-elem"

@@ -37,13 +37,12 @@
       "period_en": "Period 7",
       "period_zh": "第 7 節",
       "time": "15:20 – 16:00",
-      "label_en": "Flexible time — school's choice",
-      "label_zh": "彈性時間・由學校安排",
-      "detail_en": "Decided by the school: a second class, a campus tour, or time with the teachers.",
-      "detail_zh": "由學校決定：可以是第二個班級、校園參觀，或與老師們交流。",
-      "note_en": "If it becomes a second class, the same deck works — it ends with two bonus activities.",
-      "note_zh": "如果安排成第二個班級，同一套簡報就可以用——結尾有兩個加碼活動。",
-      "deck": "nanzhou-elem-sdg2-zerohunger"
+      "class": "Grade 3 三年級",
+      "label_en": "SDG 12 Responsible Consumption",
+      "label_zh": "SDG 12 責任消費及生產",
+      "deck": "nanzhou-elem-sdg12-consumption",
+      "note_en": "A different deck from Period 6 — this one is for Grade 3.",
+      "note_zh": "與第 6 節不同套——這一套是給三年級的。"
     }
   ],
   "footnote_en": "Each period is 40 minutes — a 10-minute break after Period 5, and 20 minutes before Period 7.",

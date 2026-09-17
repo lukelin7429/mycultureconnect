@@ -409,12 +409,34 @@ def t_people(s, d):
 </div>'''
 
 
+def t_sort(s, d):
+    """二選一分類：每一項點下去才公布屬於哪一邊（需要／想要、能再用／該回收）。
+    中年級最需要的是分類思考，比是非題多一層判斷，又比開放題安全。"""
+    items = "".join(
+        f'<button type="button" class="hs-sortitem hs-side-{e(x["a"])}">'
+        f'<span class="hs-sortico">{e(x.get("icon", "•"))}</span>'
+        f'<span class="hs-sortq">{bi(e(x["en"]), e(x["zh"]))}</span>'
+        f'<span class="hs-sortans">{e(s["a_en"] if x["a"] == "a" else s["b_en"])}'
+        f'<em>{e(s["a_zh"] if x["a"] == "a" else s["b_zh"])}</em></span></button>'
+        for x in s["items"])
+    return f'''<div class="hs hs-sort">
+  <h3 class="hs-head">🗂 {e(s["head_en"])}<span>{e(s["head_zh"])}</span></h3>
+  <div class="hs-sidebar">
+    <span class="hs-side hs-side-a">{e(s["a_en"])}<em>{e(s["a_zh"])}</em></span>
+    <span class="hs-side hs-side-b">{e(s["b_en"])}<em>{e(s["b_zh"])}</em></span>
+  </div>
+  <div class="hs-sortitems">{items}</div>
+  <div class="hs-tap">👆 {e(s["note_en"])} · {e(s["note_zh"])}</div>
+</div>'''
+
+
 RENDER = {
     "title": t_title, "intro": t_intro, "video": t_video, "standup": t_standup,
     "topic": t_topic, "quiz": t_quiz, "bigstat": t_bigstat, "truefalse": t_truefalse,
     "game": t_game, "pairshare": t_pairshare, "rank": t_rank, "action": t_action,
     "map": t_map, "phrases": t_phrases, "padlet": t_padlet, "closing": t_closing,
     "tpr": t_tpr, "count": t_count, "chant": t_chant, "people": t_people,
+    "sort": t_sort,
 }
 
 

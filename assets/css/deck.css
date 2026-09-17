@@ -501,3 +501,31 @@ body.deck-body { background:var(--page); min-height:100vh; font-family:var(--san
 .is-revealed .hs-fig.is-mark { filter:none; opacity:1; transform:scale(1.1);
   background:rgba(226,98,15,.16); border-radius:50%; outline:4px solid var(--hs-key);
   outline-offset:-2px; }
+
+/* 二選一分類（中年級）：兩邊各一個顏色，項目點下去才知道歸哪一邊 */
+.hs-sort .hs-sidebar { display:flex; gap:14px; }
+.hs-side { flex:1; text-align:center; border-radius:12px; padding:8px 14px;
+  font-size:26px; font-weight:700; color:#fff; line-height:1.15; }
+.hs-side em { display:block; font-style:normal; font-family:var(--zh);
+  font-size:19px; opacity:.9; }
+.hs-side-a { background:var(--hs-key); }
+.hs-side-b { background:#5b6b86; }
+.hs-sortitems { flex:1; display:grid; grid-template-columns:repeat(4, 1fr);
+  gap:10px; align-content:center; }
+.hs-sortitem { position:relative; display:flex; flex-direction:column; align-items:center;
+  justify-content:center; gap:5px; background:var(--hs-soft); border:2px solid var(--hs-key);
+  border-radius:14px; padding:12px 8px; cursor:pointer; overflow:hidden;
+  font-family:inherit; color:inherit; transition:transform .18s ease; }
+.hs-sortitem:hover { transform:translateY(-2px); }
+.hs-sortico { font-size:40px; line-height:1; }
+.hs-sortitem .hs-en { font-size:19px; font-weight:700; text-align:center; }
+.hs-sortitem .hs-zh { font-size:17px; text-align:center; }
+.hs-sortans { position:absolute; inset:0; display:none; flex-direction:column;
+  align-items:center; justify-content:center; color:#fff; font-size:25px;
+  font-weight:700; line-height:1.15; }
+.hs-sortans em { font-style:normal; font-family:var(--zh); font-size:19px; opacity:.92; }
+.hs-sortitem.is-revealed .hs-sortans { display:flex; }
+.hs-sortitem.is-revealed.hs-side-a { border-color:var(--hs-key2); }
+.hs-sortitem.is-revealed.hs-side-a .hs-sortans { background:var(--hs-key); }
+.hs-sortitem.is-revealed.hs-side-b { border-color:#40506a; }
+.hs-sortitem.is-revealed.hs-side-b .hs-sortans { background:#5b6b86; }

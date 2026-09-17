@@ -1,0 +1,498 @@
+{
+  "slug": "nanzhou-elem-sdg12-consumption",
+  "school": "南州國小",
+  "school_en": "Nanzhou Elementary",
+  "date": "2026.09.22",
+  "year": "115",
+  "classes": "Grade 3 三年級",
+  "title": "SDG 12 責任消費及生產",
+  "title_en": "Responsible Consumption",
+  "sdg": "12",
+  "theme": "violet",
+  "footer": "Teacher Dom · SDG #12 Responsible Consumption 責任消費及生產",
+  "slides": [
+    {
+      "type": "title",
+      "eyebrow_en": "A Bilingual Lesson for Grade 3",
+      "eyebrow_zh": "三年級雙語課程",
+      "chips": [
+        {
+          "en": "Need or Want?",
+          "zh": "需要還是想要"
+        },
+        {
+          "en": "Where From?",
+          "zh": "從哪裡來"
+        },
+        {
+          "en": "Use It Again",
+          "zh": "再用一次"
+        },
+        {
+          "en": "Our Actions",
+          "zh": "行動方案"
+        }
+      ],
+      "strip": [
+        {
+          "num": "900",
+          "en": "days of drinking water for one T-shirt",
+          "zh": "一件 T 恤＝喝 900 天的水"
+        },
+        {
+          "num": "3",
+          "en": "English sentences today",
+          "zh": "今天學三句英文"
+        },
+        {
+          "num": "1",
+          "en": "Earth — we only have one",
+          "zh": "地球只有一個"
+        }
+      ],
+      "img": "g3-title"
+    },
+    {
+      "type": "intro",
+      "head_en": "Hello! I am Dom.",
+      "head_zh": "哈囉！我是 Dom。",
+      "lines": [
+        {
+          "en": "I come from California, USA.",
+          "zh": "我從美國加州來。"
+        },
+        {
+          "en": "This is my third year of teaching in Changhua.",
+          "zh": "這是我在彰化教書的第三年。"
+        },
+        {
+          "en": "Today we ask one question: do I really need it?",
+          "zh": "今天我們只問一個問題：我真的需要它嗎？"
+        }
+      ],
+      "ask_en": "Wave your hand and say: Hello, Dom!",
+      "ask_zh": "揮揮手，一起說：Hello, Dom！"
+    },
+    {
+      "type": "map",
+      "head_en": "From California to Changhua",
+      "head_zh": "從加州到彰化",
+      "img": "map-usa-taiwan.svg",
+      "ask_en": "Look at your shirt. Do you know which country made it?",
+      "ask_zh": "看看你身上的衣服。你知道它是哪個國家做的嗎？"
+    },
+    {
+      "type": "standup",
+      "head_en": "Stand Up If…",
+      "head_zh": "如果是你，就站起來！",
+      "prompts": [
+        {
+          "en": "Stand up if you brought your own water bottle today.",
+          "zh": "今天有帶自己水壺的，站起來。"
+        },
+        {
+          "en": "Stay standing if your school bag is older than one year.",
+          "zh": "書包用超過一年的，繼續站著。"
+        },
+        {
+          "en": "Stay standing if you ever fixed something instead of buying new.",
+          "zh": "修好東西繼續用、沒買新的，繼續站著。"
+        }
+      ],
+      "punch_en": "Still standing? You are already doing SDG 12.",
+      "punch_zh": "還站著的人，你已經在做 SDG 12 了。"
+    },
+    {
+      "type": "tpr",
+      "head_en": "Show Me: NEED and WANT",
+      "head_zh": "做給我看：需要 vs 想要",
+      "say_en": "I need it. / I want it.",
+      "say_zh": "我需要它。／我想要它。",
+      "steps": [
+        {
+          "icon": "🫶",
+          "en": "NEED — hands on your heart",
+          "zh": "需要——雙手放胸口"
+        },
+        {
+          "icon": "👉",
+          "en": "WANT — point at it",
+          "zh": "想要——用手指它"
+        },
+        {
+          "icon": "🗣️",
+          "en": "Say both three times",
+          "zh": "兩句各說三次"
+        }
+      ],
+      "img": "g3-needwant-v"
+    },
+    {
+      "type": "sort",
+      "head_en": "Need or Want?",
+      "head_zh": "需要，還是想要？",
+      "a_en": "NEED",
+      "a_zh": "需要",
+      "b_en": "WANT",
+      "b_zh": "想要",
+      "items": [
+        {
+          "icon": "💧",
+          "en": "Water",
+          "zh": "水",
+          "a": "a"
+        },
+        {
+          "icon": "🎮",
+          "en": "A new game",
+          "zh": "新的電動",
+          "a": "b"
+        },
+        {
+          "icon": "🍚",
+          "en": "Food",
+          "zh": "食物",
+          "a": "a"
+        },
+        {
+          "icon": "👟",
+          "en": "A third pair of shoes",
+          "zh": "第三雙球鞋",
+          "a": "b"
+        },
+        {
+          "icon": "🏠",
+          "en": "A home",
+          "zh": "一個家",
+          "a": "a"
+        },
+        {
+          "icon": "🧸",
+          "en": "One more toy",
+          "zh": "再一個玩具",
+          "a": "b"
+        },
+        {
+          "icon": "📚",
+          "en": "School books",
+          "zh": "課本",
+          "a": "a"
+        },
+        {
+          "icon": "🍭",
+          "en": "Sweets every day",
+          "zh": "每天都吃糖",
+          "a": "b"
+        }
+      ],
+      "note_en": "Tap each one to check",
+      "note_zh": "點每一項對答案"
+    },
+    {
+      "type": "bigstat",
+      "num": "900",
+      "head_en": "days of drinking water — for ONE T-shirt",
+      "head_zh": "一件 T 恤，等於一個人喝 900 天的水",
+      "body_en": "Growing the cotton, making the cloth, dyeing it — about 2,700 litres in all.",
+      "body_zh": "種棉花、做布、染色，全部加起來大約 2,700 公升。",
+      "ask_en": "How many T-shirts are in your wardrobe at home?",
+      "ask_zh": "你家衣櫃裡有幾件 T 恤？",
+      "img": "g3-tshirt-v"
+    },
+    {
+      "type": "topic",
+      "head_en": "Where Does Your Pencil Come From?",
+      "head_zh": "你的鉛筆從哪裡來？",
+      "body_en": "A tree grew for years. A truck carried the wood. A factory cut it and added the lead. A ship, a shop, your pencil case. Then one day — the bin.",
+      "body_zh": "一棵樹長了好幾年，卡車載走木頭，工廠切開它、裝上筆芯，再經過船、商店，最後到你的鉛筆盒。然後有一天——垃圾桶。",
+      "keywords": [
+        {
+          "en": "tree",
+          "zh": "樹"
+        },
+        {
+          "en": "factory",
+          "zh": "工廠"
+        },
+        {
+          "en": "shop",
+          "zh": "商店"
+        },
+        {
+          "en": "bin",
+          "zh": "垃圾桶"
+        }
+      ],
+      "img": "g3-pencil-v"
+    },
+    {
+      "type": "quiz",
+      "n": 1,
+      "q_en": "Your pencil is still long, but you want a new one. What is the best choice?",
+      "q_zh": "你的鉛筆還很長，但你想要一支新的。最好的選擇是？",
+      "options": [
+        {
+          "en": "Buy the new one anyway",
+          "zh": "還是買新的"
+        },
+        {
+          "en": "Use this one until it is short",
+          "zh": "把這支用到很短"
+        },
+        {
+          "en": "Throw this one away first",
+          "zh": "先把這支丟掉"
+        }
+      ],
+      "answer": 1,
+      "explain_en": "Using what you already have is the greenest choice of all.",
+      "explain_zh": "把已經有的東西用完，是最環保的選擇。"
+    },
+    {
+      "type": "truefalse",
+      "head_en": "True or False?",
+      "head_zh": "真的還假的？手比 ⭕ 或 ❌",
+      "items": [
+        {
+          "en": "Recycling is better than not buying it at all.",
+          "zh": "回收比「一開始就不買」還要好。",
+          "answer": false,
+          "note_en": "Not buying it is best. Recycling still uses energy.",
+          "note_zh": "不買最好。回收還是要用掉能源。"
+        },
+        {
+          "en": "A dirty lunch box can go in the recycling bin.",
+          "zh": "髒髒的便當盒可以直接丟回收桶。",
+          "answer": false,
+          "note_en": "Rinse it first, or the whole bag may be thrown away.",
+          "note_zh": "要先沖乾淨，不然整袋可能都被當垃圾丟掉。"
+        },
+        {
+          "en": "Things that still work can be given to someone else.",
+          "zh": "還能用的東西可以送給別人。",
+          "answer": true,
+          "note_en": "Your old book is someone's new book.",
+          "note_zh": "你的舊書，是別人的新書。"
+        },
+        {
+          "en": "One class of children is too small to make a difference.",
+          "zh": "一個班的小朋友太少了，改變不了什麼。",
+          "answer": false,
+          "note_en": "Let's do the maths on the next slide.",
+          "note_zh": "下一張我們來算算看。"
+        }
+      ]
+    },
+    {
+      "type": "bigstat",
+      "num": "125",
+      "head_en": "plastic bags from one class in one week",
+      "head_zh": "一個班一個星期用掉 125 個塑膠袋",
+      "body_en": "25 students × 1 bag a day × 5 days = 125 bags.",
+      "body_zh": "25 個人 × 每天 1 個 × 5 天 ＝ 125 個。",
+      "ask_en": "What if every one of you brought a bag from home instead?",
+      "ask_zh": "如果你們每個人都自己從家裡帶袋子呢？"
+    },
+    {
+      "type": "tpr",
+      "head_en": "Show Me: USE IT AGAIN",
+      "head_zh": "做給我看：再用一次",
+      "say_en": "I can use it again!",
+      "say_zh": "我可以再用一次！",
+      "steps": [
+        {
+          "icon": "♻️",
+          "en": "Make a circle with your arms",
+          "zh": "用雙手畫一個圓"
+        },
+        {
+          "icon": "👐",
+          "en": "Hold it up like a treasure",
+          "zh": "像捧著寶物一樣舉起來"
+        },
+        {
+          "icon": "🗣️",
+          "en": "Say it three times",
+          "zh": "大聲說三次"
+        }
+      ],
+      "img": "g3-reuse-v"
+    },
+    {
+      "type": "game",
+      "icon": "⏱",
+      "head_en": "30-Second Challenge",
+      "head_zh": "30 秒挑戰",
+      "rule_en": "In 30 seconds, shout out as many things you can use again in English as you can. I will count!",
+      "rule_zh": "30 秒內，用英文喊出越多「可以再用的東西」越好，我來數！",
+      "hints": [
+        "bottle 水瓶",
+        "bag 袋子",
+        "box 盒子",
+        "paper 紙",
+        "jar 罐子",
+        "towel 毛巾",
+        "book 書",
+        "chopsticks 筷子"
+      ],
+      "target_en": "Class record to beat: 15",
+      "target_zh": "要打破的班級紀錄：15 個"
+    },
+    {
+      "type": "video",
+      "head_en": "Be the Change",
+      "head_zh": "成為那個改變",
+      "yt": "otT9zA42dK0",
+      "note_en": "Watch — then tell me the one thing you will change.",
+      "note_zh": "看完之後，告訴我你決定要改變的那一件事。"
+    },
+    {
+      "type": "action",
+      "head_en": "3 Things I Can Do",
+      "head_zh": "我可以做的 3 件事",
+      "items": [
+        {
+          "num": "1",
+          "en": "Ask \"Do I need it?\" before I buy.",
+          "zh": "買之前先問：我真的需要嗎？"
+        },
+        {
+          "num": "2",
+          "en": "Use my pencil until it is short.",
+          "zh": "把鉛筆用到很短才換。"
+        },
+        {
+          "num": "3",
+          "en": "Bring my own bottle and bag.",
+          "zh": "自己帶水壺和袋子。"
+        }
+      ]
+    },
+    {
+      "type": "phrases",
+      "head_en": "Say It With Me",
+      "head_zh": "跟著我唸",
+      "items": [
+        {
+          "en": "Do I need it?",
+          "zh": "我真的需要嗎？"
+        },
+        {
+          "en": "I want it — but I don't need it.",
+          "zh": "我想要，但我不需要。"
+        },
+        {
+          "en": "I can use it again!",
+          "zh": "我可以再用一次！"
+        },
+        {
+          "en": "One Earth.",
+          "zh": "只有一個地球。"
+        }
+      ]
+    },
+    {
+      "type": "sort",
+      "head_en": "BONUS: Use Again or Recycle?",
+      "head_zh": "加碼：再用一次，還是回收？",
+      "a_en": "USE AGAIN",
+      "a_zh": "再用一次",
+      "b_en": "RECYCLE",
+      "b_zh": "拿去回收",
+      "items": [
+        {
+          "icon": "🥛",
+          "en": "A clean glass jar",
+          "zh": "洗乾淨的玻璃罐",
+          "a": "a"
+        },
+        {
+          "icon": "📰",
+          "en": "Yesterday's newspaper",
+          "zh": "昨天的報紙",
+          "a": "b"
+        },
+        {
+          "icon": "👕",
+          "en": "A T-shirt that still fits",
+          "zh": "還穿得下的 T 恤",
+          "a": "a"
+        },
+        {
+          "icon": "🥤",
+          "en": "A crushed drink can",
+          "zh": "壓扁的鋁罐",
+          "a": "b"
+        },
+        {
+          "icon": "🎁",
+          "en": "Nice wrapping paper",
+          "zh": "漂亮的包裝紙",
+          "a": "a"
+        },
+        {
+          "icon": "📦",
+          "en": "A broken cardboard box",
+          "zh": "破掉的紙箱",
+          "a": "b"
+        },
+        {
+          "icon": "🍱",
+          "en": "Your lunch box",
+          "zh": "你的便當盒",
+          "a": "a"
+        },
+        {
+          "icon": "🧃",
+          "en": "An empty juice carton",
+          "zh": "空的鋁箔包",
+          "a": "b"
+        }
+      ],
+      "note_en": "Tap each one to check",
+      "note_zh": "點每一項對答案"
+    },
+    {
+      "type": "quiz",
+      "n": 2,
+      "bonus": true,
+      "q_en": "Which uses the LEAST water to make?",
+      "q_zh": "下面哪一個，做出來用掉的水最少？",
+      "options": [
+        {
+          "en": "A new cotton T-shirt",
+          "zh": "一件新的棉 T 恤"
+        },
+        {
+          "en": "Your sister's old T-shirt",
+          "zh": "姊姊穿過的舊 T 恤"
+        },
+        {
+          "en": "Two new T-shirts",
+          "zh": "兩件新的 T 恤"
+        }
+      ],
+      "answer": 1,
+      "explain_en": "An old shirt uses zero new water. The greenest T-shirt is the one that already exists.",
+      "explain_zh": "舊衣服不用任何新的水。最環保的 T 恤，就是已經存在的那一件。"
+    },
+    {
+      "type": "padlet",
+      "head_en": "Draw or Write for Dom",
+      "head_zh": "畫一張圖或寫一句話給 Dom",
+      "body_en": "Ask your teacher to open our School Tour page and find the Nanzhou Elementary column. Tell me one thing you will use again.",
+      "body_zh": "請老師打開我們網站的 School Tour 頁面，找到南州國小那一欄，告訴我一件你要再用一次的東西。",
+      "sentence_en": "I will use my ______ again.",
+      "sentence_zh": "我要再用一次我的 ______。",
+      "site": "mycultureconnect.org/dom-school-tour.html"
+    },
+    {
+      "type": "closing",
+      "big_en": "Do I need it?<br>Ask it every day.",
+      "big_zh": "我真的需要嗎？<br>每天都問自己一次。",
+      "sign_en": "Thank you, Nanzhou Elementary!",
+      "sign_zh": "謝謝南州國小！",
+      "img": "g3-closing"
+    }
+  ]
+}
