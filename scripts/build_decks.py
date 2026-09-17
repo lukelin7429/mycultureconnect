@@ -133,6 +133,51 @@ def e(s):
     return html.escape(str(s))
 
 
+def ensure_webp():
+    """Make a .webp beside every deck .png that doesn't have an up-to-date one.
+
+    Automatic so that dropping a new illustration into assets/img/decks/ is all
+    anyone has to do. Skipped silently if Pillow isn't installed — the pages
+    still work, they just fall back to the PNG.
+    """
+    try:
+        from PIL import Image
+    except ImportError:
+        return 0
+    made = 0
+    folder = os.path.join(ROOT, "assets", "img", "decks")
+    for name in sorted(os.listdir(folder)):
+        if not name.endswith(".png"):
+            continue
+        png = os.path.join(folder, name)
+        webp = png[:-4] + ".webp"
+        if os.path.exists(webp) and os.path.getmtime(webp) >= os.path.getmtime(png):
+            continue
+        Image.open(png).convert("RGB").save(webp, "WEBP", quality=82, method=6)
+        made += 1
+    return made
+
+
+def picture(src, cls=""):
+    """<picture> with a WebP source and the PNG as fallback.
+
+    WebP is ~80% smaller, which is the difference between a slide appearing
+    instantly and Dom waiting in front of a class. The PNG stays as the <img>
+    so an old classroom PC still shows something.
+
+    Never loading="lazy". Every slide of a deck WILL be shown in the next forty
+    minutes, so deferring the download only moves the wait to the worst possible
+    moment — Dom standing in front of a class. Without the attribute the browser
+    fetches the whole deck while the first slide is already on screen.
+    """
+    webp = os.path.splitext(src)[0] + ".webp"
+    has_webp = os.path.exists(os.path.join(ROOT, "assets", "img", "decks", webp))
+    source = (f'<source type="image/webp" srcset="/assets/img/decks/{e(webp)}">'
+              if has_webp else "")
+    return (f'<picture{f" class={chr(34)}{cls}{chr(34)}" if cls else ""}>{source}'
+            f'<img src="/assets/img/decks/{e(src)}" alt="" decoding="async"></picture>')
+
+
 def art(s_):
     """Optional illustration. Any slide type can carry one — it renders as a
     right-hand panel and the text column narrows to make room."""
@@ -140,8 +185,7 @@ def art(s_):
         return "", ""
     name = s_["img"]
     src = name if "." in name else name + ".png"
-    return (" has-art",
-            f'<div class="hs-art"><img src="/assets/img/decks/{e(src)}" alt="" loading="lazy"></div>')
+    return " has-art", f'<div class="hs-art">{picture(src)}</div>' 
 
 
 def bi(en, zh, cls=""):
@@ -335,7 +379,7 @@ def t_map(s, d):
     """Full-bleed map: the heading and the question sit on top of it, so none of
     the slide is wasted on letterbox bars beside a contained image."""
     return f'''<div class="hs hs-map">
-  <div class="hs-mapimg"><img src="/assets/img/decks/{e(s["img"])}" alt="" loading="lazy"></div>
+  <div class="hs-mapimg">{picture(s["img"])}</div>
   <h3 class="hs-head">{e(s["head_en"])}<span>{e(s["head_zh"])}</span></h3>
   <div class="hs-ask">🌏 {bi(e(s["ask_en"]), e(s["ask_zh"]))}</div>
 </div>'''
@@ -749,6 +793,9 @@ def library_page(decks):
 
 
 def main():
+    n = ensure_webp()
+    if n:
+        print(f"  ✓ {n} new .webp generated from .png")
     decks = load_decks()
     for d in decks:
         write(f"{LIB}{d['slug']}/", deck_page(d))

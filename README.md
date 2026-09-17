@@ -33,6 +33,13 @@ optional `decks` / `visit` / `news` / `voices`) and re-run `build_tour_map.py`.
 Coordinates come from OpenStreetMap; every pin is checked to fall inside the
 township it claims.
 
+**Images:** drop a PNG into `assets/img/decks/` and `build_decks.py` makes the
+WebP automatically. Pages serve `<picture>` with the WebP first and the PNG as a
+fallback, and never `loading="lazy"` — every slide of a deck gets shown within
+the lesson, so deferring the download only moves the wait to the moment Dom is
+standing in front of a class. The PDF/PPTX export deliberately prints from the
+PNG: Chrome re-encodes WebP badly into PDF.
+
 **Offline copies:** classroom displays vary and a browser is one more thing that
 can fail before an assembly, so every interactive deck also ships as a PDF and a
 PPTX, linked from two buttons under the deck. Run `build_decks.py` first, then

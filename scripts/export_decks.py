@@ -94,9 +94,13 @@ def build_pages(slug):
 
 def write_print_html(dest, pages, tag):
     body = '\n'.join('<div class="pg">' + p + '</div>' for p in pages)
+    # Drop the <picture> WebP sources so Chrome prints from the PNG. WebP is the
+    # right choice over the network, but Chrome re-encodes it badly on the way
+    # into a PDF — the same deck comes out ~40% larger.
+    body = re.sub(r'<source[^>]*>', '', body)
     # /assets/... only resolves over http; make it absolute for file:// printing
-    body = body.replace('src="/assets/', 'src="file://' + ROOT + '/assets/')
-    body = body.replace('href="/assets/', 'href="file://' + ROOT + '/assets/')
+    for attr in ('src', 'srcset', 'href'):
+        body = body.replace(f'{attr}="/assets/', f'{attr}="file://{ROOT}/assets/')
     out = os.path.join(dest, f'print-{tag}.html')
     open(out, 'w', encoding='utf-8').write(PRINT_PAGE.format(
         css=os.path.join(ROOT, 'assets', 'css', 'deck.css'),
