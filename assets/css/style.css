@@ -68,10 +68,16 @@ p{margin:0 0 1.1em}
 .brand img{width:42px;height:42px;border-radius:10px}
 .brand b{font-family:var(--serif);font-weight:400;font-size:1.25rem;letter-spacing:.01em}
 .brand span{display:block;font-family:var(--eyebrow);font-size:.6rem;letter-spacing:.18em;color:var(--muted-2);text-transform:uppercase;margin-top:2px}
-nav.main{display:flex;align-items:center;gap:30px}
+/* Only while the menu sits beside it: a wrapped brand doubles the header height.
+   Narrower than that the drawer frees the row and the name may wrap as before. */
+@media(min-width:1141px){.brand b,.brand span{white-space:nowrap}}
+/* Seven items and the search button have to fit inside .wrap, which is capped
+   at --maxw on every screen — so the menu is sized to fit there, not to the
+   viewport, and hands over to the drawer below 1140px. */
+nav.main{display:flex;align-items:center;gap:22px}
 nav.main a{
-  font-family:var(--eyebrow);font-size:.92rem;letter-spacing:.08em;
-  text-transform:uppercase;color:var(--ink);position:relative;padding:6px 0;
+  font-family:var(--eyebrow);font-size:.87rem;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--ink);position:relative;padding:6px 0;white-space:nowrap;
 }
 nav.main a:hover{color:var(--orange);text-decoration:none}
 nav.main a.active{color:var(--orange)}
@@ -355,15 +361,18 @@ a.card.choice:hover .choice-go{transform:translateX(6px)}
 [data-reveal]{transition-delay:calc(var(--d, 0) * 90ms)}
 
 /* ---------- responsive ---------- */
-@media(max-width:880px){
-  body{font-size:17px}
+@media(max-width:1140px){
   nav.main{position:fixed;inset:74px 0 auto 0;background:#fff;flex-direction:column;gap:0;
     padding:8px 0;border-bottom:1px solid var(--line);box-shadow:var(--shadow);
     transform:translateY(-130%);transition:transform .3s;max-height:calc(100vh - 74px);overflow:auto}
   nav.main.open{transform:translateY(0)}
-  nav.main a{width:100%;padding:15px 24px;border-bottom:1px solid var(--line);letter-spacing:.1em}
+  nav.main a{width:100%;padding:15px 24px;border-bottom:1px solid var(--line);
+    font-size:.92rem;letter-spacing:.1em}
   nav.main a.active::after{display:none}
   .nav-toggle{display:block}
+}
+@media(max-width:880px){
+  body{font-size:17px}
   .split{grid-template-columns:1fr;gap:32px}
   .grid.cols-3,.grid.cols-2,.videos{grid-template-columns:1fr}
   .gallery{grid-template-columns:repeat(2,1fr)}

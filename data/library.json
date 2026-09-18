@@ -1,0 +1,380 @@
+{
+  "hero": {
+    "eyebrow": "MCC Teaching Library · 人師教材庫",
+    "h1": "Take what you need. Teach it your way.",
+    "lead_en": "Everything My Culture Connect has made for the English classroom — graded readers with real human audio, thousands of classroom videos, slide decks, and lesson plans. It is a library, not a syllabus.",
+    "lead_zh": "人師教育協會為英語課堂製作的所有教材——分級讀本與真人錄音、數千支課堂影片、簡報與教案。這是一座圖書館，不是課綱。"
+  },
+  "stats": [
+    { "num": 24, "suffix": "", "label": "Years of free classes", "label_zh": "年免費課程" },
+    { "num": 39, "suffix": "", "label": "Graded booklets", "label_zh": "本分級讀本" },
+    { "num": 559, "suffix": "", "label": "Human recordings", "label_zh": "段真人錄音" },
+    { "num": 2600, "suffix": "+", "label": "Classroom videos", "label_zh": "支課堂影片" }
+  ],
+  "principles": [
+    {
+      "en": "Free and open",
+      "zh": "免費取用",
+      "desc_en": "Every page here is free to use, copy, and adapt in your classroom. No login, no fee, no permission needed.",
+      "desc_zh": "這裡的每一頁都可以免費使用、複製、改編到你的課堂。不必登入、不必付費、不必徵求同意。"
+    },
+    {
+      "en": "A library, not a syllabus",
+      "zh": "是圖書館，不是課綱",
+      "desc_en": "We do not prescribe what you teach. Every teacher has their own style and their own topics — browse, take what fits your students, leave the rest.",
+      "desc_zh": "我們不規定你教什麼。每位老師有自己的風格與想教的主題——挑你班上用得到的，其餘留著就好。"
+    },
+    {
+      "en": "Bilingual by design",
+      "zh": "中英對照",
+      "desc_en": "Materials carry English and Chinese side by side, so a foreign teacher and a local teacher can work from the same page.",
+      "desc_zh": "教材中英並陳，外籍老師與本國老師可以看著同一頁備課。"
+    }
+  ],
+  "groups": [
+    {
+      "id": "lesson-plans",
+      "title_en": "Lesson Plans & Classroom Kits",
+      "title_zh": "教案與課堂包",
+      "blurb_en": "Ready to teach from — a full week's plan, a deck to project, a one-to-one conversation lesson.",
+      "blurb_zh": "拿了就能上的東西——整週的教案、可投影的簡報、一對一會話課。",
+      "cards": [
+        {
+          "kind": "Curriculum",
+          "en": "46-Week English Curriculum",
+          "zh": "四十六週英語課程",
+          "desc_en": "A full academic year of English lessons by Dom Jones, our Advocacy Chair — one complete plan per week, yours to run as written or to raid for parts.",
+          "desc_zh": "本會 Advocacy Chair Dom Jones 編寫的整學年英語課程，一週一份完整教案。照著上，或只取你要的部分，都可以。",
+          "href": "/library/lesson-plans/",
+          "tags": ["46 weeks", "Lesson plans", "All levels"],
+          "badge": "New"
+        },
+        {
+          "kind": "Slides",
+          "en": "Assembly Slide Decks",
+          "zh": "校園集會簡報",
+          "desc_en": "The bilingual decks Dom presents in Changhua school assemblies — SDG themes, quizzes that reveal their answers, games. Projector-ready, plus reusable templates.",
+          "desc_zh": "Dom 在彰化校園集會實際使用的雙語簡報——SDG 主題、點一下公布答案的題目、課堂遊戲。可直接投影，另附通用範本。",
+          "href": "/slides/",
+          "tags": ["31 decks", "Bilingual", "Projector-ready"]
+        },
+        {
+          "kind": "Conversation",
+          "en": "Tutoring Lesson Library",
+          "zh": "一對一會話課",
+          "desc_en": "Thirteen conversation lessons built around things students actually want to talk about — night markets, bubble tea, festivals, hometowns, movies.",
+          "desc_zh": "十三堂以學生真正想聊的主題設計的會話課——夜市、珍奶、節慶、家鄉、電影。",
+          "href": "/tutoring.html",
+          "tags": ["13 lessons", "One-to-one", "Beginner–Intermediate"]
+        }
+      ]
+    },
+    {
+      "id": "booklets",
+      "title_en": "Graded Reading Booklets",
+      "title_zh": "分級讀本",
+      "blurb_en": "Thirty-nine booklets across six series, from first words to full articles. Every unit carries a human recording, a Chinese translation, vocabulary notes, and a printable PDF.",
+      "blurb_zh": "六個系列共三十九本，從第一個字讀到整篇文章。每個單元都有真人錄音、中文翻譯、生字註解與可列印的 PDF。",
+      "cards": [
+        {
+          "kind": "Booklets",
+          "en": "Basic English",
+          "zh": "基礎英語",
+          "desc_en": "The most basic everyday topics — school, family, food, weather. Where a beginner starts.",
+          "desc_zh": "最基礎的日常英語主題——學校、家庭、食物、天氣。初學者從這裡開始。",
+          "href": "https://twrses.org/resources/booklets/everyday/",
+          "tags": ["6 books", "Audio", "Beginner"]
+        },
+        {
+          "kind": "Booklets",
+          "en": "Elementary Reading",
+          "zh": "初級閱讀",
+          "desc_en": "Our largest series: short passages with vocabulary, questions, and full teaching audio. For readers just getting started.",
+          "desc_zh": "最大的一個系列：短文搭配生字、問題與完整教學音檔。適合剛起步的讀者。",
+          "href": "https://twrses.org/resources/booklets/basic/",
+          "tags": ["14 books", "Audio", "Elementary"]
+        },
+        {
+          "kind": "Booklets",
+          "en": "Intermediate Reading",
+          "zh": "中級閱讀",
+          "desc_en": "Longer passages that widen vocabulary and sentence patterns, with a Chinese translation beside every paragraph.",
+          "desc_zh": "進一步擴充字彙與句型的長篇文章，每段都附中文翻譯。",
+          "href": "https://twrses.org/resources/booklets/intermediate/",
+          "tags": ["6 books", "Audio", "Intermediate"]
+        },
+        {
+          "kind": "Booklets",
+          "en": "Advanced Reading",
+          "zh": "高級閱讀",
+          "desc_en": "Full-length articles for students ready to be challenged — the last step before reading in the wild.",
+          "desc_zh": "給準備好接受挑戰的學生的完整文章——真正自由閱讀前的最後一階。",
+          "href": "https://twrses.org/resources/booklets/advanced/",
+          "tags": ["5 books", "Audio", "Advanced"]
+        },
+        {
+          "kind": "Booklets",
+          "en": "Practical Conversation",
+          "zh": "實用英語會話",
+          "desc_en": "Everyday dialogues for real situations, recorded line by line so students can shadow a native speaker.",
+          "desc_zh": "真實情境的日常對話，逐句錄音，學生可以跟著母語者複誦。",
+          "href": "https://twrses.org/resources/booklets/conversation/",
+          "tags": ["4 books", "Audio", "Speaking"]
+        },
+        {
+          "kind": "Booklets",
+          "en": "Picture Description",
+          "zh": "看圖描述",
+          "desc_en": "Look at the picture, say what you see. Builds the speaking and writing muscle that exams and real life both ask for.",
+          "desc_zh": "看著圖，把看到的說出來。練的是考試與真實生活都需要的口說與寫作肌肉。",
+          "href": "https://twrses.org/resources/booklets/description/",
+          "tags": ["4 books", "Audio", "Speaking & Writing"]
+        }
+      ]
+    },
+    {
+      "id": "videos",
+      "title_en": "Video Lessons",
+      "title_zh": "影片課程",
+      "blurb_en": "Over two and a half thousand short videos, almost all filmed in real classrooms with real students and teachers.",
+      "blurb_zh": "兩千五百支以上的短片，幾乎全在真實教室、與真實的師生一起拍攝。",
+      "cards": [
+        {
+          "kind": "Signature collection",
+          "en": "Word of the Day",
+          "zh": "每日一字",
+          "desc_en": "Our largest collection: one English word a day, filmed in a real classroom by a real teacher. Browse by school, by theme, or A–Z — every word comes with two example sentences in English and Chinese.",
+          "desc_zh": "最大的一套收藏：每天一個英文單字，由真實的老師在真實的教室拍攝。可依學校、主題或字母瀏覽，每個字都附兩句中英例句。",
+          "href": "https://changhua-bilingual.org/word-of-the-day/",
+          "tags": ["2,212 videos", "104 schools", "10 themes"],
+          "feature": true
+        },
+        {
+          "kind": "Videos",
+          "en": "One-Minute English",
+          "zh": "一分鐘英語教室",
+          "desc_en": "One useful point of English, explained in about a minute. The longest-running series we have.",
+          "desc_zh": "一個實用的英語重點，一分鐘講完。我們做得最久的一個系列。",
+          "href": "https://twrses.org/resources/videos/one-min/",
+          "tags": ["137 videos", "All levels"]
+        },
+        {
+          "kind": "Videos",
+          "en": "GEPT Basic Speaking",
+          "zh": "GEPT 初級口說練習",
+          "desc_en": "Speaking practice for Taiwan's GEPT Elementary test — read-aloud, answering questions, picture description.",
+          "desc_zh": "全民英檢初級口說練習——朗讀、回答問題、看圖敘述。",
+          "href": "https://twrses.org/resources/videos/gept-basic/",
+          "tags": ["100 videos", "Exam prep"]
+        },
+        {
+          "kind": "Videos",
+          "en": "GEPT Intermediate Speaking",
+          "zh": "GEPT 中級口說練習",
+          "desc_en": "The same drill at intermediate level, for students sitting the next tier of the GEPT.",
+          "desc_zh": "同樣的練習升到中級，給要考下一階的學生。",
+          "href": "https://twrses.org/resources/videos/gept-intermediate/",
+          "tags": ["53 videos", "Exam prep"]
+        },
+        {
+          "kind": "Videos",
+          "en": "Sentence Patterns",
+          "zh": "英語句型分析",
+          "desc_en": "How an English sentence is built, taken apart one pattern at a time.",
+          "desc_zh": "一次拆解一個句型，看懂英文句子是怎麼組成的。",
+          "href": "https://twrses.org/resources/videos/analysis/",
+          "tags": ["41 videos", "Grammar"]
+        },
+        {
+          "kind": "Videos",
+          "en": "English in the News",
+          "zh": "看時事學英文",
+          "desc_en": "Current events as a way into the language — vocabulary students meet outside the textbook.",
+          "desc_zh": "用時事帶語言——學生在課本以外會遇到的字彙。",
+          "href": "https://twrses.org/resources/videos/current-events/",
+          "tags": ["32 videos", "Intermediate"]
+        },
+        {
+          "kind": "Videos",
+          "en": "Sentence Building",
+          "zh": "基礎英語造句篇",
+          "desc_en": "From a word to a sentence — the step beginners most often get stuck on.",
+          "desc_zh": "從一個字到一個句子——初學者最常卡住的那一步。",
+          "href": "https://twrses.org/resources/videos/sentences/",
+          "tags": ["20 videos", "Beginner"]
+        },
+        {
+          "kind": "Videos",
+          "en": "Short Lessons",
+          "zh": "英語學習短片",
+          "desc_en": "Assorted short lessons that fit in the last five minutes of a class.",
+          "desc_zh": "各式各樣的短片，剛好塞得進下課前最後五分鐘。",
+          "href": "https://twrses.org/resources/videos/short/",
+          "tags": ["18 videos", "All levels"]
+        },
+        {
+          "kind": "Videos",
+          "en": "American English",
+          "zh": "一分鐘英語・美國篇",
+          "desc_en": "A minute of English filmed in the United States — language with a place attached to it.",
+          "desc_zh": "在美國拍攝的一分鐘英語——把語言連上一個真實的地方。",
+          "href": "https://twrses.org/resources/videos/travel/",
+          "tags": ["18 videos", "Culture"]
+        },
+        {
+          "kind": "Videos",
+          "en": "Slang in a Minute",
+          "zh": "一分鐘俚語",
+          "desc_en": "The expressions textbooks leave out but students hear everywhere.",
+          "desc_zh": "課本不教、學生卻到處聽得到的說法。",
+          "href": "https://twrses.org/resources/videos/slang/",
+          "tags": ["9 videos", "Intermediate"]
+        },
+        {
+          "kind": "Videos",
+          "en": "CIEN Campus English",
+          "zh": "CIEN 校園英語",
+          "desc_en": "English for the school day itself — the campus as the classroom.",
+          "desc_zh": "校園生活本身就是教材——把學校當教室的英語。",
+          "href": "https://twrses.org/resources/videos/cien-school/",
+          "tags": ["8 videos", "Beginner"]
+        },
+        {
+          "kind": "Videos",
+          "en": "Phonics",
+          "zh": "自然發音",
+          "desc_en": "Letters and the sounds they make — the foundation everything else stands on.",
+          "desc_zh": "字母與它們的聲音——其他一切的地基。",
+          "href": "https://twrses.org/resources/videos/phonics/",
+          "tags": ["6 videos", "Beginner"]
+        },
+        {
+          "kind": "Videos",
+          "en": "E-Vision English Classroom",
+          "zh": "彰化 E 視界英語教室",
+          "desc_en": "Classroom English produced with Changhua's education television programme.",
+          "desc_zh": "與彰化教育電視節目合作製作的課堂英語。",
+          "href": "https://twrses.org/resources/videos/e-vision/",
+          "tags": ["6 videos", "All levels"]
+        }
+      ]
+    },
+    {
+      "id": "taiwan",
+      "title_en": "Taiwan & Changhua in English",
+      "title_zh": "用英語認識台灣與彰化",
+      "blurb_en": "Where your students live, written in English so they can tell a visitor about it. Good for culture lessons, for presentations, and for the day a foreign guest asks \"so what is this town like?\"",
+      "blurb_zh": "把學生生活的地方寫成英文，讓他們能親口介紹給外國人。適合文化課、上台報告，以及外國客人問「這個鄉鎮是什麼樣子」的那一天。",
+      "cards": [
+        {
+          "kind": "Place pages",
+          "en": "Taiwan's 22 Counties",
+          "zh": "台灣二十二縣市",
+          "desc_en": "Every county and city in Taiwan, introduced in English with Chinese alongside — geography, food, festivals, what makes each one itself.",
+          "desc_zh": "台灣每一個縣市的英文介紹，中文並陳——地理、食物、節慶，以及讓每個地方成為自己的東西。",
+          "href": "https://taiwan-bilingual.org/counties/",
+          "tags": ["22 counties", "Bilingual", "Culture"]
+        },
+        {
+          "kind": "Place pages",
+          "en": "Changhua's 26 Townships",
+          "zh": "彰化二十六鄉鎮",
+          "desc_en": "The same again, closer to home: all twenty-six townships of Changhua County, for the students who live in them.",
+          "desc_zh": "同樣的東西，但離家更近：彰化縣二十六個鄉鎮，寫給住在裡面的學生。",
+          "href": "https://changhua-bilingual.org/resources/about-changhua/",
+          "tags": ["26 townships", "Bilingual", "Culture"]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "title_en": "Reading, Grammar & Classics",
+      "title_zh": "閱讀、文法與經典",
+      "blurb_en": "Longer-form material for the classes that want to go deeper.",
+      "blurb_zh": "給想走得更深的班級的長篇教材。",
+      "cards": [
+        {
+          "kind": "Guided reading",
+          "en": "Animal Farm",
+          "zh": "動物農莊導讀",
+          "desc_en": "Orwell's novella read chapter by chapter, with vocabulary, questions, and Chinese notes — a whole term's reading course.",
+          "desc_zh": "逐章導讀歐威爾的《動物農莊》，附生字、問題與中文註解——一整學期的閱讀課。",
+          "href": "https://twrses.org/resources/classes/animal-farm/",
+          "tags": ["Full novella", "Advanced", "Literature"]
+        },
+        {
+          "kind": "Grammar",
+          "en": "Grammar Clinic",
+          "zh": "英文文法",
+          "desc_en": "The grammar points Taiwanese students get wrong most often, explained in both languages.",
+          "desc_zh": "台灣學生最常錯的文法點，用中英兩種語言解釋。",
+          "href": "https://twrses.org/resources/classes/grammar/",
+          "tags": ["Reference", "All levels"]
+        },
+        {
+          "kind": "Grammar",
+          "en": "Sentence Analysis",
+          "zh": "英文句子分析",
+          "desc_en": "Taking long English sentences apart until they stop being frightening.",
+          "desc_zh": "把長句一層層拆開，拆到它不再嚇人為止。",
+          "href": "https://twrses.org/resources/classes/sentence-analysis/",
+          "tags": ["Reference", "Intermediate–Advanced"]
+        },
+        {
+          "kind": "Reader",
+          "en": "Thoughts by Grandfather",
+          "zh": "落日餘暉",
+          "desc_en": "Thirty short chapters of life wisdom by Leon La Couvée, in English with Chinese beside it — gentle reading, and a good source of discussion questions.",
+          "desc_zh": "Leon La Couvée 的三十章人生智慧，中英對照——溫和的讀物，也是很好的討論題材來源。",
+          "href": "/thoughts-by-grandfather.html",
+          "tags": ["30 chapters", "Bilingual", "Discussion"]
+        },
+        {
+          "kind": "Archive",
+          "en": "Association Periodicals",
+          "zh": "協會刊物典藏",
+          "desc_en": "Back issues of the English periodicals we have published over the years, scanned page by page.",
+          "desc_zh": "協會多年來出版的英語刊物，逐頁掃描典藏。",
+          "href": "https://twrses.org/resources/periodicals/",
+          "tags": ["Archive", "PDF"]
+        }
+      ]
+    },
+    {
+      "id": "for-our-teachers",
+      "title_en": "For Teachers Working With Us",
+      "title_zh": "給在人師任教的老師",
+      "blurb_en": "If you are here on a practicum or volunteering with MCC, start with these.",
+      "blurb_zh": "如果你正在人師實習或擔任志工，從這幾份開始。",
+      "cards": [
+        {
+          "kind": "Handbook",
+          "en": "Practicum Handbook",
+          "zh": "實習手冊",
+          "desc_en": "What the practicum involves, what a teaching demo looks like, and what we ask of you while you are with us.",
+          "desc_zh": "實習包含什麼、教學演示長什麼樣子，以及你在人師期間我們的期待。",
+          "href": "/practicum-guide.html",
+          "tags": ["Handbook", "Practicum"]
+        },
+        {
+          "kind": "Orientation",
+          "en": "Co-Teaching Orientation",
+          "zh": "協同教學說明",
+          "desc_en": "How to share a classroom with a Taiwanese homeroom teacher so that both of you are actually teaching.",
+          "desc_zh": "如何與台灣導師共用一間教室，讓兩個人都真的在教學。",
+          "href": "/practicum-guide.html#co-teaching",
+          "tags": ["Orientation", "Co-teaching"]
+        },
+        {
+          "kind": "Orientation",
+          "en": "Tutor Orientation",
+          "zh": "家教志工說明",
+          "desc_en": "For volunteers taking one-to-one sessions: how a session runs, and what to do when a student goes quiet.",
+          "desc_zh": "給帶一對一課程的志工：一堂課怎麼進行，以及學生沉默時該怎麼辦。",
+          "href": "/practicum-guide.html#tutoring",
+          "tags": ["Orientation", "One-to-one"]
+        }
+      ]
+    }
+  ]
+}

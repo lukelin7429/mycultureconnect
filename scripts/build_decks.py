@@ -758,6 +758,7 @@ def library_page(decks):
     <a href="/partners.html">Partners</a>
     <a href="/opportunities.html">Opportunities</a>
     <a href="/school-tour.html" class="active">School Tour</a>
+    <a href="/library/">Library</a>
     <a href="/contact.html">Contact</a>
   </nav>
 </div></header>
