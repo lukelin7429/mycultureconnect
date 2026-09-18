@@ -23,21 +23,36 @@
     font-size:.74rem; color:var(--orange-dark); display:block; margin-bottom:6px; }
   .lp-notice p { margin:0; color:var(--muted); line-height:1.65; }
   .lp-notice p.zh { color:var(--muted-2); font-size:.92rem; margin-top:4px; }
-  .wgrid { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; }
+  .lp-routine { display:flex; flex-wrap:wrap; align-items:center; gap:8px 6px; margin:18px 0 0; }
+  .lp-routine b { font-family:var(--serif); font-weight:400; font-size:1.15rem; background:#fff;
+    border:1px solid var(--line); border-radius:30px; padding:8px 18px; }
+  .lp-routine i { color:var(--orange); font-style:normal; font-size:1.2rem; }
+  .lp-blocks { display:grid; grid-template-columns:repeat(5,1fr); gap:10px; margin-top:22px; }
+  .lp-blocks div { background:#fff; border:1px solid var(--line); border-radius:12px; padding:14px 16px; }
+  .lp-blocks small { display:block; font-family:var(--eyebrow); letter-spacing:.1em;
+    text-transform:uppercase; font-size:.68rem; color:var(--orange-dark); }
+  .lp-blocks b { font-family:var(--serif); font-weight:400; font-size:1rem; }
+  .ugroup { margin-bottom:46px; }
+  .ugroup h2 { font-size:1.45rem; margin:0 0 .2em; }
+  .ugroup .u-sub { color:var(--muted-2); font-size:.94rem; margin-bottom:16px; }
+  .wgrid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
   .wcard { display:flex; flex-direction:column; gap:4px; background:#fff; border:1px solid var(--line);
     border-radius:14px; padding:18px 20px; text-decoration:none; color:var(--ink); min-height:104px;
     transition:transform .24s cubic-bezier(.2,.7,.2,1), box-shadow .24s ease, border-color .24s ease; }
   .wcard .wn { font-family:var(--eyebrow); text-transform:uppercase; letter-spacing:.12em;
     font-size:.7rem; color:var(--orange); }
   .wcard b { font-family:var(--serif); font-weight:400; font-size:1.06rem; line-height:1.25; }
-  .wcard .wzh { font-size:.9rem; color:var(--muted-2); }
+  .wcard .wgo { margin-top:auto; padding-top:8px; font-family:var(--eyebrow); font-weight:700;
+    font-size:.86rem; color:var(--orange-dark); }
   .wcard.live:hover { transform:translateY(-5px); border-color:var(--orange);
     box-shadow:0 18px 38px -14px rgba(245,130,32,.45); text-decoration:none; }
   .wcard.soon { background:transparent; border-style:dashed; border-color:#e2e2e2; cursor:default; }
   .wcard.soon .wn { color:var(--muted-2); }
-  .wcard.soon .wsoon { color:#b4b4b4; font-size:.86rem; }
-  @media(max-width:980px) { .wgrid { grid-template-columns:repeat(3,1fr); } }
-  @media(max-width:700px) { .wgrid { grid-template-columns:repeat(2,1fr); } .lp-notice { flex-direction:column; gap:8px; } }
+  .wcard.soon b { color:var(--muted); }
+  .wcard.soon .wsoon { margin-top:auto; padding-top:8px; color:#b4b4b4; font-size:.82rem; }
+  @media(max-width:980px) { .lp-blocks { grid-template-columns:repeat(3,1fr); } }
+  @media(max-width:700px) { .wgrid { grid-template-columns:1fr; } .lp-blocks { grid-template-columns:1fr 1fr; }
+    .lp-notice { flex-direction:column; gap:8px; } }
   @media (prefers-reduced-motion:reduce) { .wcard { transition:none; } .wcard.live:hover { transform:none; } }
 </style>
 <link rel="stylesheet" href="/assets/css/search.css">
@@ -77,201 +92,311 @@
   </div>
 </section>
 
+<section style="background:var(--bg-soft)">
+  <div class="wrap">
+    <div class="section-head left" style="margin-bottom:10px" data-reveal>
+      <p class="eyebrow">How every week runs · 每週的固定流程</p>
+      <h2>Same routine, 60 minutes</h2>
+      <p>Every week runs on the same routine, so the routine can be predictable and the learning can be creative.<br><span style="font-size:.95rem;color:var(--muted-2)">每一週都走同一套流程——流程可預期，學習才有餘裕發揮創意。</span></p>
+    </div>
+    <div class="lp-routine" data-reveal><b>Review</b> <i>→</i> <b>Retrieve</b> <i>→</i> <b>Learn</b> <i>→</i> <b>Use</b> <i>→</i> <b>Challenge</b> <i>→</i> <b>Homework</b></div>
+    <div class="lp-blocks" data-reveal>
+      <div><small>0–10 min</small><b>Homework review</b><br><span style="font-size:.86rem;color:var(--muted-2)">複習作業</span></div>
+      <div><small>10–20 min</small><b>Vocabulary</b><br><span style="font-size:.86rem;color:var(--muted-2)">單字</span></div>
+      <div><small>20–35 min</small><b>New learning</b><br><span style="font-size:.86rem;color:var(--muted-2)">新教學</span></div>
+      <div><small>35–50 min</small><b>Fun / application</b><br><span style="font-size:.86rem;color:var(--muted-2)">應用活動</span></div>
+      <div><small>50–57 min</small><b>Challenge / exit ticket</b><br><span style="font-size:.86rem;color:var(--muted-2)">挑戰與出場券</span></div>
+    </div>
+  </div>
+</section>
+
 <section>
   <div class="wrap">
     <div class="lp-notice" data-reveal>
       <div>
         <b>Status · 上架進度</b>
-        <p>Dom&#x27;s plans are being prepared for the library. Weeks turn live as they arrive. <b style="display:inline;font-family:var(--body);text-transform:none;letter-spacing:0;font-size:1rem;color:var(--ink)">0 of 46 ready.</b></p>
-        <p class="zh">Dom 的教案正在整理上架中，每一週到齊就會開放。</p>
+        <p>The full plan for each week is going live one week at a time. Every week&#x27;s title is already listed, so you can see the shape of the year. <b style="display:inline;font-family:var(--body);text-transform:none;letter-spacing:0;font-size:1rem;color:var(--ink)">1 of 46 live.</b></p>
+        <p class="zh">每週的完整教案逐週上線；46 週的標題已全部列出，先看得到整年的輪廓。</p>
       </div>
     </div>
-    <div class="wgrid">
-      <div class="wcard soon" data-reveal>
+    <section class="ugroup" id="unit-1">
+      <h2>Unit 1 · English Reset &amp; Power Vocabulary</h2>
+      <div class="u-sub">Weeks 1–4 · 4 weeks</div>
+      <div class="wgrid">
+      <a class="wcard live" href="/library/lesson-plans/week-01/" data-reveal>
         <span class="wn">Week 1 · 第 1 週</span>
-        <span class="wsoon">Coming · 準備中</span>
-      </div>
+        <b>Welcome Back: How Big Is Your English?</b>
+        <span class="wgo">Open the lesson →</span>
+      </a>
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 2 · 第 2 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>Make Your Sentences Bigger</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 3 · 第 3 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>Word Families: One Word Becomes Many</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 4 · 第 4 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>The Word Upgrade Challenge</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
+      </div>
+    </section>
+    <section class="ugroup" id="unit-2">
+      <h2>Unit 2 · The World of Time</h2>
+      <div class="u-sub">Weeks 5–10 · 6 weeks</div>
+      <div class="wgrid">
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 5 · 第 5 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>Present Simple vs. Present Continuous</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 6 · 第 6 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>Past Simple: Tell Me What Happened</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 7 · 第 7 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>Past Continuous: What Was Happening?</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 8 · 第 8 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>Present Perfect: Experiences, Not Just Dates</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 9 · 第 9 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>Past Participles: The Secret Third Word</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 10 · 第 10 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>The Time Machine Challenge</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
+      </div>
+    </section>
+    <section class="ugroup" id="unit-3">
+      <h2>Unit 3 · Say It Better</h2>
+      <div class="u-sub">Weeks 11–15 · 5 weeks</div>
+      <div class="wgrid">
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 11 · 第 11 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>Synonyms: More Than One Way to Say It</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 12 · 第 12 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>Antonyms: Opposites With Power</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 13 · 第 13 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>Degrees of Meaning</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 14 · 第 14 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>Commonly Confused Words</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 15 · 第 15 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>Word Choice Challenge</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
+      </div>
+    </section>
+    <section class="ugroup" id="unit-4">
+      <h2>Unit 4 · English in the Real World</h2>
+      <div class="u-sub">Weeks 16–21 · 6 weeks</div>
+      <div class="wgrid">
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 16 · 第 16 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>Travel English: Airport &amp; Adventure</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 17 · 第 17 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>Shopping &amp; Money</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 18 · 第 18 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>Food &amp; Restaurants</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 19 · 第 19 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>Making Friends &amp; Conversation</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 20 · 第 20 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>Problems, Solutions &amp; Polite English</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 21 · 第 21 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>Real-Life English Challenge</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
+      </div>
+    </section>
+    <section class="ugroup" id="unit-5">
+      <h2>Unit 5 · Storytellers</h2>
+      <div class="u-sub">Weeks 22–27 · 6 weeks</div>
+      <div class="wgrid">
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 22 · 第 22 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>How Stories Work</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 23 · 第 23 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>Describing People</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 24 · 第 24 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>Describing Places</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 25 · 第 25 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>Dialogue &amp; Natural Speech</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 26 · 第 26 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>Story Tenses: Past Perfect Enters the Scene</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 27 · 第 27 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>Write Your Own Story</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
+      </div>
+    </section>
+    <section class="ugroup" id="unit-6">
+      <h2>Unit 6 · How English Really Works</h2>
+      <div class="u-sub">Weeks 28–33 · 6 weeks</div>
+      <div class="wgrid">
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 28 · 第 28 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>Future Forms: Plans, Predictions &amp; Promises</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 29 · 第 29 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>Modal Verbs: Can, Could, Should, Must, Might</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 30 · 第 30 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>Comparatives &amp; Superlatives</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 31 · 第 31 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>Conditionals: If This, Then That</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 32 · 第 32 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>Passive Voice: Who Did It?</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 33 · 第 33 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>Relative Clauses: The English That Connects Ideas</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
+      </div>
+    </section>
+    <section class="ugroup" id="unit-7">
+      <h2>Unit 7 · English Through Media</h2>
+      <div class="u-sub">Weeks 34–40 · 7 weeks</div>
+      <div class="wgrid">
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 34 · 第 34 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>Music: English You Can Hear</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 35 · 第 35 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>YouTube Challenge: Watch, Predict, Explain</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 36 · 第 36 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>Commercials: The Language of Persuasion</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 37 · 第 37 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>Movies: Scene Detective</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 38 · 第 38 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>Slang, Idioms &amp; Everyday English</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 39 · 第 39 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>English Around the World</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 40 · 第 40 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>Movie Project Launch: Watch Like a Critic</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
+      </div>
+    </section>
+    <section class="ugroup" id="unit-8">
+      <h2>Unit 8 · The English Challenge</h2>
+      <div class="u-sub">Weeks 41–46 · 6 weeks</div>
+      <div class="wgrid">
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 41 · 第 41 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>Final Movie: Watch &amp; Track the Story</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 42 · 第 42 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>Final Movie: Vocabulary Detective</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 43 · 第 43 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>Final Movie: Grammar Hunt</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 44 · 第 44 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>Final Movie: Character, Theme &amp; Opinion</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 45 · 第 45 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>Final Presentations: English Premiere</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
       <div class="wcard soon" data-reveal>
         <span class="wn">Week 46 · 第 46 週</span>
-        <span class="wsoon">Coming · 準備中</span>
+        <b>THE GREAT ENGLISH CHALLENGE • Final Celebration</b>
+        <span class="wsoon">Full plan coming · 完整教案整理中</span>
       </div>
-    </div>
+      </div>
+    </section>
     <p class="muted" style="margin-top:34px;max-width:64ch">Run it from week one, or open a single week and take the part you need. Nothing here is compulsory — see how we think about that in the library.</p>
     <p class="muted" style="margin-top:6px;max-width:64ch;font-size:.94rem">可以從第一週照著上，也可以只打開某一週、取走你要的部分。這裡沒有任何一項是規定——我們對這件事的想法寫在教材庫首頁。</p>
   </div>

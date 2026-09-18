@@ -14,8 +14,373 @@
   "lead_zh": "整學年的英語課程，一週一份完整教案，由 Dom Jones 為她在彰化各校實際任教的課堂所編寫。",
   "note_en": "Run it from week one, or open a single week and take the part you need. Nothing here is compulsory — see how we think about that in the library.",
   "note_zh": "可以從第一週照著上，也可以只打開某一週、取走你要的部分。這裡沒有任何一項是規定——我們對這件事的想法寫在教材庫首頁。",
+  "duration": "60 minutes",
+  "principle": [
+    "Review",
+    "Retrieve",
+    "Learn",
+    "Use",
+    "Challenge",
+    "Homework"
+  ],
+  "principle_note_en": "Every week runs on the same routine, so the routine can be predictable and the learning can be creative.",
+  "principle_note_zh": "每一週都走同一套流程——流程可預期，學習才有餘裕發揮創意。",
   "status": "preparing",
-  "status_note_en": "Dom's plans are being prepared for the library. Weeks turn live as they arrive.",
-  "status_note_zh": "Dom 的教案正在整理上架中，每一週到齊就會開放。",
-  "weeks": []
+  "status_note_en": "The full plan for each week is going live one week at a time. Every week's title is already listed, so you can see the shape of the year.",
+  "status_note_zh": "每週的完整教案逐週上線；46 週的標題已全部列出，先看得到整年的輪廓。",
+  "weeks": [
+    {
+      "n": 1,
+      "unit": 1,
+      "title": "Welcome Back: How Big Is Your English?",
+      "date": "Saturday, September 19, 2026",
+      "language_target": "Diagnostic speaking + listening; sentence confidence; personal word bank.",
+      "vocabulary": [
+        "introduce",
+        "experience",
+        "challenge",
+        "improve",
+        "confident",
+        "curious",
+        "favorite",
+        "discover"
+      ],
+      "taiwan_connection": "Opening-year intention: establish a joyful, challenging classroom culture. Use this first class as a light diagnostic—not a test. Celebrate what students already know.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Opening diagnostic: quick vocabulary, speaking, and listening challenge. No grades—just a baseline."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Diagnostic speaking + listening; sentence confidence; personal word bank."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "English Speed Round: picture naming, Chinese→English lightning round, synonym/antonym duel, and a 60-second 'All About Me' challenge."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: a short kid-friendly 'back to school' or classroom-tour clip; pause before key words and let students predict.",
+      "homework": "Build a personal English Word Bank: 10 words you already know + 5 new words. Write one sentence for 3 of the new words.",
+      "cefr": "A1: name/point/use simple sentences. A2: add reasons. B1: tell a short story. B2: compare experiences. C1/C2: use precise vocabulary and explain nuance.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 02."
+    },
+    {
+      "n": 2,
+      "unit": 1,
+      "title": "Make Your Sentences Bigger",
+      "date": "Saturday, September 26, 2026"
+    },
+    {
+      "n": 3,
+      "unit": 1,
+      "title": "Word Families: One Word Becomes Many",
+      "date": "Saturday, October 3, 2026"
+    },
+    {
+      "n": 4,
+      "unit": 1,
+      "title": "The Word Upgrade Challenge",
+      "date": "Saturday, October 10, 2026"
+    },
+    {
+      "n": 5,
+      "unit": 2,
+      "title": "Present Simple vs. Present Continuous",
+      "date": "Saturday, October 17, 2026"
+    },
+    {
+      "n": 6,
+      "unit": 2,
+      "title": "Past Simple: Tell Me What Happened",
+      "date": "Saturday, October 24, 2026"
+    },
+    {
+      "n": 7,
+      "unit": 2,
+      "title": "Past Continuous: What Was Happening?",
+      "date": "Saturday, October 31, 2026"
+    },
+    {
+      "n": 8,
+      "unit": 2,
+      "title": "Present Perfect: Experiences, Not Just Dates",
+      "date": "Saturday, November 7, 2026"
+    },
+    {
+      "n": 9,
+      "unit": 2,
+      "title": "Past Participles: The Secret Third Word",
+      "date": "Saturday, November 14, 2026"
+    },
+    {
+      "n": 10,
+      "unit": 2,
+      "title": "The Time Machine Challenge",
+      "date": "Saturday, November 21, 2026"
+    },
+    {
+      "n": 11,
+      "unit": 3,
+      "title": "Synonyms: More Than One Way to Say It",
+      "date": "Saturday, November 28, 2026"
+    },
+    {
+      "n": 12,
+      "unit": 3,
+      "title": "Antonyms: Opposites With Power",
+      "date": "Saturday, December 5, 2026"
+    },
+    {
+      "n": 13,
+      "unit": 3,
+      "title": "Degrees of Meaning",
+      "date": "Saturday, December 12, 2026"
+    },
+    {
+      "n": 14,
+      "unit": 3,
+      "title": "Commonly Confused Words",
+      "date": "Saturday, December 19, 2026"
+    },
+    {
+      "n": 15,
+      "unit": 3,
+      "title": "Word Choice Challenge",
+      "date": "Saturday, December 26, 2026"
+    },
+    {
+      "n": 16,
+      "unit": 4,
+      "title": "Travel English: Airport & Adventure",
+      "date": "Saturday, January 2, 2027"
+    },
+    {
+      "n": 17,
+      "unit": 4,
+      "title": "Shopping & Money",
+      "date": "Saturday, January 9, 2027"
+    },
+    {
+      "n": 18,
+      "unit": 4,
+      "title": "Food & Restaurants",
+      "date": "Saturday, January 16, 2027"
+    },
+    {
+      "n": 19,
+      "unit": 4,
+      "title": "Making Friends & Conversation",
+      "date": "Saturday, January 23, 2027"
+    },
+    {
+      "n": 20,
+      "unit": 4,
+      "title": "Problems, Solutions & Polite English",
+      "date": "Saturday, January 30, 2027"
+    },
+    {
+      "n": 21,
+      "unit": 4,
+      "title": "Real-Life English Challenge",
+      "date": "Saturday, February 6, 2027"
+    },
+    {
+      "n": 22,
+      "unit": 5,
+      "title": "How Stories Work",
+      "date": "Saturday, February 13, 2027"
+    },
+    {
+      "n": 23,
+      "unit": 5,
+      "title": "Describing People",
+      "date": "Saturday, February 20, 2027"
+    },
+    {
+      "n": 24,
+      "unit": 5,
+      "title": "Describing Places",
+      "date": "Saturday, February 27, 2027"
+    },
+    {
+      "n": 25,
+      "unit": 5,
+      "title": "Dialogue & Natural Speech",
+      "date": "Saturday, March 6, 2027"
+    },
+    {
+      "n": 26,
+      "unit": 5,
+      "title": "Story Tenses: Past Perfect Enters the Scene",
+      "date": "Saturday, March 13, 2027"
+    },
+    {
+      "n": 27,
+      "unit": 5,
+      "title": "Write Your Own Story",
+      "date": "Saturday, March 20, 2027"
+    },
+    {
+      "n": 28,
+      "unit": 6,
+      "title": "Future Forms: Plans, Predictions & Promises",
+      "date": "Saturday, March 27, 2027"
+    },
+    {
+      "n": 29,
+      "unit": 6,
+      "title": "Modal Verbs: Can, Could, Should, Must, Might",
+      "date": "Saturday, April 3, 2027"
+    },
+    {
+      "n": 30,
+      "unit": 6,
+      "title": "Comparatives & Superlatives",
+      "date": "Saturday, April 10, 2027"
+    },
+    {
+      "n": 31,
+      "unit": 6,
+      "title": "Conditionals: If This, Then That",
+      "date": "Saturday, April 17, 2027"
+    },
+    {
+      "n": 32,
+      "unit": 6,
+      "title": "Passive Voice: Who Did It?",
+      "date": "Saturday, April 24, 2027"
+    },
+    {
+      "n": 33,
+      "unit": 6,
+      "title": "Relative Clauses: The English That Connects Ideas",
+      "date": "Saturday, May 1, 2027"
+    },
+    {
+      "n": 34,
+      "unit": 7,
+      "title": "Music: English You Can Hear",
+      "date": "Saturday, May 8, 2027"
+    },
+    {
+      "n": 35,
+      "unit": 7,
+      "title": "YouTube Challenge: Watch, Predict, Explain",
+      "date": "Saturday, May 15, 2027"
+    },
+    {
+      "n": 36,
+      "unit": 7,
+      "title": "Commercials: The Language of Persuasion",
+      "date": "Saturday, May 22, 2027"
+    },
+    {
+      "n": 37,
+      "unit": 7,
+      "title": "Movies: Scene Detective",
+      "date": "Saturday, May 29, 2027"
+    },
+    {
+      "n": 38,
+      "unit": 7,
+      "title": "Slang, Idioms & Everyday English",
+      "date": "Saturday, June 5, 2027"
+    },
+    {
+      "n": 39,
+      "unit": 7,
+      "title": "English Around the World",
+      "date": "Saturday, June 12, 2027"
+    },
+    {
+      "n": 40,
+      "unit": 7,
+      "title": "Movie Project Launch: Watch Like a Critic",
+      "date": "Saturday, June 19, 2027"
+    },
+    {
+      "n": 41,
+      "unit": 8,
+      "title": "Final Movie: Watch & Track the Story",
+      "date": "Saturday, June 26, 2027"
+    },
+    {
+      "n": 42,
+      "unit": 8,
+      "title": "Final Movie: Vocabulary Detective",
+      "date": "Saturday, July 3, 2027"
+    },
+    {
+      "n": 43,
+      "unit": 8,
+      "title": "Final Movie: Grammar Hunt",
+      "date": "Saturday, July 10, 2027"
+    },
+    {
+      "n": 44,
+      "unit": 8,
+      "title": "Final Movie: Character, Theme & Opinion",
+      "date": "Saturday, July 17, 2027"
+    },
+    {
+      "n": 45,
+      "unit": 8,
+      "title": "Final Presentations: English Premiere",
+      "date": "Saturday, July 24, 2027"
+    },
+    {
+      "n": 46,
+      "unit": 8,
+      "title": "THE GREAT ENGLISH CHALLENGE • Final Celebration",
+      "date": "Saturday, July 31, 2027"
+    }
+  ],
+  "units": [
+    {
+      "n": 1,
+      "title": "English Reset & Power Vocabulary"
+    },
+    {
+      "n": 2,
+      "title": "The World of Time"
+    },
+    {
+      "n": 3,
+      "title": "Say It Better"
+    },
+    {
+      "n": 4,
+      "title": "English in the Real World"
+    },
+    {
+      "n": 5,
+      "title": "Storytellers"
+    },
+    {
+      "n": 6,
+      "title": "How English Really Works"
+    },
+    {
+      "n": 7,
+      "title": "English Through Media"
+    },
+    {
+      "n": 8,
+      "title": "The English Challenge"
+    }
+  ]
 }
