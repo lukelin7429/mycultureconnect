@@ -7,10 +7,14 @@ Build the MCC Teaching Library.
 Reads                        Writes
     data/library.json            library/index.html              the shelf itself
     data/lesson-plans.json       library/lesson-plans/            Dom Jones's curriculum
-                                 library/lesson-plans/week-NN/    one page per imported week
+    data/teaching-packs.json     library/lesson-plans/week-NN/    one page per imported week
 
 Edit the JSON, re-run, never hand-edit the generated HTML. The curriculum JSON
 is produced by scripts/import_lesson_plans.py from Dom's PDF.
+
+Two authors, two files, and the page says which is which: lesson-plans.json is
+Dom's plan as she wrote it, teaching-packs.json is the vocabulary glosses and
+practice sets MCC adds so a teacher can run her plan with no preparation.
 
 Why the catalogue links out instead of copying pages in: the same booklets were
 once copied by hand onto two other MCC sites, and both copies are now older than
@@ -323,6 +327,13 @@ PLANS_CSS = '''  .lp-author { display:flex; align-items:center; gap:18px; margin
 BLOCK_ZH = {"Homework review": "複習作業", "Vocabulary": "單字", "New learning": "新教學",
             "Fun / application": "應用活動", "Challenge / exit ticket": "挑戰與出場券"}
 
+# Three of the five blocks carry the same words in 40+ of the 46 weeks — they are
+# Dom's fixed routine, not that week's content. Marking them lets a teacher's eye
+# go straight to the two blocks that actually change.
+ROUTINE_BLOCKS = {"Homework review", "Vocabulary", "Challenge / exit ticket"}
+
+NUM = {3: "three", 4: "four", 5: "five"}
+
 
 def week_href(n):
     return f"{PLANS}week-{n:02d}/"
@@ -452,9 +463,39 @@ WEEK_CSS = '''  .wk-meta { display:flex; flex-wrap:wrap; gap:8px; margin-top:18p
   .wk-chips { display:flex; flex-wrap:wrap; gap:8px; margin:0; padding:0; list-style:none; }
   .wk-chips li { background:#fff8f0; border:1px solid #ffe0c2; border-radius:30px; padding:7px 15px;
     font-family:var(--serif); font-size:1.05rem; }
+  .wk-words { list-style:none; margin:0; padding:0; columns:2; column-gap:44px; }
+  .wk-words li { padding:13px 0; border-bottom:1px dashed var(--line); break-inside:avoid; }
+  .wk-words li:last-child { border-bottom:0; }
+  .wk-words .w { font-family:var(--serif); font-size:1.2rem; }
+  .wk-words .pos { color:var(--muted-2); font-size:.82rem; font-style:italic; margin-left:7px; }
+  .wk-words .zh { margin-left:10px; font-size:1rem; color:var(--ink); }
+  .wk-words .ex { display:block; color:var(--muted); font-size:.96rem; line-height:1.6; margin-top:3px; }
+  .wk-words .more { display:block; color:var(--muted-2); font-size:.84rem; margin-top:3px; }
+  .wk-tag { display:inline-block; margin-left:8px; background:var(--bg-soft); border:1px solid var(--line);
+    border-radius:30px; padding:2px 10px; font-family:var(--eyebrow); font-size:.64rem;
+    letter-spacing:.1em; text-transform:uppercase; color:var(--muted-2); vertical-align:middle; }
+  .pack-note { background:#eef7f8; border:1px solid #cfe7ea; border-radius:14px; padding:16px 20px;
+    margin-bottom:26px; color:var(--muted); font-size:.95rem; line-height:1.65; }
+  .pack-note b { color:#0c8599; font-family:var(--eyebrow); text-transform:uppercase;
+    letter-spacing:.1em; font-size:.72rem; display:block; margin-bottom:5px; }
+  .pgrid { display:grid; grid-template-columns:1fr 1fr; gap:22px; }
+  .pcard2 { background:#fff; border:1px solid var(--line); border-radius:16px; padding:24px 26px;
+    box-shadow:0 4px 14px rgba(20,20,20,.05); }
+  .pcard2 h3 { font-size:1.2rem; margin:0 0 .15em; }
+  .pcard2 .p-zh { color:var(--muted-2); font-size:.94rem; }
+  .pcard2 .p-note { color:var(--muted); font-size:.9rem; line-height:1.6; margin:10px 0 0;
+    padding-bottom:12px; border-bottom:1px solid var(--line); }
+  .pcard2 ol, .pcard2 ul { margin:14px 0 0; padding-left:20px; }
+  .pcard2 li { margin-bottom:9px; line-height:1.6; color:var(--ink); }
+  .pcard2 li:last-child { margin-bottom:0; }
+  .pack-prep { display:flex; gap:12px; align-items:baseline; margin-top:22px; color:var(--muted);
+    font-size:.95rem; line-height:1.6; }
+  .pack-prep b { font-family:var(--eyebrow); text-transform:uppercase; letter-spacing:.1em;
+    font-size:.7rem; color:var(--orange-dark); white-space:nowrap; }
   .wk-callout { background:#fff8f0; border:1px solid #ffe0c2; border-left:4px solid var(--orange);
-    border-radius:14px; padding:20px 24px; margin-top:22px; }
+    border-radius:14px; padding:20px 24px; }
   .wk-callout p { margin:0; color:var(--ink); line-height:1.7; }
+  .wk-wide { margin-top:22px; }
   .wk-tl { list-style:none; padding:0; margin:0; position:relative; }
   .wk-tl::before { content:""; position:absolute; left:112px; top:8px; bottom:8px; width:2px;
     background:linear-gradient(180deg,var(--orange),#ffd6b0); }
@@ -480,7 +521,8 @@ WEEK_CSS = '''  .wk-meta { display:flex; flex-wrap:wrap; gap:8px; margin-top:18p
   .wk-nav span { color:var(--muted-2); border-style:dashed; }
   .wk-principle { margin-top:40px; padding-top:22px; border-top:1px solid var(--line); color:var(--muted-2);
     font-size:.92rem; }
-  @media(max-width:880px) { .wk-two, .wk-nav { grid-template-columns:1fr; } .wk-cefr { grid-template-columns:repeat(2,1fr); }
+  @media(max-width:880px) { .wk-two, .wk-nav, .pgrid { grid-template-columns:1fr; } .wk-cefr { grid-template-columns:repeat(2,1fr); }
+    .wk-words { columns:1; }
     .wk-tl::before { left:14px; } .wk-tl li { grid-template-columns:1fr; gap:6px; padding-left:40px; }
     .wk-tl li::before { left:8px; top:22px; } .wk-tl .t { text-align:left; } }
   @media(max-width:520px) { .wk-cefr { grid-template-columns:1fr; } }
@@ -499,7 +541,7 @@ def cefr_html(text):
     return f'<div class="wk-cefr">{cols}</div>'
 
 
-def week_page(d, w, prev_w, next_w):
+def week_page(d, w, prev_w, next_w, pack=None):
     nl = "\n"
     a = d["author"]
     unit = next((u for u in d.get("units", []) if u["n"] == w.get("unit")), None)
@@ -507,12 +549,70 @@ def week_page(d, w, prev_w, next_w):
     total = d.get("total_weeks", 46)
     n = w["n"]
 
-    chips = "".join(f"<li>{e(v)}</li>" for v in w.get("vocabulary", []))
+    if pack and pack.get("words"):
+        vocab_html = '<ul class="wk-words">' + "".join(
+            f'''<li><span class="w">{e(x["en"])}</span><span class="pos">{e(x["pos"])}</span>'''
+            f'''<span class="zh">{e(x["zh"])}</span>'''
+            f'''<span class="ex">{e(x["example"])}</span>'''
+            + (f'<span class="more">{e(x["more"])}</span>' if x.get("more") else "")
+            + "</li>" for x in pack["words"]) + "</ul>"
+        vocab_note = f'<small>核心字彙 · {len(w.get("vocabulary", []))} words · 中文與例句由 MCC 補充</small>'
+    else:
+        vocab_html = '<ul class="wk-chips">' + "".join(
+            f"<li>{e(v)}</li>" for v in w.get("vocabulary", [])) + "</ul>"
+        vocab_note = f'<small>核心字彙 · {len(w.get("vocabulary", []))} words</small>'
+
+    # The plan repeats the language target as the New-learning block in some weeks;
+    # printing the same sentence twice on one page just reads as a mistake.
+    target = w["language_target"].strip()
+    blocks = []
+    for b in w["blocks"]:
+        if b["label"] == "New learning" and b["text"].strip() == target:
+            continue
+        blocks.append(b)
     timeline = nl.join(
         f'''      <li data-reveal>
         <span class="t">{e(b["time"])}</span>
-        <div><b>{e(b["label"])}<small>{e(BLOCK_ZH.get(b["label"], ""))}</small></b><p>{e(b["text"])}</p></div>
-      </li>''' for b in w["blocks"])
+        <div><b>{e(b["label"])}<small>{e(BLOCK_ZH.get(b["label"], ""))}</small>'''
+        + ('<span class="wk-tag">every week · 每週相同</span>' if b["label"] in ROUTINE_BLOCKS else "")
+        + f'''</b><p>{e(b["text"])}</p></div>
+      </li>''' for b in blocks)
+
+    pack_section = ""
+    if pack and pack.get("practice"):
+        cards = nl.join(f'''      <div class="pcard2" data-reveal>
+        <h3>{e(p["title_en"])}</h3>
+        <div class="p-zh">{e(p["title_zh"])}</div>
+        <p class="p-note">{e(p["note_en"])}<br><span style="color:var(--muted-2)">{e(p["note_zh"])}</span></p>
+        <ol>{"".join(f"<li>{e(i)}</li>" for i in p["items"])}</ol>
+      </div>''' for p in pack["practice"])
+        prep = ""
+        if pack.get("prep_en"):
+            prep = f'''    <p class="pack-prep" data-reveal><b>Prep · 備課</b>
+      <span>{e(pack["prep_en"])}<br><span style="color:var(--muted-2)">{e(pack["prep_zh"])}</span></span></p>'''
+        pack_section = f'''<section>
+  <div class="wrap">
+    <div class="section-head left" style="margin-bottom:18px" data-reveal>
+      <p class="eyebrow">Teaching pack · 教學包</p>
+      <h2>Ready to run, no preparation</h2>
+      <p>Activities you can read straight off this page, written to fit the blocks above.<br>
+        <span style="font-size:.95rem;color:var(--muted-2)">可以直接照著這一頁上的活動，對應上面每一段課堂流程。</span></p>
+    </div>
+    <div class="pack-note" data-reveal>
+      <b>Who wrote what</b>
+      The lesson plan above is Dom Jones's, including her choice of this week's power vocabulary.
+      The Chinese, the example sentences and the practice sets below are added by My Culture Connect
+      so the plan can be taught without preparation.<br>
+      <span style="color:var(--muted-2)">上面的教案出自 Dom Jones，包括本週核心字彙的選擇；下面的中文、例句與練習由人師教育協會補充，讓這份教案不必備課就能上。</span>
+    </div>
+    <div class="pgrid">
+{cards}
+    </div>
+{prep}
+  </div>
+</section>
+
+'''
 
     def nav_link(x, cls, label):
         if not x:
@@ -554,14 +654,14 @@ def week_page(d, w, prev_w, next_w):
         <p class="wk-label">Language target<small>語言目標</small></p>
         <p>{e(w["language_target"])}</p>
       </div>
-      <div class="wk-card" data-reveal>
-        <p class="wk-label">Power vocabulary<small>核心字彙 · {len(w.get("vocabulary", []))} words</small></p>
-        <ul class="wk-chips">{chips}</ul>
+      <div class="wk-callout" data-reveal>
+        <p class="wk-label">Seasonal / Taiwan connection<small>季節與台灣連結</small></p>
+        <p>{e(w["taiwan_connection"])}</p>
       </div>
     </div>
-    <div class="wk-callout" data-reveal>
-      <p class="wk-label">Seasonal / Taiwan connection<small>季節與台灣連結</small></p>
-      <p>{e(w["taiwan_connection"])}</p>
+    <div class="wk-card wk-wide" data-reveal>
+      <p class="wk-label">Power vocabulary{vocab_note}</p>
+      {vocab_html}
     </div>
   </div>
 </section>
@@ -570,7 +670,7 @@ def week_page(d, w, prev_w, next_w):
   <div class="wrap">
     <div class="section-head left" style="margin-bottom:18px" data-reveal>
       <p class="eyebrow">The lesson, minute by minute · 課堂流程</p>
-      <h2>{e(d.get("duration", "60 minutes"))}, five moves</h2>
+      <h2>{e(d.get("duration", "60 minutes"))}, {NUM.get(len(blocks), len(blocks))} moves</h2>
     </div>
     <ul class="wk-tl">
 {timeline}
@@ -578,7 +678,7 @@ def week_page(d, w, prev_w, next_w):
   </div>
 </section>
 
-<section>
+{pack_section}<section>
   <div class="wrap">
     <div class="wk-two">
       <div class="wk-card" data-reveal>
@@ -622,6 +722,8 @@ def week_page(d, w, prev_w, next_w):
 def main():
     lib = json.load(open(os.path.join(ROOT, "data", "library.json"), encoding="utf-8"))
     plans = json.load(open(os.path.join(ROOT, "data", "lesson-plans.json"), encoding="utf-8"))
+    packs_path = os.path.join(ROOT, "data", "teaching-packs.json")
+    packs = json.load(open(packs_path, encoding="utf-8")) if os.path.exists(packs_path) else {}
 
     n = sum(len(g["cards"]) for g in lib["groups"])
     print(f"  {'✓' if write('/library/', library_page(lib)) else '·'} /library/  "
@@ -633,8 +735,11 @@ def main():
     print(f"  {'✓' if write(PLANS, plans_page(plans)) else '·'} {PLANS}  "
           f"({len(live)}/{plans.get('total_weeks', 46)} weeks live)")
     for w in live:
-        changed = write(week_href(w["n"]), week_page(plans, w, by_n.get(w["n"] - 1), by_n.get(w["n"] + 1)))
-        print(f"  {'✓' if changed else '·'} {week_href(w['n'])}  {w['title']}")
+        pack = packs.get(str(w["n"]))
+        page = week_page(plans, w, by_n.get(w["n"] - 1), by_n.get(w["n"] + 1), pack)
+        changed = write(week_href(w["n"]), page)
+        tag = f" + pack ({len(pack['practice'])} activities)" if pack else ""
+        print(f"  {'✓' if changed else '·'} {week_href(w['n'])}  {w['title']}{tag}")
     print("  → re-run scripts/build_search.py to index new pages")
 
 

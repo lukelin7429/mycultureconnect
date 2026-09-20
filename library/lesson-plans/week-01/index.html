@@ -24,9 +24,39 @@
   .wk-chips { display:flex; flex-wrap:wrap; gap:8px; margin:0; padding:0; list-style:none; }
   .wk-chips li { background:#fff8f0; border:1px solid #ffe0c2; border-radius:30px; padding:7px 15px;
     font-family:var(--serif); font-size:1.05rem; }
+  .wk-words { list-style:none; margin:0; padding:0; columns:2; column-gap:44px; }
+  .wk-words li { padding:13px 0; border-bottom:1px dashed var(--line); break-inside:avoid; }
+  .wk-words li:last-child { border-bottom:0; }
+  .wk-words .w { font-family:var(--serif); font-size:1.2rem; }
+  .wk-words .pos { color:var(--muted-2); font-size:.82rem; font-style:italic; margin-left:7px; }
+  .wk-words .zh { margin-left:10px; font-size:1rem; color:var(--ink); }
+  .wk-words .ex { display:block; color:var(--muted); font-size:.96rem; line-height:1.6; margin-top:3px; }
+  .wk-words .more { display:block; color:var(--muted-2); font-size:.84rem; margin-top:3px; }
+  .wk-tag { display:inline-block; margin-left:8px; background:var(--bg-soft); border:1px solid var(--line);
+    border-radius:30px; padding:2px 10px; font-family:var(--eyebrow); font-size:.64rem;
+    letter-spacing:.1em; text-transform:uppercase; color:var(--muted-2); vertical-align:middle; }
+  .pack-note { background:#eef7f8; border:1px solid #cfe7ea; border-radius:14px; padding:16px 20px;
+    margin-bottom:26px; color:var(--muted); font-size:.95rem; line-height:1.65; }
+  .pack-note b { color:#0c8599; font-family:var(--eyebrow); text-transform:uppercase;
+    letter-spacing:.1em; font-size:.72rem; display:block; margin-bottom:5px; }
+  .pgrid { display:grid; grid-template-columns:1fr 1fr; gap:22px; }
+  .pcard2 { background:#fff; border:1px solid var(--line); border-radius:16px; padding:24px 26px;
+    box-shadow:0 4px 14px rgba(20,20,20,.05); }
+  .pcard2 h3 { font-size:1.2rem; margin:0 0 .15em; }
+  .pcard2 .p-zh { color:var(--muted-2); font-size:.94rem; }
+  .pcard2 .p-note { color:var(--muted); font-size:.9rem; line-height:1.6; margin:10px 0 0;
+    padding-bottom:12px; border-bottom:1px solid var(--line); }
+  .pcard2 ol, .pcard2 ul { margin:14px 0 0; padding-left:20px; }
+  .pcard2 li { margin-bottom:9px; line-height:1.6; color:var(--ink); }
+  .pcard2 li:last-child { margin-bottom:0; }
+  .pack-prep { display:flex; gap:12px; align-items:baseline; margin-top:22px; color:var(--muted);
+    font-size:.95rem; line-height:1.6; }
+  .pack-prep b { font-family:var(--eyebrow); text-transform:uppercase; letter-spacing:.1em;
+    font-size:.7rem; color:var(--orange-dark); white-space:nowrap; }
   .wk-callout { background:#fff8f0; border:1px solid #ffe0c2; border-left:4px solid var(--orange);
-    border-radius:14px; padding:20px 24px; margin-top:22px; }
+    border-radius:14px; padding:20px 24px; }
   .wk-callout p { margin:0; color:var(--ink); line-height:1.7; }
+  .wk-wide { margin-top:22px; }
   .wk-tl { list-style:none; padding:0; margin:0; position:relative; }
   .wk-tl::before { content:""; position:absolute; left:112px; top:8px; bottom:8px; width:2px;
     background:linear-gradient(180deg,var(--orange),#ffd6b0); }
@@ -52,7 +82,8 @@
   .wk-nav span { color:var(--muted-2); border-style:dashed; }
   .wk-principle { margin-top:40px; padding-top:22px; border-top:1px solid var(--line); color:var(--muted-2);
     font-size:.92rem; }
-  @media(max-width:880px) { .wk-two, .wk-nav { grid-template-columns:1fr; } .wk-cefr { grid-template-columns:repeat(2,1fr); }
+  @media(max-width:880px) { .wk-two, .wk-nav, .pgrid { grid-template-columns:1fr; } .wk-cefr { grid-template-columns:repeat(2,1fr); }
+    .wk-words { columns:1; }
     .wk-tl::before { left:14px; } .wk-tl li { grid-template-columns:1fr; gap:6px; padding-left:40px; }
     .wk-tl li::before { left:8px; top:22px; } .wk-tl .t { text-align:left; } }
   @media(max-width:520px) { .wk-cefr { grid-template-columns:1fr; } }
@@ -99,14 +130,14 @@
         <p class="wk-label">Language target<small>語言目標</small></p>
         <p>Diagnostic speaking + listening; sentence confidence; personal word bank.</p>
       </div>
-      <div class="wk-card" data-reveal>
-        <p class="wk-label">Power vocabulary<small>核心字彙 · 8 words</small></p>
-        <ul class="wk-chips"><li>introduce</li><li>experience</li><li>challenge</li><li>improve</li><li>confident</li><li>curious</li><li>favorite</li><li>discover</li></ul>
+      <div class="wk-callout" data-reveal>
+        <p class="wk-label">Seasonal / Taiwan connection<small>季節與台灣連結</small></p>
+        <p>Opening-year intention: establish a joyful, challenging classroom culture. Use this first class as a light diagnostic—not a test. Celebrate what students already know.</p>
       </div>
     </div>
-    <div class="wk-callout" data-reveal>
-      <p class="wk-label">Seasonal / Taiwan connection<small>季節與台灣連結</small></p>
-      <p>Opening-year intention: establish a joyful, challenging classroom culture. Use this first class as a light diagnostic—not a test. Celebrate what students already know.</p>
+    <div class="wk-card wk-wide" data-reveal>
+      <p class="wk-label">Power vocabulary<small>核心字彙 · 8 words · 中文與例句由 MCC 補充</small></p>
+      <ul class="wk-words"><li><span class="w">introduce</span><span class="pos">v.</span><span class="zh">介紹</span><span class="ex">Let me introduce myself — my name is Yi-Chen and I play basketball.</span><span class="more">introduce → introduction (n.)</span></li><li><span class="w">experience</span><span class="pos">n. / v.</span><span class="zh">經驗；體驗</span><span class="ex">Tell me about one experience you had this summer.</span><span class="more">experience → experienced (adj.)</span></li><li><span class="w">challenge</span><span class="pos">n. / v.</span><span class="zh">挑戰</span><span class="ex">Speaking English for sixty seconds is my challenge today.</span><span class="more">≈ difficult task · challenge → challenging (adj.)</span></li><li><span class="w">improve</span><span class="pos">v.</span><span class="zh">進步；改善</span><span class="ex">This year I want to improve my listening.</span><span class="more">≈ get better · ↔ get worse</span></li><li><span class="w">confident</span><span class="pos">adj.</span><span class="zh">有自信的</span><span class="ex">She felt confident when she answered in English.</span><span class="more">↔ nervous, shy · confident → confidence (n.)</span></li><li><span class="w">curious</span><span class="pos">adj.</span><span class="zh">好奇的</span><span class="ex">Good learners stay curious — they always ask why.</span><span class="more">↔ bored · curious → curiosity (n.)</span></li><li><span class="w">favorite</span><span class="pos">adj. / n.</span><span class="zh">最喜歡的</span><span class="ex">What is your favorite food in your hometown?</span><span class="more">British spelling: favourite</span></li><li><span class="w">discover</span><span class="pos">v.</span><span class="zh">發現</span><span class="ex">Today you will discover how many English words you already know.</span><span class="more">≈ find out · discover → discovery (n.)</span></li></ul>
     </div>
   </div>
 </section>
@@ -115,20 +146,16 @@
   <div class="wrap">
     <div class="section-head left" style="margin-bottom:18px" data-reveal>
       <p class="eyebrow">The lesson, minute by minute · 課堂流程</p>
-      <h2>60 minutes, five moves</h2>
+      <h2>60 minutes, four moves</h2>
     </div>
     <ul class="wk-tl">
       <li data-reveal>
         <span class="t">0–10 min</span>
-        <div><b>Homework review<small>複習作業</small></b><p>Opening diagnostic: quick vocabulary, speaking, and listening challenge. No grades—just a baseline.</p></div>
+        <div><b>Homework review<small>複習作業</small><span class="wk-tag">every week · 每週相同</span></b><p>Opening diagnostic: quick vocabulary, speaking, and listening challenge. No grades—just a baseline.</p></div>
       </li>
       <li data-reveal>
         <span class="t">10–20 min</span>
-        <div><b>Vocabulary<small>單字</small></b><p>Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family.</p></div>
-      </li>
-      <li data-reveal>
-        <span class="t">20–35 min</span>
-        <div><b>New learning<small>新教學</small></b><p>Diagnostic speaking + listening; sentence confidence; personal word bank.</p></div>
+        <div><b>Vocabulary<small>單字</small><span class="wk-tag">every week · 每週相同</span></b><p>Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family.</p></div>
       </li>
       <li data-reveal>
         <span class="t">35–50 min</span>
@@ -136,9 +163,55 @@
       </li>
       <li data-reveal>
         <span class="t">50–57 min</span>
-        <div><b>Challenge / exit ticket<small>挑戰與出場券</small></b><p>Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible.</p></div>
+        <div><b>Challenge / exit ticket<small>挑戰與出場券</small><span class="wk-tag">every week · 每週相同</span></b><p>Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible.</p></div>
       </li>
     </ul>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head left" style="margin-bottom:18px" data-reveal>
+      <p class="eyebrow">Teaching pack · 教學包</p>
+      <h2>Ready to run, no preparation</h2>
+      <p>Activities you can read straight off this page, written to fit the blocks above.<br>
+        <span style="font-size:.95rem;color:var(--muted-2)">可以直接照著這一頁上的活動，對應上面每一段課堂流程。</span></p>
+    </div>
+    <div class="pack-note" data-reveal>
+      <b>Who wrote what</b>
+      The lesson plan above is Dom Jones's, including her choice of this week's power vocabulary.
+      The Chinese, the example sentences and the practice sets below are added by My Culture Connect
+      so the plan can be taught without preparation.<br>
+      <span style="color:var(--muted-2)">上面的教案出自 Dom Jones，包括本週核心字彙的選擇；下面的中文、例句與練習由人師教育協會補充，讓這份教案不必備課就能上。</span>
+    </div>
+    <div class="pgrid">
+      <div class="pcard2" data-reveal>
+        <h3>Lightning round · Chinese → English</h3>
+        <div class="p-zh">中翻英快問快答</div>
+        <p class="p-note">For the 35–50 min speed round. Read the Chinese, students race to say the English. All eight words appear.<br><span style="color:var(--muted-2)">搭配 35–50 分鐘的 Speed Round。唸中文，學生搶答英文。八個字全部出現。</span></p>
+        <ol><li>我想介紹我的家人。 → I want to introduce my family.</li><li>那是一次很棒的體驗。 → That was a great experience.</li><li>這對我來說是一個挑戰。 → This is a challenge for me.</li><li>我想改善我的發音。 → I want to improve my pronunciation.</li><li>她說英文的時候很有自信。 → She is confident when she speaks English.</li><li>我對你的暑假很好奇。 → I am curious about your summer.</li><li>你最喜歡的科目是什麼？ → What is your favorite subject?</li><li>我今天發現了一個新單字。 → I discovered a new word today.</li></ol>
+      </div>
+      <div class="pcard2" data-reveal>
+        <h3>60-second All About Me · sentence frames</h3>
+        <div class="p-zh">六十秒自我介紹・句型架構</div>
+        <p class="p-note">Put these on the board. A1 students fill in two frames; B1 and above should link them into one flowing minute.<br><span style="color:var(--muted-2)">寫在白板上。A1 學生填兩句就好；B1 以上要把句子串成流暢的一分鐘。</span></p>
+        <ol><li>My name is ______ and my favorite ______ is ______.</li><li>One experience I will never forget is ______.</li><li>This year I want to improve my ______.</li><li>I feel confident when I ______.</li><li>I am curious about ______.</li></ol>
+      </div>
+      <div class="pcard2" data-reveal>
+        <h3>Synonym / antonym duel</h3>
+        <div class="p-zh">同義反義對決</div>
+        <p class="p-note">Two teams. Say the word, the other team must answer with a synonym or an opposite.<br><span style="color:var(--muted-2)">分兩隊。唸出單字，另一隊要接出同義詞或反義詞。</span></p>
+        <ol><li>confident ↔ nervous / shy</li><li>curious ↔ bored</li><li>improve ↔ get worse</li><li>discover ≈ find out</li><li>challenge ≈ difficult task</li><li>favorite ≈ the one I like best</li></ol>
+      </div>
+      <div class="pcard2" data-reveal>
+        <h3>Exit ticket · one line each</h3>
+        <div class="p-zh">出場券・一人一句</div>
+        <p class="p-note">Dom&#x27;s plan asks every student to produce something before leaving. This is the smallest version that still counts.<br><span style="color:var(--muted-2)">Dom 的教案要求每個學生離開前都要產出東西。這是最小、但仍然算數的版本。</span></p>
+        <ol><li>Today I discovered that I already know about ______ English words.</li><li>This year I want to improve my ______.</li></ol>
+      </div>
+    </div>
+    <p class="pack-prep" data-reveal><b>Prep · 備課</b>
+      <span>No preparation needed. Read the lightning round off the screen. Students need one sheet of paper for their Word Bank.<br><span style="color:var(--muted-2)">不必備課。中翻英練習直接照螢幕唸。學生只需要一張紙做自己的單字銀行。</span></span></p>
   </div>
 </section>
 

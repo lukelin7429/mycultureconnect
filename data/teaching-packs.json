@@ -1,0 +1,90 @@
+{
+  "_about_en": "Teaching packs are written by My Culture Connect to go with Dom Jones's lesson plans. Dom chooses the week's power vocabulary; the Chinese, the examples and the practice sets here are ours, so that a teacher can run her plan with no preparation. Kept in a separate file from data/lesson-plans.json so that re-importing Dom's PDF never overwrites our additions, and so it stays obvious which words are whose.",
+  "_about_zh": "教學包由人師教育協會編寫，搭配 Dom Jones 的教案使用。每週的核心字彙是 Dom 選的；這裡的中文、例句與練習是我們加的，目的是讓老師不必備課就能把她的教案上完。刻意與 lesson-plans.json 分檔，重新匯入 Dom 的 PDF 不會蓋掉我們加的東西，也一眼看得出哪部分是誰寫的。",
+
+  "1": {
+    "prep_en": "No preparation needed. Read the lightning round off the screen. Students need one sheet of paper for their Word Bank.",
+    "prep_zh": "不必備課。中翻英練習直接照螢幕唸。學生只需要一張紙做自己的單字銀行。",
+    "words": [
+      { "en": "introduce", "pos": "v.", "zh": "介紹",
+        "example": "Let me introduce myself — my name is Yi-Chen and I play basketball.",
+        "more": "introduce → introduction (n.)" },
+      { "en": "experience", "pos": "n. / v.", "zh": "經驗；體驗",
+        "example": "Tell me about one experience you had this summer.",
+        "more": "experience → experienced (adj.)" },
+      { "en": "challenge", "pos": "n. / v.", "zh": "挑戰",
+        "example": "Speaking English for sixty seconds is my challenge today.",
+        "more": "≈ difficult task · challenge → challenging (adj.)" },
+      { "en": "improve", "pos": "v.", "zh": "進步；改善",
+        "example": "This year I want to improve my listening.",
+        "more": "≈ get better · ↔ get worse" },
+      { "en": "confident", "pos": "adj.", "zh": "有自信的",
+        "example": "She felt confident when she answered in English.",
+        "more": "↔ nervous, shy · confident → confidence (n.)" },
+      { "en": "curious", "pos": "adj.", "zh": "好奇的",
+        "example": "Good learners stay curious — they always ask why.",
+        "more": "↔ bored · curious → curiosity (n.)" },
+      { "en": "favorite", "pos": "adj. / n.", "zh": "最喜歡的",
+        "example": "What is your favorite food in your hometown?",
+        "more": "British spelling: favourite" },
+      { "en": "discover", "pos": "v.", "zh": "發現",
+        "example": "Today you will discover how many English words you already know.",
+        "more": "≈ find out · discover → discovery (n.)" }
+    ],
+    "practice": [
+      {
+        "title_en": "Lightning round · Chinese → English",
+        "title_zh": "中翻英快問快答",
+        "note_en": "For the 35–50 min speed round. Read the Chinese, students race to say the English. All eight words appear.",
+        "note_zh": "搭配 35–50 分鐘的 Speed Round。唸中文，學生搶答英文。八個字全部出現。",
+        "items": [
+          "我想介紹我的家人。 → I want to introduce my family.",
+          "那是一次很棒的體驗。 → That was a great experience.",
+          "這對我來說是一個挑戰。 → This is a challenge for me.",
+          "我想改善我的發音。 → I want to improve my pronunciation.",
+          "她說英文的時候很有自信。 → She is confident when she speaks English.",
+          "我對你的暑假很好奇。 → I am curious about your summer.",
+          "你最喜歡的科目是什麼？ → What is your favorite subject?",
+          "我今天發現了一個新單字。 → I discovered a new word today."
+        ]
+      },
+      {
+        "title_en": "60-second All About Me · sentence frames",
+        "title_zh": "六十秒自我介紹・句型架構",
+        "note_en": "Put these on the board. A1 students fill in two frames; B1 and above should link them into one flowing minute.",
+        "note_zh": "寫在白板上。A1 學生填兩句就好；B1 以上要把句子串成流暢的一分鐘。",
+        "items": [
+          "My name is ______ and my favorite ______ is ______.",
+          "One experience I will never forget is ______.",
+          "This year I want to improve my ______.",
+          "I feel confident when I ______.",
+          "I am curious about ______."
+        ]
+      },
+      {
+        "title_en": "Synonym / antonym duel",
+        "title_zh": "同義反義對決",
+        "note_en": "Two teams. Say the word, the other team must answer with a synonym or an opposite.",
+        "note_zh": "分兩隊。唸出單字，另一隊要接出同義詞或反義詞。",
+        "items": [
+          "confident ↔ nervous / shy",
+          "curious ↔ bored",
+          "improve ↔ get worse",
+          "discover ≈ find out",
+          "challenge ≈ difficult task",
+          "favorite ≈ the one I like best"
+        ]
+      },
+      {
+        "title_en": "Exit ticket · one line each",
+        "title_zh": "出場券・一人一句",
+        "note_en": "Dom's plan asks every student to produce something before leaving. This is the smallest version that still counts.",
+        "note_zh": "Dom 的教案要求每個學生離開前都要產出東西。這是最小、但仍然算數的版本。",
+        "items": [
+          "Today I discovered that I already know about ______ English words.",
+          "This year I want to improve my ______."
+        ]
+      }
+    ]
+  }
+}
