@@ -220,37 +220,295 @@
       "n": 5,
       "unit": 2,
       "title": "Present Simple vs. Present Continuous",
-      "date": "Saturday, October 17, 2026"
+      "date": "Saturday, October 17, 2026",
+      "language_target": "Habits/routines vs. actions happening now.",
+      "vocabulary": [
+        "usually",
+        "often",
+        "every day",
+        "right now",
+        "currently",
+        "today",
+        "practice",
+        "prepare"
+      ],
+      "taiwan_connection": "School-life connection: compare a typical Saturday in Taiwan with a typical Saturday in the United States.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Habits/routines vs. actions happening now."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "Teacher Mystery: 'What am I doing now?' vs. 'What do I usually do?' Students sort sentences into NOW or USUALLY."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: a 30–60 second daily-routine clip; students report habits and current actions.",
+      "homework": "Write 5 sentences about your usual Saturday and 5 about what you are doing this week.",
+      "cefr": "A1: make simple present/continuous sentences. A2: contrast both. B1: add frequency and time phrases. B2+: explain why the tense changes meaning.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 06."
     },
     {
       "n": 6,
       "unit": 2,
       "title": "Past Simple: Tell Me What Happened",
-      "date": "Saturday, October 24, 2026"
+      "date": "Saturday, October 24, 2026",
+      "language_target": "Past simple affirmative/negative/questions; regular and common irregular verbs.",
+      "vocabulary": [
+        "went",
+        "saw",
+        "made",
+        "took",
+        "felt",
+        "visited",
+        "happened",
+        "decided"
+      ],
+      "taiwan_connection": "American culture: 'What happened?' can use a recent school event, sports game, or family outing.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Past simple affirmative/negative/questions; regular and common irregular verbs."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "Weekend Detective: students reconstruct a mystery from 6 clues and tell the story in the past."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: a short 'what happened?' clip with the sound off first, then on.",
+      "homework": "Write a 100-word 'Last Weekend' story using at least 10 past-tense verbs; underline the irregular verbs.",
+      "cefr": "A1: simple past statements. A2: questions + negatives. B1: connected story. B2+: add detail and sequencing.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 07."
     },
     {
       "n": 7,
       "unit": 2,
       "title": "Past Continuous: What Was Happening?",
-      "date": "Saturday, October 31, 2026"
+      "date": "Saturday, October 31, 2026",
+      "language_target": "Past continuous + past simple; when/while.",
+      "vocabulary": [
+        "was/were",
+        "while",
+        "when",
+        "suddenly",
+        "meanwhile",
+        "happen",
+        "interrupt",
+        "notice"
+      ],
+      "taiwan_connection": "Halloween week: use a funny costume/mystery interruption to practice past continuous + past simple.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Past continuous + past simple; when/while."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "Freeze Frame: show a picture and ask, 'What was happening when...?' Students create unexpected interruptions."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: silent slapstick clip; narrate background actions and interruptions.",
+      "homework": "Write 8 sentences using while/when. Include 2 funny interruptions.",
+      "cefr": "A1: identify was/were + -ing. A2: combine two actions. B1: narrate an event. B2+: control sequencing and background detail.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 08."
     },
     {
       "n": 8,
       "unit": 2,
       "title": "Present Perfect: Experiences, Not Just Dates",
-      "date": "Saturday, November 7, 2026"
+      "date": "Saturday, November 7, 2026",
+      "language_target": "have/has + past participle; life experience; ever/never/already/yet.",
+      "vocabulary": [
+        "visited",
+        "eaten",
+        "seen",
+        "tried",
+        "finished",
+        "forgotten",
+        "ever",
+        "never",
+        "already",
+        "yet"
+      ],
+      "taiwan_connection": "Autumn travel: students can discuss places they have visited in Taiwan or hope to visit.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "have/has + past participle; life experience; ever/never/already/yet."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "Have You Ever...? class bingo. Students ask questions and follow up with one extra question."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: travel or food clip. Students say what the person has/hasn't done.",
+      "homework": "Write 8 'I have...' experience sentences and 4 'Have you ever...?' questions.",
+      "cefr": "A1: recognize have/has. A2: make simple experience sentences. B1: contrast experience with past date. B2+: explain tense choice.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 09."
     },
     {
       "n": 9,
       "unit": 2,
       "title": "Past Participles: The Secret Third Word",
-      "date": "Saturday, November 14, 2026"
+      "date": "Saturday, November 14, 2026",
+      "language_target": "Past participles in present perfect and passive; common irregular patterns.",
+      "vocabulary": [
+        "go-went-gone",
+        "eat-ate-eaten",
+        "write-wrote-written",
+        "break-broke-broken",
+        "choose-chose-chosen"
+      ],
+      "taiwan_connection": "Verb + movement game: physically mime go/went/gone, eat/ate/eaten, write/wrote/written, etc.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Past participles in present perfect and passive; common irregular patterns."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "Third-Form Tournament: teams race to complete verb families; bonus points for correct sentences."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: a song/clip with irregular verbs. Pause and have students predict the third form.",
+      "homework": "Make a personal Top 30 irregular-verb chart: base / past / past participle. Use 10 in sentences.",
+      "cefr": "A1: learn 8–10 high-frequency forms. A2: 15–20. B1: 25–30. B2+: use participles accurately in multiple structures. C1/C2: notice idiomatic uses.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 10."
     },
     {
       "n": 10,
       "unit": 2,
       "title": "The Time Machine Challenge",
-      "date": "Saturday, November 21, 2026"
+      "date": "Saturday, November 21, 2026",
+      "language_target": "Review: present, continuous, past, present perfect; choosing tense by meaning.",
+      "vocabulary": [
+        "yesterday",
+        "since",
+        "for",
+        "already",
+        "while",
+        "usually",
+        "now",
+        "recently",
+        "ago"
+      ],
+      "taiwan_connection": "Seasonal reset: create a '2026 Time Capsule' using different tenses.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Review: present, continuous, past, present perfect; choosing tense by meaning."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "Time Machine game: students jump to 'yesterday,' 'right now,' 'in my life,' or 'when I was younger' and speak accordingly."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: time-travel scene from an age-appropriate film.",
+      "homework": "Create a one-page 'My Life in Time' timeline with at least 12 sentences using 4 different time structures.",
+      "cefr": "A1/A2: supported tense choices. B1: independent paragraph. B2: explain choices. C1/C2: vary aspect and sequencing naturally.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 11."
     },
     {
       "n": 11,

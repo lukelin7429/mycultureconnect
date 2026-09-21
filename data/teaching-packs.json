@@ -353,5 +353,497 @@
         ]
       }
     ]
+  },
+
+  "5": {
+    "prep_en": "No preparation needed. The eight words split into two teams: usually / often / every day point at the present simple, right now / currently / today point at the present continuous. Teach the signal words and the tense follows.",
+    "prep_zh": "不必備課。八個字分成兩隊：usually／often／every day 指向現在簡單式，right now／currently／today 指向現在進行式。先教訊號字，時態自己就跟上來了。",
+    "words": [
+      { "en": "usually", "pos": "adv.", "zh": "通常",
+        "example": "I usually take the bus to school.",
+        "more": "訊號 → 現在簡單式（習慣）" },
+      { "en": "often", "pos": "adv.", "zh": "常常",
+        "example": "We often eat dumplings on Sunday.",
+        "more": "訊號 → 現在簡單式" },
+      { "en": "every day", "pos": "phr.", "zh": "每天",
+        "example": "She practices the piano every day.",
+        "more": "訊號 → 現在簡單式 · 放句尾" },
+      { "en": "right now", "pos": "phr.", "zh": "此刻",
+        "example": "Right now I am writing in my notebook.",
+        "more": "訊號 → 現在進行式" },
+      { "en": "currently", "pos": "adv.", "zh": "目前",
+        "example": "We are currently studying the water cycle.",
+        "more": "訊號 → 現在進行式 · 比 right now 正式" },
+      { "en": "today", "pos": "adv.", "zh": "今天",
+        "example": "Today we are working in pairs.",
+        "more": "兩種都可以，看你說的是今天的習慣還是此刻的動作" },
+      { "en": "practice", "pos": "v. / n.", "zh": "練習",
+        "example": "The team practices after school every day.",
+        "more": "第三人稱單數要加 -s：he practices" },
+      { "en": "prepare", "pos": "v.", "zh": "準備",
+        "example": "I am preparing for the English test this week.",
+        "more": "prepare for something · preparation (n.)" }
+    ],
+    "practice": [
+      {
+        "title_en": "NOW or USUALLY · sort these",
+        "title_zh": "現在還是通常・分類",
+        "note_en": "For Dom's Teacher Mystery. Read a sentence, students call out NOW or USUALLY, then say how they knew. The answer is always the signal word.",
+        "note_zh": "搭配 Dom 的 Teacher Mystery。唸出句子，學生喊 NOW 或 USUALLY，然後說出他們怎麼知道的。答案永遠是訊號字。",
+        "items": [
+          "I am holding a red pen. → NOW",
+          "I drink tea every morning. → USUALLY",
+          "I usually arrive at seven thirty. → USUALLY",
+          "Right now you are listening to me. → NOW",
+          "She is standing by the window. → ？",
+          "He often forgets his homework. → ？",
+          "We are currently reading a new book. → ？",
+          "My father cooks dinner every day. → ？"
+        ]
+      },
+      {
+        "title_en": "The trap · Chinese verbs do not move",
+        "title_zh": "陷阱・中文的動詞不動",
+        "note_en": "Chinese says 他去 whether it is he goes or he is going — the verb never changes and there is no am/is/are. So two errors arrive together this week: the missing -s, and the missing be. Show them side by side.",
+        "note_zh": "中文說「他去」，不管是 he goes 還是 he is going，動詞都不變，也沒有 am／is／are。所以這週會同時出現兩種錯：漏掉 -s，和漏掉 be 動詞。把它們並排給學生看。",
+        "items": [
+          "他每天去學校。 ✗ He go to school every day. ✓ He goes to school every day.",
+          "他正在打籃球。 ✗ He playing basketball. ✓ He is playing basketball.",
+          "Your turn — fix this: ✗ She study English every night.",
+          "Your turn — fix this: ✗ They watching a movie right now."
+        ]
+      },
+      {
+        "title_en": "Saturday here, Saturday there",
+        "title_zh": "台灣的星期六，美國的星期六",
+        "note_en": "Dom's culture connection. Students describe a typical Taiwanese Saturday in the present simple, then say what they are doing this particular Saturday in the continuous. Same day, two tenses.",
+        "note_zh": "Dom 指定的文化連結。學生先用現在簡單式描述台灣典型的星期六，再用進行式說「這個」星期六在做什麼。同一天，兩種時態。",
+        "items": [
+          "In Taiwan, students usually ______ on Saturday morning.",
+          "Many families often ______ on Saturday evening.",
+          "But right now, this Saturday, I am ______.",
+          "In the United States, children usually ______ on Saturday. (ask the teacher!)"
+        ]
+      },
+      {
+        "title_en": "Exit ticket · two sentences",
+        "title_zh": "出場券・兩句",
+        "note_en": "One habit, one action happening now. The pair is the point — one student, one moment, two tenses.",
+        "note_zh": "一句習慣，一句此刻。重點在成對——同一個人、同一個時刻，兩種時態。",
+        "items": [
+          "I usually ______ after school.",
+          "But right now I am ______."
+        ]
+      }
+    ]
+  },
+
+  "6": {
+    "prep_en": "No preparation needed. Five of this week's verbs are irregular and three are regular -ed — worth sorting on the board before anything else, because that split is the whole difficulty of the past simple.",
+    "prep_zh": "不必備課。本週五個動詞是不規則、三個是規則加 -ed——先在白板上分成兩堆，因為過去式的難處全在這條分界線上。",
+    "words": [
+      { "en": "went", "pos": "v.", "zh": "去了",
+        "example": "We went to Lukang last Sunday.",
+        "more": "不規則　go → went → gone" },
+      { "en": "saw", "pos": "v.", "zh": "看見了",
+        "example": "I saw my teacher at the night market.",
+        "more": "不規則　see → saw → seen" },
+      { "en": "made", "pos": "v.", "zh": "做了",
+        "example": "My grandmother made rice dumplings.",
+        "more": "不規則　make → made → made" },
+      { "en": "took", "pos": "v.", "zh": "拿了；搭了",
+        "example": "He took the train to Taichung.",
+        "more": "不規則　take → took → taken" },
+      { "en": "felt", "pos": "v.", "zh": "覺得",
+        "example": "I felt nervous before the speech.",
+        "more": "不規則　feel → felt → felt" },
+      { "en": "visited", "pos": "v.", "zh": "拜訪了",
+        "example": "We visited my aunt in Kaohsiung.",
+        "more": "規則 +ed　字尾唸 /ɪd/" },
+      { "en": "happened", "pos": "v.", "zh": "發生了",
+        "example": "Something strange happened on the bus.",
+        "more": "規則 +ed　字尾唸 /d/" },
+      { "en": "decided", "pos": "v.", "zh": "決定了",
+        "example": "We decided to walk home.",
+        "more": "規則 +ed　字尾唸 /ɪd/" }
+    ],
+    "practice": [
+      {
+        "title_en": "Weekend Detective · the six clues",
+        "title_zh": "週末偵探・六條線索",
+        "note_en": "Dom's activity needs clues, so here they are. Hand them out in order, one at a time. After all six, each team tells the whole story in the past tense — that telling is the real exercise.",
+        "note_zh": "Dom 的活動需要線索，這裡備好了。一次發一條，照順序。六條發完後，每組用過去式把整個故事講一遍——講的那一段才是真正的練習。",
+        "items": [
+          "Clue 1　On Saturday morning, Mei-Ling took the 7:40 train.",
+          "Clue 2　She carried an enormous box and a small umbrella.",
+          "Clue 3　At 9:00 the box was empty.",
+          "Clue 4　A stranger at the station saw her laughing.",
+          "Clue 5　She got home with no umbrella and a puppy.",
+          "Clue 6　Her mother was not surprised.",
+          "Now tell the story: What happened on Saturday? (at least 8 past-tense verbs)"
+        ]
+      },
+      {
+        "title_en": "The trap · Chinese marks time once",
+        "title_zh": "陷阱・中文只標一次時間",
+        "note_en": "Chinese puts the pastness in 了 or in a time word, and the verb never moves. English moves the verb — but only once. So two opposite errors appear: no past at all, and past marked twice.",
+        "note_zh": "中文把過去放在「了」或時間詞上，動詞本身不動。英文是動詞要變——但只變一次。所以會出現兩種相反的錯：完全沒變，和變了兩次。",
+        "items": [
+          "我昨天去學校。 ✗ Yesterday I go to school. ✓ Yesterday I went to school.",
+          "你昨天去了嗎？ ✗ Did you went? ✓ Did you go?　(did 已經扛了過去)",
+          "Your turn — fix this: ✗ She didn't saw the message.",
+          "Your turn — fix this: ✗ Last week we visit my grandmother."
+        ]
+      },
+      {
+        "title_en": "-ed has three sounds",
+        "title_zh": "-ed 有三種唸法",
+        "note_en": "Students write -ed correctly and then say it wrong. The ending follows the sound before it — no need to memorize lists, just feel where the mouth is.",
+        "note_zh": "學生 -ed 寫得對，唸出來卻錯。字尾的唸法由前一個音決定——不必背清單，感覺一下嘴巴在哪裡就知道。",
+        "items": [
+          "/ɪd/ after t or d → visited · decided · wanted · needed",
+          "/t/ after a voiceless sound → watched · walked · asked · finished",
+          "/d/ after everything else → happened · played · listened · called",
+          "Say them across: visited-watched-happened. Feel the difference?"
+        ]
+      },
+      {
+        "title_en": "Exit ticket · one true sentence",
+        "title_zh": "出場券・一句真的事",
+        "note_en": "Something that really happened last weekend, with one irregular verb underlined. True beats clever.",
+        "note_zh": "上週末真的發生的一件事，畫出其中一個不規則動詞。真實比漂亮重要。",
+        "items": [
+          "Last weekend I ______.",
+          "Underline the irregular verb you used."
+        ]
+      }
+    ]
+  },
+
+  "7": {
+    "prep_en": "No preparation needed. The whole week hangs on one contrast: the long action in the background (was doing) and the short action that cuts across it (did). Draw a long line on the board and a short arrow through it — that drawing is the grammar.",
+    "prep_zh": "不必備課。整週只靠一組對比：背景那個長動作（was doing），和橫切過去的短動作（did）。在白板上畫一條長線，再畫一支箭穿過去——那張圖就是文法。",
+    "words": [
+      { "en": "was / were", "pos": "v.", "zh": "（過去的 be 動詞）",
+        "example": "I was reading when the phone rang.",
+        "more": "I/he/she/it → was　you/we/they → were" },
+      { "en": "while", "pos": "conj.", "zh": "當…的時候（長動作）",
+        "example": "While I was cooking, my brother was singing.",
+        "more": "while 後面通常接 was/were + -ing" },
+      { "en": "when", "pos": "conj.", "zh": "當…的時候（短動作）",
+        "example": "I was walking home when it started to rain.",
+        "more": "when 後面通常接過去簡單式" },
+      { "en": "suddenly", "pos": "adv.", "zh": "突然",
+        "example": "Suddenly, the lights went out.",
+        "more": "放句首製造戲劇效果" },
+      { "en": "meanwhile", "pos": "adv.", "zh": "同時",
+        "example": "Meanwhile, her sister was still sleeping.",
+        "more": "連接兩個同時進行的場景" },
+      { "en": "happen", "pos": "v.", "zh": "發生",
+        "example": "What happened while I was away?",
+        "more": "happen → happened（規則）" },
+      { "en": "interrupt", "pos": "v.", "zh": "打斷",
+        "example": "A loud knock interrupted our meeting.",
+        "more": "interrupt → interruption (n.)" },
+      { "en": "notice", "pos": "v.", "zh": "注意到",
+        "example": "Nobody noticed that the door was open.",
+        "more": "notice → noticed（規則）" }
+    ],
+    "practice": [
+      {
+        "title_en": "Freeze Frame · five backgrounds",
+        "title_zh": "定格・五個背景",
+        "note_en": "For Dom's activity. Read the background, students supply the interruption. The background stays in was/were + -ing; the interruption jumps to past simple. Worked example first.",
+        "note_zh": "搭配 Dom 的活動。老師唸背景，學生補上打斷。背景維持 was/were + -ing，打斷跳到過去簡單式。先看示範。",
+        "items": [
+          "Example: I was eating my lunch when a monkey took my banana.",
+          "We were practicing for the concert when ______.",
+          "While the teacher was writing on the board, ______.",
+          "My father was driving home when ______.",
+          "The whole class was taking a test when ______.",
+          "While we were waiting for the bus, ______."
+        ]
+      },
+      {
+        "title_en": "The trap · one Chinese word, two English ones",
+        "title_zh": "陷阱・中文一個詞，英文兩個",
+        "note_en": "Chinese uses 的時候 for both. English splits it: while for the long action, when for the short one. If both actions are long, while works for both. If both are short, use when.",
+        "note_zh": "中文兩種情況都用「的時候」。英文分家了：while 給長動作，when 給短動作。兩個都長，兩個都用 while；兩個都短，用 when。",
+        "items": [
+          "我在洗澡的時候電話響了。 ✓ I was taking a shower when the phone rang.　(長 → when 接短)",
+          "我在洗澡的時候我弟在唱歌。 ✓ While I was taking a shower, my brother was singing.　(兩個都長)",
+          "Your turn — fix this: ✗ While the phone rang, I was cooking.",
+          "Your turn — choose: I ______ (walk) to school when I ______ (see) my teacher."
+        ]
+      },
+      {
+        "title_en": "Halloween interruptions",
+        "title_zh": "萬聖節的打斷",
+        "note_en": "Dom's Halloween week. Spooky but gentle — the sillier the interruption, the better the grammar sticks.",
+        "note_zh": "Dom 指定的萬聖節週。嚇人但別嚇壞——打斷越荒謬，文法記得越牢。",
+        "items": [
+          "I was walking past the old temple when ______.",
+          "While my sister was watching a scary movie, ______.",
+          "We were handing out candy when suddenly ______.",
+          "Meanwhile, in the kitchen, the dog was ______."
+        ]
+      },
+      {
+        "title_en": "Exit ticket · one interrupted moment",
+        "title_zh": "出場券・一個被打斷的瞬間",
+        "note_en": "One sentence, both tenses, and it has to be true.",
+        "note_zh": "一句話，兩種時態，而且要是真的。",
+        "items": [
+          "I was ______ when ______."
+        ]
+      }
+    ]
+  },
+
+  "8": {
+    "vocab_label_zh": "10 個字 · 6 個過去分詞 + 4 個訊號字",
+    "prep_en": "No preparation needed, but read the trap card before you teach — the present perfect is the single hardest tense for Chinese speakers, and the reason is specific: 過 and 了 look alike in Chinese and land in different English tenses.",
+    "prep_zh": "不必備課，但教之前先看一眼陷阱卡——現在完成式是中文母語者最難的一個時態，原因很具體：中文的「過」和「了」長得像，在英文裡卻落在不同的時態。",
+    "words": [
+      { "en": "visited", "pos": "pp.", "zh": "拜訪過",
+        "example": "I have visited Tainan three times.",
+        "more": "規則　visit → visited → visited" },
+      { "en": "eaten", "pos": "pp.", "zh": "吃過",
+        "example": "Have you ever eaten stinky tofu?",
+        "more": "不規則　eat → ate → eaten" },
+      { "en": "seen", "pos": "pp.", "zh": "看過",
+        "example": "She has seen that movie twice.",
+        "more": "不規則　see → saw → seen" },
+      { "en": "tried", "pos": "pp.", "zh": "試過",
+        "example": "We have tried making mooncakes at home.",
+        "more": "規則　try → tried → tried（y 變 i）" },
+      { "en": "finished", "pos": "pp.", "zh": "完成了",
+        "example": "I have already finished my homework.",
+        "more": "規則　finish → finished → finished" },
+      { "en": "forgotten", "pos": "pp.", "zh": "忘記了",
+        "example": "He has forgotten his umbrella again.",
+        "more": "不規則　forget → forgot → forgotten" },
+      { "en": "ever", "pos": "adv.", "zh": "曾經",
+        "example": "Have you ever climbed Jade Mountain?",
+        "more": "只用在問句　Have you ever…?" },
+      { "en": "never", "pos": "adv.", "zh": "從來沒有",
+        "example": "I have never been to Japan.",
+        "more": "本身就是否定，不要再加 not" },
+      { "en": "already", "pos": "adv.", "zh": "已經",
+        "example": "We have already eaten lunch.",
+        "more": "放在 have 和分詞中間" },
+      { "en": "yet", "pos": "adv.", "zh": "還（沒）",
+        "example": "I haven't finished it yet.",
+        "more": "用在否定句與問句 · 放句尾" }
+    ],
+    "practice": [
+      {
+        "title_en": "Have You Ever…? · class bingo",
+        "title_zh": "你曾經…？・全班賓果",
+        "note_en": "Dom asks for bingo, so here is a grid. Students move around, ask the full question, and write a name in a square only after asking one follow-up question. The follow-up is where the real English happens.",
+        "note_zh": "Dom 要賓果，這裡備好九宮格。學生走動、問完整的問句，追問一題之後才能在格子裡寫名字。追問的那一句才是真正在說英文。",
+        "items": [
+          "…eaten stinky tofu?　|　…visited Taipei 101?　|　…forgotten your homework?",
+          "…seen a typhoon?　|　…tried surfing?　|　…met a foreigner before?",
+          "…climbed a mountain?　|　…cooked for your family?　|　…been on a night train?",
+          "Follow-up must be past simple: When did you…? / How was it? / Who did you go with?"
+        ]
+      },
+      {
+        "title_en": "The trap · 過 and 了 go to different tenses",
+        "title_zh": "陷阱・「過」和「了」去了不同的時態",
+        "note_en": "過 is experience with no date — that is the present perfect. 了 with a finished time is the past simple. The rule that follows: the present perfect can never sit next to a finished past time. Say 'no dates allowed' and students remember it.",
+        "note_zh": "「過」是沒有日期的經驗——那是現在完成式。「了」加上結束的時間點，那是過去簡單式。由此得出一條規則：現在完成式旁邊不能放結束了的時間。告訴學生「完成式不准帶日期」，他們就記得住。",
+        "items": [
+          "我去過日本。（經驗） ✓ I have been to Japan.",
+          "我去年去了日本。（有時間） ✓ I went to Japan last year.",
+          "✗ I have gone to Japan last year.　← 完成式不准帶日期",
+          "Your turn — fix this: ✗ I have seen that movie yesterday.",
+          "Your turn — choose: She ______ (finish) her report already."
+        ]
+      },
+      {
+        "title_en": "Where the four signal words sit",
+        "title_zh": "四個訊號字站在哪裡",
+        "note_en": "Position is half the battle. ever and already go inside, between have and the participle; yet goes to the end; never replaces the not.",
+        "note_zh": "位置就是一半的勝負。ever 和 already 站在中間，夾在 have 和分詞之間；yet 站句尾；never 本身就是否定，不要再加 not。",
+        "items": [
+          "Have you ever eaten it?　　(ever 在中間)",
+          "I have already eaten it.　　(already 在中間)",
+          "I haven't eaten it yet.　　(yet 在句尾)",
+          "I have never eaten it.　　(never 取代 not)",
+          "✗ I haven't never eaten it.　← 一個句子只要一個否定"
+        ]
+      },
+      {
+        "title_en": "Exit ticket · one experience, one date",
+        "title_zh": "出場券・一個經驗，一個日期",
+        "note_en": "The pair proves they see the difference. Same event, two tenses, and the second one must carry a time.",
+        "note_zh": "成對出現才證明他們看懂了差別。同一件事，兩種時態，第二句一定要帶時間。",
+        "items": [
+          "I have ______ .　(no date allowed)",
+          "I ______ last ______ .　(with a date)"
+        ]
+      }
+    ]
+  },
+
+  "9": {
+    "vocab_label_zh": "5 組三態 · 15 個形式",
+    "prep_en": "No preparation needed. Four of Dom's five verbs end their third form in -en — that is not a coincidence, it is a family. Point that out and fifteen forms become five patterns.",
+    "prep_zh": "不必備課。Dom 給的五個動詞裡有四個第三態以 -en 結尾——那不是巧合，是一個家族。把這件事點破，十五個形式就變成五個規律。",
+    "words": [
+      { "en": "go · went · gone", "pos": "v.", "zh": "去",
+        "example": "She has gone to the library. (她人還在那裡)",
+        "more": "自成一格 · 注意 been 和 gone 不同：have been = 去過回來了" },
+      { "en": "eat · ate · eaten", "pos": "v.", "zh": "吃",
+        "example": "We have eaten all the mooncakes.",
+        "more": "-en 家族" },
+      { "en": "write · wrote · written", "pos": "v.", "zh": "寫",
+        "example": "He has written three letters this week.",
+        "more": "-en 家族 · 注意雙寫 tt" },
+      { "en": "break · broke · broken", "pos": "v.", "zh": "打破",
+        "example": "Someone has broken the window.",
+        "more": "-en 家族 · 也常用在被動：The window was broken." },
+      { "en": "choose · chose · chosen", "pos": "v.", "zh": "選擇",
+        "example": "They have chosen the winning team.",
+        "more": "-en 家族 · choose(現在) 兩個 o，chose(過去) 一個" }
+    ],
+    "practice": [
+      {
+        "title_en": "Third-Form Tournament · the verb list",
+        "title_zh": "第三態錦標賽・題庫",
+        "note_en": "Dom's race needs verbs, so here are twelve. Teams call out all three forms; a point for the set, a bonus point for a correct sentence using the third form.",
+        "note_zh": "Dom 的競賽需要題目，這裡備了十二個。各組喊出三態；答對一組得一分，能用第三態造出正確句子再加一分。",
+        "items": [
+          "speak · ______ · ______　　take · ______ · ______",
+          "give · ______ · ______　　see · ______ · ______",
+          "drive · ______ · ______　　forget · ______ · ______",
+          "sing · ______ · ______　　drink · ______ · ______",
+          "begin · ______ · ______　　swim · ______ · ______",
+          "cut · ______ · ______　　put · ______ · ______",
+          "(Answers: spoke/spoken · took/taken · gave/given · saw/seen · drove/driven · forgot/forgotten · sang/sung · drank/drunk · began/begun · swam/swum · cut/cut · put/put)"
+        ]
+      },
+      {
+        "title_en": "Three families, not thirty verbs",
+        "title_zh": "三個家族，不是三十個動詞",
+        "note_en": "Memorizing a list of thirty is miserable. Sorting them into three shapes is a puzzle. Give students the three patterns and let them file the verbs themselves.",
+        "note_zh": "背三十個字很痛苦，把它們歸進三種形狀卻像解謎。給學生三種規律，讓他們自己把動詞歸檔。",
+        "items": [
+          "① -en 家族：eat-ate-eaten · write-wrote-written · break-broke-broken · choose-chose-chosen · give-gave-given",
+          "② i–a–u 家族：sing-sang-sung · drink-drank-drunk · begin-began-begun · swim-swam-swum",
+          "③ 三態相同：cut-cut-cut · put-put-put · hit-hit-hit · let-let-let",
+          "Which family does 'ring' belong to? And 'shut'?"
+        ]
+      },
+      {
+        "title_en": "The trap · the second form is not the third",
+        "title_zh": "陷阱・第二態不等於第三態",
+        "note_en": "Chinese has one form per verb; English asks for three, and the second and third look similar enough to blur. After have / has / had, it must be the third. Write 'have + ③' on the board and leave it there all lesson.",
+        "note_zh": "中文一個動詞只有一個樣子，英文要三個，而第二態和第三態長得夠像，學生會混。have／has／had 後面一定是第三態。在白板寫下「have + ③」，整堂課都不要擦掉。",
+        "items": [
+          "✗ I have went to Taipei. ✓ I have gone to Taipei.",
+          "✗ She has ate already. ✓ She has eaten already.",
+          "Your turn — fix this: ✗ They have wrote the report.",
+          "Your turn — fix this: ✗ He has broke his glasses."
+        ]
+      },
+      {
+        "title_en": "Exit ticket · start the Top 30 chart",
+        "title_zh": "出場券・開始做三十個動詞表",
+        "note_en": "Dom's homework is a personal Top 30 chart. Start it here so nobody goes home unsure what it looks like — three columns, five rows, done in class.",
+        "note_zh": "Dom 的作業是做一張自己的三十動詞表。在課堂上先起頭，沒有人會回家後不知道該長什麼樣——三欄五列，當場完成。",
+        "items": [
+          "Draw three columns: base / past / past participle.",
+          "Fill five verbs you will actually use this week.",
+          "Write one sentence with a third form: I have ______ ."
+        ]
+      }
+    ]
+  },
+
+  "10": {
+    "prep_en": "No preparation needed. This is the review week, so the nine words are all time signals — each one points at a tense. Teach the signals and the review teaches itself.",
+    "prep_zh": "不必備課。這是複習週，所以九個字全是時間訊號——每一個都指向一種時態。把訊號教好，複習就自己完成了。",
+    "words": [
+      { "en": "yesterday", "pos": "adv.", "zh": "昨天",
+        "example": "I finished the book yesterday.",
+        "more": "→ 過去簡單式" },
+      { "en": "ago", "pos": "adv.", "zh": "…以前",
+        "example": "We moved here three years ago.",
+        "more": "→ 過去簡單式 · 放在時間長度後面" },
+      { "en": "while", "pos": "conj.", "zh": "當…的時候",
+        "example": "While I was studying, it started to rain.",
+        "more": "→ 過去進行式" },
+      { "en": "usually", "pos": "adv.", "zh": "通常",
+        "example": "I usually walk to school.",
+        "more": "→ 現在簡單式" },
+      { "en": "now", "pos": "adv.", "zh": "現在",
+        "example": "Now I am reading a longer book.",
+        "more": "→ 現在進行式" },
+      { "en": "since", "pos": "prep.", "zh": "自從（時間點）",
+        "example": "I have studied English since third grade.",
+        "more": "→ 現在完成式 · since + 起點" },
+      { "en": "for", "pos": "prep.", "zh": "長達（時間長度）",
+        "example": "I have studied English for six years.",
+        "more": "→ 現在完成式 · for + 長度" },
+      { "en": "already", "pos": "adv.", "zh": "已經",
+        "example": "She has already left.",
+        "more": "→ 現在完成式" },
+      { "en": "recently", "pos": "adv.", "zh": "最近",
+        "example": "We have recently started a new project.",
+        "more": "→ 現在完成式" }
+    ],
+    "practice": [
+      {
+        "title_en": "Which tense? · three questions",
+        "title_zh": "用哪個時態？・三個問題",
+        "note_en": "Not a rule to memorize — a path to walk. Ask the three questions in order and the tense falls out. Put this on the board and leave it up for the rest of the year.",
+        "note_zh": "這不是要背的規則，是一條可以走的路。照順序問三個問題，時態自己就掉出來了。把它寫在白板上，接下來一整年都留著。",
+        "items": [
+          "① Is it finished? No → is it happening right now? Yes → am/is/are + -ing. No → present simple.",
+          "② Is it finished? Yes → do you say when? Yes → past simple.",
+          "③ Finished but no date, or still true today? → have/has + third form.",
+          "Test it: 我學英文六年了。→ still true today → I have studied English for six years."
+        ]
+      },
+      {
+        "title_en": "Time Machine · four zones",
+        "title_zh": "時光機・四個區",
+        "note_en": "Dom's game. Mark four corners of the room. Call a zone, students move and must speak in the matching tense within five seconds. Anyone who uses the wrong tense goes back to the middle.",
+        "note_zh": "Dom 的遊戲。在教室四角標出四個區。喊一個區，學生移動過去，五秒內用對應時態說一句話。用錯時態的回到中間。",
+        "items": [
+          "Corner 1　YESTERDAY → past simple　(I ate breakfast at seven.)",
+          "Corner 2　RIGHT NOW → present continuous　(I am standing in the corner.)",
+          "Corner 3　IN MY LIFE → present perfect　(I have visited Kenting twice.)",
+          "Corner 4　WHEN I WAS YOUNGER → past simple / used to　(I played every afternoon.)"
+        ]
+      },
+      {
+        "title_en": "since or for?",
+        "title_zh": "since 還是 for？",
+        "note_en": "Both become 了 in Chinese, so students guess. since takes a point on the calendar; for takes a length. If you can answer 'when did it start?', use since. If you can answer 'how long?', use for.",
+        "note_zh": "兩個在中文裡都變成「了」，所以學生只能猜。since 接日曆上的一點，for 接一段長度。能回答「什麼時候開始的」用 since，能回答「多久」用 for。",
+        "items": [
+          "______ 2020　·　______ six years　·　______ I was eight　·　______ a long time",
+          "______ last summer　·　______ three months　·　______ Monday　·　______ ten minutes",
+          "Your turn: 我在這間學校待了三年。→ I have been at this school ______ three years.",
+          "Your turn: 我從三年級就住在彰化。→ I have lived in Changhua ______ third grade."
+        ]
+      },
+      {
+        "title_en": "Exit ticket · the 2026 time capsule",
+        "title_zh": "出場券・2026 時光膠囊",
+        "note_en": "Dom's seasonal reset. Four sentences, four tenses, sealed and opened at the end of the year. This doubles as the start of the homework timeline.",
+        "note_zh": "Dom 指定的季節重整。四句話、四種時態，封起來、年底再打開。這也正好是回家作業那張時間軸的開頭。",
+        "items": [
+          "I usually ______ .　(現在簡單式)",
+          "Right now I am ______ .　(現在進行式)",
+          "Last month I ______ .　(過去簡單式)",
+          "So far this year I have ______ .　(現在完成式)"
+        ]
+      }
+    ]
   }
 }
