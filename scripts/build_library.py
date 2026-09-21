@@ -556,7 +556,10 @@ def week_page(d, w, prev_w, next_w, pack=None):
             f'''<span class="ex">{e(x["example"])}</span>'''
             + (f'<span class="more">{e(x["more"])}</span>' if x.get("more") else "")
             + "</li>" for x in pack["words"]) + "</ul>"
-        vocab_note = f'<small>核心字彙 · {len(w.get("vocabulary", []))} words · 中文與例句由 MCC 補充</small>'
+        # Some weeks set word families or synonym ladders rather than single
+        # words, so a pack can name its own unit of counting.
+        label = pack.get("vocab_label_zh") or f'{len(w.get("vocabulary", []))} words'
+        vocab_note = f'<small>核心字彙 · {e(label)} · 中文與例句由 MCC 補充</small>'
     else:
         vocab_html = '<ul class="wk-chips">' + "".join(
             f"<li>{e(v)}</li>" for v in w.get("vocabulary", [])) + "</ul>"

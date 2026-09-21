@@ -131,13 +131,90 @@
       "n": 3,
       "unit": 1,
       "title": "Word Families: One Word Becomes Many",
-      "date": "Saturday, October 3, 2026"
+      "date": "Saturday, October 3, 2026",
+      "language_target": "Noun/verb/adjective/adverb families; prefixes and suffixes.",
+      "vocabulary": [
+        "beauty/beautiful/beautifully",
+        "happy/happiness/happily/unhappy",
+        "create/creative/creation"
+      ],
+      "taiwan_connection": "Culture connection: compare how English word families appear in everyday school signs, menus, and apps.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Noun/verb/adjective/adverb families; prefixes and suffixes."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "Word Family Factory: teams transform one root word into as many useful forms as possible, then use each in a sentence."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: a short vocabulary explainer; students listen for different forms of one root word.",
+      "homework": "Choose 5 root words. Build at least 3 forms for each and write 5 original sentences.",
+      "cefr": "A1: recognize common forms. A2: choose noun/verb/adjective. B1: build families. B2: explain form changes. C1/C2: discuss register and subtle meaning.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 04."
     },
     {
       "n": 4,
       "unit": 1,
       "title": "The Word Upgrade Challenge",
-      "date": "Saturday, October 10, 2026"
+      "date": "Saturday, October 10, 2026",
+      "language_target": "Synonyms, intensity, precise word choice.",
+      "vocabulary": [
+        "good/excellent/outstanding",
+        "bad/disastrous",
+        "happy/delighted/ecstatic",
+        "big/enormous/colossal"
+      ],
+      "taiwan_connection": "October/Halloween preview: use spooky-but-age-appropriate words as examples for the Word Upgrade Challenge.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Synonyms, intensity, precise word choice."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "Word Upgrade Auction: students 'spend' imaginary money to replace weak words with stronger, more precise choices."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: a celebrity interview clip; students identify ordinary words and suggest stronger alternatives.",
+      "homework": "Rewrite a short paragraph by replacing at least 8 basic words with more precise vocabulary. Explain 2 choices.",
+      "cefr": "A1: choose from a word bank. A2: give one stronger synonym. B1: explain degree. B2: distinguish close synonyms. C1/C2: discuss connotation and register.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 05."
     },
     {
       "n": 5,

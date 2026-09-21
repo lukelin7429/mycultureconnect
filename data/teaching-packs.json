@@ -168,5 +168,190 @@
         ]
       }
     ]
+  },
+
+  "3": {
+    "vocab_label_zh": "3 個詞族 · 10 種形式",
+    "prep_en": "No preparation needed. Dom sets three families rather than single words — the point is the shape of the word, not the word. The ending tells you the job: -ness / -tion / -ty make nouns, -ful / -ive make adjectives, -ly makes adverbs, un- flips the meaning.",
+    "prep_zh": "不必備課。Dom 這週給的是三個詞族而不是三個單字——重點是字的形狀，不是字本身。字尾就是職稱：-ness／-tion／-ty 變名詞，-ful／-ive 變形容詞，-ly 變副詞，un- 把意思翻面。",
+    "words": [
+      { "en": "beauty", "pos": "n.", "zh": "美；美麗",
+        "example": "The beauty of Lukang is in its old streets.",
+        "more": "家族 ①　-ty → 名詞" },
+      { "en": "beautiful", "pos": "adj.", "zh": "美麗的",
+        "example": "We took a photo in front of the beautiful temple.",
+        "more": "-ful → 形容詞" },
+      { "en": "beautifully", "pos": "adv.", "zh": "優美地",
+        "example": "She sings beautifully.",
+        "more": "-ly → 副詞（修飾動作，不是人）" },
+      { "en": "happy", "pos": "adj.", "zh": "快樂的",
+        "example": "The whole class was happy when the bell rang.",
+        "more": "家族 ②" },
+      { "en": "happiness", "pos": "n.", "zh": "快樂",
+        "example": "Happiness is a warm bowl of beef noodles.",
+        "more": "-ness → 名詞" },
+      { "en": "happily", "pos": "adv.", "zh": "快樂地",
+        "example": "They happily walked home together.",
+        "more": "-ly → 副詞" },
+      { "en": "unhappy", "pos": "adj.", "zh": "不快樂的",
+        "example": "He looked unhappy about the test result.",
+        "more": "un- → 相反（un- 加在形容詞前面）" },
+      { "en": "create", "pos": "v.", "zh": "創造",
+        "example": "Each team will create a poster about their hometown.",
+        "more": "家族 ③　原形是動詞" },
+      { "en": "creative", "pos": "adj.", "zh": "有創意的",
+        "example": "That is a creative way to solve the problem.",
+        "more": "-ive → 形容詞" },
+      { "en": "creation", "pos": "n.", "zh": "創作；創造",
+        "example": "The students showed their creations to the whole school.",
+        "more": "-tion → 名詞" }
+    ],
+    "practice": [
+      {
+        "title_en": "Word Family Factory · one root, fully built",
+        "title_zh": "詞族工廠・示範一個字根",
+        "note_en": "For the 35–50 min activity. Build this one on the board first, then hand each team a root. Ask for a sentence with every form — a form they cannot use in a sentence does not count.",
+        "note_zh": "搭配 35–50 分鐘的活動。先在白板上把這個字根長完，再發給每組一個字根。每種形式都要造句——造不出句子的形式不算數。",
+        "items": [
+          "care (v./n.) → I care about my grandmother.",
+          "careful (adj.) → Be careful on the stairs.",
+          "carefully (adv.) → He carefully opened the box.",
+          "careless (adj.) → A careless mistake cost us the game.　(-less = 沒有)",
+          "carelessness (n.) → Her carelessness broke the cup.",
+          "Team roots: teach · help · use · friend · hope · safe"
+        ]
+      },
+      {
+        "title_en": "Suffix detective · the ending tells you the job",
+        "title_zh": "字尾偵探・字尾就是職稱",
+        "note_en": "Say each word, students call out noun, adjective or adverb — from the ending alone, without knowing the meaning. That is the whole skill of this week.",
+        "note_zh": "唸出每個字，學生只看字尾就喊出名詞、形容詞或副詞——不必知道意思。這就是本週要練的唯一技能。",
+        "items": [
+          "kindness → ？　　darkness → ？　　(-ness = 名詞)",
+          "colorful → ？　　powerful → ？　　(-ful = 形容詞)",
+          "slowly → ？　　suddenly → ？　　(-ly = 副詞)",
+          "invention → ？　　decision → ？　　(-tion / -sion = 名詞)",
+          "unfair → ？　　unlucky → ？　　(un- = 相反)",
+          "Harder — one root, all three: active · activity · actively"
+        ]
+      },
+      {
+        "title_en": "The trap · Chinese words do not change shape",
+        "title_zh": "陷阱・中文的字不會變形",
+        "note_en": "In Chinese, 美 stays 美 whether it is a noun, an adjective or an adverb — the sentence decides. English changes the word itself. This is why students say 'She sings beautiful'. It is not carelessness; the first language simply has no such rule.",
+        "note_zh": "中文裡「美」不管當名詞、形容詞還是副詞都是「美」，靠句子決定。英文卻要把字本身改掉。這就是為什麼學生會說 She sings beautiful——不是粗心，母語裡根本沒有這條規則。",
+        "items": [
+          "她唱得很美。 ✗ She sings beautiful. ✓ She sings beautifully.",
+          "他很有創意。 ✗ He is creation. ✓ He is creative.",
+          "Your turn — fix this: ✗ The children played happy in the park.",
+          "Your turn — fix this: ✗ I felt happiness when I saw my grades."
+        ]
+      },
+      {
+        "title_en": "Exit ticket · and a sign hunt",
+        "title_zh": "出場券・順便獵一張告示",
+        "note_en": "The exit ticket first. The sign hunt is Dom's culture connection — English word families are all over Taiwanese campuses and menus once you start looking.",
+        "note_zh": "先寫出場券。獵告示是 Dom 指定的文化連結——開始留意之後，會發現台灣校園和菜單上到處都是英文詞族。",
+        "items": [
+          "Exit ticket: pick one root, write three forms, use one in a sentence.",
+          "Sign hunt: photograph one English sign this week and bring the word family.",
+          "Starters you will actually find: Recycle / Recycling / Recyclable",
+          "Safety / Safe / Safely　·　Entrance / Enter　·　Delicious (menus)"
+        ]
+      }
+    ]
+  },
+
+  "4": {
+    "vocab_label_zh": "4 組升級階梯 · 11 個字",
+    "prep_en": "No preparation needed. Dom's four sets are ladders, not lists: each one climbs from an ordinary word to a strong one. Teach the rungs, not the words.",
+    "prep_zh": "不必備課。Dom 這週給的四組是階梯，不是清單：每一組都從一個普通的字爬到一個有力的字。教的是階，不是字。",
+    "words": [
+      { "en": "good", "pos": "adj.", "zh": "好的",
+        "example": "The soup was good.",
+        "more": "階梯 ①　★☆☆ 普通" },
+      { "en": "excellent", "pos": "adj.", "zh": "優秀的",
+        "example": "Her pronunciation is excellent.",
+        "more": "★★☆ 明顯比好更好" },
+      { "en": "outstanding", "pos": "adj.", "zh": "傑出的",
+        "example": "He gave an outstanding performance at the school concert.",
+        "more": "★★★ 少數人才配得上" },
+      { "en": "bad", "pos": "adj.", "zh": "壞的；差的",
+        "example": "The weather was bad on Sunday.",
+        "more": "階梯 ②　★☆☆" },
+      { "en": "disastrous", "pos": "adj.", "zh": "災難性的",
+        "example": "Forgetting the tickets was disastrous.",
+        "more": "★★★ disaster (n.) → disastrous (adj.)" },
+      { "en": "happy", "pos": "adj.", "zh": "快樂的",
+        "example": "I am happy to see you.",
+        "more": "階梯 ③　★☆☆" },
+      { "en": "delighted", "pos": "adj.", "zh": "很開心的",
+        "example": "We were delighted when she won.",
+        "more": "★★☆ 比 happy 正式一點" },
+      { "en": "ecstatic", "pos": "adj.", "zh": "欣喜若狂的",
+        "example": "The team was ecstatic after the last-second goal.",
+        "more": "★★★ 誇張的程度，別亂用" },
+      { "en": "big", "pos": "adj.", "zh": "大的",
+        "example": "That is a big box.",
+        "more": "階梯 ④　★☆☆" },
+      { "en": "enormous", "pos": "adj.", "zh": "巨大的",
+        "example": "An enormous banyan tree stands in front of the temple.",
+        "more": "★★☆ 上週學過，這週再用一次" },
+      { "en": "colossal", "pos": "adj.", "zh": "龐大的",
+        "example": "The typhoon caused colossal damage to the harbor.",
+        "more": "★★★ 用在真正巨大的事物" }
+    ],
+    "practice": [
+      {
+        "title_en": "Word Upgrade Auction · the lots",
+        "title_zh": "單字升級拍賣會・拍賣品",
+        "note_en": "For the 35–50 min activity. Six weak sentences go under the hammer. Teams bid imaginary money; the best upgrade wins the lot. Pay more for precise, less for merely longer.",
+        "note_zh": "搭配 35–50 分鐘的活動。六個軟弱的句子上台拍賣，各組用假錢競標，升級得最好的隊伍得標。精準才值錢，只是變長不值錢。",
+        "items": [
+          "Lot 1　The night market food was good.",
+          "Lot 2　Our school trip was bad.",
+          "Lot 3　She was happy about her test.",
+          "Lot 4　The temple is big.",
+          "Lot 5　The movie was very very good.",
+          "Lot 6　I had a bad day and a bad dinner."
+        ]
+      },
+      {
+        "title_en": "Do not over-climb the ladder",
+        "title_zh": "別爬過頭",
+        "note_en": "Chinese turns up the volume with 很 / 非常 / 超 on the same word, so students reach for 'very very good'. English changes the word instead — but the top rung is for big occasions. 'I was ecstatic about my sandwich' is funny, not strong. Pick the rung that fits the event.",
+        "note_zh": "中文用「很／非常／超」在同一個字上加大音量，所以學生會說 very very good。英文是換字——但最高一階要留給大場面。I was ecstatic about my sandwich 只會很好笑。挑對階，不是挑最高階。",
+        "items": [
+          "Your friend passed a small quiz. → happy or ecstatic?",
+          "Taiwan won an Olympic gold medal. → happy or ecstatic?",
+          "Your lunch box was nice today. → good or outstanding?",
+          "A classmate saved someone's life. → good or outstanding?",
+          "It rained during your picnic. → bad or disastrous?"
+        ]
+      },
+      {
+        "title_en": "Halloween word bank",
+        "title_zh": "萬聖節單字銀行",
+        "note_en": "Dom's October connection. Same upgrade move, spooky but gentle — good for a warm-up or for the auction lots if the class wants a theme.",
+        "note_zh": "Dom 指定的十月連結。一樣是升級的動作，但換成萬聖節主題，嚇人而不嚇壞——可以當暖身，或直接拿來當拍賣品。",
+        "items": [
+          "scary → spooky (★★☆) → terrifying (★★★)",
+          "dark → gloomy (★★☆) → pitch-black (★★★)",
+          "old → ancient (★★★)",
+          "strange → mysterious (★★☆) → eerie (★★★)",
+          "Example: The old house was dark and scary. → The ancient house was gloomy and terrifying."
+        ]
+      },
+      {
+        "title_en": "Exit ticket · upgrade and defend",
+        "title_zh": "出場券・升級並說明理由",
+        "note_en": "Dom's homework asks students to explain two of their choices, so practise the explaining here. 'It sounds better' is not an explanation; 'it is stronger and the event was big' is.",
+        "note_zh": "Dom 的作業要學生說明其中兩個選擇的理由，所以在這裡先練說明。「聽起來比較好」不算理由；「這個字更強，而且那件事夠大」才算。",
+        "items": [
+          "Upgrade one word in this sentence: My weekend was good.",
+          "Then finish: I chose ______ instead of ______ because ______."
+        ]
+      }
+    ]
   }
 }

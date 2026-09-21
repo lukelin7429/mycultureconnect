@@ -2,12 +2,14 @@
 """
 Import Dom Jones's 46-week curriculum PDF into data/lesson-plans.json.
 
-    python3 scripts/import_lesson_plans.py <curriculum.pdf> [--weeks 1,2,3 | --weeks all]
+    python3 scripts/import_lesson_plans.py <curriculum.pdf> [--weeks 1,2,3 | --weeks all] [--reset]
 
 Every run refreshes the unit list and the title, unit and date of all 46 weeks.
 The full lesson body (target, vocabulary, the five timed blocks, media,
 homework, CEFR, next-week routine) is imported only for --weeks (default: 1),
-so a week can be checked on the site before the whole year goes live.
+so a week can be checked on the site before the whole year goes live. Bodies
+imported on earlier runs are kept; --reset drops them, which is how a week that
+went live too early is taken back off the site.
 
 Anything already in the JSON that is not units/weeks — the page copy, the
 author block — is kept as is. The PDF itself is never published: each week's
@@ -83,8 +85,22 @@ def split_weeks(items):
     return weeks
 
 
+# The running header and footer sit in the text layer like any other block, so a
+# field that spans a page break swallows them. Drop them before reading fields.
+FURNITURE = re.compile(
+    r"^(MY CULTURE CONNECT"
+    r"|English Language Curriculum\b.*"
+    r"|My Culture Connect\s*•\s*Established by Teacher Dom Jones\b.*"
+    r"|\d{1,3})$")
+
+
 def week_text(w):
-    return "\n".join(p for k, p in w["items"] if k == "text")
+    lines = []
+    for kind, payload in w["items"]:
+        if kind != "text":
+            continue
+        lines += [l for l in payload.splitlines() if not FURNITURE.match(l.strip())]
+    return "\n".join(lines)
 
 
 def week_tables(w):
@@ -166,7 +182,7 @@ def main():
     wanted = set(range(1, 47)) if want == "all" else {int(x) for x in want.split(",")}
 
     data = json.load(open(OUT, encoding="utf-8")) if os.path.exists(OUT) else {}
-    old = {w["n"]: w for w in data.get("weeks", [])}
+    old = {} if "--reset" in sys.argv else {w["n"]: w for w in data.get("weeks", [])}
     out_weeks = []
     for w in weeks:
         rec = {"n": w["n"], "unit": w["unit"], "title": w["title"], "date": week_date(w)}
