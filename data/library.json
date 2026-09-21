@@ -260,6 +260,33 @@
       ]
     },
     {
+      "id": "for-school-staff",
+      "title_en": "English for Teachers & School Staff",
+      "title_zh": "給老師與行政人員的英語",
+      "blurb_en": "Not for the students — for the adults. English for running a class and running a school, with the Chinese beside every line so a teacher can use it on Monday.",
+      "blurb_zh": "這一區不是給學生的，是給大人的。上課用的英語、辦公室用的英語，每一句都附中文，星期一就能用。",
+      "cards": [
+        {
+          "kind": "Phrases + video",
+          "en": "Classroom English",
+          "zh": "課室英語",
+          "desc_en": "Ten everyday classroom situations — greetings and attendance, getting started, explaining, praising, winding up — with the phrases you actually need, taught by Sarah Thomas. The phrase list is bilingual, so keep it open beside you while you teach.",
+          "desc_zh": "十個教室日常情境——問候點名、課前準備、講解、稱讚、收尾——配上真正用得到的句子，由 Sarah Thomas 主講。短句清單中英對照，可以邊上課邊開著。",
+          "href": "https://changhua-bilingual.org/resources/classroom-english/",
+          "tags": ["10 situations", "52 phrases", "Bilingual"]
+        },
+        {
+          "kind": "Video series",
+          "en": "Bilingual Announcements",
+          "zh": "校園廣播英語",
+          "desc_en": "Thirteen episodes on the four offices that keep a Taiwanese elementary school running — Academic Affairs, Student Affairs, General Affairs, and the Counseling Office — so announcements and office conversations can happen in English too. With Sarah Thomas and Susan Rose.",
+          "desc_zh": "十三集，介紹撐起一所台灣國小的四大處室——教務、學務、總務、輔導——讓校園廣播與處室對話也能用英語進行。Sarah Thomas 與 Susan Rose 主講。",
+          "href": "https://changhua-bilingual.org/resources/bilingual-campus/announcements/",
+          "tags": ["13 episodes", "Whole-school", "Bilingual"]
+        }
+      ]
+    },
+    {
       "id": "taiwan",
       "title_en": "Taiwan & Changhua in English",
       "title_zh": "用英語認識台灣與彰化",
