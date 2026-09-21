@@ -16,15 +16,39 @@
       "eyebrow_en": "A Bilingual Lesson for Grade 2",
       "eyebrow_zh": "二年級雙語課程",
       "chips": [
-        { "en": "Hungry?", "zh": "肚子餓" },
-        { "en": "Count!", "zh": "數一數" },
-        { "en": "Share!", "zh": "分享" },
-        { "en": "Say It!", "zh": "說說看" }
+        {
+          "en": "Hungry?",
+          "zh": "肚子餓"
+        },
+        {
+          "en": "Count!",
+          "zh": "數一數"
+        },
+        {
+          "en": "Share!",
+          "zh": "分享"
+        },
+        {
+          "en": "Say It!",
+          "zh": "說說看"
+        }
       ],
       "strip": [
-        { "num": "3", "en": "English sentences today", "zh": "今天學三句英文" },
-        { "num": "20", "en": "friends in one class", "zh": "一班 20 個小朋友" },
-        { "num": "1", "en": "cookie to share", "zh": "一塊餅乾要分" }
+        {
+          "num": "3",
+          "en": "English sentences today",
+          "zh": "今天學三句英文"
+        },
+        {
+          "num": "20",
+          "en": "friends in one class",
+          "zh": "一班 20 個小朋友"
+        },
+        {
+          "num": "1",
+          "en": "cookie to share",
+          "zh": "一塊餅乾要分"
+        }
       ],
       "img": "g2-title"
     },
@@ -33,9 +57,18 @@
       "head_en": "Hello! I am Dom.",
       "head_zh": "哈囉！我是 Dom。",
       "lines": [
-        { "en": "I come from California, USA.", "zh": "我從美國加州來。" },
-        { "en": "I love food. Do you love food?", "zh": "我很愛吃東西。你呢？" },
-        { "en": "Today we learn three English sentences.", "zh": "今天我們要學三句英文。" }
+        {
+          "en": "I come from California, USA.",
+          "zh": "我從美國加州來。"
+        },
+        {
+          "en": "I love food. Do you love food?",
+          "zh": "我很愛吃東西。你呢？"
+        },
+        {
+          "en": "Today we learn three English sentences.",
+          "zh": "今天我們要學三句英文。"
+        }
       ],
       "ask_en": "Wave your hand and say: Hello, Dom!",
       "ask_zh": "揮揮手，一起說：Hello, Dom！"
@@ -53,9 +86,18 @@
       "head_en": "Stand Up If…",
       "head_zh": "如果是你，就站起來！",
       "prompts": [
-        { "en": "Stand up if you ate breakfast today.", "zh": "今天有吃早餐的，站起來。" },
-        { "en": "Stay standing if you like rice.", "zh": "喜歡吃飯的，繼續站著。" },
-        { "en": "Stay standing if you finished ALL your lunch yesterday.", "zh": "昨天午餐全部吃完的，繼續站著。" }
+        {
+          "en": "Stand up if you ate breakfast today.",
+          "zh": "今天有吃早餐的，站起來。"
+        },
+        {
+          "en": "Stay standing if you like rice.",
+          "zh": "喜歡吃飯的，繼續站著。"
+        },
+        {
+          "en": "Stay standing if you finished ALL your lunch yesterday.",
+          "zh": "昨天午餐全部吃完的，繼續站著。"
+        }
       ],
       "punch_en": "Wow! Give yourselves a big clap!",
       "punch_zh": "哇！給自己一個大大的掌聲！"
@@ -67,9 +109,21 @@
       "say_en": "I am hungry!",
       "say_zh": "我餓了！",
       "steps": [
-        { "icon": "🤲", "en": "Rub your tummy", "zh": "摸摸肚子" },
-        { "icon": "😫", "en": "Make a hungry face", "zh": "做出很餓的表情" },
-        { "icon": "🗣️", "en": "Say it three times", "zh": "大聲說三次" }
+        {
+          "icon": "🤲",
+          "en": "Rub your tummy",
+          "zh": "摸摸肚子"
+        },
+        {
+          "icon": "😫",
+          "en": "Make a hungry face",
+          "zh": "做出很餓的表情"
+        },
+        {
+          "icon": "🗣️",
+          "en": "Say it three times",
+          "zh": "大聲說三次"
+        }
       ],
       "img": "g2-hungry-v"
     },
@@ -80,9 +134,21 @@
       "say_en": "I am full. Thank you!",
       "say_zh": "我吃飽了。謝謝！",
       "steps": [
-        { "icon": "🍚", "en": "Show me an empty bowl", "zh": "亮出空空的碗" },
-        { "icon": "😄", "en": "Big smile", "zh": "大大的笑容" },
-        { "icon": "👍", "en": "Thumbs up", "zh": "比個讚" }
+        {
+          "icon": "🍚",
+          "en": "Show me an empty bowl",
+          "zh": "亮出空空的碗"
+        },
+        {
+          "icon": "😄",
+          "en": "Big smile",
+          "zh": "大大的笑容"
+        },
+        {
+          "icon": "👍",
+          "en": "Thumbs up",
+          "zh": "比個讚"
+        }
       ],
       "img": "g2-full-v"
     },
@@ -146,9 +212,9 @@
     },
     {
       "type": "video",
-      "head_en": "Be the Change",
-      "head_zh": "成為那個改變",
-      "yt": "otT9zA42dK0",
+      "head_en": "Watch with Dom",
+      "head_zh": "跟 Dom 一起看",
+      "yt": "hmscjZr4qeE",
       "note_en": "Watch! Then show me your favourite part.",
       "note_zh": "看完之後，把你最喜歡的那一段做出來給我看。"
     },
@@ -158,8 +224,14 @@
       "q_en": "You have ONE cookie. Your friend has none. What do you do?",
       "q_zh": "你有一塊餅乾，你的好朋友沒有。你會怎麼做？",
       "options": [
-        { "en": "Eat it all myself", "zh": "自己全部吃掉" },
-        { "en": "Share it with my friend", "zh": "分一半給朋友" }
+        {
+          "en": "Eat it all myself",
+          "zh": "自己全部吃掉"
+        },
+        {
+          "en": "Share it with my friend",
+          "zh": "分一半給朋友"
+        }
       ],
       "answer": 1,
       "explain_en": "Share it! Now TWO friends are smiling.",
@@ -199,9 +271,21 @@
       "say_en": "Let's share!",
       "say_zh": "一起分享！",
       "steps": [
-        { "icon": "🤝", "en": "Turn to your friend", "zh": "轉向你旁邊的同學" },
-        { "icon": "🍪", "en": "Give with two hands", "zh": "用雙手遞出去" },
-        { "icon": "😊", "en": "Say: Thank you!", "zh": "說：Thank you！" }
+        {
+          "icon": "🤝",
+          "en": "Turn to your friend",
+          "zh": "轉向你旁邊的同學"
+        },
+        {
+          "icon": "🍪",
+          "en": "Give with two hands",
+          "zh": "用雙手遞出去"
+        },
+        {
+          "icon": "😊",
+          "en": "Say: Thank you!",
+          "zh": "說：Thank you！"
+        }
       ],
       "img": "g2-share-v"
     },
@@ -245,9 +329,21 @@
       "head_en": "3 Things I Can Do",
       "head_zh": "我可以做的 3 件事",
       "items": [
-        { "num": "1", "en": "Take only what I can finish.", "zh": "只拿我吃得完的份量。" },
-        { "num": "2", "en": "Finish everything on my tray.", "zh": "把餐盤上的東西吃光光。" },
-        { "num": "3", "en": "Share with a friend and say thank you.", "zh": "和朋友分享，並且說謝謝。" }
+        {
+          "num": "1",
+          "en": "Take only what I can finish.",
+          "zh": "只拿我吃得完的份量。"
+        },
+        {
+          "num": "2",
+          "en": "Finish everything on my tray.",
+          "zh": "把餐盤上的東西吃光光。"
+        },
+        {
+          "num": "3",
+          "en": "Share with a friend and say thank you.",
+          "zh": "和朋友分享，並且說謝謝。"
+        }
       ]
     },
     {
@@ -255,10 +351,22 @@
       "head_en": "Say It With Me",
       "head_zh": "跟著我唸",
       "items": [
-        { "en": "I am hungry.", "zh": "我餓了。" },
-        { "en": "I am full. Thank you!", "zh": "我吃飽了。謝謝！" },
-        { "en": "Let's share!", "zh": "一起分享！" },
-        { "en": "Zero hunger!", "zh": "消除飢餓！" }
+        {
+          "en": "I am hungry.",
+          "zh": "我餓了。"
+        },
+        {
+          "en": "I am full. Thank you!",
+          "zh": "我吃飽了。謝謝！"
+        },
+        {
+          "en": "Let's share!",
+          "zh": "一起分享！"
+        },
+        {
+          "en": "Zero hunger!",
+          "zh": "消除飢餓！"
+        }
       ]
     },
     {
@@ -281,12 +389,36 @@
       "rule_en": "I show you something. Thumbs UP = we can eat it. Thumbs DOWN = we cannot.",
       "rule_zh": "我說一樣東西，大拇指向上＝還能吃，向下＝不能吃。",
       "hints": [
-        { "en": "A banana with brown spots", "zh": "有黑點點的香蕉", "a": "up" },
-        { "en": "A bent carrot", "zh": "彎彎的紅蘿蔔", "a": "up" },
-        { "en": "A small apple", "zh": "小小顆的蘋果", "a": "up" },
-        { "en": "Rice left out all night", "zh": "放了一整晚的白飯", "a": "down" },
-        { "en": "A green banana", "zh": "青青的香蕉", "a": "up" },
-        { "en": "Milk that smells bad", "zh": "聞起來臭臭的牛奶", "a": "down" }
+        {
+          "en": "A banana with brown spots",
+          "zh": "有黑點點的香蕉",
+          "a": "up"
+        },
+        {
+          "en": "A bent carrot",
+          "zh": "彎彎的紅蘿蔔",
+          "a": "up"
+        },
+        {
+          "en": "A small apple",
+          "zh": "小小顆的蘋果",
+          "a": "up"
+        },
+        {
+          "en": "Rice left out all night",
+          "zh": "放了一整晚的白飯",
+          "a": "down"
+        },
+        {
+          "en": "A green banana",
+          "zh": "青青的香蕉",
+          "a": "up"
+        },
+        {
+          "en": "Milk that smells bad",
+          "zh": "聞起來臭臭的牛奶",
+          "a": "down"
+        }
       ],
       "target_en": "Ugly food is still good food!",
       "target_zh": "長得醜的食物，還是好食物！"
