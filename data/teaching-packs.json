@@ -86,5 +86,87 @@
         ]
       }
     ]
+  },
+
+  "2": {
+    "prep_en": "No preparation needed. Write 'I like dogs.' on the board and build from there. Note that this week's eight words are the lesson itself: three adjectives, three adverbs, two conjunctions — the exact materials a sentence grows with.",
+    "prep_zh": "不必備課。在白板寫下「I like dogs.」就能開始。請注意：本週八個字本身就是這堂課——三個形容詞、三個副詞、兩個連接詞，正好是把句子養大的三種材料。",
+    "words": [
+      { "en": "quiet", "pos": "adj.", "zh": "安靜的",
+        "example": "The library was quiet, so we could hear the rain outside.",
+        "more": "↔ noisy, loud · quiet (adj.) → quietly (adv.)" },
+      { "en": "enormous", "pos": "adj.", "zh": "巨大的",
+        "example": "My grandmother brought out an enormous mooncake after dinner.",
+        "more": "≈ huge, gigantic · ↔ tiny" },
+      { "en": "quickly", "pos": "adv.", "zh": "很快地",
+        "example": "He quickly wrote the new word in his notebook.",
+        "more": "↔ slowly · quick (adj.) → quickly (adv.)" },
+      { "en": "carefully", "pos": "adv.", "zh": "小心地；仔細地",
+        "example": "She carefully carried the hot soup to the table.",
+        "more": "↔ carelessly · careful (adj.) → carefully (adv.)" },
+      { "en": "exciting", "pos": "adj.", "zh": "令人興奮的",
+        "example": "The last ten minutes of the game were exciting.",
+        "more": "↔ boring · 小心：exciting 是「令人興奮的」，excited 是「（人）感到興奮的」" },
+      { "en": "surprisingly", "pos": "adv.", "zh": "出乎意料地",
+        "example": "Surprisingly, my little brother finished the race first.",
+        "more": "surprise (n./v.) → surprising (adj.) → surprisingly (adv.)" },
+      { "en": "although", "pos": "conj.", "zh": "雖然",
+        "example": "Although it rained, we still went outside to look at the moon.",
+        "more": "≈ though, even though · 小心：英文只用一個連接詞，不說 Although…, but…" },
+      { "en": "because", "pos": "conj.", "zh": "因為",
+        "example": "We had a barbecue because it was Mid-Autumn Festival.",
+        "more": "because 接原因，so 接結果 · 小心：不能同一句用「Because…, so…」" }
+    ],
+    "practice": [
+      {
+        "title_en": "The Sentence Builder · a worked ladder",
+        "title_zh": "句子養成梯・示範",
+        "note_en": "For the 35–50 min activity. Show this ladder first so students see where they are going, then start a new one as a class. Every rung adds one kind of information.",
+        "note_zh": "搭配 35–50 分鐘的活動。先示範這道梯子，讓學生看見終點在哪，再全班一起爬一道新的。每一階只加一種訊息。",
+        "items": [
+          "I like dogs.",
+          "+ adjective → I like enormous dogs.",
+          "+ adverb → I quietly play with enormous dogs.",
+          "+ because → I quietly play with enormous dogs because they are friendly.",
+          "+ although → Although my mother says no, I quietly play with the enormous dog next door because he is surprisingly friendly. (19 words)",
+          "Now start a new ladder: “We eat mooncakes.” / “The class is noisy.” / “She runs.”"
+        ]
+      },
+      {
+        "title_en": "Upgrade drill · 5 words → 12 words",
+        "title_zh": "句子升級・五個字變十二個字",
+        "note_en": "This is exactly the homework Dom sets, so run one in class first. Model answer given for the first item.",
+        "note_zh": "這正是 Dom 出的回家作業，所以課堂上先帶一題。第一題附示範答案。",
+        "items": [
+          "The boy ran. → Although he was tired, the boy ran quickly to the bus stop because the rain was getting heavy. (20 words)",
+          "We watched the moon. → ______",
+          "My father cooks. → ______",
+          "The test was hard. → ______",
+          "They played a game. → ______"
+        ]
+      },
+      {
+        "title_en": "Two traps from Chinese",
+        "title_zh": "兩個中文帶來的陷阱",
+        "note_en": "Both of this week's conjunctions have a matching pair in Chinese that English does not use. Expect these errors — they are not carelessness, they are the first language showing through. Fix them together.",
+        "note_zh": "本週兩個連接詞在中文裡都是成對出現，英文卻只用一個。學生一定會犯——那不是粗心，是母語在說話。一起把它們改過來。",
+        "items": [
+          "雖然下雨，但是我們還是出門了。 ✗ Although it rained, but we still went out. ✓ Although it rained, we still went out.",
+          "因為月亮很亮，所以我們在外面吃。 ✗ Because the moon was bright, so we ate outside. ✓ Because the moon was bright, we ate outside.",
+          "Your turn — fix this: ✗ Although the mooncake was enormous, but I finished it.",
+          "Your turn — fix this: ✗ Because I practiced carefully, so I improved quickly."
+        ]
+      },
+      {
+        "title_en": "Exit ticket · one long sentence",
+        "title_zh": "出場券・一個長句",
+        "note_en": "One sentence about Mid-Autumn Festival, at least twelve words, using because or although and one word from this week.",
+        "note_zh": "寫一句中秋節的句子，至少十二個字，要用到 because 或 although，加上本週任一個單字。",
+        "items": [
+          "Example: Although the night was quiet, our family laughed a lot because we barbecued together.",
+          "Your sentence: ______"
+        ]
+      }
+    ]
   }
 }

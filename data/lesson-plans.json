@@ -82,7 +82,50 @@
       "n": 2,
       "unit": 1,
       "title": "Make Your Sentences Bigger",
-      "date": "Saturday, September 26, 2026"
+      "date": "Saturday, September 26, 2026",
+      "language_target": "Sentence expansion: adjectives, adverbs, conjunctions, because/so/but/when.",
+      "vocabulary": [
+        "quiet",
+        "enormous",
+        "quickly",
+        "carefully",
+        "exciting",
+        "surprisingly",
+        "although",
+        "because"
+      ],
+      "taiwan_connection": "September/Taiwan connection: invite students to describe a Mid-Autumn Festival food, family tradition, or moon-viewing memory in English.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Sentence expansion: adjectives, adverbs, conjunctions, because/so/but/when."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "The Sentence Builder: start with 'I like dogs.' and keep adding useful information until the class creates a mini-story."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: a silent short film or funny clip. Students narrate what they see using increasingly detailed sentences.",
+      "homework": "Write 5 'sentence upgrades.' Start with a 4–5 word sentence and expand it to at least 12 words.",
+      "cefr": "A1: expand with one adjective. A2: add time/place. B1: add a reason or contrast. B2: combine clauses. C1/C2: vary rhythm and nuance.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 03."
     },
     {
       "n": 3,
