@@ -2530,5 +2530,698 @@
         ]
       }
     ]
+  },
+  "22": {
+    "prep_en": "No preparation needed. The story dice are written out below — copy the four lists onto the board, or cut them up and put them in four cups. The one thing to fix this week is 'and then', which will otherwise appear eleven times in every story.",
+    "prep_zh": "不必備課。故事骰的內容已經寫在下面——把四張清單抄上白板，或剪開放進四個杯子。這週唯一要修的是 and then，否則每篇故事都會出現十一次。",
+    "words": [
+      {
+        "en": "setting",
+        "pos": "n.",
+        "zh": "場景；背景",
+        "example": "The setting is a night market in winter.",
+        "more": "故事的「哪裡」和「什麼時候」"
+      },
+      {
+        "en": "character",
+        "pos": "n.",
+        "zh": "角色",
+        "example": "The main character is a nine-year-old girl.",
+        "more": "注意：character 也指「性格」"
+      },
+      {
+        "en": "conflict",
+        "pos": "n.",
+        "zh": "衝突",
+        "example": "The conflict starts when the money disappears.",
+        "more": "故事的引擎 · 沒有衝突就沒有故事"
+      },
+      {
+        "en": "problem",
+        "pos": "n.",
+        "zh": "問題",
+        "example": "Her problem is that nobody believes her.",
+        "more": "比 conflict 口語 · 低年級用這個字就好"
+      },
+      {
+        "en": "solution",
+        "pos": "n.",
+        "zh": "解決",
+        "example": "The solution comes from the smallest character.",
+        "more": "a solution TO a problem"
+      },
+      {
+        "en": "suddenly",
+        "pos": "adv.",
+        "zh": "突然",
+        "example": "Suddenly, the lights went out.",
+        "more": "用來啟動衝突 · 一篇故事用一次就好"
+      },
+      {
+        "en": "finally",
+        "pos": "adv.",
+        "zh": "最後",
+        "example": "Finally, they found the missing envelope.",
+        "more": "收尾 · 不是 at last 的同義詞（at last 帶如釋重負）"
+      },
+      {
+        "en": "meanwhile",
+        "pos": "adv.",
+        "zh": "同時",
+        "example": "Meanwhile, her brother was still asleep.",
+        "more": "切換到另一條線 · 第 7 週學過"
+      }
+    ],
+    "practice": [
+      {
+        "title_en": "Story Dice · four cups",
+        "title_zh": "故事骰・四個杯子",
+        "note_en": "Dom's dice need faces, so here they are. Each team draws one from each cup and must use all four. The constraint is the point — a story nobody chose is easier to start than a story you have to invent from nothing.",
+        "note_zh": "Dom 的骰子需要骰面，這裡備好了。每組從四個杯子各抽一張，四樣都要用上。限制本身就是重點——沒得挑的故事，反而比從零想像容易開始。",
+        "items": [
+          "CHARACTER　a forgetful grandmother · a new transfer student · a stray dog · a night market vendor · a bus driver · a very serious cat",
+          "PLACE　a temple at midnight · a crowded train · an empty classroom · a rooftop · a kitchen on New Year's Eve · a bus stop in the rain",
+          "PROBLEM　something is missing · someone is lying · the door will not open · a promise was broken · nobody speaks the same language · the money is gone",
+          "ACTION　runs away · tells the truth · hides it · asks for help · gives it back · pretends nothing happened"
+        ]
+      },
+      {
+        "title_en": "The trap · 'and then' eleven times",
+        "title_zh": "陷阱・十一個 and then",
+        "note_en": "Chinese strings a story with 然後 and nobody minds. English counts repetitions, and 'and then' five times in a row is the clearest sign of a beginner. Give them six replacements and ban the phrase for one draft.",
+        "note_zh": "中文用「然後」串故事，沒有人會覺得奇怪。英文會數重複，連續五個 and then 是最明顯的初學者標記。給他們六個替代品，然後規定這一稿禁用。",
+        "items": [
+          "然後 → after that · a moment later · the next morning · without thinking · while she waited · by the time he arrived",
+          "✗ She opened the door and then she saw the box and then she opened it.",
+          "✓ She opened the door. Inside was a box. Without thinking, she opened it.",
+          "Rule for this draft: you may use 'and then' exactly once."
+        ]
+      },
+      {
+        "title_en": "The shape of a story · five beats",
+        "title_zh": "故事的形狀・五個拍子",
+        "note_en": "Draw this as a line that climbs and drops. Dom's homework is a 150-word outline, so fill the five beats in class and the outline is done — one sentence per beat is enough.",
+        "note_zh": "把它畫成一條上升再落下的線。Dom 的作業是 150 字大綱，課堂上把五個拍子填完，大綱就完成了——一個拍子一句話就夠。",
+        "items": [
+          "① Setting　Where and when? One sentence.",
+          "② Character　Who wants something? What do they want?",
+          "③ Problem　What gets in the way?",
+          "④ Worst moment　When does it look hopeless?",
+          "⑤ Ending　What changes? (Do not write a moral — let the story say it.)"
+        ]
+      },
+      {
+        "title_en": "Exit ticket · one sentence that starts a story",
+        "title_zh": "出場券・一句可以開頭的話",
+        "note_en": "The first line only. It must make someone want the second line — a name and a problem in the same sentence usually does it.",
+        "note_zh": "只寫第一句。這句要讓人想看第二句——通常一個名字加一個問題放在同一句就成了。",
+        "items": [
+          "First line: ______"
+        ]
+      }
+    ]
+  },
+  "23": {
+    "prep_en": "No preparation needed. Describing people is where Chinese-speaking students meet the article wall: Chinese has no a, an or the at all, and this week needs them in almost every sentence. 'He is a reliable friend' — the little word is the hard part, not the adjective.",
+    "prep_zh": "不必備課。描述人物是中文母語學生撞上冠詞高牆的地方：中文完全沒有 a、an、the，而這週幾乎每一句都需要它們。He is a reliable friend——難的是那個小字，不是形容詞。",
+    "words": [
+      {
+        "en": "generous",
+        "pos": "adj.",
+        "zh": "慷慨的",
+        "example": "She is a generous host — nobody leaves hungry.",
+        "more": "第 12 週學過 · ↔ selfish"
+      },
+      {
+        "en": "stubborn",
+        "pos": "adj.",
+        "zh": "固執的",
+        "example": "My grandfather is stubborn about his morning walk.",
+        "more": "stubborn about something · 中性偏負面"
+      },
+      {
+        "en": "reliable",
+        "pos": "adj.",
+        "zh": "可靠的",
+        "example": "He is the most reliable person on the team.",
+        "more": "rely (v.) → reliable · ↔ unreliable"
+      },
+      {
+        "en": "curious",
+        "pos": "adj.",
+        "zh": "好奇的",
+        "example": "She is a curious child who takes things apart.",
+        "more": "第 1 週學過"
+      },
+      {
+        "en": "confident",
+        "pos": "adj.",
+        "zh": "有自信的",
+        "example": "He looked confident before the speech.",
+        "more": "第 1 週學過 · ↔ nervous"
+      },
+      {
+        "en": "nervous",
+        "pos": "adj.",
+        "zh": "緊張的",
+        "example": "I get nervous when I have to read aloud.",
+        "more": "nervous about something"
+      },
+      {
+        "en": "thoughtful",
+        "pos": "adj.",
+        "zh": "體貼的；深思的",
+        "example": "It was thoughtful of her to bring an extra umbrella.",
+        "more": "兩個意思：體貼、以及若有所思"
+      },
+      {
+        "en": "mischievous",
+        "pos": "adj.",
+        "zh": "調皮的",
+        "example": "He has a mischievous smile.",
+        "more": "唸法：MIS-chi-vous（三音節，不是四個）· 調皮但不壞"
+      }
+    ],
+    "practice": [
+      {
+        "title_en": "The trap · the little words Chinese does not have",
+        "title_zh": "陷阱・中文沒有的那些小字",
+        "note_en": "Chinese has no articles, so students either drop them or sprinkle them randomly. Three rules cover almost everything this week needs. Put them on the board and point at them every time someone slips.",
+        "note_zh": "中文沒有冠詞，所以學生不是漏掉就是亂灑。三條規則幾乎涵蓋這週會用到的全部。寫上白板，每次有人出錯就指一下。",
+        "items": [
+          "① 單數可數名詞前面一定要有東西：a / an / the / my / this",
+          "　　✗ He is reliable person.　✓ He is a reliable person.",
+          "② 第一次提到用 a，再提到用 the：I met a boy. The boy was crying.",
+          "③ 形容詞單獨當述語，不要加 a：✓ He is reliable.　✗ He is a reliable.",
+          "Your turn — fix this: ✗ She is very generous person and everyone likes her."
+        ]
+      },
+      {
+        "title_en": "Show, do not tell · give the evidence",
+        "title_zh": "用行為代替形容詞",
+        "note_en": "Dom's CEFR line asks B1 students for evidence, and this is the exercise that gets it. Give the adjective, students supply a one-sentence action that proves it — without using the adjective itself.",
+        "note_zh": "Dom 的 CEFR 欄要求 B1 學生給出證據，這個練習就是在要證據。老師給形容詞，學生用一句行為證明它——而且不能用到那個形容詞。",
+        "items": [
+          "stubborn → He has taken the same route to work for thirty years, even after they built the new road.",
+          "generous → ______",
+          "nervous → ______",
+          "mischievous → ______",
+          "reliable → ______",
+          "Rule: if the adjective appears in your sentence, it does not count."
+        ]
+      },
+      {
+        "title_en": "Character Casting · the sheet",
+        "title_zh": "角色選角・資料卡",
+        "note_en": "Dom's activity. Each team invents one character and fills this card, then 'casts' them — which actor, and why. The why is where the adjectives have to work.",
+        "note_zh": "Dom 的活動。每組發明一個角色填完這張卡，然後替他選角——找哪個演員演、為什麼。「為什麼」才是形容詞真正要出力的地方。",
+        "items": [
+          "Name and age: ______",
+          "Three personality adjectives: ______ , ______ , ______",
+          "One thing they always do: ______",
+          "One thing they would never do: ______",
+          "What they want most: ______",
+          "Cast: ______ , because ______"
+        ]
+      },
+      {
+        "title_en": "Exit ticket · one person, two sentences",
+        "title_zh": "出場券・一個人，兩句話",
+        "note_en": "One adjective, one piece of evidence. Articles must be correct — that is what is being checked.",
+        "note_zh": "一個形容詞，一個證據。冠詞要對——這才是真正在檢查的東西。",
+        "items": [
+          "______ is a very ______ person.",
+          "I know this because ______ ."
+        ]
+      }
+    ]
+  },
+  "24": {
+    "prep_en": "No preparation needed. Two Chinese habits collide with this week: 有 becomes 'have' instead of 'there is', and 在 becomes whichever of in/on/at the student guesses first. Both show up in the very first sentence of every place description, so fix them early.",
+    "prep_zh": "不必備課。這週會同時撞上兩個中文習慣：「有」被翻成 have 而不是 there is，「在」則是 in／on／at 亂猜。每一篇地方描述的第一句就會出現這兩個錯，所以早點修。",
+    "words": [
+      {
+        "en": "crowded",
+        "pos": "adj.",
+        "zh": "擁擠的",
+        "example": "The night market is crowded on Saturday nights.",
+        "more": "形容地方 · 人多用 crowded，不用 many people 當形容詞"
+      },
+      {
+        "en": "peaceful",
+        "pos": "adj.",
+        "zh": "寧靜的",
+        "example": "The temple courtyard is peaceful in the morning.",
+        "more": "peace (n.) → peaceful"
+      },
+      {
+        "en": "narrow",
+        "pos": "adj.",
+        "zh": "狹窄的",
+        "example": "Lukang has many narrow old streets.",
+        "more": "↔ wide · 不是 thin（thin 用在人或物）"
+      },
+      {
+        "en": "spacious",
+        "pos": "adj.",
+        "zh": "寬敞的",
+        "example": "The new library is bright and spacious.",
+        "more": "space (n.) → spacious · 正面的「大」"
+      },
+      {
+        "en": "ancient",
+        "pos": "adj.",
+        "zh": "古老的",
+        "example": "An ancient banyan tree stands by the gate.",
+        "more": "第 12 週學過 · ↔ modern"
+      },
+      {
+        "en": "modern",
+        "pos": "adj.",
+        "zh": "現代的",
+        "example": "The station is modern and very clean.",
+        "more": "第 12 週學過"
+      },
+      {
+        "en": "noisy",
+        "pos": "adj.",
+        "zh": "吵雜的",
+        "example": "Our classroom gets noisy after lunch.",
+        "more": "noise (n.) → noisy · ↔ quiet"
+      },
+      {
+        "en": "breathtaking",
+        "pos": "adj.",
+        "zh": "令人屏息的",
+        "example": "The view from Hehuanshan is breathtaking.",
+        "more": "極端字 · 不加 very · 第 13 週的規則"
+      }
+    ],
+    "practice": [
+      {
+        "title_en": "The trap · 有 is not 'have'",
+        "title_zh": "陷阱・「有」不是 have",
+        "note_en": "This is the single most recognizable Taiwanese English error, and it comes straight from 有. A place does not 'have' things; there ARE things in it. Once a student hears the difference they rarely go back.",
+        "note_zh": "這是最好認的台灣英語錯誤，直接來自「有」。地方不是 have 東西，而是「那裡有」= there is / there are。學生一旦聽出差別，很少再錯回去。",
+        "items": [
+          "夜市有很多人。 ✗ The night market has many people. ✓ There are many people in the night market.",
+          "我房間有一張書桌。 ✗ My room has a desk. ✓ There is a desk in my room.",
+          "（have 用在「人擁有」）✓ I have a desk. ✓ She has two brothers.",
+          "Your turn — fix this: ✗ Our school has a big library and has many trees."
+        ]
+      },
+      {
+        "title_en": "in, on, at · where Chinese uses one word",
+        "title_zh": "in、on、at・中文只用一個「在」",
+        "note_en": "Three English words, one Chinese word, and no logic that transfers. Teach it as sizes: at is a point, on is a surface or a line, in is inside something. The exceptions are learned by ear, not by rule.",
+        "note_zh": "英文三個字、中文一個「在」，而且沒有可以搬過來的邏輯。當成大小來教：at 是一個點，on 是面或線，in 是裡面。例外靠耳朵記，不靠規則。",
+        "items": [
+          "at → at the bus stop · at school · at the corner　(一個點)",
+          "on → on the table · on the third floor · on Zhongshan Road　(面或線)",
+          "in → in the classroom · in Changhua · in my bag　(裡面)",
+          "注意：in the bus 還是 on the bus？→ on the bus（交通工具用 on）",
+          "Your turn: The night market is ______ Minzu Road, ______ Beidou."
+        ]
+      },
+      {
+        "title_en": "Mystery Place · with all five senses",
+        "title_zh": "神秘地點・五感俱全",
+        "note_en": "Dom's guessing game, and her homework asks for all five senses. Most students write only what they see, so require one line per sense before anyone is allowed to guess.",
+        "note_zh": "Dom 的猜謎遊戲，她的作業要求五感俱全。多數學生只寫看到的，所以規定每一種感官都要寫一句，才能開放猜。",
+        "items": [
+          "See: ______",
+          "Hear: ______",
+          "Smell: ______  ← 這一句通常最有辨識度",
+          "Taste or touch: ______",
+          "Feel (the mood): ______",
+          "Worked example (do not name it): It is narrow and crowded. You hear oil hissing and someone shouting prices. It smells of garlic and something sweet. The ground is slightly wet. You are hungry before you decide anything."
+        ]
+      },
+      {
+        "title_en": "Exit ticket · one room, three senses",
+        "title_zh": "出場券・一個房間，三種感官",
+        "note_en": "Three sentences about a room in their own home. One must start with 'There is' or 'There are'.",
+        "note_zh": "寫自己家裡某個房間的三句話，其中一句必須用 There is 或 There are 開頭。",
+        "items": [
+          "There ______ ______ .",
+          "I can hear ______ .",
+          "It smells like ______ ."
+        ]
+      }
+    ]
+  },
+  "25": {
+    "prep_en": "No preparation needed. Two things to fix: 說 covers said, asked, replied and told, so students use 'said' for everything — Dom's word list is the cure. And English punctuates quotations in a way Chinese does not, which is invisible until you show it side by side.",
+    "prep_zh": "不必備課。這週修兩件事：中文一個「說」涵蓋 said、asked、replied、told，所以學生什麼都用 said——Dom 的字表就是解藥。另外英文的引號標點和中文不同，不並排對照給學生看，他們看不見。",
+    "words": [
+      {
+        "en": "said",
+        "pos": "v.",
+        "zh": "說",
+        "example": "\"I'm not ready,\" she said.",
+        "more": "say → said · 後面接話，不接人 · 第 14 週的規則"
+      },
+      {
+        "en": "asked",
+        "pos": "v.",
+        "zh": "問",
+        "example": "\"Where were you?\" he asked.",
+        "more": "問句後面用 asked，不要用 said"
+      },
+      {
+        "en": "replied",
+        "pos": "v.",
+        "zh": "回答",
+        "example": "\"I was at the temple,\" she replied.",
+        "more": "回應前一句話 · 比 answered 文一點"
+      },
+      {
+        "en": "whispered",
+        "pos": "v.",
+        "zh": "低聲說",
+        "example": "\"Don't tell anyone,\" he whispered.",
+        "more": "音量小 · 常帶秘密感"
+      },
+      {
+        "en": "shouted",
+        "pos": "v.",
+        "zh": "大喊",
+        "example": "\"Watch out!\" someone shouted.",
+        "more": "音量大 · 驚嘆號通常跟著來"
+      },
+      {
+        "en": "explained",
+        "pos": "v.",
+        "zh": "解釋",
+        "example": "\"The door locks by itself,\" she explained.",
+        "more": "用在說明原因的句子後面"
+      },
+      {
+        "en": "agreed",
+        "pos": "v.",
+        "zh": "同意",
+        "example": "\"That's a good idea,\" they agreed.",
+        "more": "agree with someone · agree to a plan"
+      },
+      {
+        "en": "joked",
+        "pos": "v.",
+        "zh": "開玩笑說",
+        "example": "\"I'll pay you next century,\" he joked.",
+        "more": "讓讀者知道那句不是認真的"
+      }
+    ],
+    "practice": [
+      {
+        "title_en": "The trap · English punctuates quotations differently",
+        "title_zh": "陷阱・英文的引號標點跟中文不一樣",
+        "note_en": "Chinese puts the full stop outside 「」. American English puts it inside, and a comma replaces the full stop when a tag follows. Nobody teaches this, so almost every student writes it wrong for years. Show the two side by side once and it lands.",
+        "note_zh": "中文的句號放在「」外面。美式英文放在裡面，而且後面接 said 之類的時候，句號要換成逗號。這件事沒有人教，所以學生錯很多年。並排給他們看一次就懂了。",
+        "items": [
+          "中文：他說：「我累了。」",
+          "✗ He said \"I am tired\".",
+          "✓ He said, \"I am tired.\"　← said 後面逗號 · 句號在引號裡面",
+          "✓ \"I am tired,\" he said.　← 前半結尾用逗號，不是句號",
+          "✓ \"Are you tired?\" she asked.　← 問號本來就是標點，不必再加逗號",
+          "Your turn — fix this: ✗ \"I don't know\". He replied."
+        ]
+      },
+      {
+        "title_en": "Stop using 'said' for everything",
+        "title_zh": "不要什麼都用 said",
+        "note_en": "One Chinese word, eight English ones. Read the line aloud and pick the verb that matches how it sounds — the verb is doing half the acting.",
+        "note_zh": "中文一個字，英文八個。把台詞唸出來，挑一個跟語氣相符的動詞——動詞替你演掉一半的戲。",
+        "items": [
+          "\"Get down from there!\" she ______ .",
+          "\"I think the door is locked,\" he ______ .",
+          "\"Is that your bag?\" the driver ______ .",
+          "\"Don't worry, I've done this before,\" she ______ .",
+          "\"Fine. You win,\" he ______ .",
+          "Note: a new speaker always starts a new line."
+        ]
+      },
+      {
+        "title_en": "Script It! · the boring situation",
+        "title_zh": "改編劇本・無聊的情境",
+        "note_en": "Dom's activity needs a situation, so here is a deliberately dull one. Twelve lines, two characters, and by line four something must go wrong. Friendship or family — Dom asks that Valentine's week stay off romance.",
+        "note_zh": "Dom 的活動需要一個情境，這裡給一個故意很無聊的。十二行、兩個角色，第四行之前一定要出事。主題走友情或家人——Dom 指定情人節那週避開戀愛。",
+        "items": [
+          "Situation: two students are waiting for a bus that is very late.",
+          "Line 1–3　Small talk. Nothing happens.",
+          "Line 4　Something goes wrong.",
+          "Line 5–10　They disagree about what to do.",
+          "Line 11–12　One of them changes their mind.",
+          "Rule: use at least four different reporting verbs, and never 'said' twice in a row."
+        ]
+      },
+      {
+        "title_en": "Exit ticket · two lines, punctuated correctly",
+        "title_zh": "出場券・兩行對白，標點要對",
+        "note_en": "One statement, one question, both with a reporting verb that is not 'said'. The punctuation is the grade.",
+        "note_zh": "一句陳述、一句問句，兩句的動詞都不能是 said。評分看標點。",
+        "items": [
+          "\" ______ ,\" ______ .",
+          "\" ______ ?\" ______ ."
+        ]
+      }
+    ]
+  },
+  "26": {
+    "prep_en": "No preparation needed, but read the trap card first. Chinese has nothing like the past perfect, and the usual mistake after teaching it is overuse. The rule that prevents both problems: you only need it when you tell events out of order.",
+    "prep_zh": "不必備課，但先看陷阱卡。中文沒有任何對應過去完成式的東西，而教完之後最常見的問題反而是濫用。一條規則同時解決兩邊：只有在「不照順序講」的時候才需要它。",
+    "words": [
+      {
+        "en": "had already",
+        "pos": "phr.",
+        "zh": "（更早之前）已經",
+        "example": "When we arrived, the train had already left.",
+        "more": "had + 第三態 · already 夾在中間"
+      },
+      {
+        "en": "had never",
+        "pos": "phr.",
+        "zh": "（在那之前）從來沒有",
+        "example": "She had never seen snow before that trip.",
+        "more": "never 本身是否定，不要再加 not"
+      },
+      {
+        "en": "before",
+        "pos": "conj. / prep.",
+        "zh": "在…之前",
+        "example": "He had finished his homework before dinner started.",
+        "more": "有 before 時，過去完成式常可省略——順序已經清楚了"
+      },
+      {
+        "en": "after",
+        "pos": "conj. / prep.",
+        "zh": "在…之後",
+        "example": "After she had left, we found her keys.",
+        "more": "同上 · 順序清楚時用過去簡單式也可以"
+      },
+      {
+        "en": "by the time",
+        "pos": "phr.",
+        "zh": "等到…的時候",
+        "example": "By the time the police came, the thief had disappeared.",
+        "more": "這個說法幾乎一定要接過去完成式"
+      },
+      {
+        "en": "realized",
+        "pos": "v.",
+        "zh": "意識到",
+        "example": "She realized that she had forgotten her wallet.",
+        "more": "realize → realized · 後面很常接過去完成式"
+      },
+      {
+        "en": "remembered",
+        "pos": "v.",
+        "zh": "想起來",
+        "example": "He remembered that he had locked the door.",
+        "more": "remember → remembered"
+      }
+    ],
+    "practice": [
+      {
+        "title_en": "The trap · you only need it out of order",
+        "title_zh": "陷阱・不照順序才需要它",
+        "note_en": "Chinese tells events in the order they happened and 了 says no more than 'done'. English can jump backwards mid-sentence, and the past perfect is the signal that it just did. Tell the story in order and past simple is enough — that is why the tense feels invisible until it is needed.",
+        "note_zh": "中文照事情發生的順序講，「了」只說明「完成」。英文可以在句子中途往回跳，過去完成式就是「我剛剛往回跳了」的信號。照順序講的話，過去簡單式就夠了——這就是為什麼這個時態平常看不見，需要時才出現。",
+        "items": [
+          "照順序（不需要）：I finished my homework. Then I watched TV.　✓ 兩個都用過去簡單式",
+          "往回跳（需要）：I watched TV. I had already finished my homework.",
+          "最常見的句型：When I arrived, she had already left.　← 到的時候，她「更早之前」就走了",
+          "✗ 濫用：Yesterday I had gone to school and I had eaten lunch and I had come home.　← 照順序，全部用過去簡單式就好",
+          "Your turn — choose: By the time we got there, the shop ______ (closed / had closed)."
+        ]
+      },
+      {
+        "title_en": "The Mystery Timeline · put it in order",
+        "title_zh": "神秘時間軸・排出順序",
+        "note_en": "Dom's activity needs events to scramble, so here are six. Teams order them, then explain each one using 'had' — the explaining is the exercise, not the ordering.",
+        "note_zh": "Dom 的活動需要可以打亂的事件，這裡給六個。各組先排順序，再用 had 說明每一件——說明才是練習，排序不是。",
+        "items": [
+          "A　The red envelope was on the table at 6:00.",
+          "B　Grandmother went to the temple at 6:30.",
+          "C　At 7:00 the envelope was gone.",
+          "D　The cat was asleep under the table all evening.",
+          "E　Little brother came home at 6:45 with new candy.",
+          "F　At 8:00 everyone was looking for the envelope.",
+          "Now say it: By the time grandmother returned, ______ . When they started looking, little brother ______ ."
+        ]
+      },
+      {
+        "title_en": "Three tenses in one paragraph",
+        "title_zh": "一段話裡三種時態",
+        "note_en": "Dom's homework asks for all three in one 180-word mystery. Build the skeleton here: background in past continuous, events in past simple, and one jump backwards in past perfect.",
+        "note_zh": "Dom 的作業要在一篇 180 字的懸疑故事裡用上三種。在這裡先把骨架搭好：背景用過去進行式，事件用過去簡單式，往回跳一次用過去完成式。",
+        "items": [
+          "背景（was/were + -ing）：It ______ and everyone ______ in the kitchen.",
+          "事件（過去簡單式）：Then the lights ______ .",
+          "往回跳（had + 第三態）：Nobody remembered that someone ______ the back door.",
+          "再回到事件：When the lights came back, ______ ."
+        ]
+      },
+      {
+        "title_en": "Exit ticket · one jump backwards",
+        "title_zh": "出場券・往回跳一次",
+        "note_en": "One sentence with two times in it: something that happened, and something that had happened before it.",
+        "note_zh": "一句話裡放兩個時間：發生的事，和在那之前就已經發生的事。",
+        "items": [
+          "When ______ , ______ had already ______ ."
+        ]
+      }
+    ]
+  },
+  "27": {
+    "vocab_label_zh": "敘事工具箱 · 10 個說故事的零件",
+    "prep_en": "No preparation needed. This is the writing week, so the list below is not new vocabulary — it is the toolkit from the last five weeks, gathered in one place. Dom asks students to choose eight power words of their own; this is where they choose from.",
+    "prep_zh": "不必備課。這是寫作週，所以下面不是新單字，是前五週工具的集合。Dom 要學生自選八個 power words，這就是他們挑選的地方。",
+    "words": [
+      {
+        "en": "setting · character · conflict",
+        "pos": "n.",
+        "zh": "場景・角色・衝突",
+        "example": "Start with all three in your first two sentences.",
+        "more": "第 22 週 · 故事的三根柱子"
+      },
+      {
+        "en": "after that · a moment later",
+        "pos": "phr.",
+        "zh": "接著・過了一會兒",
+        "example": "A moment later, the door opened.",
+        "more": "第 22 週 · 拿來換掉 and then"
+      },
+      {
+        "en": "stubborn · reliable · mischievous",
+        "pos": "adj.",
+        "zh": "固執・可靠・調皮",
+        "example": "Give evidence, not just the adjective.",
+        "more": "第 23 週 · 用行為證明"
+      },
+      {
+        "en": "crowded · peaceful · breathtaking",
+        "pos": "adj.",
+        "zh": "擁擠・寧靜・令人屏息",
+        "example": "The alley was narrow and strangely peaceful.",
+        "more": "第 24 週 · 五感都要寫到"
+      },
+      {
+        "en": "There is / There are",
+        "pos": "phr.",
+        "zh": "（某處）有",
+        "example": "There was a light under the door.",
+        "more": "第 24 週 · 不是 have"
+      },
+      {
+        "en": "whispered · shouted · joked",
+        "pos": "v.",
+        "zh": "低聲說・大喊・開玩笑說",
+        "example": "\"Don't move,\" she whispered.",
+        "more": "第 25 週 · 不要整篇都 said"
+      },
+      {
+        "en": "had already · had never",
+        "pos": "phr.",
+        "zh": "（更早）已經・從來沒有",
+        "example": "The bus had already left.",
+        "more": "第 26 週 · 只有往回跳才用"
+      },
+      {
+        "en": "by the time",
+        "pos": "phr.",
+        "zh": "等到…的時候",
+        "example": "By the time she looked up, he was gone.",
+        "more": "第 26 週 · 幾乎一定接過去完成式"
+      },
+      {
+        "en": "suddenly",
+        "pos": "adv.",
+        "zh": "突然",
+        "example": "Suddenly the music stopped.",
+        "more": "整篇只准用一次"
+      },
+      {
+        "en": "finally",
+        "pos": "adv.",
+        "zh": "最後",
+        "example": "Finally, she understood why.",
+        "more": "收尾用 · 不要寫出道理，讓故事自己說"
+      }
+    ],
+    "practice": [
+      {
+        "title_en": "Story planner · fill this before you write",
+        "title_zh": "故事規劃表・先填再寫",
+        "note_en": "Ten minutes on this saves thirty minutes of staring at a blank page. Every line is one sentence. If a student cannot fill line three, they do not have a story yet — they have a situation.",
+        "note_zh": "花十分鐘填這張表，可以省下三十分鐘盯著空白頁。每一行寫一句。第三行填不出來的學生，手上還沒有故事，只有一個情境。",
+        "items": [
+          "Who is this about, and what do they want? ______",
+          "Where and when? ______",
+          "What gets in the way? ______",
+          "What is the worst moment? ______",
+          "What is different at the end? ______",
+          "My eight power words: ______"
+        ]
+      },
+      {
+        "title_en": "Revision checklist · the whole unit",
+        "title_zh": "修稿檢查表・整個單元",
+        "note_en": "Hand this out with the first draft, not before. Every line is something the class has already learned, so the checklist is a review disguised as editing.",
+        "note_zh": "這張表要在第一稿寫完之後才發，不要提前。每一行都是全班學過的東西，所以這張檢查表是偽裝成修稿的複習。",
+        "items": [
+          "□ 'and then' 出現幾次？超過一次就改掉。（W22）",
+          "□ 每個單數可數名詞前面有沒有 a / an / the？（W23）",
+          "□ 有沒有寫成 The place has…？改成 There is / There are。（W24）",
+          "□ 對白的句號在引號裡面嗎？said 有沒有連用兩次？（W25）",
+          "□ 有沒有一次往回跳？沒有的話，加一句 had already。（W26）",
+          "□ 最後一句有沒有寫出道理？有的話刪掉。"
+        ]
+      },
+      {
+        "title_en": "The 60-second summary",
+        "title_zh": "六十秒口述",
+        "note_en": "Dom asks for a spoken summary as well as the written story. Sixty seconds is about 130 words, which is four sentences — this shape fits every time.",
+        "note_zh": "Dom 除了書面故事還要一段口述。六十秒大約 130 字，也就是四句話——這個形狀每次都套得上。",
+        "items": [
+          "① This is a story about ______ , who wants ______ .",
+          "② The problem is ______ .",
+          "③ The worst moment is when ______ .",
+          "④ In the end, ______ . (不要爆雷結局，停在這裡也可以)",
+          "Practise it twice with a partner before the premiere."
+        ]
+      },
+      {
+        "title_en": "Story Premiere · the awards",
+        "title_zh": "故事首映會・獎項",
+        "note_en": "Dom asks classmates to award fun categories, so here are eight. Every story must win exactly one — decide that in advance and nobody sits down empty-handed.",
+        "note_zh": "Dom 要同學頒些有趣的獎項，這裡給八個。規定每篇故事都必須得到一個獎——事先講明，就不會有人空手坐下。",
+        "items": [
+          "Best First Line · Most Surprising Ending · Best Villain",
+          "Best Use of Silence · Funniest Line of Dialogue",
+          "Most Vivid Place · Character We Would Most Like to Meet",
+          "Best Sentence in the Whole Class （唸出來給大家聽）"
+        ]
+      }
+    ]
   }
 }

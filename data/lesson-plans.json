@@ -1031,37 +1031,287 @@
       "n": 22,
       "unit": 5,
       "title": "How Stories Work",
-      "date": "Saturday, February 13, 2027"
+      "date": "Saturday, February 13, 2027",
+      "language_target": "Beginning, setting, conflict, rising action, ending; sequencing.",
+      "vocabulary": [
+        "setting",
+        "character",
+        "conflict",
+        "problem",
+        "solution",
+        "suddenly",
+        "finally",
+        "meanwhile"
+      ],
+      "taiwan_connection": "Winter storytelling: use Lunar New Year, winter travel, or a family gathering as optional story settings.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Beginning, setting, conflict, rising action, ending; sequencing."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "Story Dice: roll character/place/problem/action and build a class story."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: a short animated story with the sound off.",
+      "homework": "Write a 150-word story outline with a clear beginning, problem, and ending.",
+      "cefr": "A1: picture-supported story. A2: 5–8 connected sentences. B1: full short story. B2+: structure and pacing. C1/C2: voice and narrative effect.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 23."
     },
     {
       "n": 23,
       "unit": 5,
       "title": "Describing People",
-      "date": "Saturday, February 20, 2027"
+      "date": "Saturday, February 20, 2027",
+      "language_target": "Personality, appearance, behavior; adjective precision.",
+      "vocabulary": [
+        "generous",
+        "stubborn",
+        "reliable",
+        "curious",
+        "confident",
+        "nervous",
+        "thoughtful",
+        "mischievous"
+      ],
+      "taiwan_connection": "Lunar New Year connection: describe a family member, fictional character, or festival visitor using precise adjectives.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Personality, appearance, behavior; adjective precision."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "Character Casting: students invent a character and 'cast' them in a movie using 8 descriptive words."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: movie character interview or red-carpet clip.",
+      "homework": "Create a character profile with 10 adjectives and 5 sentences explaining behavior.",
+      "cefr": "A1: basic appearance/personality. A2: connected description. B1: evidence for traits. B2+: nuanced characterization. C1/C2: implied character.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 24."
     },
     {
       "n": 24,
       "unit": 5,
       "title": "Describing Places",
-      "date": "Saturday, February 27, 2027"
+      "date": "Saturday, February 27, 2027",
+      "language_target": "Descriptive adjectives, prepositions, sensory language.",
+      "vocabulary": [
+        "crowded",
+        "peaceful",
+        "narrow",
+        "spacious",
+        "ancient",
+        "modern",
+        "noisy",
+        "breathtaking"
+      ],
+      "taiwan_connection": "Place vocabulary: compare a Taipei street, night market, school, kitchen, bedroom, park, or American city scene.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Descriptive adjectives, prepositions, sensory language."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "Mystery Place: one student describes a place without naming it; others guess."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: city or nature montage.",
+      "homework": "Describe a place in Taiwan in 150 words without naming it. Include all five senses.",
+      "cefr": "A1: simple location words. A2: sensory adjectives. B1: vivid paragraph. B2+: figurative language. C1/C2: atmosphere and style.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 25."
     },
     {
       "n": 25,
       "unit": 5,
       "title": "Dialogue & Natural Speech",
-      "date": "Saturday, March 6, 2027"
+      "date": "Saturday, March 6, 2027",
+      "language_target": "Direct speech, quotation punctuation, question forms, conversational expressions.",
+      "vocabulary": [
+        "said",
+        "asked",
+        "replied",
+        "whispered",
+        "shouted",
+        "explained",
+        "agreed",
+        "joked"
+      ],
+      "taiwan_connection": "Valentine's week: dialogue can focus on friendship, kindness, family, or fictional characters—not romance.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Direct speech, quotation punctuation, question forms, conversational expressions."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "Script It!: turn a boring situation into a funny 12-line scene."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: a short movie scene; compare written dialogue with spoken dialogue.",
+      "homework": "Write a 12–16 line dialogue between two characters with a clear problem.",
+      "cefr": "A1: short exchanges. A2: basic dialogue. B1: natural follow-ups. B2+: varied reporting verbs. C1/C2: subtext and voice.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 26."
     },
     {
       "n": 26,
       "unit": 5,
       "title": "Story Tenses: Past Perfect Enters the Scene",
-      "date": "Saturday, March 13, 2027"
+      "date": "Saturday, March 13, 2027",
+      "language_target": "Past simple + past continuous + past perfect.",
+      "vocabulary": [
+        "had already",
+        "had never",
+        "before",
+        "after",
+        "by the time",
+        "realized",
+        "remembered"
+      ],
+      "taiwan_connection": "Story mystery: use Lunar New Year travel, a lost object, or a school mystery as the timeline.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Past simple + past continuous + past perfect."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "The Mystery Timeline: students put events in order and explain what had happened before another event."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: mystery/thriller scene suitable for children.",
+      "homework": "Write a 180-word mystery using at least 1 past perfect, 2 past continuous, and 8 past-simple verbs.",
+      "cefr": "A1/A2: identify sequence. B1: use past perfect in supported sentences. B2+: control all three. C1/C2: manipulate chronology.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 27."
     },
     {
       "n": 27,
       "unit": 5,
       "title": "Write Your Own Story",
-      "date": "Saturday, March 20, 2027"
+      "date": "Saturday, March 20, 2027",
+      "language_target": "Integrated narrative writing + presentation.",
+      "vocabulary": [
+        "review narrative vocabulary; choose 8 'power words'"
+      ],
+      "taiwan_connection": "March creativity: students can write a story inspired by a photo, song, sports moment, or cultural tradition.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Integrated narrative writing + presentation."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "Story Premiere: students read a short original story and classmates award fun categories."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: music-only cinematic clip to inspire a story.",
+      "homework": "Final story: 200–300 words (adjust by level) + 60-second oral summary.",
+      "cefr": "A1: 60–80 words with scaffold. A2: 100–150. B1: 150–220. B2: 220–300. C1/C2: polished original narrative.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 28."
     },
     {
       "n": 28,
