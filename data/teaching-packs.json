@@ -3223,5 +3223,665 @@
         ]
       }
     ]
+  },
+  "28": {
+    "prep_en": "No preparation needed. Chinese marks the future with a time word and leaves the verb alone — 明天我去台北. English has three different futures and choosing between them is the whole week. Teach the choice as a question about when the decision was made.",
+    "prep_zh": "不必備課。中文用時間詞標記未來，動詞不動——「明天我去台北」。英文有三種未來式，這週的全部就是怎麼選。把選擇教成一個問題：這個決定是什麼時候做的？",
+    "words": [
+      {
+        "en": "plan",
+        "pos": "n. / v.",
+        "zh": "計畫",
+        "example": "We are planning to visit Kenting in July.",
+        "more": "已經決定好的 → be going to / 現在進行式"
+      },
+      {
+        "en": "predict",
+        "pos": "v.",
+        "zh": "預測",
+        "example": "I predict that our team will win.",
+        "more": "prediction (n.) · 預測用 will"
+      },
+      {
+        "en": "promise",
+        "pos": "n. / v.",
+        "zh": "承諾",
+        "example": "I promise I will call you tonight.",
+        "more": "承諾一定用 will，不用 going to"
+      },
+      {
+        "en": "probably",
+        "pos": "adv.",
+        "zh": "可能（機率高）",
+        "example": "It will probably rain this afternoon.",
+        "more": "放在 will 後面：will probably"
+      },
+      {
+        "en": "definitely",
+        "pos": "adv.",
+        "zh": "一定",
+        "example": "I am definitely going to finish it tonight.",
+        "more": "拼字注意：definite，沒有 a"
+      },
+      {
+        "en": "tomorrow",
+        "pos": "adv.",
+        "zh": "明天",
+        "example": "I am meeting my cousin tomorrow.",
+        "more": "已排定的約 → 用現在進行式，不用 will"
+      },
+      {
+        "en": "next",
+        "pos": "adj.",
+        "zh": "下一個",
+        "example": "We are moving house next month.",
+        "more": "next week / next month · 前面不加 the"
+      },
+      {
+        "en": "later",
+        "pos": "adv.",
+        "zh": "稍後",
+        "example": "I'll do it later, I promise.",
+        "more": "當下決定 → will"
+      }
+    ],
+    "practice": [
+      {
+        "title_en": "The trap · one Chinese future, three English ones",
+        "title_zh": "陷阱・中文一種未來，英文三種",
+        "note_en": "Chinese says 明天我去台北 and the listener works out the rest. English asks you to declare when you decided. Teach it as a timeline of the decision, not of the event.",
+        "note_zh": "中文說「明天我去台北」，其餘靠聽的人自己判斷。英文要求你交代「什麼時候決定的」。把它教成「決定的時間軸」，不是「事件的時間軸」。",
+        "items": [
+          "現在才決定 → will：The phone is ringing. I'll get it.",
+          "早就決定了 → be going to：I'm going to study medicine.",
+          "已經約好了 → 現在進行式：I'm meeting the dentist at four.",
+          "✗ Tomorrow I go to Taipei.　✓ I'm going to Taipei tomorrow.",
+          "Your turn — choose: A: There's no milk. B: Oh, ______ (I'll buy / I'm going to buy) some."
+        ]
+      },
+      {
+        "title_en": "Future Forecast · predict your classmates",
+        "title_zh": "未來預報・預測同學的未來",
+        "note_en": "Dom's activity. Each student draws a classmate's name and writes three predictions with will. Kind predictions only — the rule keeps it funny instead of sharp.",
+        "note_zh": "Dom 的活動。每個學生抽一位同學的名字，用 will 寫三個預測。只准寫善意的預測——這條規則讓它保持好笑，不會變刻薄。",
+        "items": [
+          "In ten years, ______ will probably ______ .",
+          "______ will definitely never ______ .",
+          "I think ______ will be the first person in our class to ______ .",
+          "Then: turn the three best into a ridiculous 2030 news report and read it aloud."
+        ]
+      },
+      {
+        "title_en": "Plans, predictions, promises · sort them",
+        "title_zh": "計畫、預測、承諾・分類",
+        "note_en": "Dom's homework asks for three of each, so sort before writing. Read each sentence and decide which of the three it is — the form follows once the category is clear.",
+        "note_zh": "Dom 的作業三種各要三句，所以先分類再寫。唸出句子，判斷它屬於哪一種——類別清楚了，形式自己就出來了。",
+        "items": [
+          "I'm going to join the basketball team next semester. → ?",
+          "Don't worry, I'll help you tomorrow. → ?",
+          "Taiwan will win more Olympic medals in 2032. → ?",
+          "We're flying to Japan on the 15th. → ?",
+          "I think it's going to rain — look at those clouds. → ? (證據在眼前 → going to)"
+        ]
+      },
+      {
+        "title_en": "Exit ticket · three futures, one day",
+        "title_zh": "出場券・一天，三種未來",
+        "note_en": "Three sentences about tomorrow, one in each form. Same day, three different reasons for choosing.",
+        "note_zh": "寫三句關於明天的話，三種形式各一句。同一天，三個不同的選擇理由。",
+        "items": [
+          "Arrangement: I am ______ tomorrow.",
+          "Plan: I am going to ______ .",
+          "Promise or decision: I'll ______ ."
+        ]
+      }
+    ]
+  },
+  "29": {
+    "prep_en": "No preparation needed. Two mechanical rules save the whole week: a modal never takes -s, and a modal never takes 'to'. Then one meaning distinction that Chinese does not make at all — mustn't is forbidden, don't have to is optional. Students mix those two for years.",
+    "prep_zh": "不必備課。兩條機械規則就救掉整週：情態動詞後面不加 -s，也不加 to。然後是一個中文根本不區分的意思差別——mustn't 是禁止，don't have to 是不必。學生會混很多年。",
+    "words": [
+      {
+        "en": "can",
+        "pos": "modal",
+        "zh": "能；可以",
+        "example": "She can swim very well.",
+        "more": "能力、許可 · ✗ She cans · ✗ can to swim"
+      },
+      {
+        "en": "could",
+        "pos": "modal",
+        "zh": "能夠（過去）；可以（客氣）",
+        "example": "Could you help me for a second?",
+        "more": "過去的能力，或客氣的請求（第 20 週的禮貌階梯）"
+      },
+      {
+        "en": "should",
+        "pos": "modal",
+        "zh": "應該",
+        "example": "You should drink more water.",
+        "more": "建議 · 不是命令"
+      },
+      {
+        "en": "must",
+        "pos": "modal",
+        "zh": "必須；一定是",
+        "example": "You must wear a helmet. / She must be tired.",
+        "more": "兩個意思：義務、以及推論（一定是）"
+      },
+      {
+        "en": "have to",
+        "pos": "phr.",
+        "zh": "必須（外在規定）",
+        "example": "I have to wear a uniform at school.",
+        "more": "唯一會變化的：he has to · 過去式 had to"
+      },
+      {
+        "en": "might",
+        "pos": "modal",
+        "zh": "可能",
+        "example": "It might rain later.",
+        "more": "機率低於 will · might 沒有過去式變化"
+      },
+      {
+        "en": "may",
+        "pos": "modal",
+        "zh": "可以（正式許可）；可能",
+        "example": "May I come in?",
+        "more": "比 can 正式 · 考場、正式場合常見"
+      },
+      {
+        "en": "ought to",
+        "pos": "modal",
+        "zh": "應該",
+        "example": "We ought to leave now.",
+        "more": "≈ should 但更正式 · 唯一帶 to 的情態動詞"
+      }
+    ],
+    "practice": [
+      {
+        "title_en": "The trap · two mechanical rules",
+        "title_zh": "陷阱・兩條機械規則",
+        "note_en": "Chinese verbs never change, so students add -s to modals by over-correcting, and add 'to' because every other verb pattern seems to want one. Neither is ever right (except ought to). Write both rules on the board and point at them.",
+        "note_zh": "中文動詞從不變化，所以學生會因為「矯枉過正」給情態動詞加 -s，又因為其他動詞句型都要 to 而加了 to。兩者都不對（ought to 除外）。兩條規則寫上白板，出錯就指。",
+        "items": [
+          "① 不加 -s：✗ He cans swim. ✗ She musts go. ✓ He can swim. ✓ She must go.",
+          "② 不加 to：✗ I must to go. ✗ You should to rest. ✓ I must go. ✓ You should rest.",
+          "例外只有一個：ought to（本來就帶 to）",
+          "Your turn — fix this: ✗ My sister cans speak Japanese and she musts practice every day."
+        ]
+      },
+      {
+        "title_en": "mustn't or don't have to?",
+        "title_zh": "mustn't 還是 don't have to？",
+        "note_en": "Chinese does not separate these clearly, and the two English meanings are opposites. One forbids, one releases. Get this wrong on a school rule and the sentence says the opposite of what you meant.",
+        "note_zh": "中文不太分這兩個，但英文的兩個意思是相反的：一個是禁止，一個是解除。學校規定寫錯這個，整句意思就反了。",
+        "items": [
+          "You mustn't use your phone in class. = 禁止（不可以）",
+          "You don't have to bring lunch on Friday. = 不必（可以，但不需要）",
+          "Your turn — choose: You ______ be late for the exam.",
+          "Your turn — choose: You ______ wear a uniform on Sports Day. (那天可以穿便服)"
+        ]
+      },
+      {
+        "title_en": "Advice Hotline · the callers",
+        "title_zh": "煩惱諮詢專線・來電者",
+        "note_en": "Dom's activity needs problems, so here are six callers. Teams answer as the hotline and must use a different modal each time. Points for the most natural answer, not the most grammatical.",
+        "note_zh": "Dom 的活動需要問題，這裡備了六位來電者。各組扮演專線回答，每次要用不同的情態動詞。最自然的答案得分，不是最文法正確的。",
+        "items": [
+          "\"My cat sleeps on my homework and I can't move her.\"",
+          "\"I forgot my best friend's birthday. Yesterday.\"",
+          "\"My little brother copies everything I say.\"",
+          "\"I have a test tomorrow and I haven't started.\"",
+          "\"I told my teacher I was sick, but she saw me at the night market.\"",
+          "\"My neighbour's rooster wakes me at 4 a.m. every day.\""
+        ]
+      },
+      {
+        "title_en": "Exit ticket · one rule, one piece of advice",
+        "title_zh": "出場券・一條規定，一個建議",
+        "note_en": "Dom's homework is a Student Survival Guide. Write the first two lines here — one thing that is forbidden, one thing that is merely a good idea.",
+        "note_zh": "Dom 的作業是學生生存指南。在這裡先寫兩行——一件被禁止的事，一件只是建議的事。",
+        "items": [
+          "At our school you mustn't ______ .",
+          "But you should ______ ."
+        ]
+      }
+    ]
+  },
+  "30": {
+    "prep_en": "No preparation needed. Chinese compares with 比 and adds 更 for emphasis — 更高. Students translate both halves and produce 'more taller'. One rule stops it: English marks the comparison once, either with -er or with more, never both.",
+    "prep_zh": "不必備課。中文用「比」比較，再用「更」加強——「更高」。學生兩半都翻，就寫出 more taller。一條規則就擋住：英文只標記一次，要嘛 -er 要嘛 more，不能兩個都來。",
+    "words": [
+      {
+        "en": "bigger",
+        "pos": "adj.",
+        "zh": "更大的",
+        "example": "Taichung is bigger than Changhua.",
+        "more": "短字加 -er · big → bigger（雙寫 g）"
+      },
+      {
+        "en": "more interesting",
+        "pos": "phr.",
+        "zh": "更有趣的",
+        "example": "This book is more interesting than the film.",
+        "more": "長字（三音節以上）用 more · ✗ interestinger"
+      },
+      {
+        "en": "less expensive",
+        "pos": "phr.",
+        "zh": "比較便宜的",
+        "example": "Night market food is less expensive than restaurant food.",
+        "more": "less = 反方向的 more · 也可以說 cheaper"
+      },
+      {
+        "en": "better",
+        "pos": "adj.",
+        "zh": "更好的",
+        "example": "Her English is better than mine.",
+        "more": "不規則！good → better → the best · ✗ gooder"
+      },
+      {
+        "en": "worse",
+        "pos": "adj.",
+        "zh": "更糟的",
+        "example": "The traffic is worse on Fridays.",
+        "more": "不規則！bad → worse → the worst · ✗ badder"
+      },
+      {
+        "en": "the best",
+        "pos": "adj.",
+        "zh": "最好的",
+        "example": "That is the best beef noodle soup in Changhua.",
+        "more": "最高級前面一定要 the"
+      },
+      {
+        "en": "the most",
+        "pos": "adj.",
+        "zh": "最…",
+        "example": "It was the most exciting game of the season.",
+        "more": "長字的最高級 · the most + 形容詞"
+      }
+    ],
+    "practice": [
+      {
+        "title_en": "The trap · mark it once, not twice",
+        "title_zh": "陷阱・只標記一次",
+        "note_en": "「更高」has two pieces and English has one. Translating both gives 'more taller', which is the single most common comparative error in Taiwan. Say the rule out loud: -er OR more, never both.",
+        "note_zh": "「更高」有兩個零件，英文只有一個。兩個都翻就變成 more taller——這是台灣最常見的比較級錯誤。把規則唸出來：-er 或 more，不能兩個都要。",
+        "items": [
+          "✗ more taller　✗ more bigger　✗ most easiest",
+          "✓ taller　✓ bigger　✓ the easiest",
+          "短字（1–2 音節）→ -er / -est：tall, big, easy, happy",
+          "長字（3 音節以上）→ more / the most：interesting, expensive, beautiful",
+          "Your turn — fix this: ✗ This test was more easier than the last one."
+        ]
+      },
+      {
+        "title_en": "than, as … as, and 越來越",
+        "title_zh": "than、as…as，以及「越來越」",
+        "note_en": "Three patterns, and the third one has no obvious English shape at all. 越來越 becomes a doubled comparative, which students never guess on their own.",
+        "note_zh": "三個句型，第三個在英文裡根本沒有明顯的對應形狀。「越來越」要變成重複的比較級，學生自己絕對猜不到。",
+        "items": [
+          "A 比 B → A is ______er than B.　(✗ than I ✓ than me，口語)",
+          "A 跟 B 一樣 → A is as tall as B.　(中間放原形，不是比較級)",
+          "越來越熱 → It's getting hotter and hotter.",
+          "越來越有趣 → It's getting more and more interesting.",
+          "Your turn: 天氣越來越冷。→ ______"
+        ]
+      },
+      {
+        "title_en": "Taiwan vs. USA · compare respectfully",
+        "title_zh": "台灣對美國・尊重地比較",
+        "note_en": "Dom's challenge, with her word 'respectfully' taken seriously. Comparison is not ranking. Require every pair to include one thing each side does better — that rule alone raises the quality of the English.",
+        "note_zh": "Dom 的挑戰，而且認真看待她寫的「尊重地」。比較不是排名。規定每一組都要寫出雙方各自更好的一件事——光這條規則就會把英文的品質拉高。",
+        "items": [
+          "Food: ______ is more ______ than ______ , but ______ .",
+          "Transportation: ______",
+          "School life: ______",
+          "Weather: ______",
+          "Rule: no sentence may say one country is simply 'better'."
+        ]
+      },
+      {
+        "title_en": "Exit ticket · two things you know well",
+        "title_zh": "出場券・兩個你很熟的東西",
+        "note_en": "Two comparisons about things the student actually knows — one short adjective, one long one. Both marked once.",
+        "note_zh": "寫兩句學生真的熟悉的東西的比較——一個短形容詞、一個長形容詞。兩句都只能標記一次。",
+        "items": [
+          "______ is ______er than ______ .",
+          "______ is more ______ than ______ ."
+        ]
+      }
+    ]
+  },
+  "31": {
+    "prep_en": "No preparation needed, and there is one error to hunt all lesson: will after if. Chinese says 如果明天會下雨 with 會 sitting right there in the if-half, so students carry it across. English forbids it. If-half present, other half will — say it as a chant.",
+    "prep_zh": "不必備課，整堂課只獵一個錯：if 後面的 will。中文說「如果明天會下雨」，那個「會」就在 if 那半裡，學生會直接搬過去。英文不准。if 那半用現在式，另一半用 will——當口訣唸。",
+    "words": [
+      {
+        "en": "if",
+        "pos": "conj.",
+        "zh": "如果",
+        "example": "If it rains, we will stay home.",
+        "more": "if 那一半不用 will · 這是整週的重點"
+      },
+      {
+        "en": "unless",
+        "pos": "conj.",
+        "zh": "除非；如果不",
+        "example": "We'll go unless it rains.",
+        "more": "= if not · 後面不要再加 not"
+      },
+      {
+        "en": "as long as",
+        "pos": "phr.",
+        "zh": "只要",
+        "example": "You can borrow it as long as you return it.",
+        "more": "條件式的另一種說法"
+      },
+      {
+        "en": "imagine",
+        "pos": "v.",
+        "zh": "想像",
+        "example": "Imagine you could fly anywhere.",
+        "more": "帶出第二條件句的好工具"
+      },
+      {
+        "en": "would",
+        "pos": "modal",
+        "zh": "就會（假設）",
+        "example": "If I had more time, I would learn the guitar.",
+        "more": "第二條件句的主句 · would + 原形"
+      },
+      {
+        "en": "could",
+        "pos": "modal",
+        "zh": "就能（假設）",
+        "example": "If I lived in Taipei, I could take the MRT every day.",
+        "more": "比 would 弱一點：有可能、辦得到"
+      },
+      {
+        "en": "might",
+        "pos": "modal",
+        "zh": "可能會（假設）",
+        "example": "If we left now, we might catch the train.",
+        "more": "最不確定的那一個"
+      }
+    ],
+    "practice": [
+      {
+        "title_en": "The trap · no 'will' after if",
+        "title_zh": "陷阱・if 後面不放 will",
+        "note_en": "The single most persistent conditional error among Chinese speakers, and it comes straight from 會 sitting inside the if-half. English puts the future meaning in only one half of the sentence. Chant it: if-half present, other half will.",
+        "note_zh": "中文母語者最頑固的條件句錯誤，來源就是「會」待在 if 那半裡。英文只在其中一半放未來的意思。當口訣唸：if 那半現在式，另一半 will。",
+        "items": [
+          "如果明天會下雨，我就待在家。",
+          "✗ If it will rain tomorrow, I will stay home.",
+          "✓ If it rains tomorrow, I will stay home.",
+          "Your turn — fix this: ✗ If you will come early, we will have more time.",
+          "Your turn — fix this: ✗ I will call you if I will arrive late."
+        ]
+      },
+      {
+        "title_en": "Three conditionals, three distances",
+        "title_zh": "三種條件句，三種距離",
+        "note_en": "Not three grammar rules — three degrees of how real it is. Chinese marks none of this, so give students the question to ask: is this always true, might it happen, or is it just imagination?",
+        "note_zh": "這不是三條文法規則，是三種「有多真實」的程度。中文完全不標記，所以給學生一個可以問的問題：這是永遠成立、可能發生，還是純粹想像？",
+        "items": [
+          "永遠成立（零條件）→ If you heat water to 100°C, it boils.",
+          "可能發生（第一條件）→ If I finish early, I will call you.",
+          "純粹想像（第二條件）→ If I were a bird, I would fly to Japan.",
+          "注意第二條件句往回退一格：had（不是 have）· were（不是 was）· would（不是 will）",
+          "Your turn — choose: If I ______ (am / were) the principal, I would cancel Monday."
+        ]
+      },
+      {
+        "title_en": "What Would You Do? · twelve scenarios",
+        "title_zh": "你會怎麼做？・十二個情境",
+        "note_en": "Dom's activity. Read one out; students must answer in a full second conditional, not just a phrase. The silly ones loosen the class and the serious ones are where the good English appears.",
+        "note_zh": "Dom 的活動。唸出一個情境，學生要用完整的第二條件句回答，不能只講詞組。荒謬的題目讓氣氛鬆開，正經的題目才會長出好英文。",
+        "items": [
+          "…you found a wallet with NT$10,000 in it?",
+          "…you could speak every language in the world?",
+          "…you woke up as your English teacher?",
+          "…you could change one rule at this school?",
+          "…you had to live in another country for a year?",
+          "…your phone disappeared for a month?",
+          "…you could have dinner with anyone in history?",
+          "…you saw your friend cheating on a test?"
+        ]
+      },
+      {
+        "title_en": "Exit ticket · one real, one imaginary",
+        "title_zh": "出場券・一句真實，一句想像",
+        "note_en": "Two sentences. The first must be something that could genuinely happen this week; the second must be impossible.",
+        "note_zh": "兩句話。第一句要是這禮拜真的可能發生的事，第二句要是不可能的事。",
+        "items": [
+          "If ______ , I will ______ .",
+          "If I ______ , I would ______ ."
+        ]
+      }
+    ]
+  },
+  "32": {
+    "prep_en": "No preparation needed, but know this before you teach: 被 in Chinese usually means something bad happened to you — 被騙, 被罵. English passive carries no such feeling. It is neutral, and it is everywhere in signs, science and news. Students avoid it because it feels like complaining.",
+    "prep_zh": "不必備課，但教之前要知道一件事：中文的「被」通常代表倒楣事——被騙、被罵。英文的被動語態沒有這種感覺，它是中性的，而且在告示、科學、新聞裡到處都是。學生會避開它，因為那感覺像在抱怨。",
+    "words": [
+      {
+        "en": "was made",
+        "pos": "v.",
+        "zh": "被製造",
+        "example": "This bowl was made in Yingge.",
+        "more": "be + 第三態 · 第 9 週的三態在這裡派上用場"
+      },
+      {
+        "en": "was invented",
+        "pos": "v.",
+        "zh": "被發明",
+        "example": "The bubble tea was invented in Taichung.",
+        "more": "invent → invented · invention (n.)"
+      },
+      {
+        "en": "was built",
+        "pos": "v.",
+        "zh": "被建造",
+        "example": "This temple was built over 200 years ago.",
+        "more": "build → built → built"
+      },
+      {
+        "en": "was discovered",
+        "pos": "v.",
+        "zh": "被發現",
+        "example": "The hot spring was discovered by accident.",
+        "more": "discover → discovered（第 1 週的字）"
+      },
+      {
+        "en": "produced",
+        "pos": "v.",
+        "zh": "生產",
+        "example": "Most of Taiwan's oysters are produced along this coast.",
+        "more": "are produced（現在被動）· production (n.)"
+      },
+      {
+        "en": "designed",
+        "pos": "v.",
+        "zh": "設計",
+        "example": "The logo was designed by a student.",
+        "more": "by + 人：真的需要講是誰的時候才加"
+      }
+    ],
+    "practice": [
+      {
+        "title_en": "The trap · English passive is not 被",
+        "title_zh": "陷阱・英文的被動不等於「被」",
+        "note_en": "Chinese 被 carries bad news, so students feel the passive is negative and avoid it. But almost every sign, label and science sentence in English is passive, and none of them is complaining. Show neutral examples until the feeling wears off.",
+        "note_zh": "中文的「被」帶著壞消息，所以學生覺得被動語態是負面的，能避就避。但英文的告示、標籤、科學句子幾乎都是被動，沒有一句在抱怨。多看幾個中性的例子，那種感覺就會退掉。",
+        "items": [
+          "中文的「被」：他被騙了。他被罵了。　← 都是壞事",
+          "英文的被動（完全中性）：Bubble tea was invented in Taichung.",
+          "English is spoken here. · The museum was built in 1908. · Breakfast is served until ten.",
+          "中文表達這些時不用「被」：珍珠奶茶「是在台中發明的」",
+          "So: 不要問「這句有沒有被」，要問「重點是動作還是做的人」。"
+        ]
+      },
+      {
+        "title_en": "When to turn it around",
+        "title_zh": "什麼時候要反過來寫",
+        "note_en": "The passive is a choice about what goes first. Put the important thing at the front of the sentence. Four situations cover nearly every real use.",
+        "note_zh": "被動語態是在選擇「什麼先出場」。把重要的東西放句首。四種情況涵蓋幾乎所有真實用法。",
+        "items": [
+          "① 不知道是誰做的：My bicycle was stolen last night.",
+          "② 誰做的不重要：The road is being repaired.",
+          "③ 大家都知道是誰做的：He was arrested yesterday.（警察，不必說）",
+          "④ 重點是東西本身：This temple was built in 1738.",
+          "Your turn — which reason? \"English is taught in every school in Taiwan.\""
+        ]
+      },
+      {
+        "title_en": "Mystery Object · how was it made?",
+        "title_zh": "神秘物件・它是怎麼來的？",
+        "note_en": "Dom's activity. Hold up an everyday object; teams guess its story entirely in the passive. Wrong answers are fine — the sentences are the point, not the facts.",
+        "note_zh": "Dom 的活動。舉起一個日常物品，各組全部用被動語態猜它的來歷。猜錯沒關係——重點是句子，不是事實。",
+        "items": [
+          "Objects: a plastic straw · a pencil · a school uniform · a rice cooker · a face mask · a baseball",
+          "Frame: It is made of ______ . It was probably made in ______ .",
+          "It was invented about ______ years ago. It is used for ______ .",
+          "Bonus: Was it designed by one person or by a company?"
+        ]
+      },
+      {
+        "title_en": "Exit ticket · turn it around",
+        "title_zh": "出場券・把它翻過來",
+        "note_en": "One active sentence rewritten as passive, plus the reason for the change. The reason is the harder half.",
+        "note_zh": "把一句主動句改寫成被動，並說明為什麼要改。說明理由才是難的那一半。",
+        "items": [
+          "Active: Someone broke the window last night.",
+          "Passive: ______",
+          "Why passive? ______"
+        ]
+      }
+    ]
+  },
+  "33": {
+    "prep_en": "No preparation needed, but this is the week with the biggest structural flip of the year. Chinese puts the description BEFORE the noun — 穿紅衣服的女孩. English puts it AFTER — the girl who is wearing red. Everything else this week is detail; that flip is the lesson.",
+    "prep_zh": "不必備課，但這是整年結構翻轉最大的一週。中文把描述放在名詞「前面」——穿紅衣服的女孩。英文放在「後面」——the girl who is wearing red。這週其餘都是細節，那個翻轉才是課。",
+    "words": [
+      {
+        "en": "who",
+        "pos": "pron.",
+        "zh": "（用於人）",
+        "example": "The teacher who taught me English moved to Taipei.",
+        "more": "人 · 也可以用 that"
+      },
+      {
+        "en": "which",
+        "pos": "pron.",
+        "zh": "（用於事物）",
+        "example": "The bus which goes to Lukang leaves at nine.",
+        "more": "事物 · 也可以用 that"
+      },
+      {
+        "en": "that",
+        "pos": "pron.",
+        "zh": "（人或物都可以）",
+        "example": "This is the restaurant that my father likes.",
+        "more": "最通用 · 口語中最常出現"
+      },
+      {
+        "en": "where",
+        "pos": "pron.",
+        "zh": "（用於地點）",
+        "example": "That is the park where we met.",
+        "more": "地點 · 後面接完整句子"
+      },
+      {
+        "en": "whose",
+        "pos": "pron.",
+        "zh": "（表示所屬）",
+        "example": "The student whose bag was lost is waiting outside.",
+        "more": "誰的 · who's（who is）不一樣，別混"
+      },
+      {
+        "en": "person",
+        "pos": "n.",
+        "zh": "人",
+        "example": "She is the person who organized everything.",
+        "more": "複數用 people"
+      },
+      {
+        "en": "place",
+        "pos": "n.",
+        "zh": "地方",
+        "example": "Beidou is the place where I grew up.",
+        "more": "place + where"
+      },
+      {
+        "en": "thing",
+        "pos": "n.",
+        "zh": "東西",
+        "example": "The thing that surprised me was the price.",
+        "more": "thing + that"
+      },
+      {
+        "en": "reason",
+        "pos": "n.",
+        "zh": "原因",
+        "example": "That is the reason why I was late.",
+        "more": "reason + why"
+      }
+    ],
+    "practice": [
+      {
+        "title_en": "The trap · English describes from behind",
+        "title_zh": "陷阱・英文從後面描述",
+        "note_en": "This is the biggest word-order difference of the whole year. Chinese loads the description in front of the noun and ends with 的. English names the thing first, then adds the description behind it. Draw an arrow on the board pointing backwards in Chinese and forwards in English.",
+        "note_zh": "這是整年最大的語序差異。中文把描述堆在名詞前面，用「的」收尾；英文先講那個東西，再把描述接在後面。在白板上畫兩支箭：中文往前指，英文往後指。",
+        "items": [
+          "穿紅衣服的女孩　→　描述在前，名詞在後",
+          "✗ the wearing red clothes girl",
+          "✓ the girl who is wearing red　→　名詞在前，描述在後",
+          "昨天我遇到的那個男生 → ✓ the boy that I met yesterday",
+          "Your turn: 那家我媽很喜歡的麵店 → ______"
+        ]
+      },
+      {
+        "title_en": "The second trap · do not say it twice",
+        "title_zh": "第二個陷阱・不要講兩次",
+        "note_en": "Chinese repeats the noun inside the description — 我昨天遇到他的那個男生. English uses the relative pronoun instead of the second mention, so the pronoun must go. This one survives for years unless it is named.",
+        "note_zh": "中文會在描述裡把那個人再講一次——「我昨天遇到『他』的那個男生」。英文用關係代名詞取代第二次出現，所以那個代名詞必須刪掉。不特別點出來，這個錯會跟著學生很多年。",
+        "items": [
+          "✗ The boy who I met him yesterday is my cousin.",
+          "✓ The boy who I met yesterday is my cousin.",
+          "✗ The book which I bought it last week is missing.",
+          "✓ The book which I bought last week is missing.",
+          "Your turn — fix this: ✗ The restaurant that we ate there was very cheap."
+        ]
+      },
+      {
+        "title_en": "Sentence Surgery · combine them",
+        "title_zh": "句子手術・接起來",
+        "note_en": "Dom's activity. Two short sentences go in, one stronger sentence comes out. Do the first together, then let teams race. Her homework asks for twelve pairs, so this is the rehearsal.",
+        "note_zh": "Dom 的活動。兩個短句進去，一個更有力的句子出來。第一題一起做，之後各組競賽。她的作業要十二組，這裡是彩排。",
+        "items": [
+          "I have a friend. She lives in Kaohsiung. → I have a friend who lives in Kaohsiung.",
+          "This is the temple. My grandmother goes there every morning. → ______",
+          "I lost the umbrella. My father gave it to me. → ______",
+          "That is the student. Her painting won the prize. → ______",
+          "We watched a film. It was three hours long. → ______",
+          "That is the reason. I could not come yesterday. → ______"
+        ]
+      },
+      {
+        "title_en": "Exit ticket · one person, one place",
+        "title_zh": "出場券・一個人，一個地方",
+        "note_en": "Two sentences, each with a relative clause, both about things the student actually knows. No repeated pronoun inside the clause.",
+        "note_zh": "兩句話，各含一個關係子句，而且都要是學生真的知道的人事物。子句裡不可以出現重複的代名詞。",
+        "items": [
+          "My favourite teacher is someone who ______ .",
+          "______ is the place where ______ ."
+        ]
+      }
+    ]
   }
 }

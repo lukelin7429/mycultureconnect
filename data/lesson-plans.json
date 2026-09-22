@@ -1317,37 +1317,292 @@
       "n": 28,
       "unit": 6,
       "title": "Future Forms: Plans, Predictions & Promises",
-      "date": "Saturday, March 27, 2027"
+      "date": "Saturday, March 27, 2027",
+      "language_target": "will, be going to, present continuous for arrangements.",
+      "vocabulary": [
+        "plan",
+        "predict",
+        "promise",
+        "probably",
+        "definitely",
+        "tomorrow",
+        "next",
+        "later"
+      ],
+      "taiwan_connection": "Future focus: predictions can include school, sports, technology, travel, or 'my life in 2030.'",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "will, be going to, present continuous for arrangements."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "Future Forecast: students predict classmates' futures, then create a ridiculous '2030 news report.'"
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: future-tech clip.",
+      "homework": "Write 9 future sentences: 3 plans, 3 predictions, 3 promises/decisions.",
+      "cefr": "A1: will/basic plans. A2: going to. B1: contrast forms. B2+: spontaneous vs planned meaning. C1/C2: nuanced prediction.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 29."
     },
     {
       "n": 29,
       "unit": 6,
       "title": "Modal Verbs: Can, Could, Should, Must, Might",
-      "date": "Saturday, April 3, 2027"
+      "date": "Saturday, April 3, 2027",
+      "language_target": "Ability, permission, advice, obligation, possibility.",
+      "vocabulary": [
+        "can",
+        "could",
+        "should",
+        "must",
+        "have to",
+        "might",
+        "may",
+        "ought to"
+      ],
+      "taiwan_connection": "School rules: compare what students can, should, must, and mustn't do at school and at home.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Ability, permission, advice, obligation, possibility."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "Advice Hotline: students solve funny problems using different modals; points for the most natural answer."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: school rules or advice clip.",
+      "homework": "Create a 'Student Survival Guide' with 10 rules/advice sentences using at least 5 modals.",
+      "cefr": "A1: can/can't. A2: should/must. B1: possibility. B2+: subtle differences. C1/C2: hedging and tone.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 30."
     },
     {
       "n": 30,
       "unit": 6,
       "title": "Comparatives & Superlatives",
-      "date": "Saturday, April 10, 2027"
+      "date": "Saturday, April 10, 2027",
+      "language_target": "Comparing people, places, food, sports, objects.",
+      "vocabulary": [
+        "bigger",
+        "more interesting",
+        "less expensive",
+        "better",
+        "worse",
+        "the best",
+        "the most"
+      ],
+      "taiwan_connection": "Sports + food comparison: students compare two athletes, sports, foods, restaurants, or cities.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Comparing people, places, food, sports, objects."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "Taiwan vs. USA Challenge: compare food, weather, cities, sports, school life, and transportation respectfully."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: sports or travel comparison video.",
+      "homework": "Write 12 comparisons, including 3 about Taiwan and 3 about the USA.",
+      "cefr": "A1: short comparative sentences. A2: more/less. B1: multiple reasons. B2+: nuanced comparison. C1/C2: balanced argument.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 31."
     },
     {
       "n": 31,
       "unit": 6,
       "title": "Conditionals: If This, Then That",
-      "date": "Saturday, April 17, 2027"
+      "date": "Saturday, April 17, 2027",
+      "language_target": "Zero/first/second conditional; cause and effect.",
+      "vocabulary": [
+        "if",
+        "unless",
+        "as long as",
+        "imagine",
+        "would",
+        "could",
+        "might"
+      ],
+      "taiwan_connection": "Spring imagination: 'If I could...' scenarios can include teleportation, superpowers, travel, or changing one school rule.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Zero/first/second conditional; cause and effect."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "What Would You Do? survival, school, travel, friendship, and silly hypothetical scenarios."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: game-show hypothetical questions.",
+      "homework": "Write 10 conditional sentences: 3 facts, 3 real possibilities, 4 imaginary situations.",
+      "cefr": "A1: sentence frames. A2: first conditional. B1: second conditional. B2+: mixed nuance. C1/C2: hypothetical argument.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 32."
     },
     {
       "n": 32,
       "unit": 6,
       "title": "Passive Voice: Who Did It?",
-      "date": "Saturday, April 24, 2027"
+      "date": "Saturday, April 24, 2027",
+      "language_target": "Active vs. passive voice; when the action matters more than the actor.",
+      "vocabulary": [
+        "was made",
+        "was invented",
+        "was built",
+        "was discovered",
+        "produced",
+        "designed"
+      ],
+      "taiwan_connection": "Everyday objects: kitchen tools, school supplies, phones, clothing, and snacks make excellent passive-voice examples.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Active vs. passive voice; when the action matters more than the actor."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "Mystery Object: students guess how everyday objects are made/invented using passive sentences."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: manufacturing, food, or science clip.",
+      "homework": "Write 8 active sentences and transform them into passive sentences; add 3 original passive sentences.",
+      "cefr": "A1: recognize was/were + participle. A2: transform simple sentences. B1: use passive naturally. B2+: explain why. C1/C2: register and information focus.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 33."
     },
     {
       "n": 33,
       "unit": 6,
       "title": "Relative Clauses: The English That Connects Ideas",
-      "date": "Saturday, May 1, 2027"
+      "date": "Saturday, May 1, 2027",
+      "language_target": "who, which, that, where; combining sentences.",
+      "vocabulary": [
+        "who",
+        "which",
+        "that",
+        "where",
+        "whose",
+        "person",
+        "place",
+        "thing",
+        "reason"
+      ],
+      "taiwan_connection": "House + school connection: describe 'the room that...', 'the teacher who...', 'the food that...'.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "who, which, that, where; combining sentences."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "Sentence Surgery: combine short sentences into stronger, more interesting ones."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: a 'guess the person/place/object' clip.",
+      "homework": "Combine 12 pairs of simple sentences using relative clauses, then write 5 original examples.",
+      "cefr": "A1: recognize who/that. A2: combine simple ideas. B1: use who/which/where. B2+: whose/non-defining. C1/C2: stylistic control.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 34."
     },
     {
       "n": 34,
