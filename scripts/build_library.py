@@ -716,7 +716,7 @@ def week_page(d, w, prev_w, next_w, pack=None):
         <p>{e(w["media"])}</p>
       </div>
       <div class="wk-card" data-reveal>
-        <p class="wk-label">Homework<small>回家作業 · due next week</small></p>
+        <p class="wk-label">Homework<small>回家作業{" · due next week" if next_w else ""}</small></p>
         <p>{e(w["homework"])}</p>
       </div>
     </div>

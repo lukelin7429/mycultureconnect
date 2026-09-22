@@ -25,7 +25,7 @@
   ],
   "principle_note_en": "Every week runs on the same routine, so the routine can be predictable and the learning can be creative.",
   "principle_note_zh": "每一週都走同一套流程——流程可預期，學習才有餘裕發揮創意。",
-  "status": "preparing",
+  "status": "complete",
   "status_note_en": "The full plan for each week is going live one week at a time. Every week's title is already listed, so you can see the shape of the year.",
   "status_note_zh": "每週的完整教案逐週上線；46 週的標題已全部列出，先看得到整年的輪廓。",
   "weeks": [
@@ -1950,37 +1950,270 @@
       "n": 41,
       "unit": 8,
       "title": "Final Movie: Watch & Track the Story",
-      "date": "Saturday, June 26, 2027"
+      "date": "Saturday, June 26, 2027",
+      "language_target": "Integrated listening, vocabulary, narrative structure.",
+      "vocabulary": [
+        "review + 10 movie-specific power words"
+      ],
+      "taiwan_connection": "End-of-year countdown: students track their movie vocabulary and grammar like professional language detectives.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Integrated listening, vocabulary, narrative structure."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "Movie Mission: students track setting, character, problem, important vocabulary, and one surprising moment."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: selected scenes for group discussion.",
+      "homework": "Finish the movie if needed. Complete a 10-word vocabulary log and a 150-word plot summary (adjust by level).",
+      "cefr": "A1: labeled notes + simple sentences. A2: short summary. B1: organized paragraph. B2+: detailed summary. C1/C2: concise critical synopsis.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 42."
     },
     {
       "n": 42,
       "unit": 8,
       "title": "Final Movie: Vocabulary Detective",
-      "date": "Saturday, July 3, 2027"
+      "date": "Saturday, July 3, 2027",
+      "language_target": "Context clues, synonyms, antonyms, word families from authentic media.",
+      "vocabulary": [
+        "10–15 student-selected words from the movie"
+      ],
+      "taiwan_connection": "Vocabulary showcase: encourage students to choose words they genuinely want to remember and use.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Context clues, synonyms, antonyms, word families from authentic media."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "Vocabulary Detective Lab: students infer meanings from scenes, then verify and build word families/synonyms."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: replay 2–3 short scenes containing target vocabulary.",
+      "homework": "Create a Movie Vocabulary Poster/Page with 12 words: definition, Chinese meaning, synonym, antonym, sentence.",
+      "cefr": "A1: picture + definition. A2: sentence. B1: synonym/antonym. B2+: context and word family. C1/C2: connotation/register.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 43."
     },
     {
       "n": 43,
       "unit": 8,
       "title": "Final Movie: Grammar Hunt",
-      "date": "Saturday, July 10, 2027"
+      "date": "Saturday, July 10, 2027",
+      "language_target": "Find real examples of tenses, modals, conditionals, passive voice, and participles.",
+      "vocabulary": [
+        "tense",
+        "modal",
+        "conditional",
+        "passive",
+        "participle",
+        "expression"
+      ],
+      "taiwan_connection": "Grammar in the wild: remind students that real English is the source; the grammar label comes second.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Find real examples of tenses, modals, conditionals, passive voice, and participles."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "Grammar CSI: students become detectives and hunt for real English examples in the movie."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: replay short dialogue scenes and pause to label structures.",
+      "homework": "Find 10 grammar examples from the movie and label the structure + explain why it was used.",
+      "cefr": "A1: identify basic tense. A2: label simple structures. B1: explain common structures. B2+: analyze choices. C1/C2: discuss effect/register.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 44."
     },
     {
       "n": 44,
       "unit": 8,
       "title": "Final Movie: Character, Theme & Opinion",
-      "date": "Saturday, July 17, 2027"
+      "date": "Saturday, July 17, 2027",
+      "language_target": "Speaking, evidence, opinion, recommendation.",
+      "vocabulary": [
+        "theme",
+        "personality",
+        "motive",
+        "evidence",
+        "meaningful",
+        "entertaining",
+        "recommend",
+        "memorable"
+      ],
+      "taiwan_connection": "Red-carpet preparation: practice speaking with confidence, eye contact/camera awareness, and clear organization.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Speaking, evidence, opinion, recommendation."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "Red Carpet Review: students 'interview' each other as critics and characters."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: awards-style interview or red-carpet clip.",
+      "homework": "Prepare a 2–3 minute final presentation: favorite character, favorite scene, message/theme, recommendation.",
+      "cefr": "A1: sentence frames. A2: 1-minute talk. B1: organized 2-minute talk. B2+: evidence + nuance. C1/C2: persuasive critique.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 45."
     },
     {
       "n": 45,
       "unit": 8,
       "title": "Final Presentations: English Premiere",
-      "date": "Saturday, July 24, 2027"
+      "date": "Saturday, July 24, 2027",
+      "language_target": "Presentation fluency, pronunciation, organization, listening.",
+      "vocabulary": [
+        "presentation",
+        "audience",
+        "confidence",
+        "clearly",
+        "interesting",
+        "recommend"
+      ],
+      "taiwan_connection": "Celebration week: use playful awards modeled loosely on school, sports, music, Emmy, and movie-award categories.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Presentation fluency, pronunciation, organization, listening."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "Movie Premiere: students present. Class gives positive awards: Best Vocabulary, Best Storyteller, Best English Speaker, Most Creative."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: opening music or short 'red carpet' intro.",
+      "homework": "No traditional homework: reflect on 5 things you can do in English now that were harder at the start of the year.",
+      "cefr": "A1: supported presentation. A2: prepared short talk. B1: independent presentation. B2+: polished delivery. C1/C2: persuasive, nuanced presentation.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 46."
     },
     {
       "n": 46,
       "unit": 8,
       "title": "THE GREAT ENGLISH CHALLENGE • Final Celebration",
-      "date": "Saturday, July 31, 2027"
+      "date": "Saturday, July 31, 2027",
+      "language_target": "Year review: vocabulary, grammar, speaking, listening, culture.",
+      "vocabulary": [
+        "student-selected 'power words' from the year"
+      ],
+      "taiwan_connection": "Summer bridge: end with a joyful review and a simple summer English mission so the break does not erase the year's progress.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Year review: vocabulary, grammar, speaking, listening, culture."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "Final game-show: vocabulary ladder, irregular verbs, mystery picture, synonym/antonym duel, grammar lightning round, and class superlatives."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: highlight reel of favorite class clips or student-created video messages.",
+      "homework": "Summer English Mission: choose one English movie/song/video each week during the break and keep a 20-word Summer English Journal.",
+      "cefr": "A1: celebrate core survival English. A2: show growing range. B1: demonstrate independence. B2+: precision and flexibility. C1/C2: sophistication and leadership.",
+      "next_week": "Final class complete. Begin summer break / optional Summer English Mission."
     }
   ],
   "units": [

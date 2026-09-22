@@ -4671,5 +4671,675 @@
         ]
       }
     ]
+  },
+  "41": {
+    "vocab_label_zh": "摘要工具 · 8 個句型",
+    "prep_en": "No preparation needed. The vocabulary this week is the student's own, so what follows is the toolkit for writing the summary Dom sets. One rule decides the whole homework: film summaries are written in the present tense, and almost every student will write it in the past.",
+    "prep_zh": "不必備課。這週的字彙由學生自己選，所以下面給的是寫 Dom 那份摘要的工具。有一條規則決定整份作業的成敗：電影摘要用現在式寫，而幾乎每個學生都會寫成過去式。",
+    "words": [
+      {
+        "en": "The film is set in…",
+        "pos": "phr.",
+        "zh": "這部片的背景是…",
+        "example": "The film is set in a small town in the 1980s.",
+        "more": "開場第一句 · 現在式"
+      },
+      {
+        "en": "The story follows…",
+        "pos": "phr.",
+        "zh": "故事講的是…",
+        "example": "The story follows a boy who loses his dog.",
+        "more": "接主角 · 比 It is about 好"
+      },
+      {
+        "en": "At the beginning…",
+        "pos": "phr.",
+        "zh": "一開始…",
+        "example": "At the beginning, nobody believes him.",
+        "more": "時間標記，不是時態標記"
+      },
+      {
+        "en": "Everything changes when…",
+        "pos": "phr.",
+        "zh": "轉折發生在…",
+        "example": "Everything changes when she finds the letter.",
+        "more": "衝突進場的那一句"
+      },
+      {
+        "en": "Meanwhile…",
+        "pos": "adv.",
+        "zh": "與此同時…",
+        "example": "Meanwhile, his sister is searching the other side of town.",
+        "more": "第 7、22 週學過"
+      },
+      {
+        "en": "As a result…",
+        "pos": "phr.",
+        "zh": "結果…",
+        "example": "As a result, the two families finally meet.",
+        "more": "因果 · 比 so 正式"
+      },
+      {
+        "en": "In the end…",
+        "pos": "phr.",
+        "zh": "最後…",
+        "example": "In the end, he keeps the dog.",
+        "more": "✗ At the end（那是指「在結尾處」）"
+      },
+      {
+        "en": "What makes it memorable is…",
+        "pos": "phr.",
+        "zh": "讓人難忘的是…",
+        "example": "What makes it memorable is the silence in the last scene.",
+        "more": "收尾句 · 從摘要轉向意見"
+      }
+    ],
+    "practice": [
+      {
+        "title_en": "The trap · film summaries live in the present",
+        "title_zh": "陷阱・電影摘要活在現在式",
+        "note_en": "English writes about what happens inside a story in the present tense, even for a film made forty years ago. Chinese makes no such distinction, and neither does common sense, so students write the whole summary in the past. Say the rule once, then hold them to it.",
+        "note_zh": "英文描述「故事裡發生的事」用現在式，就算那部片是四十年前拍的。中文沒有這個區分，直覺上也想不到，所以學生會整篇寫成過去式。把規則講一次，然後堅持執行。",
+        "items": [
+          "✗ A boy lost his dog and searched the whole city.",
+          "✓ A boy loses his dog and searches the whole city.",
+          "✓ The film was made in 1988.　← 講「這部片」本身，才用過去式",
+          "區分：故事裡面 → 現在式　·　拍片這件事 → 過去式",
+          "Your turn — fix this: ✗ In the end, she found her father and they went home."
+        ]
+      },
+      {
+        "title_en": "Movie English Guide · second half",
+        "title_zh": "電影英語學習單・後半",
+        "note_en": "The other half of the sheet from Week 40. Fill it straight after watching, while it is still warm — the details go first and they go fast.",
+        "note_zh": "第 40 週那張表的另一半。看完馬上填，趁記憶還熱——細節跑得最快。",
+        "items": [
+          "The problem in one sentence: ______",
+          "How it is solved: ______",
+          "The moment that surprised me: ______",
+          "One line I want to remember: \" ______ \"",
+          "Ten words from the film worth keeping: ______",
+          "Did my prediction card come true? ______"
+        ]
+      },
+      {
+        "title_en": "Summary in 150 words · the shape",
+        "title_zh": "150 字摘要・骨架",
+        "note_en": "Dom's homework is a plot summary. Give them the shape or they will retell the entire film. Five sentences, present tense, no ending spoiler unless it is needed to make sense.",
+        "note_zh": "Dom 的作業是劇情摘要。不給骨架，他們會把整部片重講一遍。五句話、現在式，除非不講結局會看不懂，否則不要爆雷。",
+        "items": [
+          "① The film is set in ______ and follows ______ .",
+          "② At the beginning, ______ .",
+          "③ Everything changes when ______ .",
+          "④ As a result, ______ .",
+          "⑤ In the end, ______ .",
+          "Rule: 五句寫完就停。寫超過的人，通常是在重講不是在摘要。"
+        ]
+      },
+      {
+        "title_en": "Exit ticket · one sentence, present tense",
+        "title_zh": "出場券・一句話，現在式",
+        "note_en": "The opening line of their summary, written before they leave. Past tense sends it back.",
+        "note_zh": "摘要的第一句，離開前寫完。寫成過去式的退回。",
+        "items": [
+          "The film is set in ______ and follows ______ ."
+        ]
+      }
+    ]
+  },
+  "42": {
+    "vocab_label_zh": "學生自選 · 推測工具 8 組",
+    "prep_en": "No preparation needed. The words are the students' own this week, so the skill is choosing and inferring rather than memorizing. Two habits to break: reaching for the dictionary at the first unknown word, and keeping words they will never meet again.",
+    "prep_zh": "不必備課。這週的字由學生自己挑，所以要練的是「怎麼挑、怎麼猜」，不是背。有兩個習慣要改：遇到第一個生字就查字典，以及留下一堆這輩子不會再遇到的字。",
+    "words": [
+      {
+        "en": "context",
+        "pos": "n.",
+        "zh": "上下文",
+        "example": "Use the context before you use a dictionary.",
+        "more": "context clue = 上下文線索"
+      },
+      {
+        "en": "infer",
+        "pos": "v.",
+        "zh": "推論",
+        "example": "We can infer that he is lying.",
+        "more": "第 37 週練過 · inference (n.)"
+      },
+      {
+        "en": "guess",
+        "pos": "v. / n.",
+        "zh": "猜測",
+        "example": "Make a guess before you check.",
+        "more": "educated guess = 有根據的猜測"
+      },
+      {
+        "en": "definition",
+        "pos": "n.",
+        "zh": "定義",
+        "example": "Write the definition in your own words.",
+        "more": "抄字典不算 · 用自己的話才記得住"
+      },
+      {
+        "en": "synonym",
+        "pos": "n.",
+        "zh": "同義詞",
+        "example": "Find one synonym for each word.",
+        "more": "第 11 週學過"
+      },
+      {
+        "en": "antonym",
+        "pos": "n.",
+        "zh": "反義詞",
+        "example": "Some words have no useful antonym.",
+        "more": "第 12 週學過"
+      },
+      {
+        "en": "word family",
+        "pos": "phr.",
+        "zh": "詞族",
+        "example": "Build the word family if the word has one.",
+        "more": "第 3 週學過"
+      },
+      {
+        "en": "useful",
+        "pos": "adj.",
+        "zh": "有用的",
+        "example": "Only keep the words that are useful to you.",
+        "more": "本週的判準就是這個字"
+      }
+    ],
+    "practice": [
+      {
+        "title_en": "Guess before you look",
+        "title_zh": "先猜再查",
+        "note_en": "Four kinds of clue, and students should try all four before opening anything. A guessed word sticks; a looked-up word evaporates by Friday.",
+        "note_zh": "四種線索，四種都試過再查。猜出來的字會留下，查出來的字禮拜五就蒸發了。",
+        "items": [
+          "① 句子裡的線索：He was so exhausted he fell asleep at the table. → exhausted ≈ ?",
+          "② 字的零件：un- / -ful / -tion（第 3、12 週）→ unbelievable 拆開看看",
+          "③ 畫面與語氣：角色的表情、聲音，已經告訴你一半",
+          "④ 前後句：下一句常常就在解釋上一句",
+          "規則：四種都試過，才可以查。"
+        ]
+      },
+      {
+        "title_en": "Which words are worth keeping?",
+        "title_zh": "哪些字值得留下來？",
+        "note_en": "Dom asks students to choose words they genuinely want to use. Give them a test, or they will collect the rarest and most useless words in the film because those felt hardest.",
+        "note_zh": "Dom 要學生挑「真的想用」的字。給他們一個判準，否則他們會收集全片最罕見最沒用的字——因為那些感覺最難。",
+        "items": [
+          "問自己：我下個月還會再遇到這個字嗎？",
+          "值得留：exhausted · figure out · disappointed · promise · deserve",
+          "不必留：swashbuckling · thou · newfangled（一輩子遇到三次）",
+          "特別值得留：片語動詞（figure out, hang out）——課本教得少，真實英文裡到處都是",
+          "Your turn: 從你的片單挑三個留、三個丟，各說一句理由。"
+        ]
+      },
+      {
+        "title_en": "Vocabulary poster · one word, five boxes",
+        "title_zh": "單字海報・一個字，五個格子",
+        "note_en": "Dom's homework is a twelve-word poster. Do one together here so the format is clear. The sentence box is the only one that proves anything — insist it is about the student's own life, not the film.",
+        "note_zh": "Dom 的作業是十二個字的海報。這裡一起做一個，格式就清楚了。只有造句那一格能證明學會了——規定句子要寫自己的生活，不是電影劇情。",
+        "items": [
+          "WORD: exhausted",
+          "Definition (自己的話): very, very tired — too tired to continue",
+          "中文: 精疲力竭的",
+          "Synonym / Antonym: worn out / energetic　(極端字，不加 very — 第 13 週)",
+          "My own sentence: After the sports day relay, I was completely exhausted.",
+          "Now do one of your own."
+        ]
+      },
+      {
+        "title_en": "Exit ticket · one word you guessed right",
+        "title_zh": "出場券・一個你猜對的字",
+        "note_en": "One word they worked out from context before checking, plus the clue that gave it away. The clue is the skill.",
+        "note_zh": "寫一個他們先從上下文猜出、之後才確認的字，再寫出是哪個線索洩漏了答案。線索才是技能。",
+        "items": [
+          "Word: ______",
+          "I guessed it because ______ ."
+        ]
+      }
+    ]
+  },
+  "43": {
+    "prep_en": "No preparation needed. This is the year's grammar review disguised as a hunt, so bring the checklist and let the film do the teaching. Dom's own note is the framing to keep: real English comes first, the label comes second.",
+    "prep_zh": "不必備課。這是偽裝成尋寶的年度文法總複習，帶著清單進教室，讓電影去教。Dom 自己寫的定位要守住：先有真實的英文，文法標籤是後來才貼上去的。",
+    "words": [
+      {
+        "en": "tense",
+        "pos": "n.",
+        "zh": "時態",
+        "example": "Which tense is used in that line?",
+        "more": "第 5–10 週"
+      },
+      {
+        "en": "modal",
+        "pos": "n.",
+        "zh": "情態動詞",
+        "example": "\"You should go\" — that is a modal.",
+        "more": "第 29 週 · can, should, must, might"
+      },
+      {
+        "en": "conditional",
+        "pos": "n.",
+        "zh": "條件句",
+        "example": "That sentence is a second conditional.",
+        "more": "第 31 週 · if…"
+      },
+      {
+        "en": "passive",
+        "pos": "n. / adj.",
+        "zh": "被動語態",
+        "example": "The passive hides who did it.",
+        "more": "第 32 週 · be + 第三態"
+      },
+      {
+        "en": "participle",
+        "pos": "n.",
+        "zh": "分詞",
+        "example": "\"Broken\" is a past participle.",
+        "more": "第 9 週 · 第三態"
+      },
+      {
+        "en": "expression",
+        "pos": "n.",
+        "zh": "說法",
+        "example": "That expression is worth stealing.",
+        "more": "第 34、37 週"
+      }
+    ],
+    "practice": [
+      {
+        "title_en": "Grammar CSI · the hunt list",
+        "title_zh": "文法鑑識・尋寶清單",
+        "note_en": "Dom's detective activity, with the evidence list and the week each structure came from. Teams score one point per find and two if they can say why the speaker chose it. Send them back to the week if they are stuck.",
+        "note_zh": "Dom 的偵探活動，附上證據清單與每個結構出自第幾週。找到一個得一分，能說出「說話的人為什麼這樣選」得兩分。卡住的時候，請他們回去看那一週。",
+        "items": [
+          "□ 現在進行式（W5）　□ 過去簡單式（W6）　□ 過去進行式（W7）",
+          "□ 現在完成式（W8）　□ 過去完成式（W26）　□ 未來式三種之一（W28）",
+          "□ 情態動詞（W29）　□ 比較級或最高級（W30）",
+          "□ 條件句（W31）　□ 被動語態（W32）　□ 關係子句（W33）",
+          "Frame: At ______ minutes, ______ says \" ______ .\" That is ______ , and it is used because ______ ."
+        ]
+      },
+      {
+        "title_en": "Why did they choose that structure?",
+        "title_zh": "為什麼選這個結構？",
+        "note_en": "The two-point half of the game, and the part that turns labelling into understanding. Every structure is a decision about what the speaker wants to put first, hide, or soften.",
+        "note_zh": "遊戲裡兩分的那一半，也是把「貼標籤」變成「懂」的關鍵。每一個結構都是一個決定：說話的人想把什麼放前面、藏起來，或講得軟一點。",
+        "items": [
+          "被動語態 → 不想說是誰做的，或那不重要（W32）",
+          "情態動詞 → 想給建議但不想命令，或不確定（W29）",
+          "過去完成式 → 要往回跳，說明更早發生的事（W26）",
+          "條件句 → 談還沒發生、或不可能發生的事（W31）",
+          "關係子句 → 把兩句話併成一句，讓語氣更成熟（W33）"
+        ]
+      },
+      {
+        "title_en": "Steal five lines",
+        "title_zh": "偷五句話",
+        "note_en": "The most practical thing in the whole week. Not grammar labels — five lines short enough to remember and general enough to reuse next Monday.",
+        "note_zh": "整週最實用的一件事。不是文法標籤，而是五句夠短、夠通用、下禮拜一就能用出來的話。",
+        "items": [
+          "Good ones sound like: \"Hang on a second.\" / \"That's not what I meant.\" / \"I'll take care of it.\"",
+          "Bad ones sound like: 只有在那部片裡才說得通的台詞",
+          "Line 1: ______　When I would use it: ______",
+          "Line 2: ______　Line 3: ______　Line 4: ______　Line 5: ______"
+        ]
+      },
+      {
+        "title_en": "Exit ticket · one piece of evidence",
+        "title_zh": "出場券・一份證據",
+        "note_en": "One line from the film, labelled, with the reason. The reason is what is being marked.",
+        "note_zh": "寫一句電影台詞、貼上標籤、附上理由。評分看的是理由。",
+        "items": [
+          "Line: \" ______ \"",
+          "Structure: ______ 　Why: ______"
+        ]
+      }
+    ]
+  },
+  "44": {
+    "prep_en": "No preparation needed, but know the habit you are fighting this week. Chinese presentations often build context first and arrive at the point near the end; English presentations state the point first and spend the rest proving it. A student who saves the best idea for last will sound unfocused to an English-speaking audience through no fault of their English.",
+    "prep_zh": "不必備課，但要知道這週在對抗什麼習慣。中文的簡報常常先鋪陳、最後才講到重點；英文的簡報先講結論，其餘時間都用來證明它。把最好的想法留到最後的學生，在英語聽眾耳裡會顯得沒有重點——那跟他的英文程度無關。",
+    "words": [
+      {
+        "en": "theme",
+        "pos": "n.",
+        "zh": "主題",
+        "example": "The theme is that family is a choice.",
+        "more": "第 40 週 · 不是劇情"
+      },
+      {
+        "en": "personality",
+        "pos": "n.",
+        "zh": "個性",
+        "example": "Her personality changes completely after the fire.",
+        "more": "第 23 週的形容詞派上用場"
+      },
+      {
+        "en": "motive",
+        "pos": "n.",
+        "zh": "動機",
+        "example": "His motive is never explained.",
+        "more": "motive 動機 · motivation 動力"
+      },
+      {
+        "en": "evidence",
+        "pos": "n.",
+        "zh": "證據",
+        "example": "What evidence is there for that?",
+        "more": "不可數（第 35 週）· 意見沒有證據就只是感覺"
+      },
+      {
+        "en": "meaningful",
+        "pos": "adj.",
+        "zh": "有意義的",
+        "example": "The most meaningful scene has almost no dialogue.",
+        "more": "meaning → meaningful"
+      },
+      {
+        "en": "entertaining",
+        "pos": "adj.",
+        "zh": "有娛樂性的",
+        "example": "It is entertaining but not very deep.",
+        "more": "-ing 形容事物（第 15 週）"
+      },
+      {
+        "en": "recommend",
+        "pos": "v.",
+        "zh": "推薦",
+        "example": "I would recommend it to anyone who likes slow films.",
+        "more": "第 20 週 · recommend it TO someone"
+      },
+      {
+        "en": "memorable",
+        "pos": "adj.",
+        "zh": "難忘的",
+        "example": "The most memorable line is the last one.",
+        "more": "第 40 週"
+      }
+    ],
+    "practice": [
+      {
+        "title_en": "The trap · put the point first",
+        "title_zh": "陷阱・結論放最前面",
+        "note_en": "This is a rhetorical difference, not a language one, and it decides how organized a student sounds. Say your opinion in the first sentence, then spend two minutes defending it. Chinese-style build-up reads as wandering in English.",
+        "note_zh": "這是修辭差異，不是語言差異，卻決定一個學生聽起來有沒有條理。第一句就把意見講完，其餘兩分鐘都拿來辯護。中文式的層層鋪陳，在英文裡會被聽成沒有重點。",
+        "items": [
+          "✗ 先講劇情五句，最後說「所以我覺得很好看」",
+          "✓ \"This is the best film I have seen this year, and here is why.\"",
+          "結構：結論 → 理由一（證據）→ 理由二（證據）→ 再說一次結論",
+          "Your turn: 用一句話講完你的意見，不准超過十五個字。"
+        ]
+      },
+      {
+        "title_en": "Opinion needs evidence",
+        "title_zh": "意見要有證據",
+        "note_en": "'I like it because it is good' is the sentence to eliminate. Every opinion must point at something that actually happened in the film — a scene, a line, a decision.",
+        "note_zh": "要消滅的句子是「我喜歡因為它很好」。每個意見都要指向電影裡真的發生過的東西——一個場景、一句台詞、一個決定。",
+        "items": [
+          "✗ I like the main character because he is good.",
+          "✓ I like the main character because he gives the money back even though nobody is watching.",
+          "Frames: The scene that proves this is ______ . / You can see this when ______ .",
+          "For example, when she ______ , it shows that ______ .",
+          "Rule: 每一個形容詞後面，都要跟一個「因為他做了什麼」。"
+        ]
+      },
+      {
+        "title_en": "Red Carpet Review · the interview",
+        "title_zh": "紅毯專訪・訪談題",
+        "note_en": "Dom's activity. One student is the critic, one is a character from the film. The critic asks; the character must stay in role and answer with evidence from the story. Swap after three minutes.",
+        "note_zh": "Dom 的活動。一個當影評、一個當片中角色。影評提問，角色要入戲，並用電影裡的事實回答。三分鐘後交換。",
+        "items": [
+          "Critic: What was going through your mind when ______ ?",
+          "Critic: Do you regret ______ ?",
+          "Critic: What would you say to ______ if you met them again?",
+          "Character: To be honest, ______ . / I had no choice because ______ .",
+          "Critic closing: Would you recommend this story to other people? Why?"
+        ]
+      },
+      {
+        "title_en": "Exit ticket · your first sentence",
+        "title_zh": "出場券・你的第一句",
+        "note_en": "The opening line of their presentation, written and timed. Fifteen words maximum — if it needs more, the opinion is not clear yet.",
+        "note_zh": "寫下簡報的第一句，並計時唸一次。最多十五個字——需要更多字，代表意見還沒想清楚。",
+        "items": [
+          "My opening line: ______",
+          "My main reason: ______"
+        ]
+      }
+    ]
+  },
+  "45": {
+    "prep_en": "No preparation needed. Dom asks for a celebration, so protect the atmosphere: no corrections during anyone's talk, and every student gets an award. One habit to stop before the first speaker starts — the apology opening. Students say 'My English is not good' out of politeness, and an English-speaking audience hears it as a fact.",
+    "prep_zh": "不必備課。Dom 要的是慶祝，所以守住氣氛：任何人講的時候都不糾正，而且每個學生都要拿到一個獎。第一位上台前要先止住一個習慣——道歉式開場。學生出於客氣說「我英文不好」，英語聽眾會把它當成事實照單全收。",
+    "words": [
+      {
+        "en": "presentation",
+        "pos": "n.",
+        "zh": "簡報",
+        "example": "Her presentation was only two minutes but it was excellent.",
+        "more": "give a presentation · ✗ do a presentation"
+      },
+      {
+        "en": "audience",
+        "pos": "n.",
+        "zh": "聽眾",
+        "example": "Look at your audience, not at your paper.",
+        "more": "第 36 週學過"
+      },
+      {
+        "en": "confidence",
+        "pos": "n.",
+        "zh": "自信",
+        "example": "Confidence comes from knowing your first sentence by heart.",
+        "more": "confident (adj.) — 第 1 週的字"
+      },
+      {
+        "en": "clearly",
+        "pos": "adv.",
+        "zh": "清楚地",
+        "example": "Speak clearly and a little slower than feels natural.",
+        "more": "clear → clearly · 緊張時會不自覺變快"
+      },
+      {
+        "en": "interesting",
+        "pos": "adj.",
+        "zh": "有趣的",
+        "example": "The most interesting part was her ending.",
+        "more": "第 19 週提醒過：單獨用會像沒意見"
+      },
+      {
+        "en": "recommend",
+        "pos": "v.",
+        "zh": "推薦",
+        "example": "I recommend it to anyone who likes mysteries.",
+        "more": "第 20、44 週"
+      }
+    ],
+    "practice": [
+      {
+        "title_en": "The trap · do not apologize for your English",
+        "title_zh": "陷阱・不要為自己的英文道歉",
+        "note_en": "In Chinese, opening with modesty is good manners. In English it is taken literally, and it tells the audience to expect something bad before a single sentence has been heard. Replace it with a real opening — the difference in how a talk lands is enormous.",
+        "note_zh": "中文裡謙虛開場是禮貌，英文裡會被照字面接收：一句話都還沒聽到，聽眾就先被告知「接下來會很糟」。換成真正的開場白——同一份簡報，效果差非常多。",
+        "items": [
+          "✗ Sorry, my English is not very good…",
+          "✗ I didn't prepare very much…",
+          "✓ Good morning. Today I want to tell you about the best film I saw this year.",
+          "✓ I'm going to talk about one character who surprised me.",
+          "規則：第一句話就進入內容。道歉留給真的犯錯的時候。"
+        ]
+      },
+      {
+        "title_en": "Three things that change everything",
+        "title_zh": "三件會改變一切的事",
+        "note_en": "Not language — delivery. These three are worth more than any extra vocabulary at this stage, and they can all be fixed in one rehearsal.",
+        "note_zh": "這三件跟語言無關，是台風。到這個階段，它們比多背單字有用得多，而且一次彩排就能修好。",
+        "items": [
+          "① 慢下來。緊張時會加速，聽眾就跟不上。刻意比自然速度再慢一點。",
+          "② 抬頭。第一句和最後一句一定要背起來，這樣頭尾都能看著人說。",
+          "③ 停頓。講完一個重點停一秒——聽起來像有把握，不是忘詞。",
+          "彩排規則：跟同學練兩次。第一次求講完，第二次求慢。"
+        ]
+      },
+      {
+        "title_en": "The audience has a job too",
+        "title_zh": "聽眾也有任務",
+        "note_en": "Without a task, the audience rehearses their own talk and hears nothing. Give every listener this card — it also guarantees that every speaker gets real feedback rather than polite silence.",
+        "note_zh": "沒有任務的聽眾只會在心裡排練自己的簡報，什麼都沒聽進去。發給每位聽眾這張卡——它也保證每位講者拿到的是真的回饋，不是客氣的沉默。",
+        "items": [
+          "One new word I heard: ______",
+          "One thing I now want to watch: ______",
+          "One question I would ask this speaker: ______",
+          "One thing they did well: ______　← 這一項一定要填"
+        ]
+      },
+      {
+        "title_en": "The awards · everyone wins one",
+        "title_zh": "獎項・每個人都有一個",
+        "note_en": "Dom names four; here are ten so that nobody is left out. Decide the allocation before the presentations start, and adjust as you listen. The rule is simple: every student leaves with an award and a reason.",
+        "note_zh": "Dom 列了四個，這裡補到十個，才不會有人落空。開始前先預排分配，邊聽邊調整。規則很簡單：每個學生都帶著一個獎和一個理由離開。",
+        "items": [
+          "Best Vocabulary · Best Storyteller · Best English Speaker · Most Creative",
+          "Best Opening Line · Best Evidence · Most Convincing Recommendation",
+          "Bravest First Time · Clearest Speaker · Best Question Asked",
+          "Frame: The award for ______ goes to ______ , because ______ ."
+        ]
+      }
+    ]
+  },
+  "46": {
+    "vocab_label_zh": "一年十句 · 學生自選 power words",
+    "prep_en": "No preparation needed — the whole game show is written out below, six rounds ready to run. This is the last page of the year, so keep one thing in reserve: Week 1 asked students to guess how many English words they knew. Ask again at the end. That comparison is the real closing ceremony.",
+    "prep_zh": "不必備課——整場遊戲節目已經寫在下面，六個回合可以直接跑。這是一年的最後一頁，所以留一手：第 1 週問過學生「你覺得你會幾個英文字」。最後再問一次。那個對照才是真正的結業式。",
+    "words": [
+      {
+        "en": "because / although",
+        "pos": "conj.",
+        "zh": "因為／雖然",
+        "example": "Although it was hard, I finished it because I wanted to.",
+        "more": "第 2 週 · 一個句子一個連接詞"
+      },
+      {
+        "en": "There is / There are",
+        "pos": "phr.",
+        "zh": "（某處）有",
+        "example": "There are three things I will miss.",
+        "more": "第 24 週 · 不是 have"
+      },
+      {
+        "en": "have / has + 第三態",
+        "pos": "phr.",
+        "zh": "現在完成式",
+        "example": "I have learned more than I expected.",
+        "more": "第 8、9 週 · 不准帶日期"
+      },
+      {
+        "en": "if + 現在式, will…",
+        "pos": "phr.",
+        "zh": "第一條件句",
+        "example": "If I keep reading, my English will get better.",
+        "more": "第 31 週 · if 那半不放 will"
+      },
+      {
+        "en": "Could I…? / I was wondering…",
+        "pos": "phr.",
+        "zh": "客氣的請求",
+        "example": "Could I ask one more question?",
+        "more": "第 20 週 · 禮貌是文法蓋出來的"
+      },
+      {
+        "en": "I'll have…, please.",
+        "pos": "phr.",
+        "zh": "我要點…",
+        "example": "I'll have the beef noodles, please.",
+        "more": "第 18 週 · 不要用 I want"
+      },
+      {
+        "en": "who / which / that",
+        "pos": "pron.",
+        "zh": "關係代名詞",
+        "example": "This is the class that changed my English.",
+        "more": "第 33 週 · 描述放名詞後面"
+      },
+      {
+        "en": "while / when",
+        "pos": "conj.",
+        "zh": "當…的時候",
+        "example": "While I was studying, the year went by.",
+        "more": "第 7 週 · 長動作用 while"
+      },
+      {
+        "en": "borrow / lend",
+        "pos": "v.",
+        "zh": "借進／借出",
+        "example": "Could I borrow your pen? / I'll lend you mine.",
+        "more": "第 14 週 · 中文都叫「借」"
+      },
+      {
+        "en": "probably / definitely",
+        "pos": "adv.",
+        "zh": "大概／一定",
+        "example": "I will definitely keep watching English films.",
+        "more": "第 28、35 週 · 確定的程度要分清楚"
+      }
+    ],
+    "practice": [
+      {
+        "title_en": "The Great English Challenge · six rounds",
+        "title_zh": "英語大挑戰・六個回合",
+        "note_en": "Dom names six rounds; here is what to actually say in each. Two teams, a scoreboard on the board, and no round longer than seven minutes. Speed is what makes it feel like a celebration rather than a test.",
+        "note_zh": "Dom 列了六個回合，這裡寫出每個回合實際要說什麼。兩隊、白板上記分、每回合不超過七分鐘。節奏快，它才像慶祝而不是考試。",
+        "items": [
+          "① 單字階梯（W4、W13）：good → ? → ? 　· bad → ? 　· happy → ? → ? 　· big → ? → ?",
+          "② 不規則動詞（W9）：go / eat / write / break / choose / drink / begin / put — 搶答三態",
+          "③ 神秘圖片（W24）：描述一張照片但不能說出它是什麼，對手猜。必須用到 There is/are。",
+          "④ 同義反義對決（W11、W12）：furious / ancient / generous / spacious / exhausted",
+          "⑤ 文法快問（W5–W33）：老師唸一句錯的，搶答改正。✗ He go every day. ✗ If it will rain… ✗ I have went…",
+          "⑥ 班級之最：Most Improved · Most Likely to Teach English One Day · Best Question of the Year"
+        ]
+      },
+      {
+        "title_en": "Look how far · ask Week 1 again",
+        "title_zh": "回頭看・把第 1 週的問題再問一次",
+        "note_en": "In Week 1 this class was asked how big their English was, with no grades and no pressure. Ask the same question now and put the two answers side by side. For most students this is the first time they have seen their own progress as a number.",
+        "note_zh": "第 1 週問過這個班「你的英文有多大」，不打分數、沒有壓力。現在再問一次，把兩個答案並排。對多數學生來說，這是他們第一次看見自己的進步變成一個具體的數字。",
+        "items": [
+          "In September I thought I knew about ______ English words.",
+          "Now I think I know about ______ .",
+          "Five things I can do in English now that were harder in September:",
+          "______ · ______ · ______ · ______ · ______",
+          "The hardest thing I understand now: ______"
+        ]
+      },
+      {
+        "title_en": "Summer English Mission",
+        "title_zh": "暑假英語任務",
+        "note_en": "Dom's summer bridge. One thing a week, twenty words, nothing else. A small mission that gets done beats a big one that does not — and it keeps the year from leaking away over the break.",
+        "note_zh": "Dom 設計的暑假銜接。一週一件事、二十個字，不多。做得完的小任務勝過做不完的大任務——也讓這一年不會在暑假漏光。",
+        "items": [
+          "每週選一樣：一首英文歌 · 一支影片 · 一部電影 · 一集影集",
+          "每週記下：二十個字（不必是新字，是你想留下的字）",
+          "每週寫一句：This week I watched ______ and my favourite line was \" ______ .\"",
+          "開學帶回來：你的 Summer English Journal 和一個推薦。",
+          "Rule: 漏掉一週沒關係，不要因此整個放棄。"
+        ]
+      },
+      {
+        "title_en": "Exit ticket · the last one of the year",
+        "title_zh": "出場券・今年最後一張",
+        "note_en": "Forty-six weeks of exit tickets end here. This one is not marked — it is for the student to keep, and it is worth telling them that.",
+        "note_zh": "四十六週的出場券到這裡結束。這一張不評分——是留給學生自己的，而且值得告訴他們這件事。",
+        "items": [
+          "The most useful thing I learned this year: ______",
+          "One sentence I could not say in September, and can say now:",
+          "\" ______ \"",
+          "Next year I want to ______ ."
+        ]
+      }
+    ]
   }
 }
