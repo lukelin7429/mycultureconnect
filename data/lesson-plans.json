@@ -1608,43 +1608,343 @@
       "n": 34,
       "unit": 7,
       "title": "Music: English You Can Hear",
-      "date": "Saturday, May 8, 2027"
+      "date": "Saturday, May 8, 2027",
+      "language_target": "Listening, idioms, contractions, vocabulary in context.",
+      "vocabulary": [
+        "lyrics",
+        "chorus",
+        "verse",
+        "beat",
+        "message",
+        "feeling",
+        "phrase",
+        "expression"
+      ],
+      "taiwan_connection": "Awards-season connection: treat the class like a music awards show—best song, best message, best vocabulary.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Listening, idioms, contractions, vocabulary in context."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "Clean-song listening challenge: predict missing words, decode expressions, then discuss the song's message."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: teacher-selected age-appropriate song video.",
+      "homework": "Choose an English song. Record 8 new words/phrases and explain the song's main idea in 5–8 sentences.",
+      "cefr": "A1: identify repeated words. A2: main idea. B1: summarize. B2+: interpret imagery. C1/C2: analyze tone and figurative language.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 35."
     },
     {
       "n": 35,
       "unit": 7,
       "title": "YouTube Challenge: Watch, Predict, Explain",
-      "date": "Saturday, May 15, 2027"
+      "date": "Saturday, May 15, 2027",
+      "language_target": "Listening for gist/detail; prediction; summarizing.",
+      "vocabulary": [
+        "predict",
+        "notice",
+        "explain",
+        "evidence",
+        "probably",
+        "perhaps",
+        "actually",
+        "suddenly"
+      ],
+      "taiwan_connection": "Spring media: let students vote on a safe short English video and justify their choice.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Listening for gist/detail; prediction; summarizing."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "Watch → Pause → Predict → Reveal. Students earn points for evidence-based predictions."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: any short, age-appropriate English video.",
+      "homework": "Watch a 3–5 minute English video and write: 5 new words, 3 facts, 2 predictions, 1 opinion.",
+      "cefr": "A1: picture/detail questions. A2: basic summary. B1: evidence. B2+: inference. C1/C2: critique and perspective.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 36."
     },
     {
       "n": 36,
       "unit": 7,
       "title": "Commercials: The Language of Persuasion",
-      "date": "Saturday, May 22, 2027"
+      "date": "Saturday, May 22, 2027",
+      "language_target": "Imperatives, adjectives, persuasive language, audience.",
+      "vocabulary": [
+        "advertisement",
+        "audience",
+        "brand",
+        "convince",
+        "promise",
+        "benefit",
+        "quality",
+        "limited"
+      ],
+      "taiwan_connection": "Academy Awards / awards-season tie-in: invent a product for a movie star, athlete, or superhero and sell it.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Imperatives, adjectives, persuasive language, audience."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "Create a 30-second commercial for a ridiculous product: invisible backpack, teleporting shoes, etc."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: age-appropriate commercial clips.",
+      "homework": "Write a 60-second commercial script using at least 5 persuasive words and 2 imperatives.",
+      "cefr": "A1: simple product description. A2: basic persuasive phrases. B1: reasons. B2+: audience awareness. C1/C2: rhetorical strategy.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 37."
     },
     {
       "n": 37,
       "unit": 7,
       "title": "Movies: Scene Detective",
-      "date": "Saturday, May 29, 2027"
+      "date": "Saturday, May 29, 2027",
+      "language_target": "Dialogue, emotion, vocabulary, inference.",
+      "vocabulary": [
+        "character",
+        "scene",
+        "expression",
+        "reaction",
+        "relationship",
+        "tension",
+        "hilarious",
+        "dramatic"
+      ],
+      "taiwan_connection": "Movie culture: connect scenes to age-appropriate Academy Awards, Emmy, or other entertainment vocabulary.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Dialogue, emotion, vocabulary, inference."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "Play a short scene twice: first with sound, then muted. Students compare what English tells them that visuals do not."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: teacher-selected movie scene.",
+      "homework": "Choose one scene and write 8 observations + 5 useful expressions from it.",
+      "cefr": "A1: identify objects/emotions. A2: simple scene summary. B1: explain characters. B2+: infer motives. C1/C2: analyze dialogue.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 38."
     },
     {
       "n": 38,
       "unit": 7,
       "title": "Slang, Idioms & Everyday English",
-      "date": "Saturday, June 5, 2027"
+      "date": "Saturday, June 5, 2027",
+      "language_target": "Informal vs. formal English; common idioms and conversational phrases.",
+      "vocabulary": [
+        "What's up?",
+        "no way",
+        "I'm kidding",
+        "hang out",
+        "figure out",
+        "chill out",
+        "hit the road"
+      ],
+      "taiwan_connection": "Natural American English: explain that slang is context-dependent and that students should learn when it is appropriate.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Informal vs. formal English; common idioms and conversational phrases."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "Formal or Friendly? Students translate stiff textbook English into natural conversation."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: clean sitcom/animation clip.",
+      "homework": "Create a two-column page: 10 casual expressions + a more formal alternative for each.",
+      "cefr": "A1: recognize a few expressions. A2: use memorized phrases. B1: context. B2+: register choice. C1/C2: idiomatic nuance.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 39."
     },
     {
       "n": 39,
       "unit": 7,
       "title": "English Around the World",
-      "date": "Saturday, June 12, 2027"
+      "date": "Saturday, June 12, 2027",
+      "language_target": "Global English; accents; vocabulary variation; respectful listening.",
+      "vocabulary": [
+        "American",
+        "British",
+        "Australian",
+        "accent",
+        "pronunciation",
+        "elevator/lift",
+        "apartment/flat",
+        "vacation/holiday"
+      ],
+      "taiwan_connection": "Global English: celebrate English as an international language, including Taiwan's place in the English-speaking world.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Global English; accents; vocabulary variation; respectful listening."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "Accent Detective: listen for clues and build a 'same meaning, different word' map."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: short clips from different English-speaking countries.",
+      "homework": "Find 10 words that differ between two varieties of English and write the equivalents.",
+      "cefr": "A1: recognize familiar differences. A2: match variants. B1: explain. B2+: discuss intelligibility. C1/C2: analyze register and identity.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 40."
     },
     {
       "n": 40,
       "unit": 7,
       "title": "Movie Project Launch: Watch Like a Critic",
-      "date": "Saturday, June 19, 2027"
+      "date": "Saturday, June 19, 2027",
+      "language_target": "Prediction, note-taking, character, plot, theme, opinion.",
+      "vocabulary": [
+        "theme",
+        "plot",
+        "character",
+        "conflict",
+        "message",
+        "recommend",
+        "criticize",
+        "memorable"
+      ],
+      "taiwan_connection": "Final project launch: frame the movie as a celebration of everything students have learned—not another test.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Prediction, note-taking, character, plot, theme, opinion."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "Introduce the final movie project. Students make prediction cards and choose what they will watch for."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: trailer for the final movie; pause and predict.",
+      "homework": "Watch the assigned/selected movie before next class. Complete the first half of the Movie English Guide: plot, characters, 10 vocabulary words.",
+      "cefr": "A1: picture/word bank. A2: simple plot. B1: organized notes. B2+: theme/evidence. C1/C2: critical interpretation.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 41."
     },
     {
       "n": 41,

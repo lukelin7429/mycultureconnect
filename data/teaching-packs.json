@@ -3883,5 +3883,793 @@
         ]
       }
     ]
+  },
+  "34": {
+    "prep_en": "No preparation needed, but read the trap card before this unit starts — it explains the whole media unit. Students with large vocabularies still cannot hear English, and the reason is rhythm, not words. Chinese gives every syllable the same length; English squashes the unstressed ones almost to nothing. Songs exaggerate this, which is why they teach listening better than any textbook.",
+    "prep_zh": "不必備課，但整個單元開始前先看陷阱卡——它解釋了這七週的全部。學生單字量夠大卻還是聽不懂英文，原因是節奏，不是字。中文每個音節長度差不多，英文把非重音的音節壓到幾乎不見。歌曲把這件事誇大了，所以它教聽力比任何課本都有效。",
+    "words": [
+      {
+        "en": "lyrics",
+        "pos": "n.",
+        "zh": "歌詞",
+        "example": "I looked up the lyrics after the first listen.",
+        "more": "永遠用複數 · ✗ a lyric（除非指一句）"
+      },
+      {
+        "en": "chorus",
+        "pos": "n.",
+        "zh": "副歌",
+        "example": "Everyone sings along with the chorus.",
+        "more": "重複的那一段 · 先學副歌最有效率"
+      },
+      {
+        "en": "verse",
+        "pos": "n.",
+        "zh": "主歌",
+        "example": "The second verse tells you what happened.",
+        "more": "故事通常藏在 verse，不在 chorus"
+      },
+      {
+        "en": "beat",
+        "pos": "n.",
+        "zh": "節拍",
+        "example": "Clap on the beat while you listen.",
+        "more": "英文的重音會落在 beat 上——這就是聽得懂的鑰匙"
+      },
+      {
+        "en": "message",
+        "pos": "n.",
+        "zh": "訊息；要說的話",
+        "example": "What is the message of this song?",
+        "more": "Dom 的作業要問這個"
+      },
+      {
+        "en": "feeling",
+        "pos": "n.",
+        "zh": "感覺",
+        "example": "The song has a lonely feeling.",
+        "more": "feeling 是感覺，emotion 較正式"
+      },
+      {
+        "en": "phrase",
+        "pos": "n.",
+        "zh": "片語",
+        "example": "\"Let it go\" is a useful phrase.",
+        "more": "唸法：/freɪz/ · 一組字，不是一個字"
+      },
+      {
+        "en": "expression",
+        "pos": "n.",
+        "zh": "說法；表情",
+        "example": "That expression means you should stop worrying.",
+        "more": "兩個意思：語言的說法、臉上的表情"
+      }
+    ],
+    "practice": [
+      {
+        "title_en": "The trap · you cannot hear it because it is not there",
+        "title_zh": "陷阱・聽不到是因為它真的不見了",
+        "note_en": "This is the most important card in the unit. Chinese is syllable-timed — 你在做什麼 gives five syllables five beats. English is stress-timed: content words keep their length, everything else gets crushed. Students are not missing vocabulary; they are listening for sounds that were never pronounced.",
+        "note_zh": "這是整個單元最重要的一張卡。中文是音節等長——「你在做什麼」五個字五拍。英文是重音等距：實詞保留長度，其餘全部被壓扁。學生缺的不是單字，他們是在聽一些根本沒有被唸出來的聲音。",
+        "items": [
+          "What are you doing? → 唸起來像 \"Whatcha doin'?\"",
+          "I would have gone. → 像 \"I'd-uv gone.\"　(would have 幾乎消失)",
+          "Do you want to go? → \"D'ya wanna go?\"",
+          "重音落在：名詞、主要動詞、形容詞、疑問詞",
+          "被壓扁的是：a, the, of, to, have, are, was, and",
+          "課堂實驗：拍手唸 \"CATS eat FISH\" 和 \"the CATS have EAten the FISH\"——拍子一樣多，字數不一樣。"
+        ]
+      },
+      {
+        "title_en": "Listen three times, three jobs",
+        "title_zh": "聽三次，三種任務",
+        "note_en": "One listen with three different instructions beats three aimless listens. Never ask students to understand everything on the first pass — that is what makes them give up.",
+        "note_zh": "同一首歌聽三次、每次任務不同，勝過漫無目的聽三次。絕對不要在第一次就要求全部聽懂——那正是讓學生放棄的原因。",
+        "items": [
+          "第一次　只聽感覺：快樂？難過？生氣？不看歌詞。",
+          "第二次　只抓重複最多的那一句（通常就是 chorus）。",
+          "第三次　發歌詞，挖空八個字，補上去。",
+          "最後才討論：What is the message? 這一題要用英文回答。"
+        ]
+      },
+      {
+        "title_en": "Music Awards · the categories",
+        "title_zh": "音樂頒獎典禮・獎項",
+        "note_en": "Dom's awards-show framing. Each team nominates one song and must defend it in English. The defence is the assessment — the award itself is just the excuse.",
+        "note_zh": "Dom 設計的頒獎典禮。每組提名一首歌，並用英語替它辯護。辯護才是評量，獎項只是藉口。",
+        "items": [
+          "Best Message · 最值得聽的一句話",
+          "Best Vocabulary · 學到最多新字的一首",
+          "Easiest to Understand · 最聽得懂的一首（說出為什麼）",
+          "Hardest to Understand · 最難的一首（說出哪裡難）",
+          "Frame: We nominate ______ because ______ . The best line is \" ______ .\""
+        ]
+      },
+      {
+        "title_en": "Exit ticket · one line you can now hear",
+        "title_zh": "出場券・一句你現在聽得懂的話",
+        "note_en": "One line from the song, written out, plus what it sounded like before they saw it written. The gap between the two is the lesson.",
+        "note_zh": "寫下歌裡的一句話，再寫下「還沒看到歌詞之前聽起來像什麼」。兩者之間的差距就是這堂課。",
+        "items": [
+          "The line: ______",
+          "What I thought I heard: ______"
+        ]
+      }
+    ]
+  },
+  "35": {
+    "prep_en": "No preparation needed. Last week explained why listening is hard; this week gives the strategy. Students raised on 每個字都要懂 try to catch every word and freeze at the first one they miss. Teach them to keep going — meaning arrives late, and it arrives anyway.",
+    "prep_zh": "不必備課。上週解釋了聽力為什麼難，這週給策略。從小被訓練「每個字都要懂」的學生會想抓住每一個字，漏掉一個就當機。要教他們繼續往前——意思會晚一點到，但它會到。",
+    "words": [
+      {
+        "en": "predict",
+        "pos": "v.",
+        "zh": "預測",
+        "example": "Before you press play, predict what happens next.",
+        "more": "prediction (n.) · 第 28 週學過"
+      },
+      {
+        "en": "notice",
+        "pos": "v.",
+        "zh": "注意到",
+        "example": "Did you notice what he was holding?",
+        "more": "第 7 週學過"
+      },
+      {
+        "en": "explain",
+        "pos": "v.",
+        "zh": "解釋",
+        "example": "Explain why you think that.",
+        "more": "explanation (n.)"
+      },
+      {
+        "en": "evidence",
+        "pos": "n.",
+        "zh": "證據",
+        "example": "What evidence do you have for that guess?",
+        "more": "不可數！✗ evidences ✓ a piece of evidence"
+      },
+      {
+        "en": "probably",
+        "pos": "adv.",
+        "zh": "大概（機率高）",
+        "example": "He is probably her brother.",
+        "more": "約 80% 把握"
+      },
+      {
+        "en": "perhaps",
+        "pos": "adv.",
+        "zh": "也許（機率低）",
+        "example": "Perhaps they have met before.",
+        "more": "約 50% · 比 probably 不確定"
+      },
+      {
+        "en": "actually",
+        "pos": "adv.",
+        "zh": "其實",
+        "example": "Actually, she was right the whole time.",
+        "more": "第 19 週提醒過：常帶「更正」的味道"
+      },
+      {
+        "en": "suddenly",
+        "pos": "adv.",
+        "zh": "突然",
+        "example": "Suddenly everyone stopped talking.",
+        "more": "第 7、22 週學過"
+      }
+    ],
+    "practice": [
+      {
+        "title_en": "The trap · you do not need every word",
+        "title_zh": "陷阱・不必聽懂每一個字",
+        "note_en": "Chinese schooling rewards catching every character; English listening punishes it. Missing a word and stopping to worry about it costs you the next ten. Native speakers miss words constantly and never notice. Say that out loud — it releases students more than any technique.",
+        "note_zh": "中文的學習訓練獎勵「每個字都抓到」，英文聽力卻會處罰這個習慣。漏掉一個字就停下來擔心，代價是後面十個字。母語者也一直在漏字，只是沒發現。把這句話講出來——它比任何技巧都更能解放學生。",
+        "items": [
+          "目標不是 100%，是 70% 就繼續走。",
+          "漏掉一個字 → 不要回頭，往前聽，意思通常在下一句補回來。",
+          "先抓：誰、在哪、在做什麼、心情如何。細節之後再說。",
+          "課堂規則：這節課不准問 \"What did he say?\"，只能問 \"What is happening?\""
+        ]
+      },
+      {
+        "title_en": "Watch → Pause → Predict · the points system",
+        "title_zh": "看→暫停→預測・計分方式",
+        "note_en": "Dom's activity, with scoring that rewards the right thing. A correct guess is worth one point; a guess backed by evidence from the video is worth three — even if it turns out wrong. That scoring changes what students pay attention to.",
+        "note_zh": "Dom 的活動，配上獎勵正確東西的計分。猜對得一分；能說出影片裡的證據得三分——就算猜錯也一樣。這個計分方式會改變學生注意的東西。",
+        "items": [
+          "Pause 1（開頭 20 秒後）Who are these people? What is the relationship?",
+          "Pause 2 What is the problem going to be?",
+          "Pause 3（中段）What will he do next? Why do you think so?",
+          "Pause 4（結尾前）How does this end?",
+          "Scoring: 猜對 1 分 · 有證據 3 分 · 「我就是覺得」0 分",
+          "Frame: I think ______ because I noticed ______ ."
+        ]
+      },
+      {
+        "title_en": "probably or perhaps? · how sure are you",
+        "title_zh": "probably 還是 perhaps？・你有多確定",
+        "note_en": "Prediction needs hedging language, and Chinese hedges with 應該吧 / 可能 without grading the probability much. English grades it finely, and getting the level right is what makes a guess sound intelligent.",
+        "note_zh": "預測需要保留語氣，而中文的「應該吧」「可能」不太分程度。英文分得很細，用對程度，猜測才會聽起來聰明。",
+        "items": [
+          "definitely 95% → certainly 90% → probably 80% → maybe / perhaps 50% → might 40%",
+          "He is definitely the father. ← 只有在證據很強時才這樣說",
+          "She is probably a teacher — look at the books.",
+          "Perhaps they are neighbours, but I am not sure.",
+          "Your turn: 用三種不同的確定程度，各說一句關於影片的預測。"
+        ]
+      },
+      {
+        "title_en": "Exit ticket · one guess with evidence",
+        "title_zh": "出場券・一個有證據的猜測",
+        "note_en": "Dom's homework asks for two predictions. Write the first here, and it must contain the word 'because'.",
+        "note_zh": "Dom 的作業要兩個預測，第一個在這裡寫。句子裡一定要有 because。",
+        "items": [
+          "I think ______ because ______ ."
+        ]
+      }
+    ]
+  },
+  "36": {
+    "prep_en": "No preparation needed. Advertising English is built from three things students can spot in one lesson: imperatives, extreme adjectives, and the word 'you'. Once they can see the machinery, they can build it — and they also stop being fooled by it.",
+    "prep_zh": "不必備課。廣告英文由三樣東西組成，學生一堂課就能看出來：祈使句、極端形容詞，以及 you 這個字。看懂機器怎麼運作之後，他們既能自己造一台，也比較不會被它騙。",
+    "words": [
+      {
+        "en": "advertisement",
+        "pos": "n.",
+        "zh": "廣告",
+        "example": "That advertisement was on three times tonight.",
+        "more": "口語縮寫 ad / advert · 唸法重音在 -VER-"
+      },
+      {
+        "en": "audience",
+        "pos": "n.",
+        "zh": "觀眾；受眾",
+        "example": "Who is the audience for this product?",
+        "more": "廣告第一個問題永遠是這個"
+      },
+      {
+        "en": "brand",
+        "pos": "n.",
+        "zh": "品牌",
+        "example": "People trust the brand more than the product.",
+        "more": "brand name · branding"
+      },
+      {
+        "en": "convince",
+        "pos": "v.",
+        "zh": "說服",
+        "example": "This ad did not convince me.",
+        "more": "convince someone to do something"
+      },
+      {
+        "en": "promise",
+        "pos": "n. / v.",
+        "zh": "承諾",
+        "example": "Every ad makes a promise.",
+        "more": "第 28 週學過 · 廣告的承諾常常沒說完"
+      },
+      {
+        "en": "benefit",
+        "pos": "n.",
+        "zh": "好處",
+        "example": "List the benefits, not the features.",
+        "more": "feature 是「功能」，benefit 是「對你的好處」——廣告賣後者"
+      },
+      {
+        "en": "quality",
+        "pos": "n.",
+        "zh": "品質",
+        "example": "High quality, low price — the oldest promise there is.",
+        "more": "注意：quality 品質 · quantity 數量（第 17 週）"
+      },
+      {
+        "en": "limited",
+        "pos": "adj.",
+        "zh": "限量的",
+        "example": "Limited time only!",
+        "more": "製造急迫感的字 · 通常不是真的"
+      }
+    ],
+    "practice": [
+      {
+        "title_en": "The machinery · three parts",
+        "title_zh": "廣告的機器・三個零件",
+        "note_en": "Take apart a real ad in five minutes with this list, then hand it back as a build kit. Students who can name the parts write far better commercials than students told to 'be persuasive'.",
+        "note_zh": "用這張清單五分鐘拆掉一支真廣告，再把它當成組裝說明書發回去。說得出零件名稱的學生，寫出來的廣告遠勝過只被告知「要有說服力」的學生。",
+        "items": [
+          "① 祈使句（命令你動作）：Try it. Taste the difference. Don't wait.",
+          "② 極端形容詞：stunning · unbelievable · perfect · the only ______ you will ever need",
+          "③ 對著「你」說話：You deserve it. Your family will thank you.",
+          "加分零件：數字（9 out of 10）· 急迫（Limited time）· 問句（Tired of ______ ?）",
+          "Spot check: 從一支廣告裡找出這三樣，各舉一例。"
+        ]
+      },
+      {
+        "title_en": "The trap · ads break the rules on purpose",
+        "title_zh": "陷阱・廣告是故意違規的",
+        "note_en": "Students learn English from media and then copy advertising grammar into essays. Ad English is deliberately clipped and ungrammatical because it has three seconds. Name it explicitly, or a teacher will be correcting 'Think different' for months.",
+        "note_zh": "學生從媒體學英文，然後把廣告文法抄進作文。廣告英文故意斷句、故意不合文法，因為它只有三秒鐘。要明講，不然老師得花好幾個月改「Think different」這類句子。",
+        "items": [
+          "Think different. ← 文法上該是 differently（Apple 故意的）",
+          "Got milk? ← 完整應是 Have you got milk?",
+          "Because you're worth it. ← 這句沒有主要子句",
+          "規則：廣告可以這樣寫，你的作文不行。",
+          "Your turn: 把上面三句改寫成完整、合文法的句子。"
+        ]
+      },
+      {
+        "title_en": "Ridiculous Product Pitch · the inventory",
+        "title_zh": "荒謬商品推銷・商品表",
+        "note_en": "Dom's activity needs products, so here are eight. Draw one, get four minutes, then perform the thirty seconds. The sillier the product, the harder the language has to work — that is the point.",
+        "note_zh": "Dom 的活動需要商品，這裡備了八樣。抽一樣、四分鐘準備、上台講三十秒。商品越荒謬，語言就得越用力——這正是重點。",
+        "items": [
+          "an invisible backpack · teleporting shoes · homework that does itself",
+          "a pillow that wakes you up gently in English · an umbrella that never blows inside out",
+          "a water bottle that refills itself · glasses that translate what your teacher says",
+          "a bicycle that remembers where you parked it",
+          "Must include: 2 imperatives · 3 persuasive adjectives · the word 'you' at least four times",
+          "Must end with: a promise and a reason to act now."
+        ]
+      },
+      {
+        "title_en": "Exit ticket · one slogan",
+        "title_zh": "出場券・一句標語",
+        "note_en": "Eight words or fewer, one imperative, one strong adjective. Short is harder than long — that is why this is the exit ticket.",
+        "note_zh": "八個字以內，含一個祈使句、一個強形容詞。短比長難——所以這才是出場券。",
+        "items": [
+          "Product: ______",
+          "Slogan: ______"
+        ]
+      }
+    ]
+  },
+  "37": {
+    "prep_en": "No preparation needed. Dom's sound-on then sound-off comparison is the whole lesson, so protect the time for it. What students discover is what English carries that pictures cannot: who has the power, whether someone is joking, and how close the two people are.",
+    "prep_zh": "不必備課。Dom 設計的「先有聲再靜音」對照就是整堂課，時間要留給它。學生會發現英文承載了畫面給不了的東西：誰有主導權、對方是不是在開玩笑、兩個人有多熟。",
+    "words": [
+      {
+        "en": "character",
+        "pos": "n.",
+        "zh": "角色",
+        "example": "The main character never says what she wants.",
+        "more": "第 22、23 週學過"
+      },
+      {
+        "en": "scene",
+        "pos": "n.",
+        "zh": "場景；一場戲",
+        "example": "This scene lasts ninety seconds.",
+        "more": "scene 一場戲 · setting 是背景（第 22 週）"
+      },
+      {
+        "en": "expression",
+        "pos": "n.",
+        "zh": "表情",
+        "example": "Watch his expression when she leaves.",
+        "more": "第 34 週的另一個意思：語言的說法"
+      },
+      {
+        "en": "reaction",
+        "pos": "n.",
+        "zh": "反應",
+        "example": "Her reaction tells you everything.",
+        "more": "react (v.) → reaction (n.)"
+      },
+      {
+        "en": "relationship",
+        "pos": "n.",
+        "zh": "關係",
+        "example": "What is the relationship between these two?",
+        "more": "不只指戀愛 · 家人、同事、師生都算"
+      },
+      {
+        "en": "tension",
+        "pos": "n.",
+        "zh": "張力；緊張感",
+        "example": "You can feel the tension in the room.",
+        "more": "tense (adj.) → tension (n.)"
+      },
+      {
+        "en": "hilarious",
+        "pos": "adj.",
+        "zh": "非常好笑的",
+        "example": "That line was hilarious.",
+        "more": "極端字 · 不加 very（第 13 週）"
+      },
+      {
+        "en": "dramatic",
+        "pos": "adj.",
+        "zh": "戲劇性的",
+        "example": "The music makes it feel more dramatic.",
+        "more": "第 15 週學過"
+      }
+    ],
+    "practice": [
+      {
+        "title_en": "Sound on, sound off · what English adds",
+        "title_zh": "有聲、靜音・英文多給了什麼",
+        "note_en": "Dom's activity, with the comparison written out. Play with sound, then muted, then ask this list. The gap between the two viewings is where the English lives.",
+        "note_zh": "Dom 的活動，把對照題目寫出來。先有聲播一次、再靜音播一次，然後問這幾題。兩次之間的差距，就是英文存在的地方。",
+        "items": [
+          "靜音看得出來的：誰在生氣 · 誰先離開 · 發生了什麼事",
+          "只有聲音告訴你的：他是不是在開玩笑 · 誰在這段關係裡比較有主導權 · 他們有多熟",
+          "Q1 They are ______ (friends / family / strangers). How do you know from the words?",
+          "Q2 Which line changes the mood? Read it aloud in two different tones.",
+          "Q3 Is anyone lying? What did you hear that the picture did not show?"
+        ]
+      },
+      {
+        "title_en": "The trap · sarcasm is invisible until it is named",
+        "title_zh": "陷阱・反話不點破就看不見",
+        "note_en": "English drops into sarcasm constantly and marks it only with tone. Learners take it literally and miss the joke, or worse, think the speaker meant it. Play one line two ways and the whole class hears it at once.",
+        "note_zh": "英文經常說反話，而且只用語氣標記。學習者照字面理解，不是錯過笑點，就是以為對方是認真的。同一句用兩種語氣各唸一次，全班立刻就聽出來了。",
+        "items": [
+          "\"Great. Just great.\" ← 語氣一變，意思完全相反",
+          "\"Oh, that's brilliant.\" ← 可能是稱讚，也可能是「你完蛋了」",
+          "\"Thanks a lot.\" ← 字面是道謝，語氣可以是責怪",
+          "線索：拉長的音 · 平板的語調 · 跟畫面明顯不符的字",
+          "Your turn: 找出這場戲裡一句表面與真意相反的話。"
+        ]
+      },
+      {
+        "title_en": "Scene Detective · eight observations",
+        "title_zh": "場景偵探・八個觀察",
+        "note_en": "Dom's homework asks for eight observations and five expressions. Split them so students know what counts: an observation needs evidence, an expression needs to be reusable outside this film.",
+        "note_zh": "Dom 的作業要八個觀察與五個說法。分清楚什麼算數：觀察必須帶證據，說法必須是離開這部片還用得上的。",
+        "items": [
+          "觀察（要帶證據）：I noticed ______ , which suggests ______ .",
+          "① 誰先說話？為什麼是他？",
+          "② 誰的句子比較短？（短句常代表生氣或有權力）",
+          "③ 有沒有人打斷別人？",
+          "④ 最後一句話是誰說的？",
+          "有用的說法（要能帶走）：不是劇情台詞，是像 \"Hang on a second\" 這種明天就能用的話。"
+        ]
+      },
+      {
+        "title_en": "Exit ticket · one line, two meanings",
+        "title_zh": "出場券・一句話，兩種意思",
+        "note_en": "Write one line from the scene and both readings of it. If they cannot find one, they have not been listening to tone.",
+        "note_zh": "寫下戲裡的一句話，以及它的兩種解讀。找不到的話，代表還沒開始聽語氣。",
+        "items": [
+          "The line: \" ______ \"",
+          "It could mean ______ , or it could mean ______ ."
+        ]
+      }
+    ]
+  },
+  "38": {
+    "prep_en": "No preparation needed, but be ready for the question students always ask: can I say this to my teacher? Dom's note asks you to teach when slang is appropriate, so build the whole lesson around the answer rather than the phrases. A student who knows ten expressions and no register rules will use them at exactly the wrong moment.",
+    "prep_zh": "不必備課，但要準備好回答學生一定會問的問題：這句可以對老師說嗎？Dom 在教案裡要求教「什麼時候適合」，所以整堂課圍著這個答案走，而不是圍著片語走。只學會十個說法、卻不懂場合的學生，一定會在最不該的時候用出來。",
+    "words": [
+      {
+        "en": "What's up?",
+        "pos": "phr.",
+        "zh": "最近怎樣？",
+        "example": "\"What's up?\" \"Not much, you?\"",
+        "more": "朋友之間 · 不是真的在問問題 · ✗ 對校長說"
+      },
+      {
+        "en": "no way",
+        "pos": "phr.",
+        "zh": "不會吧／才不要",
+        "example": "\"He finished it in ten minutes.\" \"No way!\"",
+        "more": "兩個意思：驚訝、或強烈拒絕"
+      },
+      {
+        "en": "I'm kidding",
+        "pos": "phr.",
+        "zh": "我開玩笑的",
+        "example": "Relax, I'm kidding.",
+        "more": "第 37 週的反話救援包 · 也說 just joking"
+      },
+      {
+        "en": "hang out",
+        "pos": "phr. v.",
+        "zh": "一起混；出去玩",
+        "example": "We hung out at the park after school.",
+        "more": "hang → hung → hung · 沒有特定目的地相處"
+      },
+      {
+        "en": "figure out",
+        "pos": "phr. v.",
+        "zh": "想通；弄懂",
+        "example": "I finally figured out the answer.",
+        "more": "= work out · 比 understand 口語"
+      },
+      {
+        "en": "chill out",
+        "pos": "phr. v.",
+        "zh": "放輕鬆",
+        "example": "Chill out — we still have an hour.",
+        "more": "對朋友可以 · 對長輩不行"
+      },
+      {
+        "en": "hit the road",
+        "pos": "idiom",
+        "zh": "上路；該走了",
+        "example": "It's late — let's hit the road.",
+        "more": "慣用語 · 字面沒有意義，不要翻譯"
+      }
+    ],
+    "practice": [
+      {
+        "title_en": "The trap · idioms do not translate, in either direction",
+        "title_zh": "陷阱・慣用語兩個方向都不能直譯",
+        "note_en": "Students try to decode 'hit the road' word by word and get nowhere — and then they translate 馬馬虎虎 into English and get the same nowhere. Say it both ways: idioms are single units of meaning, in Chinese and in English alike.",
+        "note_zh": "學生把 hit the road 拆成字去解，怎麼解都不對——然後他們把「馬馬虎虎」翻成英文，對方也一樣聽不懂。兩個方向都要講：慣用語在中文和英文裡都是一整塊意思，不能拆。",
+        "items": [
+          "hit the road ≠ 打路　→　意思是「出發」",
+          "under the weather ≠ 在天氣下面　→　意思是「不舒服」",
+          "馬馬虎虎 ≠ horse horse tiger tiger　→　so-so / not bad",
+          "人山人海 ≠ people mountain people sea　→　packed / extremely crowded",
+          "規則：遇到拆不開的句子，就整句記起來。"
+        ]
+      },
+      {
+        "title_en": "Formal or Friendly? · the two-column page",
+        "title_zh": "正式還是親切？・兩欄對照表",
+        "note_en": "This is Dom's homework, started in class. The right-hand column is what matters — students already have the casual half from YouTube. Fill five here and the homework is half done.",
+        "note_zh": "這就是 Dom 的作業，在課堂上先起頭。右欄才是關鍵——左邊那半學生早就從 YouTube 學會了。這裡填五組，作業就完成一半。",
+        "items": [
+          "What's up? → How are you? / Good morning.",
+          "No way! → That's surprising. / I find that hard to believe.",
+          "hang out → spend time together",
+          "chill out → ______",
+          "figure out → ______",
+          "hit the road → ______",
+          "I'm kidding → ______"
+        ]
+      },
+      {
+        "title_en": "Who are you talking to?",
+        "title_zh": "你在跟誰說話？",
+        "note_en": "The answer to the question every student asks. Four listeners, and the same message has to change shape for each. This is the register lesson from Week 20 returning in a different costume.",
+        "note_zh": "這是回答學生每次都會問的那個問題。四種聽話的人，同一句話要換四種形狀。這是第 20 週的語域課換了一身衣服回來。",
+        "items": [
+          "同一件事：你遲到了，要解釋。",
+          "① 對好朋友：Sorry, I totally lost track of time.",
+          "② 對老師：______",
+          "③ 對校長：______",
+          "④ 寫 email 給實習單位：______",
+          "Rule: 越不熟、越正式，句子就越長。（第 20 週的禮貌階梯）"
+        ]
+      },
+      {
+        "title_en": "Exit ticket · one expression, one warning",
+        "title_zh": "出場券・一個說法，一個警告",
+        "note_en": "One casual expression they will actually use, plus the situation where it would be a mistake.",
+        "note_zh": "寫一個他們真的會用的口語說法，再寫一個「用了會出事」的場合。",
+        "items": [
+          "Expression: ______",
+          "I would not say this to ______ , because ______ ."
+        ]
+      }
+    ]
+  },
+  "39": {
+    "prep_en": "No preparation needed. Taiwan teaches American English, so students assume everything else is wrong — including their own. Dom's note asks you to celebrate English as an international language and to include Taiwan in it. That framing is the lesson: being understood matters more than sounding American.",
+    "prep_zh": "不必備課。台灣教美式英語，所以學生會以為其他都是錯的——包括自己的。Dom 在教案裡要求把英語當成國際語言來慶祝，而且要把台灣放進去。這個定位就是這堂課：被聽懂，比聽起來像美國人重要。",
+    "words": [
+      {
+        "en": "American",
+        "pos": "adj.",
+        "zh": "美式的",
+        "example": "Taiwan mostly teaches American English.",
+        "more": "拼字：color · center · traveled"
+      },
+      {
+        "en": "British",
+        "pos": "adj.",
+        "zh": "英式的",
+        "example": "British English uses 'lift' for elevator.",
+        "more": "拼字：colour · centre · travelled"
+      },
+      {
+        "en": "Australian",
+        "pos": "adj.",
+        "zh": "澳洲的",
+        "example": "Australian English has its own vocabulary too.",
+        "more": "arvo = afternoon · 母音差異明顯"
+      },
+      {
+        "en": "accent",
+        "pos": "n.",
+        "zh": "口音",
+        "example": "Everyone has an accent, including native speakers.",
+        "more": "重要觀念：沒有人「沒有口音」"
+      },
+      {
+        "en": "pronunciation",
+        "pos": "n.",
+        "zh": "發音",
+        "example": "Her pronunciation is clear and easy to follow.",
+        "more": "注意拼字：不是 pronounciation · pronounce (v.)"
+      },
+      {
+        "en": "elevator / lift",
+        "pos": "n.",
+        "zh": "電梯",
+        "example": "Take the elevator. / Take the lift.",
+        "more": "美 / 英 · 兩個都對"
+      },
+      {
+        "en": "apartment / flat",
+        "pos": "n.",
+        "zh": "公寓",
+        "example": "We live in a small apartment. / …a small flat.",
+        "more": "美 / 英"
+      },
+      {
+        "en": "vacation / holiday",
+        "pos": "n.",
+        "zh": "假期",
+        "example": "summer vacation / summer holidays",
+        "more": "美 / 英 · 英式的 holiday 也指國定假日"
+      }
+    ],
+    "practice": [
+      {
+        "title_en": "The trap · there is no one correct English",
+        "title_zh": "陷阱・沒有唯一正確的英語",
+        "note_en": "Students think American English is the real one and everything else is a deviation — so they freeze when they meet an Indian or Singaporean speaker, and they are ashamed of their own accent. More people speak English as a second language than as a first. Say that number out loud.",
+        "note_zh": "學生以為美式英語才是真的，其他都是偏離——所以遇到印度或新加坡口音就當機，也為自己的口音感到羞恥。全世界把英語當第二語言的人，比母語者還多。把這個事實講出來。",
+        "items": [
+          "說英語的人裡，非母語者多於母語者。",
+          "沒有人「沒有口音」——美國人也有口音，只是你聽習慣了。",
+          "目標不是聽起來像美國人，是「被聽懂」。",
+          "台灣人講的英語也是一種英語，它讓台灣被世界聽見。",
+          "Ask the class: 你聽過幾種英語口音？在哪裡聽到的？"
+        ]
+      },
+      {
+        "title_en": "Accent Detective · same meaning, different word",
+        "title_zh": "口音偵探・同義不同字",
+        "note_en": "Dom's activity, with the map started. Her homework asks for ten pairs, so fill these and let teams hunt for the rest. The point is not to memorize which is which — it is to stop panicking when the unfamiliar one appears.",
+        "note_zh": "Dom 的活動，地圖先起個頭。她的作業要十組，這裡填完，其餘讓各組自己找。重點不是背哪個是哪國，而是遇到不熟的那個時不要慌。",
+        "items": [
+          "elevator / lift　·　apartment / flat　·　vacation / holiday",
+          "fries / chips　·　cookie / biscuit　·　soccer / football",
+          "trash / rubbish　·　subway / underground　·　line / queue",
+          "fall / autumn　·　truck / lorry　·　pants / trousers　← 這組誤會最大",
+          "Bonus: 台灣的英語裡有哪些字是我們自己的？（例如 scooter、night market）"
+        ]
+      },
+      {
+        "title_en": "Listening across accents",
+        "title_zh": "跨口音聽力",
+        "note_en": "Play three short clips from three places without saying where they are from. Students write what they understood, then guess the country. The surprise is usually that they understood more than they expected.",
+        "note_zh": "播三段來自不同地方的短片，先不說是哪裡。學生寫下聽懂的內容，再猜國家。通常的驚喜是：他們聽懂的比自己以為的多。",
+        "items": [
+          "Clip 1 ______ 　聽懂多少？ ______ %",
+          "Clip 2 ______ 　聽懂多少？ ______ %",
+          "Clip 3 ______ 　聽懂多少？ ______ %",
+          "Which was easiest? Why — the speed, the words, or just familiarity?",
+          "Rule: 「聽不懂」要說成「我還不習慣這個口音」——那是實話，也比較準確。"
+        ]
+      },
+      {
+        "title_en": "Exit ticket · your English, your place",
+        "title_zh": "出場券・你的英語，你的位置",
+        "note_en": "Dom asks for Taiwan's place in the English-speaking world, so end on it. One sentence, and it should be about being understood, not about sounding like someone else.",
+        "note_zh": "Dom 要求談台灣在英語世界的位置，就收在這裡。一句話，重點放在「被聽懂」，不是「像誰」。",
+        "items": [
+          "I use English to ______ .",
+          "One day I want to explain ______ to someone from another country."
+        ]
+      }
+    ]
+  },
+  "40": {
+    "prep_en": "No preparation needed — the Movie English Guide that Dom's homework refers to is written out below, first half ready to photocopy. Her note asks you to frame the movie as a celebration, not a test, so give out the guide before the film and let students choose what they will watch for.",
+    "prep_zh": "不必備課——Dom 作業裡提到的 Movie English Guide 已經寫在下面，前半部可以直接影印。她要求把看電影定位成慶祝而不是考試，所以看片前就把表發下去，讓學生自己選要盯著什麼看。",
+    "words": [
+      {
+        "en": "theme",
+        "pos": "n.",
+        "zh": "主題（要說的道理）",
+        "example": "The theme of the film is forgiveness.",
+        "more": "theme 是「關於什麼道理」· plot 是「發生什麼事」"
+      },
+      {
+        "en": "plot",
+        "pos": "n.",
+        "zh": "劇情",
+        "example": "The plot moves very quickly at the start.",
+        "more": "發生的事件 · 不是主題"
+      },
+      {
+        "en": "character",
+        "pos": "n.",
+        "zh": "角色",
+        "example": "The side characters are the best part.",
+        "more": "main character 主角 · side character 配角"
+      },
+      {
+        "en": "conflict",
+        "pos": "n.",
+        "zh": "衝突",
+        "example": "The central conflict is between duty and family.",
+        "more": "第 22 週學過 · 故事的引擎"
+      },
+      {
+        "en": "message",
+        "pos": "n.",
+        "zh": "訊息",
+        "example": "What message does the director want us to take home?",
+        "more": "第 34 週學過"
+      },
+      {
+        "en": "recommend",
+        "pos": "v.",
+        "zh": "推薦",
+        "example": "I would recommend it to anyone who likes quiet films.",
+        "more": "第 20 週學過 · recommend it TO someone"
+      },
+      {
+        "en": "criticize",
+        "pos": "v.",
+        "zh": "批評",
+        "example": "Critics criticized the ending, but I liked it.",
+        "more": "criticize (v.) · criticism (n.) · critic (人)"
+      },
+      {
+        "en": "memorable",
+        "pos": "adj.",
+        "zh": "難忘的",
+        "example": "The most memorable scene is the one with no words.",
+        "more": "memory → memorable"
+      }
+    ],
+    "practice": [
+      {
+        "title_en": "Movie English Guide · first half",
+        "title_zh": "電影英語學習單・前半",
+        "note_en": "This is the guide Dom's homework asks for. Hand it out before the film. The last line matters most: choosing one thing to watch for turns passive viewing into listening practice.",
+        "note_zh": "這就是 Dom 作業要的學習單，看片前發下去。最後一行最重要：選定一件要盯著看的事，會把被動觀看變成聽力練習。",
+        "items": [
+          "Title: ______ 　Year: ______ 　Where it is set: ______",
+          "Main character: ______ 　What they want: ______",
+          "The problem in one sentence: ______",
+          "Ten words I heard and want to keep: ______",
+          "My job while watching (choose one): 追一個角色 · 抄下十句台詞 · 只聽語氣不看字幕 · 記下每個我聽不懂的地方",
+          "(Second half — theme, opinion, review — comes after the film.)"
+        ]
+      },
+      {
+        "title_en": "Prediction cards · before you press play",
+        "title_zh": "預測卡・按下播放之前",
+        "note_en": "Dom's launch activity. Watch the trailer, pause, and write the cards. Sealed until after the film, then opened — students are far more invested in a story they made a bet on.",
+        "note_zh": "Dom 的啟動活動。看完預告、暫停、寫卡片。封起來，看完電影再拆開——押過注的故事，學生投入程度完全不同。",
+        "items": [
+          "I predict the main character will ______ .",
+          "I predict the ending will be ______ (happy / sad / surprising).",
+          "One thing I think will go wrong: ______",
+          "One word I expect to hear many times: ______",
+          "Sign your card and seal it."
+        ]
+      },
+      {
+        "title_en": "plot or theme? · the difference that trips everyone",
+        "title_zh": "劇情還是主題？・大家都會絆倒的分別",
+        "note_en": "Students write plot summaries when asked for themes, every time. Plot is what happened; theme is what it was about. One is a list of events, the other is an idea — and only the second one can be argued about.",
+        "note_zh": "每次問主題，學生都會寫劇情。劇情是「發生了什麼」，主題是「關於什麼」。一個是事件清單，一個是一個想法——而且只有後者可以拿來辯論。",
+        "items": [
+          "Plot: A boy loses his dog and searches the whole city for three days.",
+          "Theme: What we are willing to do for the ones we love.",
+          "Test: 主題應該可以套用在另一部完全不同的電影上。劇情不行。",
+          "Your turn: 想一部你看過的電影，寫一句劇情、一句主題。"
+        ]
+      },
+      {
+        "title_en": "Exit ticket · your one job",
+        "title_zh": "出場券・你的那一件任務",
+        "note_en": "Each student commits to one thing they will watch for, in writing, before they leave. Public commitment is what makes it actually happen.",
+        "note_zh": "每個學生離開前，用寫的承諾一件他要盯著看的事。寫出來的承諾才會真的執行。",
+        "items": [
+          "While I watch, my job is to ______ .",
+          "I will bring back ______ to the next class."
+        ]
+      }
+    ]
   }
 }
