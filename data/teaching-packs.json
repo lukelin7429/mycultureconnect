@@ -1,35 +1,66 @@
 {
   "_about_en": "Teaching packs are written by My Culture Connect to go with Dom Jones's lesson plans. Dom chooses the week's power vocabulary; the Chinese, the examples and the practice sets here are ours, so that a teacher can run her plan with no preparation. Kept in a separate file from data/lesson-plans.json so that re-importing Dom's PDF never overwrites our additions, and so it stays obvious which words are whose.",
   "_about_zh": "教學包由人師教育協會編寫，搭配 Dom Jones 的教案使用。每週的核心字彙是 Dom 選的；這裡的中文、例句與練習是我們加的，目的是讓老師不必備課就能把她的教案上完。刻意與 lesson-plans.json 分檔，重新匯入 Dom 的 PDF 不會蓋掉我們加的東西，也一眼看得出哪部分是誰寫的。",
-
   "1": {
     "prep_en": "No preparation needed. Read the lightning round off the screen. Students need one sheet of paper for their Word Bank.",
     "prep_zh": "不必備課。中翻英練習直接照螢幕唸。學生只需要一張紙做自己的單字銀行。",
     "words": [
-      { "en": "introduce", "pos": "v.", "zh": "介紹",
+      {
+        "en": "introduce",
+        "pos": "v.",
+        "zh": "介紹",
         "example": "Let me introduce myself — my name is Yi-Chen and I play basketball.",
-        "more": "introduce → introduction (n.)" },
-      { "en": "experience", "pos": "n. / v.", "zh": "經驗；體驗",
+        "more": "introduce → introduction (n.)"
+      },
+      {
+        "en": "experience",
+        "pos": "n. / v.",
+        "zh": "經驗；體驗",
         "example": "Tell me about one experience you had this summer.",
-        "more": "experience → experienced (adj.)" },
-      { "en": "challenge", "pos": "n. / v.", "zh": "挑戰",
+        "more": "experience → experienced (adj.)"
+      },
+      {
+        "en": "challenge",
+        "pos": "n. / v.",
+        "zh": "挑戰",
         "example": "Speaking English for sixty seconds is my challenge today.",
-        "more": "≈ difficult task · challenge → challenging (adj.)" },
-      { "en": "improve", "pos": "v.", "zh": "進步；改善",
+        "more": "≈ difficult task · challenge → challenging (adj.)"
+      },
+      {
+        "en": "improve",
+        "pos": "v.",
+        "zh": "進步；改善",
         "example": "This year I want to improve my listening.",
-        "more": "≈ get better · ↔ get worse" },
-      { "en": "confident", "pos": "adj.", "zh": "有自信的",
+        "more": "≈ get better · ↔ get worse"
+      },
+      {
+        "en": "confident",
+        "pos": "adj.",
+        "zh": "有自信的",
         "example": "She felt confident when she answered in English.",
-        "more": "↔ nervous, shy · confident → confidence (n.)" },
-      { "en": "curious", "pos": "adj.", "zh": "好奇的",
+        "more": "↔ nervous, shy · confident → confidence (n.)"
+      },
+      {
+        "en": "curious",
+        "pos": "adj.",
+        "zh": "好奇的",
         "example": "Good learners stay curious — they always ask why.",
-        "more": "↔ bored · curious → curiosity (n.)" },
-      { "en": "favorite", "pos": "adj. / n.", "zh": "最喜歡的",
+        "more": "↔ bored · curious → curiosity (n.)"
+      },
+      {
+        "en": "favorite",
+        "pos": "adj. / n.",
+        "zh": "最喜歡的",
         "example": "What is your favorite food in your hometown?",
-        "more": "British spelling: favourite" },
-      { "en": "discover", "pos": "v.", "zh": "發現",
+        "more": "British spelling: favourite"
+      },
+      {
+        "en": "discover",
+        "pos": "v.",
+        "zh": "發現",
         "example": "Today you will discover how many English words you already know.",
-        "more": "≈ find out · discover → discovery (n.)" }
+        "more": "≈ find out · discover → discovery (n.)"
+      }
     ],
     "practice": [
       {
@@ -87,35 +118,66 @@
       }
     ]
   },
-
   "2": {
     "prep_en": "No preparation needed. Write 'I like dogs.' on the board and build from there. Note that this week's eight words are the lesson itself: three adjectives, three adverbs, two conjunctions — the exact materials a sentence grows with.",
     "prep_zh": "不必備課。在白板寫下「I like dogs.」就能開始。請注意：本週八個字本身就是這堂課——三個形容詞、三個副詞、兩個連接詞，正好是把句子養大的三種材料。",
     "words": [
-      { "en": "quiet", "pos": "adj.", "zh": "安靜的",
+      {
+        "en": "quiet",
+        "pos": "adj.",
+        "zh": "安靜的",
         "example": "The library was quiet, so we could hear the rain outside.",
-        "more": "↔ noisy, loud · quiet (adj.) → quietly (adv.)" },
-      { "en": "enormous", "pos": "adj.", "zh": "巨大的",
+        "more": "↔ noisy, loud · quiet (adj.) → quietly (adv.)"
+      },
+      {
+        "en": "enormous",
+        "pos": "adj.",
+        "zh": "巨大的",
         "example": "My grandmother brought out an enormous mooncake after dinner.",
-        "more": "≈ huge, gigantic · ↔ tiny" },
-      { "en": "quickly", "pos": "adv.", "zh": "很快地",
+        "more": "≈ huge, gigantic · ↔ tiny"
+      },
+      {
+        "en": "quickly",
+        "pos": "adv.",
+        "zh": "很快地",
         "example": "He quickly wrote the new word in his notebook.",
-        "more": "↔ slowly · quick (adj.) → quickly (adv.)" },
-      { "en": "carefully", "pos": "adv.", "zh": "小心地；仔細地",
+        "more": "↔ slowly · quick (adj.) → quickly (adv.)"
+      },
+      {
+        "en": "carefully",
+        "pos": "adv.",
+        "zh": "小心地；仔細地",
         "example": "She carefully carried the hot soup to the table.",
-        "more": "↔ carelessly · careful (adj.) → carefully (adv.)" },
-      { "en": "exciting", "pos": "adj.", "zh": "令人興奮的",
+        "more": "↔ carelessly · careful (adj.) → carefully (adv.)"
+      },
+      {
+        "en": "exciting",
+        "pos": "adj.",
+        "zh": "令人興奮的",
         "example": "The last ten minutes of the game were exciting.",
-        "more": "↔ boring · 小心：exciting 是「令人興奮的」，excited 是「（人）感到興奮的」" },
-      { "en": "surprisingly", "pos": "adv.", "zh": "出乎意料地",
+        "more": "↔ boring · 小心：exciting 是「令人興奮的」，excited 是「（人）感到興奮的」"
+      },
+      {
+        "en": "surprisingly",
+        "pos": "adv.",
+        "zh": "出乎意料地",
         "example": "Surprisingly, my little brother finished the race first.",
-        "more": "surprise (n./v.) → surprising (adj.) → surprisingly (adv.)" },
-      { "en": "although", "pos": "conj.", "zh": "雖然",
+        "more": "surprise (n./v.) → surprising (adj.) → surprisingly (adv.)"
+      },
+      {
+        "en": "although",
+        "pos": "conj.",
+        "zh": "雖然",
         "example": "Although it rained, we still went outside to look at the moon.",
-        "more": "≈ though, even though · 小心：英文只用一個連接詞，不說 Although…, but…" },
-      { "en": "because", "pos": "conj.", "zh": "因為",
+        "more": "≈ though, even though · 小心：英文只用一個連接詞，不說 Although…, but…"
+      },
+      {
+        "en": "because",
+        "pos": "conj.",
+        "zh": "因為",
         "example": "We had a barbecue because it was Mid-Autumn Festival.",
-        "more": "because 接原因，so 接結果 · 小心：不能同一句用「Because…, so…」" }
+        "more": "because 接原因，so 接結果 · 小心：不能同一句用「Because…, so…」"
+      }
     ],
     "practice": [
       {
@@ -169,42 +231,81 @@
       }
     ]
   },
-
   "3": {
     "vocab_label_zh": "3 個詞族 · 10 種形式",
     "prep_en": "No preparation needed. Dom sets three families rather than single words — the point is the shape of the word, not the word. The ending tells you the job: -ness / -tion / -ty make nouns, -ful / -ive make adjectives, -ly makes adverbs, un- flips the meaning.",
     "prep_zh": "不必備課。Dom 這週給的是三個詞族而不是三個單字——重點是字的形狀，不是字本身。字尾就是職稱：-ness／-tion／-ty 變名詞，-ful／-ive 變形容詞，-ly 變副詞，un- 把意思翻面。",
     "words": [
-      { "en": "beauty", "pos": "n.", "zh": "美；美麗",
+      {
+        "en": "beauty",
+        "pos": "n.",
+        "zh": "美；美麗",
         "example": "The beauty of Lukang is in its old streets.",
-        "more": "家族 ①　-ty → 名詞" },
-      { "en": "beautiful", "pos": "adj.", "zh": "美麗的",
+        "more": "家族 ①　-ty → 名詞"
+      },
+      {
+        "en": "beautiful",
+        "pos": "adj.",
+        "zh": "美麗的",
         "example": "We took a photo in front of the beautiful temple.",
-        "more": "-ful → 形容詞" },
-      { "en": "beautifully", "pos": "adv.", "zh": "優美地",
+        "more": "-ful → 形容詞"
+      },
+      {
+        "en": "beautifully",
+        "pos": "adv.",
+        "zh": "優美地",
         "example": "She sings beautifully.",
-        "more": "-ly → 副詞（修飾動作，不是人）" },
-      { "en": "happy", "pos": "adj.", "zh": "快樂的",
+        "more": "-ly → 副詞（修飾動作，不是人）"
+      },
+      {
+        "en": "happy",
+        "pos": "adj.",
+        "zh": "快樂的",
         "example": "The whole class was happy when the bell rang.",
-        "more": "家族 ②" },
-      { "en": "happiness", "pos": "n.", "zh": "快樂",
+        "more": "家族 ②"
+      },
+      {
+        "en": "happiness",
+        "pos": "n.",
+        "zh": "快樂",
         "example": "Happiness is a warm bowl of beef noodles.",
-        "more": "-ness → 名詞" },
-      { "en": "happily", "pos": "adv.", "zh": "快樂地",
+        "more": "-ness → 名詞"
+      },
+      {
+        "en": "happily",
+        "pos": "adv.",
+        "zh": "快樂地",
         "example": "They happily walked home together.",
-        "more": "-ly → 副詞" },
-      { "en": "unhappy", "pos": "adj.", "zh": "不快樂的",
+        "more": "-ly → 副詞"
+      },
+      {
+        "en": "unhappy",
+        "pos": "adj.",
+        "zh": "不快樂的",
         "example": "He looked unhappy about the test result.",
-        "more": "un- → 相反（un- 加在形容詞前面）" },
-      { "en": "create", "pos": "v.", "zh": "創造",
+        "more": "un- → 相反（un- 加在形容詞前面）"
+      },
+      {
+        "en": "create",
+        "pos": "v.",
+        "zh": "創造",
         "example": "Each team will create a poster about their hometown.",
-        "more": "家族 ③　原形是動詞" },
-      { "en": "creative", "pos": "adj.", "zh": "有創意的",
+        "more": "家族 ③　原形是動詞"
+      },
+      {
+        "en": "creative",
+        "pos": "adj.",
+        "zh": "有創意的",
         "example": "That is a creative way to solve the problem.",
-        "more": "-ive → 形容詞" },
-      { "en": "creation", "pos": "n.", "zh": "創作；創造",
+        "more": "-ive → 形容詞"
+      },
+      {
+        "en": "creation",
+        "pos": "n.",
+        "zh": "創作；創造",
         "example": "The students showed their creations to the whole school.",
-        "more": "-tion → 名詞" }
+        "more": "-tion → 名詞"
+      }
     ],
     "practice": [
       {
@@ -261,45 +362,88 @@
       }
     ]
   },
-
   "4": {
     "vocab_label_zh": "4 組升級階梯 · 11 個字",
     "prep_en": "No preparation needed. Dom's four sets are ladders, not lists: each one climbs from an ordinary word to a strong one. Teach the rungs, not the words.",
     "prep_zh": "不必備課。Dom 這週給的四組是階梯，不是清單：每一組都從一個普通的字爬到一個有力的字。教的是階，不是字。",
     "words": [
-      { "en": "good", "pos": "adj.", "zh": "好的",
+      {
+        "en": "good",
+        "pos": "adj.",
+        "zh": "好的",
         "example": "The soup was good.",
-        "more": "階梯 ①　★☆☆ 普通" },
-      { "en": "excellent", "pos": "adj.", "zh": "優秀的",
+        "more": "階梯 ①　★☆☆ 普通"
+      },
+      {
+        "en": "excellent",
+        "pos": "adj.",
+        "zh": "優秀的",
         "example": "Her pronunciation is excellent.",
-        "more": "★★☆ 明顯比好更好" },
-      { "en": "outstanding", "pos": "adj.", "zh": "傑出的",
+        "more": "★★☆ 明顯比好更好"
+      },
+      {
+        "en": "outstanding",
+        "pos": "adj.",
+        "zh": "傑出的",
         "example": "He gave an outstanding performance at the school concert.",
-        "more": "★★★ 少數人才配得上" },
-      { "en": "bad", "pos": "adj.", "zh": "壞的；差的",
+        "more": "★★★ 少數人才配得上"
+      },
+      {
+        "en": "bad",
+        "pos": "adj.",
+        "zh": "壞的；差的",
         "example": "The weather was bad on Sunday.",
-        "more": "階梯 ②　★☆☆" },
-      { "en": "disastrous", "pos": "adj.", "zh": "災難性的",
+        "more": "階梯 ②　★☆☆"
+      },
+      {
+        "en": "disastrous",
+        "pos": "adj.",
+        "zh": "災難性的",
         "example": "Forgetting the tickets was disastrous.",
-        "more": "★★★ disaster (n.) → disastrous (adj.)" },
-      { "en": "happy", "pos": "adj.", "zh": "快樂的",
+        "more": "★★★ disaster (n.) → disastrous (adj.)"
+      },
+      {
+        "en": "happy",
+        "pos": "adj.",
+        "zh": "快樂的",
         "example": "I am happy to see you.",
-        "more": "階梯 ③　★☆☆" },
-      { "en": "delighted", "pos": "adj.", "zh": "很開心的",
+        "more": "階梯 ③　★☆☆"
+      },
+      {
+        "en": "delighted",
+        "pos": "adj.",
+        "zh": "很開心的",
         "example": "We were delighted when she won.",
-        "more": "★★☆ 比 happy 正式一點" },
-      { "en": "ecstatic", "pos": "adj.", "zh": "欣喜若狂的",
+        "more": "★★☆ 比 happy 正式一點"
+      },
+      {
+        "en": "ecstatic",
+        "pos": "adj.",
+        "zh": "欣喜若狂的",
         "example": "The team was ecstatic after the last-second goal.",
-        "more": "★★★ 誇張的程度，別亂用" },
-      { "en": "big", "pos": "adj.", "zh": "大的",
+        "more": "★★★ 誇張的程度，別亂用"
+      },
+      {
+        "en": "big",
+        "pos": "adj.",
+        "zh": "大的",
         "example": "That is a big box.",
-        "more": "階梯 ④　★☆☆" },
-      { "en": "enormous", "pos": "adj.", "zh": "巨大的",
+        "more": "階梯 ④　★☆☆"
+      },
+      {
+        "en": "enormous",
+        "pos": "adj.",
+        "zh": "巨大的",
         "example": "An enormous banyan tree stands in front of the temple.",
-        "more": "★★☆ 上週學過，這週再用一次" },
-      { "en": "colossal", "pos": "adj.", "zh": "龐大的",
+        "more": "★★☆ 上週學過，這週再用一次"
+      },
+      {
+        "en": "colossal",
+        "pos": "adj.",
+        "zh": "龐大的",
         "example": "The typhoon caused colossal damage to the harbor.",
-        "more": "★★★ 用在真正巨大的事物" }
+        "more": "★★★ 用在真正巨大的事物"
+      }
     ],
     "practice": [
       {
@@ -354,35 +498,66 @@
       }
     ]
   },
-
   "5": {
     "prep_en": "No preparation needed. The eight words split into two teams: usually / often / every day point at the present simple, right now / currently / today point at the present continuous. Teach the signal words and the tense follows.",
     "prep_zh": "不必備課。八個字分成兩隊：usually／often／every day 指向現在簡單式，right now／currently／today 指向現在進行式。先教訊號字，時態自己就跟上來了。",
     "words": [
-      { "en": "usually", "pos": "adv.", "zh": "通常",
+      {
+        "en": "usually",
+        "pos": "adv.",
+        "zh": "通常",
         "example": "I usually take the bus to school.",
-        "more": "訊號 → 現在簡單式（習慣）" },
-      { "en": "often", "pos": "adv.", "zh": "常常",
+        "more": "訊號 → 現在簡單式（習慣）"
+      },
+      {
+        "en": "often",
+        "pos": "adv.",
+        "zh": "常常",
         "example": "We often eat dumplings on Sunday.",
-        "more": "訊號 → 現在簡單式" },
-      { "en": "every day", "pos": "phr.", "zh": "每天",
+        "more": "訊號 → 現在簡單式"
+      },
+      {
+        "en": "every day",
+        "pos": "phr.",
+        "zh": "每天",
         "example": "She practices the piano every day.",
-        "more": "訊號 → 現在簡單式 · 放句尾" },
-      { "en": "right now", "pos": "phr.", "zh": "此刻",
+        "more": "訊號 → 現在簡單式 · 放句尾"
+      },
+      {
+        "en": "right now",
+        "pos": "phr.",
+        "zh": "此刻",
         "example": "Right now I am writing in my notebook.",
-        "more": "訊號 → 現在進行式" },
-      { "en": "currently", "pos": "adv.", "zh": "目前",
+        "more": "訊號 → 現在進行式"
+      },
+      {
+        "en": "currently",
+        "pos": "adv.",
+        "zh": "目前",
         "example": "We are currently studying the water cycle.",
-        "more": "訊號 → 現在進行式 · 比 right now 正式" },
-      { "en": "today", "pos": "adv.", "zh": "今天",
+        "more": "訊號 → 現在進行式 · 比 right now 正式"
+      },
+      {
+        "en": "today",
+        "pos": "adv.",
+        "zh": "今天",
         "example": "Today we are working in pairs.",
-        "more": "兩種都可以，看你說的是今天的習慣還是此刻的動作" },
-      { "en": "practice", "pos": "v. / n.", "zh": "練習",
+        "more": "兩種都可以，看你說的是今天的習慣還是此刻的動作"
+      },
+      {
+        "en": "practice",
+        "pos": "v. / n.",
+        "zh": "練習",
         "example": "The team practices after school every day.",
-        "more": "第三人稱單數要加 -s：he practices" },
-      { "en": "prepare", "pos": "v.", "zh": "準備",
+        "more": "第三人稱單數要加 -s：he practices"
+      },
+      {
+        "en": "prepare",
+        "pos": "v.",
+        "zh": "準備",
         "example": "I am preparing for the English test this week.",
-        "more": "prepare for something · preparation (n.)" }
+        "more": "prepare for something · preparation (n.)"
+      }
     ],
     "practice": [
       {
@@ -437,35 +612,66 @@
       }
     ]
   },
-
   "6": {
     "prep_en": "No preparation needed. Five of this week's verbs are irregular and three are regular -ed — worth sorting on the board before anything else, because that split is the whole difficulty of the past simple.",
     "prep_zh": "不必備課。本週五個動詞是不規則、三個是規則加 -ed——先在白板上分成兩堆，因為過去式的難處全在這條分界線上。",
     "words": [
-      { "en": "went", "pos": "v.", "zh": "去了",
+      {
+        "en": "went",
+        "pos": "v.",
+        "zh": "去了",
         "example": "We went to Lukang last Sunday.",
-        "more": "不規則　go → went → gone" },
-      { "en": "saw", "pos": "v.", "zh": "看見了",
+        "more": "不規則　go → went → gone"
+      },
+      {
+        "en": "saw",
+        "pos": "v.",
+        "zh": "看見了",
         "example": "I saw my teacher at the night market.",
-        "more": "不規則　see → saw → seen" },
-      { "en": "made", "pos": "v.", "zh": "做了",
+        "more": "不規則　see → saw → seen"
+      },
+      {
+        "en": "made",
+        "pos": "v.",
+        "zh": "做了",
         "example": "My grandmother made rice dumplings.",
-        "more": "不規則　make → made → made" },
-      { "en": "took", "pos": "v.", "zh": "拿了；搭了",
+        "more": "不規則　make → made → made"
+      },
+      {
+        "en": "took",
+        "pos": "v.",
+        "zh": "拿了；搭了",
         "example": "He took the train to Taichung.",
-        "more": "不規則　take → took → taken" },
-      { "en": "felt", "pos": "v.", "zh": "覺得",
+        "more": "不規則　take → took → taken"
+      },
+      {
+        "en": "felt",
+        "pos": "v.",
+        "zh": "覺得",
         "example": "I felt nervous before the speech.",
-        "more": "不規則　feel → felt → felt" },
-      { "en": "visited", "pos": "v.", "zh": "拜訪了",
+        "more": "不規則　feel → felt → felt"
+      },
+      {
+        "en": "visited",
+        "pos": "v.",
+        "zh": "拜訪了",
         "example": "We visited my aunt in Kaohsiung.",
-        "more": "規則 +ed　字尾唸 /ɪd/" },
-      { "en": "happened", "pos": "v.", "zh": "發生了",
+        "more": "規則 +ed　字尾唸 /ɪd/"
+      },
+      {
+        "en": "happened",
+        "pos": "v.",
+        "zh": "發生了",
         "example": "Something strange happened on the bus.",
-        "more": "規則 +ed　字尾唸 /d/" },
-      { "en": "decided", "pos": "v.", "zh": "決定了",
+        "more": "規則 +ed　字尾唸 /d/"
+      },
+      {
+        "en": "decided",
+        "pos": "v.",
+        "zh": "決定了",
         "example": "We decided to walk home.",
-        "more": "規則 +ed　字尾唸 /ɪd/" }
+        "more": "規則 +ed　字尾唸 /ɪd/"
+      }
     ],
     "practice": [
       {
@@ -519,35 +725,66 @@
       }
     ]
   },
-
   "7": {
     "prep_en": "No preparation needed. The whole week hangs on one contrast: the long action in the background (was doing) and the short action that cuts across it (did). Draw a long line on the board and a short arrow through it — that drawing is the grammar.",
     "prep_zh": "不必備課。整週只靠一組對比：背景那個長動作（was doing），和橫切過去的短動作（did）。在白板上畫一條長線，再畫一支箭穿過去——那張圖就是文法。",
     "words": [
-      { "en": "was / were", "pos": "v.", "zh": "（過去的 be 動詞）",
+      {
+        "en": "was / were",
+        "pos": "v.",
+        "zh": "（過去的 be 動詞）",
         "example": "I was reading when the phone rang.",
-        "more": "I/he/she/it → was　you/we/they → were" },
-      { "en": "while", "pos": "conj.", "zh": "當…的時候（長動作）",
+        "more": "I/he/she/it → was　you/we/they → were"
+      },
+      {
+        "en": "while",
+        "pos": "conj.",
+        "zh": "當…的時候（長動作）",
         "example": "While I was cooking, my brother was singing.",
-        "more": "while 後面通常接 was/were + -ing" },
-      { "en": "when", "pos": "conj.", "zh": "當…的時候（短動作）",
+        "more": "while 後面通常接 was/were + -ing"
+      },
+      {
+        "en": "when",
+        "pos": "conj.",
+        "zh": "當…的時候（短動作）",
         "example": "I was walking home when it started to rain.",
-        "more": "when 後面通常接過去簡單式" },
-      { "en": "suddenly", "pos": "adv.", "zh": "突然",
+        "more": "when 後面通常接過去簡單式"
+      },
+      {
+        "en": "suddenly",
+        "pos": "adv.",
+        "zh": "突然",
         "example": "Suddenly, the lights went out.",
-        "more": "放句首製造戲劇效果" },
-      { "en": "meanwhile", "pos": "adv.", "zh": "同時",
+        "more": "放句首製造戲劇效果"
+      },
+      {
+        "en": "meanwhile",
+        "pos": "adv.",
+        "zh": "同時",
         "example": "Meanwhile, her sister was still sleeping.",
-        "more": "連接兩個同時進行的場景" },
-      { "en": "happen", "pos": "v.", "zh": "發生",
+        "more": "連接兩個同時進行的場景"
+      },
+      {
+        "en": "happen",
+        "pos": "v.",
+        "zh": "發生",
         "example": "What happened while I was away?",
-        "more": "happen → happened（規則）" },
-      { "en": "interrupt", "pos": "v.", "zh": "打斷",
+        "more": "happen → happened（規則）"
+      },
+      {
+        "en": "interrupt",
+        "pos": "v.",
+        "zh": "打斷",
         "example": "A loud knock interrupted our meeting.",
-        "more": "interrupt → interruption (n.)" },
-      { "en": "notice", "pos": "v.", "zh": "注意到",
+        "more": "interrupt → interruption (n.)"
+      },
+      {
+        "en": "notice",
+        "pos": "v.",
+        "zh": "注意到",
         "example": "Nobody noticed that the door was open.",
-        "more": "notice → noticed（規則）" }
+        "more": "notice → noticed（規則）"
+      }
     ],
     "practice": [
       {
@@ -599,42 +836,81 @@
       }
     ]
   },
-
   "8": {
     "vocab_label_zh": "10 個字 · 6 個過去分詞 + 4 個訊號字",
     "prep_en": "No preparation needed, but read the trap card before you teach — the present perfect is the single hardest tense for Chinese speakers, and the reason is specific: 過 and 了 look alike in Chinese and land in different English tenses.",
     "prep_zh": "不必備課，但教之前先看一眼陷阱卡——現在完成式是中文母語者最難的一個時態，原因很具體：中文的「過」和「了」長得像，在英文裡卻落在不同的時態。",
     "words": [
-      { "en": "visited", "pos": "pp.", "zh": "拜訪過",
+      {
+        "en": "visited",
+        "pos": "pp.",
+        "zh": "拜訪過",
         "example": "I have visited Tainan three times.",
-        "more": "規則　visit → visited → visited" },
-      { "en": "eaten", "pos": "pp.", "zh": "吃過",
+        "more": "規則　visit → visited → visited"
+      },
+      {
+        "en": "eaten",
+        "pos": "pp.",
+        "zh": "吃過",
         "example": "Have you ever eaten stinky tofu?",
-        "more": "不規則　eat → ate → eaten" },
-      { "en": "seen", "pos": "pp.", "zh": "看過",
+        "more": "不規則　eat → ate → eaten"
+      },
+      {
+        "en": "seen",
+        "pos": "pp.",
+        "zh": "看過",
         "example": "She has seen that movie twice.",
-        "more": "不規則　see → saw → seen" },
-      { "en": "tried", "pos": "pp.", "zh": "試過",
+        "more": "不規則　see → saw → seen"
+      },
+      {
+        "en": "tried",
+        "pos": "pp.",
+        "zh": "試過",
         "example": "We have tried making mooncakes at home.",
-        "more": "規則　try → tried → tried（y 變 i）" },
-      { "en": "finished", "pos": "pp.", "zh": "完成了",
+        "more": "規則　try → tried → tried（y 變 i）"
+      },
+      {
+        "en": "finished",
+        "pos": "pp.",
+        "zh": "完成了",
         "example": "I have already finished my homework.",
-        "more": "規則　finish → finished → finished" },
-      { "en": "forgotten", "pos": "pp.", "zh": "忘記了",
+        "more": "規則　finish → finished → finished"
+      },
+      {
+        "en": "forgotten",
+        "pos": "pp.",
+        "zh": "忘記了",
         "example": "He has forgotten his umbrella again.",
-        "more": "不規則　forget → forgot → forgotten" },
-      { "en": "ever", "pos": "adv.", "zh": "曾經",
+        "more": "不規則　forget → forgot → forgotten"
+      },
+      {
+        "en": "ever",
+        "pos": "adv.",
+        "zh": "曾經",
         "example": "Have you ever climbed Jade Mountain?",
-        "more": "只用在問句　Have you ever…?" },
-      { "en": "never", "pos": "adv.", "zh": "從來沒有",
+        "more": "只用在問句　Have you ever…?"
+      },
+      {
+        "en": "never",
+        "pos": "adv.",
+        "zh": "從來沒有",
         "example": "I have never been to Japan.",
-        "more": "本身就是否定，不要再加 not" },
-      { "en": "already", "pos": "adv.", "zh": "已經",
+        "more": "本身就是否定，不要再加 not"
+      },
+      {
+        "en": "already",
+        "pos": "adv.",
+        "zh": "已經",
         "example": "We have already eaten lunch.",
-        "more": "放在 have 和分詞中間" },
-      { "en": "yet", "pos": "adv.", "zh": "還（沒）",
+        "more": "放在 have 和分詞中間"
+      },
+      {
+        "en": "yet",
+        "pos": "adv.",
+        "zh": "還（沒）",
         "example": "I haven't finished it yet.",
-        "more": "用在否定句與問句 · 放句尾" }
+        "more": "用在否定句與問句 · 放句尾"
+      }
     ],
     "practice": [
       {
@@ -687,27 +963,46 @@
       }
     ]
   },
-
   "9": {
     "vocab_label_zh": "5 組三態 · 15 個形式",
     "prep_en": "No preparation needed. Four of Dom's five verbs end their third form in -en — that is not a coincidence, it is a family. Point that out and fifteen forms become five patterns.",
     "prep_zh": "不必備課。Dom 給的五個動詞裡有四個第三態以 -en 結尾——那不是巧合，是一個家族。把這件事點破，十五個形式就變成五個規律。",
     "words": [
-      { "en": "go · went · gone", "pos": "v.", "zh": "去",
+      {
+        "en": "go · went · gone",
+        "pos": "v.",
+        "zh": "去",
         "example": "She has gone to the library. (她人還在那裡)",
-        "more": "自成一格 · 注意 been 和 gone 不同：have been = 去過回來了" },
-      { "en": "eat · ate · eaten", "pos": "v.", "zh": "吃",
+        "more": "自成一格 · 注意 been 和 gone 不同：have been = 去過回來了"
+      },
+      {
+        "en": "eat · ate · eaten",
+        "pos": "v.",
+        "zh": "吃",
         "example": "We have eaten all the mooncakes.",
-        "more": "-en 家族" },
-      { "en": "write · wrote · written", "pos": "v.", "zh": "寫",
+        "more": "-en 家族"
+      },
+      {
+        "en": "write · wrote · written",
+        "pos": "v.",
+        "zh": "寫",
         "example": "He has written three letters this week.",
-        "more": "-en 家族 · 注意雙寫 tt" },
-      { "en": "break · broke · broken", "pos": "v.", "zh": "打破",
+        "more": "-en 家族 · 注意雙寫 tt"
+      },
+      {
+        "en": "break · broke · broken",
+        "pos": "v.",
+        "zh": "打破",
         "example": "Someone has broken the window.",
-        "more": "-en 家族 · 也常用在被動：The window was broken." },
-      { "en": "choose · chose · chosen", "pos": "v.", "zh": "選擇",
+        "more": "-en 家族 · 也常用在被動：The window was broken."
+      },
+      {
+        "en": "choose · chose · chosen",
+        "pos": "v.",
+        "zh": "選擇",
         "example": "They have chosen the winning team.",
-        "more": "-en 家族 · choose(現在) 兩個 o，chose(過去) 一個" }
+        "more": "-en 家族 · choose(現在) 兩個 o，chose(過去) 一個"
+      }
     ],
     "practice": [
       {
@@ -762,38 +1057,73 @@
       }
     ]
   },
-
   "10": {
     "prep_en": "No preparation needed. This is the review week, so the nine words are all time signals — each one points at a tense. Teach the signals and the review teaches itself.",
     "prep_zh": "不必備課。這是複習週，所以九個字全是時間訊號——每一個都指向一種時態。把訊號教好，複習就自己完成了。",
     "words": [
-      { "en": "yesterday", "pos": "adv.", "zh": "昨天",
+      {
+        "en": "yesterday",
+        "pos": "adv.",
+        "zh": "昨天",
         "example": "I finished the book yesterday.",
-        "more": "→ 過去簡單式" },
-      { "en": "ago", "pos": "adv.", "zh": "…以前",
+        "more": "→ 過去簡單式"
+      },
+      {
+        "en": "ago",
+        "pos": "adv.",
+        "zh": "…以前",
         "example": "We moved here three years ago.",
-        "more": "→ 過去簡單式 · 放在時間長度後面" },
-      { "en": "while", "pos": "conj.", "zh": "當…的時候",
+        "more": "→ 過去簡單式 · 放在時間長度後面"
+      },
+      {
+        "en": "while",
+        "pos": "conj.",
+        "zh": "當…的時候",
         "example": "While I was studying, it started to rain.",
-        "more": "→ 過去進行式" },
-      { "en": "usually", "pos": "adv.", "zh": "通常",
+        "more": "→ 過去進行式"
+      },
+      {
+        "en": "usually",
+        "pos": "adv.",
+        "zh": "通常",
         "example": "I usually walk to school.",
-        "more": "→ 現在簡單式" },
-      { "en": "now", "pos": "adv.", "zh": "現在",
+        "more": "→ 現在簡單式"
+      },
+      {
+        "en": "now",
+        "pos": "adv.",
+        "zh": "現在",
         "example": "Now I am reading a longer book.",
-        "more": "→ 現在進行式" },
-      { "en": "since", "pos": "prep.", "zh": "自從（時間點）",
+        "more": "→ 現在進行式"
+      },
+      {
+        "en": "since",
+        "pos": "prep.",
+        "zh": "自從（時間點）",
         "example": "I have studied English since third grade.",
-        "more": "→ 現在完成式 · since + 起點" },
-      { "en": "for", "pos": "prep.", "zh": "長達（時間長度）",
+        "more": "→ 現在完成式 · since + 起點"
+      },
+      {
+        "en": "for",
+        "pos": "prep.",
+        "zh": "長達（時間長度）",
         "example": "I have studied English for six years.",
-        "more": "→ 現在完成式 · for + 長度" },
-      { "en": "already", "pos": "adv.", "zh": "已經",
+        "more": "→ 現在完成式 · for + 長度"
+      },
+      {
+        "en": "already",
+        "pos": "adv.",
+        "zh": "已經",
         "example": "She has already left.",
-        "more": "→ 現在完成式" },
-      { "en": "recently", "pos": "adv.", "zh": "最近",
+        "more": "→ 現在完成式"
+      },
+      {
+        "en": "recently",
+        "pos": "adv.",
+        "zh": "最近",
         "example": "We have recently started a new project.",
-        "more": "→ 現在完成式" }
+        "more": "→ 現在完成式"
+      }
     ],
     "practice": [
       {
@@ -842,6 +1172,654 @@
           "Right now I am ______ .　(現在進行式)",
           "Last month I ______ .　(過去簡單式)",
           "So far this year I have ______ .　(現在完成式)"
+        ]
+      }
+    ]
+  },
+  "11": {
+    "vocab_label_zh": "3 組同義詞 · 10 個字",
+    "prep_en": "No preparation needed. Week 4 was about climbing to a stronger word. This week is the opposite lesson: synonyms are not spare parts. Each one has a place it belongs and places it does not.",
+    "prep_zh": "不必備課。第 4 週學的是往上換一個更強的字，這週剛好相反：同義詞不是零件，不能隨便替換。每個字都有它待得住的地方，和待不住的地方。",
+    "words": [
+      {
+        "en": "happy",
+        "pos": "adj.",
+        "zh": "快樂的",
+        "example": "She is a happy person.",
+        "more": "組 ①　最通用 · 可以形容「一個人」"
+      },
+      {
+        "en": "glad",
+        "pos": "adj.",
+        "zh": "高興的",
+        "example": "I'm glad you came.",
+        "more": "只用在特定事件 · ✗ a glad person"
+      },
+      {
+        "en": "pleased",
+        "pos": "adj.",
+        "zh": "滿意的",
+        "example": "The teacher was pleased with our report.",
+        "more": "對結果滿意 · 稍正式 · pleased with"
+      },
+      {
+        "en": "delighted",
+        "pos": "adj.",
+        "zh": "非常開心的",
+        "example": "We were delighted to hear the news.",
+        "more": "最強 · 正式場合、書信常用"
+      },
+      {
+        "en": "smart",
+        "pos": "adj.",
+        "zh": "聰明的",
+        "example": "He is a smart student.",
+        "more": "組 ②　最通用 · 美式口語"
+      },
+      {
+        "en": "clever",
+        "pos": "adj.",
+        "zh": "機靈的",
+        "example": "That was a clever way to solve it.",
+        "more": "有巧思 · 形容「方法」比形容人安全（形容人有時帶狡猾意味）"
+      },
+      {
+        "en": "intelligent",
+        "pos": "adj.",
+        "zh": "有智慧的",
+        "example": "She asked an intelligent question.",
+        "more": "正式 · 指理解力，不用來誇小聰明"
+      },
+      {
+        "en": "irritated",
+        "pos": "adj.",
+        "zh": "惱火的",
+        "example": "I was irritated by the noise.",
+        "more": "組 ③　最輕 · 被煩到"
+      },
+      {
+        "en": "angry",
+        "pos": "adj.",
+        "zh": "生氣的",
+        "example": "My father was angry about the broken window.",
+        "more": "中等 · 最通用"
+      },
+      {
+        "en": "furious",
+        "pos": "adj.",
+        "zh": "暴怒的",
+        "example": "She was furious when she saw the mess.",
+        "more": "最強 · 不能再加 very"
+      }
+    ],
+    "practice": [
+      {
+        "title_en": "Synonym Snap · the call list",
+        "title_zh": "同義詞快閃・題目表",
+        "note_en": "Dom's race. Call a basic word; the first student to answer must give a synonym AND use it in a sentence. A synonym without a sentence scores nothing — that rule is what stops this becoming a memory test.",
+        "note_zh": "Dom 的競賽。老師喊一個基本字，最快搶答的學生要給同義詞「並且」造句。只給字不造句不算分——這條規則才能讓它不淪為背誦測驗。",
+        "items": [
+          "big → ______",
+          "happy → ______",
+          "smart → ______",
+          "angry → ______",
+          "tired → ______",
+          "scary → ______",
+          "fast → ______",
+          "important → ______"
+        ]
+      },
+      {
+        "title_en": "The trap · one Chinese word, several English ones",
+        "title_zh": "陷阱・中文一個字，英文好幾個",
+        "note_en": "「聰明」covers smart, clever and intelligent, so students assume the three are interchangeable. They are not — English fixes each one to certain partners. Test by collocation, not by meaning.",
+        "note_zh": "「聰明」一個字涵蓋 smart、clever、intelligent，所以學生以為三個可以互換。不行——英文把每個字綁在固定的搭配上。要用搭配去測，不是用意思去測。",
+        "items": [
+          "✗ He is a glad person. ✓ He is a happy person. ✓ I'm glad you came.",
+          "✗ What an intelligent trick! ✓ What a clever trick!",
+          "Your turn — choose: I was very ______ (irritated / furious) by the small noise.",
+          "Your turn — choose: We are ______ (glad / delighted) to invite you to our ceremony."
+        ]
+      },
+      {
+        "title_en": "Which one fits?",
+        "title_zh": "哪一個放得進去？",
+        "note_en": "Read the sentence, students pick from the week's ten words and say why. 'It sounds better' does not count; the reason must be about strength or about who or what the word is describing.",
+        "note_zh": "唸句子，學生從本週十個字裡挑，並說出理由。「聽起來比較好」不算；理由必須是強度，或這個字在形容誰、形容什麼。",
+        "items": [
+          "My little sister broke my model. I was ______ .",
+          "Someone stole my bicycle. I was ______ .",
+          "The principal was ______ with our SDG poster.",
+          "She found a ______ way to carry all the books at once.",
+          "We are ______ to announce the winner. (正式)"
+        ]
+      },
+      {
+        "title_en": "Exit ticket · same word, two feelings",
+        "title_zh": "出場券・同一組字，兩種感覺",
+        "note_en": "This is Dom's homework in miniature: two sentences that show the difference, not two sentences that use the words.",
+        "note_zh": "這是 Dom 作業的縮小版：兩句話要讓差別現出來，不是只把字用進去。",
+        "items": [
+          "I was irritated when ______ .",
+          "I was furious when ______ ."
+        ]
+      }
+    ]
+  },
+  "12": {
+    "vocab_label_zh": "5 組反義詞 · 10 個字",
+    "prep_en": "No preparation needed. Two kinds of opposite live in this week: the ones English builds with a prefix (happy / unhappy) and the ones that are a different word altogether (arrive / depart). Students reach for the prefix every time, so sort the two kinds first.",
+    "prep_zh": "不必備課。本週有兩種相反：一種是英文用字首造出來的（happy / unhappy），一種根本是另一個字（arrive / depart）。學生每次都伸手去拿字首，所以先把兩種分開。",
+    "words": [
+      {
+        "en": "ancient",
+        "pos": "adj.",
+        "zh": "古老的",
+        "example": "Lukang has many ancient buildings.",
+        "more": "組 ①　↔ modern · 不是 unmodern"
+      },
+      {
+        "en": "modern",
+        "pos": "adj.",
+        "zh": "現代的",
+        "example": "Taipei 101 is a modern landmark.",
+        "more": "↔ ancient"
+      },
+      {
+        "en": "generous",
+        "pos": "adj.",
+        "zh": "慷慨的",
+        "example": "Our neighbor is very generous with her time.",
+        "more": "組 ②　↔ selfish"
+      },
+      {
+        "en": "selfish",
+        "pos": "adj.",
+        "zh": "自私的",
+        "example": "It was selfish to take all the snacks.",
+        "more": "↔ generous · 注意：unselfish 也存在，但 selfish 才是真正的反義"
+      },
+      {
+        "en": "expand",
+        "pos": "v.",
+        "zh": "擴大",
+        "example": "The school will expand the library next year.",
+        "more": "組 ③　↔ contract · expansion (n.)"
+      },
+      {
+        "en": "contract",
+        "pos": "v.",
+        "zh": "收縮",
+        "example": "Metal contracts when it gets cold.",
+        "more": "↔ expand · 這個字也可以當名詞「合約」"
+      },
+      {
+        "en": "increase",
+        "pos": "v. / n.",
+        "zh": "增加",
+        "example": "The number of students increased this year.",
+        "more": "組 ④　↔ decrease"
+      },
+      {
+        "en": "decrease",
+        "pos": "v. / n.",
+        "zh": "減少",
+        "example": "Rainfall decreased in August.",
+        "more": "↔ increase · 寫報告、看圖表時最常用的一對"
+      },
+      {
+        "en": "arrive",
+        "pos": "v.",
+        "zh": "抵達",
+        "example": "The train arrives at nine.",
+        "more": "組 ⑤　↔ depart · arrive at 小地方 / arrive in 大城市"
+      },
+      {
+        "en": "depart",
+        "pos": "v.",
+        "zh": "出發；離開",
+        "example": "The bus departs from platform two.",
+        "more": "↔ arrive · 車站機場的正式用字 · departure (n.)"
+      }
+    ],
+    "practice": [
+      {
+        "title_en": "Opposite Day · silly first, serious after",
+        "title_zh": "相反日・先荒謬，後正經",
+        "note_en": "Dom's activity. Students answer with the opposite of the truth, and the class corrects them. The silliness lowers the fear; the second round is where the learning is banked.",
+        "note_zh": "Dom 的活動。學生用「跟事實相反」的答案回答，全班糾正。荒謬降低恐懼，第二輪才是把學習存進去的地方。",
+        "items": [
+          "Is the classroom quiet right now?  (相反：Yes, it's extremely quiet.)",
+          "Is Taipei 101 an ancient building?",
+          "Did you arrive at school yesterday, or depart?",
+          "Is our class getting bigger or smaller this year?",
+          "Now switch to serious: give one true sentence with each pair."
+        ]
+      },
+      {
+        "title_en": "The trap · un- does not fit everything",
+        "title_zh": "陷阱・un- 不是萬用",
+        "note_en": "Chinese makes almost every opposite with 不. English has four prefixes plus a large pile of words that take none at all. When in doubt, a different word is safer than a guessed prefix.",
+        "note_zh": "中文幾乎所有相反都用「不」。英文有四個字首，外加一大堆根本不加字首的字。不確定的時候，換一個字比亂猜字首安全。",
+        "items": [
+          "un- → happy/unhappy · fair/unfair · lucky/unlucky",
+          "dis- → agree/disagree · honest/dishonest · appear/disappear",
+          "im- / in- → possible/impossible · correct/incorrect · polite/impolite",
+          "✗ unpossible ✗ uncorrect ✗ unagree ✗ unarrive",
+          "Your turn — fix this: ✗ I unagree with that plan."
+        ]
+      },
+      {
+        "title_en": "Contrast language · however, whereas, while",
+        "title_zh": "對比的說法・however、whereas、while",
+        "note_en": "Dom's CEFR line asks B2+ students for these three. They are how an opposite becomes an argument. Pair with her National Day connection — compare respectfully, without ranking one place above another.",
+        "note_zh": "Dom 的 CEFR 欄要求 B2 以上要會這三個。它們是把「相反」變成「論述」的工具。搭配她指定的國慶連結——尊重地比較，不要把某個地方排在另一個之上。",
+        "items": [
+          "Lukang is ancient; Taipei, however, is modern.",
+          "Whereas the north is crowded, the east coast is quiet.",
+          "While some families celebrate at home, others go to the parade.",
+          "Your turn: Taiwan ______ , whereas the United States ______ ."
+        ]
+      },
+      {
+        "title_en": "Exit ticket · one pair, one contrast",
+        "title_zh": "出場券・一組相反，一句對比",
+        "note_en": "One sentence holding both halves of a pair. If they can join the two with however or whereas, that is a bonus point.",
+        "note_zh": "一句話裡放進一組相反的兩半。能用 however 或 whereas 接起來的加一分。",
+        "items": [
+          "______ , whereas ______ ."
+        ]
+      }
+    ]
+  },
+  "13": {
+    "vocab_label_zh": "3 道量尺 · 9 個字",
+    "prep_en": "No preparation needed. Week 4 asked students to climb to a stronger word. This week asks something harder: know the whole ladder, and know that the top rung will not take 'very'.",
+    "prep_zh": "不必備課。第 4 週要學生往上換一個更強的字，這週要求更難的事：認得整道梯子，並且知道最高那一階「不接 very」。",
+    "words": [
+      {
+        "en": "annoyed",
+        "pos": "adj.",
+        "zh": "有點不高興",
+        "example": "I was annoyed by the noise upstairs.",
+        "more": "量尺 ①　輕"
+      },
+      {
+        "en": "angry",
+        "pos": "adj.",
+        "zh": "生氣的",
+        "example": "He was angry about the unfair result.",
+        "more": "中"
+      },
+      {
+        "en": "furious",
+        "pos": "adj.",
+        "zh": "暴怒的",
+        "example": "She was absolutely furious.",
+        "more": "極端字 · 不加 very，要加 absolutely"
+      },
+      {
+        "en": "warm",
+        "pos": "adj.",
+        "zh": "溫暖的",
+        "example": "The classroom is warm today.",
+        "more": "量尺 ②　輕"
+      },
+      {
+        "en": "hot",
+        "pos": "adj.",
+        "zh": "熱的",
+        "example": "August in Changhua is very hot.",
+        "more": "中"
+      },
+      {
+        "en": "boiling",
+        "pos": "adj.",
+        "zh": "滾燙的",
+        "example": "It was absolutely boiling on the bus.",
+        "more": "極端字 · ✗ very boiling"
+      },
+      {
+        "en": "good",
+        "pos": "adj.",
+        "zh": "好的",
+        "example": "The lunch was good.",
+        "more": "量尺 ③　輕"
+      },
+      {
+        "en": "great",
+        "pos": "adj.",
+        "zh": "很棒的",
+        "example": "That was a great performance.",
+        "more": "中"
+      },
+      {
+        "en": "exceptional",
+        "pos": "adj.",
+        "zh": "卓越的",
+        "example": "Her handwriting is exceptional.",
+        "more": "極端字 · 正式 · ✗ very exceptional"
+      }
+    ],
+    "practice": [
+      {
+        "title_en": "Vocabulary Thermometer",
+        "title_zh": "單字溫度計",
+        "note_en": "Dom's activity. Draw a thermometer on the board. Hand out the words shuffled; students place each one and must defend the position. Arguments about placement are the lesson, not a delay.",
+        "note_zh": "Dom 的活動。在白板畫一支溫度計，把字打散發下去，學生一個個貼上並說明理由。為了位置吵起來就是這堂課的重點，不是浪費時間。",
+        "items": [
+          "Set A: cool · cold · freezing · chilly",
+          "Set B: like · love · adore · enjoy",
+          "Set C: small · tiny · little · microscopic",
+          "Set D: tired · sleepy · exhausted",
+          "Rule: whoever places a word must say what is one step below it."
+        ]
+      },
+      {
+        "title_en": "The trap · extreme words refuse 'very'",
+        "title_zh": "陷阱・極端字不收 very",
+        "note_en": "Chinese happily says 非常暴怒. English does not: furious, boiling, exceptional, freezing and exhausted already contain the 'very'. They take absolutely or completely instead. This single rule makes a student sound years more advanced.",
+        "note_zh": "中文可以說「非常暴怒」，英文不行：furious、boiling、exceptional、freezing、exhausted 裡面已經含著 very 了。它們要接 absolutely 或 completely。光這一條規則，就能讓學生聽起來成熟好幾年。",
+        "items": [
+          "✗ very furious ✓ absolutely furious",
+          "✗ very boiling ✓ absolutely boiling",
+          "✗ very exhausted ✓ completely exhausted",
+          "✓ very angry · very hot · very tired　← 中間那一階可以接 very",
+          "Your turn — fix this: ✗ The soup was very boiling and I was very exhausted."
+        ]
+      },
+      {
+        "title_en": "Sports reactions · mild to wild",
+        "title_zh": "看球的反應・從平淡到瘋狂",
+        "note_en": "Dom's sports connection. Give the scale, then call out moments from a game; students respond at the right temperature. Shouting 'ecstatic' at a warm-up throw is the mistake to catch.",
+        "note_zh": "Dom 指定的運動連結。先給量尺，再喊出比賽片段，學生用對的溫度回應。熱身傳球就喊 ecstatic，正是要抓的錯。",
+        "items": [
+          "interested → keen → excited → thrilled → ecstatic",
+          "The team walks onto the field. → ?",
+          "Your school scores the first point. → ?",
+          "Your school wins the county championship. → ?",
+          "The other team scores. → annoyed / angry / furious?"
+        ]
+      },
+      {
+        "title_en": "Exit ticket · build your own scale",
+        "title_zh": "出場券・自己做一道量尺",
+        "note_en": "Four words on one idea, weakest to strongest, plus one sentence using the top rung correctly. Dom's homework asks for five scales, so this is the first one done in class.",
+        "note_zh": "同一個概念找四個字，由弱排到強，再用最強那一階造一句正確的話。Dom 的作業要五道量尺，這是在課堂上先做掉的第一道。",
+        "items": [
+          "______ → ______ → ______ → ______",
+          "Sentence with the strongest word: ______"
+        ]
+      }
+    ]
+  },
+  "14": {
+    "vocab_label_zh": "6 組易混字 · 14 個字",
+    "prep_en": "This is the most valuable week of the whole unit for Chinese speakers, and the reason is blunt: every single pair here is ONE word in Chinese. 借 is both borrow and lend. 看 is look, see and watch. 做 is make and do. The students are not being careless — their first language never asked them to choose. Teach the choosing.",
+    "prep_zh": "對中文母語者來說，這是整個單元最值錢的一週，理由很直白：這裡每一組在中文裡都只有一個字。「借」同時是 borrow 和 lend，「看」同時是 look、see、watch，「做」同時是 make 和 do。學生不是粗心——他們的母語從來沒要求他們做這個選擇。要教的就是這個選擇。",
+    "words": [
+      {
+        "en": "borrow",
+        "pos": "v.",
+        "zh": "借（進來）",
+        "example": "Can I borrow your eraser?",
+        "more": "① 我拿進來 · borrow FROM someone"
+      },
+      {
+        "en": "lend",
+        "pos": "v.",
+        "zh": "借（出去）",
+        "example": "Can you lend me your eraser?",
+        "more": "我給出去 · lend TO someone · 中文都叫「借」"
+      },
+      {
+        "en": "bring",
+        "pos": "v.",
+        "zh": "帶來",
+        "example": "Please bring your notebook to class tomorrow.",
+        "more": "② 往說話的人這邊移動"
+      },
+      {
+        "en": "take",
+        "pos": "v.",
+        "zh": "帶走",
+        "example": "Take an umbrella with you.",
+        "more": "離開說話的人 · 方向決定用哪個字"
+      },
+      {
+        "en": "say",
+        "pos": "v.",
+        "zh": "說（說了什麼）",
+        "example": "She said hello.",
+        "more": "③ 後面接「話」· 不必接人 · ✗ say me"
+      },
+      {
+        "en": "tell",
+        "pos": "v.",
+        "zh": "告訴（告訴誰）",
+        "example": "She told me the answer.",
+        "more": "後面一定接「人」· tell someone something"
+      },
+      {
+        "en": "hear",
+        "pos": "v.",
+        "zh": "聽見（不由自主）",
+        "example": "I heard a strange noise last night.",
+        "more": "④ 聲音自己進來的 · 不是你決定的"
+      },
+      {
+        "en": "listen",
+        "pos": "v.",
+        "zh": "聽（自己要聽）",
+        "example": "Listen to this song.",
+        "more": "你決定去聽 · listen TO · 少了 to 就錯"
+      },
+      {
+        "en": "look",
+        "pos": "v.",
+        "zh": "看（把眼睛轉過去）",
+        "example": "Look at the board.",
+        "more": "⑤ 動作 · look AT"
+      },
+      {
+        "en": "see",
+        "pos": "v.",
+        "zh": "看見（結果）",
+        "example": "I see a bird on the roof.",
+        "more": "結果 · 不是你努力來的"
+      },
+      {
+        "en": "watch",
+        "pos": "v.",
+        "zh": "觀看（持續一段時間）",
+        "example": "We watched the whole baseball game.",
+        "more": "會動的東西、看一段時間"
+      },
+      {
+        "en": "make",
+        "pos": "v.",
+        "zh": "做（做出一個東西）",
+        "example": "My grandmother makes excellent dumplings.",
+        "more": "⑥ 做完會多出一個東西來"
+      },
+      {
+        "en": "do",
+        "pos": "v.",
+        "zh": "做（做一件事）",
+        "example": "I do my homework after dinner.",
+        "more": "做完沒有多出東西 · 搭配要背"
+      },
+      {
+        "en": "mistake",
+        "pos": "n.",
+        "zh": "錯誤",
+        "example": "Everyone makes mistakes.",
+        "more": "固定搭配：make a mistake（不是 do）"
+      }
+    ],
+    "practice": [
+      {
+        "title_en": "The English Courtroom · which word is guilty?",
+        "title_zh": "英文法庭・哪個字有罪？",
+        "note_en": "Dom's activity. Read the sentence aloud; the class decides which word is guilty and passes sentence — that is, gives the correction and the reason. The reason is what convicts.",
+        "note_zh": "Dom 的活動。唸出句子，全班判定哪個字有罪並「宣判」——也就是給出更正和理由。有理由才算定罪。",
+        "items": [
+          "Can you borrow me five dollars?",
+          "My mother said me to clean my room.",
+          "I'm hearing to music right now.",
+          "Did you watch my keys? I can't find them.",
+          "Please bring this letter to the post office on your way home.",
+          "I need to make my homework before dinner.",
+          "He looked a bird in the tree.",
+          "I will take my friend to your party next week. (有罪嗎？)"
+        ]
+      },
+      {
+        "title_en": "One Chinese word, two English ones",
+        "title_zh": "中文一個字，英文兩個",
+        "note_en": "The master table. Copy it to the board and leave it up all lesson. Each line is a question the student must now answer that Chinese never asked: which direction, who is involved, did you choose it.",
+        "note_zh": "總表。抄到白板上，整堂課都留著。每一行都是一個中文從來不問、但學生現在得回答的問題：往哪個方向、牽涉到誰、是不是你自己要的。",
+        "items": [
+          "借 → borrow（我拿進來）/ lend（我給出去）：誰移動？",
+          "帶 → bring（往這裡）/ take（往那裡）：哪個方向？",
+          "說 → say（說了什麼）/ tell（告訴了誰）：有沒有接人？",
+          "聽 → hear（自己進來）/ listen to（我要聽）：是不是你決定的？",
+          "看 → look at（轉過去）/ see（看見了）/ watch（看一段時間）",
+          "做 → make（多出一個東西）/ do（沒有多出東西）"
+        ]
+      },
+      {
+        "title_en": "make or do? · the collocations",
+        "title_zh": "make 還是 do？・固定搭配",
+        "note_en": "This pair cannot be reasoned out to the end — the last stretch is memory. Teach the rule first (make leaves something behind), then drill the exceptions as a chant.",
+        "note_zh": "這一組沒辦法完全用道理推到底，最後一段就是要記。先教規則（make 會留下一個東西），再把例外當口訣練。",
+        "items": [
+          "make → a cake · a mistake · friends · noise · a decision · money · a plan",
+          "do → homework · the dishes · exercise · your best · business · a favor",
+          "Your turn: I ______ my best but I still ______ two mistakes.",
+          "Your turn: Let's ______ a plan and then ______ the work."
+        ]
+      },
+      {
+        "title_en": "Exit ticket · one mini-dialogue",
+        "title_zh": "出場券・一段小對話",
+        "note_en": "Dom's homework asks for twelve mini-dialogues, so write the first one here. Two lines, one confusing pair used correctly in each.",
+        "note_zh": "Dom 的作業要十二段小對話，第一段在這裡寫掉。兩句話，每句正確用到一組易混字。",
+        "items": [
+          "A: ______ ?",
+          "B: ______ ."
+        ]
+      }
+    ]
+  },
+  "15": {
+    "prep_en": "No preparation needed — the boring paragraph is written below, ready to hand out. This week is not about knowing more words; it is about the word that fits. Precision beats strength.",
+    "prep_zh": "不必備課——那段故意寫得很無聊的文章已經備在下面，可以直接發。這週不是要學更多字，是要找到「剛好對」的那個字。精準勝過強烈。",
+    "words": [
+      {
+        "en": "beautiful",
+        "pos": "adj.",
+        "zh": "美麗的",
+        "example": "The old street looked beautiful at night.",
+        "more": "最通用的「美」"
+      },
+      {
+        "en": "stunning",
+        "pos": "adj.",
+        "zh": "驚豔的",
+        "example": "The view from the mountain was stunning.",
+        "more": "很強 · 多半用在看得見的東西 · 極端字，不加 very"
+      },
+      {
+        "en": "elegant",
+        "pos": "adj.",
+        "zh": "優雅的",
+        "example": "She wore an elegant dark blue dress.",
+        "more": "簡潔又講究 · 衣服、設計、解法都可以"
+      },
+      {
+        "en": "dramatic",
+        "pos": "adj.",
+        "zh": "戲劇性的",
+        "example": "The east coast has dramatic cliffs.",
+        "more": "落差大、有衝擊力 · 風景、變化"
+      },
+      {
+        "en": "ordinary",
+        "pos": "adj.",
+        "zh": "普通的",
+        "example": "It was an ordinary Tuesday.",
+        "more": "中性偏平淡 · ↔ unusual"
+      },
+      {
+        "en": "unusual",
+        "pos": "adj.",
+        "zh": "不尋常的",
+        "example": "That is an unusual name.",
+        "more": "↔ ordinary · 不帶好壞"
+      },
+      {
+        "en": "impressive",
+        "pos": "adj.",
+        "zh": "令人印象深刻的",
+        "example": "Winning three medals is impressive.",
+        "more": "用在成就、技術、規模"
+      },
+      {
+        "en": "disappointing",
+        "pos": "adj.",
+        "zh": "令人失望的",
+        "example": "The ending was disappointing.",
+        "more": "-ing 是「令人…」· disappointed 才是「（人）感到…」"
+      }
+    ],
+    "practice": [
+      {
+        "title_en": "Bad Paragraph Makeover · the patient",
+        "title_zh": "爛段落大改造・病人在此",
+        "note_en": "Dom's activity needs a bad paragraph, so here is one, written badly on purpose. Hand it out, give each team six minutes, then read the versions aloud. The class votes — but a team only wins if it can say why each change is better.",
+        "note_zh": "Dom 的活動需要一段爛文章，這裡故意寫了一段。發下去，每組六分鐘，然後各組唸出自己的版本。全班投票——但要說得出每個更動為什麼更好，才算贏。",
+        "items": [
+          "Last week I went to a place. The food was good. There were a lot of people.",
+          "The building was big and old. We took some photos. It was a good day.",
+          "I was happy. The weather was nice. I want to go again.",
+          "Targets: replace every 'good' · name the place · make one sentence longer than twelve words · use two words from this week."
+        ]
+      },
+      {
+        "title_en": "Which word goes with which?",
+        "title_zh": "哪個字配哪個字？",
+        "note_en": "Collocation, not meaning. All eight words mean roughly nice or not nice; only some of them fit each noun. Read the pair aloud — if it sounds odd to you, it is odd.",
+        "note_zh": "這是搭配問題，不是意思問題。八個字大致都在講好或不好，但只有某幾個配得上某個名詞。唸出來聽聽看——你覺得怪，它就是怪。",
+        "items": [
+          "______ cliffs (stunning / elegant / dramatic)",
+          "an ______ score in the exam (impressive / beautiful)",
+          "an ______ solution to the problem (elegant / stunning)",
+          "an ______ ending to the film (disappointing / ordinary)",
+          "✗ a beautiful score ✗ an elegant mountain ✗ a dramatic dress　← 為什麼怪？"
+        ]
+      },
+      {
+        "title_en": "-ing or -ed? · the cause or the feeling",
+        "title_zh": "-ing 還是 -ed？・是原因還是感受",
+        "note_en": "Back in Week 2 this was exciting and excited. It returns here because it never stops causing trouble: -ing describes the thing, -ed describes the person. Saying 'I am boring' is the classic, and the class will laugh, which helps.",
+        "note_zh": "第 2 週的 exciting 和 excited 又回來了。它會回來是因為它從來沒有停止造成麻煩：-ing 形容那個東西，-ed 形容人。說出 I am boring 是經典錯誤，全班會笑——笑了反而記得住。",
+        "items": [
+          "The film was ______ . I was ______ . (disappointing / disappointed)",
+          "✗ I am boring. ✓ I am bored. ✓ The lesson is boring.",
+          "Your turn: The news was ______ and everyone was ______ . (shocking / shocked)",
+          "Your turn: I am ______ in history because history is ______ . (interested / interesting)"
+        ]
+      },
+      {
+        "title_en": "Exit ticket · one meal, precisely",
+        "title_zh": "出場券・一頓飯，精準地寫",
+        "note_en": "Dom's November connection is a Thanksgiving-style descriptive paragraph without asking anyone to celebrate it. So: any meal the student remembers, three sentences, no word used twice.",
+        "note_zh": "Dom 指定的十一月連結是感恩節式的描寫，但不要求學生真的過這個節。所以改成：任何一頓學生記得的飯，三句話，同一個字不能用兩次。",
+        "items": [
+          "Describe a meal you remember. Three sentences.",
+          "Rule: you may not use good, nice or big.",
+          "Bonus: use one word from this week."
         ]
       }
     ]

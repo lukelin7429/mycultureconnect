@@ -514,31 +514,229 @@
       "n": 11,
       "unit": 3,
       "title": "Synonyms: More Than One Way to Say It",
-      "date": "Saturday, November 28, 2026"
+      "date": "Saturday, November 28, 2026",
+      "language_target": "Synonyms and context.",
+      "vocabulary": [
+        "happy/glad/pleased/delighted",
+        "smart/clever/intelligent",
+        "angry/furious/irritated"
+      ],
+      "taiwan_connection": "Vocabulary theme: fall/autumn, school, weather, sports, and Halloween leftovers are perfect synonym material.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Synonyms and context."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "Synonym Snap: teacher says a basic word; students race to give a synonym and then use it."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: interview clip; collect alternate words for common emotions.",
+      "homework": "Make 10 synonym pairs/triples and write one sentence showing a difference in meaning or feeling.",
+      "cefr": "A1: choose from choices. A2: produce simple synonyms. B1: use context. B2+: explain connotation. C1/C2: discuss register.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 12."
     },
     {
       "n": 12,
       "unit": 3,
       "title": "Antonyms: Opposites With Power",
-      "date": "Saturday, December 5, 2026"
+      "date": "Saturday, December 5, 2026",
+      "language_target": "Antonyms; prefixes; contrast language.",
+      "vocabulary": [
+        "ancient/modern",
+        "generous/selfish",
+        "expand/contract",
+        "increase/decrease",
+        "arrive/depart"
+      ],
+      "taiwan_connection": "National Day / Taiwan connection: practice respectful contrasts between places, traditions, and public celebrations.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Antonyms; prefixes; contrast language."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "Opposite Day: students answer silly questions with opposite words, then switch back to serious examples."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: before/after transformation clip; describe the contrast.",
+      "homework": "Create 15 antonym pairs and use 6 in a short comparison paragraph.",
+      "cefr": "A1: match pairs. A2: use pairs in sentences. B1: contrast ideas. B2+: use however/whereas/while. C1/C2: distinguish true opposites from contextual contrasts.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 13."
     },
     {
       "n": 13,
       "unit": 3,
       "title": "Degrees of Meaning",
-      "date": "Saturday, December 12, 2026"
+      "date": "Saturday, December 12, 2026",
+      "language_target": "Intensity and semantic scales.",
+      "vocabulary": [
+        "annoyed→angry→furious; warm→hot→boiling; good→great→exceptional"
+      ],
+      "taiwan_connection": "Sports connection: rank reactions from 'interested' to 'thrilled' around a favorite sport or team.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Intensity and semantic scales."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "Vocabulary Thermometer: students place words on a scale from mild to extreme and defend their choices."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: sports reaction or movie scene; identify escalating emotions.",
+      "homework": "Build 5 vocabulary scales with 4–6 words each. Write one sentence for each scale.",
+      "cefr": "A1: order 3 words. A2: use mild/strong choices. B1: explain degree. B2+: choose nuanced language. C1/C2: discuss rhetorical effect.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 14."
     },
     {
       "n": 14,
       "unit": 3,
       "title": "Commonly Confused Words",
-      "date": "Saturday, December 19, 2026"
+      "date": "Saturday, December 19, 2026",
+      "language_target": "Meaning distinctions in everyday English.",
+      "vocabulary": [
+        "borrow/lend",
+        "bring/take",
+        "say/tell",
+        "hear/listen",
+        "look/see/watch",
+        "make/do"
+      ],
+      "taiwan_connection": "Everyday English: use school, kitchen, classroom, and home examples so students hear these distinctions constantly.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Meaning distinctions in everyday English."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "The English Courtroom: students decide which word is 'guilty' in funny sentences and explain why."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: short dialogue clip; students catch the target pairs.",
+      "homework": "Write 12 mini-dialogues using 6 commonly confused pairs correctly.",
+      "cefr": "A1/A2: choose between two. B1: create sentences. B2: correct errors and explain. C1/C2: discuss collocation and naturalness.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 15."
     },
     {
       "n": 15,
       "unit": 3,
       "title": "Word Choice Challenge",
-      "date": "Saturday, December 26, 2026"
+      "date": "Saturday, December 26, 2026",
+      "language_target": "Precision, collocation, revision.",
+      "vocabulary": [
+        "beautiful",
+        "stunning",
+        "elegant",
+        "dramatic",
+        "ordinary",
+        "unusual",
+        "impressive",
+        "disappointing"
+      ],
+      "taiwan_connection": "November culture: prepare a Thanksgiving-themed descriptive paragraph without requiring students to celebrate it personally.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Precision, collocation, revision."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "Bad Paragraph Makeover: teams transform a deliberately boring paragraph into vivid English."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: show a beautiful photo/video with no words; students compete to describe it precisely.",
+      "homework": "Revise a 120-word paragraph twice: first for stronger vocabulary, then for clearer/ more natural word choice.",
+      "cefr": "A1: use a scaffold. A2: replace repeated words. B1: add precise vocabulary. B2+: improve collocation. C1/C2: edit for voice and register.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 16."
     },
     {
       "n": 16,

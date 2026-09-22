@@ -25,6 +25,7 @@ import html
 import json
 import os
 import re
+import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PLANS = "/library/lesson-plans/"
@@ -156,6 +157,32 @@ LIBRARY_CSS = '''  .lib-stats { display:grid; grid-template-columns:repeat(4,1fr
     .lib-card:hover, .lib-jump a:hover { transform:none; }
   }
 '''
+
+
+def check_text(packs):
+    """Fail loudly on characters that cannot belong in an English/Chinese page.
+
+    Cyrillic and Greek letters look close enough to Latin ones to survive a
+    proofread — а and a are different characters — and a single one of them in
+    a word makes it unsearchable and unreadable to a screen reader.
+    """
+    stray = re.compile(r"[\u0370-\u03FF\u0400-\u04FF]")
+    bad = []
+
+    def walk(node, path):
+        if isinstance(node, str):
+            if stray.search(node):
+                bad.append(f"{path}: {node[:70]}")
+        elif isinstance(node, dict):
+            for k, v in node.items():
+                walk(v, f"{path}/{k}")
+        elif isinstance(node, list):
+            for i, v in enumerate(node):
+                walk(v, f"{path}[{i}]")
+
+    walk(packs, "teaching-packs")
+    if bad:
+        sys.exit("stray non-Latin letters in teaching packs:\n  " + "\n  ".join(bad))
 
 
 def card(c):
@@ -727,6 +754,7 @@ def main():
     plans = json.load(open(os.path.join(ROOT, "data", "lesson-plans.json"), encoding="utf-8"))
     packs_path = os.path.join(ROOT, "data", "teaching-packs.json")
     packs = json.load(open(packs_path, encoding="utf-8")) if os.path.exists(packs_path) else {}
+    check_text(packs)
 
     n = sum(len(g["cards"]) for g in lib["groups"])
     print(f"  {'✓' if write('/library/', library_page(lib)) else '·'} /library/  "
