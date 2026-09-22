@@ -1823,5 +1823,712 @@
         ]
       }
     ]
+  },
+  "16": {
+    "prep_en": "No preparation needed. One grammar point carries the whole week, and it is a politeness point too: an embedded question does not invert. 'Where is the gate?' becomes 'Could you tell me where the gate IS?' — the verb goes back to the end. Get that on the board early.",
+    "prep_zh": "不必備課。整週靠一個文法點撐著，而它同時是禮貌問題：包在句子裡的問句不倒裝。Where is the gate? 變成 Could you tell me where the gate IS? ——動詞退回句尾。這件事早點寫上白板。",
+    "words": [
+      {
+        "en": "passport",
+        "pos": "n.",
+        "zh": "護照",
+        "example": "Please have your passport ready.",
+        "more": "可數 · a passport"
+      },
+      {
+        "en": "boarding pass",
+        "pos": "n.",
+        "zh": "登機證",
+        "example": "You can show your boarding pass on your phone.",
+        "more": "兩個字 · 不是 boarding card（英式才這樣說）"
+      },
+      {
+        "en": "gate",
+        "pos": "n.",
+        "zh": "登機門",
+        "example": "Our flight leaves from gate C7.",
+        "more": "at gate C7 · 不用 the"
+      },
+      {
+        "en": "luggage",
+        "pos": "n.",
+        "zh": "行李",
+        "example": "I only have one piece of luggage.",
+        "more": "不可數！✗ two luggages ✓ two pieces of luggage"
+      },
+      {
+        "en": "reservation",
+        "pos": "n.",
+        "zh": "預訂",
+        "example": "I have a reservation under the name Lin.",
+        "more": "make / have / cancel a reservation"
+      },
+      {
+        "en": "departure",
+        "pos": "n.",
+        "zh": "出發；離境",
+        "example": "Departures are on the third floor.",
+        "more": "depart (v.) → departure (n.) · 機場看板用複數"
+      },
+      {
+        "en": "arrival",
+        "pos": "n.",
+        "zh": "抵達；入境",
+        "example": "Arrivals is downstairs.",
+        "more": "arrive (v.) → arrival (n.)"
+      },
+      {
+        "en": "delayed",
+        "pos": "adj.",
+        "zh": "延誤的",
+        "example": "Our flight is delayed by two hours.",
+        "more": "be delayed · delay 也可當名詞：a two-hour delay"
+      }
+    ],
+    "practice": [
+      {
+        "title_en": "Taipei-to-New-York Mission · the six problems",
+        "title_zh": "桃園飛紐約・六道關卡",
+        "note_en": "Dom's mission needs problems to solve, so here are six. Hand one to each team in order; they must solve it out loud in English before receiving the next. The trip is the frame, the language is the point.",
+        "note_zh": "Dom 的任務需要關卡，這裡備了六道。依序發給各組，要用英語說出解法才能拿到下一道。旅程只是框架，語言才是重點。",
+        "items": [
+          "① The check-in machine will not read your passport. What do you say to the staff?",
+          "② Your luggage is two kilograms overweight.",
+          "③ You cannot find gate C7. Ask someone — politely.",
+          "④ The flight is delayed by three hours. Ask what happens to your connection.",
+          "⑤ The person in seat 24B is sitting in your seat.",
+          "⑥ You arrive in New York but your luggage does not."
+        ]
+      },
+      {
+        "title_en": "The trap · polite questions un-invert",
+        "title_zh": "陷阱・客氣的問句要把動詞放回去",
+        "note_en": "Chinese asks 廁所在哪裡 the same way whether it is polite or not; the politeness is in tone and 請. English rebuilds the sentence instead — and the inside half goes back to statement order. Students who learn this one move sound instantly more fluent.",
+        "note_zh": "中文問「廁所在哪裡」，客氣與否只差語氣和一個「請」。英文是把句子重蓋——包在裡面的那半要變回直述句的順序。學生學會這一招，聽起來馬上成熟一截。",
+        "items": [
+          "直接：Where is the gate?　→　客氣：Could you tell me where the gate is?",
+          "✗ Could you tell me where is the gate?　← 裡面那半不可以倒裝",
+          "直接：When does the plane leave?　→　Do you know when the plane leaves?",
+          "Your turn — make it polite: How much does the ticket cost?",
+          "Your turn — fix this: ✗ Do you know what time is it?"
+        ]
+      },
+      {
+        "title_en": "Airport signs you will actually meet",
+        "title_zh": "機場真的會遇到的字",
+        "note_en": "Dom's Taiwan-to-anywhere journey. These are the words on the signs at Taoyuan, in the order you meet them. Walk the class through the airport once before the mission starts.",
+        "note_zh": "Dom 設計的旅程。這些是桃園機場招牌上真正會出現的字，照遇到的順序排。任務開始前先帶全班走一遍機場。",
+        "items": [
+          "Check-in → Baggage Drop → Security → Immigration → Boarding Gate",
+          "Departures（出境）vs Arrivals（入境）· Transfer（轉機）",
+          "Now boarding（開始登機）· Final call（最後廣播）· Delayed（延誤）",
+          "Listen for: 'Passengers travelling to ______, please proceed to gate ______.'"
+        ]
+      },
+      {
+        "title_en": "Exit ticket · one polite question",
+        "title_zh": "出場券・一個客氣的問句",
+        "note_en": "One embedded question, written correctly. If the inside half is inverted, it does not count.",
+        "note_zh": "寫一個包起來的問句，寫對才算。裡面那半倒裝了就不算。",
+        "items": [
+          "Excuse me, could you tell me ______ ?"
+        ]
+      }
+    ]
+  },
+  "17": {
+    "prep_en": "No preparation needed. Dom puts count and non-count nouns in this week for a reason: Chinese has no plural -s and counts everything with a measure word (一張、一杯、一個). English splits nouns into two kinds and changes the question word. This is the week to fix 'How many money?' for good.",
+    "prep_zh": "不必備課。Dom 把可數與不可數放進這週是有道理的：中文沒有複數 -s，什麼都用量詞數（一張、一杯、一個）。英文把名詞分成兩種，連問句的疑問詞都跟著換。這是把 How many money 徹底改掉的一週。",
+    "words": [
+      {
+        "en": "price",
+        "pos": "n.",
+        "zh": "價格",
+        "example": "The price includes tax.",
+        "more": "可數 · What's the price? = How much is it?"
+      },
+      {
+        "en": "discount",
+        "pos": "n.",
+        "zh": "折扣",
+        "example": "Students get a ten percent discount.",
+        "more": "注意：中文「打八折」= 20% off，不是 80% off"
+      },
+      {
+        "en": "receipt",
+        "pos": "n.",
+        "zh": "收據；發票",
+        "example": "Keep your receipt if you want to return it.",
+        "more": "p 不發音：/rɪˈsiːt/"
+      },
+      {
+        "en": "size",
+        "pos": "n.",
+        "zh": "尺寸",
+        "example": "Do you have this in a bigger size?",
+        "more": "What size are you? / in a different size"
+      },
+      {
+        "en": "change",
+        "pos": "n.",
+        "zh": "零錢；找的錢",
+        "example": "Here is your change.",
+        "more": "這個意思不可數 · ✗ two changes"
+      },
+      {
+        "en": "expensive",
+        "pos": "adj.",
+        "zh": "昂貴的",
+        "example": "Night market food is not expensive.",
+        "more": "形容「東西」· ✗ The price is expensive ✓ The price is high"
+      },
+      {
+        "en": "affordable",
+        "pos": "adj.",
+        "zh": "負擔得起的",
+        "example": "We found an affordable hotel near the station.",
+        "more": "afford (v.) → affordable · I can't afford it"
+      },
+      {
+        "en": "quantity",
+        "pos": "n.",
+        "zh": "數量",
+        "example": "Buy a small quantity first.",
+        "more": "quantity 數量 · quality 品質 · 兩個字很像，別混"
+      },
+      {
+        "en": "enough",
+        "pos": "adj. / adv.",
+        "zh": "足夠的",
+        "example": "I don't have enough money.",
+        "more": "放名詞「前面」，但放形容詞「後面」：enough money / good enough"
+      }
+    ],
+    "practice": [
+      {
+        "title_en": "Class Store · the shopping list",
+        "title_zh": "教室商店・採購清單",
+        "note_en": "Dom's store needs stock and a silly list. Give each team 500 imaginary dollars and this list; they must buy, ask prices, request a discount and check their change — all in English. Running out of money is part of the fun.",
+        "note_zh": "Dom 的商店需要商品和一張荒謬的清單。給每組五百元假錢和這張清單，要用英語買東西、問價錢、殺價、確認找零。錢不夠用正是樂趣所在。",
+        "items": [
+          "Shop stock: bubble tea $50 · notebook $35 · umbrella $120 · sneakers $890 · rice ball $25 · headphones $600",
+          "Your list: something to drink · something to write with · something for rain · a gift under $100",
+          "You must ask: How much is…? · Do you have it in another size? · Is there a discount for students?",
+          "Before you leave: Can I have a receipt? · Is this the right change?"
+        ]
+      },
+      {
+        "title_en": "The trap · much, many, and the missing -s",
+        "title_zh": "陷阱・much、many，和消失的 -s",
+        "note_en": "Chinese counts with measure words and never adds -s, so two errors arrive together: the plural goes missing, and much/many gets picked at random. The test is simple — can you put a number directly in front of it?",
+        "note_zh": "中文用量詞數數，而且永遠不加 -s，所以兩種錯會一起出現：複數不見了，much／many 也是亂猜的。判準很簡單——這個字前面能不能直接放一個數字？",
+        "items": [
+          "能放數字 → 可數 → many / a few：three books · many students",
+          "不能放數字 → 不可數 → much / a little：✗ three moneys ✓ much money · ✗ two luggages ✓ much luggage",
+          "✗ How many money do you have? ✓ How much money do you have?",
+          "Your turn — choose: I don't have ______ (much / many) time.",
+          "Your turn — fix this: ✗ There were too much people in the store."
+        ]
+      },
+      {
+        "title_en": "enough sits on both sides",
+        "title_zh": "enough 站在兩邊",
+        "note_en": "One word, two positions, and Chinese gives no clue which. Before a noun, after an adjective. Say the pair aloud ten times and it sticks.",
+        "note_zh": "同一個字，兩種位置，中文完全給不了提示。名詞在後、形容詞在前。把這一對唸個十次就記住了。",
+        "items": [
+          "名詞 → enough money · enough time · enough seats",
+          "形容詞 → good enough · big enough · cheap enough",
+          "✗ money enough　✗ enough good",
+          "Your turn: This shirt is not ______ ______ for me. (big / enough)"
+        ]
+      },
+      {
+        "title_en": "Exit ticket · one thing you cannot afford",
+        "title_zh": "出場券・一件你買不起的東西",
+        "note_en": "Two sentences, one countable noun and one uncountable, used correctly.",
+        "note_zh": "兩句話，一個可數名詞、一個不可數名詞，都要用對。",
+        "items": [
+          "I would like to buy ______ , but I don't have enough ______ ."
+        ]
+      }
+    ]
+  },
+  "18": {
+    "prep_en": "No preparation needed. The single most useful thing you can teach this week is not a food word — it is that 'I want' does not belong in a restaurant. Chinese 我要一個漢堡 is perfectly polite; the word-for-word English sounds like a small child. Teach 'I'll have' and 'Could I get' in the first ten minutes.",
+    "prep_zh": "不必備課。這週最有用的不是任何一個食物單字，而是「I want 不能用在餐廳」。中文說「我要一個漢堡」完全禮貌，逐字翻成英文卻像小孩子在講話。前十分鐘就把 I'll have 和 Could I get 教下去。",
+    "words": [
+      {
+        "en": "ingredient",
+        "pos": "n.",
+        "zh": "食材",
+        "example": "What ingredients are in this sauce?",
+        "more": "可數 · 常用複數"
+      },
+      {
+        "en": "appetizer",
+        "pos": "n.",
+        "zh": "前菜",
+        "example": "We ordered two appetizers to share.",
+        "more": "美式 · 英式說 starter"
+      },
+      {
+        "en": "main course",
+        "pos": "n.",
+        "zh": "主菜",
+        "example": "My main course was grilled fish.",
+        "more": "兩個字 · 美式也說 entrée（注意：不是前菜）"
+      },
+      {
+        "en": "dessert",
+        "pos": "n.",
+        "zh": "甜點",
+        "example": "Do you have room for dessert?",
+        "more": "兩個 s · desert（一個 s）是沙漠"
+      },
+      {
+        "en": "spicy",
+        "pos": "adj.",
+        "zh": "辣的",
+        "example": "Is the beef noodle soup very spicy?",
+        "more": "hot 也可以指辣，但 hot 也指燙 · 要講清楚就用 spicy"
+      },
+      {
+        "en": "sweet",
+        "pos": "adj.",
+        "zh": "甜的",
+        "example": "Taiwanese sausage is a little sweet.",
+        "more": "也可以形容人：she is sweet（親切）"
+      },
+      {
+        "en": "savory",
+        "pos": "adj.",
+        "zh": "鹹香的",
+        "example": "I prefer savory breakfasts to sweet ones.",
+        "more": "中文沒有完全對應的字 · 就是「不甜、帶鹹香」"
+      },
+      {
+        "en": "vegetarian",
+        "pos": "adj. / n.",
+        "zh": "素食的；素食者",
+        "example": "Do you have a vegetarian option?",
+        "more": "vegan 更嚴格（不吃蛋奶）"
+      },
+      {
+        "en": "allergy",
+        "pos": "n.",
+        "zh": "過敏",
+        "example": "I have a peanut allergy.",
+        "more": "allergy (n.) · allergic (adj.)：I'm allergic to peanuts"
+      }
+    ],
+    "practice": [
+      {
+        "title_en": "Restaurant Role-Play · with one surprise",
+        "title_zh": "餐廳角色扮演・附一個意外",
+        "note_en": "Dom's role-play, with the surprise problems written out. Four roles, and the surprise goes only to the server — nobody else knows it is coming, which is what makes the English real.",
+        "note_zh": "Dom 的角色扮演，意外事件已經寫好。四個角色，意外只給服務生看——其他人不知道會發生什麼，英語才會是真的。",
+        "items": [
+          "Roles: customer · server · chef · food critic",
+          "Surprise ① The dish the customer ordered is sold out.",
+          "Surprise ② The food arrives cold.",
+          "Surprise ③ There is meat in the vegetarian dish.",
+          "Surprise ④ The bill is $200 more than it should be.",
+          "The critic must say one kind thing and one honest thing at the end."
+        ]
+      },
+      {
+        "title_en": "The trap · 'I want' is not for restaurants",
+        "title_zh": "陷阱・餐廳裡不說 I want",
+        "note_en": "This is not grammar, it is register — and register is invisible to a learner. 我要 is neutral in Chinese; I want is blunt in English. The fix is three phrases, and they work in every shop and counter in the world.",
+        "note_zh": "這不是文法問題，是語域問題——而語域對學習者是看不見的。中文的「我要」是中性的，英文的 I want 卻很直。解法就三句話，全世界的店和櫃台都通用。",
+        "items": [
+          "✗ I want a hamburger.　✓ I'll have the hamburger, please.",
+          "✓ Could I get the beef noodles?　✓ I'd like the dumplings, please.",
+          "Asking: What do you recommend? · What is this dish like?",
+          "Your turn — fix this: ✗ I want water. ✗ Give me the bill."
+        ]
+      },
+      {
+        "title_en": "Your bilingual menu · six dishes",
+        "title_zh": "你的雙語菜單・六道菜",
+        "note_en": "Dom's homework is a menu, so start it here. The hard part is not translating the name — it is describing what is in it so a foreigner can decide. One line each, ingredients plus one taste word.",
+        "note_zh": "Dom 的作業是菜單，在這裡先起頭。難的不是翻譯菜名，是描述裡面有什麼、讓外國人能決定要不要點。一道一句，食材加一個味道形容詞。",
+        "items": [
+          "滷肉飯 → Braised pork rice: rice with savory slow-cooked pork. Not spicy.",
+          "鹽酥雞 → ______",
+          "珍珠奶茶 → ______",
+          "臭豆腐 → ______ (warn them!)",
+          "Template: ______ : ______ with ______ . It is ______ ."
+        ]
+      },
+      {
+        "title_en": "Exit ticket · order something, politely",
+        "title_zh": "出場券・禮貌地點一道菜",
+        "note_en": "One order and one question. If the order starts with 'I want', it goes back.",
+        "note_zh": "一句點餐、一句提問。開頭是 I want 的退回重寫。",
+        "items": [
+          "I'll have ______ , please.",
+          "And could you tell me ______ ?"
+        ]
+      }
+    ]
+  },
+  "19": {
+    "prep_en": "No preparation needed. Dom's own note says it: conversation is more than asking questions. Taiwanese students are often trained to answer and stop, waiting for the next question. English expects the ball to come back. Teach the three-step return and the silence problem disappears.",
+    "prep_zh": "不必備課。Dom 自己在教案裡寫了：會話不只是問問題。台灣學生常被訓練成回答完就停下來，等下一個問題。英文期待你把球打回去。教會三步回球法，冷場就不見了。",
+    "words": [
+      {
+        "en": "actually",
+        "pos": "adv.",
+        "zh": "其實",
+        "example": "Actually, I prefer tea.",
+        "more": "小心：英文的 actually 常帶「更正對方」的味道 · 不像中文「其實」那麼中性"
+      },
+      {
+        "en": "really",
+        "pos": "adv.",
+        "zh": "真的；非常",
+        "example": "Really? That sounds fun.",
+        "more": "單獨用是最好用的回應詞之一"
+      },
+      {
+        "en": "interesting",
+        "pos": "adj.",
+        "zh": "有趣的",
+        "example": "That's an interesting way to look at it.",
+        "more": "小心：單講 interesting 在英語裡常被聽成「我沒意見」"
+      },
+      {
+        "en": "especially",
+        "pos": "adv.",
+        "zh": "尤其",
+        "example": "I like baseball, especially the playoffs.",
+        "more": "用來把答案加長的好工具"
+      },
+      {
+        "en": "prefer",
+        "pos": "v.",
+        "zh": "比較喜歡",
+        "example": "I prefer coffee to tea.",
+        "more": "prefer A to B · ✗ prefer A than B"
+      },
+      {
+        "en": "opinion",
+        "pos": "n.",
+        "zh": "意見",
+        "example": "In my opinion, the night market is better.",
+        "more": "in my opinion · ✗ in my opinion think"
+      },
+      {
+        "en": "experience",
+        "pos": "n.",
+        "zh": "經驗",
+        "example": "Tell me about your experience in Japan.",
+        "more": "經驗（不可數）/ 一次經歷（可數）都可以"
+      },
+      {
+        "en": "similar",
+        "pos": "adj.",
+        "zh": "相似的",
+        "example": "My hometown is similar to yours.",
+        "more": "similar TO · ✗ similar with"
+      }
+    ],
+    "practice": [
+      {
+        "title_en": "The three-step return",
+        "title_zh": "三步回球法",
+        "note_en": "The whole week in one move. Answer, add something nobody asked for, then ask back. Students who only do step one will never sustain a conversation, no matter how good their grammar is.",
+        "note_zh": "整週的重點就這一招。回答、加一句沒人問你的話、再問回去。只做第一步的學生，文法再好也撐不起一段對話。",
+        "items": [
+          "Q: Do you like basketball?",
+          "① 回答　Yes, I do.",
+          "② 加料　Especially the school team — I go to every home game.",
+          "③ 回球　What about you? Do you play anything?",
+          "Practice: Do you have any brothers or sisters? → build all three steps."
+        ]
+      },
+      {
+        "title_en": "Conversation Carousel · the prompts",
+        "title_zh": "會話旋轉木馬・題目",
+        "note_en": "Dom's activity. Sixty seconds per partner, then rotate. The rule that makes it work: afterwards each student must recall one detail about every person they spoke to — so they have to listen, not just wait for their turn.",
+        "note_zh": "Dom 的活動。每位夥伴六十秒，然後輪轉。讓它有效的規則是：結束後每個學生要說出每位談話對象的一個細節——所以他們必須聽，而不是等著輪到自己講。",
+        "items": [
+          "What is something you are good at that most people don't know?",
+          "What did you eat for breakfast, and was it a good decision?",
+          "Where would you take a foreign visitor in Changhua?",
+          "What is a small thing that always makes you happy?",
+          "Do you prefer the mountains or the sea? Why?",
+          "Recall round: name one detail about each person you met."
+        ]
+      },
+      {
+        "title_en": "The trap · two words that backfire",
+        "title_zh": "陷阱・兩個會反效果的字",
+        "note_en": "These two travel straight from Chinese and land wrong. 其實 is a neutral softener in Chinese; 'actually' in English often means 'no, you are mistaken'. And a flat 'interesting' is heard by native speakers as polite disagreement, not interest.",
+        "note_zh": "這兩個字從中文直接搬過來，落地就歪了。中文的「其實」是中性的緩衝詞，英文的 actually 常常等於「不，你搞錯了」。而平板地說一句 interesting，母語者聽到的是委婉的不同意，不是有興趣。",
+        "items": [
+          "中性想說「其實我比較喜歡茶」→ 更安全：I think I prefer tea, actually. / To be honest, I prefer tea.",
+          "想表示有興趣 → ✗ Interesting.　✓ That's interesting — how did that happen?",
+          "Rule: 'interesting' needs a follow-up question attached, or it sounds like a full stop.",
+          "Your turn: 你朋友說他討厭夏天。用三步回球法回應。"
+        ]
+      },
+      {
+        "title_en": "Exit ticket · one real question",
+        "title_zh": "出場券・一個真的問題",
+        "note_en": "An open question they would actually ask a stranger — not one from a textbook. Dom's homework needs eight of these; this is the first.",
+        "note_zh": "寫一個他們真的會拿去問陌生人的開放式問題，不是課本上那種。Dom 的作業要八個，這是第一個。",
+        "items": [
+          "My question: ______ ?",
+          "(No yes/no questions — it must open something up.)"
+        ]
+      }
+    ]
+  },
+  "20": {
+    "prep_en": "No preparation needed, but this is the week to say the thing out loud that explains the whole unit: in English, politeness is built with grammar, not with tone. The longer and more indirect the sentence, the more polite it sounds. Chinese does it with 請 and with how you say it. That difference is why a fluent student can still sound rude.",
+    "prep_zh": "不必備課，但這是該把整個單元的道理講明的一週：英文的禮貌是用文法蓋出來的，不是用語氣。句子越長、越間接，聽起來越客氣。中文靠「請」和說話的方式。這個差別，正是為什麼一個講得很流利的學生還是可能聽起來很兇。",
+    "words": [
+      {
+        "en": "problem",
+        "pos": "n.",
+        "zh": "問題（麻煩）",
+        "example": "There is a problem with my order.",
+        "more": "a problem with something · question 是「疑問」，不一樣"
+      },
+      {
+        "en": "solution",
+        "pos": "n.",
+        "zh": "解決辦法",
+        "example": "Can you suggest a solution?",
+        "more": "a solution to a problem · solve (v.)"
+      },
+      {
+        "en": "broken",
+        "pos": "adj.",
+        "zh": "壞掉的",
+        "example": "The screen is broken.",
+        "more": "break → broke → broken（第 9 週的三態）"
+      },
+      {
+        "en": "missing",
+        "pos": "adj.",
+        "zh": "不見的",
+        "example": "One page is missing from the book.",
+        "more": "be missing · 不說 lost 除非是人或路"
+      },
+      {
+        "en": "refund",
+        "pos": "n. / v.",
+        "zh": "退款",
+        "example": "Could I get a refund, please?",
+        "more": "get / ask for a refund"
+      },
+      {
+        "en": "replace",
+        "pos": "v.",
+        "zh": "更換",
+        "example": "Could you replace it with a new one?",
+        "more": "replace A with B · replacement (n.)"
+      },
+      {
+        "en": "apologize",
+        "pos": "v.",
+        "zh": "道歉",
+        "example": "They apologized for the delay.",
+        "more": "apologize for something · apology (n.)"
+      },
+      {
+        "en": "recommend",
+        "pos": "v.",
+        "zh": "推薦",
+        "example": "What would you recommend?",
+        "more": "✗ recommend me to · ✓ recommend something to me"
+      }
+    ],
+    "practice": [
+      {
+        "title_en": "The politeness ladder",
+        "title_zh": "禮貌階梯",
+        "note_en": "Same request, five heights. Read them down the ladder and students hear the change immediately — no explanation needed. Then give them a situation and ask which rung it deserves.",
+        "note_zh": "同一個要求，五種高度。從上往下唸一遍，學生立刻聽得出差別，不必解釋。然後給一個情境，問他們該用哪一階。",
+        "items": [
+          "① Give me a refund.　　　　← 命令，幾乎沒有人這樣說",
+          "② I want a refund.　　　　← 很直",
+          "③ Can I get a refund?　　　← 一般",
+          "④ Could I get a refund, please?　← 客氣",
+          "⑤ I was wondering if I could get a refund.　← 很客氣，用在對方可能會拒絕的時候",
+          "Which rung: 便利商店找錯零錢？飯店把你的訂房弄丟了？"
+        ]
+      },
+      {
+        "title_en": "The trap · 'please' does not rescue a blunt sentence",
+        "title_zh": "陷阱・加 please 救不了一句直白的話",
+        "note_en": "Students learn that 請 makes things polite and assume please does the same job. It does not — please softens an already-polite structure. Rebuild the sentence first, then add please if you like.",
+        "note_zh": "學生學到「請」能讓話變客氣，就以為 please 也一樣。不是的——please 是替「本來就客氣的句型」加分。先把句子重蓋，之後要不要加 please 隨你。",
+        "items": [
+          "✗ Please give me a refund.　→　✓ Could I get a refund, please?",
+          "✗ Please repeat.　→　✓ Sorry, could you say that again?",
+          "✗ Please help me.　→　✓ Excuse me, could you help me for a second?",
+          "Your turn — rebuild: ✗ Please change my room."
+        ]
+      },
+      {
+        "title_en": "Customer Service Challenge · four cases",
+        "title_zh": "客服大挑戰・四個案件",
+        "note_en": "Dom's challenge, written as cases. Pairs take one each: one is the customer, one is the staff. The staff member must apologize, offer a solution, and the customer must accept or push politely. Swap roles and run again.",
+        "note_zh": "Dom 的挑戰，寫成案件。兩人一組各拿一件：一個當客人、一個當店員。店員要道歉並提出解法，客人要客氣地接受或再爭取。角色互換再跑一次。",
+        "items": [
+          "Case 1　Your luggage did not arrive in New York.",
+          "Case 2　The phone you bought last week is already broken.",
+          "Case 3　The delivery came three days late and one item is missing.",
+          "Case 4　You ordered vegetarian noodles and there is pork in them.",
+          "Staff must use: I'm so sorry about that. · Let me see what I can do. · Could I offer you ______ ?"
+        ]
+      },
+      {
+        "title_en": "Exit ticket · climb one rung",
+        "title_zh": "出場券・往上爬一階",
+        "note_en": "Take a blunt sentence and rebuild it twice — once polite, once very polite.",
+        "note_zh": "拿一句直白的話，重蓋兩次——一次客氣，一次非常客氣。",
+        "items": [
+          "Blunt: Change my seat.",
+          "Polite: ______",
+          "Very polite: ______"
+        ]
+      }
+    ]
+  },
+  "21": {
+    "vocab_label_zh": "整合複習 · 10 句救命句",
+    "prep_en": "No preparation needed. This is the review week, so the list below is not vocabulary — it is the ten sentences that carry a person through a whole day in a foreign country. If a student leaves with only these, the unit has done its job.",
+    "prep_zh": "不必備課。這是複習週，所以下面這張表不是單字，是「能撐著一個人在異國過完一整天」的十句話。學生只帶走這十句，這個單元就算成功了。",
+    "words": [
+      {
+        "en": "Excuse me, could you tell me…?",
+        "pos": "phr.",
+        "zh": "不好意思，請問…？",
+        "example": "Excuse me, could you tell me where the station is?",
+        "more": "第 16 週 · 裡面那半不倒裝"
+      },
+      {
+        "en": "How much is…?",
+        "pos": "phr.",
+        "zh": "…多少錢？",
+        "example": "How much is this one?",
+        "more": "第 17 週"
+      },
+      {
+        "en": "Do you have this in a different size?",
+        "pos": "phr.",
+        "zh": "這個有別的尺寸嗎？",
+        "example": "—",
+        "more": "第 17 週"
+      },
+      {
+        "en": "I'll have…, please.",
+        "pos": "phr.",
+        "zh": "我要點…",
+        "example": "I'll have the beef noodles, please.",
+        "more": "第 18 週 · 不要用 I want"
+      },
+      {
+        "en": "I'm allergic to…",
+        "pos": "phr.",
+        "zh": "我對…過敏",
+        "example": "I'm allergic to peanuts.",
+        "more": "第 18 週 · 可能救命的一句"
+      },
+      {
+        "en": "What do you recommend?",
+        "pos": "phr.",
+        "zh": "你推薦什麼？",
+        "example": "—",
+        "more": "第 18、20 週 · 在任何地方都好用"
+      },
+      {
+        "en": "Actually, I prefer…",
+        "pos": "phr.",
+        "zh": "其實我比較喜歡…",
+        "example": "Actually, I prefer somewhere quieter.",
+        "more": "第 19 週 · prefer A to B"
+      },
+      {
+        "en": "That sounds great.",
+        "pos": "phr.",
+        "zh": "聽起來很棒",
+        "example": "—",
+        "more": "第 19 週 · 最省力的正面回應"
+      },
+      {
+        "en": "There's a problem with…",
+        "pos": "phr.",
+        "zh": "…有問題",
+        "example": "There's a problem with my reservation.",
+        "more": "第 20 週"
+      },
+      {
+        "en": "Could I get a refund, please?",
+        "pos": "phr.",
+        "zh": "可以退款嗎？",
+        "example": "—",
+        "more": "第 20 週 · 禮貌階梯第四階"
+      }
+    ],
+    "practice": [
+      {
+        "title_en": "The Big Taiwan Day · the planner",
+        "title_zh": "台灣一日遊・行程表",
+        "note_en": "Dom's activity and her homework are the same shape, so fill this in during class and the homework is already half done. Every row needs a time, a price and one sentence a visitor could actually follow.",
+        "note_zh": "Dom 的活動和作業是同一個形狀，所以課堂上填完這張表，作業就先做掉一半。每一列都要有時間、價錢，和一句訪客真的跟得上的說明。",
+        "items": [
+          "09:00　Breakfast at ______ . Try ______ . About NT$______ .",
+          "10:30　Take the ______ to ______ . It takes about ______ minutes.",
+          "12:30　Lunch: ______ . Warn your visitor about ______ .",
+          "15:00　Afternoon: ______ . Entry is NT$______ .",
+          "18:00　Night market: ______ . Three things to eat: ______ .",
+          "21:00　Getting home: ______ ."
+        ]
+      },
+      {
+        "title_en": "Recommendation language",
+        "title_zh": "推薦的說法",
+        "note_en": "An itinerary without recommendation language is a timetable. Dom's homework asks for three recommendations — these are the structures that turn a list into advice.",
+        "note_zh": "沒有推薦語的行程表只是時刻表。Dom 的作業要三個推薦——下面這些句型能把清單變成建議。",
+        "items": [
+          "You should definitely try ______ .",
+          "If you only have time for one thing, go to ______ .",
+          "It's worth ______ -ing.　(It's worth waiting in line.)",
+          "I'd avoid ______ on weekends — it gets very crowded.",
+          "Make sure you ______ before you leave."
+        ]
+      },
+      {
+        "title_en": "Survival round · thirty seconds each",
+        "title_zh": "生存快問・一人三十秒",
+        "note_en": "Call a situation; the student has thirty seconds to say the right sentence. No writing. This is the exam the whole unit was for, and it should feel fast and a little frightening.",
+        "note_zh": "喊出情境，學生三十秒內說出正確的句子。不准寫。這是整個單元真正的考試，節奏要快，有一點緊張感才對。",
+        "items": [
+          "You are lost at Taipei Main Station.",
+          "The shirt is too small.",
+          "You cannot eat seafood.",
+          "Your room key does not work.",
+          "The server brought the wrong dish.",
+          "Someone recommends a place — respond warmly.",
+          "You want to know what is good on the menu.",
+          "Your flight is delayed and you will miss your connection."
+        ]
+      },
+      {
+        "title_en": "Exit ticket · one day, one sentence",
+        "title_zh": "出場券・一天，一句話",
+        "note_en": "The single recommendation they would give a visitor who has only one afternoon in Changhua. It has to be specific — a name, not a category.",
+        "note_zh": "如果訪客在彰化只有一個下午，他們會給的那一個推薦。必須具體——要說得出名字，不能只說類別。",
+        "items": [
+          "If you only have one afternoon in Changhua, you should ______ because ______ ."
+        ]
+      }
+    ]
   }
 }

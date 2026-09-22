@@ -742,37 +742,290 @@
       "n": 16,
       "unit": 4,
       "title": "Travel English: Airport & Adventure",
-      "date": "Saturday, January 2, 2027"
+      "date": "Saturday, January 2, 2027",
+      "language_target": "Questions, requests, directions, travel vocabulary.",
+      "vocabulary": [
+        "passport",
+        "boarding pass",
+        "gate",
+        "luggage",
+        "reservation",
+        "departure",
+        "arrival",
+        "delayed"
+      ],
+      "taiwan_connection": "Travel in Taiwan: build an English airport journey from Taipei to an imaginary destination.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Questions, requests, directions, travel vocabulary."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "Taipei-to-New-York Mission: students navigate a fictional trip and solve airport problems."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: airport announcement clip; students identify key information.",
+      "homework": "Create a mini travel dialogue: check-in, security, and asking for directions.",
+      "cefr": "A1: key phrases. A2: simple role-play. B1: handle a problem. B2+: polite, flexible language. C1/C2: natural idiomatic interaction.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 17."
     },
     {
       "n": 17,
       "unit": 4,
       "title": "Shopping & Money",
-      "date": "Saturday, January 9, 2027"
+      "date": "Saturday, January 9, 2027",
+      "language_target": "Prices, quantities, count/non-count nouns; polite requests.",
+      "vocabulary": [
+        "price",
+        "discount",
+        "receipt",
+        "size",
+        "change",
+        "expensive",
+        "affordable",
+        "quantity",
+        "enough"
+      ],
+      "taiwan_connection": "Shopping vocabulary: compare convenience stores, night markets, malls, and American stores.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Prices, quantities, count/non-count nouns; polite requests."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "Class Store: students 'shop' with imaginary money and negotiate a silly shopping list."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: English-language shopping/ad clip.",
+      "homework": "Make a 10-item shopping list in English and write 6 sentences using much/many, enough, too much/too many.",
+      "cefr": "A1: basic items/prices. A2: quantities. B1: requests and comparisons. B2+: negotiate politely. C1/C2: persuasive buying language.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 18."
     },
     {
       "n": 18,
       "unit": 4,
       "title": "Food & Restaurants",
-      "date": "Saturday, January 16, 2027"
+      "date": "Saturday, January 16, 2027",
+      "language_target": "Food vocabulary; preferences; ordering; polite complaints.",
+      "vocabulary": [
+        "ingredient",
+        "appetizer",
+        "main course",
+        "dessert",
+        "spicy",
+        "sweet",
+        "savory",
+        "vegetarian",
+        "allergy"
+      ],
+      "taiwan_connection": "Food culture: students can build a bilingual-style menu featuring Taiwanese and American foods.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Food vocabulary; preferences; ordering; polite complaints."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "Restaurant Role-Play: customer, server, chef, and food critic. Add one surprise problem."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: cooking or restaurant review clip.",
+      "homework": "Write a menu with 6 dishes and create a 10-line restaurant dialogue.",
+      "cefr": "A1: food words + I like/don't like. A2: ordering. B1: explain preferences. B2+: complain politely. C1/C2: review and recommend.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 19."
     },
     {
       "n": 19,
       "unit": 4,
       "title": "Making Friends & Conversation",
-      "date": "Saturday, January 23, 2027"
+      "date": "Saturday, January 23, 2027",
+      "language_target": "Question formation, follow-up questions, conversation strategies.",
+      "vocabulary": [
+        "actually",
+        "really",
+        "interesting",
+        "especially",
+        "prefer",
+        "opinion",
+        "experience",
+        "similar"
+      ],
+      "taiwan_connection": "Friendship focus: teach that good English conversation is more than asking questions—it means listening and following up.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Question formation, follow-up questions, conversation strategies."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "Conversation Carousel: 60-second partner chats, then students must remember one detail about each person."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: friendly interview clip; notice follow-up questions.",
+      "homework": "Prepare 8 open-ended questions and interview someone in English for 5 minutes.",
+      "cefr": "A1: simple questions. A2: follow-ups. B1: sustain conversation. B2+: respond flexibly. C1/C2: manage nuance, humor, and turn-taking.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 20."
     },
     {
       "n": 20,
       "unit": 4,
       "title": "Problems, Solutions & Polite English",
-      "date": "Saturday, January 30, 2027"
+      "date": "Saturday, January 30, 2027",
+      "language_target": "Could/would, should, must; polite problem-solving.",
+      "vocabulary": [
+        "problem",
+        "solution",
+        "broken",
+        "missing",
+        "refund",
+        "replace",
+        "apologize",
+        "recommend"
+      ],
+      "taiwan_connection": "Holiday/service connection: solve a funny Christmas-season delivery, restaurant, or travel problem.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Could/would, should, must; polite problem-solving."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "Customer Service Challenge: lost luggage, broken phone, wrong food, late delivery—students solve the problem in English."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: customer-service scene from a film or TV show.",
+      "homework": "Write 5 polite requests and 5 solutions to imaginary problems.",
+      "cefr": "A1: memorized polite phrases. A2: simple requests. B1: explain a problem. B2+: negotiate. C1/C2: diplomatic language.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 21."
     },
     {
       "n": 21,
       "unit": 4,
       "title": "Real-Life English Challenge",
-      "date": "Saturday, February 6, 2027"
+      "date": "Saturday, February 6, 2027",
+      "language_target": "Integrated practical English.",
+      "vocabulary": [
+        "review vocabulary from Weeks 16–20"
+      ],
+      "taiwan_connection": "New Year challenge: students plan a perfect English-language day in Taipei for an international visitor.",
+      "blocks": [
+        {
+          "time": "0–10 min",
+          "label": "Homework review",
+          "text": "Review last week's assignment. Ask 2–3 students to share. Correct one common error and celebrate one strong example."
+        },
+        {
+          "time": "10–20 min",
+          "label": "Vocabulary",
+          "text": "Teach 5–10 target words. Always include: meaning, Chinese equivalent when useful, example, synonym, antonym, and/or word family."
+        },
+        {
+          "time": "20–35 min",
+          "label": "New learning",
+          "text": "Integrated practical English."
+        },
+        {
+          "time": "35–50 min",
+          "label": "Fun / application",
+          "text": "The Big Taiwan Day: plan a day in Taipei using transport, food, shopping, weather, directions, and social English."
+        },
+        {
+          "time": "50–57 min",
+          "label": "Challenge / exit ticket",
+          "text": "Each student produces something before leaving: a sentence, answer, mini-story, explanation, role-play, or spoken response. Keep it quick and visible."
+        }
+      ],
+      "media": "Optional: Taipei/Travel vlog in English.",
+      "homework": "Create a one-page English itinerary for a visitor to Taiwan. Include times, prices, directions, and 3 recommendations.",
+      "cefr": "A1: fill a template. A2: simple itinerary. B1: explain choices. B2+: give persuasive recommendations. C1/C2: deliver a polished mini-tour.",
+      "next_week": "Next Saturday: review this homework first, then move into Week 22."
     },
     {
       "n": 22,
