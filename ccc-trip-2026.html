@@ -81,6 +81,21 @@
     .gal-ccc{grid-template-columns:repeat(3,1fr);gap:7px}
     .lb-p,.lb-n{width:42px;height:42px;font-size:1.7rem}
   }
+  /* testimonials */
+  .tq-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .tq{margin:0;background:#fff;border:1px solid var(--line);border-radius:16px;padding:26px 26px 22px;
+    display:flex;flex-direction:column;box-shadow:0 6px 22px rgba(20,20,20,.05)}
+  .tq-tag{align-self:flex-start;font-family:var(--eyebrow);text-transform:uppercase;letter-spacing:.1em;
+    font-size:.7rem;color:var(--orange-dark);background:#fff3e6;border-radius:30px;padding:3px 11px;margin-bottom:14px}
+  .tq blockquote{margin:0 0 16px;font-family:var(--serif);font-size:1.08rem;line-height:1.65;color:var(--ink,#2a2725);flex:1}
+  .tq blockquote::before{content:"\201C";display:block;font-size:2.4rem;line-height:.6;color:var(--orange);margin-bottom:6px}
+  .tq figcaption{font-family:var(--eyebrow);letter-spacing:.04em;font-size:.86rem;color:var(--muted-2)}
+  .tq figcaption b{color:var(--ink,#2a2725)}
+  .tq-parents{display:grid;grid-template-columns:1.35fr 1fr;gap:22px;margin-top:22px}
+  .tq-parent{background:var(--bg-soft)}
+  .tq-lead blockquote{font-size:1.28rem}
+  @media(max-width:980px){.tq-grid{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:680px){.tq-grid,.tq-parents{grid-template-columns:1fr}.tq-lead blockquote{font-size:1.12rem}}
 </style>
   <link rel="stylesheet" href="/assets/css/search.css">
 </head>
@@ -208,6 +223,57 @@
   <p class="lb-c"></p>
 </div>
 
+<section id="in-their-words">
+  <div class="wrap">
+    <div class="section-head"><p class="eyebrow">In their own words</p><h2>What the volunteers said</h2>
+      <p class="muted">From the feedback form the volunteers and their parents filled in after the trip &mdash; all eleven said they would recommend the program to a friend.<span class="zh-line">摘自志工與家長在行程結束後填寫的回饋表，十一位全數表示會推薦給朋友。</span></p></div>
+    <div class="tq-grid">
+      <figure class="tq" data-reveal>
+        <span class="tq-tag">Teaching English</span>
+        <blockquote>Being able to talk to the kids and get to know them better while teaching them. I felt like I made friends there despite staying for only a short time.</blockquote>
+        <figcaption><b>Leo</b>, CCC student volunteer</figcaption>
+      </figure>
+      <figure class="tq" data-reveal>
+        <span class="tq-tag">Making friends</span>
+        <blockquote>I loved meeting the students and talking to them and making new friends. I am still in contact with some of them today.</blockquote>
+        <figcaption><b>Julia</b>, CCC student volunteer</figcaption>
+      </figure>
+      <figure class="tq" data-reveal>
+        <span class="tq-tag">Meeting peers</span>
+        <blockquote>I liked how I got to meet people my age who live very differently from me. It was very cool.</blockquote>
+        <figcaption><b>Mark</b>, CCC student volunteer</figcaption>
+      </figure>
+      <figure class="tq" data-reveal>
+        <span class="tq-tag">Host family</span>
+        <blockquote>Riding motorcycle to track in the morning to run with host family dad.</blockquote>
+        <figcaption><b>Ben</b>, CCC student volunteer</figcaption>
+      </figure>
+      <figure class="tq" data-reveal>
+        <span class="tq-tag">Cultural exchange</span>
+        <blockquote>Connecting with the high school students from a different cultural background.</blockquote>
+        <figcaption><b>Young</b>, CCC student volunteer</figcaption>
+      </figure>
+      <figure class="tq" data-reveal>
+        <span class="tq-tag">The whole week</span>
+        <blockquote>I like that we met elementary students and high school students and we also changed to a different high school halfway through the week.</blockquote>
+        <figcaption><b>Tao</b>, CCC student volunteer</figcaption>
+      </figure>
+    </div>
+    <div class="tq-parents">
+      <figure class="tq tq-parent tq-lead" data-reveal>
+        <span class="tq-tag">A parent&rsquo;s view</span>
+        <blockquote>We&rsquo;ve seen Mark grow through helping others, and we&rsquo;ve also seen how deeply grateful he is for the people and experiences in his life.</blockquote>
+        <figcaption><b>Mark&rsquo;s mom</b></figcaption>
+      </figure>
+      <figure class="tq tq-parent" data-reveal>
+        <span class="tq-tag">A parent&rsquo;s view</span>
+        <blockquote>Everything was thoughtfully planned and beautifully designed. The hosting families were amazing. It was a wonderful experience to my two sons.</blockquote>
+        <figcaption><b>Ben and Young&rsquo;s dad</b></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
 <section>
   <div class="wrap" style="max-width:740px">
     <div class="section-head left"><p class="eyebrow">Reflection</p><h2>Planting Seeds of Goodwill Through Exchange</h2>
@@ -312,7 +378,7 @@
 
 <section class="soft">
   <div class="wrap">
-    <div class="section-head"><p class="eyebrow">Programme at a glance</p><h2>The essentials</h2></div>
+    <div class="section-head"><p class="eyebrow">Program at a glance</p><h2>The essentials</h2></div>
     <div class="grid cols-3">
       <div class="card" data-reveal>
         <h3>When</h3>
