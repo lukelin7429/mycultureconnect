@@ -19,8 +19,8 @@
   .hd .when { margin-top:10px; font-weight:700; color:var(--key2); }
   ul { list-style:none; margin:0; padding:0; }
   .vp-item { display:flex; gap:16px; padding:20px 0; border-bottom:1px solid var(--line); }
-  .vp-when { flex:0 0 104px; }
-  .vp-when b { display:block; font-size:1.12rem; color:var(--key2); }
+  .vp-when { flex:0 0 136px; }
+  .vp-when b { display:block; font-size:1.12rem; color:var(--key2); white-space:nowrap; }
   .vp-period { display:block; margin-top:4px; font-size:.82rem; color:var(--muted); font-weight:700; }
   .vp-period em { display:block; font-weight:400; }
   .vp-what { flex:1; }
@@ -37,7 +37,7 @@
   .foot { margin-top:20px; color:var(--muted); font-size:.9rem; }
   .foot em { display:block; }
   @media (max-width:520px) {
-    /* 手機上 104px 的時間欄會把「09:25 – 10:10」折成兩行，改成上下堆疊 */
+    /* 手機上 136px 的時間欄會把「09:25 – 10:10」折成兩行，改成上下堆疊 */
     .vp-item { flex-direction:column; gap:8px; }
     .vp-when { flex:none; display:flex; align-items:baseline; gap:10px; }
     .vp-when b { font-size:1.05rem; white-space:nowrap; }

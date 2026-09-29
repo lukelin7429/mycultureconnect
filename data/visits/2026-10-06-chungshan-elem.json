@@ -1,0 +1,50 @@
+{
+  "slug": "2026-10-06-chungshan-elem",
+  "school": "中山國小",
+  "school_en": "Chungshan Elementary",
+  "date": "2026.10.06",
+  "weekday_zh": "星期二",
+  "weekday_en": "Tuesday",
+  "items": [
+    {
+      "time": "08:25",
+      "label_en": "Arrive · English classroom",
+      "label_zh": "抵達・英語教室",
+      "detail_en": "Section Chief Lu meets us and takes us to the English classroom. Fifteen minutes to set up the projector and sound before Period 1.",
+      "detail_zh": "呂宜璋組長帶我們到英語教室。第 1 節前有 15 分鐘架好投影與音響。"
+    },
+    {
+      "period_en": "Period 1",
+      "period_zh": "第 1 節",
+      "time": "08:40 – 09:20",
+      "class": "505",
+      "label_en": "SDG 11 Sustainable Cities and Communities",
+      "label_zh": "SDG 11 永續城市與社區",
+      "deck": "chungshan-elem-sdg11-cities"
+    },
+    {
+      "period_en": "Period 2",
+      "period_zh": "第 2 節",
+      "time": "09:30 – 10:10",
+      "class": "505",
+      "label_en": "Character Education: Gratitude",
+      "label_zh": "品格教育：感恩",
+      "deck": "chungshan-elem-gratitude",
+      "note_en": "Same class as Period 1 — a different deck that picks up where SDG 11's “communities” left off.",
+      "note_zh": "與第 1 節同一班、不同套簡報——接著 SDG 11 的「社區」往下談。"
+    },
+    {
+      "period_en": "Period 3",
+      "period_zh": "第 3 節",
+      "time": "10:30 – 11:10",
+      "label_en": "Principal interview & discussion",
+      "label_zh": "校長訪談與座談",
+      "detail_en": "With Principal Yang Shih-kai. Three questions, about ten minutes — the rest is an open chat.",
+      "detail_zh": "與楊式愷校長。三個題目、大約十分鐘，其餘時間輕鬆座談。",
+      "note_en": "For the Voices in Education series.",
+      "note_zh": "收錄於「教育之聲」校長專訪系列。"
+    }
+  ],
+  "footnote_en": "Each period is 40 minutes — a 10-minute break after Period 1, and 20 minutes before Period 3.",
+  "footnote_zh": "每節 40 分鐘——第 1 節後休息 10 分鐘，第 3 節前休息 20 分鐘。"
+}
