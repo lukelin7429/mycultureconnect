@@ -1,0 +1,298 @@
+{
+  "slug": "wanlai-elem-sdg16-peace",
+  "school": "萬來國小",
+  "school_en": "Wanlai Elementary",
+  "date": "2026.10.06",
+  "year": "115",
+  "classes": "Grade 6 · 3 classes 六年級三個班",
+  "title": "SDG 16 和平、正義與健全制度",
+  "title_en": "Peace and Justice",
+  "sdg": "16",
+  "theme": "teal",
+  "footer": "Teacher Dom · SDG #16 Peace, Justice and Strong Institutions 和平、正義與健全制度",
+  "slides": [
+    {
+      "type": "title",
+      "eyebrow_en": "At Wanlai, every child has a voice",
+      "eyebrow_zh": "在萬來，每個孩子都有自己的聲音",
+      "chips": [
+        { "en": "Fair or Unfair?", "zh": "公平嗎？" },
+        { "en": "Peaceful Choices", "zh": "和平的選擇" },
+        { "en": "Be an Upstander", "zh": "挺身而出" },
+        { "en": "Our Class Promise", "zh": "我們班的約定" }
+      ],
+      "strip": [
+        { "num": "1 in 3", "en": "students worldwide were bullied last month", "zh": "全世界的學生，上個月曾被霸凌" },
+        { "num": "1974", "en": "Wanlai began, thanks to a generous gift", "zh": "萬來創校，來自一份慷慨的禮物" },
+        { "num": "1", "en": "voice each — and every one counts", "zh": "每人一個聲音，每一個都算數" }
+      ],
+      "img": "wanlai-campus.jpg"
+    },
+    {
+      "type": "intro",
+      "head_en": "Hello again!",
+      "head_zh": "又見面了！",
+      "lines": [
+        { "en": "Last class, we talked about things — what we buy and throw away.", "zh": "上一節我們談「東西」——買什麼、丟什麼。" },
+        { "en": "This class is about people — how we treat each other.", "zh": "這一節要談「人」——我們怎麼對待彼此。" },
+        { "en": "Peace is not only about wars far away. It starts right here, in our classroom.", "zh": "和平不只是遠方的戰爭，它就從這間教室開始。" }
+      ],
+      "ask_en": "Today: fair and unfair, peaceful choices, and how to be an upstander.",
+      "ask_zh": "今天要談：公平與不公平、和平的選擇，還有怎麼挺身而出。"
+    },
+    {
+      "type": "standup",
+      "head_en": "Stand Up If…",
+      "head_zh": "如果是你，就站起來！",
+      "prompts": [
+        { "en": "Stand up if you have ever felt something was unfair.", "zh": "曾經覺得某件事不公平的，站起來。" },
+        { "en": "Stay standing if you said something about it.", "zh": "你有把它說出來的，繼續站著。" },
+        { "en": "Stay standing if someone listened to you.", "zh": "有人認真聽你說的，繼續站著。" }
+      ],
+      "punch_en": "Justice starts when someone speaks up — and someone listens.",
+      "punch_zh": "正義，從有人說出來、有人願意聽開始。"
+    },
+    {
+      "type": "topic",
+      "head_en": "What Is SDG 16?",
+      "head_zh": "SDG 16 是什麼？",
+      "body_en": "Peace: people are safe. Justice: the rules are fair for everyone. Strong institutions: schools, courts and town halls that keep it that way — and listen to people.",
+      "body_zh": "和平：大家都安全。正義：規則對每個人都公平。健全制度：學校、法院、公所這些地方，讓這一切維持下去，也願意聽人民的聲音。",
+      "keywords": [
+        { "en": "peace", "zh": "和平" },
+        { "en": "justice", "zh": "正義" },
+        { "en": "rule", "zh": "規則" },
+        { "en": "vote", "zh": "投票" }
+      ],
+      "img": "sdg16-meeting-v"
+    },
+    {
+      "type": "quiz",
+      "n": 1,
+      "q_en": "Your class needs a class leader. What is the FAIREST way to choose?",
+      "q_zh": "班上要選班長。哪一種方法最公平？",
+      "options": [
+        { "en": "The teacher's favorite student", "zh": "老師最喜歡的學生" },
+        { "en": "The tallest student", "zh": "最高的學生" },
+        { "en": "Everyone votes — one vote each", "zh": "大家投票，每人一票" },
+        { "en": "Whoever shouts the loudest", "zh": "喊最大聲的人" }
+      ],
+      "answer": 2,
+      "explain_en": "Everyone votes, one vote each. That is how fair institutions work — from your classroom to the whole country.",
+      "explain_zh": "大家投票、每人一票。公平的制度就是這樣運作的——從你們班，到整個國家。"
+    },
+    {
+      "type": "topic",
+      "head_en": "A School Built on a Gift",
+      "head_zh": "一份禮物蓋起來的學校",
+      "body_en": "Wanlai is named after Mr. Yang Wanlai. He lived in Japan, but he gave land and money so children here could have a school. A school is an institution: it belongs to everyone, and it must treat everyone fairly.",
+      "body_zh": "萬來國小的校名，是紀念旅日華僑楊萬來先生。他捐地又捐錢，讓這裡的孩子有學校可以讀。學校就是一種「制度」：它屬於每一個人，也必須公平對待每一個人。",
+      "keywords": [
+        { "en": "donate", "zh": "捐贈" },
+        { "en": "generous", "zh": "慷慨的" },
+        { "en": "institution", "zh": "制度／機構" },
+        { "en": "fair", "zh": "公平的" }
+      ]
+    },
+    {
+      "type": "sort",
+      "head_en": "Peaceful or Not?",
+      "head_zh": "和平，還是不和平？",
+      "a_en": "PEACEFUL",
+      "a_zh": "和平",
+      "b_en": "NOT PEACEFUL",
+      "b_zh": "不和平",
+      "items": [
+        { "icon": "💬", "en": "Talk it out", "zh": "好好把話說開", "a": "a" },
+        { "icon": "👊", "en": "Hit back", "zh": "打回去", "a": "b" },
+        { "icon": "🙋", "en": "Ask a teacher for help", "zh": "請老師幫忙", "a": "a" },
+        { "icon": "📱", "en": "Post mean comments online", "zh": "在網路上留難聽的話", "a": "b" },
+        { "icon": "🤝", "en": "Say sorry", "zh": "說對不起", "a": "a" },
+        { "icon": "🚫", "en": "Leave someone out on purpose", "zh": "故意排擠別人", "a": "b" },
+        { "icon": "👂", "en": "Listen to both sides", "zh": "兩邊的說法都聽", "a": "a" },
+        { "icon": "🗯", "en": "Spread a rumor", "zh": "散播謠言", "a": "b" }
+      ],
+      "note_en": "Some of these don't use hands at all — think carefully!",
+      "note_zh": "有幾個根本沒動手——想清楚喔！"
+    },
+    {
+      "type": "people",
+      "head_en": "If 30 students from around the world were one class…",
+      "head_zh": "如果把全世界的學生縮成一個 30 人的班…",
+      "total": 30,
+      "mark": 10,
+      "icon": "🧒",
+      "reveal_en": "About 1 in 3 was bullied at school in the past month.",
+      "reveal_zh": "大約每 3 個就有 1 個，上個月在學校被霸凌過。",
+      "ask_en": "Guess first: how many?",
+      "ask_zh": "先猜猜看：有幾個？"
+    },
+    {
+      "type": "topic",
+      "head_en": "Be an Upstander",
+      "head_zh": "當一個挺身而出的人",
+      "body_en": "A bystander sees bullying and does nothing. An upstander does something: stand next to the person, say “Stop, that's not OK,” or tell a teacher. You don't have to be brave alone.",
+      "body_zh": "旁觀者看到霸凌，什麼都不做。挺身而出的人會採取行動：站到對方身邊、說「停，這樣不對」，或去告訴老師。你不需要一個人勇敢。",
+      "keywords": [
+        { "en": "bystander", "zh": "旁觀者" },
+        { "en": "upstander", "zh": "挺身而出的人" },
+        { "en": "brave", "zh": "勇敢" },
+        { "en": "safe", "zh": "安全" }
+      ],
+      "img": "sdg16-upstander-v"
+    },
+    {
+      "type": "truefalse",
+      "head_en": "True or False?",
+      "head_zh": "真的還假的？手比 ⭕ 或 ❌",
+      "items": [
+        {
+          "en": "Rules should be the same for everyone.",
+          "zh": "規則應該對每個人都一樣。",
+          "answer": true,
+          "note_en": "That's justice — no special rules for popular kids.",
+          "note_zh": "這就是正義——受歡迎的人也沒有特別待遇。"
+        },
+        {
+          "en": "If I see bullying, staying quiet is the safest choice.",
+          "zh": "看到霸凌，不出聲最安全。",
+          "answer": false,
+          "note_en": "Silence helps the bully. Stand with the person, or tell an adult.",
+          "note_zh": "沉默只會幫到霸凌的人。站到對方身邊，或告訴大人。"
+        },
+        {
+          "en": "Peace just means nobody is fighting.",
+          "zh": "和平就只是沒有人在打架。",
+          "answer": false,
+          "note_en": "Peace also means everyone feels safe, respected and included.",
+          "note_zh": "和平也代表每個人都覺得安全、被尊重、被接納。"
+        },
+        {
+          "en": "In a fair vote, every vote counts the same.",
+          "zh": "公平的投票，每一票都一樣重要。",
+          "answer": true,
+          "note_en": "Popular or new, tall or small — one person, one vote.",
+          "note_zh": "受不受歡迎、是不是新同學、高或矮——都是一人一票。"
+        }
+      ]
+    },
+    {
+      "type": "photo",
+      "head_en": "A Community That Cares",
+      "head_zh": "互相照顧的社區",
+      "img": "wanlai-moonlute-elders.jpg",
+      "icon": "🪕",
+      "ask_en": "Your moon-lute club played for the grandmas and grandpas at the Qixing community care center. A peaceful community looks after everyone — young and old.",
+      "ask_zh": "你們的月琴社到七星社區關懷據點，為阿公阿嬤演奏。和平的社區，會照顧每一個人——不分老少。"
+    },
+    {
+      "type": "topic",
+      "head_en": "Many Cultures, One School",
+      "head_zh": "多元文化，一個學校",
+      "body_en": "Wanlai has its own Indonesian dance team, and many Taiwanese families have roots in Southeast Asia. Dom was new here once, too. Peace means everyone belongs.",
+      "body_zh": "萬來有自己的印尼舞團，很多台灣家庭的根在東南亞。Dom 也曾經是這裡的新朋友。和平，就是每個人都有歸屬。",
+      "keywords": [
+        { "en": "culture", "zh": "文化" },
+        { "en": "respect", "zh": "尊重" },
+        { "en": "welcome", "zh": "歡迎" },
+        { "en": "belong", "zh": "歸屬" }
+      ],
+      "img": "sdg16-cultures-v"
+    },
+    {
+      "type": "quiz",
+      "n": 2,
+      "q_en": "One group always takes over the basketball court at recess. What is the BEST thing to do?",
+      "q_zh": "下課時，總是同一群人霸佔籃球場。最好的做法是什麼？",
+      "options": [
+        { "en": "Grab the ball and run", "zh": "搶了球就跑" },
+        { "en": "Complain, but do nothing", "zh": "抱怨，但什麼都不做" },
+        { "en": "Ask the class meeting for fair turns", "zh": "在班會提議公平輪流" },
+        { "en": "Start a fight", "zh": "跟他們打一架" }
+      ],
+      "answer": 2,
+      "explain_en": "Class meeting! Making fair rules together — that's a strong institution.",
+      "explain_zh": "拿到班會討論！一起訂出公平的規則——這就是健全制度。"
+    },
+    {
+      "type": "pairshare",
+      "head_en": "Turn and Tell Your Partner",
+      "head_zh": "轉過去，告訴你的同學",
+      "prompt_en": "If you could make ONE new rule to make our school fairer, what would it be?",
+      "prompt_zh": "如果你可以訂一條讓學校更公平的新規則，你會訂什麼？",
+      "sentence_en": "One rule I would make is ______, because ______.",
+      "sentence_zh": "我想訂的規則是 ______，因為 ______。",
+      "time_en": "One minute each. Then three volunteers — one from each class!",
+      "time_zh": "每人一分鐘。然後請三位分享——每班一位！"
+    },
+    {
+      "type": "card",
+      "head_en": "Our Class Promise",
+      "head_zh": "我們班的約定",
+      "lines": [
+        { "en": "In our class, everyone gets a turn.", "zh": "在我們班，每個人都有機會。" },
+        { "en": "We solve problems by talking, not fighting.", "zh": "我們用說的解決問題，不用打的。" },
+        { "en": "No one is left out.", "zh": "不讓任何人落單。" },
+        { "en": "Every voice counts — even the quiet ones.", "zh": "每個聲音都算數——安靜的聲音也是。" }
+      ],
+      "tip_en": "Three classes, one promise — read it out loud together!",
+      "tip_zh": "三個班，一個約定——一起大聲唸出來！"
+    },
+    {
+      "type": "action",
+      "head_en": "3 Things You Can Do This Week",
+      "head_zh": "這週你可以做的 3 件事",
+      "items": [
+        { "num": "1", "en": "Invite someone who is alone to join you — at lunch or at play.", "zh": "邀請落單的同學加入你——午餐或下課都可以。" },
+        { "num": "2", "en": "At your next class meeting, suggest one fair rule.", "zh": "下次班會，提出一條公平的規則。" },
+        { "num": "3", "en": "If you see bullying, stand with the person and tell a teacher.", "zh": "看到霸凌，站到對方身邊，並告訴老師。" }
+      ]
+    },
+    {
+      "type": "phrases",
+      "head_en": "Say It With Me",
+      "head_zh": "跟著我唸",
+      "items": [
+        { "en": "Peace, justice and strong institutions.", "zh": "和平、正義與健全制度。" },
+        { "en": "Same rules for everyone.", "zh": "規則對每個人都一樣。" },
+        { "en": "Every voice counts.", "zh": "每個聲音都算數。" },
+        { "en": "Don't be a bystander — be an upstander.", "zh": "不要當旁觀者，要挺身而出。" },
+        { "en": "Peace starts with me.", "zh": "和平從我開始。" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "n": 3,
+      "bonus": true,
+      "q_en": "The SDG 16 icon shows a bird holding an olive branch. Which bird is it?",
+      "q_zh": "SDG 16 的圖示上，有一隻鳥銜著橄欖枝。是哪一種鳥？",
+      "options": [
+        { "en": "An eagle", "zh": "老鷹" },
+        { "en": "A dove", "zh": "鴿子" },
+        { "en": "An owl", "zh": "貓頭鷹" },
+        { "en": "A parrot", "zh": "鸚鵡" }
+      ],
+      "answer": 1,
+      "explain_en": "A dove! A dove with an olive branch has meant peace for thousands of years. On the icon, it stands on a judge's gavel — the hammer that stands for justice.",
+      "explain_zh": "鴿子！銜著橄欖枝的鴿子，幾千年來都代表和平。圖示上，牠站在法官的法槌上——法槌代表正義。"
+    },
+    {
+      "type": "padlet",
+      "head_en": "Leave a Message for Dom",
+      "head_zh": "留言給 Dom",
+      "body_en": "Go to our School Tour page and find the Wanlai Elementary column. No sign-up, no login — tell me one way you will make our school fairer.",
+      "body_zh": "到我們網站的 School Tour 頁面，找到萬來國小那一欄，免註冊、免登入，告訴我你會怎麼讓學校更公平。",
+      "sentence_en": "One way I will make our school fairer: ______.",
+      "sentence_zh": "我讓學校更公平的一個方法：______。",
+      "site": "mycultureconnect.org/dom-school-tour.html"
+    },
+    {
+      "type": "closing",
+      "big_en": "Every voice counts.<br>Everyone belongs.",
+      "big_zh": "每個聲音都算數，每個人都有位置。",
+      "sign_en": "Thank you, Wanlai Elementary!",
+      "sign_zh": "謝謝萬來國小！",
+      "img": "sdg16-closing"
+    }
+  ]
+}

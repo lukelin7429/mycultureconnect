@@ -64,6 +64,9 @@ PRINT_PAGE = """<!doctype html><meta charset="utf-8">
 <style>
   @page {{ size: {w}px {h}px; margin: 0; }}
   html, body {{ margin:0; padding:0; background:#fff; }}
+  /* the web page gets its font from body.deck-body; this body has no class,
+     so without this line Chrome falls back to Times in every PDF and PPTX */
+  body {{ font-family:var(--sans); }}
   .pg {{ width:{w}px; height:{h}px; overflow:hidden; page-break-after:always;
          display:flex; align-items:center; justify-content:center; background:#000; }}
   .pg:last-child {{ page-break-after:auto; }}
