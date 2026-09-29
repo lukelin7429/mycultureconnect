@@ -498,13 +498,29 @@ def t_timeline(s, d):
 </div>'''
 
 
+def t_card(s, d):
+    """卡片句型：畫面本身就是一張卡，每一行是可以照著填的英文句型。
+    中高年級寫作最需要的不是題目，而是一個可以照抄結構的範本。"""
+    lines = "".join(
+        f'<li><span class="hs-en">{e(x["en"])}</span><span class="hs-zh">{e(x["zh"])}</span></li>'
+        for x in s["lines"])
+    acls, aimg = art(s)
+    tip = (f'<div class="hs-cardtip">{bi(e(s["tip_en"]), e(s["tip_zh"]))}</div>'
+           if s.get("tip_en") else "")
+    return f'''<div class="hs hs-cardslide{acls}">{aimg}
+  <h3 class="hs-head">✉️ {e(s["head_en"])}<span>{e(s["head_zh"])}</span></h3>
+  <ol class="hs-card">{lines}</ol>
+  {tip}
+</div>'''
+
+
 RENDER = {
     "title": t_title, "intro": t_intro, "video": t_video, "standup": t_standup,
     "topic": t_topic, "quiz": t_quiz, "bigstat": t_bigstat, "truefalse": t_truefalse,
     "game": t_game, "pairshare": t_pairshare, "rank": t_rank, "action": t_action,
     "map": t_map, "phrases": t_phrases, "padlet": t_padlet, "closing": t_closing,
     "tpr": t_tpr, "count": t_count, "chant": t_chant, "people": t_people,
-    "sort": t_sort, "photo": t_photo, "timeline": t_timeline,
+    "sort": t_sort, "photo": t_photo, "timeline": t_timeline, "card": t_card,
 }
 
 

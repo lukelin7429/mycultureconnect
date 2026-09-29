@@ -557,3 +557,19 @@ body.deck-body { background:var(--page); min-height:100vh; font-family:var(--san
 .hs-tl li.is-now .hs-tl-dot { background:var(--hs-key); transform:scale(1.35);
   box-shadow:0 0 0 6px rgba(0,0,0,.06); }
 .hs-tl li.is-now .hs-tl-year { color:var(--hs-key); }
+
+/* 卡片句型：像一張真的卡片——米白底、雙線框、橫格線，空格處讓孩子自己填 */
+.hs-card { list-style:none; margin:0; padding:12px 32px; flex:1;
+  display:flex; flex-direction:column; justify-content:space-evenly;
+  background:#fffdf8; color:#2c2320; border-radius:18px;
+  border:3px double var(--hs-key); box-shadow:0 10px 26px rgba(0,0,0,.12); }
+.hs-card li { border-bottom:2px dashed rgba(0,0,0,.14); padding:3px 4px 5px; }
+.hs-card li:last-child { border-bottom:0; }
+.hs-card .hs-en { display:block; font-size:29px; font-weight:700; line-height:1.15;
+  font-family:'Georgia','Times New Roman',serif; }
+.hs-card .hs-zh { display:block; font-size:18px; opacity:.72; margin-top:1px; }
+.hs-cardtip { align-self:center; background:var(--hs-key); color:#fff; border-radius:999px;
+  padding:6px 26px; text-align:center; }
+.hs-cardtip .hs-en { font-size:22px; font-weight:700; }
+.hs-cardtip .hs-zh { font-size:18px; opacity:.92; }
+.hs-cardslide.has-art .hs-card .hs-en { font-size:27px; }
