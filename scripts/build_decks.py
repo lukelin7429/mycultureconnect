@@ -134,7 +134,7 @@ def e(s):
 
 
 def ensure_webp():
-    """Make a .webp beside every deck .png that doesn't have an up-to-date one.
+    """Make a .webp beside every deck .png/.jpg that doesn't have an up-to-date one.
 
     Automatic so that dropping a new illustration into assets/img/decks/ is all
     anyone has to do. Skipped silently if Pillow isn't installed — the pages
@@ -147,10 +147,11 @@ def ensure_webp():
     made = 0
     folder = os.path.join(ROOT, "assets", "img", "decks")
     for name in sorted(os.listdir(folder)):
-        if not name.endswith(".png"):
+        stem, ext = os.path.splitext(name)
+        if ext not in (".png", ".jpg"):
             continue
         png = os.path.join(folder, name)
-        webp = png[:-4] + ".webp"
+        webp = os.path.join(folder, stem + ".webp")
         if os.path.exists(webp) and os.path.getmtime(webp) >= os.path.getmtime(png):
             continue
         Image.open(png).convert("RGB").save(webp, "WEBP", quality=82, method=6)
@@ -375,14 +376,20 @@ def t_padlet(s, d):
 </div>'''
 
 
-def t_map(s, d):
+def t_map(s, d, icon="🌏"):
     """Full-bleed map: the heading and the question sit on top of it, so none of
     the slide is wasted on letterbox bars beside a contained image."""
     return f'''<div class="hs hs-map">
   <div class="hs-mapimg">{picture(s["img"])}</div>
   <h3 class="hs-head">{e(s["head_en"])}<span>{e(s["head_zh"])}</span></h3>
-  <div class="hs-ask">🌏 {bi(e(s["ask_en"]), e(s["ask_zh"]))}</div>
+  <div class="hs-ask">{e(s.get("icon", icon))} {bi(e(s["ask_en"]), e(s["ask_zh"]))}</div>
 </div>'''
+
+
+def t_photo(s, d):
+    """A real photograph, full-bleed — same frame as the map. Seeing their own
+    campus on the screen does more for a class than any illustration."""
+    return t_map(s, d, icon="📷")
 
 
 def t_closing(s, d):
@@ -474,13 +481,30 @@ def t_sort(s, d):
 </div>'''
 
 
+def t_timeline(s, d):
+    """時間軸：年份在上、事件在下，最後一站標成「現在」。講地方史、校史用。"""
+    stops = s["stops"]
+    items = "".join(
+        f'<li class="{"is-now" if i == len(stops) - 1 else ""}">'
+        f'<b class="hs-tl-year">{e(x["year"])}</b><span class="hs-tl-dot"></span>'
+        f'{bi(e(x["en"]), e(x["zh"]))}</li>'
+        for i, x in enumerate(stops))
+    note = (f'<div class="hs-punch">{bi(e(s["note_en"]), e(s["note_zh"]))}</div>'
+            if s.get("note_en") else "")
+    return f'''<div class="hs hs-timeline">
+  <h3 class="hs-head">🕰 {e(s["head_en"])}<span>{e(s["head_zh"])}</span></h3>
+  <ol class="hs-tl" style="--n:{len(stops)}">{items}</ol>
+  {note}
+</div>'''
+
+
 RENDER = {
     "title": t_title, "intro": t_intro, "video": t_video, "standup": t_standup,
     "topic": t_topic, "quiz": t_quiz, "bigstat": t_bigstat, "truefalse": t_truefalse,
     "game": t_game, "pairshare": t_pairshare, "rank": t_rank, "action": t_action,
     "map": t_map, "phrases": t_phrases, "padlet": t_padlet, "closing": t_closing,
     "tpr": t_tpr, "count": t_count, "chant": t_chant, "people": t_people,
-    "sort": t_sort,
+    "sort": t_sort, "photo": t_photo, "timeline": t_timeline,
 }
 
 

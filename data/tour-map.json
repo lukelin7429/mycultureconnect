@@ -74,6 +74,26 @@
    "visit": "2026-09-22-nanzhou-elem"
   },
   {
+   "en": "Chungshan Elementary",
+   "zh": "中山國小",
+   "town_zh": "彰化市",
+   "town_en": "Changhua City",
+   "lat": 24.081842,
+   "lng": 120.547114,
+   "dates": [
+    "2026.10.06"
+   ],
+   "status": "upcoming",
+   "year": "115",
+   "decks": [
+    {
+     "slug": "chungshan-elem-sdg11-cities",
+     "title": "SDG 11 永續城市與社區",
+     "title_en": "Sustainable Cities"
+    }
+   ]
+  },
+  {
    "en": "Beidou Elementary",
    "zh": "北斗國小",
    "town_zh": "北斗鎮",

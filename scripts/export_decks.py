@@ -152,10 +152,16 @@ def to_pptx(pdf_path, pptx_path, scale=2.0):
     blank = prs.slide_layouts[6]
     with tempfile.TemporaryDirectory() as tmp:
         for n, page in enumerate(doc):
+            pix = page.get_pixmap(matrix=fitz.Matrix(scale, scale))
+            # Text slides stay PNG (crisp, and small because the colors are flat);
+            # a slide that is mostly a photograph is several times smaller as JPEG.
             png = os.path.join(tmp, f'{n:03d}.png')
-            page.get_pixmap(matrix=fitz.Matrix(scale, scale)).save(png)
+            jpg = os.path.join(tmp, f'{n:03d}.jpg')
+            pix.save(png)
+            pix.save(jpg, jpg_quality=88)
+            pick = jpg if os.path.getsize(jpg) < os.path.getsize(png) * 0.7 else png
             s = prs.slides.add_slide(blank)
-            s.shapes.add_picture(png, 0, 0, prs.slide_width, prs.slide_height)
+            s.shapes.add_picture(pick, 0, 0, prs.slide_width, prs.slide_height)
     prs.save(pptx_path)
     return len(doc)
 

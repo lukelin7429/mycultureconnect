@@ -193,7 +193,7 @@
       "num": "900",
       "head_en": "days of drinking water — for ONE T-shirt",
       "head_zh": "一件 T 恤，等於一個人喝 900 天的水",
-      "body_en": "Growing the cotton, making the cloth, dyeing it — about 2,700 litres in all.",
+      "body_en": "Growing the cotton, making the cloth, dyeing it — about 2,700 liters in all.",
       "body_zh": "種棉花、做布、染色，全部加起來大約 2,700 公升。",
       "ask_en": "How many T-shirts are in your wardrobe at home?",
       "ask_zh": "你家衣櫃裡有幾件 T 恤？",
@@ -278,7 +278,7 @@
           "en": "One class of children is too small to make a difference.",
           "zh": "一個班的小朋友太少了，改變不了什麼。",
           "answer": false,
-          "note_en": "Let's do the maths on the next slide.",
+          "note_en": "Let's do the math on the next slide.",
           "note_zh": "下一張我們來算算看。"
         }
       ]

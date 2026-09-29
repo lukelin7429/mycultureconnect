@@ -1,0 +1,493 @@
+{
+  "slug": "chungshan-elem-sdg11-cities",
+  "school": "中山國小",
+  "school_en": "Chungshan Elementary",
+  "date": "2026.10.06",
+  "year": "115",
+  "classes": "505",
+  "title": "SDG 11 永續城市與社區",
+  "title_en": "Sustainable Cities",
+  "sdg": "11",
+  "theme": "amber",
+  "footer": "Teacher Dom · SDG #11 Sustainable Cities and Communities 永續城市與社區",
+  "slides": [
+    {
+      "type": "title",
+      "eyebrow_en": "Changhua's oldest school meets SDG 11",
+      "eyebrow_zh": "彰化最古老的學校，遇見 SDG 11",
+      "chips": [
+        {
+          "en": "Our School's Story",
+          "zh": "我們學校的故事"
+        },
+        {
+          "en": "How Cities Grow",
+          "zh": "城市怎麼長大"
+        },
+        {
+          "en": "Old & New",
+          "zh": "新與舊"
+        },
+        {
+          "en": "Our Actions",
+          "zh": "行動方案"
+        }
+      ],
+      "strip": [
+        {
+          "num": "1896",
+          "en": "the year your school began",
+          "zh": "你們學校的起點"
+        },
+        {
+          "num": "1909",
+          "en": "the year Dom's hometown became a city",
+          "zh": "Dom 的家鄉建市那一年"
+        },
+        {
+          "num": "68%",
+          "en": "of people will live in cities by 2050",
+          "zh": "2050 年將住在城市的人口"
+        }
+      ],
+      "img": "chungshan-gate.jpg"
+    },
+    {
+      "type": "intro",
+      "head_en": "Hello! I am Dom.",
+      "head_zh": "哈囉！我是 Dom。",
+      "lines": [
+        {
+          "en": "I come from Huntington Beach, California.",
+          "zh": "我來自加州的杭廷頓海灘。"
+        },
+        {
+          "en": "My city became a city in 1909.",
+          "zh": "我的城市在 1909 年才正式建市。"
+        },
+        {
+          "en": "Your school began in 1896. It is older than my whole city!",
+          "zh": "你們學校 1896 年就開始了——比我整座城市還老！"
+        }
+      ],
+      "ask_en": "Today's question: how does a city grow — and how can it grow well?",
+      "ask_zh": "今天的問題：城市怎麼長大？怎樣才能長得好？"
+    },
+    {
+      "type": "quiz",
+      "n": 1,
+      "q_en": "How old is Chungshan Elementary this year?",
+      "q_zh": "中山國小今年幾歲？",
+      "options": [
+        {
+          "en": "About 100 years",
+          "zh": "大約 100 歲"
+        },
+        {
+          "en": "About 115 years",
+          "zh": "大約 115 歲"
+        },
+        {
+          "en": "130 years",
+          "zh": "130 歲"
+        },
+        {
+          "en": "About 150 years",
+          "zh": "大約 150 歲"
+        }
+      ],
+      "answer": 2,
+      "explain_en": "2026 − 1896 = 130. The oldest school in Changhua County!",
+      "explain_zh": "2026 − 1896 ＝ 130。彰化縣最古老的學校！"
+    },
+    {
+      "type": "map",
+      "head_en": "From California to Changhua",
+      "head_zh": "從加州到彰化",
+      "img": "map-usa-taiwan.svg",
+      "ask_en": "Two cities, one ocean. Let's find out how cities grow.",
+      "ask_zh": "一片海洋兩端的兩座城市。來看看城市是怎麼長大的。"
+    },
+    {
+      "type": "timeline",
+      "head_en": "Your School's Journey",
+      "head_zh": "你們學校的旅程",
+      "stops": [
+        {
+          "year": "1896",
+          "en": "A language school opens in a temple in Lukang",
+          "zh": "在鹿港地藏王廟開設語言學校"
+        },
+        {
+          "year": "1898",
+          "en": "Becomes Changhua Public School, at the Confucius Temple",
+          "zh": "在彰化孔廟改制為「彰化公學校」"
+        },
+        {
+          "year": "1921",
+          "en": "Moves to its home today, at the foot of Bagua Hill",
+          "zh": "遷到八卦山麓，就是今天的校地"
+        },
+        {
+          "year": "2001",
+          "en": "The North Wing becomes a historic building",
+          "zh": "北棟教室登錄為歷史建築"
+        },
+        {
+          "year": "2026",
+          "en": "130 years — and you are part of the story",
+          "zh": "130 年——你也在這個故事裡"
+        }
+      ],
+      "note_en": "Your school started in Lukang and grew up in Changhua. Let's find out why that matters.",
+      "note_zh": "你們學校在鹿港起步、在彰化長大。來看看這為什麼重要。"
+    },
+    {
+      "type": "photo",
+      "head_en": "You Walk Past History Every Day",
+      "head_zh": "你每天都走過歷史",
+      "img": "chungshan-northwing.jpg",
+      "ask_en": "The North Wing: Roman arches, over 80 years old — once the longest building in Changhua.",
+      "ask_zh": "北棟教室：羅馬拱廊、超過八十歲，曾是全彰化最長的單棟建築。"
+    },
+    {
+      "type": "topic",
+      "head_en": "Once, Lukang Was Taiwan's No. 2 City",
+      "head_zh": "鹿港，曾經是全台第二大城",
+      "body_en": "From 1784, ships sailed straight from Fujian to Lukang's harbor. It grew so big that people said: first Tainan, second Lukang, third Monga.",
+      "body_zh": "1784 年起，船隻從福建直航鹿港。鹿港繁榮到大家都說：「一府、二鹿、三艋舺」。",
+      "keywords": [
+        {
+          "en": "harbor",
+          "zh": "港口"
+        },
+        {
+          "en": "trade",
+          "zh": "貿易"
+        },
+        {
+          "en": "ship",
+          "zh": "船"
+        },
+        {
+          "en": "grow",
+          "zh": "成長"
+        }
+      ],
+      "img": "sdg11-lukang-v"
+    },
+    {
+      "type": "quiz",
+      "n": 2,
+      "q_en": "Today Lukang is a small town. Why did it stop growing?",
+      "q_zh": "今天的鹿港是個小鎮。它為什麼不再長大？",
+      "options": [
+        {
+          "en": "A big earthquake",
+          "zh": "一場大地震"
+        },
+        {
+          "en": "Sand filled the harbor, and the railway missed it",
+          "zh": "港口淤積，鐵路也沒經過"
+        },
+        {
+          "en": "Everyone moved to America",
+          "zh": "大家都搬去美國"
+        },
+        {
+          "en": "A giant storm washed it away",
+          "zh": "一場大風暴把它沖走了"
+        }
+      ],
+      "answer": 1,
+      "explain_en": "Ships could not get in, and the railway went through Changhua instead.",
+      "explain_zh": "船進不來，縱貫鐵路又改走彰化。"
+    },
+    {
+      "type": "quiz",
+      "n": 3,
+      "q_en": "In 1734, Changhua's first city wall was made of…",
+      "q_zh": "1734 年，彰化的第一道城牆是用什麼做的？",
+      "options": [
+        {
+          "en": "Stone",
+          "zh": "石頭"
+        },
+        {
+          "en": "Thorny bamboo",
+          "zh": "莿竹"
+        },
+        {
+          "en": "Wood",
+          "zh": "木頭"
+        },
+        {
+          "en": "Metal",
+          "zh": "金屬"
+        }
+      ],
+      "answer": 1,
+      "explain_en": "Thorny bamboo! A brick wall came in 1815 — and in 1920 it was pulled down to make way for roads.",
+      "explain_zh": "莿竹！1815 年才改成磚城——1920 年又為了開路被拆掉。"
+    },
+    {
+      "type": "bigstat",
+      "num": "68%",
+      "head_en": "of all people will live in cities by 2050",
+      "head_zh": "2050 年，全世界 68% 的人會住在城市",
+      "body_en": "Today it is 55%. Cities are growing fast — so we have to build them well.",
+      "body_zh": "現在是 55%。城市長得很快——所以一定要好好地蓋。",
+      "ask_en": "What does a city need so that everyone can live well?",
+      "ask_zh": "城市需要什麼，才能讓每個人都住得好？",
+      "img": "sdg11-city-v"
+    },
+    {
+      "type": "sort",
+      "head_en": "Good for Our City?",
+      "head_zh": "這對城市好嗎？",
+      "a_en": "GOOD",
+      "a_zh": "好",
+      "b_en": "NOT GOOD",
+      "b_zh": "不好",
+      "items": [
+        {
+          "icon": "🌳",
+          "en": "More parks",
+          "zh": "更多公園",
+          "a": "a"
+        },
+        {
+          "icon": "🚗",
+          "en": "Driving everywhere",
+          "zh": "到哪裡都開車",
+          "a": "b"
+        },
+        {
+          "icon": "🚲",
+          "en": "Safe bike lanes",
+          "zh": "安全的自行車道",
+          "a": "a"
+        },
+        {
+          "icon": "🏚️",
+          "en": "Tearing down every old building",
+          "zh": "把老建築全拆掉",
+          "a": "b"
+        },
+        {
+          "icon": "🚆",
+          "en": "Good trains and buses",
+          "zh": "方便的火車和公車",
+          "a": "a"
+        },
+        {
+          "icon": "🗑️",
+          "en": "Trash on the street",
+          "zh": "垃圾丟在街上",
+          "a": "b"
+        },
+        {
+          "icon": "📚",
+          "en": "A library for everyone",
+          "zh": "人人都能去的圖書館",
+          "a": "a"
+        },
+        {
+          "icon": "🔊",
+          "en": "Loud noise all night",
+          "zh": "整晚都很吵",
+          "a": "b"
+        }
+      ],
+      "note_en": "Tap each one to check",
+      "note_zh": "點每一項對答案"
+    },
+    {
+      "type": "photo",
+      "head_en": "The Poem Tree",
+      "head_zh": "詩文樹",
+      "img": "chungshan-poemtree.jpg",
+      "icon": "📖",
+      "ask_en": "Twelve writers studied here — including Lai He, the father of Taiwan's New Literature.",
+      "ask_zh": "十二位文學家曾在這裡求學，包括「臺灣新文學之父」賴和。"
+    },
+    {
+      "type": "truefalse",
+      "head_en": "True or False?",
+      "head_zh": "真的還假的？手比 ⭕ 或 ❌",
+      "items": [
+        {
+          "en": "Your school is older than Dom's hometown.",
+          "zh": "你們學校比 Dom 的家鄉還老。",
+          "answer": true,
+          "note_en": "1896 vs. 1909 — thirteen years older!",
+          "note_zh": "1896 比 1909——早了十三年！"
+        },
+        {
+          "en": "SDG 11 includes protecting old buildings.",
+          "zh": "SDG 11 包含保護老建築。",
+          "answer": true,
+          "note_en": "Target 11.4: protect our cultural and natural heritage.",
+          "note_zh": "目標 11.4：保護我們的文化與自然遺產。"
+        },
+        {
+          "en": "A new building is always better than an old one.",
+          "zh": "新建築一定比老建築好。",
+          "answer": false,
+          "note_en": "Old places hold a city's memory.",
+          "note_zh": "老地方保存了一座城市的記憶。"
+        },
+        {
+          "en": "A city is just buildings and roads.",
+          "zh": "城市就只是建築和馬路。",
+          "answer": false,
+          "note_en": "A city is its people — like the twelve writers on your Poem Tree.",
+          "note_zh": "城市是人——就像你們詩文樹上的十二位文學家。"
+        }
+      ]
+    },
+    {
+      "type": "photo",
+      "head_en": "Be a City Detective",
+      "head_zh": "當一個城市偵探",
+      "img": "chungshan-fieldtrip.jpg",
+      "icon": "🔍",
+      "ask_en": "Every old place has a story: Who built it? Why here? What changed?",
+      "ask_zh": "每個老地方都有故事：誰蓋的？為什麼在這裡？改變了什麼？"
+    },
+    {
+      "type": "pairshare",
+      "head_en": "Turn and Tell Your Partner",
+      "head_zh": "轉過去，告訴你的同學",
+      "prompt_en": "If you could protect ONE old place in Changhua, which would it be?",
+      "prompt_zh": "如果只能保護彰化的一個老地方，你會選哪裡？",
+      "sentence_en": "I would protect ______ because ______.",
+      "sentence_zh": "我會保護 ______，因為 ______。",
+      "time_en": "One minute each. Then I will ask two of you.",
+      "time_zh": "每人一分鐘。然後我會請兩位分享。"
+    },
+    {
+      "type": "game",
+      "icon": "⏱",
+      "head_en": "30-Second Challenge",
+      "head_zh": "30 秒挑戰",
+      "rule_en": "In 30 seconds, shout out as many places in a city in English as you can. I will count!",
+      "rule_zh": "30 秒內，用英文喊出越多「城市裡的地方」越好，我來數！",
+      "hints": [
+        "park 公園",
+        "station 車站",
+        "temple 廟",
+        "market 市場",
+        "library 圖書館",
+        "hospital 醫院",
+        "museum 博物館",
+        "bridge 橋"
+      ],
+      "target_en": "Class record to beat: 16",
+      "target_zh": "要打破的班級紀錄：16 個"
+    },
+    {
+      "type": "video",
+      "head_en": "Be the Change",
+      "head_zh": "成為那個改變",
+      "yt": "otT9zA42dK0",
+      "note_en": "Watch — then tell me one thing you will do for your city.",
+      "note_zh": "看完之後，告訴我你願意為你的城市做的一件事。"
+    },
+    {
+      "type": "action",
+      "head_en": "3 Things You Can Do This Month",
+      "head_zh": "這個月你可以做的 3 件事",
+      "items": [
+        {
+          "num": "1",
+          "en": "Find one old place near your home and learn its story.",
+          "zh": "找一個家附近的老地方，查出它的故事。"
+        },
+        {
+          "num": "2",
+          "en": "Take a train or bus with your family instead of a car, once.",
+          "zh": "和家人搭一次火車或公車，代替開車。"
+        },
+        {
+          "num": "3",
+          "en": "Take care of your school — it is a historic building!",
+          "zh": "愛護校園——這裡是歷史建築！"
+        }
+      ]
+    },
+    {
+      "type": "phrases",
+      "head_en": "Say It With Me",
+      "head_zh": "跟著我唸",
+      "items": [
+        {
+          "en": "Sustainable cities and communities.",
+          "zh": "永續城市與社區。"
+        },
+        {
+          "en": "My school is 130 years old.",
+          "zh": "我的學校 130 歲了。"
+        },
+        {
+          "en": "Old places tell our story.",
+          "zh": "老地方訴說我們的故事。"
+        },
+        {
+          "en": "How we travel shapes our city.",
+          "zh": "我們怎麼移動，決定城市的樣子。"
+        },
+        {
+          "en": "I can make my city better.",
+          "zh": "我可以讓我的城市變得更好。"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "n": 4,
+      "bonus": true,
+      "q_en": "Dom's hometown, Huntington Beach, is named after a man who built…",
+      "q_zh": "Dom 的家鄉杭廷頓海灘，是以一位做什麼的人命名的？",
+      "options": [
+        {
+          "en": "Ships",
+          "zh": "船"
+        },
+        {
+          "en": "Railroads",
+          "zh": "鐵路"
+        },
+        {
+          "en": "Schools",
+          "zh": "學校"
+        },
+        {
+          "en": "Temples",
+          "zh": "寺廟"
+        }
+      ],
+      "answer": 1,
+      "explain_en": "Henry Huntington, a railroad businessman. Trains help cities grow — in California and in Changhua.",
+      "explain_zh": "亨利・杭廷頓，一位鐵路大亨。火車讓城市長大——在加州如此，在彰化也是。"
+    },
+    {
+      "type": "padlet",
+      "head_en": "Leave a Message for Dom",
+      "head_zh": "留言給 Dom",
+      "body_en": "Go to our School Tour page and find the Chungshan Elementary column. No sign-up, no login — tell me about an old place you love.",
+      "body_zh": "到我們網站的 School Tour 頁面，找到中山國小那一欄，免註冊、免登入，告訴我一個你喜歡的老地方。",
+      "sentence_en": "My favorite old place is ______ because ______.",
+      "sentence_zh": "我最喜歡的老地方是 ______，因為 ______。",
+      "site": "mycultureconnect.org/dom-school-tour.html"
+    },
+    {
+      "type": "closing",
+      "big_en": "Old places, new ideas —<br>a city for everyone.",
+      "big_zh": "老地方，新想法——一座屬於每個人的城市。",
+      "sign_en": "Thank you, Chungshan Elementary!",
+      "sign_zh": "謝謝中山國小！",
+      "img": "sdg11-closing"
+    }
+  ]
+}
