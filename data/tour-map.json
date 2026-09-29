@@ -99,6 +99,26 @@
    ]
   },
   {
+   "en": "Wanlai Elementary",
+   "zh": "萬來國小",
+   "town_zh": "北斗鎮",
+   "town_en": "Beidou",
+   "lat": 23.869699,
+   "lng": 120.521574,
+   "dates": [
+    "2026.10.06"
+   ],
+   "status": "upcoming",
+   "year": "115",
+   "decks": [
+    {
+     "slug": "wanlai-elem-sdg12-consumption",
+     "title": "SDG 12 責任消費及生產",
+     "title_en": "Responsible Consumption"
+    }
+   ]
+  },
+  {
    "en": "Beidou Elementary",
    "zh": "北斗國小",
    "town_zh": "北斗鎮",
