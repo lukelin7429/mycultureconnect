@@ -16,15 +16,39 @@
       "eyebrow_en": "From Garbage Island to recycling champion",
       "eyebrow_zh": "從垃圾之島到回收模範生",
       "chips": [
-        { "en": "Garbage Truck Songs", "zh": "垃圾車之歌" },
-        { "en": "Taiwan's Story", "zh": "台灣的故事" },
-        { "en": "Recycle or Trash?", "zh": "回收還是垃圾" },
-        { "en": "Our Actions", "zh": "行動方案" }
+        {
+          "en": "Garbage Truck Songs",
+          "zh": "垃圾車之歌"
+        },
+        {
+          "en": "Taiwan's Story",
+          "zh": "台灣的故事"
+        },
+        {
+          "en": "Recycle or Trash?",
+          "zh": "回收還是垃圾"
+        },
+        {
+          "en": "Our Actions",
+          "zh": "行動方案"
+        }
       ],
       "strip": [
-        { "num": "55%", "en": "of Taiwan's trash is recycled", "zh": "台灣的垃圾被回收" },
-        { "num": "0.4 kg", "en": "of trash per person a day, down from 1.14", "zh": "每人每天的垃圾，原本是 1.14" },
-        { "num": "1", "en": "Earth — we only have one", "zh": "地球只有一個" }
+        {
+          "num": "55%",
+          "en": "of Taiwan's trash is recycled",
+          "zh": "台灣的垃圾被回收"
+        },
+        {
+          "num": "0.4 kg",
+          "en": "of trash per person a day, down from 1.14",
+          "zh": "每人每天的垃圾，原本是 1.14"
+        },
+        {
+          "num": "1",
+          "en": "Earth — we only have one",
+          "zh": "地球只有一個"
+        }
       ],
       "img": "wanlai-gate.jpg"
     },
@@ -33,9 +57,18 @@
       "head_en": "Hello! I am Dom.",
       "head_zh": "哈囉！我是 Dom。",
       "lines": [
-        { "en": "I come from California, USA.", "zh": "我從美國加州來。" },
-        { "en": "In California, garbage trucks do not play music.", "zh": "在加州，垃圾車不會放音樂。" },
-        { "en": "In Taiwan, I heard a song at night — and everyone ran outside with their trash!", "zh": "在台灣，我晚上聽到一首歌——然後大家都拿著垃圾衝出門！" }
+        {
+          "en": "I come from California, USA.",
+          "zh": "我從美國加州來。"
+        },
+        {
+          "en": "In California, garbage trucks do not play music.",
+          "zh": "在加州，垃圾車不會放音樂。"
+        },
+        {
+          "en": "In Taiwan, I heard a song at night — and everyone ran outside with their trash!",
+          "zh": "在台灣，我晚上聽到一首歌——然後大家都拿著垃圾衝出門！"
+        }
       ],
       "ask_en": "Today: what we buy, what we throw away, and what Taiwan can teach the world.",
       "ask_zh": "今天要談：我們買什麼、丟什麼，還有台灣可以教世界什麼。"
@@ -46,10 +79,22 @@
       "q_en": "Which famous song do many Taiwanese garbage trucks play?",
       "q_zh": "台灣很多垃圾車播的是哪一首名曲？",
       "options": [
-        { "en": "Happy Birthday", "zh": "生日快樂歌" },
-        { "en": "Für Elise", "zh": "給愛麗絲" },
-        { "en": "Jingle Bells", "zh": "聖誕鈴聲" },
-        { "en": "Twinkle, Twinkle, Little Star", "zh": "小星星" }
+        {
+          "en": "Happy Birthday",
+          "zh": "生日快樂歌"
+        },
+        {
+          "en": "Für Elise",
+          "zh": "給愛麗絲"
+        },
+        {
+          "en": "Jingle Bells",
+          "zh": "聖誕鈴聲"
+        },
+        {
+          "en": "Twinkle, Twinkle, Little Star",
+          "zh": "小星星"
+        }
       ],
       "answer": 1,
       "explain_en": "Beethoven's Für Elise — and A Maiden's Prayer, by a Polish composer. The music says: the truck is here!",
@@ -68,9 +113,18 @@
       "head_en": "Stand Up If…",
       "head_zh": "如果是你，就站起來！",
       "prompts": [
-        { "en": "Stand up if you have ever run after a garbage truck.", "zh": "曾經追過垃圾車的，站起來。" },
-        { "en": "Stay standing if you help sort the recycling at home.", "zh": "在家有幫忙做資源回收分類的，繼續站著。" },
-        { "en": "Stay standing if you threw away something this week that still worked.", "zh": "這星期丟過還能用的東西的，繼續站著。" }
+        {
+          "en": "Stand up if you have ever run after a garbage truck.",
+          "zh": "曾經追過垃圾車的，站起來。"
+        },
+        {
+          "en": "Stay standing if you help sort the recycling at home.",
+          "zh": "在家有幫忙做資源回收分類的，繼續站著。"
+        },
+        {
+          "en": "Stay standing if you threw away something this week that still worked.",
+          "zh": "這星期丟過還能用的東西的，繼續站著。"
+        }
       ],
       "punch_en": "Recycling is good. Not throwing things away is even better.",
       "punch_zh": "回收很好；不丟，更好。"
@@ -80,11 +134,31 @@
       "head_en": "From Garbage Island to Recycling Champion",
       "head_zh": "從垃圾之島到回收模範生",
       "stops": [
-        { "year": "1993", "en": "Only 70% of trash is collected. The rest is dumped or burned.", "zh": "只有七成垃圾被收走，其餘被亂丟或燒掉" },
-        { "year": "1996", "en": "Trash must not touch the ground — you bring it to the truck", "zh": "垃圾不落地——自己把垃圾拿去垃圾車" },
-        { "year": "1997", "en": "The four-in-one recycling program begins", "zh": "推動「四合一資源回收計畫」" },
-        { "year": "1998", "en": "Each person throws away 1.14 kg a day", "zh": "每人每天丟 1.14 公斤垃圾" },
-        { "year": "Today", "en": "Under 0.4 kg a day — and over half is recycled", "zh": "每天不到 0.4 公斤，超過一半被回收" }
+        {
+          "year": "1993",
+          "en": "Only 70% of trash is collected. The rest is dumped or burned.",
+          "zh": "只有七成垃圾被收走，其餘被亂丟或燒掉"
+        },
+        {
+          "year": "1996",
+          "en": "Trash must not touch the ground — you bring it to the truck",
+          "zh": "垃圾不落地——自己把垃圾拿去垃圾車"
+        },
+        {
+          "year": "1997",
+          "en": "The four-in-one recycling program begins",
+          "zh": "推動「四合一資源回收計畫」"
+        },
+        {
+          "year": "1998",
+          "en": "Each person throws away 1.14 kg a day",
+          "zh": "每人每天丟 1.14 公斤垃圾"
+        },
+        {
+          "year": "Today",
+          "en": "Under 0.4 kg a day — and over half is recycled",
+          "zh": "每天不到 0.4 公斤，超過一半被回收"
+        }
       ],
       "note_en": "In one generation, Taiwan changed how everyone lives. People did this — not machines.",
       "note_zh": "一個世代之間，台灣改變了每個人的生活方式。做到的是人，不是機器。"
@@ -109,14 +183,54 @@
       "b_en": "TRASH",
       "b_zh": "一般垃圾",
       "items": [
-        { "icon": "🧃", "en": "A flattened juice box", "zh": "壓扁的鋁箔包", "a": "a" },
-        { "icon": "🧾", "en": "A shop receipt", "zh": "發票", "a": "b" },
-        { "icon": "📦", "en": "Styrofoam packaging", "zh": "包裝用保麗龍", "a": "a" },
-        { "icon": "🍟", "en": "A chip bag", "zh": "洋芋片袋", "a": "b" },
-        { "icon": "🥤", "en": "A rinsed drink cup", "zh": "沖乾淨的飲料杯", "a": "a" },
-        { "icon": "🥢", "en": "Disposable chopsticks", "zh": "免洗筷", "a": "b" },
-        { "icon": "📰", "en": "Old newspaper", "zh": "舊報紙", "a": "a" },
-        { "icon": "🤧", "en": "Used tissues", "zh": "用過的衛生紙", "a": "b" }
+        {
+          "icon": "🧃",
+          "en": "A flattened juice box",
+          "zh": "壓扁的鋁箔包",
+          "a": "a"
+        },
+        {
+          "icon": "🧾",
+          "en": "A shop receipt",
+          "zh": "發票",
+          "a": "b"
+        },
+        {
+          "icon": "📦",
+          "en": "Styrofoam packaging",
+          "zh": "包裝用保麗龍",
+          "a": "a"
+        },
+        {
+          "icon": "🍟",
+          "en": "A chip bag",
+          "zh": "洋芋片袋",
+          "a": "b"
+        },
+        {
+          "icon": "🥤",
+          "en": "A rinsed drink cup",
+          "zh": "沖乾淨的飲料杯",
+          "a": "a"
+        },
+        {
+          "icon": "🥢",
+          "en": "Disposable chopsticks",
+          "zh": "免洗筷",
+          "a": "b"
+        },
+        {
+          "icon": "📰",
+          "en": "Old newspaper",
+          "zh": "舊報紙",
+          "a": "a"
+        },
+        {
+          "icon": "🤧",
+          "en": "Used tissues",
+          "zh": "用過的衛生紙",
+          "a": "b"
+        }
       ],
       "note_en": "Careful — some of these are tricky!",
       "note_zh": "小心——有幾個會騙人！"
@@ -163,10 +277,22 @@
       "body_en": "Metals dug from a mine. A factory far away. A ship, a shop, your hand — and a few years later, a drawer. Old phones still hold gold and copper that could be used again.",
       "body_zh": "從礦場挖出的金屬、遙遠的工廠，再經過船、商店，到你手上——幾年後，進了抽屜。舊手機裡還有可以再利用的金和銅。",
       "keywords": [
-        { "en": "mine", "zh": "礦場" },
-        { "en": "factory", "zh": "工廠" },
-        { "en": "e-waste", "zh": "電子廢棄物" },
-        { "en": "reuse", "zh": "再利用" }
+        {
+          "en": "mine",
+          "zh": "礦場"
+        },
+        {
+          "en": "factory",
+          "zh": "工廠"
+        },
+        {
+          "en": "e-waste",
+          "zh": "電子廢棄物"
+        },
+        {
+          "en": "reuse",
+          "zh": "再利用"
+        }
       ],
       "img": "sdg12-phone-v"
     },
@@ -174,7 +300,7 @@
       "type": "photo",
       "head_en": "Made to Last",
       "head_zh": "用得長久的東西",
-      "img": "wanlai-moonlute.jpg",
+      "img": "wanlai-moonlute-school.jpg",
       "icon": "🪕",
       "ask_en": "Your moon-lute club keeps old Taiwanese songs alive. What do YOU own that you will keep and care for?",
       "ask_zh": "你們的月琴社讓老歌繼續流傳。你有什麼東西，會好好照顧、用很久？"
@@ -185,10 +311,22 @@
       "q_en": "You are thirsty at school. Which choice saves the MOST?",
       "q_zh": "你在學校口渴了。哪一個選擇最省資源？",
       "options": [
-        { "en": "Buy a bottle, then recycle it", "zh": "買一瓶，喝完拿去回收" },
-        { "en": "Buy a bottle, then throw it away", "zh": "買一瓶，喝完丟垃圾桶" },
-        { "en": "Drink from your own bottle", "zh": "用自己的水壺喝" },
-        { "en": "Buy two bottles to be safe", "zh": "保險起見買兩瓶" }
+        {
+          "en": "Buy a bottle, then recycle it",
+          "zh": "買一瓶，喝完拿去回收"
+        },
+        {
+          "en": "Buy a bottle, then throw it away",
+          "zh": "買一瓶，喝完丟垃圾桶"
+        },
+        {
+          "en": "Drink from your own bottle",
+          "zh": "用自己的水壺喝"
+        },
+        {
+          "en": "Buy two bottles to be safe",
+          "zh": "保險起見買兩瓶"
+        }
       ],
       "answer": 2,
       "explain_en": "Your own bottle! No new bottle is made at all — that is refuse and reuse.",
@@ -213,17 +351,23 @@
       "rule_en": "In 30 seconds, shout out as many things you can recycle in English as you can. I will count!",
       "rule_zh": "30 秒內，用英文喊出越多「可以回收的東西」越好，我來數！",
       "hints": [
-        "bottle 瓶子", "can 罐子", "paper 紙", "box 箱子",
-        "glass 玻璃", "carton 紙盒", "newspaper 報紙", "magazine 雜誌"
+        "bottle 瓶子",
+        "can 罐子",
+        "paper 紙",
+        "box 箱子",
+        "glass 玻璃",
+        "carton 紙盒",
+        "newspaper 報紙",
+        "magazine 雜誌"
       ],
       "target_en": "Record to beat: 18",
       "target_zh": "要打破的紀錄：18 個"
     },
     {
       "type": "video",
-      "head_en": "Be the Change",
-      "head_zh": "成為那個改變",
-      "yt": "otT9zA42dK0",
+      "head_en": "Dom on Responsible Consumption",
+      "head_zh": "Dom 談責任消費",
+      "yt": "KZ03usiTxZ4",
       "note_en": "Watch — then tell me one thing you will stop throwing away.",
       "note_zh": "看完之後，告訴我一件你決定不再丟掉的東西。"
     },
@@ -232,9 +376,21 @@
       "head_en": "3 Things You Can Do This Week",
       "head_zh": "這週你可以做的 3 件事",
       "items": [
-        { "num": "1", "en": "Carry your own bottle and bag — refuse the new one.", "zh": "帶自己的水壺和袋子——拒絕新的。" },
-        { "num": "2", "en": "Before you buy, ask: do I need it, or just want it?", "zh": "買之前先問：我需要，還是只是想要？" },
-        { "num": "3", "en": "Help sort the recycling at home — no receipts with the paper!", "zh": "在家幫忙分類回收——發票不要跟紙類放一起！" }
+        {
+          "num": "1",
+          "en": "Carry your own bottle and bag — refuse the new one.",
+          "zh": "帶自己的水壺和袋子——拒絕新的。"
+        },
+        {
+          "num": "2",
+          "en": "Before you buy, ask: do I need it, or just want it?",
+          "zh": "買之前先問：我需要，還是只是想要？"
+        },
+        {
+          "num": "3",
+          "en": "Help sort the recycling at home — no receipts with the paper!",
+          "zh": "在家幫忙分類回收——發票不要跟紙類放一起！"
+        }
       ]
     },
     {
@@ -242,11 +398,26 @@
       "head_en": "Say It With Me",
       "head_zh": "跟著我唸",
       "items": [
-        { "en": "Responsible consumption and production.", "zh": "責任消費及生產。" },
-        { "en": "Refuse, reduce, reuse, repair, recycle.", "zh": "拒絕、減量、重複使用、修理、回收。" },
-        { "en": "The best trash is no trash.", "zh": "最好的垃圾，是沒有垃圾。" },
-        { "en": "Do I need it, or do I want it?", "zh": "我需要它，還是想要它？" },
-        { "en": "Taiwan changed — so can I.", "zh": "台灣做到了——我也可以。" }
+        {
+          "en": "Responsible consumption and production.",
+          "zh": "責任消費及生產。"
+        },
+        {
+          "en": "Refuse, reduce, reuse, repair, recycle.",
+          "zh": "拒絕、減量、重複使用、修理、回收。"
+        },
+        {
+          "en": "The best trash is no trash.",
+          "zh": "最好的垃圾，是沒有垃圾。"
+        },
+        {
+          "en": "Do I need it, or do I want it?",
+          "zh": "我需要它，還是想要它？"
+        },
+        {
+          "en": "Taiwan changed — so can I.",
+          "zh": "台灣做到了——我也可以。"
+        }
       ]
     },
     {
@@ -256,10 +427,22 @@
       "q_en": "In California, when a truck drives down the street playing music, what is it doing?",
       "q_zh": "在加州，一輛車放著音樂開過街道，它在做什麼？",
       "options": [
-        { "en": "Collecting trash", "zh": "收垃圾" },
-        { "en": "Selling ice cream", "zh": "賣冰淇淋" },
-        { "en": "Delivering mail", "zh": "送信" },
-        { "en": "Looking for lost pets", "zh": "找走失的寵物" }
+        {
+          "en": "Collecting trash",
+          "zh": "收垃圾"
+        },
+        {
+          "en": "Selling ice cream",
+          "zh": "賣冰淇淋"
+        },
+        {
+          "en": "Delivering mail",
+          "zh": "送信"
+        },
+        {
+          "en": "Looking for lost pets",
+          "zh": "找走失的寵物"
+        }
       ],
       "answer": 1,
       "explain_en": "Selling ice cream! So when Dom first heard Für Elise in Taiwan, she wanted ice cream — and got a garbage truck.",

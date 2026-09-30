@@ -73,6 +73,11 @@ PRINT_PAGE = """<!doctype html><meta charset="utf-8">
   /* the canvas is scaled by deck.js on the web; in print it is 1:1 */
   .hs-canvas {{ --hs-scale:1; transform:none !important; }}
   .pg > img {{ width:100%; height:100%; object-fit:contain; }}
+  /* offline copies cannot play the video inline; the whole page links to it */
+  .hs-ytcue {{ position:absolute; left:50%; bottom:16px; transform:translateX(-50%);
+    background:rgba(0,0,0,.74); color:#fff; border-radius:999px; padding:8px 22px;
+    font-size:21px; font-weight:700; white-space:nowrap; }}
+  .hs-ytcue em {{ font-style:normal; font-family:var(--zh); font-weight:600; margin-left:8px; }}
   /* no .deck.anim-ready here, so every entrance animation is already finished */
 </style>
 {pages}
@@ -86,13 +91,23 @@ def build_pages(slug):
     blocks = slide_blocks(html)
     if not blocks:
         raise SystemExit(f'{slug}: no slides found')
-    pages, revealed = [], 0
+    pages, links, revealed = [], [], 0
     for b in blocks:
+        yt = re.search(r'data-yt="([\w-]{11})"', b)
+        if yt:
+            # A PDF or PPTX page is only a picture of the video, so it must say
+            # so and take you to it — a slide that looks playable but isn't
+            # is how a class ends up waiting while the teacher hunts for the link.
+            b = re.sub(r'(<button[^>]*class="hs-play"[^>]*>.*?</button>)',
+                       r'\1<span class="hs-ytcue">▶ Click to play on YouTube'
+                       r'<em>點一下到 YouTube 播放</em></span>', b, count=1)
         pages.append(b)
+        links.append(f'https://www.youtube.com/watch?v={yt.group(1)}' if yt else None)
         if has_hidden_answer(b):
             pages.append(reveal(b))
+            links.append(None)
             revealed += 1
-    return pages, len(blocks), revealed
+    return pages, links, len(blocks), revealed
 
 
 def write_print_html(dest, pages, tag):
@@ -144,7 +159,7 @@ def to_pdf(print_html, pdf_path, timeout=180):
         raise SystemExit('Chrome produced no PDF for ' + pdf_path)
 
 
-def to_pptx(pdf_path, pptx_path, scale=2.0):
+def to_pptx(pdf_path, pptx_path, links=(), scale=2.0):
     import fitz
     from pptx import Presentation
     from pptx.util import Inches
@@ -164,7 +179,10 @@ def to_pptx(pdf_path, pptx_path, scale=2.0):
             pix.save(jpg, jpg_quality=88)
             pick = jpg if os.path.getsize(jpg) < os.path.getsize(png) * 0.7 else png
             s = prs.slides.add_slide(blank)
-            s.shapes.add_picture(pick, 0, 0, prs.slide_width, prs.slide_height)
+            pic = s.shapes.add_picture(pick, 0, 0, prs.slide_width, prs.slide_height)
+            if n < len(links) and links[n]:
+                # in Slide Show a click on the picture opens the video in the browser
+                pic.click_action.hyperlink.address = links[n]
     prs.save(pptx_path)
     return len(doc)
 
@@ -178,12 +196,15 @@ def is_stale(slug):
     return any(os.path.getmtime(o) < os.path.getmtime(src) for o in outs)
 
 
-def merge(parts, out):
+def merge(parts, out, links=()):
     import fitz
     doc = fitz.open()
     for p in parts:
         with fitz.open(p) as part:
             doc.insert_pdf(part)
+    for n, url in enumerate(links):
+        if url:
+            doc[n].insert_link({'kind': fitz.LINK_URI, 'from': doc[n].rect, 'uri': url})
     doc.save(out)
     doc.close()
 
@@ -193,7 +214,7 @@ def export(slug, chunk=CHUNK):
     pdf = os.path.join(out_dir, slug + '.pdf')
     pptx = os.path.join(out_dir, slug + '.pptx')
     with tempfile.TemporaryDirectory() as tmp:
-        pages, n_slides, n_revealed = build_pages(slug)
+        pages, links, n_slides, n_revealed = build_pages(slug)
         # Chrome's print pipeline gives up on a long, image-heavy document
         # ("Printing failed" with no output), so print in batches and stitch.
         parts = []
@@ -201,8 +222,8 @@ def export(slug, chunk=CHUNK):
             part = os.path.join(tmp, f'part-{i:03d}.pdf')
             to_pdf(write_print_html(tmp, pages[i:i + chunk], i), part)
             parts.append(part)
-        merge(parts, pdf)
-        n_pages = to_pptx(pdf, pptx)
+        merge(parts, pdf, links)
+        n_pages = to_pptx(pdf, pptx, links)
     print(f'  ✓ {slug}: {n_slides} slides (+{n_revealed} answer pages) '
           f'-> {n_pages}p  pdf {os.path.getsize(pdf)//1024}KB  '
           f'pptx {os.path.getsize(pptx)//1024}KB')
