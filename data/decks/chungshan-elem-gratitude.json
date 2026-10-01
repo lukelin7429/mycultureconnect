@@ -16,15 +16,39 @@
       "eyebrow_en": "The people who make a community",
       "eyebrow_zh": "讓社區運作的那些人",
       "chips": [
-        { "en": "Who Helps Us?", "zh": "誰在幫我們" },
-        { "en": "Dr. Lai He", "zh": "賴和醫師" },
-        { "en": "Say Thank You", "zh": "說謝謝" },
-        { "en": "Our Card", "zh": "我們的感謝卡" }
+        {
+          "en": "Who Helps Us?",
+          "zh": "誰在幫我們"
+        },
+        {
+          "en": "Dr. Lai He",
+          "zh": "賴和醫師"
+        },
+        {
+          "en": "Say Thank You",
+          "zh": "說謝謝"
+        },
+        {
+          "en": "Our Card",
+          "zh": "我們的感謝卡"
+        }
       ],
       "strip": [
-        { "num": "130", "en": "years of people who built this school", "zh": "年來蓋起這所學校的人" },
-        { "num": "12", "en": "writers on your Poem Tree", "zh": "位文學家在詩文樹上" },
-        { "num": "1", "en": "thank-you card from each of you", "zh": "張你親手寫的感謝卡" }
+        {
+          "num": "130",
+          "en": "years of people who built this school",
+          "zh": "年來蓋起這所學校的人"
+        },
+        {
+          "num": "12",
+          "en": "writers on your Poem Tree",
+          "zh": "位文學家在詩文樹上"
+        },
+        {
+          "num": "1",
+          "en": "thank-you card from each of you",
+          "zh": "張你親手寫的感謝卡"
+        }
       ],
       "img": "g5-thanks-title"
     },
@@ -33,9 +57,18 @@
       "head_en": "Cities Are Places. Communities Are People.",
       "head_zh": "城市是地方，社區是人。",
       "lines": [
-        { "en": "Last class, we met the old places of Changhua.", "zh": "上一節，我們認識了彰化的老地方。" },
-        { "en": "Now let's meet the people who take care of them.", "zh": "這一節，來認識照顧這些地方的人。" },
-        { "en": "Today's word is gratitude.", "zh": "今天的關鍵字是：感恩。" }
+        {
+          "en": "Last class, we met the old places of Changhua.",
+          "zh": "上一節，我們認識了彰化的老地方。"
+        },
+        {
+          "en": "Now let's meet the people who take care of them.",
+          "zh": "這一節，來認識照顧這些地方的人。"
+        },
+        {
+          "en": "Today's word is gratitude.",
+          "zh": "今天的關鍵字是：感恩。"
+        }
       ],
       "ask_en": "Before 9:30 this morning, who did something for you?",
       "ask_zh": "今天早上九點半以前，有誰為你做了什麼？"
@@ -47,10 +80,22 @@
       "body_en": "Gratitude means noticing what other people do for you — and then saying thank you, or giving something back.",
       "body_zh": "感恩，就是注意到別人為你做了什麼——然後說聲謝謝，或是回饋一點什麼。",
       "keywords": [
-        { "en": "notice", "zh": "注意到" },
-        { "en": "thank", "zh": "感謝" },
-        { "en": "appreciate", "zh": "珍惜" },
-        { "en": "give back", "zh": "回饋" }
+        {
+          "en": "notice",
+          "zh": "注意到"
+        },
+        {
+          "en": "thank",
+          "zh": "感謝"
+        },
+        {
+          "en": "appreciate",
+          "zh": "珍惜"
+        },
+        {
+          "en": "give back",
+          "zh": "回饋"
+        }
       ],
       "img": "g5-thanks-v"
     },
@@ -59,9 +104,18 @@
       "head_en": "Stand Up If…",
       "head_zh": "如果是你，就站起來！",
       "prompts": [
-        { "en": "Stand up if someone made breakfast for you today.", "zh": "今天有人幫你準備早餐的，站起來。" },
-        { "en": "Stay standing if a crossing guard helped you this morning.", "zh": "今天早上有導護幫你過馬路的，繼續站著。" },
-        { "en": "Stay standing if you said thank you to them.", "zh": "而且有跟他們說謝謝的，繼續站著。" }
+        {
+          "en": "Stand up if someone made breakfast for you today.",
+          "zh": "今天有人幫你準備早餐的，站起來。"
+        },
+        {
+          "en": "Stay standing if a crossing guard helped you this morning.",
+          "zh": "今天早上有導護幫你過馬路的，繼續站著。"
+        },
+        {
+          "en": "Stay standing if you said thank you to them.",
+          "zh": "而且有跟他們說謝謝的，繼續站著。"
+        }
       ],
       "punch_en": "So many people help us every day. We just don't always notice.",
       "punch_zh": "每天有好多人在幫我們，只是我們不一定注意到。"
@@ -72,10 +126,22 @@
       "q_en": "Riddle: I stand at the school gate every morning, rain or shine. I stop the cars so you can cross. Who am I?",
       "q_zh": "猜猜我是誰：不管晴天雨天，我每天早上都站在校門口，攔下車子讓你過馬路。",
       "options": [
-        { "en": "A school cook", "zh": "午餐廚工" },
-        { "en": "A crossing guard", "zh": "導護" },
-        { "en": "A librarian", "zh": "圖書館員" },
-        { "en": "A school nurse", "zh": "護理師" }
+        {
+          "en": "A school cook",
+          "zh": "午餐廚工"
+        },
+        {
+          "en": "A crossing guard",
+          "zh": "導護"
+        },
+        {
+          "en": "A librarian",
+          "zh": "圖書館員"
+        },
+        {
+          "en": "A school nurse",
+          "zh": "護理師"
+        }
       ],
       "answer": 1,
       "explain_en": "A crossing guard! Many are volunteers — they stand in the rain for you.",
@@ -87,10 +153,22 @@
       "q_en": "Riddle: I start work before you wake up. I cook lunch for the whole school. Who am I?",
       "q_zh": "猜猜我是誰：你還沒起床我就開始工作，我為全校煮午餐。",
       "options": [
-        { "en": "A crossing guard", "zh": "導護" },
-        { "en": "A school cook", "zh": "午餐廚工" },
-        { "en": "A bus driver", "zh": "公車司機" },
-        { "en": "A teacher", "zh": "老師" }
+        {
+          "en": "A crossing guard",
+          "zh": "導護"
+        },
+        {
+          "en": "A school cook",
+          "zh": "午餐廚工"
+        },
+        {
+          "en": "A bus driver",
+          "zh": "公車司機"
+        },
+        {
+          "en": "A teacher",
+          "zh": "老師"
+        }
       ],
       "answer": 1,
       "explain_en": "A school cook! Next time you eat lunch, think about whose hands made it.",
@@ -103,10 +181,22 @@
       "body_en": "Lai He studied at your school and became a doctor in Changhua. Poor patients who could not pay wrote him a note: “I will pay you later.”",
       "body_zh": "賴和是你們學校的校友，後來在彰化當醫生。付不出錢的窮人，會寫一張借據給他：「我以後再還。」",
       "keywords": [
-        { "en": "doctor", "zh": "醫生" },
-        { "en": "poor", "zh": "貧窮" },
-        { "en": "note", "zh": "借據" },
-        { "en": "dignity", "zh": "尊嚴" }
+        {
+          "en": "doctor",
+          "zh": "醫生"
+        },
+        {
+          "en": "poor",
+          "zh": "貧窮"
+        },
+        {
+          "en": "note",
+          "zh": "借據"
+        },
+        {
+          "en": "dignity",
+          "zh": "尊嚴"
+        }
       ],
       "img": "chungshan-poemtree-v.jpg"
     },
@@ -116,10 +206,22 @@
       "q_en": "At the end of every year, what did Dr. Lai do with those notes?",
       "q_zh": "每到年底，賴和醫師怎麼處理那些借據？",
       "options": [
-        { "en": "He put them on the wall", "zh": "貼在牆上" },
-        { "en": "He sent them to the police", "zh": "交給警察" },
-        { "en": "He burned them all", "zh": "全部燒掉" },
-        { "en": "He made people pay double", "zh": "要大家還兩倍" }
+        {
+          "en": "He put them on the wall",
+          "zh": "貼在牆上"
+        },
+        {
+          "en": "He sent them to the police",
+          "zh": "交給警察"
+        },
+        {
+          "en": "He burned them all",
+          "zh": "全部燒掉"
+        },
+        {
+          "en": "He made people pay double",
+          "zh": "要大家還兩倍"
+        }
       ],
       "answer": 2,
       "explain_en": "He burned them, so no poor family had to start the new year in debt. People called him “the Matsu of Changhua.”",
@@ -165,11 +267,26 @@
       "head_en": "Say Thank You in English",
       "head_zh": "用英文說謝謝",
       "items": [
-        { "en": "Thank you for ______.", "zh": "謝謝你 ______。" },
-        { "en": "I really appreciate your help.", "zh": "我真的很感謝你的幫忙。" },
-        { "en": "You made my day!", "zh": "你讓我今天好開心！" },
-        { "en": "We couldn't do it without you.", "zh": "沒有你，我們做不到。" },
-        { "en": "Thanks a million!", "zh": "萬分感謝！" }
+        {
+          "en": "Thank you for ______.",
+          "zh": "謝謝你 ______。"
+        },
+        {
+          "en": "I really appreciate your help.",
+          "zh": "我真的很感謝你的幫忙。"
+        },
+        {
+          "en": "You made my day!",
+          "zh": "你讓我今天好開心！"
+        },
+        {
+          "en": "We couldn't do it without you.",
+          "zh": "沒有你，我們做不到。"
+        },
+        {
+          "en": "Thanks a million!",
+          "zh": "萬分感謝！"
+        }
       ]
     },
     {
@@ -180,8 +297,14 @@
       "rule_en": "In 30 seconds, shout out as many community helpers in English as you can. I will count!",
       "rule_zh": "30 秒內，用英文喊出越多「社區裡幫助我們的人」越好，我來數！",
       "hints": [
-        "teacher 老師", "nurse 護理師", "cook 廚師", "driver 司機",
-        "cleaner 清潔人員", "librarian 圖書館員", "firefighter 消防員", "doctor 醫生"
+        "teacher 老師",
+        "nurse 護理師",
+        "cook 廚師",
+        "driver 司機",
+        "cleaner 清潔人員",
+        "librarian 圖書館員",
+        "firefighter 消防員",
+        "doctor 醫生"
       ],
       "target_en": "Class record to beat: 16",
       "target_zh": "要打破的班級紀錄：16 個"
@@ -202,22 +325,54 @@
       "head_en": "Write a Thank-You Card",
       "head_zh": "寫一張感謝卡",
       "lines": [
-        { "en": "Dear ______,", "zh": "親愛的 ______：" },
-        { "en": "Thank you for ______.", "zh": "謝謝你 ______。" },
-        { "en": "Because of you, ______.", "zh": "因為有你，______。" },
-        { "en": "From, ______", "zh": "______ 敬上" }
+        {
+          "en": "Dear ______,",
+          "zh": "親愛的 ______："
+        },
+        {
+          "en": "Thank you for ______.",
+          "zh": "謝謝你 ______。"
+        },
+        {
+          "en": "Because of you, ______.",
+          "zh": "因為有你，______。"
+        },
+        {
+          "en": "From, ______",
+          "zh": "______ 敬上"
+        }
       ],
       "tip_en": "Give it to them yourself — today!",
       "tip_zh": "今天就親手交給他！"
+    },
+    {
+      "type": "video",
+      "head_en": "Dom on Gratitude",
+      "head_zh": "Dom 談感恩",
+      "yt": "qQQhU5rkwXE",
+      "note_en": "Watch — then tell me: who will get YOUR card?",
+      "note_zh": "看完之後，告訴我：你的卡片要送給誰？"
     },
     {
       "type": "action",
       "head_en": "3 Things You Can Do Today",
       "head_zh": "今天就可以做的 3 件事",
       "items": [
-        { "num": "1", "en": "Say thank you to a helper — and use their name.", "zh": "向一位幫助你的人說謝謝——叫出他的名字。" },
-        { "num": "2", "en": "Give your card to the person you wrote it for.", "zh": "把卡片親手交給你寫給的那個人。" },
-        { "num": "3", "en": "Do one small thing for someone else, like Dr. Lai did.", "zh": "像賴和一樣，為別人做一件小事。" }
+        {
+          "num": "1",
+          "en": "Say thank you to a helper — and use their name.",
+          "zh": "向一位幫助你的人說謝謝——叫出他的名字。"
+        },
+        {
+          "num": "2",
+          "en": "Give your card to the person you wrote it for.",
+          "zh": "把卡片親手交給你寫給的那個人。"
+        },
+        {
+          "num": "3",
+          "en": "Do one small thing for someone else, like Dr. Lai did.",
+          "zh": "像賴和一樣，為別人做一件小事。"
+        }
       ]
     },
     {
@@ -227,10 +382,22 @@
       "q_en": "Riddle: When you feel sick or fall down at school, I take care of you. Who am I?",
       "q_zh": "猜猜我是誰：你在學校不舒服或跌倒時，我會照顧你。",
       "options": [
-        { "en": "A school nurse", "zh": "護理師" },
-        { "en": "A school cook", "zh": "午餐廚工" },
-        { "en": "A crossing guard", "zh": "導護" },
-        { "en": "A bus driver", "zh": "公車司機" }
+        {
+          "en": "A school nurse",
+          "zh": "護理師"
+        },
+        {
+          "en": "A school cook",
+          "zh": "午餐廚工"
+        },
+        {
+          "en": "A crossing guard",
+          "zh": "導護"
+        },
+        {
+          "en": "A bus driver",
+          "zh": "公車司機"
+        }
       ],
       "answer": 0,
       "explain_en": "The school nurse! Have you ever said thank you to them?",
@@ -243,10 +410,22 @@
       "q_en": "Dom's neighbors in California say “gracias” every day. Which language is it?",
       "q_zh": "Dom 在加州的鄰居每天都說「gracias」。那是哪一種語言？",
       "options": [
-        { "en": "French", "zh": "法文" },
-        { "en": "Spanish", "zh": "西班牙文" },
-        { "en": "German", "zh": "德文" },
-        { "en": "Japanese", "zh": "日文" }
+        {
+          "en": "French",
+          "zh": "法文"
+        },
+        {
+          "en": "Spanish",
+          "zh": "西班牙文"
+        },
+        {
+          "en": "German",
+          "zh": "德文"
+        },
+        {
+          "en": "Japanese",
+          "zh": "日文"
+        }
       ],
       "answer": 1,
       "explain_en": "Spanish! Merci is French, danke is German, and arigatō is Japanese.",
