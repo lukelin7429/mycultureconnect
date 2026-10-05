@@ -1,0 +1,327 @@
+<title>Dom School Visits 訪校行程表</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&display=swap">
+<style>
+/* Layout: one timetable column — a calendar tile on the left of every stop, the school and its links on the right.
+   Palette and type follow the visit pages on mycultureconnect.org, so this reads as the same family.
+   Every label is English first with Chinese beside it: Dom reads the English, the schools read the Chinese. */
+:root {
+  --bg:#fbf9f4; --card:#ffffff; --ink:#1b2321; --muted:#5f6d69; --line:#e8e3d8;
+  --key:#e2620f; --key2:#b8480a; --on-key:#ffffff; --soft:#fdf0e4; --past:#8b9692;
+  --sans:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  --zh:'PingFang TC', 'Apple LiGothic Medium', 'Microsoft JhengHei', sans-serif;
+  --num:'Barlow Condensed', 'Arial Narrow', 'Helvetica Neue', Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg:#151918; --card:#1e2423; --ink:#eef1ec; --muted:#9fada8; --line:#2f3836;
+  --key:#f08a45; --key2:#f6a871; --on-key:#1a120b; --soft:#33241a; --past:#7d8985; color-scheme:dark } }
+:root[data-theme="dark"] {
+  --bg:#151918; --card:#1e2423; --ink:#eef1ec; --muted:#9fada8; --line:#2f3836;
+  --key:#f08a45; --key2:#f6a871; --on-key:#1a120b; --soft:#33241a; --past:#7d8985; color-scheme:dark }
+
+* { box-sizing:border-box; }
+body { background:var(--bg); color:var(--ink); font:16px/1.55 var(--sans); padding-inline:18px; padding-block:28px 64px; }
+a { color:var(--key2); }
+.zh { font-family:var(--zh); }
+.wrap { max-width:760px; margin:0 auto; display:flex; flex-direction:column; gap:22px; }
+
+/* header */
+.hd { display:flex; flex-direction:column; gap:6px; border-bottom:3px solid var(--key); padding-bottom:18px; }
+.eyebrow { font:600 .82rem/1.2 var(--sans); letter-spacing:.14em; text-transform:uppercase; color:var(--key2); }
+h1 { margin:0; font:800 2rem/1.15 var(--sans); text-wrap:balance; display:flex; flex-wrap:wrap; align-items:baseline; gap:4px 14px; }
+h1 .zh { font-weight:600; font-size:1.3rem; color:var(--muted); }
+.lead { margin:4px 0 0; max-width:38em; }
+.lead .zh { display:block; color:var(--muted); font-size:.94rem; }
+.tools { display:flex; flex-wrap:wrap; gap:10px; align-items:center; }
+.search { flex:1 1 240px; min-width:0; }
+.search input { width:100%; font:inherit; font-family:var(--sans), var(--zh); color:var(--ink); background:var(--card);
+  border:1.5px solid var(--line); border-radius:999px; padding:9px 16px; }
+.search input::placeholder { color:var(--muted); }
+.quick { display:flex; flex-wrap:wrap; gap:8px; }
+.quick a { text-decoration:none; font-size:.9rem; font-weight:600; color:var(--ink); background:var(--card);
+  border:1.5px solid var(--line); border-radius:999px; padding:8px 14px; }
+.quick a .zh { font-weight:500; color:var(--muted); margin-left:4px; }
+.quick a:hover { border-color:var(--key); color:var(--key2); }
+
+/* sections */
+.secs { display:flex; flex-direction:column; gap:26px; }
+.sec { display:flex; flex-direction:column; gap:12px; }
+.sec-h { display:flex; flex-wrap:wrap; align-items:baseline; gap:4px 10px; margin:0; font:800 1.08rem/1.3 var(--sans); }
+.sec-h .zh { font-weight:600; color:var(--muted); }
+.sec-h small { font-weight:500; color:var(--muted); font-size:.86rem; }
+.list { list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:12px; }
+
+/* one stop */
+.stop { display:grid; grid-template-columns:88px minmax(0,1fr); gap:16px; background:var(--card);
+  border:1px solid var(--line); border-radius:14px; padding:16px; }
+.tile { align-self:start; display:flex; flex-direction:column; align-items:center; border:1.5px solid var(--line);
+  border-radius:10px; overflow:hidden; text-align:center; }
+.tile .mo { width:100%; font:700 .8rem/1 var(--sans); letter-spacing:.08em; text-transform:uppercase; padding:6px 0 5px;
+  background:var(--soft); color:var(--key2); }
+.tile .day { font:700 2.5rem/1 var(--num); padding:6px 0 2px; font-variant-numeric:tabular-nums; }
+.tile .wd { font-size:.74rem; color:var(--muted); padding-bottom:7px; line-height:1.25; }
+.stop.is-next .tile { border-color:var(--key); }
+.stop.is-next .tile .mo { background:var(--key); color:var(--on-key); }
+.stop.is-past .tile .day { color:var(--past); }
+.stop.is-past .tile .mo { background:transparent; color:var(--past); border-bottom:1px solid var(--line); }
+
+.body { min-width:0; display:flex; flex-direction:column; gap:10px; }
+.top { display:flex; flex-wrap:wrap; align-items:baseline; gap:2px 12px; }
+.top h3 { margin:0; font:800 1.28rem/1.25 var(--sans); }
+.top .zh { font-weight:600; font-size:1.08rem; color:var(--muted); }
+.meta { display:flex; flex-wrap:wrap; gap:6px 8px; align-items:center; font-size:.88rem; color:var(--muted); }
+.chip { border:1px solid var(--line); border-radius:999px; padding:1px 10px; font-size:.82rem; }
+.when { font:600 1.05rem/1 var(--num); letter-spacing:.02em; color:var(--ink); font-variant-numeric:tabular-nums; }
+.flag { background:var(--key); color:var(--on-key); border-radius:999px; padding:2px 11px; font-size:.8rem; font-weight:700; }
+
+.acts { display:flex; flex-wrap:wrap; gap:8px; }
+.btn { font:700 .94rem/1.1 var(--sans); border-radius:999px; padding:11px 18px; cursor:pointer; text-decoration:none;
+  border:1.5px solid var(--key); transition:transform .15s ease, background-color .15s ease; }
+.btn .zh { font-weight:600; margin-left:6px; opacity:.9; }
+.btn.go { background:var(--key); color:var(--on-key); }
+.btn.go:hover { background:var(--key2); border-color:var(--key2); }
+.btn.copy { background:transparent; color:var(--key2); }
+.btn.copy:hover { background:var(--soft); }
+.btn:active { transform:scale(.97); }
+.btn:focus-visible, .quick a:focus-visible, .search input:focus-visible, summary:focus-visible, .rows a:focus-visible {
+  outline:3px solid var(--key); outline-offset:2px; }
+.fallback { display:flex; flex-direction:column; gap:4px; font-size:.84rem; color:var(--muted); }
+.fallback input { width:100%; font:.86rem/1.4 ui-monospace, Menlo, monospace; color:var(--ink); background:var(--bg);
+  border:1px solid var(--line); border-radius:8px; padding:7px 10px; }
+
+/* the periods of the day */
+details { border-top:1px dashed var(--line); padding-top:8px; }
+summary { cursor:pointer; font-size:.88rem; font-weight:600; color:var(--muted); width:fit-content; border-radius:6px; }
+.rows { list-style:none; margin:8px 0 0; padding:0; display:flex; flex-direction:column; gap:9px; }
+.rows li { display:grid; grid-template-columns:104px minmax(0,1fr); gap:10px; align-items:baseline; font-size:.93rem; }
+.rows .t { font:600 1rem/1.3 var(--num); color:var(--key2); font-variant-numeric:tabular-nums; white-space:nowrap; }
+.rows .what { min-width:0; display:flex; flex-direction:column; gap:1px; }
+.rows .l1 { display:flex; flex-wrap:wrap; gap:2px 8px; align-items:baseline; font-weight:600; }
+.rows .l2 { color:var(--muted); font-size:.86rem; }
+.rows .cls { font-size:.78rem; font-weight:700; background:var(--soft); color:var(--key2); border-radius:999px; padding:0 9px; }
+.rows a { font-size:.84rem; font-weight:600; white-space:nowrap; }
+
+/* states */
+.state { border:1.5px dashed var(--line); border-radius:14px; padding:22px 18px; color:var(--muted); display:flex;
+  flex-direction:column; gap:6px; }
+.state b { color:var(--ink); font-size:1.02rem; }
+.foot { color:var(--muted); font-size:.84rem; margin:0; }
+.foot .zh { display:block; }
+
+@media (max-width:520px) {
+  h1 { font-size:1.6rem; }
+  .stop { grid-template-columns:66px minmax(0,1fr); gap:12px; padding:14px 12px; }
+  .tile .day { font-size:2rem; }
+  .rows li { grid-template-columns:1fr; gap:0; }
+  .acts .btn { flex:1 1 100%; text-align:center; white-space:nowrap; padding-inline:8px; font-size:.9rem; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .stop { animation:rise .45s cubic-bezier(.2,.7,.3,1) both; animation-delay:calc(var(--i, 0) * 55ms); }
+  @keyframes rise { from { opacity:0; transform:translateY(10px); } to { opacity:1; transform:none; } }
+  .stop:hover { border-color:var(--key); }
+}
+</style>
+
+<div class="wrap">
+  <header class="hd">
+    <div class="eyebrow">Dom Jones School Tour</div>
+    <h1>School Visit Schedules <span class="zh">訪校行程表</span></h1>
+    <p class="lead">Every school's run-of-day page, in one place. Open it, or copy the link to send by LINE.
+      <span class="zh">每一所學校的行程頁都收在這裡。打開行程頁，或複製連結貼到 LINE 傳給學校。</span></p>
+  </header>
+
+  <div class="tools">
+    <label class="search"><input id="q" type="search" placeholder="Find a school 找學校" autocomplete="off" aria-label="Find a school 找學校"></label>
+    <nav class="quick" aria-label="More 其他入口">
+      <a href="https://mycultureconnect.org/dom-school-tour.html#map" target="_blank" rel="noopener">Tour map<span class="zh">地圖</span> ↗</a>
+      <a href="https://mycultureconnect.org/slides/" target="_blank" rel="noopener">All slides<span class="zh">所有簡報</span> ↗</a>
+    </nav>
+  </div>
+
+  <main id="main" aria-live="polite"></main>
+
+  <p class="foot" id="foot"></p>
+</div>
+
+<script>
+/* The schedule lives in this list. To add a visit, add one entry and publish the page again. */
+var VISITS = /*VISITS*/[];
+
+(function () {
+  var main = document.getElementById('main');
+  var foot = document.getElementById('foot');
+  var q = document.getElementById('q');
+  var MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  var WD_EN = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+  var WD_ZH = ['日', '一', '二', '三', '四', '五', '六'];
+
+  function el(tag, cls, text) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = text;
+    return n;
+  }
+  /* English text followed by its Chinese, the Chinese in its own span so it takes the Chinese font */
+  function bi(tag, cls, en, zh) {
+    var n = el(tag, cls, en);
+    if (zh) { n.appendChild(document.createTextNode(' ')); n.appendChild(el('span', 'zh', zh)); }
+    return n;
+  }
+  function link(href, cls) {
+    var a = el('a', cls);
+    a.href = href; a.target = '_blank'; a.rel = 'noopener';
+    return a;
+  }
+  function todayISO() {
+    var d = new Date();
+    return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+  }
+  function daysUntil(iso) {
+    var a = iso.split('-').map(Number), t = todayISO().split('-').map(Number);
+    return Math.round((Date.UTC(a[0], a[1] - 1, a[2]) - Date.UTC(t[0], t[1] - 1, t[2])) / 86400000);
+  }
+  function countdown(n) {
+    return n === 0 ? ['Today', '今天'] : n === 1 ? ['Tomorrow', '明天'] : ['In ' + n + ' days', '還有 ' + n + ' 天'];
+  }
+  function plural(n) { return n + (n === 1 ? ' visit' : ' visits'); }
+
+  function state(en, zh, bodyEn, bodyZh) {
+    var box = el('div', 'state');
+    box.appendChild(bi('b', null, en, zh));
+    box.appendChild(el('span', null, bodyEn));
+    box.appendChild(el('span', 'zh', bodyZh));
+    main.replaceChildren(box);
+  }
+
+  function copyLink(btn, url, card) {
+    function label(en, zh) { btn.replaceChildren(document.createTextNode(en), el('span', 'zh', zh)); }
+    function done() {
+      label('Copied ✓', '已複製');
+      setTimeout(function () { label('Copy link', '複製連結'); }, 1600);
+    }
+    function fallback() {
+      var fb = card.querySelector('.fallback');
+      if (!fb) {
+        fb = el('div', 'fallback');
+        fb.appendChild(el('span', null, 'Copying is blocked here. The link is selected — copy it yourself:'));
+        fb.appendChild(el('span', 'zh', '這個畫面不能自動複製。連結已經選起來了，請直接複製：'));
+        var inp = el('input'); inp.readOnly = true; inp.value = url; inp.setAttribute('aria-label', 'Schedule link 行程頁連結');
+        fb.appendChild(inp);
+        card.querySelector('.acts').after(fb);
+      }
+      var i = fb.querySelector('input'); i.focus(); i.select();
+    }
+    try {
+      navigator.clipboard.writeText(url).then(done, fallback);
+    } catch (e) { fallback(); }
+  }
+
+  function stopCard(v, kind, idx) {
+    var li = el('li', 'stop is-' + kind);
+    li.style.setProperty('--i', idx);
+    var p = v.date.split('-').map(Number);
+    var dow = new Date(p[0], p[1] - 1, p[2]).getDay();
+
+    var tile = el('div', 'tile');
+    tile.appendChild(el('div', 'mo', MON[p[1] - 1]));
+    tile.appendChild(el('div', 'day', String(p[2])));
+    var wd = el('div', 'wd', WD_EN[dow]);
+    wd.appendChild(document.createElement('br'));
+    wd.appendChild(el('span', 'zh', '星期' + WD_ZH[dow]));
+    tile.appendChild(wd);
+    li.appendChild(tile);
+
+    var body = el('div', 'body');
+    var top = el('div', 'top');
+    top.appendChild(el('h3', null, v.school_en));
+    top.appendChild(el('span', 'zh', v.school));
+    body.appendChild(top);
+
+    var meta = el('div', 'meta');
+    var cd = countdown(daysUntil(v.date));
+    if (kind === 'next') meta.appendChild(bi('span', 'flag', 'Next · ' + cd[0], '下一場・' + cd[1]));
+    else if (kind === 'soon') meta.appendChild(bi('span', 'chip', cd[0], cd[1]));
+    meta.appendChild(el('span', 'when', v.span));
+    meta.appendChild(bi('span', 'chip', v.town_en, v.town));
+    body.appendChild(meta);
+
+    var acts = el('div', 'acts');
+    var go = link(v.url, 'btn go');
+    go.appendChild(document.createTextNode('Open schedule'));
+    go.appendChild(el('span', 'zh', '打開行程頁'));
+    go.appendChild(document.createTextNode(' ↗'));
+    acts.appendChild(go);
+    var cp = bi('button', 'btn copy', 'Copy link', '複製連結'); cp.type = 'button';
+    cp.addEventListener('click', function () { copyLink(cp, v.url, li); });
+    acts.appendChild(cp);
+    body.appendChild(acts);
+
+    var det = el('details');
+    det.open = kind !== 'past';
+    det.appendChild(bi('summary', null, 'Periods that day (' + v.items.length + ')', '當天的節次'));
+    var rows = el('ul', 'rows');
+    v.items.forEach(function (it) {
+      var row = el('li');
+      row.appendChild(el('span', 't', it.t));
+      var what = el('span', 'what');
+      var l1 = el('span', 'l1');
+      if (it.c) l1.appendChild(el('span', 'cls zh', it.c));
+      l1.appendChild(el('span', null, it.en));
+      if (it.deck) { var a = link(it.deck); a.appendChild(bi('span', null, 'Slides', '簡報')); a.appendChild(document.createTextNode(' ↗')); l1.appendChild(a); }
+      what.appendChild(l1);
+      what.appendChild(el('span', 'l2 zh', it.zh));
+      row.appendChild(what);
+      rows.appendChild(row);
+    });
+    det.appendChild(rows);
+    body.appendChild(det);
+    li.appendChild(body);
+    return li;
+  }
+
+  function section(en, zh, list, kindOf) {
+    var sec = el('section', 'sec');
+    var h = bi('h2', 'sec-h', en, zh);
+    h.appendChild(el('small', null, plural(list.length) + ' · ' + list.length + ' 場'));
+    sec.appendChild(h);
+    var ul = el('ul', 'list');
+    list.forEach(function (v, i) { ul.appendChild(stopCard(v, kindOf(v, i), i)); });
+    sec.appendChild(ul);
+    return sec;
+  }
+
+  function render() {
+    var term = q.value.trim().toLowerCase();
+    var all = VISITS.filter(function (v) {
+      if (!term) return true;
+      var p = v.date.split('-');
+      var hay = [v.school, v.school_en, v.town, v.town_en, v.date, Number(p[1]) + '/' + Number(p[2]), MON[Number(p[1]) - 1]]
+        .concat(v.items.map(function (i) { return i.en + ' ' + i.zh + ' ' + i.c; })).join(' ').toLowerCase();
+      return hay.indexOf(term) !== -1;
+    });
+    if (!VISITS.length) {
+      state('No visits yet', '還沒有行程', 'New visits appear here as soon as they are planned.', '新的訪校行程排定後，會出現在這裡。');
+      return;
+    }
+    if (!all.length) {
+      state('Nothing matches “' + q.value.trim() + '”', '找不到', 'Try a school name, a town or a date — or clear the search box.', '換個學校名稱、鄉鎮或日期試試看，或把搜尋框清空。');
+      return;
+    }
+    var today = todayISO();
+    var key = function (v) { return v.date + ' ' + v.span; };
+    var up = all.filter(function (v) { return v.date >= today; }).sort(function (a, b) { return key(a) < key(b) ? -1 : 1; });
+    var past = all.filter(function (v) { return v.date < today; }).sort(function (a, b) { return key(a) < key(b) ? 1 : -1; });
+    var nextDate = up.length ? up[0].date : null;
+
+    var box = el('div', 'secs');
+    if (up.length) box.appendChild(section('Coming up', '接下來', up, function (v) { return v.date === nextDate ? 'next' : 'soon'; }));
+    if (past.length) box.appendChild(section('Already visited', '已經去過', past, function () { return 'past'; }));
+    main.replaceChildren(box);
+  }
+
+  foot.replaceChildren(
+    document.createTextNode(plural(VISITS.length) + ' so far this school year. New ones are added here as they are planned.'),
+    el('span', 'zh', '這學年目前共 ' + VISITS.length + ' 場訪校，新的行程排定後會加進這一頁。'));
+  q.addEventListener('input', render);
+  render();
+})();
+</script>
