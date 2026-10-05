@@ -59,8 +59,8 @@ WORD = alpha.crop(LETTERS)
 #        size: (width of the lettering as a share of the tile, vertical stretch, extra weight)
 TUNING = {16: (0.90, 1.70, 0),
           32: (0.86, 1.55, 0),
-          48: (0.84, 1.40, 0),
-          192: (0.78, 1.30, 0)}
+          48: (0.86, 1.25, 0),
+          192: (0.82, 1.08, 0)}        # room to spare here: keep the letters' own proportions
 
 
 def mark(size):
