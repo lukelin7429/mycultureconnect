@@ -1,0 +1,480 @@
+{
+  "slug": "chengkung-elem-anti-bullying",
+  "school": "成功國小",
+  "school_en": "Chengkung Elementary",
+  "date": "2026.10.13",
+  "year": "115",
+  "classes": "Grades 5–6 五、六年級",
+  "title": "品格教育：反霸凌",
+  "title_en": "Anti-Bullying",
+  "sdg": "16",
+  "theme": "violet",
+  "footer": "Teacher Dom · Character Education: Anti-Bullying 品格教育：反霸凌",
+  "slides": [
+    {
+      "type": "title",
+      "eyebrow_en": "Character Education with Teacher Dom",
+      "eyebrow_zh": "跟 Dom 老師上品格教育",
+      "chips": [
+        {
+          "en": "What Is Bullying?",
+          "zh": "什麼是霸凌"
+        },
+        {
+          "en": "Joke or Bullying?",
+          "zh": "玩笑還是霸凌"
+        },
+        {
+          "en": "Be an Upstander",
+          "zh": "挺身而出"
+        },
+        {
+          "en": "Our Class Promise",
+          "zh": "我們班的約定"
+        }
+      ],
+      "strip": [
+        {
+          "num": "3",
+          "en": "signs that tell bullying from a joke",
+          "zh": "個訊號，分辨玩笑和霸凌"
+        },
+        {
+          "num": "5",
+          "en": "sentences you can say to help",
+          "zh": "句幫得上忙的話"
+        },
+        {
+          "num": "1",
+          "en": "friendly invitation can change everything",
+          "zh": "個友善的邀請，就能改變一切"
+        }
+      ],
+      "img": "chengkung-gate.jpg"
+    },
+    {
+      "type": "intro",
+      "head_en": "Hello! I am Dom.",
+      "head_zh": "哈囉！我是 Dom。",
+      "lines": [
+        {
+          "en": "I come from California, USA.",
+          "zh": "我從美國加州來。"
+        },
+        {
+          "en": "This is my third year of teaching in Changhua.",
+          "zh": "這是我在彰化教書的第三年。"
+        },
+        {
+          "en": "Today is not about grammar. It is about how we treat each other.",
+          "zh": "今天不談文法，要談我們怎麼對待彼此。"
+        }
+      ],
+      "ask_en": "Today: what bullying is, how to tell it from a joke, and what YOU can do.",
+      "ask_zh": "今天要談：什麼是霸凌、怎麼分辨玩笑和霸凌，還有「你」可以做什麼。"
+    },
+    {
+      "type": "map",
+      "head_en": "From California to Changhua",
+      "head_zh": "從加州到彰化",
+      "img": "map-usa-taiwan.svg",
+      "ask_en": "Kids in California and kids in Xizhou want the same thing: to feel safe at school.",
+      "ask_zh": "加州的孩子和溪州的孩子，想要的是同一件事：在學校感到安全。"
+    },
+    {
+      "type": "standup",
+      "head_en": "Stand Up If…",
+      "head_zh": "如果是你，就站起來！",
+      "prompts": [
+        {
+          "en": "Stand up if you have ever seen someone sitting alone at recess.",
+          "zh": "下課時看過有人自己一個人坐著的，站起來。"
+        },
+        {
+          "en": "Stay standing if you wanted to help but did not know how.",
+          "zh": "想幫忙、卻不知道怎麼做的，繼續站著。"
+        },
+        {
+          "en": "Stay standing if someone was once kind to YOU when you felt left out.",
+          "zh": "自己被冷落時，曾經有人對你好的，繼續站著。"
+        }
+      ],
+      "punch_en": "Wanting to help is the first step. Today we learn the next ones.",
+      "punch_zh": "想幫忙，就是第一步。今天我們來學接下來的幾步。"
+    },
+    {
+      "type": "topic",
+      "head_en": "What Is Bullying?",
+      "head_zh": "什麼是霸凌？",
+      "body_en": "Bullying is hurting someone on purpose, usually again and again, when they cannot easily make it stop. It can be hitting, mean words, leaving someone out, or messages online.",
+      "body_zh": "霸凌是故意傷害別人，而且通常一再發生，對方很難讓它停下來。它可以是動手、說難聽的話、排擠別人，或是網路上的訊息。",
+      "keywords": [
+        {
+          "en": "on purpose",
+          "zh": "故意"
+        },
+        {
+          "en": "again and again",
+          "zh": "一再發生"
+        },
+        {
+          "en": "left out",
+          "zh": "被排擠"
+        },
+        {
+          "en": "online",
+          "zh": "網路上"
+        }
+      ],
+      "img": "antibully-alone-v"
+    },
+    {
+      "type": "sort",
+      "head_en": "Friendly Joke, or Bullying?",
+      "head_zh": "友善的玩笑，還是霸凌？",
+      "a_en": "FRIENDLY",
+      "a_zh": "友善的玩笑",
+      "b_en": "BULLYING",
+      "b_zh": "霸凌",
+      "items": [
+        {
+          "icon": "😄",
+          "en": "Both of you are laughing",
+          "zh": "兩個人都在笑",
+          "a": "a"
+        },
+        {
+          "icon": "😢",
+          "en": "Only one person is laughing",
+          "zh": "只有一個人在笑",
+          "a": "b"
+        },
+        {
+          "icon": "✋",
+          "en": "They stop when you say “stop”",
+          "zh": "你說停，對方就停",
+          "a": "a"
+        },
+        {
+          "icon": "🔁",
+          "en": "It happens again every day",
+          "zh": "每天都再來一次",
+          "a": "b"
+        },
+        {
+          "icon": "🏷️",
+          "en": "A nickname you like",
+          "zh": "你喜歡的綽號",
+          "a": "a"
+        },
+        {
+          "icon": "🚫",
+          "en": "A nickname you hate",
+          "zh": "你討厭的綽號",
+          "a": "b"
+        },
+        {
+          "icon": "🙏",
+          "en": "They say sorry right away",
+          "zh": "對方馬上道歉",
+          "a": "a"
+        },
+        {
+          "icon": "📱",
+          "en": "Teasing in the group chat",
+          "zh": "在群組裡取笑你",
+          "a": "b"
+        }
+      ],
+      "note_en": "Ask three things: Is everyone laughing? Does it stop? Does it keep coming back?",
+      "note_zh": "問三件事：大家都在笑嗎？說停會停嗎？會不會一直再來？"
+    },
+    {
+      "type": "people",
+      "head_en": "If 30 students from around the world were one class…",
+      "head_zh": "如果把全世界的學生縮成一個 30 人的班…",
+      "total": 30,
+      "mark": 10,
+      "icon": "🧒",
+      "reveal_en": "About 1 in 3 was bullied at school in the past month.",
+      "reveal_zh": "大約每 3 個就有 1 個，上個月在學校被霸凌過。",
+      "ask_en": "Guess first: how many?",
+      "ask_zh": "先猜猜看：有幾個？"
+    },
+    {
+      "type": "quiz",
+      "n": 1,
+      "q_en": "Which of these is ALSO bullying?",
+      "q_zh": "下面哪一個「也」算霸凌？",
+      "options": [
+        {
+          "en": "Leaving someone out on purpose, every day",
+          "zh": "每天故意不讓某個人加入"
+        },
+        {
+          "en": "Losing a game",
+          "zh": "比賽輸了"
+        },
+        {
+          "en": "Disagreeing about a movie",
+          "zh": "對一部電影看法不同"
+        },
+        {
+          "en": "Forgetting a birthday",
+          "zh": "忘記別人的生日"
+        }
+      ],
+      "answer": 0,
+      "explain_en": "Bullying is not only hitting. Being left out on purpose, again and again, hurts just as much.",
+      "explain_zh": "霸凌不只是動手。一次又一次被故意排擠，一樣很痛。"
+    },
+    {
+      "type": "topic",
+      "head_en": "Bystander or Upstander?",
+      "head_zh": "旁觀者，還是挺身而出的人？",
+      "body_en": "A bystander sees bullying and does nothing. An upstander does something: stand next to the person, say “Stop, that's not OK,” or tell a teacher. You don't have to be brave alone.",
+      "body_zh": "旁觀者看到霸凌，什麼都不做。挺身而出的人會採取行動：站到對方身邊、說「停，這樣不對」，或去告訴老師。你不需要一個人勇敢。",
+      "keywords": [
+        {
+          "en": "bystander",
+          "zh": "旁觀者"
+        },
+        {
+          "en": "upstander",
+          "zh": "挺身而出的人"
+        },
+        {
+          "en": "brave",
+          "zh": "勇敢"
+        },
+        {
+          "en": "safe",
+          "zh": "安全"
+        }
+      ],
+      "img": "sdg16-upstander-v"
+    },
+    {
+      "type": "quiz",
+      "n": 2,
+      "q_en": "A classmate sits alone at every recess. What is the best FIRST step?",
+      "q_zh": "有個同學每節下課都自己坐著。最好的「第一步」是什麼？",
+      "options": [
+        {
+          "en": "Laugh with the others",
+          "zh": "跟著別人一起笑"
+        },
+        {
+          "en": "Pretend you did not see",
+          "zh": "假裝沒看到"
+        },
+        {
+          "en": "Sit nearby and say hello",
+          "zh": "坐到旁邊，打聲招呼"
+        },
+        {
+          "en": "Take a photo",
+          "zh": "拍照"
+        }
+      ],
+      "answer": 2,
+      "explain_en": "Sit nearby and listen. A calm, caring moment helps someone feel seen and safe.",
+      "explain_zh": "坐到旁邊，用心聽。一段平靜溫暖的陪伴，讓人感到被看見、很安心。",
+      "img": "antibully-invite-v"
+    },
+    {
+      "type": "truefalse",
+      "head_en": "True or False?",
+      "head_zh": "真的還假的？手比 ⭕ 或 ❌",
+      "items": [
+        {
+          "en": "If I only watch, I am not part of it.",
+          "zh": "我只是在旁邊看，就不關我的事。",
+          "answer": false,
+          "note_en": "Silence tells the bully it is OK.",
+          "note_zh": "沉默等於告訴霸凌的人：這樣沒關係。"
+        },
+        {
+          "en": "Telling a teacher is the same as tattling.",
+          "zh": "告訴老師就是打小報告。",
+          "answer": false,
+          "note_en": "Tattling gets someone in trouble. Reporting keeps someone safe.",
+          "note_zh": "打小報告是要讓人被罵；報告是要讓人安全。"
+        },
+        {
+          "en": "Mean messages online are real bullying.",
+          "zh": "網路上的難聽話，是真的霸凌。",
+          "answer": true,
+          "note_en": "Words on a screen hurt just as much — and they stay.",
+          "note_zh": "螢幕上的字一樣傷人，而且會一直留著。"
+        },
+        {
+          "en": "Someone who bullies can change.",
+          "zh": "霸凌別人的人，是可以改變的。",
+          "answer": true,
+          "note_en": "Kindness is a skill. Everyone can learn it.",
+          "note_zh": "善良是一種能力，每個人都學得會。"
+        }
+      ]
+    },
+    {
+      "type": "phrases",
+      "head_en": "What Can I Say?",
+      "head_zh": "我可以說什麼？",
+      "items": [
+        {
+          "en": "Are you OK?",
+          "zh": "你還好嗎？"
+        },
+        {
+          "en": "Stop. That's not OK.",
+          "zh": "停。這樣不對。"
+        },
+        {
+          "en": "Come and play with us.",
+          "zh": "來跟我們一起玩。"
+        },
+        {
+          "en": "Let's tell a teacher together.",
+          "zh": "我們一起去告訴老師。"
+        },
+        {
+          "en": "You belong here.",
+          "zh": "你屬於這裡。"
+        }
+      ]
+    },
+    {
+      "type": "game",
+      "icon": "⏱",
+      "head_en": "30-Second Challenge",
+      "head_zh": "30 秒挑戰",
+      "rule_en": "In 30 seconds, shout out as many KIND words as you can — in English. I will count!",
+      "rule_zh": "30 秒內，用英文喊出越多「善良的字」越好，我來數！",
+      "hints": [
+        "kind 善良",
+        "brave 勇敢",
+        "friend 朋友",
+        "help 幫忙",
+        "share 分享",
+        "listen 傾聽",
+        "welcome 歡迎",
+        "together 一起"
+      ],
+      "target_en": "Record to beat: 20",
+      "target_zh": "要打破的紀錄：20 個"
+    },
+    {
+      "type": "pairshare",
+      "head_en": "Turn and Tell Your Partner",
+      "head_zh": "轉過去，告訴你的同學",
+      "prompt_en": "Tell your partner about a time someone was kind to you when you needed it.",
+      "prompt_zh": "告訴你的同學：有一次你很需要的時候，有人對你很好。",
+      "sentence_en": "I felt ______ when ______ helped me.",
+      "sentence_zh": "______ 幫助我的時候，我覺得 ______。",
+      "time_en": "One minute each. Then I will ask two of you.",
+      "time_zh": "每人一分鐘。然後我會請兩位分享。"
+    },
+    {
+      "type": "card",
+      "head_en": "Our Class Promise",
+      "head_zh": "我們班的約定",
+      "lines": [
+        {
+          "en": "We notice when someone is left out.",
+          "zh": "有人被冷落，我們會注意到。"
+        },
+        {
+          "en": "We speak up kindly.",
+          "zh": "我們溫和地說出來。"
+        },
+        {
+          "en": "We invite — we do not exclude.",
+          "zh": "我們邀請，不排擠。"
+        },
+        {
+          "en": "We tell an adult when someone is hurt.",
+          "zh": "有人受傷，我們會告訴大人。"
+        }
+      ],
+      "tip_en": "Read it out loud together — then seal it with a high five!",
+      "tip_zh": "一起大聲唸出來——然後擊掌為約！"
+    },
+    {
+      "type": "video",
+      "head_en": "Dom on Anti-Bullying",
+      "head_zh": "Dom 談反霸凌",
+      "yt": "wr_tAh681ds",
+      "note_en": "Watch for the open hand — what does it mean?",
+      "note_zh": "注意看那隻伸出來的手——它代表什麼？"
+    },
+    {
+      "type": "action",
+      "head_en": "3 Things You Can Do This Week",
+      "head_zh": "這週你可以做的 3 件事",
+      "items": [
+        {
+          "num": "1",
+          "en": "Notice: look for someone who is alone.",
+          "zh": "注意：看看有沒有人落單。"
+        },
+        {
+          "num": "2",
+          "en": "Invite: ask them to join your game.",
+          "zh": "邀請：請他加入你們的遊戲。"
+        },
+        {
+          "num": "3",
+          "en": "Report: if someone is being hurt, tell a teacher.",
+          "zh": "報告：有人被傷害，就告訴老師。"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "n": 3,
+      "bonus": true,
+      "q_en": "In the USA, October is a special month. What is it for?",
+      "q_zh": "在美國，十月是一個特別的月份。它是什麼月？",
+      "options": [
+        {
+          "en": "Ice cream",
+          "zh": "冰淇淋月"
+        },
+        {
+          "en": "Bullying prevention",
+          "zh": "反霸凌月"
+        },
+        {
+          "en": "Basketball",
+          "zh": "籃球月"
+        },
+        {
+          "en": "Kites",
+          "zh": "風箏月"
+        }
+      ],
+      "answer": 1,
+      "explain_en": "October is National Bullying Prevention Month. On Unity Day — October 21 this year — students wear orange to say: everyone belongs.",
+      "explain_zh": "十月是美國的全國反霸凌月。在「團結日」（今年是 10 月 21 日），學生會穿橘色衣服，表示：每個人都屬於這裡。"
+    },
+    {
+      "type": "padlet",
+      "head_en": "Leave a Message for Dom",
+      "head_zh": "留言給 Dom",
+      "body_en": "Go to our School Tour page and find the Chengkung Elementary column. No sign-up, no login — tell me one kind thing you will do this week.",
+      "body_zh": "到我們網站的 School Tour 頁面，找到成功國小那一欄，免註冊、免登入，告訴我這週你會做的一件善良的事。",
+      "sentence_en": "This week I will ______.",
+      "sentence_zh": "這個星期我會 ______。",
+      "site": "mycultureconnect.org/dom-school-tour.html"
+    },
+    {
+      "type": "closing",
+      "big_en": "Be kind. Be brave.<br>Everyone belongs.",
+      "big_zh": "要善良、要勇敢。<br>每個人都屬於這裡。",
+      "sign_en": "See you after the break, Chengkung!",
+      "sign_zh": "成功國小，下一節見！",
+      "img": "antibully-closing"
+    }
+  ]
+}

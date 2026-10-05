@@ -666,6 +666,32 @@
     }
    ],
    "visit": "2026-10-13-taiping-elem"
+  },
+  {
+   "en": "Chengkung Elementary",
+   "zh": "成功國小",
+   "town_zh": "溪州鄉",
+   "town_en": "Xizhou",
+   "lat": 23.825975,
+   "lng": 120.544591,
+   "dates": [
+    "2026.10.13"
+   ],
+   "status": "upcoming",
+   "year": "115",
+   "decks": [
+    {
+     "slug": "chengkung-elem-anti-bullying",
+     "title": "品格教育：反霸凌",
+     "title_en": "Anti-Bullying"
+    },
+    {
+     "slug": "chengkung-elem-sdg13-climate",
+     "title": "SDG 13 氣候行動",
+     "title_en": "Climate Action"
+    }
+   ],
+   "visit": "2026-10-13-chengkung-elem"
   }
  ]
 }

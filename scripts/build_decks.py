@@ -770,6 +770,7 @@ def library_page(decks):
   .dc-cover[data-theme="teal"]   {{ --c-bg:#093a4a; --c-key:#16a394; --c-key2:#8fd8d0; --c-ink:#eaf6f8; }}
   .dc-cover[data-theme="violet"] {{ --c-bg:#f5f0fb; --c-key:#7a3fc4; --c-key2:#5b2a9b; --c-ink:#2c1a48; }}
   .dc-cover[data-theme="sky"]    {{ --c-bg:#eaf6fd; --c-key:#1183b8; --c-key2:#0a6590; --c-ink:#0f2f46; }}
+  .dc-cover[data-theme="leaf"]   {{ --c-bg:#eef6ec; --c-key:#2f7d3b; --c-key2:#1f5e2b; --c-ink:#17301c; }}
   .dc-photo {{ padding:0; background:#eee; }}
   .dc-photo img {{ width:100%; height:100%; object-fit:cover; display:block; }}
   .dc-sdg {{ align-self:flex-start; background:var(--c-key); color:#fff; border-radius:999px;

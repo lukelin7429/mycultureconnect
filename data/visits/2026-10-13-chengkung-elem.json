@@ -1,0 +1,37 @@
+{
+  "slug": "2026-10-13-chengkung-elem",
+  "school": "成功國小",
+  "school_en": "Chengkung Elementary",
+  "date": "2026.10.13",
+  "weekday_zh": "星期二",
+  "weekday_en": "Tuesday",
+  "items": [
+    {
+      "time": "13:30",
+      "label_en": "Arrive · Principal interview",
+      "label_zh": "抵達・校長採訪",
+      "detail_en": "In the principal's office with Principal Lin Mao-hsing. The topic: his philosophy of education, and why the school promotes international connections and English education.",
+      "detail_zh": "在校長室，採訪林茂興校長。題目：校長的教育理念，以及為何要推廣國際連結與英語教育。",
+      "note_en": "For the Voices in Education series.",
+      "note_zh": "收錄於「教育之聲」校長專訪系列。"
+    },
+    {
+      "time": "14:20 – 15:00",
+      "class": "Grades 5–6 五、六年級",
+      "label_en": "Character Education: Anti-Bullying",
+      "label_zh": "品格教育：反霸凌",
+      "deck": "chengkung-elem-anti-bullying"
+    },
+    {
+      "time": "15:10 – 15:50",
+      "class": "Grades 5–6 五、六年級",
+      "label_en": "SDG 13 Climate Action",
+      "label_zh": "SDG 13 氣候行動",
+      "deck": "chengkung-elem-sdg13-climate",
+      "note_en": "Same students as the class before — a different deck.",
+      "note_zh": "與上一節同一批學生、不同套簡報。"
+    }
+  ],
+  "footnote_en": "Two 40-minute classes with a 10-minute break between them.",
+  "footnote_zh": "兩節課各 40 分鐘，中間休息 10 分鐘。"
+}

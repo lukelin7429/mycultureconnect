@@ -80,6 +80,7 @@ body.deck-body { background:var(--page); min-height:100vh; font-family:var(--san
 .hs-canvas[data-theme="teal"]   { --hs-bg:#093a4a; --hs-ink:#eaf6f8; --hs-key:#16a394; --hs-key2:#0d7f73; --hs-soft:#0f4d60; --hs-band:#0d7f73; --hs-hi:#5fd4c4; }
 .hs-canvas[data-theme="violet"] { --hs-bg:#f5f0fb; --hs-ink:#2c1a48; --hs-key:#7a3fc4; --hs-key2:#5b2a9b; --hs-soft:#fff; --hs-band:#7a3fc4; }
 .hs-canvas[data-theme="sky"]    { --hs-bg:#eaf6fd; --hs-ink:#0f2f46; --hs-key:#1183b8; --hs-key2:#0a6590; --hs-soft:#fff; --hs-band:#1183b8; }
+.hs-canvas[data-theme="leaf"]   { --hs-bg:#eef6ec; --hs-ink:#17301c; --hs-key:#2f7d3b; --hs-key2:#1f5e2b; --hs-soft:#fff; --hs-band:#2f7d3b; }
 
 .hs { flex:1; padding:46px 60px 30px; display:flex; flex-direction:column; gap:18px; overflow:hidden; }
 .hs-foot { flex:0 0 46px; display:flex; align-items:center; justify-content:center;

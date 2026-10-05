@@ -1,0 +1,510 @@
+{
+  "slug": "chengkung-elem-sdg13-climate",
+  "school": "成功國小",
+  "school_en": "Chengkung Elementary",
+  "date": "2026.10.13",
+  "year": "115",
+  "classes": "Grades 5–6 五、六年級",
+  "title": "SDG 13 氣候行動",
+  "title_en": "Climate Action",
+  "sdg": "13",
+  "theme": "leaf",
+  "footer": "Teacher Dom · SDG #13 Climate Action 氣候行動",
+  "slides": [
+    {
+      "type": "title",
+      "eyebrow_en": "A school in the middle of the fields",
+      "eyebrow_zh": "田中央的學校",
+      "chips": [
+        {
+          "en": "Weather or Climate?",
+          "zh": "天氣還是氣候"
+        },
+        {
+          "en": "The Earth's Blanket",
+          "zh": "地球的被子"
+        },
+        {
+          "en": "Heats or Helps?",
+          "zh": "加熱還是幫忙"
+        },
+        {
+          "en": "Our Actions",
+          "zh": "行動方案"
+        }
+      ],
+      "strip": [
+        {
+          "num": "186 km",
+          "en": "the Zhuoshui River beside you, Taiwan's longest",
+          "zh": "你們旁邊的濁水溪，全台最長"
+        },
+        {
+          "num": "13",
+          "en": "Goal 13: Climate Action",
+          "zh": "目標 13：氣候行動"
+        },
+        {
+          "num": "1",
+          "en": "planet that we all share",
+          "zh": "個我們共同的地球"
+        }
+      ],
+      "img": "chengkung-campus.jpg"
+    },
+    {
+      "type": "intro",
+      "head_en": "Hello again!",
+      "head_zh": "又見面了！",
+      "lines": [
+        {
+          "en": "Last class, we looked after each other.",
+          "zh": "上一節，我們學習照顧彼此。"
+        },
+        {
+          "en": "This class, we look after our planet.",
+          "zh": "這一節，我們來照顧我們的地球。"
+        },
+        {
+          "en": "The climate is changing — in California, and here in Changhua.",
+          "zh": "氣候正在改變——在加州是這樣，在彰化也是。"
+        }
+      ],
+      "ask_en": "Today: weather and climate, why the Earth is heating up, and what one small school can do.",
+      "ask_zh": "今天要談：天氣與氣候、地球為什麼變熱，還有一所小學校能做什麼。"
+    },
+    {
+      "type": "standup",
+      "head_en": "Stand Up If…",
+      "head_zh": "如果是你，就站起來！",
+      "prompts": [
+        {
+          "en": "Stand up if you felt too hot in class this summer.",
+          "zh": "今年夏天在教室覺得太熱的，站起來。"
+        },
+        {
+          "en": "Stay standing if you used a fan or AC last night.",
+          "zh": "昨晚有開電風扇或冷氣的，繼續站著。"
+        },
+        {
+          "en": "Stay standing if you walked or biked somewhere this week.",
+          "zh": "這星期有走路或騎腳踏車出門的，繼續站著。"
+        }
+      ],
+      "punch_en": "Everyone feels the weather. Today: something bigger — the climate.",
+      "punch_zh": "每個人都感覺得到天氣。今天要談更大的事：氣候。"
+    },
+    {
+      "type": "sort",
+      "head_en": "Weather or Climate?",
+      "head_zh": "天氣，還是氣候？",
+      "a_en": "WEATHER",
+      "a_zh": "天氣",
+      "b_en": "CLIMATE",
+      "b_zh": "氣候",
+      "items": [
+        {
+          "icon": "🌧️",
+          "en": "It is raining today",
+          "zh": "今天在下雨",
+          "a": "a"
+        },
+        {
+          "icon": "☀️",
+          "en": "Taiwan's summers are getting longer",
+          "zh": "台灣的夏天越來越長",
+          "a": "b"
+        },
+        {
+          "icon": "💨",
+          "en": "Tomorrow will be windy",
+          "zh": "明天風會很大",
+          "a": "a"
+        },
+        {
+          "icon": "🌍",
+          "en": "The Earth is warmer than 100 years ago",
+          "zh": "地球比一百年前還熱",
+          "a": "b"
+        },
+        {
+          "icon": "🌀",
+          "en": "A typhoon is coming this weekend",
+          "zh": "這個週末有颱風要來",
+          "a": "a"
+        },
+        {
+          "icon": "🧣",
+          "en": "Winters are shorter than Grandpa's",
+          "zh": "冬天比阿公小時候短",
+          "a": "b"
+        },
+        {
+          "icon": "🥵",
+          "en": "It was hot at recess",
+          "zh": "下課的時候很熱",
+          "a": "a"
+        },
+        {
+          "icon": "🌾",
+          "en": "Xizhou is warm most of the year",
+          "zh": "溪州一年到頭大多很溫暖",
+          "a": "b"
+        }
+      ],
+      "note_en": "Weather is today. Climate is many, many years.",
+      "note_zh": "天氣是今天的事；氣候是很多、很多年的事。"
+    },
+    {
+      "type": "topic",
+      "head_en": "The Earth Wears a Blanket",
+      "head_zh": "地球蓋著一條被子",
+      "body_en": "Gases in the air hold the sun's heat like a blanket — without it we would freeze. But burning oil, gas and coal makes the blanket thicker, and the Earth gets too warm.",
+      "body_zh": "空氣裡的氣體像被子一樣留住太陽的熱——沒有它我們會凍僵。但燒石油、天然氣和煤，讓被子越來越厚，地球就太熱了。",
+      "keywords": [
+        {
+          "en": "greenhouse gas",
+          "zh": "溫室氣體"
+        },
+        {
+          "en": "carbon dioxide",
+          "zh": "二氧化碳"
+        },
+        {
+          "en": "fuel",
+          "zh": "燃料"
+        },
+        {
+          "en": "heat",
+          "zh": "熱"
+        }
+      ],
+      "img": "sdg13-blanket-v"
+    },
+    {
+      "type": "bigstat",
+      "num": "1.6°C",
+      "head_en": "warmer: Taiwan today, compared with 110 years ago",
+      "head_zh": "台灣現在比 110 年前熱了 1.6°C",
+      "body_en": "It sounds small. But think of your body: 37°C is fine — 38.6°C is a fever.",
+      "body_zh": "聽起來很少。但想想你的身體：37°C 很正常，38.6°C 就是發燒了。",
+      "ask_en": "What happens to rice, fruit and fish when the whole island has a fever?",
+      "ask_zh": "整座島都發燒的時候，稻米、水果和魚會怎麼樣？"
+    },
+    {
+      "type": "quiz",
+      "n": 1,
+      "q_en": "How long does summer last in Taiwan today?",
+      "q_zh": "現在台灣的夏天有多長？",
+      "options": [
+        {
+          "en": "About 2 months",
+          "zh": "大約 2 個月"
+        },
+        {
+          "en": "About 3 months",
+          "zh": "大約 3 個月"
+        },
+        {
+          "en": "4 to 5 months",
+          "zh": "4 到 5 個月"
+        }
+      ],
+      "answer": 2,
+      "explain_en": "120 to 150 days — and winter has shrunk to only about 20 to 40 days.",
+      "explain_zh": "夏天長達 120 到 150 天，冬天則縮短到只剩大約 20 到 40 天。"
+    },
+    {
+      "type": "photo",
+      "head_en": "Your School Already Makes Clean Power",
+      "head_zh": "你們學校已經在發乾淨的電",
+      "img": "chengkung-aerial.jpg",
+      "icon": "☀️",
+      "ask_en": "Look at your school from the sky: those blue roofs are solar panels. They turn sunshine into electricity — with no smoke at all.",
+      "ask_zh": "從天空看你們學校：那些藍色的屋頂是太陽能板，把陽光變成電——完全不冒煙。"
+    },
+    {
+      "type": "topic",
+      "head_en": "Xizhou Grows Trees for Taiwan",
+      "head_zh": "溪州，為台灣種樹",
+      "body_en": "Taiwan's largest landscape-tree nursery park is right here in Xizhou. Trees take in carbon dioxide, give shade and cool the air. Your township is already helping the whole island.",
+      "body_zh": "全台灣面積最大的景觀苗木專區，就在溪州。樹會吸收二氧化碳、帶來樹蔭、讓空氣變涼。你們的家鄉，已經在幫整座島的忙。",
+      "keywords": [
+        {
+          "en": "nursery",
+          "zh": "苗圃"
+        },
+        {
+          "en": "seedling",
+          "zh": "樹苗"
+        },
+        {
+          "en": "shade",
+          "zh": "樹蔭"
+        },
+        {
+          "en": "cool",
+          "zh": "涼爽"
+        }
+      ],
+      "img": "sdg13-bike-v"
+    },
+    {
+      "type": "sort",
+      "head_en": "Heats or Helps?",
+      "head_zh": "讓地球更熱，還是幫上忙？",
+      "a_en": "HELPS",
+      "a_zh": "幫上忙",
+      "b_en": "HEATS UP",
+      "b_zh": "更熱",
+      "items": [
+        {
+          "icon": "💡",
+          "en": "Lights on in an empty room",
+          "zh": "沒人的教室開著燈",
+          "a": "b"
+        },
+        {
+          "icon": "🚶",
+          "en": "Walking to school",
+          "zh": "走路上學",
+          "a": "a"
+        },
+        {
+          "icon": "🌳",
+          "en": "Planting a tree",
+          "zh": "種一棵樹",
+          "a": "a"
+        },
+        {
+          "icon": "🍱",
+          "en": "Throwing away good food",
+          "zh": "丟掉還能吃的食物",
+          "a": "b"
+        },
+        {
+          "icon": "🚗",
+          "en": "A car waiting with its engine on",
+          "zh": "車子停著卻不熄火",
+          "a": "b"
+        },
+        {
+          "icon": "🌧️",
+          "en": "Saving rainwater for the garden",
+          "zh": "收集雨水澆花",
+          "a": "a"
+        },
+        {
+          "icon": "❄️",
+          "en": "Air conditioner on, windows open",
+          "zh": "開冷氣又開窗",
+          "a": "b"
+        },
+        {
+          "icon": "📄",
+          "en": "Using both sides of the paper",
+          "zh": "紙的兩面都用",
+          "a": "a"
+        }
+      ],
+      "note_en": "Thumbs up for HELPS, thumbs down for HEATS UP!",
+      "note_zh": "幫上忙比讚，更熱比倒讚！"
+    },
+    {
+      "type": "truefalse",
+      "head_en": "True or False?",
+      "head_zh": "真的還假的？手比 ⭕ 或 ❌",
+      "items": [
+        {
+          "en": "Climate change is only a problem for polar bears.",
+          "zh": "氣候變遷只是北極熊的問題。",
+          "answer": false,
+          "note_en": "It changes rain, heat and harvests right here in Changhua.",
+          "note_zh": "它也改變彰化這裡的雨水、氣溫和收成。"
+        },
+        {
+          "en": "Trees help cool the air.",
+          "zh": "樹可以讓空氣變涼。",
+          "answer": true,
+          "note_en": "Shade cools the ground, and leaves take in carbon dioxide.",
+          "note_zh": "樹蔭讓地面降溫，葉子還會吸收二氧化碳。"
+        },
+        {
+          "en": "One small action is useless.",
+          "zh": "一個小小的行動沒有用。",
+          "answer": false,
+          "note_en": "Small actions become powerful when we work together.",
+          "note_zh": "當我們一起努力，小小的行動也會很有力量。"
+        },
+        {
+          "en": "Walking a short trip saves energy.",
+          "zh": "短短的路用走的，可以節省能源。",
+          "answer": true,
+          "note_en": "No fuel burned — and it keeps your body active.",
+          "note_zh": "不用燒燃料，還能活動身體。"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "n": 2,
+      "q_en": "The classroom is full of sunshine, but every light is on. What should you do?",
+      "q_zh": "教室裡陽光很亮，燈卻全部開著。你應該怎麼做？",
+      "options": [
+        {
+          "en": "Leave them on",
+          "zh": "讓它們開著"
+        },
+        {
+          "en": "Turn them off and use the daylight",
+          "zh": "把燈關掉，用自然光"
+        },
+        {
+          "en": "Close the curtains",
+          "zh": "把窗簾拉上"
+        },
+        {
+          "en": "Turn on the fans, too",
+          "zh": "把電風扇也打開"
+        }
+      ],
+      "answer": 1,
+      "explain_en": "Turn off unused lights and use natural daylight whenever you can.",
+      "explain_zh": "隨手關掉沒在用的燈，盡量利用自然光。"
+    },
+    {
+      "type": "game",
+      "icon": "⏱",
+      "head_en": "30-Second Challenge",
+      "head_zh": "30 秒挑戰",
+      "rule_en": "In 30 seconds, shout out as many things that use electricity as you can — in English. I will count!",
+      "rule_zh": "30 秒內，用英文喊出越多「會用電的東西」越好，我來數！",
+      "hints": [
+        "light 燈",
+        "fan 電風扇",
+        "air conditioner 冷氣",
+        "TV 電視",
+        "computer 電腦",
+        "fridge 冰箱",
+        "phone 手機",
+        "tablet 平板"
+      ],
+      "target_en": "Record to beat: 20",
+      "target_zh": "要打破的紀錄：20 個"
+    },
+    {
+      "type": "pairshare",
+      "head_en": "Turn and Tell Your Partner",
+      "head_zh": "轉過去，告訴你的同學",
+      "prompt_en": "What is one thing our school could do to be cooler and greener?",
+      "prompt_zh": "我們學校可以做哪一件事，變得更涼快、更綠？",
+      "sentence_en": "Our school could ______ to help the climate.",
+      "sentence_zh": "我們學校可以 ______ 來幫助氣候。",
+      "time_en": "One minute each. Then I will ask two of you.",
+      "time_zh": "每人一分鐘。然後我會請兩位分享。"
+    },
+    {
+      "type": "video",
+      "head_en": "Dom on Climate Action",
+      "head_zh": "Dom 談氣候行動",
+      "yt": "-eo8LoJJ7U4",
+      "note_en": "Watch and count: how many climate actions can you find?",
+      "note_zh": "邊看邊數：影片裡有幾個氣候行動？"
+    },
+    {
+      "type": "action",
+      "head_en": "3 Things You Can Do This Week",
+      "head_zh": "這週你可以做的 3 件事",
+      "items": [
+        {
+          "num": "1",
+          "en": "Turn off lights you are not using — use the daylight.",
+          "zh": "關掉沒在用的燈——多用自然光。"
+        },
+        {
+          "num": "2",
+          "en": "Walk or ride a bike for short trips.",
+          "zh": "短短的路，用走的或騎腳踏車。"
+        },
+        {
+          "num": "3",
+          "en": "Water a tree — with rainwater if you can.",
+          "zh": "幫一棵樹澆水——可以的話，用雨水。"
+        }
+      ]
+    },
+    {
+      "type": "phrases",
+      "head_en": "Say It With Me",
+      "head_zh": "跟著我唸",
+      "items": [
+        {
+          "en": "Climate action.",
+          "zh": "氣候行動。"
+        },
+        {
+          "en": "Weather is today. Climate is many years.",
+          "zh": "天氣是今天；氣候是很多年。"
+        },
+        {
+          "en": "Turn off the lights.",
+          "zh": "把燈關掉。"
+        },
+        {
+          "en": "Small actions, big change.",
+          "zh": "小行動，大改變。"
+        },
+        {
+          "en": "One shared planet.",
+          "zh": "一個共同的地球。"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "n": 3,
+      "bonus": true,
+      "q_en": "In California, hotter and drier summers have made one danger much worse. Which one?",
+      "q_zh": "在加州，夏天越來越熱、越來越乾，讓一種災害嚴重很多。是哪一種？",
+      "options": [
+        {
+          "en": "Snowstorms",
+          "zh": "暴風雪"
+        },
+        {
+          "en": "Wildfires",
+          "zh": "森林大火"
+        },
+        {
+          "en": "Volcanoes",
+          "zh": "火山"
+        },
+        {
+          "en": "Tsunamis",
+          "zh": "海嘯"
+        }
+      ],
+      "answer": 1,
+      "explain_en": "Wildfires. Dry forests burn fast. The climate is a problem for Dom's home and for yours — so we solve it together.",
+      "explain_zh": "森林大火。乾燥的森林燒得很快。氣候是 Dom 家鄉的問題，也是你們家鄉的問題——所以要一起解決。"
+    },
+    {
+      "type": "padlet",
+      "head_en": "Leave a Message for Dom",
+      "head_zh": "留言給 Dom",
+      "body_en": "Go to our School Tour page and find the Chengkung Elementary column. No sign-up, no login — tell me one climate action you will take.",
+      "body_zh": "到我們網站的 School Tour 頁面，找到成功國小那一欄，免註冊、免登入，告訴我你會做的一個氣候行動。",
+      "sentence_en": "I will ______ for the climate.",
+      "sentence_zh": "我會為了氣候 ______。",
+      "site": "mycultureconnect.org/dom-school-tour.html"
+    },
+    {
+      "type": "closing",
+      "big_en": "Small actions become powerful<br>when we work together.",
+      "big_zh": "當我們一起努力，<br>小小的行動也會很有力量。",
+      "sign_en": "Thank you, Chengkung Elementary!",
+      "sign_zh": "謝謝成功國小！",
+      "img": "sdg13-closing"
+    }
+  ]
+}
