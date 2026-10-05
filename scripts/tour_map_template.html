@@ -218,6 +218,32 @@
   var pins = [].slice.call(sec.querySelectorAll('.tm-pin'));
   var rows = [].slice.call(sec.querySelectorAll('.tm-row'));
   var list = sec.querySelector('.tm-list');
+  /* A visit stops being "upcoming" the day after it happens. This page is built
+     ahead of time and may not be rebuilt for weeks, so the flip happens here,
+     on the day someone opens it. */
+  (function () {
+    var d = new Date();
+    var today = d.getFullYear() + '-' + ('0' + (d.getMonth() + 1)).slice(-2) + '-' + ('0' + d.getDate()).slice(-2);
+    pins.concat(rows).forEach(function (el) {
+      if (!el.dataset.date || el.dataset.date >= today) return;
+      ['tm-pin', 'tm-row'].forEach(function (k) {
+        if (el.classList.contains(k + '--upcoming')) {
+          el.classList.remove(k + '--upcoming');
+          el.classList.add(k + '--' + el.dataset.year);
+        }
+      });
+      var bits = el.querySelector('.tm-c-bits');
+      if (bits) {
+        bits.textContent = bits.textContent.replace(/^⏳ Upcoming 即將前往(?: · )?/, '');
+        if (!bits.textContent) bits.remove();
+      }
+    });
+    if (!sec.querySelector('.tm-pin--upcoming')) {
+      var key = sec.querySelector('.tm-legend-soon');
+      if (key) key.hidden = true;
+    }
+  })();
+
   var byIndex = {};
   pins.forEach(function (p) { byIndex[p.dataset.i] = { pin: p }; });
   rows.forEach(function (r) { (byIndex[r.dataset.i] = byIndex[r.dataset.i] || {}).row = r; });

@@ -14,6 +14,7 @@ nudged apart by a relaxation pass and keep a hairline leader back to the true
 spot.  Nothing here is hand-placed.
 """
 import json, math, html, os, re
+import datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PAGE = os.path.join(ROOT, 'dom-school-tour.html')
@@ -141,6 +142,24 @@ def esc(s):
     return html.escape(s or '', quote=True)
 
 
+TODAY = datetime.date.today().isoformat()
+
+
+def last_date(s):
+    """Latest visit as YYYY-MM-DD, or '' for the older entries that carry no date."""
+    return max((d.replace('.', '-') for d in s.get('dates') or []), default='')
+
+
+def upcoming(s):
+    """A visit is upcoming through the day itself, and that comes from its date.
+    It used to be a hand-typed status; nobody flips a label the morning after a
+    visit, so Nanzhen and Nanzhou sat on the map as 'upcoming' for two weeks.
+    The page re-checks the date when it is opened (see the template script),
+    because the site is not rebuilt every day."""
+    d = last_date(s)
+    return bool(d) and d >= TODAY
+
+
 def build():
     geo, schools = load()
     p = geo['projection']
@@ -183,7 +202,8 @@ def build():
         left, top = px / W * 100, py / H * 100
         side = ' is-l' if left < 26 else (' is-r' if left > 74 else '')
         below = ' is-below' if top < 17 else ''
-        kind = 'upcoming' if s.get('status') == 'upcoming' else s['year']
+        kind = 'upcoming' if upcoming(s) else s['year']
+        dated = f' data-date="{last_date(s)}"' if last_date(s) else ''
         when = ' · '.join(s['dates']) if s['dates'] else s.get('note_en', '')
         note = (f'{s["note_en"]} {s["note_zh"]}'
                 if s.get('note_en') and s['dates'] else '')
@@ -199,14 +219,14 @@ def build():
             bits.append('🎙 Principal 校長專訪')
         if s.get('news'):
             bits.append('📹 Campus news 校園新聞')
-        if s.get('status') == 'upcoming':
+        if upcoming(s):
             bits.insert(0, '⏳ Upcoming 即將前往')
 
         aria = f"{s['en']} {s['zh']}, {s['town_en']} {s['town_zh']}" + (f", {when}" if when else '')
         pins.append(
             f'<button class="tm-pin tm-pin--{kind}{side}{below}" type="button" '
             f'style="--x:{left:.3f}%;--y:{top:.3f}%;--i:{i}" '
-            f'data-year="{s["year"]}" data-i="{i}" aria-label="{esc(aria)}">'
+            f'data-year="{s["year"]}" data-i="{i}"{dated} aria-label="{esc(aria)}">'
             f'<span class="tm-dot" aria-hidden="true"></span>'
             f'<span class="tm-card" aria-hidden="true">'
             f'<span class="tm-c-en">{esc(s["en"])}</span>'
@@ -234,7 +254,7 @@ def build():
             links.append(f'<button class="tm-jump" type="button" data-school="{esc(s["en"])}">📹 Video</button>')
 
         rows.append(
-            f'<li class="tm-row tm-row--{kind}" data-year="{s["year"]}" data-i="{i}">'
+            f'<li class="tm-row tm-row--{kind}" data-year="{s["year"]}" data-i="{i}"{dated}>'
             f'<button class="tm-row-btn" type="button">'
             f'<span class="tm-row-dot" aria-hidden="true"></span>'
             f'<span class="tm-row-main">'
@@ -264,8 +284,8 @@ def build():
              ('earlier', 'Earlier 更早的到訪')] if counts[y]]
     legend = ''.join(f'<span><i class="tm-key" style="--k:{c}"></i>{esc(t)}</span>'
                      for c, t in keys)
-    if any(s.get('status') == 'upcoming' for s in schools):
-        legend += '<span><i class="tm-key tm-key--soon"></i>Upcoming 即將前往</span>'
+    if any(upcoming(s) for s in schools):
+        legend += '<span class="tm-legend-soon"><i class="tm-key tm-key--soon"></i>Upcoming 即將前往</span>'
     legend += '<span><i class="tm-key tm-key--land"></i>Township visited 已到訪的鄉鎮市</span>'
 
     stats = [(len(schools), 'Campuses', '所學校'),

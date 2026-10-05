@@ -10,7 +10,6 @@
    "dates": [
     "2026.09.15"
    ],
-   "status": "visited",
    "year": "115",
    "decks": [
     {
@@ -36,7 +35,6 @@
    "dates": [
     "2026.09.22"
    ],
-   "status": "upcoming",
    "year": "115",
    "decks": [
     {
@@ -57,7 +55,6 @@
    "dates": [
     "2026.09.22"
    ],
-   "status": "upcoming",
    "year": "115",
    "decks": [
     {
@@ -83,7 +80,6 @@
    "dates": [
     "2026.10.06"
    ],
-   "status": "upcoming",
    "year": "115",
    "decks": [
     {
@@ -109,7 +105,6 @@
    "dates": [
     "2026.10.06"
    ],
-   "status": "upcoming",
    "year": "115",
    "decks": [
     {
@@ -135,7 +130,6 @@
    "dates": [
     "2025.12.16"
    ],
-   "status": "visited",
    "year": "114",
    "note_en": "International Exchange",
    "note_zh": "國際交流",
@@ -151,7 +145,6 @@
    "dates": [
     "2025.12.16"
    ],
-   "status": "visited",
    "year": "114",
    "note_en": "School Visit",
    "note_zh": "到校參訪",
@@ -167,7 +160,6 @@
    "dates": [
     "2025.12.17"
    ],
-   "status": "visited",
    "year": "114",
    "note_en": "International Exchange",
    "note_zh": "國際交流",
@@ -183,7 +175,6 @@
    "dates": [
     "2026.02.03"
    ],
-   "status": "visited",
    "year": "114",
    "note_en": "Small Hands, Big Impact",
    "note_zh": "小手大影響",
@@ -199,7 +190,6 @@
    "dates": [
     "2026.03.24"
    ],
-   "status": "visited",
    "year": "114",
    "news": "19rekCsqAjk",
    "decks": [
@@ -220,7 +210,6 @@
    "dates": [
     "2026.03.24"
    ],
-   "status": "visited",
    "year": "114",
    "news": "CRdHUTZHl_8",
    "voices": "LArd9gafybg",
@@ -247,7 +236,6 @@
    "dates": [
     "2026.03.31"
    ],
-   "status": "visited",
    "year": "114",
    "news": "3a2LlsTmLIU",
    "voices": "as28NTe49ic",
@@ -274,7 +262,6 @@
    "dates": [
     "2026.03.31"
    ],
-   "status": "visited",
    "year": "114",
    "news": "0CPDATRfMJ8",
    "voices": "VSKKtyrP8JI",
@@ -296,7 +283,6 @@
    "dates": [
     "2026.04.07"
    ],
-   "status": "visited",
    "year": "114",
    "news": "hMMbheEwZkI",
    "voices": "7om_ARwwK7c"
@@ -311,7 +297,6 @@
    "dates": [
     "2026.04.07"
    ],
-   "status": "visited",
    "year": "114",
    "news": "kYcVaoMnYBo",
    "voices": "V75GdrMV9OQ",
@@ -333,7 +318,6 @@
    "dates": [
     "2026.04.14"
    ],
-   "status": "visited",
    "year": "114",
    "news": "UHlL9GpBeco"
   },
@@ -347,7 +331,6 @@
    "dates": [
     "2026.04.14"
    ],
-   "status": "visited",
    "year": "114",
    "news": "ugPeclZYyQM",
    "voices": "dlZvvwyHbfo",
@@ -369,7 +352,6 @@
    "dates": [
     "2026.04.21"
    ],
-   "status": "visited",
    "year": "114",
    "news": "dH0MQxB4x8o",
    "voices": "u9BiSr6LefI",
@@ -391,7 +373,6 @@
    "dates": [
     "2026.04.21"
    ],
-   "status": "visited",
    "year": "114",
    "news": "ul5CBsV0QkA",
    "voices": "_SX6aqAFMoY",
@@ -413,7 +394,6 @@
    "dates": [
     "2026.04.28"
    ],
-   "status": "visited",
    "year": "114",
    "news": "1CaTsQJHkpk",
    "voices": "_wa-MmwTIWM",
@@ -435,7 +415,6 @@
    "dates": [
     "2026.05.05"
    ],
-   "status": "visited",
    "year": "114",
    "news": "2flGVrz2fDE",
    "voices": "AmXnzSQCirc",
@@ -457,7 +436,6 @@
    "dates": [
     "2026.05.05"
    ],
-   "status": "visited",
    "year": "114",
    "news": "FY2SjU8L04w",
    "voices": "NW-Ld9NzOsA",
@@ -479,7 +457,6 @@
    "dates": [
     "2026.05.12"
    ],
-   "status": "visited",
    "year": "114",
    "news": "7VJodV2HwnE",
    "voices": "W57Ks6--3Tk",
@@ -501,7 +478,6 @@
    "dates": [
     "2026.05.12"
    ],
-   "status": "visited",
    "year": "114",
    "news": "x--JEdN8xPY",
    "voices": "Y1oyv7UuE7k"
@@ -516,7 +492,6 @@
    "dates": [
     "2026.05.19"
    ],
-   "status": "visited",
    "year": "114",
    "news": "mlDqgsMuV0c",
    "voices": "EX9ECX_rOq4",
@@ -538,7 +513,6 @@
    "dates": [
     "2026.05.19"
    ],
-   "status": "visited",
    "year": "114",
    "news": "lPfb-TbozhU",
    "voices": "_AYlf-4OSl4"
@@ -553,7 +527,6 @@
    "dates": [
     "2026.05.25"
    ],
-   "status": "visited",
    "year": "114",
    "news": "WTxOjT5OXiE",
    "voices": "yuf8GLlfGLs",
@@ -580,7 +553,6 @@
    "dates": [
     "2026.05.25"
    ],
-   "status": "visited",
    "year": "114",
    "news": "rCQuOmELjbM",
    "voices": "zKw0WL7DGu8",
@@ -607,7 +579,6 @@
    "dates": [
     "2026.06.02"
    ],
-   "status": "visited",
    "year": "114",
    "news": "-wW0IOjTUT4",
    "voices": "01Wonw-UBRU",
@@ -629,7 +600,6 @@
    "dates": [
     "2026.06.02"
    ],
-   "status": "visited",
    "year": "114",
    "news": "5Oghv3gQETU",
    "voices": "xp_DbyGqnAc",
@@ -651,7 +621,6 @@
    "dates": [
     "2026.10.13"
    ],
-   "status": "upcoming",
    "year": "115",
    "decks": [
     {
@@ -677,7 +646,6 @@
    "dates": [
     "2026.10.13"
    ],
-   "status": "upcoming",
    "year": "115",
    "decks": [
     {
