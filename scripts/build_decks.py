@@ -583,7 +583,10 @@ def deck_page(d):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{e(d["title_en"])} · {e(d["school_en"])} — My Culture Connect</title>
 <meta name="description" content="Dom Jones bilingual assembly deck for {e(d["school_en"])} ({e(d["date"])}).">
-<link rel="icon" type="image/png" href="/assets/img/favicon.png">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/icon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/img/icon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="stylesheet" href="/assets/css/deck.css?v={ASSET_V}">
 </head>
 <body class="deck-body">
@@ -624,7 +627,10 @@ def image_deck_page(d):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{e(d.get("title_en", d["title"]))} · {e(d.get("school_en", "Dom Jones"))} — My Culture Connect</title>
 <meta name="description" content="Dom Jones bilingual assembly deck: {e(d.get("title_en", d["title"]))}.">
-<link rel="icon" type="image/png" href="/assets/img/favicon.png">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/icon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/img/icon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="stylesheet" href="/assets/css/deck.css?v={ASSET_V}">
 </head>
 <body class="deck-body">
@@ -677,7 +683,10 @@ def visit_page(v):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{e(v["school_en"])} · {e(v["date"])} — Run of Day</title>
 <meta name="robots" content="noindex">
-<link rel="icon" type="image/png" href="/assets/img/favicon.png">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/icon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/img/icon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <style>
   :root {{ --ink:#1b2321; --muted:#5f6d69; --key:#e2620f; --key2:#b8480a; --line:#e8e3d8; }}
   * {{ box-sizing:border-box; }}
@@ -791,7 +800,10 @@ def library_page(decks):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Slide Library — Dom Jones School Tour · My Culture Connect</title>
 <meta name="description" content="Every bilingual slide deck Dom Jones presents at school assemblies across Changhua County.">
-<link rel="icon" type="image/png" href="/assets/img/favicon.png">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/icon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/img/icon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noticia+Text:wght@400;700&family=Questrial&display=swap" rel="stylesheet">
