@@ -23,7 +23,9 @@ import os, re, sys, glob, time, subprocess, tempfile
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CHROME = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
 CANVAS_W, CANVAS_H = 1200, 675
-CHUNK = 8              # printed pages per Chrome run
+CHUNK = 4              # printed pages per Chrome run. Was 8 until the slides began enlarging
+                       # their own text: bigger emoji make each page heavier, and a batch of
+                       # eight started failing with no output. Smaller batches, same result.
 
 
 def slide_blocks(html):
@@ -81,6 +83,9 @@ PRINT_PAGE = """<!doctype html><meta charset="utf-8">
   /* no .deck.anim-ready here, so every entrance animation is already finished */
 </style>
 {pages}
+<!-- the same fit the live deck runs: each slide enlarges its text to fill the frame -->
+<script src="file://{fit}"></script>
+<script>hsFit(document);</script>
 """
 
 
@@ -122,6 +127,7 @@ def write_print_html(dest, pages, tag):
     out = os.path.join(dest, f'print-{tag}.html')
     open(out, 'w', encoding='utf-8').write(PRINT_PAGE.format(
         css=os.path.join(ROOT, 'assets', 'css', 'deck.css'),
+        fit=os.path.join(ROOT, 'assets', 'js', 'deck-fit.js'),
         w=CANVAS_W, h=CANVAS_H, pages=body))
     return out
 

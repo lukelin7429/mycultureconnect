@@ -49,7 +49,7 @@ def _asset_version():
     classroom as a stale cached file."""
     import hashlib
     h = hashlib.sha1()
-    for rel in ("assets/css/deck.css", "assets/js/deck.js"):
+    for rel in ("assets/css/deck.css", "assets/js/deck.js", "assets/js/deck-fit.js"):
         try:
             with open(os.path.join(ROOT, rel), "rb") as f:
                 h.update(f.read())
@@ -64,6 +64,36 @@ OUT_DIR = os.path.join(ROOT, "slides")
 LIB = "/slides/"
 
 
+# How many items one slide may carry before it is split in two. A slide can only
+# enlarge its text into the space it has (deck-fit.js): four true/false statements
+# or eight sorting tiles leave no space, so the text stayed too small to read from
+# the back of a classroom however the sizes were tuned. Same content, more slides.
+PER_SLIDE = {"truefalse": ("items", 2), "sort": ("items", 4), "timeline": ("stops", 3)}
+
+
+def paginate(slides):
+    out = []
+    for s in slides:
+        key, size = PER_SLIDE.get(s["type"], (None, 0))
+        rows = s.get(key) if key else None
+        if not rows or len(rows) <= size:
+            out.append(s)
+            continue
+        # even chunks: five timeline stops read better as 3 + 2 than as 3 + 1 + 1
+        n = -(-len(rows) // size)
+        per = -(-len(rows) // n)
+        for i in range(n):
+            part = dict(s)
+            part[key] = rows[i * per:(i + 1) * per]
+            part["part"] = (i + 1, n)
+            if s["type"] == "timeline":
+                part["is_last"] = i == n - 1
+                if i < n - 1:
+                    part.pop("note_en", None)      # the closing line belongs to the last part
+            out.append(part)
+    return out
+
+
 def load_decks():
     if not os.path.isdir(DECK_DIR):
         return []
@@ -71,7 +101,9 @@ def load_decks():
     for fn in sorted(os.listdir(DECK_DIR)):
         if fn.endswith(".json"):
             with open(os.path.join(DECK_DIR, fn), encoding="utf-8") as f:
-                out.append(json.load(f))
+                d = json.load(f)
+            d["slides"] = paginate(d["slides"])
+            out.append(d)
     return out
 
 
@@ -288,6 +320,12 @@ def t_bigstat(s, d):
 </div>'''
 
 
+def part(s_):
+    """ '1/2' beside the heading when a long slide was split (see paginate). """
+    p = s_.get("part")
+    return f' <i class="hs-part">{p[0]}/{p[1]}</i>' if p else ""
+
+
 def t_truefalse(s, d):
     items = "".join(
         f'<button type="button" class="hs-tf">'
@@ -296,7 +334,7 @@ def t_truefalse(s, d):
         f'<em>{e(x["note_en"])}<br>{e(x["note_zh"])}</em></span></button>'
         for x in s["items"])
     return f'''<div class="hs hs-tflist">
-  <h3 class="hs-head">{e(s["head_en"])}<span>{e(s["head_zh"])}</span></h3>
+  <h3 class="hs-head">{e(s["head_en"])}{part(s)}<span>{e(s["head_zh"])}</span></h3>
   <div class="hs-tfs">{items}</div>
   <div class="hs-tap">👆 Tap each one to reveal · 點每一題公布答案</div>
 </div>'''
@@ -379,7 +417,8 @@ def t_padlet(s, d):
 def t_map(s, d, icon="🌏"):
     """Full-bleed map: the heading and the question sit on top of it, so none of
     the slide is wasted on letterbox bars beside a contained image."""
-    return f'''<div class="hs hs-map">
+    photo = "" if s["img"].endswith(".svg") else " hs-map--photo"
+    return f'''<div class="hs hs-map{photo}">
   <div class="hs-mapimg">{picture(s["img"])}</div>
   <h3 class="hs-head">{e(s["head_en"])}<span>{e(s["head_zh"])}</span></h3>
   <div class="hs-ask">{e(s.get("icon", icon))} {bi(e(s["ask_en"]), e(s["ask_zh"]))}</div>
@@ -466,17 +505,18 @@ def t_sort(s, d):
     items = "".join(
         f'<button type="button" class="hs-sortitem hs-side-{e(x["a"])}">'
         f'<span class="hs-sortico">{e(x.get("icon", "•"))}</span>'
-        f'<span class="hs-sortq">{bi(e(x["en"]), e(x["zh"]))}</span>'
-        f'<span class="hs-sortans">{e(s["a_en"] if x["a"] == "a" else s["b_en"])}'
-        f'<em>{e(s["a_zh"] if x["a"] == "a" else s["b_zh"])}</em></span></button>'
+        f'<span class="hs-sortq">{bi(e(x["en"]), e(x["zh"]))}'
+        f'<span class="hs-sortans">→ {e(s["a_en"] if x["a"] == "a" else s["b_en"])}'
+        f'<em>{e(s["a_zh"] if x["a"] == "a" else s["b_zh"])}</em></span></span></button>'
         for x in s["items"])
+    few = " hs-sortitems--few" if len(s["items"]) <= 4 else ""
     return f'''<div class="hs hs-sort">
-  <h3 class="hs-head">🗂 {e(s["head_en"])}<span>{e(s["head_zh"])}</span></h3>
+  <h3 class="hs-head">🗂 {e(s["head_en"])}{part(s)}<span>{e(s["head_zh"])}</span></h3>
   <div class="hs-sidebar">
     <span class="hs-side hs-side-a">{e(s["a_en"])}<em>{e(s["a_zh"])}</em></span>
     <span class="hs-side hs-side-b">{e(s["b_en"])}<em>{e(s["b_zh"])}</em></span>
   </div>
-  <div class="hs-sortitems">{items}</div>
+  <div class="hs-sortitems{few}">{items}</div>
   <div class="hs-tap">👆 {e(s["note_en"])} · {e(s["note_zh"])}</div>
 </div>'''
 
@@ -485,14 +525,14 @@ def t_timeline(s, d):
     """時間軸：年份在上、事件在下，最後一站標成「現在」。講地方史、校史用。"""
     stops = s["stops"]
     items = "".join(
-        f'<li class="{"is-now" if i == len(stops) - 1 else ""}">'
+        f'<li class="{"is-now" if i == len(stops) - 1 and s.get("is_last", True) else ""}">'
         f'<b class="hs-tl-year">{e(x["year"])}</b><span class="hs-tl-dot"></span>'
         f'{bi(e(x["en"]), e(x["zh"]))}</li>'
         for i, x in enumerate(stops))
     note = (f'<div class="hs-punch">{bi(e(s["note_en"]), e(s["note_zh"]))}</div>'
             if s.get("note_en") else "")
     return f'''<div class="hs hs-timeline">
-  <h3 class="hs-head">🕰 {e(s["head_en"])}<span>{e(s["head_zh"])}</span></h3>
+  <h3 class="hs-head">🕰 {e(s["head_en"])}{part(s)}<span>{e(s["head_zh"])}</span></h3>
   <ol class="hs-tl" style="--n:{len(stops)}">{items}</ol>
   {note}
 </div>'''
@@ -565,6 +605,7 @@ def deck_page(d):
   <p class="deck-hint">Swipe or use ← → to change slides · tap a question to reveal the answer</p>
 {download_row(d["slug"])}
 </div>
+<script src="/assets/js/deck-fit.js?v={ASSET_V}"></script>
 <script src="/assets/js/deck.js?v={ASSET_V}"></script>
 </body>
 </html>'''
@@ -604,6 +645,7 @@ def image_deck_page(d):
   <div class="deck-progress"><div class="bar"></div></div>
   <p class="deck-hint">Swipe or use ← → to change slides</p>
 </div>
+<script src="/assets/js/deck-fit.js?v={ASSET_V}"></script>
 <script src="/assets/js/deck.js?v={ASSET_V}"></script>
 </body>
 </html>'''

@@ -39,12 +39,20 @@ body.deck-body { background:var(--page); min-height:100vh; font-family:var(--san
    canvas is still sized for the full width — and the bottom of every slide is
    cut off. Folding the cap into the width keeps the stage exactly 16:9. */
 .deck-stage { position:relative; width:min(1180px, 94vw, calc(78vh * 16 / 9)); margin:0 auto;
-  aspect-ratio:16/9; overflow:hidden; border-radius:14px; background:#000;
+  aspect-ratio:16/9; overflow:hidden; overflow:clip; border-radius:14px; background:#000;
   box-shadow:0 30px 80px -30px rgba(0,0,0,.6); cursor:grab; touch-action:pan-y; user-select:none; }
 .deck-stage:active { cursor:grabbing; }
 .deck-track { display:flex; height:100%; transition:transform .35s cubic-bezier(.2,.7,.3,1); }
-.deck-slide { flex:0 0 100%; height:100%; display:flex; align-items:center; justify-content:center;
-  background:#000; overflow:hidden; }
+/* overflow:clip, not hidden. The canvas inside is laid out at 1200x675 and only
+   *drawn* smaller, so its layout box is bigger than the slide: with `hidden` the
+   slide can still be scrolled — by Tab focus or a scripted scrollIntoView — and
+   the whole canvas slides up under a black bar. `clip` cannot scroll at all.
+   (`hidden` stays first for browsers that do not know `clip`.)
+   min-width:0 is required with it: a `clip` box is not a scroll container, so as
+   a flex item it would otherwise refuse to be narrower than the 1200px canvas —
+   every slide becomes 1200px wide and the track drifts out of step with them. */
+.deck-slide { flex:0 0 100%; min-width:0; min-height:0; height:100%; display:flex; align-items:center;
+  justify-content:center; background:#000; overflow:hidden; overflow:clip; }
 /* 114 decks are one JPG per slide. Scoped to the direct child so it never
    catches the images inside a 115 slide (the QR, the video thumbnail). */
 .deck-slide > img { width:100%; height:100%; object-fit:contain; pointer-events:none; display:block; }
@@ -82,9 +90,10 @@ body.deck-body { background:var(--page); min-height:100vh; font-family:var(--san
 .hs-canvas[data-theme="sky"]    { --hs-bg:#eaf6fd; --hs-ink:#0f2f46; --hs-key:#1183b8; --hs-key2:#0a6590; --hs-soft:#fff; --hs-band:#1183b8; }
 .hs-canvas[data-theme="leaf"]   { --hs-bg:#eef6ec; --hs-ink:#17301c; --hs-key:#2f7d3b; --hs-key2:#1f5e2b; --hs-soft:#fff; --hs-band:#2f7d3b; }
 
-.hs { flex:1; padding:46px 60px 30px; display:flex; flex-direction:column; gap:18px; overflow:hidden; }
-.hs-foot { flex:0 0 46px; display:flex; align-items:center; justify-content:center;
-  background:var(--hs-band); color:#fff; font-size:17px; font-family:var(--zh); }
+/* 邊距與頁尾色帶都收窄：省下來的每一個 px 都讓給內文（見檔尾「字級自動放大」）。 */
+.hs { flex:1; padding:26px 44px 20px; display:flex; flex-direction:column; gap:14px; overflow:hidden; }
+.hs-foot { flex:0 0 28px; display:flex; align-items:center; justify-content:center;
+  background:var(--hs-band); color:#fff; font-size:13px; font-family:var(--zh); }
 
 .hs-en { display:block; font-weight:700; line-height:1.25; }
 .hs-zh { display:block; font-family:var(--zh); opacity:.82; line-height:1.4; font-weight:400; }
@@ -107,11 +116,11 @@ body.deck-body { background:var(--page); min-height:100vh; font-family:var(--san
 .hs-chips { display:flex; gap:13px; }
 .hs-chip { flex:1; background:var(--hs-soft); border:2px solid var(--hs-key); border-radius:12px;
   padding:13px 10px; text-align:center; }
-.hs-chip .hs-en { font-size:21px; } .hs-chip .hs-zh { font-size:19px; }
+.hs-chip .hs-en { font-size:22px; } .hs-chip .hs-zh { font-size:20px; }
 .hs-strip { display:flex; gap:34px; margin-top:4px; }
 .hs-stat b { font-size:37px; color:var(--hs-key); display:block; line-height:1; }
-.hs-stat .hs-en { font-size:19px; font-weight:600; } .hs-stat .hs-zh { font-size:16px; }
-.hs-school { position:absolute; right:60px; top:40px; font-family:var(--zh); font-size:21px;
+.hs-stat .hs-en { font-size:21px; font-weight:600; } .hs-stat .hs-zh { font-size:19px; }
+.hs-school { position:absolute; right:44px; top:22px; font-family:var(--zh); font-size:21px;
   color:var(--hs-hi); font-weight:600; }
 
 /* lines / intro */
@@ -159,7 +168,7 @@ body.deck-body { background:var(--page); min-height:100vh; font-family:var(--san
 .hs-qtag { background:var(--hs-band); color:#fff; border-radius:999px; padding:9px 20px;
   font-family:var(--zh); font-size:23px; font-weight:700; }
 .hs-bonus { background:var(--hs-key2); color:#fff; border-radius:999px; padding:7px 15px;
-  font-size:16px; font-family:var(--zh); font-weight:700; }
+  font-size:19px; font-family:var(--zh); font-weight:700; }
 .hs-qn { margin-left:auto; font-size:30px; font-weight:800; color:var(--hs-hi); }
 .hs-q { background:var(--hs-soft); border:3px solid var(--hs-key); border-radius:14px; padding:17px 22px; }
 .hs-q .hs-en { font-size:34px; } .hs-q .hs-zh { font-size:25px; }
@@ -253,7 +262,7 @@ body.deck-body { background:var(--page); min-height:100vh; font-family:var(--san
 .hs-phrase { background:var(--hs-soft); border-left:8px solid var(--hs-key); border-radius:12px;
   padding:7px 20px; }
 .hs-phrase b { display:block; font-size:24px; line-height:1.25; }
-.hs-phrase span { display:block; font-family:var(--zh); font-size:18px; opacity:.82; line-height:1.3; }
+.hs-phrase span { display:block; font-family:var(--zh); font-size:20px; opacity:.82; line-height:1.3; }
 
 /* game items whose answer must stay hidden until tapped */
 .hs-hintbtn { display:flex; align-items:center; gap:11px; cursor:pointer; font-family:inherit;
@@ -307,8 +316,8 @@ body.deck-body { background:var(--page); min-height:100vh; font-family:var(--san
    ========================================================================== */
 /* 有插圖時：文字欄收窄，右側讓給圖。用絕對定位而不是改 flex 方向，
    這樣既有各版型內部的排版規則完全不受影響。 */
-.hs.has-art { padding-right:404px; }
-.hs-art { position:absolute; right:0; top:0; bottom:46px; width:376px;
+.hs.has-art { padding-right:372px; }
+.hs-art { position:absolute; right:0; top:0; bottom:28px; width:344px;
   overflow:hidden; display:flex; align-items:center; justify-content:center;
   background:var(--hs-soft); }
 .hs-art img { width:100%; height:100%; object-fit:cover; display:block; }
@@ -316,7 +325,7 @@ body.deck-body { background:var(--page); min-height:100vh; font-family:var(--san
 .hs-art::before { content:""; position:absolute; left:0; top:0; bottom:0; width:5px;
   background:var(--hs-key); z-index:2; }
 /* 封面與結尾的圖改成滿版襯底，文字壓在上面更有氣勢 */
-.hs-title.has-art, .hs-closing.has-art { padding-right:60px; }
+.hs-title.has-art, .hs-closing.has-art { padding-right:44px; }
 /* 封面與結尾：圖墊到文字後面。用 z-index:-1 而不是把子元素改成 relative——
    那會連 .hs-art 與 .hs-school 自己的絕對定位一起打掉。 */
 .hs-title.has-art .hs-art, .hs-closing.has-art .hs-art {
@@ -325,7 +334,7 @@ body.deck-body { background:var(--page); min-height:100vh; font-family:var(--san
 .hs-title.has-art .hs-art img, .hs-closing.has-art .hs-art img { opacity:.22; }
 /* 再加一層由左向右的底色遮罩，確保左半邊的文字一定讀得清楚 */
 .hs-title.has-art::after, .hs-closing.has-art::after {
-  content:""; position:absolute; left:0; top:0; bottom:46px; right:0; z-index:-1;
+  content:""; position:absolute; left:0; top:0; bottom:28px; right:0; z-index:-1;
   background:linear-gradient(100deg, var(--hs-bg) 30%, rgba(255,255,255,0) 78%); }
 .hs-title.has-art .hs-art::before, .hs-closing.has-art .hs-art::before { display:none; }
 
@@ -351,7 +360,7 @@ body.deck-body { background:var(--page); min-height:100vh; font-family:var(--san
     animation:artZoom 9s ease-out both; }
   @keyframes artZoom { from { transform:scale(1.06); } to { transform:scale(1); } }
 }
-@media (max-width:640px) { .hs.has-art { padding-right:60px; }
+@media (max-width:640px) { .hs.has-art { padding-right:44px; }
   .hs-art { display:none; } }
 
 /* SDG 10 的題幹與是非題敘述比 SDG 2 長，這兩種版型再收一點才不會被裁掉 */
@@ -360,7 +369,7 @@ body.deck-body { background:var(--page); min-height:100vh; font-family:var(--san
 .hs-tflist .hs-tfa { font-size:20px; }
 .hs-quiz .hs-opt { padding:10px 16px; }
 .hs-tflist .hs-tf { padding:4px 16px; }
-.hs-tflist .hs-tfa em { font-size:14px; }
+.hs-tflist .hs-tfa em { font-size:17px; }
 
 /* 有插圖的頁面文字欄較窄、行數變多，字級對應縮一階才不會被裁掉 */
 .hs-intro.has-art .hs-line .hs-en { font-size:26px; }
@@ -526,17 +535,20 @@ body.deck-body { background:var(--page); min-height:100vh; font-family:var(--san
   font-family:inherit; color:inherit; transition:transform .18s ease; }
 .hs-sortitem:hover { transform:translateY(-2px); }
 .hs-sortico { font-size:40px; line-height:1; }
-.hs-sortitem .hs-en { font-size:19px; font-weight:700; text-align:center; }
-.hs-sortitem .hs-zh { font-size:17px; text-align:center; }
-.hs-sortans { position:absolute; inset:0; display:none; flex-direction:column;
-  align-items:center; justify-content:center; color:#fff; font-size:25px;
-  font-weight:700; line-height:1.15; }
-.hs-sortans em { font-style:normal; font-family:var(--zh); font-size:19px; opacity:.92; }
-.hs-sortitem.is-revealed .hs-sortans { display:flex; }
+.hs-sortitem .hs-en { font-size:21px; font-weight:700; text-align:center; }
+.hs-sortitem .hs-zh { font-size:18px; text-align:center; }
+/* 答案原本是蓋住整格的色塊——公布之後反而看不到這一格是什麼。改成整格換底色、
+   題目留著，下面多一行答案。答案那一行平常就佔著位置（visibility），公布時版面不會跳。 */
+.hs-sortans { display:block; visibility:hidden; font-size:19px; font-weight:800; line-height:1.2;
+  letter-spacing:.02em; }
+.hs-sortans em { font-style:normal; font-family:var(--zh); font-size:18px; margin-left:8px; }
+.hs-sortitem.is-revealed .hs-sortans { visibility:visible; }
+.hs-sortitem.is-revealed { color:#fff; }
+.hs-sortitem.is-revealed .hs-zh { opacity:.95; }
+.hs-sortitem.is-revealed.hs-side-a { background:var(--hs-key); border-color:var(--hs-key2); }
+.hs-sortitem.is-revealed.hs-side-b { background:#5b6b86; }
 .hs-sortitem.is-revealed.hs-side-a { border-color:var(--hs-key2); }
-.hs-sortitem.is-revealed.hs-side-a .hs-sortans { background:var(--hs-key); }
 .hs-sortitem.is-revealed.hs-side-b { border-color:#40506a; }
-.hs-sortitem.is-revealed.hs-side-b .hs-sortans { background:#5b6b86; }
 
 /* <picture> 包住插圖之後，版位規則仍然套在裡面的 img 上，所以讓 picture 本身
    完全貼合容器，不要在中間多出一個 inline 盒子。 */
@@ -558,7 +570,7 @@ body.deck-body { background:var(--page); min-height:100vh; font-family:var(--san
 .hs-tl-dot { width:22px; height:22px; border-radius:50%; background:var(--hs-soft);
   border:4px solid var(--hs-key); position:relative; z-index:1; }
 .hs-tl .hs-en { font-size:19px; font-weight:700; line-height:1.25; }
-.hs-tl .hs-zh { font-size:16px; line-height:1.35; }
+.hs-tl .hs-zh { font-size:17px; line-height:1.35; }
 .hs-tl li.is-now .hs-tl-dot { background:var(--hs-key); transform:scale(1.35);
   box-shadow:0 0 0 6px rgba(0,0,0,.06); }
 .hs-tl li.is-now .hs-tl-year { color:var(--hs-key); }
@@ -572,9 +584,67 @@ body.deck-body { background:var(--page); min-height:100vh; font-family:var(--san
 .hs-card li:last-child { border-bottom:0; }
 .hs-card .hs-en { display:block; font-size:29px; font-weight:700; line-height:1.15;
   font-family:'Georgia','Times New Roman',serif; }
-.hs-card .hs-zh { display:block; font-size:18px; opacity:.72; margin-top:1px; }
+.hs-card .hs-zh { display:block; font-size:21px; opacity:.72; margin-top:1px; }
 .hs-cardtip { align-self:center; background:var(--hs-key); color:#fff; border-radius:999px;
   padding:6px 26px; text-align:center; }
 .hs-cardtip .hs-en { font-size:22px; font-weight:700; }
 .hs-cardtip .hs-zh { font-size:18px; opacity:.92; }
 .hs-cardslide.has-art .hs-card .hs-en { font-size:27px; }
+
+/* ==========================================================================
+   字級自動放大（assets/js/deck-fit.js）
+   --------------------------------------------------------------------------
+   上面所有字級都是固定 px，而且是照「該版型最滿的那一張」調到剛好放得下。
+   內容比較少的投影片於是字很小、周圍一大片空白——教室後排完全看不到。
+   個別放大一階永遠治標：那一階還是得小到最滿的那張放得下。
+   所以改成每一張自己量：deck-fit.js 把 --k 調到「還放得下的最大值」，
+   這裡用 zoom 把整張的內容等比放大。
+   ========================================================================== */
+.hs > * { zoom:var(--k, 1); }
+/* 標題只跟著放大四成五——要讓後排看見的是內文，不是標題 */
+.hs > .hs-head { zoom:calc(1 + (var(--k, 1) - 1) * .45); }
+/* 封面的大標與 SDG 圓章本來就夠大，少放一點，把空間讓給下面的小字 */
+.hs-title > .hs-titlerow { zoom:calc(1 + (var(--k, 1) - 1) * .3); }
+/* 圖片、滿版底圖、右上角校名、裝飾線、給講者看的小提示、「遊戲時間」標籤列、
+   大數字頁的那個超大數字：不放大 */
+.hs > .hs-art, .hs > .hs-mapimg, .hs > .hs-school, .hs > .hs-rule, .hs > .hs-tap,
+.hs > .hs-qbar, .hs-bigstat > .hs-bignum { zoom:1; }
+/* 測驗題公布答案之後，「點一下公布」的提示已經沒用了——整行收掉，位置讓給解說 */
+.hs-quiz.is-revealed .hs-tap { display:none; }
+/* 量版面的那一瞬間，進場動畫的位移會讓高度多出 16px，先關掉 */
+.hs-fitting .hs > *, .hs-fitting .hs-art { transform:none !important; transition:none !important; animation:none !important; }
+/* 拆成兩頁的版型：標題旁的「1/2」 */
+.hs-part { font-style:normal; font-weight:700; font-size:.5em; opacity:.6; margin-left:.35em; vertical-align:middle; }
+/* 分類題每頁只放四格時排成 2×2，圖示改放左邊——格子寬、不疊高，字才放得大 */
+.hs-sortitems--few { grid-template-columns:repeat(2, 1fr); gap:12px; }
+.hs-sortitems--few .hs-sortitem { flex-direction:row; justify-content:flex-start; gap:16px;
+  padding:12px 18px; text-align:left; }
+.hs-sortitems--few .hs-sortq { flex:1; min-width:0; }
+.hs-sortitems--few .hs-sortitem .hs-en, .hs-sortitems--few .hs-sortitem .hs-zh { text-align:left; }
+.hs-sortitems--few .hs-sortitem .hs-en { font-size:24px; }
+.hs-sortitems--few .hs-sortitem .hs-zh { font-size:20px; }
+/* 圖例（兩邊的標籤）只是對照用，不必跟著內文一起放到最大 */
+.hs-sort > .hs-sidebar { zoom:calc(1 + (var(--k, 1) - 1) * .45); }
+
+/* 是非題：答案原本擠在右邊一欄，題目被壓成三行、解說小到看不見。
+   改成答案接在題目正下方、整行寬——一頁只有兩題，空間夠。 */
+.hs-tflist .hs-tf { flex-direction:column; align-items:stretch; gap:0; padding:9px 20px; }
+.hs-tflist .hs-tfq .hs-en { font-size:24px; }
+.hs-tflist .hs-tfq .hs-zh { font-size:20px; }
+/* 答案列：左邊 ⭕ TRUE／❌ FALSE，右邊解說，並排成一列——上下疊的話每題會高出一倍 */
+.hs-tflist .hs-tfa { flex:none; margin-top:6px; padding-top:6px; font-size:23px; white-space:nowrap;
+  border-top:2px dashed color-mix(in srgb, var(--hs-key) 45%, transparent); }
+.hs-tflist .hs-tf.is-revealed .hs-tfa { display:flex; align-items:center; gap:18px; }
+.hs-tflist .hs-tfa em { flex:1; min-width:0; white-space:normal; margin:0; font-size:19px; line-height:1.3; opacity:1; }
+
+/* 測驗題：公布答案之後，答錯的選項收起來，位置讓給解說。
+   以前四個選項一直佔著，解說只能擠在最下面——於是「還沒公布」的時候，
+   學生正在讀題目和選項，畫面下方卻空著三分之一。 */
+.hs-quiz.is-revealed .hs-opts { grid-template-columns:1fr; align-content:start; flex:none; }
+.hs-quiz.is-revealed .hs-opt:not(.is-right) { display:none; }
+.hs-quiz.is-revealed .hs-explain { flex:1; display:flex; flex-direction:column; justify-content:center; }
+
+/* 封面右上角的校名與日期原本是浮在角落的；大標放大之後會壓到它。
+   改成排進版面的第一行（靠右），誰也不會蓋到誰。 */
+.hs-title > .hs-school { position:static; order:-1; align-self:flex-end; margin-bottom:-6px; }
+

@@ -116,6 +116,12 @@
       if (window.ResizeObserver) new ResizeObserver(rescale).observe(deck.querySelector('.deck-stage'));
     }
 
+    // Belt and braces for the overflow:clip rule in deck.css: if a slide is ever
+    // scrolled anyway (an older browser), put it straight back.
+    slides.concat([stage]).forEach(function (sl) {
+      sl.addEventListener('scroll', function () { sl.scrollTop = 0; sl.scrollLeft = 0; });
+    });
+
     // ---- click-to-reveal: quiz options, true/false rows, reveal buttons ----
     deck.addEventListener('click', function (e) {
       var opt = e.target.closest('.hs-opt, .hs-revealbtn');
@@ -136,6 +142,10 @@
         yt.appendChild(f);
       }
     });
+
+    // 每張投影片把自己的字放大到剛好填滿畫面（deck-fit.js）。一定要在進場動畫
+    // 把內容藏起來之前量——動畫的位移會讓高度量錯。
+    if (window.hsFit && canvases.length) window.hsFit(deck);
 
     // 標記「JS 已就緒」，進場動畫才會啟用（見 deck.css 的說明）
     deck.classList.add('anim-ready');
