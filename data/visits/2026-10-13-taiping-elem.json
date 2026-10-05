@@ -1,0 +1,66 @@
+{
+  "slug": "2026-10-13-taiping-elem",
+  "school": "太平國小",
+  "school_en": "Taiping Elementary",
+  "date": "2026.10.13",
+  "weekday_zh": "星期二",
+  "weekday_en": "Tuesday",
+  "items": [
+    {
+      "time": "09:00 – 09:30",
+      "label_en": "Principal interview",
+      "label_zh": "校長訪談",
+      "detail_en": "In the principal's office with Principal Cheng Chuan-hsin. Three questions, about ten minutes — the rest is an open chat.",
+      "detail_zh": "在校長室，與鄭權鑫校長。三個題目、大約十分鐘，其餘時間輕鬆座談。",
+      "note_en": "For the Voices in Education series.",
+      "note_zh": "收錄於「教育之聲」校長專訪系列。"
+    },
+    {
+      "period_en": "Period 2",
+      "period_zh": "第 2 節",
+      "time": "09:30 – 10:10",
+      "class": "6B 六乙",
+      "label_en": "SDG 16 Peace, Justice and Strong Institutions",
+      "label_zh": "SDG 16 和平、正義與健全制度",
+      "detail_en": "Integrated Activities class, with Teacher Gan Yao-hua.",
+      "detail_zh": "綜合課，耀華老師。",
+      "deck": "taiping-elem-sdg16-peace"
+    },
+    {
+      "time": "10:10 – 10:30",
+      "class": "5A 五甲",
+      "label_en": "English read-aloud practice",
+      "label_zh": "英語朗讀練習",
+      "detail_en": "During the break after Period 2, with Teacher Gan Yao-hua and Jovel.",
+      "detail_zh": "第 2 節下課時間，耀華老師＋Jovel。"
+    },
+    {
+      "period_en": "Period 3",
+      "period_zh": "第 3 節",
+      "time": "10:30 – 11:10",
+      "class": "6A 六甲",
+      "label_en": "SDG 16 Peace, Justice and Strong Institutions",
+      "label_zh": "SDG 16 和平、正義與健全制度",
+      "detail_en": "English class, with Teacher Gan Yao-hua and Jovel.",
+      "detail_zh": "英語課，耀華老師＋Jovel。",
+      "deck": "taiping-elem-sdg16-peace",
+      "note_en": "Same deck as Period 2.",
+      "note_zh": "與第 2 節同一套簡報。"
+    },
+    {
+      "period_en": "Period 4",
+      "period_zh": "第 4 節",
+      "time": "11:20 – 12:00",
+      "class": "3A 三甲",
+      "label_en": "SDG 6 Clean Water and Sanitation",
+      "label_zh": "SDG 6 潔淨水與衛生",
+      "detail_en": "English class, with Teacher Gan Yao-hua and Jovel.",
+      "detail_zh": "英語課，耀華老師＋Jovel。",
+      "deck": "taiping-elem-sdg6-water",
+      "note_en": "A different deck — this one is for Grade 3.",
+      "note_zh": "不同套——這一套是給三年級的。"
+    }
+  ],
+  "footnote_en": "All classes are in the Bilingual Classroom; the interview is in the principal's office. Each period is 40 minutes.",
+  "footnote_zh": "課程都在雙語教室，校長訪談在校長室。每節 40 分鐘。"
+}

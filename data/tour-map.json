@@ -640,6 +640,32 @@
      "title_en": "SDG 7 Solar Energy"
     }
    ]
+  },
+  {
+   "en": "Taiping Elementary",
+   "zh": "太平國小",
+   "town_zh": "埔心鄉",
+   "town_en": "Puxin",
+   "lat": 23.937165,
+   "lng": 120.552825,
+   "dates": [
+    "2026.10.13"
+   ],
+   "status": "upcoming",
+   "year": "115",
+   "decks": [
+    {
+     "slug": "taiping-elem-sdg16-peace",
+     "title": "SDG 16 和平、正義與健全制度",
+     "title_en": "Peace and Justice"
+    },
+    {
+     "slug": "taiping-elem-sdg6-water",
+     "title": "SDG 6 潔淨水與衛生",
+     "title_en": "Clean Water"
+    }
+   ],
+   "visit": "2026-10-13-taiping-elem"
   }
  ]
 }

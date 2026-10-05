@@ -1,0 +1,444 @@
+{
+  "slug": "taiping-elem-sdg6-water",
+  "school": "太平國小",
+  "school_en": "Taiping Elementary",
+  "date": "2026.10.13",
+  "year": "115",
+  "classes": "3A 三甲",
+  "title": "SDG 6 潔淨水與衛生",
+  "title_en": "Clean Water",
+  "sdg": "6",
+  "theme": "sky",
+  "footer": "Teacher Dom · SDG #6 Clean Water and Sanitation 潔淨水與衛生",
+  "slides": [
+    {
+      "type": "title",
+      "eyebrow_en": "A Bilingual Lesson for Grade 3",
+      "eyebrow_zh": "三年級雙語課程",
+      "chips": [
+        {
+          "en": "Water Is Life",
+          "zh": "水是生命"
+        },
+        {
+          "en": "Wash Your Hands",
+          "zh": "洗洗手"
+        },
+        {
+          "en": "Tap Off!",
+          "zh": "關水龍頭"
+        },
+        {
+          "en": "Our Actions",
+          "zh": "行動方案"
+        }
+      ],
+      "strip": [
+        {
+          "num": "100",
+          "en": "years of rain for Grandfather Banyan",
+          "zh": "年的雨水，養大了榕樹爺爺"
+        },
+        {
+          "num": "6",
+          "en": "Goal 6: Clean Water and Sanitation",
+          "zh": "目標 6：潔淨水與衛生"
+        },
+        {
+          "num": "1",
+          "en": "Earth — and one supply of water",
+          "zh": "一個地球，一份水"
+        }
+      ],
+      "img": "taiping-campus.jpg"
+    },
+    {
+      "type": "intro",
+      "head_en": "Hello! I am Dom.",
+      "head_zh": "哈囉！我是 Dom。",
+      "lines": [
+        {
+          "en": "I come from California, USA.",
+          "zh": "我從美國加州來。"
+        },
+        {
+          "en": "In California, sometimes it does not rain for months.",
+          "zh": "在加州，有時候好幾個月都不下雨。"
+        },
+        {
+          "en": "So we learn to take care of our water.",
+          "zh": "所以我們學會好好照顧水。"
+        }
+      ],
+      "ask_en": "Wave your hand and say: “Hello, Dom!”",
+      "ask_zh": "揮揮手，說：「Hello, Dom!」"
+    },
+    {
+      "type": "map",
+      "head_en": "From California to Changhua",
+      "head_zh": "從加州到彰化",
+      "img": "map-usa-taiwan.svg",
+      "ask_en": "Both places need the same thing every single day. Can you guess what it is?",
+      "ask_zh": "這兩個地方每天都需要同一樣東西。猜猜看是什麼？"
+    },
+    {
+      "type": "standup",
+      "head_en": "Stand Up If…",
+      "head_zh": "如果是你，就站起來！",
+      "prompts": [
+        {
+          "en": "Stand up if you drank water this morning.",
+          "zh": "今天早上有喝水的，站起來。"
+        },
+        {
+          "en": "Stay standing if you washed your hands today.",
+          "zh": "今天有洗手的，繼續站著。"
+        },
+        {
+          "en": "Stay standing if you like your swimming lessons.",
+          "zh": "喜歡游泳課的，繼續站著。"
+        }
+      ],
+      "punch_en": "Drinking, washing, swimming — we use water all day long.",
+      "punch_zh": "喝水、洗手、游泳——我們一整天都在用水。"
+    },
+    {
+      "type": "quiz",
+      "n": 1,
+      "q_en": "Most of the water on Earth is…",
+      "q_zh": "地球上大部分的水是……",
+      "options": [
+        {
+          "en": "Salty ocean water",
+          "zh": "鹹鹹的海水"
+        },
+        {
+          "en": "Water we can drink",
+          "zh": "可以喝的水"
+        },
+        {
+          "en": "Ice",
+          "zh": "冰"
+        }
+      ],
+      "answer": 0,
+      "explain_en": "97 of every 100 drops are salty! Only a tiny bit is fresh water we can drink.",
+      "explain_zh": "100 滴水裡有 97 滴是鹹的！只有一點點是我們能喝的淡水。"
+    },
+    {
+      "type": "photo",
+      "head_en": "Everyone Needs Clean Water",
+      "head_zh": "每個生命都需要乾淨的水",
+      "img": "taiping-banyan.jpg",
+      "icon": "🌳",
+      "ask_en": "Grandfather Banyan has been drinking the rain for 100 years. People, plants and animals all need clean water.",
+      "ask_zh": "榕樹爺爺喝了一百年的雨水。人、植物、動物，都需要乾淨的水。"
+    },
+    {
+      "type": "people",
+      "head_en": "In a class of 20 friends around the world…",
+      "head_zh": "如果全世界是一個 20 個小朋友的班…",
+      "total": 20,
+      "mark": 5,
+      "icon": "🧒",
+      "reveal_en": "5 friends have no safe water to drink at home.",
+      "reveal_zh": "有 5 個小朋友，家裡沒有安全的水可以喝。",
+      "ask_en": "Let's count the friends first!",
+      "ask_zh": "我們先一起數數看有幾個人！"
+    },
+    {
+      "type": "tpr",
+      "head_en": "Show Me: WASH YOUR HANDS",
+      "head_zh": "做給我看：洗手",
+      "say_en": "Wet, scrub, rinse, scoop, dry!",
+      "say_zh": "濕、搓、沖、捧、擦！",
+      "steps": [
+        {
+          "icon": "💧",
+          "en": "WET your hands — then turn OFF the tap",
+          "zh": "把手弄濕——然後關掉水龍頭"
+        },
+        {
+          "icon": "🧼",
+          "en": "SCRUB with soap and count to 20",
+          "zh": "抹肥皂搓一搓，數到 20"
+        },
+        {
+          "icon": "🚿",
+          "en": "RINSE, scoop water on the tap, and DRY",
+          "zh": "沖乾淨、捧水沖龍頭、擦乾"
+        }
+      ]
+    },
+    {
+      "type": "sort",
+      "head_en": "Save or Waste?",
+      "head_zh": "省水，還是浪費？",
+      "a_en": "SAVE",
+      "a_zh": "省水",
+      "b_en": "WASTE",
+      "b_zh": "浪費",
+      "items": [
+        {
+          "icon": "🪥",
+          "en": "Tap off while brushing",
+          "zh": "刷牙時關水龍頭",
+          "a": "a"
+        },
+        {
+          "icon": "🚿",
+          "en": "A very, very long shower",
+          "zh": "洗澡洗很久很久",
+          "a": "b"
+        },
+        {
+          "icon": "🥤",
+          "en": "Rinse with a cup",
+          "zh": "用杯子裝水漱口",
+          "a": "a"
+        },
+        {
+          "icon": "💧",
+          "en": "A dripping tap",
+          "zh": "一直滴水的水龍頭",
+          "a": "b"
+        },
+        {
+          "icon": "🪴",
+          "en": "Old water for the plants",
+          "zh": "用洗過的水澆花",
+          "a": "a"
+        },
+        {
+          "icon": "🚰",
+          "en": "Leaving the tap running",
+          "zh": "讓水一直流",
+          "a": "b"
+        },
+        {
+          "icon": "🧼",
+          "en": "Tap off while you scrub",
+          "zh": "搓手時關水龍頭",
+          "a": "a"
+        },
+        {
+          "icon": "🔫",
+          "en": "Playing with the hose",
+          "zh": "拿水管玩水",
+          "a": "b"
+        }
+      ],
+      "note_en": "Thumbs up for SAVE, thumbs down for WASTE!",
+      "note_zh": "省水比讚，浪費比倒讚！"
+    },
+    {
+      "type": "bigstat",
+      "num": "30",
+      "head_en": "liters saved every day — just turn off the tap when you brush",
+      "head_zh": "刷牙時關水龍頭，每天可以省下 30 公升",
+      "body_en": "That is like 60 small bottles of water. Every single day!",
+      "body_zh": "等於 60 小瓶的水，而且是每一天！",
+      "ask_en": "Can you brush with the tap off tonight?",
+      "ask_zh": "今天晚上刷牙，你可以把水龍頭關掉嗎？",
+      "img": "sdg6-brush-v"
+    },
+    {
+      "type": "quiz",
+      "n": 2,
+      "q_en": "Drip… drip… drip. A tap drips all day. How much water is lost?",
+      "q_zh": "滴…答…滴…答。水龍頭滴了一整天，會流掉多少水？",
+      "options": [
+        {
+          "en": "One cup",
+          "zh": "一杯"
+        },
+        {
+          "en": "One small bottle",
+          "zh": "一小瓶"
+        },
+        {
+          "en": "About 30 liters — three buckets",
+          "zh": "大約 30 公升——三個水桶"
+        }
+      ],
+      "answer": 2,
+      "explain_en": "About 30 liters a day! Close it tightly — and tell an adult if it still drips.",
+      "explain_zh": "一天大約 30 公升！把它關緊——還在滴就告訴大人。",
+      "img": "sdg6-drip-v"
+    },
+    {
+      "type": "truefalse",
+      "head_en": "True or False?",
+      "head_zh": "真的還假的？手比 ⭕ 或 ❌",
+      "items": [
+        {
+          "en": "Fish need clean water, too.",
+          "zh": "魚也需要乾淨的水。",
+          "answer": true,
+          "note_en": "Clean streams help fish, plants and people.",
+          "note_zh": "乾淨的溪流養育魚、植物和人。"
+        },
+        {
+          "en": "It is OK to throw trash in the river.",
+          "zh": "把垃圾丟進河裡沒關係。",
+          "answer": false,
+          "note_en": "Never! Trash belongs in the bin, not in the water.",
+          "note_zh": "不行！垃圾要丟垃圾桶，不能丟進水裡。"
+        },
+        {
+          "en": "We can drink water from the ocean.",
+          "zh": "海水可以直接喝。",
+          "answer": false,
+          "note_en": "It is too salty. It makes you even thirstier.",
+          "note_zh": "海水太鹹了，喝了只會更渴。"
+        },
+        {
+          "en": "Washing with soap keeps us healthy.",
+          "zh": "用肥皂洗手讓我們健康。",
+          "answer": true,
+          "note_en": "Soap washes the germs away.",
+          "note_zh": "肥皂會把細菌洗掉。"
+        }
+      ]
+    },
+    {
+      "type": "game",
+      "icon": "⏱",
+      "head_en": "30-Second Challenge",
+      "head_zh": "30 秒挑戰",
+      "rule_en": "In 30 seconds, shout out as many things that need water as you can — in English. I will count!",
+      "rule_zh": "30 秒內，用英文喊出越多「需要水的東西」越好，我來數！",
+      "hints": [
+        "fish 魚",
+        "tree 樹",
+        "rice 稻米",
+        "dog 狗",
+        "flower 花",
+        "frog 青蛙",
+        "baby 小寶寶",
+        "me 我"
+      ],
+      "target_en": "Record to beat: 15",
+      "target_zh": "要打破的紀錄：15 個"
+    },
+    {
+      "type": "tpr",
+      "head_en": "Show Me: TAP OFF!",
+      "head_zh": "做給我看：關水龍頭！",
+      "say_en": "Tap off! Every drop matters!",
+      "say_zh": "關水龍頭！每一滴水都很重要！",
+      "steps": [
+        {
+          "icon": "✊",
+          "en": "Twist your hand — turn it off",
+          "zh": "手轉一下——關起來"
+        },
+        {
+          "icon": "👂",
+          "en": "Listen — no more drip",
+          "zh": "聽聽看——沒有滴答聲了"
+        },
+        {
+          "icon": "🗣️",
+          "en": "Say it three times",
+          "zh": "大聲說三次"
+        }
+      ]
+    },
+    {
+      "type": "video",
+      "head_en": "Dom on Clean Water",
+      "head_zh": "Dom 談乾淨的水",
+      "yt": "A9liiJZ3MVo",
+      "note_en": "Watch — then show me how you turn off the tap.",
+      "note_zh": "看完之後，做給我看：你怎麼關水龍頭？"
+    },
+    {
+      "type": "action",
+      "head_en": "3 Things I Can Do",
+      "head_zh": "我可以做的 3 件事",
+      "items": [
+        {
+          "num": "1",
+          "en": "Turn off the tap when I brush my teeth.",
+          "zh": "刷牙的時候關掉水龍頭。"
+        },
+        {
+          "num": "2",
+          "en": "Tell an adult when I see a drip.",
+          "zh": "看到水龍頭在滴水，就告訴大人。"
+        },
+        {
+          "num": "3",
+          "en": "Put trash in the bin — never in the river.",
+          "zh": "垃圾丟垃圾桶，絕對不丟進河裡。"
+        }
+      ]
+    },
+    {
+      "type": "phrases",
+      "head_en": "Say It With Me",
+      "head_zh": "跟著我唸",
+      "items": [
+        {
+          "en": "Clean water and sanitation.",
+          "zh": "潔淨水與衛生。"
+        },
+        {
+          "en": "Turn off the tap.",
+          "zh": "關掉水龍頭。"
+        },
+        {
+          "en": "Wet, scrub, rinse, scoop, dry.",
+          "zh": "濕、搓、沖、捧、擦。"
+        },
+        {
+          "en": "Every drop matters.",
+          "zh": "每一滴水都很重要。"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "n": 3,
+      "bonus": true,
+      "q_en": "Who at Taiping studied for many years how to protect nature?",
+      "q_zh": "太平國小裡，誰花了很多年研究怎麼保護大自然？",
+      "options": [
+        {
+          "en": "Grandfather Banyan",
+          "zh": "榕樹爺爺"
+        },
+        {
+          "en": "Principal Cheng",
+          "zh": "鄭校長"
+        },
+        {
+          "en": "The rainbow track",
+          "zh": "彩虹跑道"
+        }
+      ],
+      "answer": 1,
+      "explain_en": "Principal Cheng is a doctor of environmental education. Ask him how to save water!",
+      "explain_zh": "鄭校長是環境教育博士。去問問他怎麼省水！"
+    },
+    {
+      "type": "padlet",
+      "head_en": "Draw or Write for Dom",
+      "head_zh": "畫一張圖或寫一句話給 Dom",
+      "body_en": "Ask your teacher to open our School Tour page and find the Taiping Elementary column. Tell me how you will save water.",
+      "body_zh": "請老師打開我們網站的 School Tour 頁面，找到太平國小那一欄，告訴我你要怎麼省水。",
+      "sentence_en": "I will ______ to save water.",
+      "sentence_zh": "我會 ______ 來省水。",
+      "site": "mycultureconnect.org/dom-school-tour.html"
+    },
+    {
+      "type": "closing",
+      "big_en": "Every drop matters.<br>Turn off the tap!",
+      "big_zh": "每一滴水都很重要。<br>關掉水龍頭！",
+      "sign_en": "Thank you, Taiping Elementary!",
+      "sign_zh": "謝謝太平國小！",
+      "img": "sdg6-closing"
+    }
+  ]
+}
