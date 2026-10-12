@@ -91,12 +91,12 @@
           "zh": "今天早上有喝水的，站起來。"
         },
         {
-          "en": "Stay standing if you washed your hands today.",
-          "zh": "今天有洗手的，繼續站著。"
+          "en": "Stand up if you washed your hands today.",
+          "zh": "今天有洗手的，站起來。"
         },
         {
-          "en": "Stay standing if you like your swimming lessons.",
-          "zh": "喜歡游泳課的，繼續站著。"
+          "en": "Stand up if you like your swimming lessons.",
+          "zh": "喜歡游泳課的，站起來。"
         }
       ],
       "punch_en": "Drinking, washing, swimming — we use water all day long.",
