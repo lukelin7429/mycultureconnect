@@ -660,6 +660,31 @@
     }
    ],
    "visit": "2026-10-13-chengkung-elem"
+  },
+  {
+   "en": "Siling Elementary",
+   "zh": "西嶺國小",
+   "town_zh": "南投縣南投市",
+   "town_en": "Nantou City, Nantou County",
+   "lat": 23.9248555,
+   "lng": 120.6386339,
+   "dates": [
+    "2026.10.20"
+   ],
+   "year": "115",
+   "decks": [
+    {
+     "slug": "siling-elem-gratitude",
+     "title": "品格教育：感恩",
+     "title_en": "Gratitude"
+    },
+    {
+     "slug": "siling-elem-kindness",
+     "title": "品格教育：仁慈",
+     "title_en": "Kindness"
+    }
+   ],
+   "visit": "2026-10-20-siling-elem"
   }
  ]
 }

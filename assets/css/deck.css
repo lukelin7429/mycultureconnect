@@ -110,6 +110,8 @@ body.deck-body { background:var(--page); min-height:100vh; font-family:var(--san
   display:grid; place-content:center; text-align:center; line-height:1.05; }
 .hs-badge span { font-size:25px; font-weight:700; display:block; }
 .hs-badge b { font-size:48px; display:block; }
+.hs-badge--char span { font-size:14px; letter-spacing:.08em; }
+.hs-badge--char b { font-size:58px; line-height:1; margin-bottom:4px; }
 .hs-titletext h2 { font-size:79px; margin:0; line-height:1.02; color:var(--hs-hi); font-weight:800; }
 .hs-zh-big { font-family:var(--zh); font-size:41px; margin:4px 0 0; color:var(--hs-ink); }
 .hs-eyebrow .hs-en { font-size:25px; font-weight:600; } .hs-eyebrow .hs-zh { font-size:21px; }

@@ -16,12 +16,14 @@ Two things worth knowing:
   is deliberate: a school PC has no PingFang TC, and real text boxes would
   reflow and break the layout. Images look identical everywhere.
 
-Needs Google Chrome (headless print), PyMuPDF and python-pptx.
+Needs headless-chrome (~/.local/bin, headless print), PyMuPDF and python-pptx.
 """
 import os, re, sys, glob, time, subprocess, tempfile
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CHROME = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
+# Not the Chrome in /Applications: running the everyday browser headless leaves a
+# bouncing icon in the Dock and sometimes a process that never exits.
+CHROME = os.path.expanduser('~/.local/bin/headless-chrome')
 CANVAS_W, CANVAS_H = 1200, 675
 CHUNK = 4              # printed pages per Chrome run. Was 8 until the slides began enlarging
                        # their own text: bigger emoji make each page heavier, and a batch of
@@ -244,7 +246,7 @@ def main():
                  for p in glob.glob(os.path.join(ROOT, 'slides', '*', 'index.html'))
                  if 'hs-canvas' in open(p, encoding='utf-8').read()]
     if not os.path.exists(CHROME):
-        raise SystemExit('Google Chrome not found at ' + CHROME)
+        raise SystemExit('headless-chrome not found at ' + CHROME)
     todo = sorted(slugs if force else [s for s in slugs if is_stale(s)])
     skipped = len(slugs) - len(todo)
     print(f'exporting {len(todo)} deck(s)' + (f', {skipped} already current' if skipped else ''))

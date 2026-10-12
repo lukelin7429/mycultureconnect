@@ -1,0 +1,450 @@
+{
+  "slug": "siling-elem-gratitude",
+  "school": "西嶺國小",
+  "school_en": "Siling Elementary",
+  "date": "2026.10.20",
+  "year": "115",
+  "classes": "Grades 5–6 五、六年級",
+  "title": "品格教育：感恩",
+  "title_en": "Gratitude",
+  "theme": "violet",
+  "footer": "Teacher Dom · Character Education: Gratitude 品格教育：感恩",
+  "slides": [
+    {
+      "type": "title",
+      "eyebrow_en": "Character Education with Teacher Dom",
+      "eyebrow_zh": "跟 Dom 老師上品格教育",
+      "chips": [
+        {
+          "en": "Who Helps Us?",
+          "zh": "誰在幫我們"
+        },
+        {
+          "en": "100 Years of Hands",
+          "zh": "一百年的手"
+        },
+        {
+          "en": "Say Thank You",
+          "zh": "說謝謝"
+        },
+        {
+          "en": "Our Card",
+          "zh": "我們的感謝卡"
+        }
+      ],
+      "strip": [
+        {
+          "num": "1923",
+          "en": "the year your school was born",
+          "zh": "你們學校誕生的那一年"
+        },
+        {
+          "num": "100+",
+          "en": "years of people who cared for it",
+          "zh": "年來照顧這所學校的人"
+        },
+        {
+          "num": "1",
+          "en": "thank-you card from each of you",
+          "zh": "張你親手寫的感謝卡"
+        }
+      ],
+      "img": "siling-main.jpg"
+    },
+    {
+      "type": "intro",
+      "head_en": "Hello! I am Dom.",
+      "head_zh": "哈囉！我是 Dom。",
+      "lines": [
+        {
+          "en": "I come from California, USA.",
+          "zh": "我從美國加州來。"
+        },
+        {
+          "en": "Today I came up the mountain to meet you.",
+          "zh": "今天我上山來認識你們。"
+        },
+        {
+          "en": "Today's word is gratitude.",
+          "zh": "今天的關鍵字是：感恩。"
+        }
+      ],
+      "ask_en": "Before 1:30 today, who did something for you?",
+      "ask_zh": "今天下午一點半以前，有誰為你做了什麼？"
+    },
+    {
+      "type": "topic",
+      "head_en": "What Is Gratitude?",
+      "head_zh": "什麼是感恩？",
+      "body_en": "Gratitude means noticing what other people do for you — and then saying thank you, or giving something back.",
+      "body_zh": "感恩，就是注意到別人為你做了什麼——然後說聲謝謝，或是回饋一點什麼。",
+      "keywords": [
+        {
+          "en": "notice",
+          "zh": "注意到"
+        },
+        {
+          "en": "thank",
+          "zh": "感謝"
+        },
+        {
+          "en": "appreciate",
+          "zh": "珍惜"
+        },
+        {
+          "en": "give back",
+          "zh": "回饋"
+        }
+      ],
+      "img": "g5-thanks-v"
+    },
+    {
+      "type": "standup",
+      "head_en": "Stand Up If…",
+      "head_zh": "如果是你，就站起來！",
+      "prompts": [
+        {
+          "en": "Stand up if someone made breakfast for you today.",
+          "zh": "今天有人幫你準備早餐的，站起來。"
+        },
+        {
+          "en": "Stay standing if someone brought you up the hill to school.",
+          "zh": "今天有人送你上山來學校的，繼續站著。"
+        },
+        {
+          "en": "Stay standing if you said thank you to them.",
+          "zh": "而且有跟他們說謝謝的，繼續站著。"
+        }
+      ],
+      "punch_en": "So many people help us every day. We just don't always notice.",
+      "punch_zh": "每天有好多人在幫我們，只是我們不一定注意到。"
+    },
+    {
+      "type": "quiz",
+      "n": 1,
+      "q_en": "Riddle: I start work before you wake up. I cook lunch for the whole school. Who am I?",
+      "q_zh": "猜猜我是誰：你還沒起床我就開始工作，我為全校煮午餐。",
+      "options": [
+        {
+          "en": "A crossing guard",
+          "zh": "導護"
+        },
+        {
+          "en": "A school cook",
+          "zh": "午餐廚工"
+        },
+        {
+          "en": "A bus driver",
+          "zh": "公車司機"
+        },
+        {
+          "en": "A teacher",
+          "zh": "老師"
+        }
+      ],
+      "answer": 1,
+      "explain_en": "A school cook! Next time you eat lunch, think about whose hands made it.",
+      "explain_zh": "午餐廚工！下次吃午餐時，想想是誰的手做出來的。"
+    },
+    {
+      "type": "topic",
+      "head_en": "A School Built by 100 Years of Hands",
+      "head_zh": "一百年的手，蓋起這所學校",
+      "body_en": "Siling Elementary was born in 1923. Every classroom, every tree and every team is here because someone before you cared.",
+      "body_zh": "西嶺國小創校於 1923 年。每一間教室、每一棵樹、每一支校隊，都是因為在你之前有人用心。",
+      "keywords": [
+        {
+          "en": "alumni",
+          "zh": "校友"
+        },
+        {
+          "en": "build",
+          "zh": "建造"
+        },
+        {
+          "en": "care",
+          "zh": "用心"
+        },
+        {
+          "en": "pass on",
+          "zh": "傳下去"
+        }
+      ],
+      "img": "siling-building-v.jpg"
+    },
+    {
+      "type": "quiz",
+      "n": 2,
+      "q_en": "Your English lessons, clubs and after-school care are free. Who pays for them?",
+      "q_zh": "你們的英語課、社團和課後照顧都免費。是誰出的錢？",
+      "options": [
+        {
+          "en": "The students",
+          "zh": "學生自己"
+        },
+        {
+          "en": "Siling alumni",
+          "zh": "西嶺的校友"
+        },
+        {
+          "en": "A big company",
+          "zh": "一家大公司"
+        },
+        {
+          "en": "Nobody",
+          "zh": "沒有人"
+        }
+      ],
+      "answer": 1,
+      "explain_en": "Your alumni! Long ago they sat in your seats. Now they give back so you can learn.",
+      "explain_zh": "是校友！很久以前他們就坐在你的位子上，現在回來幫助你們學習。"
+    },
+    {
+      "type": "topic",
+      "head_en": "Who Taught the Lion to Dance?",
+      "head_zh": "是誰教會獅子跳舞？",
+      "body_en": "Your lion-dance team began in 2016 — but the dance is about 100 years old. Local masters passed it on, step by step.",
+      "body_zh": "你們的舞獅隊 2016 年成立——但這套獅藝大約有一百年了，是在地的師傅一步一步傳下來的。",
+      "keywords": [
+        {
+          "en": "master",
+          "zh": "師傅"
+        },
+        {
+          "en": "tradition",
+          "zh": "傳統"
+        },
+        {
+          "en": "practice",
+          "zh": "練習"
+        },
+        {
+          "en": "pass on",
+          "zh": "傳承"
+        }
+      ],
+      "img": "grat-lion-v"
+    },
+    {
+      "type": "quiz",
+      "n": 3,
+      "q_en": "Siling has something no other elementary school in Taiwan has. What is it?",
+      "q_zh": "西嶺有一樣東西，是全台灣其他國小都沒有的。是什麼？",
+      "options": [
+        {
+          "en": "A swimming pool",
+          "zh": "游泳池"
+        },
+        {
+          "en": "A kite museum",
+          "zh": "風箏館"
+        },
+        {
+          "en": "A train station",
+          "zh": "火車站"
+        },
+        {
+          "en": "A zoo",
+          "zh": "動物園"
+        }
+      ],
+      "answer": 1,
+      "explain_en": "A kite museum, opened in 2002! Teachers and students before you built it, kite by kite.",
+      "explain_zh": "風箏館，2002 年啟用！是你們之前的老師和學長姐，一只一只風箏做出來的。"
+    },
+    {
+      "type": "truefalse",
+      "head_en": "True or False?",
+      "head_zh": "真的還假的？手比 ⭕ 或 ❌",
+      "items": [
+        {
+          "en": "You only need to say thank you for big things.",
+          "zh": "只有大事才需要說謝謝。",
+          "answer": false,
+          "note_en": "Small things count too — like holding a door.",
+          "note_zh": "小事也算——像是幫你扶門。"
+        },
+        {
+          "en": "Saying thank you can make YOU happier, too.",
+          "zh": "說謝謝也會讓自己更快樂。",
+          "answer": true,
+          "note_en": "Scientists have studied it: grateful people often feel happier.",
+          "note_zh": "科學家研究過：懂得感恩的人通常比較快樂。"
+        },
+        {
+          "en": "Gratitude is only words.",
+          "zh": "感恩只是說說而已。",
+          "answer": false,
+          "note_en": "Your alumni showed it with actions. So can you.",
+          "note_zh": "你們的校友用行動表現。你也可以。"
+        },
+        {
+          "en": "Saying thank you takes a lot of time.",
+          "zh": "說謝謝要花很多時間。",
+          "answer": false,
+          "note_en": "Five seconds. Try it today!",
+          "note_zh": "五秒鐘就夠了。今天就試試看！"
+        }
+      ]
+    },
+    {
+      "type": "phrases",
+      "head_en": "Say Thank You in English",
+      "head_zh": "用英文說謝謝",
+      "items": [
+        {
+          "en": "Thank you for ______.",
+          "zh": "謝謝你 ______。"
+        },
+        {
+          "en": "I really appreciate your help.",
+          "zh": "我真的很感謝你的幫忙。"
+        },
+        {
+          "en": "You made my day!",
+          "zh": "你讓我今天好開心！"
+        },
+        {
+          "en": "We couldn't do it without you.",
+          "zh": "沒有你，我們做不到。"
+        },
+        {
+          "en": "Thanks a million!",
+          "zh": "萬分感謝！"
+        }
+      ]
+    },
+    {
+      "type": "game",
+      "icon": "⏱",
+      "head_en": "30-Second Challenge",
+      "head_zh": "30 秒挑戰",
+      "rule_en": "In 30 seconds, shout out as many helpers as you can — in English. I will count!",
+      "rule_zh": "30 秒內，用英文喊出越多「幫助我們的人」越好，我來數！",
+      "hints": [
+        "teacher 老師",
+        "nurse 護理師",
+        "cook 廚師",
+        "driver 司機",
+        "coach 教練",
+        "farmer 農夫",
+        "doctor 醫生",
+        "grandma 阿嬤"
+      ],
+      "target_en": "Record to beat: 16",
+      "target_zh": "要打破的紀錄：16 個"
+    },
+    {
+      "type": "pairshare",
+      "head_en": "Turn and Tell Your Partner",
+      "head_zh": "轉過去，告訴你的同學",
+      "prompt_en": "Who is one person at Siling you want to thank?",
+      "prompt_zh": "在西嶺，你最想感謝的一個人是誰？",
+      "sentence_en": "I want to thank ______ because ______.",
+      "sentence_zh": "我想感謝 ______，因為 ______。",
+      "time_en": "One minute each. Then I will ask two of you.",
+      "time_zh": "每人一分鐘。然後我會請兩位分享。"
+    },
+    {
+      "type": "card",
+      "head_en": "Write a Thank-You Card",
+      "head_zh": "寫一張感謝卡",
+      "lines": [
+        {
+          "en": "Dear ______,",
+          "zh": "親愛的 ______："
+        },
+        {
+          "en": "Thank you for ______.",
+          "zh": "謝謝你 ______。"
+        },
+        {
+          "en": "Because of you, ______.",
+          "zh": "因為有你，______。"
+        },
+        {
+          "en": "From, ______",
+          "zh": "______ 敬上"
+        }
+      ],
+      "tip_en": "Give it to them yourself — today!",
+      "tip_zh": "今天就親手交給他！"
+    },
+    {
+      "type": "video",
+      "head_en": "Dom on Gratitude",
+      "head_zh": "Dom 談感恩",
+      "yt": "qQQhU5rkwXE",
+      "note_en": "Watch — then tell me: who will get YOUR card?",
+      "note_zh": "看完之後，告訴我：你的卡片要送給誰？"
+    },
+    {
+      "type": "action",
+      "head_en": "3 Things You Can Do Today",
+      "head_zh": "今天就可以做的 3 件事",
+      "items": [
+        {
+          "num": "1",
+          "en": "Say thank you to a helper — and use their name.",
+          "zh": "向一位幫助你的人說謝謝——叫出他的名字。"
+        },
+        {
+          "num": "2",
+          "en": "Give your card to the person you wrote it for.",
+          "zh": "把卡片親手交給你寫給的那個人。"
+        },
+        {
+          "num": "3",
+          "en": "Help a younger student. One day, YOU will be the alumni.",
+          "zh": "幫學弟妹一個忙。有一天，你也會是校友。"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "n": 4,
+      "bonus": true,
+      "q_en": "Dom's neighbors in California say “gracias” every day. Which language is it?",
+      "q_zh": "Dom 在加州的鄰居每天都說「gracias」。那是哪一種語言？",
+      "options": [
+        {
+          "en": "French",
+          "zh": "法文"
+        },
+        {
+          "en": "Spanish",
+          "zh": "西班牙文"
+        },
+        {
+          "en": "German",
+          "zh": "德文"
+        },
+        {
+          "en": "Japanese",
+          "zh": "日文"
+        }
+      ],
+      "answer": 1,
+      "explain_en": "Spanish! Merci is French, danke is German, and arigatō is Japanese.",
+      "explain_zh": "西班牙文！Merci 是法文，danke 是德文，arigatō 是日文。"
+    },
+    {
+      "type": "padlet",
+      "head_en": "Leave a Message for Dom",
+      "head_zh": "留言給 Dom",
+      "body_en": "Go to our School Tour page and find the Siling Elementary column. No sign-up, no login — tell Dom who you thanked today.",
+      "body_zh": "到我們網站的 School Tour 頁面，找到西嶺國小那一欄，免註冊、免登入，告訴 Dom 你今天感謝了誰。",
+      "sentence_en": "Today I thanked ______.",
+      "sentence_zh": "今天我感謝了 ______。",
+      "site": "mycultureconnect.org/dom-school-tour.html"
+    },
+    {
+      "type": "closing",
+      "big_en": "Every school is built<br>by many hands.",
+      "big_zh": "每一所學校，都是很多雙手一起蓋起來的。",
+      "sign_en": "Thank you, Siling Elementary!",
+      "sign_zh": "謝謝西嶺國小！",
+      "img": "g5-thanks-closing"
+    }
+  ]
+}

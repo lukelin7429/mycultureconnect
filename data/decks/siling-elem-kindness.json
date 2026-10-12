@@ -1,0 +1,490 @@
+{
+  "slug": "siling-elem-kindness",
+  "school": "西嶺國小",
+  "school_en": "Siling Elementary",
+  "date": "2026.10.20",
+  "year": "115",
+  "classes": "Grades 3–4 三、四年級",
+  "title": "品格教育：仁慈",
+  "title_en": "Kindness",
+  "theme": "amber",
+  "footer": "Teacher Dom · Character Education: Kindness 品格教育：仁慈",
+  "slides": [
+    {
+      "type": "title",
+      "eyebrow_en": "Character Education with Teacher Dom",
+      "eyebrow_zh": "跟 Dom 老師上品格教育",
+      "chips": [
+        {
+          "en": "Notice",
+          "zh": "注意"
+        },
+        {
+          "en": "Help",
+          "zh": "幫忙"
+        },
+        {
+          "en": "Share",
+          "zh": "分享"
+        },
+        {
+          "en": "Cheer",
+          "zh": "加油"
+        }
+      ],
+      "strip": [
+        {
+          "num": "4",
+          "en": "ways to be kind",
+          "zh": "種仁慈的方法"
+        },
+        {
+          "num": "5",
+          "en": "kind sentences in English",
+          "zh": "句仁慈的英文"
+        },
+        {
+          "num": "1",
+          "en": "kind act starts the next one",
+          "zh": "個仁慈的舉動，帶動下一個"
+        }
+      ],
+      "img": "kind-title"
+    },
+    {
+      "type": "intro",
+      "head_en": "Hello! I am Dom.",
+      "head_zh": "哈囉！我是 Dom。",
+      "lines": [
+        {
+          "en": "I come from California, USA.",
+          "zh": "我從美國加州來。"
+        },
+        {
+          "en": "I heard Siling kids fly kites and dance with lions. Wow!",
+          "zh": "聽說西嶺的小朋友會放風箏、還會舞獅。哇！"
+        },
+        {
+          "en": "Today's word is kindness.",
+          "zh": "今天的關鍵字是：仁慈。"
+        }
+      ],
+      "ask_en": "Wave your hand and say: “Hello, Dom!”",
+      "ask_zh": "揮揮手，說：「Hello, Dom!」"
+    },
+    {
+      "type": "topic",
+      "head_en": "What Is Kindness?",
+      "head_zh": "什麼是仁慈？",
+      "body_en": "Kindness means you see what someone needs — and you do something nice to help.",
+      "body_zh": "仁慈，就是看見別人需要什麼——然後做一件好事幫助他。",
+      "keywords": [
+        {
+          "en": "notice",
+          "zh": "注意"
+        },
+        {
+          "en": "help",
+          "zh": "幫忙"
+        },
+        {
+          "en": "share",
+          "zh": "分享"
+        },
+        {
+          "en": "cheer",
+          "zh": "加油"
+        }
+      ],
+      "img": "kind-umbrella-v"
+    },
+    {
+      "type": "tpr",
+      "head_en": "Show Me: KINDNESS",
+      "head_zh": "做給我看：仁慈",
+      "say_en": "Look, help, smile!",
+      "say_zh": "看一看、幫一幫、笑一笑！",
+      "steps": [
+        {
+          "icon": "👀",
+          "en": "LOOK — who needs help?",
+          "zh": "看一看——誰需要幫忙？"
+        },
+        {
+          "icon": "🤝",
+          "en": "HELP — hold out your hand",
+          "zh": "幫一幫——伸出你的手"
+        },
+        {
+          "icon": "😊",
+          "en": "SMILE — say “Are you OK?”",
+          "zh": "笑一笑——說「你還好嗎？」"
+        }
+      ]
+    },
+    {
+      "type": "standup",
+      "head_en": "Stand Up If…",
+      "head_zh": "如果是你，就站起來！",
+      "prompts": [
+        {
+          "en": "Stand up if a friend shared something with you today.",
+          "zh": "今天有朋友跟你分享東西的，站起來。"
+        },
+        {
+          "en": "Stay standing if you helped someone this week.",
+          "zh": "這個星期有幫過別人的，繼續站著。"
+        },
+        {
+          "en": "Stay standing if you said “thank you” or “are you OK?” today.",
+          "zh": "今天有說過「謝謝」或「你還好嗎」的，繼續站著。"
+        }
+      ],
+      "punch_en": "Kindness is already here at Siling. Let's make it grow!",
+      "punch_zh": "仁慈已經在西嶺了。我們讓它長得更大！"
+    },
+    {
+      "type": "sort",
+      "head_en": "Kind or Not Kind?",
+      "head_zh": "仁慈，還是不仁慈？",
+      "a_en": "KIND",
+      "a_zh": "仁慈",
+      "b_en": "NOT KIND",
+      "b_zh": "不仁慈",
+      "items": [
+        {
+          "icon": "☂️",
+          "en": "Sharing my umbrella",
+          "zh": "跟同學一起撐傘",
+          "a": "a"
+        },
+        {
+          "icon": "😆",
+          "en": "Laughing when someone falls",
+          "zh": "別人跌倒時笑他",
+          "a": "b"
+        },
+        {
+          "icon": "📚",
+          "en": "Picking up her books",
+          "zh": "幫她把書撿起來",
+          "a": "a"
+        },
+        {
+          "icon": "🚪",
+          "en": "Saying “You can't play”",
+          "zh": "說「你不能玩」",
+          "a": "b"
+        },
+        {
+          "icon": "🖍️",
+          "en": "Lending a crayon",
+          "zh": "借蠟筆給同學",
+          "a": "a"
+        },
+        {
+          "icon": "🙄",
+          "en": "Taking the last one first",
+          "zh": "搶走最後一個",
+          "a": "b"
+        },
+        {
+          "icon": "📣",
+          "en": "Cheering for a friend",
+          "zh": "幫朋友加油",
+          "a": "a"
+        },
+        {
+          "icon": "🌱",
+          "en": "Stepping on the flowers",
+          "zh": "踩花園裡的花",
+          "a": "b"
+        }
+      ],
+      "note_en": "Thumbs up for KIND, thumbs down for NOT KIND!",
+      "note_zh": "仁慈比讚，不仁慈比倒讚！"
+    },
+    {
+      "type": "quiz",
+      "n": 1,
+      "q_en": "It is raining. Your friend has no umbrella. What can you do?",
+      "q_zh": "下雨了，你的朋友沒有傘。你可以怎麼做？",
+      "options": [
+        {
+          "en": "Run away fast",
+          "zh": "趕快跑走"
+        },
+        {
+          "en": "Share my umbrella",
+          "zh": "跟他一起撐"
+        },
+        {
+          "en": "Laugh at him",
+          "zh": "笑他"
+        },
+        {
+          "en": "Say nothing",
+          "zh": "什麼都不說"
+        }
+      ],
+      "answer": 1,
+      "explain_en": "Share it! One umbrella keeps two friends dry.",
+      "explain_zh": "一起撐！一把傘，兩個朋友都不會淋濕。"
+    },
+    {
+      "type": "quiz",
+      "n": 2,
+      "q_en": "A classmate drops all her books. What is the kind thing to do?",
+      "q_zh": "同學的書全部掉在地上。怎麼做才是仁慈？",
+      "options": [
+        {
+          "en": "Help pick them up",
+          "zh": "幫忙撿起來"
+        },
+        {
+          "en": "Step over them",
+          "zh": "跨過去"
+        },
+        {
+          "en": "Tell her she is clumsy",
+          "zh": "說她笨手笨腳"
+        },
+        {
+          "en": "Just watch",
+          "zh": "在旁邊看"
+        }
+      ],
+      "answer": 0,
+      "explain_en": "Help! Many hands make the work light.",
+      "explain_zh": "幫忙撿！大家一起，事情就變輕鬆。"
+    },
+    {
+      "type": "topic",
+      "head_en": "A Kite Needs Two Friends",
+      "head_zh": "風箏需要兩個朋友",
+      "body_en": "One friend holds the string. One friend lets the kite go. Together, it goes up, up, up!",
+      "body_zh": "一個人拉線，一個人放手。兩個人一起，風箏就飛高高！",
+      "keywords": [
+        {
+          "en": "kite",
+          "zh": "風箏"
+        },
+        {
+          "en": "string",
+          "zh": "線"
+        },
+        {
+          "en": "together",
+          "zh": "一起"
+        },
+        {
+          "en": "up",
+          "zh": "往上"
+        }
+      ],
+      "img": "kind-kite-v"
+    },
+    {
+      "type": "quiz",
+      "n": 3,
+      "q_en": "How many people are inside one dancing lion?",
+      "q_zh": "一隻舞獅裡面，有幾個人？",
+      "options": [
+        {
+          "en": "One",
+          "zh": "一個"
+        },
+        {
+          "en": "Two",
+          "zh": "兩個"
+        },
+        {
+          "en": "Five",
+          "zh": "五個"
+        },
+        {
+          "en": "Ten",
+          "zh": "十個"
+        }
+      ],
+      "answer": 1,
+      "explain_en": "Two — the head and the tail! They must help each other every step.",
+      "explain_zh": "兩個——獅頭和獅尾！每一步都要互相幫忙。"
+    },
+    {
+      "type": "photo",
+      "head_en": "Kind to Every Living Thing",
+      "head_zh": "對每一個生命都仁慈",
+      "img": "siling-tortoise.jpg",
+      "icon": "🐢",
+      "ask_en": "Look — this is your school! Gentle hands and quiet voices. Being gentle with animals is kindness, too.",
+      "ask_zh": "看——這是你們的學校！輕輕的手、小小的聲音。溫柔對待動物，也是仁慈。"
+    },
+    {
+      "type": "truefalse",
+      "head_en": "True or False?",
+      "head_zh": "真的還假的？手比 ⭕ 或 ❌",
+      "items": [
+        {
+          "en": "Kindness is only for my best friends.",
+          "zh": "只要對好朋友仁慈就好。",
+          "answer": false,
+          "note_en": "Kindness is for everyone — new friends, too.",
+          "note_zh": "仁慈是給每一個人的——新朋友也是。"
+        },
+        {
+          "en": "A smile can be kindness.",
+          "zh": "一個微笑也可以是仁慈。",
+          "answer": true,
+          "note_en": "Yes! It is free, and it takes one second.",
+          "note_zh": "對！不用錢，而且只要一秒鐘。"
+        },
+        {
+          "en": "Taking care of our garden is kindness.",
+          "zh": "照顧我們的花園也是仁慈。",
+          "answer": true,
+          "note_en": "We are kind to places everyone shares.",
+          "note_zh": "大家共用的地方，我們也要愛護。"
+        },
+        {
+          "en": "Only big kids can be kind.",
+          "zh": "只有大哥哥大姊姊才能仁慈。",
+          "answer": false,
+          "note_en": "Anyone can be kind — even today!",
+          "note_zh": "每個人都可以——今天就可以！"
+        }
+      ]
+    },
+    {
+      "type": "phrases",
+      "head_en": "Say It With Me",
+      "head_zh": "跟著我唸",
+      "items": [
+        {
+          "en": "Are you OK?",
+          "zh": "你還好嗎？"
+        },
+        {
+          "en": "Can I help you?",
+          "zh": "我可以幫你嗎？"
+        },
+        {
+          "en": "Let's play together.",
+          "zh": "我們一起玩。"
+        },
+        {
+          "en": "Here, you can use mine.",
+          "zh": "來，你可以用我的。"
+        },
+        {
+          "en": "You can do it!",
+          "zh": "你做得到！"
+        }
+      ]
+    },
+    {
+      "type": "game",
+      "icon": "🎭",
+      "head_en": "Act It Out!",
+      "head_zh": "演演看！",
+      "rule_en": "Two friends act out a kind action — no talking! The class guesses in English.",
+      "rule_zh": "兩位同學演出一個仁慈的動作——不能說話！全班用英文猜。",
+      "hints": [
+        "share an umbrella 一起撐傘",
+        "pick up books 撿書",
+        "help a friend up 扶朋友起來",
+        "share a crayon 分享蠟筆",
+        "water the garden 幫花園澆水",
+        "cheer for a friend 幫朋友加油"
+      ],
+      "target_en": "Can we guess all six?",
+      "target_zh": "我們能猜對全部六個嗎？"
+    },
+    {
+      "type": "pairshare",
+      "head_en": "Turn and Tell Your Partner",
+      "head_zh": "轉過去，告訴你的同學",
+      "prompt_en": "What is one kind thing you can do at school?",
+      "prompt_zh": "在學校，你可以做的一件仁慈的事是什麼？",
+      "sentence_en": "I can ______.",
+      "sentence_zh": "我可以 ______。",
+      "time_en": "Thirty seconds each. Then I will ask two of you.",
+      "time_zh": "每人 30 秒。然後我會請兩位分享。"
+    },
+    {
+      "type": "video",
+      "head_en": "Dom on Kindness",
+      "head_zh": "Dom 談仁慈",
+      "yt": "9Lkvbd8x_GI",
+      "note_en": "Watch closely — what do the friends share at lunch?",
+      "note_zh": "仔細看——午餐時，朋友們分享了什麼？"
+    },
+    {
+      "type": "quiz",
+      "n": 4,
+      "q_en": "In Dom's cartoon, what did the friends share at lunch?",
+      "q_zh": "在 Dom 的動畫裡，午餐時朋友分享了什麼？",
+      "options": [
+        {
+          "en": "A phone",
+          "zh": "手機"
+        },
+        {
+          "en": "A clean spoon",
+          "zh": "一支乾淨的湯匙"
+        },
+        {
+          "en": "A hat",
+          "zh": "帽子"
+        },
+        {
+          "en": "A kite",
+          "zh": "風箏"
+        }
+      ],
+      "answer": 1,
+      "explain_en": "A clean spoon! Kindness can be very small — and still matter a lot.",
+      "explain_zh": "一支乾淨的湯匙！仁慈可以很小，卻很重要。"
+    },
+    {
+      "type": "action",
+      "head_en": "3 Kind Things to Do Today",
+      "head_zh": "今天就可以做的 3 件仁慈的事",
+      "items": [
+        {
+          "num": "1",
+          "en": "Invite someone to play with you.",
+          "zh": "邀請一位同學跟你一起玩。"
+        },
+        {
+          "num": "2",
+          "en": "Share something — a crayon, a snack, a smile.",
+          "zh": "分享一樣東西——蠟筆、點心，或一個微笑。"
+        },
+        {
+          "num": "3",
+          "en": "Tell a friend: “You can do it!”",
+          "zh": "跟朋友說：「你做得到！」"
+        }
+      ]
+    },
+    {
+      "type": "padlet",
+      "head_en": "Leave a Message for Dom",
+      "head_zh": "留言給 Dom",
+      "body_en": "Go to our School Tour page and find the Siling Elementary column. No sign-up, no login — tell Dom one kind thing you did.",
+      "body_zh": "到我們網站的 School Tour 頁面，找到西嶺國小那一欄，免註冊、免登入，告訴 Dom 你做的一件仁慈的事。",
+      "sentence_en": "Today I ______.",
+      "sentence_zh": "今天我 ______。",
+      "site": "mycultureconnect.org/dom-school-tour.html"
+    },
+    {
+      "type": "closing",
+      "big_en": "One kind act<br>starts the next one.",
+      "big_zh": "一個仁慈的舉動，會帶動下一個。",
+      "sign_en": "Thank you, Siling Elementary!",
+      "sign_zh": "謝謝西嶺國小！",
+      "img": "kind-closing"
+    }
+  ]
+}

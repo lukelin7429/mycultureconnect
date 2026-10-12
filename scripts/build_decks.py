@@ -227,6 +227,14 @@ def bi(en, zh, cls=""):
 
 
 # ---------------------------------------------------------------- slide types
+def badge(d):
+    """The round badge on the cover: the SDG number, or a heart for a
+    character-education deck that belongs to no single goal."""
+    if d.get("sdg"):
+        return f'<div class="hs-badge"><span>SDG</span><b>{e(d["sdg"])}</b></div>'
+    return '<div class="hs-badge hs-badge--char"><b>♥</b><span>CHARACTER</span></div>'
+
+
 def t_title(s, d):
     chips = "".join(bi(e(c["en"]), e(c["zh"]), "hs-chip") for c in s.get("chips", []))
     strip = "".join(
@@ -236,7 +244,7 @@ def t_title(s, d):
     acls, aimg = art(s)
     return f'''<div class="hs hs-title{acls}">{aimg}
   <div class="hs-titlerow">
-    <div class="hs-badge"><span>SDG</span><b>{e(d["sdg"])}</b></div>
+    {badge(d)}
     <div class="hs-titletext"><h2>{e(d["title_en"])}</h2><p class="hs-zh-big">{e(d["title"])}</p></div>
   </div>
   <div class="hs-rule"></div>
@@ -750,7 +758,7 @@ def library_page(decks):
         interactive = d.get("kind") != "image"
         if interactive:
             cover = (f'<span class="dc-cover" data-theme="{d.get("theme","amber")}">'
-                     f'<span class="dc-sdg">SDG {e(d["sdg"])}</span>'
+                     f'<span class="dc-sdg">{("SDG " + e(d["sdg"])) if d.get("sdg") else "♥ Character 品格"}</span>'
                      f'<span class="dc-en">{e(d["title_en"])}</span>'
                      f'<span class="dc-zh">{e(d["title"])}</span></span>')
             sub = f'{e(d["school_en"])} {e(d["school"])} · {e(d["date"])}'

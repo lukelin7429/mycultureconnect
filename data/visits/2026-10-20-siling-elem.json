@@ -1,0 +1,28 @@
+{
+  "slug": "2026-10-20-siling-elem",
+  "school": "西嶺國小",
+  "school_en": "Siling Elementary",
+  "date": "2026.10.20",
+  "weekday_zh": "星期二",
+  "weekday_en": "Tuesday",
+  "items": [
+    {
+      "time": "13:30 – 14:10",
+      "class": "Grades 5–6 五、六年級",
+      "label_en": "Character Education: Gratitude",
+      "label_zh": "品格教育：感恩",
+      "deck": "siling-elem-gratitude"
+    },
+    {
+      "time": "14:20 – 15:00",
+      "class": "Grades 3–4 三、四年級",
+      "label_en": "Character Education: Kindness",
+      "label_zh": "品格教育：仁慈",
+      "deck": "siling-elem-kindness",
+      "note_en": "A different group of students — and a different deck.",
+      "note_zh": "換一批學生、換一套簡報。"
+    }
+  ],
+  "footnote_en": "Two 40-minute classes with a 10-minute break between them. No principal interview and no campus tour on this visit — the principal is away that day.",
+  "footnote_zh": "兩節課各 40 分鐘，中間休息 10 分鐘。這次沒有校長採訪與校園導覽——校長當天出差。"
+}
