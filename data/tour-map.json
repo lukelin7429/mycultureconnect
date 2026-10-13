@@ -685,6 +685,26 @@
     }
    ],
    "visit": "2026-10-20-siling-elem"
+  },
+  {
+   "en": "Lu Ming Junior High",
+   "zh": "鹿鳴國中",
+   "town_zh": "鹿港鎮",
+   "town_en": "Lugang",
+   "lat": 24.0972555,
+   "lng": 120.4687654,
+   "dates": [
+    "2026.10.20"
+   ],
+   "year": "115",
+   "decks": [
+    {
+     "slug": "luming-jh-sdg5-gender-equality",
+     "title": "SDG 5 性別平等",
+     "title_en": "Gender Equality"
+    }
+   ],
+   "visit": "2026-10-20-luming-jh"
   }
  ]
 }

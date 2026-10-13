@@ -1,0 +1,609 @@
+{
+  "slug": "luming-jh-sdg5-gender-equality",
+  "school": "鹿鳴國中",
+  "school_en": "Lu Ming Junior High",
+  "date": "2026.10.20",
+  "year": "115",
+  "classes": "809・807",
+  "title": "SDG 5 性別平等",
+  "title_en": "Gender Equality",
+  "sdg": "5",
+  "theme": "amber",
+  "footer": "Teacher Dom · SDG #5 Gender Equality 性別平等",
+  "slides": [
+    {
+      "type": "title",
+      "eyebrow_en": "A Bilingual Lesson for Junior High Students",
+      "eyebrow_zh": "國中雙語課程",
+      "chips": [
+        {
+          "en": "What Is Fair?",
+          "zh": "什麼是公平"
+        },
+        {
+          "en": "Stereotypes",
+          "zh": "刻板印象"
+        },
+        {
+          "en": "Taiwan and the World",
+          "zh": "台灣與世界"
+        },
+        {
+          "en": "Our Actions",
+          "zh": "行動方案"
+        }
+      ],
+      "strip": [
+        {
+          "num": "17",
+          "en": "Global Goals — this is #5",
+          "zh": "項全球目標，這是第 5 項"
+        },
+        {
+          "num": "2016",
+          "en": "Taiwan elects its first woman president",
+          "zh": "年，台灣選出第一位女總統"
+        },
+        {
+          "num": "0",
+          "en": "jobs that are only for boys or only for girls",
+          "zh": "種工作只屬於男生或只屬於女生"
+        }
+      ],
+      "img": "luming-building.jpg"
+    },
+    {
+      "type": "intro",
+      "head_en": "Hello, I'm Dom!",
+      "head_zh": "大家好，我是 Dom！",
+      "lines": [
+        {
+          "en": "I grew up in Compton, California.",
+          "zh": "我在美國加州的 Compton 長大。"
+        },
+        {
+          "en": "This is my third year of teaching in Changhua.",
+          "zh": "這是我在彰化教書的第三年。"
+        },
+        {
+          "en": "I won the UNA 2024 Young Leader of the Year Award.",
+          "zh": "我獲得 2024 年聯合國協會青年領袖獎。"
+        }
+      ],
+      "ask_en": "Today's question: can anyone be anything? Let's find out.",
+      "ask_zh": "今天的問題：每個人都可以成為任何樣子嗎？我們一起找答案。"
+    },
+    {
+      "type": "map",
+      "head_en": "From California to Changhua",
+      "head_zh": "從加州到彰化",
+      "img": "map-usa-taiwan.svg",
+      "ask_en": "In both places, people used to say: “That is not for girls.” Is it still true today?",
+      "ask_zh": "這兩個地方，以前的人都說過：「那不是女生做的事。」現在還是這樣嗎？"
+    },
+    {
+      "type": "standup",
+      "head_en": "Stand Up If…",
+      "head_zh": "如果是你，就站起來！",
+      "prompts": [
+        {
+          "en": "Stand up if someone has told you “boys don't cry” or “girls can't do that.”",
+          "zh": "有人跟你說過「男生不能哭」或「女生做不到」的，站起來。"
+        },
+        {
+          "en": "Stand up if you do housework at home every week.",
+          "zh": "每個星期都會在家做家事的，站起來。"
+        },
+        {
+          "en": "Stand up if you already have a dream job in mind.",
+          "zh": "心裡已經有夢想工作的，站起來。"
+        }
+      ],
+      "punch_en": "Look around. Dreams and chores do not have a gender.",
+      "punch_zh": "看看四周。夢想和家事，都沒有性別。"
+    },
+    {
+      "type": "topic",
+      "head_en": "What Is SDG 5?",
+      "head_zh": "什麼是 SDG 5？",
+      "body_en": "In 2015, every country agreed on 17 Global Goals for 2030. Goal 5 is Gender Equality: girls and boys deserve the same rights, the same chances and the same respect.",
+      "body_zh": "2015 年，全世界所有國家訂下 17 項全球目標，要在 2030 年前達成。第 5 項是「性別平等」：女生和男生都應該有一樣的權利、一樣的機會、一樣的尊重。",
+      "keywords": [
+        {
+          "en": "equal",
+          "zh": "平等"
+        },
+        {
+          "en": "rights",
+          "zh": "權利"
+        },
+        {
+          "en": "chance",
+          "zh": "機會"
+        },
+        {
+          "en": "respect",
+          "zh": "尊重"
+        }
+      ],
+      "img": "sdg5-careers-v"
+    },
+    {
+      "type": "topic",
+      "head_en": "What Is a Stereotype?",
+      "head_zh": "什麼是刻板印象？",
+      "body_en": "A stereotype puts a whole group of people in one box: “Girls are bad at math.” “Boys don't cry.” But a box is too small for a real person.",
+      "body_zh": "刻板印象，就是把一整群人裝進同一個框框：「女生數學不好。」「男生不能哭。」但是一個框框，裝不下一個真實的人。",
+      "keywords": [
+        {
+          "en": "stereotype",
+          "zh": "刻板印象"
+        },
+        {
+          "en": "box",
+          "zh": "框框"
+        },
+        {
+          "en": "unfair",
+          "zh": "不公平"
+        },
+        {
+          "en": "choice",
+          "zh": "選擇"
+        }
+      ]
+    },
+    {
+      "type": "sort",
+      "head_en": "Fact or Stereotype?",
+      "head_zh": "事實，還是刻板印象？",
+      "a_en": "FACT",
+      "a_zh": "事實",
+      "b_en": "STEREOTYPE",
+      "b_zh": "刻板印象",
+      "items": [
+        {
+          "icon": "➗",
+          "en": "Girls are bad at math",
+          "zh": "女生數學不好",
+          "a": "b"
+        },
+        {
+          "icon": "🗳️",
+          "en": "Taiwan has had a woman president",
+          "zh": "台灣有過女總統",
+          "a": "a"
+        },
+        {
+          "icon": "😢",
+          "en": "Boys don't cry",
+          "zh": "男生不能哭",
+          "a": "b"
+        },
+        {
+          "icon": "✈️",
+          "en": "Women can be pilots",
+          "zh": "女生可以當機師",
+          "a": "a"
+        },
+        {
+          "icon": "🎀",
+          "en": "Pink is only for girls",
+          "zh": "粉紅色只屬於女生",
+          "a": "b"
+        },
+        {
+          "icon": "🩺",
+          "en": "Men can be nurses",
+          "zh": "男生可以當護理師",
+          "a": "a"
+        },
+        {
+          "icon": "🍳",
+          "en": "Cooking is a woman's job",
+          "zh": "煮飯是女人的事",
+          "a": "b"
+        },
+        {
+          "icon": "🥋",
+          "en": "Girls can do judo",
+          "zh": "女生可以練柔道",
+          "a": "a"
+        }
+      ],
+      "note_en": "Thumbs up for FACT, thumbs down for STEREOTYPE!",
+      "note_zh": "事實比讚，刻板印象比倒讚！"
+    },
+    {
+      "type": "quiz",
+      "n": 1,
+      "q_en": "A boy is hurt, and his father takes him to the hospital. The doctor says: “He is my son!” But the doctor is not his father. Who is the doctor?",
+      "q_zh": "一個男孩受傷了，爸爸送他到醫院。醫生說：「他是我兒子！」可是醫生不是他爸爸。醫生是誰？",
+      "options": [
+        {
+          "en": "His grandfather",
+          "zh": "他的爺爺"
+        },
+        {
+          "en": "His mother",
+          "zh": "他的媽媽"
+        },
+        {
+          "en": "His teacher",
+          "zh": "他的老師"
+        },
+        {
+          "en": "A robot",
+          "zh": "機器人"
+        }
+      ],
+      "answer": 1,
+      "explain_en": "His mother! If that surprised you, a stereotype was hiding in your head.",
+      "explain_zh": "是他的媽媽！如果你嚇一跳，表示有個刻板印象躲在你的腦袋裡。"
+    },
+    {
+      "type": "bigstat",
+      "num": "120 million",
+      "head_en": "girls around the world are not in school",
+      "head_zh": "全世界大約有 1 億 2,000 萬個女孩沒有上學",
+      "body_en": "Some must work. Some marry very young. Some are told that school is not for girls.",
+      "body_zh": "有的必須工作，有的很小就結婚，有的被告知「女生不用念書」。",
+      "ask_en": "What would you lose if you could not come to school?",
+      "ask_zh": "如果你不能來上學，你會失去什麼？"
+    },
+    {
+      "type": "quiz",
+      "n": 2,
+      "q_en": "At 15, she was shot for saying girls should go to school. At 17, she won the Nobel Peace Prize. Who is she?",
+      "q_zh": "15 歲時，她因為主張女孩應該上學而遭到槍擊；17 歲時，她得到諾貝爾和平獎。她是誰？",
+      "options": [
+        {
+          "en": "Malala Yousafzai",
+          "zh": "馬拉拉"
+        },
+        {
+          "en": "Greta Thunberg",
+          "zh": "格蕾塔・童貝里"
+        },
+        {
+          "en": "Marie Curie",
+          "zh": "居禮夫人"
+        },
+        {
+          "en": "Tsai Ing-wen",
+          "zh": "蔡英文"
+        }
+      ],
+      "answer": 0,
+      "explain_en": "Malala, from Pakistan. “One child, one teacher, one book and one pen can change the world.”",
+      "explain_zh": "來自巴基斯坦的馬拉拉。「一個孩子、一位老師、一本書、一支筆，就能改變世界。」"
+    },
+    {
+      "type": "topic",
+      "head_en": "Taiwan Leads the Way",
+      "head_zh": "台灣走在前面",
+      "body_en": "Taiwan elected its first woman president in 2016. Today women hold about 42% of the seats in our legislature — one of the highest shares in Asia.",
+      "body_zh": "台灣在 2016 年選出第一位女總統。現在立法院大約有 42% 的席次是女性——是亞洲最高的國家之一。",
+      "keywords": [
+        {
+          "en": "president",
+          "zh": "總統"
+        },
+        {
+          "en": "legislature",
+          "zh": "立法院"
+        },
+        {
+          "en": "vote",
+          "zh": "投票"
+        },
+        {
+          "en": "lead",
+          "zh": "領先"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "n": 3,
+      "q_en": "In Taiwan, when a man earns NT$100 an hour, about how much does a woman earn?",
+      "q_zh": "在台灣，男性每小時賺 100 元的時候，女性大約賺多少？",
+      "options": [
+        {
+          "en": "NT$100",
+          "zh": "100 元"
+        },
+        {
+          "en": "NT$95",
+          "zh": "95 元"
+        },
+        {
+          "en": "NT$84",
+          "zh": "84 元"
+        },
+        {
+          "en": "NT$60",
+          "zh": "60 元"
+        }
+      ],
+      "answer": 2,
+      "explain_en": "About NT$84. The gap is smaller than in Japan or Korea — but it is not zero yet.",
+      "explain_zh": "大約 84 元。差距比日本、韓國小——但還沒有變成零。"
+    },
+    {
+      "type": "topic",
+      "head_en": "Strong Women Are Not New in Lugang",
+      "head_zh": "在鹿港，強大的女性一點都不新鮮",
+      "body_en": "For hundreds of years, Lugang has honored Mazu — a young woman remembered for saving sailors at sea. And Li Ang, one of Taiwan's best-known writers, grew up right here.",
+      "body_zh": "幾百年來，鹿港人敬奉媽祖——一位因為拯救海上船員而被記得的年輕女子。台灣最知名的作家之一李昂，也是在鹿港長大的。",
+      "keywords": [
+        {
+          "en": "Mazu",
+          "zh": "媽祖"
+        },
+        {
+          "en": "brave",
+          "zh": "勇敢"
+        },
+        {
+          "en": "writer",
+          "zh": "作家"
+        },
+        {
+          "en": "hometown",
+          "zh": "家鄉"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "head_en": "True or False?",
+      "head_zh": "真的還假的？手比 ⭕ 或 ❌",
+      "items": [
+        {
+          "en": "Gender equality is only about girls.",
+          "zh": "性別平等只跟女生有關。",
+          "answer": false,
+          "note_en": "Boys get put in boxes too — like “boys don't cry.”",
+          "note_zh": "男生也會被裝進框框——像是「男生不能哭」。"
+        },
+        {
+          "en": "A U.S. law from 1972 says schools must give girls an equal chance in sports.",
+          "zh": "美國 1972 年有一條法律，規定學校要給女生平等的運動機會。",
+          "answer": true,
+          "note_en": "It is called Title IX. Before it, few girls played school sports.",
+          "note_zh": "叫做 Title IX。在那之前，很少女生能參加校隊。"
+        },
+        {
+          "en": "Housework is a skill everyone needs.",
+          "zh": "家事是每個人都需要的能力。",
+          "answer": true,
+          "note_en": "Yet worldwide, women do about 2.5 times more unpaid housework than men.",
+          "note_zh": "但全世界的女性，做的無酬家事大約是男性的 2.5 倍。"
+        },
+        {
+          "en": "Teasing a boy for being “like a girl” is just a joke.",
+          "zh": "笑一個男生「像女生」，只是開玩笑。",
+          "answer": false,
+          "note_en": "It tells everyone that being a girl is something bad.",
+          "note_zh": "這等於告訴大家：當女生是一件不好的事。"
+        }
+      ]
+    },
+    {
+      "type": "topic",
+      "head_en": "Play Like a Girl",
+      "head_zh": "像女生一樣上場",
+      "body_en": "Lu Ming trains judo, track and table tennis athletes. At the Paris 2024 Olympics, Lin Yu-ting won a boxing gold medal for Taiwan. Strong has no gender.",
+      "body_zh": "鹿鳴培養柔道、田徑和桌球選手。2024 年巴黎奧運，林郁婷為台灣拿下拳擊金牌。強壯，沒有性別。",
+      "keywords": [
+        {
+          "en": "athlete",
+          "zh": "運動員"
+        },
+        {
+          "en": "train",
+          "zh": "訓練"
+        },
+        {
+          "en": "gold medal",
+          "zh": "金牌"
+        },
+        {
+          "en": "strong",
+          "zh": "強壯"
+        }
+      ],
+      "img": "sdg5-judo-v"
+    },
+    {
+      "type": "phrases",
+      "head_en": "Say It With Me",
+      "head_zh": "跟著我唸",
+      "items": [
+        {
+          "en": "Anyone can do that.",
+          "zh": "誰都可以做。"
+        },
+        {
+          "en": "That's a stereotype.",
+          "zh": "那是刻板印象。"
+        },
+        {
+          "en": "Boys can cry. Girls can lead.",
+          "zh": "男生可以哭，女生可以領導。"
+        },
+        {
+          "en": "Don't put me in a box.",
+          "zh": "不要把我裝進框框。"
+        },
+        {
+          "en": "Equal chances for everyone.",
+          "zh": "每個人都有平等的機會。"
+        }
+      ]
+    },
+    {
+      "type": "game",
+      "icon": "⏱",
+      "head_en": "30-Second Challenge",
+      "head_zh": "30 秒挑戰",
+      "rule_en": "In 30 seconds, shout out as many JOBS in English as you can. I will count!",
+      "rule_zh": "30 秒內，用英文喊出越多「工作」越好，我來數！",
+      "hints": [
+        "engineer 工程師",
+        "nurse 護理師",
+        "pilot 機師",
+        "chef 廚師",
+        "firefighter 消防員",
+        "scientist 科學家",
+        "president 總統",
+        "coach 教練"
+      ],
+      "target_en": "Then tell me: which of these is only for men? (None!)",
+      "target_zh": "然後告訴我：哪一個只有男生能做？（一個都沒有！）"
+    },
+    {
+      "type": "pairshare",
+      "head_en": "Turn and Talk",
+      "head_zh": "兩人一組，說說看",
+      "prompt_en": "What is one thing people say is “only for boys” or “only for girls”? Do you agree?",
+      "prompt_zh": "有什麼事，大家說「只有男生」或「只有女生」才能做？你同意嗎？",
+      "sentence_en": "People say ______ is only for ______, but I think ______.",
+      "sentence_zh": "大家說 ______ 只屬於 ______，但我認為 ______。",
+      "time_en": "60 seconds — then 3 pairs share with the class.",
+      "time_zh": "60 秒，然後請 3 組跟全班分享。"
+    },
+    {
+      "type": "rank",
+      "head_en": "Which One Helps Most?",
+      "head_zh": "哪一個最有效？",
+      "sub_en": "Vote with your hands — 1, 2, 3, or 4 fingers.",
+      "sub_zh": "用手指投票——比 1、2、3 或 4。",
+      "items": [
+        {
+          "en": "Share the housework at home",
+          "zh": "在家分擔家事"
+        },
+        {
+          "en": "Don't laugh at “like a girl” jokes",
+          "zh": "不跟著笑「像女生」的玩笑"
+        },
+        {
+          "en": "Choose clubs and subjects by interest, not gender",
+          "zh": "依興趣選社團和科目，不看性別"
+        },
+        {
+          "en": "Cheer for girls' and boys' teams the same",
+          "zh": "女生隊和男生隊，一樣大聲加油"
+        }
+      ],
+      "reveal_en": "All four work. #2 is the hardest and the most powerful — it changes what the whole room thinks is okay.",
+      "reveal_zh": "四個都有效。第 2 個最難也最有力量——它會改變整個班認為「可以接受」的界線。"
+    },
+    {
+      "type": "video",
+      "head_en": "Be the Change",
+      "head_zh": "成為那個改變",
+      "yt": "otT9zA42dK0",
+      "note_en": "Watch — then tell me one word you remember.",
+      "note_zh": "看完之後，告訴我你記得的一個英文單字。"
+    },
+    {
+      "type": "action",
+      "head_en": "3 Things You Can Do This Week",
+      "head_zh": "這週你可以做的 3 件事",
+      "items": [
+        {
+          "num": "1",
+          "en": "Do one chore at home that you never do.",
+          "zh": "在家做一件你從來不做的家事。"
+        },
+        {
+          "num": "2",
+          "en": "When you hear “that's not for girls” — or boys — say: “Anyone can do that.”",
+          "zh": "聽到「那不是女生（或男生）做的」，就說：「誰都可以做。」"
+        },
+        {
+          "num": "3",
+          "en": "Choose by what you love, not by a box.",
+          "zh": "照你喜歡的選，不要照框框選。"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "n": 4,
+      "q_en": "In 1893, which country became the first to let women vote?",
+      "q_zh": "1893 年，哪一個國家最先讓女性投票？",
+      "options": [
+        {
+          "en": "The United States",
+          "zh": "美國"
+        },
+        {
+          "en": "New Zealand",
+          "zh": "紐西蘭"
+        },
+        {
+          "en": "Japan",
+          "zh": "日本"
+        },
+        {
+          "en": "France",
+          "zh": "法國"
+        }
+      ],
+      "answer": 1,
+      "explain_en": "New Zealand! Women in the U.S. waited until 1920, and in France until 1944.",
+      "explain_zh": "紐西蘭！美國女性等到 1920 年，法國等到 1944 年。",
+      "bonus": true
+    },
+    {
+      "type": "quiz",
+      "n": 5,
+      "q_en": "At the Paris 2024 Olympics, what share of the athlete places were for women?",
+      "q_zh": "2024 年巴黎奧運，選手名額有多少比例是給女性的？",
+      "options": [
+        {
+          "en": "10%",
+          "zh": "10%"
+        },
+        {
+          "en": "25%",
+          "zh": "25%"
+        },
+        {
+          "en": "50%",
+          "zh": "50%"
+        },
+        {
+          "en": "75%",
+          "zh": "75%"
+        }
+      ],
+      "answer": 2,
+      "explain_en": "Half — for the first time in history. In 1900, only 22 women competed.",
+      "explain_zh": "一半——史上第一次。1900 年，只有 22 位女性參賽。",
+      "bonus": true
+    },
+    {
+      "type": "padlet",
+      "head_en": "Leave a Message for Dom",
+      "head_zh": "留言給 Dom",
+      "body_en": "Go to our School Tour page and find the Lu Ming Junior High column. No sign-up, no login — just write your comment for Teacher Dom.",
+      "body_zh": "到我們網站的 School Tour 頁面，找到鹿鳴國中那一欄，免註冊、免登入，直接留言跟 Teacher Dom 互動。",
+      "site": "mycultureconnect.org/dom-school-tour.html",
+      "sentence_en": "Today I learned ______.",
+      "sentence_zh": "今天我學到 ______。"
+    },
+    {
+      "type": "closing",
+      "big_en": "Anyone can be<br>anything.",
+      "big_zh": "每個人，都可以成為任何樣子。",
+      "sign_en": "Thank you, Lu Ming Junior High!",
+      "sign_zh": "謝謝鹿鳴國中！",
+      "img": "sdg5-closing"
+    }
+  ]
+}

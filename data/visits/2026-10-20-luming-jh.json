@@ -1,0 +1,39 @@
+{
+  "slug": "2026-10-20-luming-jh",
+  "school": "鹿鳴國中",
+  "school_en": "Lu Ming Junior High",
+  "date": "2026.10.20",
+  "weekday_zh": "星期二",
+  "weekday_en": "Tuesday",
+  "items": [
+    {
+      "time": "09:20 – 10:05",
+      "label_en": "Principal interview",
+      "label_zh": "校長採訪",
+      "detail_en": "Period 2. An interview with Principal Li Chin-Jen.",
+      "detail_zh": "第二節，採訪李錦仁校長。",
+      "note_en": "For the Voices in Education series.",
+      "note_zh": "收錄於「教育之聲」校長專訪系列。"
+    },
+    {
+      "time": "10:15 – 11:00",
+      "class": "Class 809 八年九班",
+      "label_en": "SDG 5 Gender Equality",
+      "label_zh": "SDG 5 性別平等",
+      "deck": "luming-jh-sdg5-gender-equality",
+      "note_en": "Period 3.",
+      "note_zh": "第三節。"
+    },
+    {
+      "time": "11:10 – 11:55",
+      "class": "Class 807 八年七班",
+      "label_en": "SDG 5 Gender Equality",
+      "label_zh": "SDG 5 性別平等",
+      "deck": "luming-jh-sdg5-gender-equality",
+      "note_en": "Period 4. The same deck with a different class.",
+      "note_zh": "第四節。同一套簡報，換一個班。"
+    }
+  ],
+  "footnote_en": "Period 1 runs 8:25–9:10. Each period is 45 minutes with a 10-minute break.",
+  "footnote_zh": "第一節是 8:25–9:10。每節 45 分鐘，中間休息 10 分鐘。"
+}
