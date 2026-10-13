@@ -7,6 +7,11 @@
   "weekday_en": "Tuesday",
   "items": [
     {
+      "time": "09:10",
+      "label_en": "Arrive",
+      "label_zh": "抵達"
+    },
+    {
       "time": "09:20 – 10:05",
       "label_en": "Principal interview",
       "label_zh": "校長採訪",
@@ -34,6 +39,6 @@
       "note_zh": "第四節。同一套簡報，換一個班。"
     }
   ],
-  "footnote_en": "Period 1 runs 8:25–9:10. Each period is 45 minutes with a 10-minute break.",
-  "footnote_zh": "第一節是 8:25–9:10。每節 45 分鐘，中間休息 10 分鐘。"
+  "footnote_en": "Each period is 45 minutes with a 10-minute break.",
+  "footnote_zh": "每節 45 分鐘，中間休息 10 分鐘。"
 }
