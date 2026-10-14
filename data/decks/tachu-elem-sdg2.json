@@ -70,8 +70,8 @@
           "zh": "今天我們要談食物，還有那些沒有食物的人。"
         }
       ],
-      "ask_en": "Hands up: who helped plant or harvest rice at Tachu?",
-      "ask_zh": "舉手：誰在大竹種過稻子或收割過？"
+      "ask_en": "Hands up: who ate rice yesterday?",
+      "ask_zh": "舉手：誰昨天有吃飯？"
     },
     {
       "type": "map",
@@ -157,8 +157,8 @@
     {
       "type": "quiz",
       "n": 2,
-      "q_en": "You grow rice in your school garden. About how long does rice take from planting to harvest?",
-      "q_zh": "你們在學校種稻。從插秧到收割，大約要多久？",
+      "q_en": "About how long does rice take to grow, from planting to harvest?",
+      "q_zh": "稻子從插秧到收割，大約要多久？",
       "options": [
         {
           "en": "One week",
@@ -513,5 +513,41 @@
       "sign_zh": "謝謝大竹國小！",
       "img": "sdg2-closing"
     }
-  ]
+  ],
+  "preview": {
+    "words": [
+      {
+        "en": "food",
+        "zh": "食物"
+      },
+      {
+        "en": "hungry",
+        "zh": "餓"
+      },
+      {
+        "en": "rice",
+        "zh": "米飯"
+      },
+      {
+        "en": "vegetable",
+        "zh": "蔬菜"
+      },
+      {
+        "en": "lunch",
+        "zh": "午餐"
+      },
+      {
+        "en": "finish",
+        "zh": "吃完"
+      },
+      {
+        "en": "throw away",
+        "zh": "丟掉"
+      },
+      {
+        "en": "grow",
+        "zh": "種植"
+      }
+    ]
+  }
 }

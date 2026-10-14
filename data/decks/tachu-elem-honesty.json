@@ -503,5 +503,41 @@
       "sign_zh": "謝謝大竹國小！",
       "img": "honesty-closing"
     }
-  ]
+  ],
+  "preview": {
+    "words": [
+      {
+        "en": "honest",
+        "zh": "誠實的"
+      },
+      {
+        "en": "honesty",
+        "zh": "誠實"
+      },
+      {
+        "en": "lie",
+        "zh": "謊言"
+      },
+      {
+        "en": "courage",
+        "zh": "勇氣"
+      },
+      {
+        "en": "brave",
+        "zh": "勇敢"
+      },
+      {
+        "en": "promise",
+        "zh": "約定"
+      },
+      {
+        "en": "return",
+        "zh": "歸還"
+      },
+      {
+        "en": "idea",
+        "zh": "點子"
+      }
+    ]
+  }
 }
