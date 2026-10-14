@@ -17,8 +17,8 @@
   var MIN = 0.7, MAX = 2.2;
   /* layouts where growing forever would not "overflow", it would just swallow
      the picture or the video — so they get a ceiling of their own */
-  /* a photo can lose its lower third to a caption; the world map cannot — its labels are down there */
-  var CAP = { 'hs-map--photo': 1.3, 'hs-map': 1.1, 'hs-video': 1.5, 'hs-title': 1.8, 'hs-closing': 1.6, 'hs-bigstat': 1.6 };
+  /* a photo may give up to a third of the slide to its caption; the world map is limited by its labels instead (placePicture) */
+  var CAP = { 'hs-map--photo': 1.3, 'hs-map': 1.5, 'hs-video': 1.5, 'hs-title': 1.8, 'hs-closing': 1.6, 'hs-bigstat': 1.6 };
   var CAP_ORDER = ['hs-map--photo', 'hs-map', 'hs-video', 'hs-title', 'hs-closing', 'hs-bigstat'];
   var REVEAL = '[data-reveal-group], .hs-tf, .hs-hintbtn, .hs-sortitem';
   var SKIP = '.hs-art, .hs-mapimg, .hs-school';
@@ -28,7 +28,31 @@
     return '';
   }
 
+  /* A picture slide: the caption has its own row, the picture fills what is left
+     above it. When part of the picture must stay visible (data-keep: the map's
+     pins and labels), slide the picture so that part sits between the heading
+     and the caption — and report "does not fit" when there is no room for it. */
+  function placePicture(hs) {
+    var keep = hs.getAttribute('data-keep');
+    var box = hs.querySelector('.hs-mapimg'), img = box && box.querySelector('img');
+    if (!keep || !img) return true;
+    var f = keep.split(','), top = +f[0], bottom = +f[1];
+    var B = box.clientHeight, W = box.clientWidth;
+    var ratio = (img.naturalWidth && img.naturalHeight) ? img.naturalHeight / img.naturalWidth : 9 / 16;
+    var I = Math.max(B, W * ratio);                       /* the picture's drawn height (cover) */
+    var head = hs.querySelector('.hs-head');
+    var scale = hs.getBoundingClientRect().width / hs.offsetWidth || 1;
+    var free = head ? (head.getBoundingClientRect().bottom - hs.getBoundingClientRect().top) / scale + 8 : 0;
+    var need = (bottom - top) * I;
+    if (I <= B) { box.style.setProperty('--map-y', '50%'); return need <= B - free; }
+    var want = (free + B) / 2 - (top + bottom) / 2 * I;   /* the picture's offset that centers the band */
+    var y = Math.min(0, Math.max(B - I, want));
+    box.style.setProperty('--map-y', (y / (B - I) * 100).toFixed(1) + '%');
+    return need <= B - free && top * I + y >= free - 1 && bottom * I + y <= B + 1;
+  }
+
   function clipped(hs) {
+    if (!placePicture(hs)) return true;
     if (hs.scrollHeight > hs.clientHeight + 1 || hs.scrollWidth > hs.clientWidth + 1) return true;
     var cs = getComputedStyle(hs), box = hs.getBoundingClientRect();
     var scale = box.width / hs.offsetWidth || 1;                 // the canvas is itself scaled to the stage

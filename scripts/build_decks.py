@@ -422,11 +422,18 @@ def t_padlet(s, d):
 </div>'''
 
 
+MAP_BANDS = {"map-usa-taiwan.svg": (0.32, 0.80)}
+
+
 def t_map(s, d, icon="🌏"):
     """Full-bleed map: the heading and the question sit on top of it, so none of
     the slide is wasted on letterbox bars beside a contained image."""
     photo = "" if s["img"].endswith(".svg") else " hs-map--photo"
-    return f'''<div class="hs hs-map{photo}">
+    # the part of the picture that must stay in view (top, bottom, as shares of
+    # its height): on the world map, the two pins and their labels
+    band = MAP_BANDS.get(s["img"])
+    keep = f' data-keep="{band[0]},{band[1]}"' if band else ""
+    return f'''<div class="hs hs-map{photo}"{keep}>
   <div class="hs-mapimg">{picture(s["img"])}</div>
   <h3 class="hs-head">{e(s["head_en"])}<span>{e(s["head_zh"])}</span></h3>
   <div class="hs-ask">{e(s.get("icon", icon))} {bi(e(s["ask_en"]), e(s["ask_zh"]))}</div>
