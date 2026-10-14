@@ -28,8 +28,8 @@
           "zh": "把事情處理好"
         },
         {
-          "en": "Honest with the Ocean",
-          "zh": "對海洋誠實"
+          "en": "Build Trust",
+          "zh": "建立信任"
         }
       ],
       "strip": [
@@ -44,9 +44,9 @@
           "zh": "個謊言，就能打破很多信任"
         },
         {
-          "num": "14",
-          "en": "Global Goal 14: Life Below Water",
-          "zh": "全球目標 14：水下生命"
+          "num": "8",
+          "en": "honest moments in Dom's cartoon",
+          "zh": "個誠實的時刻，在 Dom 的動畫裡"
         }
       ],
       "img": "tachu-gate.jpg"
@@ -400,90 +400,57 @@
       ]
     },
     {
-      "type": "topic",
-      "head_en": "One More Thing: Honest with the Ocean",
-      "head_zh": "還有一件事：對海洋誠實",
-      "body_en": "Honesty is not only words. It also means we do not pretend we cannot see. So let's be honest: where does my trash really go?",
-      "body_zh": "誠實不只是說話，也是不假裝沒看見。所以我們誠實地問：我丟掉的垃圾，到底去了哪裡？",
-      "keywords": [
+      "type": "card",
+      "head_en": "Our Class Promise",
+      "head_zh": "我們班的約定",
+      "lines": [
         {
-          "en": "ocean",
-          "zh": "海洋"
+          "en": "We tell the truth, even when it is hard.",
+          "zh": "就算很難，我們也說實話。"
         },
         {
-          "en": "plastic",
-          "zh": "塑膠"
+          "en": "We play fair and follow the rules.",
+          "zh": "我們公平地玩、遵守規則。"
         },
         {
-          "en": "trash",
-          "zh": "垃圾"
+          "en": "We do our own work.",
+          "zh": "我們自己完成作業。"
         },
         {
-          "en": "responsible",
-          "zh": "負責"
+          "en": "When something goes wrong, we help make it right.",
+          "zh": "事情出錯時，我們幫忙把它處理好。"
         }
       ],
-      "img": "sdg14-plastic-v"
+      "tip_en": "Read it out loud together — then seal it with a high five!",
+      "tip_zh": "一起大聲唸出來——然後擊掌為約！"
     },
     {
       "type": "quiz",
       "n": 5,
-      "q_en": "A plastic bottle is dropped near a ditch in Changhua. Where can it end up?",
-      "q_zh": "一個寶特瓶被丟在彰化的水溝邊。它最後可能到哪裡？",
+      "bonus": true,
+      "q_en": "In English, a small lie told to be polite has a color in its name. Which color?",
+      "q_zh": "英文裡，為了禮貌而說的小謊，名字裡有一個顏色。是哪個顏色？",
       "options": [
         {
-          "en": "It disappears",
-          "zh": "它會消失"
+          "en": "A red lie",
+          "zh": "紅色的謊"
         },
         {
-          "en": "In the ocean",
-          "zh": "在海裡"
+          "en": "A white lie",
+          "zh": "白色的謊"
         },
         {
-          "en": "On the moon",
-          "zh": "在月球上"
+          "en": "A blue lie",
+          "zh": "藍色的謊"
         },
         {
-          "en": "Back in the shop",
-          "zh": "回到商店"
+          "en": "A green lie",
+          "zh": "綠色的謊"
         }
       ],
       "answer": 1,
-      "explain_en": "The ocean. Ditches join rivers, and rivers reach the sea — where Changhua's rare white dolphins live.",
-      "explain_zh": "海裡。水溝接到河，河流到海——那裡住著彰化外海稀有的白海豚。"
-    },
-    {
-      "type": "video",
-      "head_en": "Dom on Life Below Water",
-      "head_zh": "Dom 談水下生命",
-      "yt": "d52PCyPWge8",
-      "note_en": "SDG 14 in one minute. What can YOU do for the ocean?",
-      "note_zh": "一分鐘認識 SDG 14。「你」可以為海洋做什麼？"
-    },
-    {
-      "type": "card",
-      "head_en": "My Honest Promise to the Ocean",
-      "head_zh": "我對海洋的誠實約定",
-      "lines": [
-        {
-          "en": "I put my trash where it belongs.",
-          "zh": "我把垃圾丟到該丟的地方。"
-        },
-        {
-          "en": "I bring my own bottle.",
-          "zh": "我自己帶水壺。"
-        },
-        {
-          "en": "If I see it, I pick it up.",
-          "zh": "看到垃圾，我就撿起來。"
-        },
-        {
-          "en": "I do not pretend I did not see.",
-          "zh": "我不假裝沒看見。"
-        }
-      ],
-      "tip_en": "Read it out loud together!",
-      "tip_zh": "一起大聲唸出來！"
+      "explain_en": "A “white lie.” But even a white lie is still a lie — kind AND true is better.",
+      "explain_zh": "叫做 white lie（善意的謊言）。但它還是謊言——善良又真實，才是更好的選擇。"
     },
     {
       "type": "padlet",
