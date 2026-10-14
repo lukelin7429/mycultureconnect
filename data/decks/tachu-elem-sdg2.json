@@ -547,6 +547,52 @@
       {
         "en": "grow",
         "zh": "種植"
+      },
+      {
+        "en": "tray",
+        "zh": "餐盤"
+      },
+      {
+        "en": "leftovers",
+        "zh": "剩菜"
+      },
+      {
+        "en": "healthy",
+        "zh": "健康的"
+      },
+      {
+        "en": "farmer",
+        "zh": "農夫"
+      }
+    ],
+    "read": [
+      {
+        "en": "Food gives us energy to learn, run and play.",
+        "zh": "食物給我們學習、跑步和玩耍的力量。"
+      },
+      {
+        "en": "But some children around the world do not have enough to eat.",
+        "zh": "但是世界上有些孩子，沒有足夠的食物。"
+      },
+      {
+        "en": "Every day, a lot of good food is thrown away.",
+        "zh": "每一天，都有很多還能吃的食物被丟掉。"
+      },
+      {
+        "en": "We can take only what we can finish.",
+        "zh": "我們可以只拿自己吃得完的份量。"
+      },
+      {
+        "en": "We can share with people who need it.",
+        "zh": "我們可以分享給需要的人。"
+      },
+      {
+        "en": "When we waste less, there is more for everyone.",
+        "zh": "浪費得越少，大家就有越多。"
+      },
+      {
+        "en": "Small actions make a big change. Let's work for Zero Hunger!",
+        "zh": "小行動，大改變。一起為消除飢餓努力！"
       }
     ]
   }
