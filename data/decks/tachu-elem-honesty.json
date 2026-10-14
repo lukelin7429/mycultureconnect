@@ -1,0 +1,507 @@
+{
+  "slug": "tachu-elem-honesty",
+  "school": "大竹國小",
+  "school_en": "Tachu Elementary",
+  "date": "2026.12.08",
+  "year": "115",
+  "classes": "Class 6-2 六年二班",
+  "title": "品格教育：誠實",
+  "title_en": "Honesty",
+  "theme": "violet",
+  "footer": "Teacher Dom · Character Education: Honesty 品格教育：誠實",
+  "slides": [
+    {
+      "type": "title",
+      "eyebrow_en": "Character Education with Teacher Dom",
+      "eyebrow_zh": "跟 Dom 老師上品格教育",
+      "chips": [
+        {
+          "en": "Tell the Truth",
+          "zh": "說實話"
+        },
+        {
+          "en": "Play Fair",
+          "zh": "公平地玩"
+        },
+        {
+          "en": "Make It Right",
+          "zh": "把事情處理好"
+        },
+        {
+          "en": "Honest with the Ocean",
+          "zh": "對海洋誠實"
+        }
+      ],
+      "strip": [
+        {
+          "num": "3",
+          "en": "words that take courage: “It was me.”",
+          "zh": "個需要勇氣的字：「是我做的。」"
+        },
+        {
+          "num": "1",
+          "en": "lie can break a lot of trust",
+          "zh": "個謊言，就能打破很多信任"
+        },
+        {
+          "num": "14",
+          "en": "Global Goal 14: Life Below Water",
+          "zh": "全球目標 14：水下生命"
+        }
+      ],
+      "img": "tachu-gate.jpg"
+    },
+    {
+      "type": "intro",
+      "head_en": "Hello! I am Dom.",
+      "head_zh": "哈囉！我是 Dom。",
+      "lines": [
+        {
+          "en": "I come from California, USA.",
+          "zh": "我從美國加州來。"
+        },
+        {
+          "en": "I have been teaching students in Taiwan for a couple of years.",
+          "zh": "我在台灣教學生已經有幾年了。"
+        },
+        {
+          "en": "Today's word is honesty.",
+          "zh": "今天的關鍵字是：誠實。"
+        }
+      ],
+      "ask_en": "Hands up: who has ever told a tiny lie?",
+      "ask_zh": "舉手：誰曾經說過一個小小的謊？"
+    },
+    {
+      "type": "map",
+      "head_en": "From California to Changhua",
+      "head_zh": "從加州到彰化",
+      "img": "map-usa-taiwan.svg",
+      "ask_en": "In English we say: “Honesty is the best policy.” Is there a saying like that in Chinese?",
+      "ask_zh": "英文有一句話：「誠實為上策。」中文有沒有類似的說法？"
+    },
+    {
+      "type": "topic",
+      "head_en": "What Is Honesty?",
+      "head_zh": "什麼是誠實？",
+      "body_en": "Honesty means telling the truth — even when we make a mistake, and even when no one is watching.",
+      "body_zh": "誠實就是說實話——就算自己做錯了，就算沒有人在看。",
+      "keywords": [
+        {
+          "en": "truth",
+          "zh": "實話"
+        },
+        {
+          "en": "mistake",
+          "zh": "錯誤"
+        },
+        {
+          "en": "fair",
+          "zh": "公平"
+        },
+        {
+          "en": "trust",
+          "zh": "信任"
+        }
+      ],
+      "img": "honesty-spill-v"
+    },
+    {
+      "type": "standup",
+      "head_en": "Stand Up If…",
+      "head_zh": "如果是你，就站起來！",
+      "prompts": [
+        {
+          "en": "Stand up if you have ever broken something by accident.",
+          "zh": "曾經不小心弄壞東西的，站起來。"
+        },
+        {
+          "en": "Stand up if it was hard to say “It was me.”",
+          "zh": "覺得說出「是我做的」很難的，站起來。"
+        },
+        {
+          "en": "Stand up if you felt better after you told the truth.",
+          "zh": "說了實話之後覺得比較輕鬆的，站起來。"
+        }
+      ],
+      "punch_en": "Telling the truth takes courage. That is why it matters.",
+      "punch_zh": "說實話需要勇氣。所以它才重要。"
+    },
+    {
+      "type": "sort",
+      "head_en": "Honest or Not Honest?",
+      "head_zh": "誠實，還是不誠實？",
+      "a_en": "HONEST",
+      "a_zh": "誠實",
+      "b_en": "NOT HONEST",
+      "b_zh": "不誠實",
+      "items": [
+        {
+          "icon": "🙋",
+          "en": "Saying “I broke it. I'm sorry.”",
+          "zh": "說「是我弄壞的，對不起。」",
+          "a": "a"
+        },
+        {
+          "icon": "📝",
+          "en": "Copying a friend's homework",
+          "zh": "抄同學的作業",
+          "a": "b"
+        },
+        {
+          "icon": "👛",
+          "en": "Returning a lost wallet",
+          "zh": "把撿到的錢包還回去",
+          "a": "a"
+        },
+        {
+          "icon": "🔢",
+          "en": "Changing the score when you lose",
+          "zh": "輸的時候偷改分數",
+          "a": "b"
+        },
+        {
+          "icon": "💡",
+          "en": "Saying “That was her idea.”",
+          "zh": "說「那是她的點子。」",
+          "a": "a"
+        },
+        {
+          "icon": "🫣",
+          "en": "Hiding a broken cup",
+          "zh": "把打破的杯子藏起來",
+          "a": "b"
+        },
+        {
+          "icon": "🤷",
+          "en": "Saying “I don't know” when you don't",
+          "zh": "不會的時候說「我不知道」",
+          "a": "a"
+        },
+        {
+          "icon": "👉",
+          "en": "Blaming your little brother",
+          "zh": "怪到弟弟身上",
+          "a": "b"
+        }
+      ],
+      "note_en": "Thumbs up for HONEST, thumbs down for NOT HONEST!",
+      "note_zh": "誠實比讚，不誠實比倒讚！"
+    },
+    {
+      "type": "quiz",
+      "n": 1,
+      "q_en": "You find NT$100 on the playground. Nobody saw you. What do you do?",
+      "q_zh": "你在操場撿到 100 元，沒有人看到。你會怎麼做？",
+      "options": [
+        {
+          "en": "Keep it — finders keepers",
+          "zh": "留著，撿到就是我的"
+        },
+        {
+          "en": "Take it to a teacher",
+          "zh": "拿去交給老師"
+        },
+        {
+          "en": "Buy snacks for my friends",
+          "zh": "買零食請朋友"
+        },
+        {
+          "en": "Leave it on the ground",
+          "zh": "放回地上不管它"
+        }
+      ],
+      "answer": 1,
+      "explain_en": "Take it to a teacher. Honesty is what you do when no one is watching.",
+      "explain_zh": "交給老師。沒有人在看的時候你怎麼做，才是誠實。"
+    },
+    {
+      "type": "quiz",
+      "n": 2,
+      "q_en": "Your team scores the winning point — but you saw the ball go out. What does honesty look like?",
+      "q_zh": "你們這隊拿下致勝的一分——但你看到球出界了。誠實的做法是什麼？",
+      "options": [
+        {
+          "en": "Say nothing and celebrate",
+          "zh": "什麼都不說，開心慶祝"
+        },
+        {
+          "en": "Tell the referee it was out",
+          "zh": "告訴裁判球出界了"
+        },
+        {
+          "en": "Blame the other team",
+          "zh": "怪對方"
+        },
+        {
+          "en": "Tell a friend later",
+          "zh": "之後再偷偷跟朋友說"
+        }
+      ],
+      "answer": 1,
+      "explain_en": "Tell the referee. A win you did not earn is not really a win.",
+      "explain_zh": "告訴裁判。不是自己贏來的勝利，不算真的贏。"
+    },
+    {
+      "type": "quiz",
+      "n": 3,
+      "q_en": "A boy shouts “Wolf!” for fun — twice. The third time, a real wolf comes. What happens?",
+      "q_zh": "一個男孩喊「狼來了！」喊著玩——喊了兩次。第三次，狼真的來了。結果呢？",
+      "options": [
+        {
+          "en": "Everyone runs to help",
+          "zh": "大家都跑來幫忙"
+        },
+        {
+          "en": "Nobody believes him",
+          "zh": "沒有人相信他"
+        },
+        {
+          "en": "The wolf runs away",
+          "zh": "狼自己跑掉了"
+        },
+        {
+          "en": "He wins a prize",
+          "zh": "他得了獎"
+        }
+      ],
+      "answer": 1,
+      "explain_en": "Nobody believes him. Every lie spends a little trust — and trust is hard to earn back.",
+      "explain_zh": "沒有人相信他。每說一次謊，就花掉一點信任——而信任很難賺回來。"
+    },
+    {
+      "type": "truefalse",
+      "head_en": "True or False?",
+      "head_zh": "真的還假的？手比 ⭕ 或 ❌",
+      "items": [
+        {
+          "en": "A small lie is OK if nobody finds out.",
+          "zh": "小小的謊，只要沒人發現就沒關係。",
+          "answer": false,
+          "note_en": "YOU know. And small lies grow.",
+          "note_zh": "你自己知道。而且小謊會越變越大。"
+        },
+        {
+          "en": "Being honest means saying every unkind thing you think.",
+          "zh": "誠實就是把心裡每一句不好聽的話都說出來。",
+          "answer": false,
+          "note_en": "Be honest AND kind: choose true words that help.",
+          "note_zh": "誠實，也要善良：選擇真實又有幫助的話。"
+        },
+        {
+          "en": "Saying “I don't know” is honest.",
+          "zh": "說「我不知道」是誠實的。",
+          "answer": true,
+          "note_en": "Yes — and it is where learning starts.",
+          "note_zh": "對——而且學習就是從這裡開始的。"
+        },
+        {
+          "en": "Doing your own work is part of honesty.",
+          "zh": "自己完成作業，也是誠實的一部分。",
+          "answer": true,
+          "note_en": "Your work should show what YOU really know.",
+          "note_zh": "作業應該呈現「你」真正會的。"
+        }
+      ]
+    },
+    {
+      "type": "phrases",
+      "head_en": "Say It With Me",
+      "head_zh": "跟著我唸",
+      "items": [
+        {
+          "en": "It was me. I'm sorry.",
+          "zh": "是我做的，對不起。"
+        },
+        {
+          "en": "I made a mistake.",
+          "zh": "我做錯了。"
+        },
+        {
+          "en": "To be honest, …",
+          "zh": "老實說……"
+        },
+        {
+          "en": "That was her idea.",
+          "zh": "那是她的點子。"
+        },
+        {
+          "en": "Let me make it right.",
+          "zh": "讓我把它處理好。"
+        }
+      ]
+    },
+    {
+      "type": "pairshare",
+      "head_en": "Turn and Tell Your Partner",
+      "head_zh": "轉過去，告訴你的同學",
+      "prompt_en": "When is it hard to tell the truth?",
+      "prompt_zh": "什麼時候說實話很難？",
+      "sentence_en": "It is hard to be honest when ______.",
+      "sentence_zh": "當 ______ 的時候，要誠實很難。",
+      "time_en": "One minute each. Then I will ask two of you.",
+      "time_zh": "每人一分鐘。然後我會請兩位分享。"
+    },
+    {
+      "type": "video",
+      "head_en": "Dom on Honesty",
+      "head_zh": "Dom 談誠實",
+      "yt": "eZIfSZBYJ4I",
+      "note_en": "Watch closely — what gets spilled at the start?",
+      "note_zh": "仔細看——一開始打翻了什麼？"
+    },
+    {
+      "type": "quiz",
+      "n": 4,
+      "q_en": "In Dom's cartoon, what was spilled?",
+      "q_zh": "在 Dom 的動畫裡，打翻的是什麼？",
+      "options": [
+        {
+          "en": "Milk",
+          "zh": "牛奶"
+        },
+        {
+          "en": "Paint",
+          "zh": "顏料"
+        },
+        {
+          "en": "Soup",
+          "zh": "湯"
+        },
+        {
+          "en": "Water",
+          "zh": "水"
+        }
+      ],
+      "answer": 1,
+      "explain_en": "Paint! And the student was brave enough to say what happened.",
+      "explain_zh": "顏料！而且那位同學勇敢地說出發生了什麼事。"
+    },
+    {
+      "type": "action",
+      "head_en": "3 Honest Things to Do This Week",
+      "head_zh": "這週可以做的 3 件誠實的事",
+      "items": [
+        {
+          "num": "1",
+          "en": "When you make a mistake, say “It was me” right away.",
+          "zh": "做錯事的時候，馬上說「是我做的」。"
+        },
+        {
+          "num": "2",
+          "en": "Do your own work — even when it is hard.",
+          "zh": "自己完成作業——就算很難。"
+        },
+        {
+          "num": "3",
+          "en": "Give credit: “That was ______'s idea.”",
+          "zh": "把功勞歸給對的人：「那是 ______ 的點子。」"
+        }
+      ]
+    },
+    {
+      "type": "topic",
+      "head_en": "One More Thing: Honest with the Ocean",
+      "head_zh": "還有一件事：對海洋誠實",
+      "body_en": "Honesty is not only words. It also means we do not pretend we cannot see. So let's be honest: where does my trash really go?",
+      "body_zh": "誠實不只是說話，也是不假裝沒看見。所以我們誠實地問：我丟掉的垃圾，到底去了哪裡？",
+      "keywords": [
+        {
+          "en": "ocean",
+          "zh": "海洋"
+        },
+        {
+          "en": "plastic",
+          "zh": "塑膠"
+        },
+        {
+          "en": "trash",
+          "zh": "垃圾"
+        },
+        {
+          "en": "responsible",
+          "zh": "負責"
+        }
+      ],
+      "img": "sdg14-plastic-v"
+    },
+    {
+      "type": "quiz",
+      "n": 5,
+      "q_en": "A plastic bottle is dropped near a ditch in Changhua. Where can it end up?",
+      "q_zh": "一個寶特瓶被丟在彰化的水溝邊。它最後可能到哪裡？",
+      "options": [
+        {
+          "en": "It disappears",
+          "zh": "它會消失"
+        },
+        {
+          "en": "In the ocean",
+          "zh": "在海裡"
+        },
+        {
+          "en": "On the moon",
+          "zh": "在月球上"
+        },
+        {
+          "en": "Back in the shop",
+          "zh": "回到商店"
+        }
+      ],
+      "answer": 1,
+      "explain_en": "The ocean. Ditches join rivers, and rivers reach the sea — where Changhua's rare white dolphins live.",
+      "explain_zh": "海裡。水溝接到河，河流到海——那裡住著彰化外海稀有的白海豚。"
+    },
+    {
+      "type": "video",
+      "head_en": "Dom on Life Below Water",
+      "head_zh": "Dom 談水下生命",
+      "yt": "d52PCyPWge8",
+      "note_en": "SDG 14 in one minute. What can YOU do for the ocean?",
+      "note_zh": "一分鐘認識 SDG 14。「你」可以為海洋做什麼？"
+    },
+    {
+      "type": "card",
+      "head_en": "My Honest Promise to the Ocean",
+      "head_zh": "我對海洋的誠實約定",
+      "lines": [
+        {
+          "en": "I put my trash where it belongs.",
+          "zh": "我把垃圾丟到該丟的地方。"
+        },
+        {
+          "en": "I bring my own bottle.",
+          "zh": "我自己帶水壺。"
+        },
+        {
+          "en": "If I see it, I pick it up.",
+          "zh": "看到垃圾，我就撿起來。"
+        },
+        {
+          "en": "I do not pretend I did not see.",
+          "zh": "我不假裝沒看見。"
+        }
+      ],
+      "tip_en": "Read it out loud together!",
+      "tip_zh": "一起大聲唸出來！"
+    },
+    {
+      "type": "padlet",
+      "head_en": "Leave a Message for Dom",
+      "head_zh": "留言給 Dom",
+      "body_en": "Go to our School Tour page and find the Tachu Elementary column. No sign-up, no login — just write your comment for Teacher Dom.",
+      "body_zh": "到我們網站的 School Tour 頁面，找到大竹國小那一欄，免註冊、免登入，直接留言跟 Teacher Dom 互動。",
+      "sentence_en": "To be honest, I ______.",
+      "sentence_zh": "老實說，我 ______。",
+      "site": "mycultureconnect.org/dom-school-tour.html"
+    },
+    {
+      "type": "closing",
+      "big_en": "Be brave. Be fair.<br>Choose honesty.",
+      "big_zh": "要勇敢、要公平，選擇誠實。",
+      "sign_en": "Thank you, Tachu Elementary!",
+      "sign_zh": "謝謝大竹國小！",
+      "img": "honesty-closing"
+    }
+  ]
+}

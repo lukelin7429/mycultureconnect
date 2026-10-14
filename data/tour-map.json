@@ -705,6 +705,30 @@
     }
    ],
    "visit": "2026-10-20-luming-jh"
+  },
+  {
+   "en": "Tachu Elementary",
+   "zh": "大竹國小",
+   "town_zh": "彰化市",
+   "town_en": "Changhua City",
+   "lat": 24.0831082,
+   "lng": 120.5801175,
+   "dates": [
+    "2026.12.08"
+   ],
+   "year": "115",
+   "decks": [
+    {
+     "slug": "tachu-elem-honesty",
+     "title": "品格教育：誠實",
+     "title_en": "Honesty"
+    },
+    {
+     "slug": "tachu-elem-sdg2-zerohunger",
+     "title": "SDG 2 消除飢餓",
+     "title_en": "Zero Hunger"
+    }
+   ]
   }
  ]
 }
