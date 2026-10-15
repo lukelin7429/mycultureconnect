@@ -167,15 +167,60 @@ def to_pdf(print_html, pdf_path, timeout=180):
         raise SystemExit('Chrome produced no PDF for ' + pdf_path)
 
 
+# PowerPoint cannot play a YouTube link inside the slide: a click on the picture
+# only opened the browser, and only in Slide Show. Where Dom's own finished
+# animation is on this computer, the PPTX now carries the video itself, so it
+# plays right on the slide with no internet. The copy is shrunk to 720p first
+# (the 1080p masters are 50-90 MB each; this keeps a deck under ~15 MB more).
+# Videos that are not here (general films, or a master not found) keep the link.
+VIDEO_DIR = os.path.expanduser("~/Downloads/工作檔案/4_學校教材/Dom's animations/成品")
+VIDEO_CACHE = os.path.expanduser('~/Library/Caches/mcc-deck-videos')
+FFMPEG = next((p for p in ('/opt/homebrew/opt/ffmpeg-full/bin/ffmpeg', '/opt/homebrew/bin/ffmpeg', '/usr/local/bin/ffmpeg')
+               if os.path.exists(p)), 'ffmpeg')
+VIDEOS = {  # YouTube id -> finished file in VIDEO_DIR
+    '2SgHi7d4JUQ': 'SDG5_GenderEquality_bilingual_v1.mp4',
+    'eZIfSZBYJ4I': 'Character_Honesty_bilingual_v1.mp4',
+    '9Lkvbd8x_GI': 'Character_Kindness_bilingual_v1.mp4',
+    'qQQhU5rkwXE': 'Character_Gratitude_bilingual_v1.mp4',
+    'wr_tAh681ds': 'Character_AntiBullying_bilingual_v2.mp4',
+    'z8pbdkLaWHI': 'SDG16_PeaceJustice_bilingual_v1.mp4',
+    '13e7IjaoYJA': 'SDG11_SustainableCities_bilingual_v1.mp4',
+    'KZ03usiTxZ4': 'SDG12_ResponsibleConsumption_bilingual_v1.mp4',
+    '-eo8LoJJ7U4': 'SDG13_ClimateAction_bilingual_v1.mp4',
+    'A9liiJZ3MVo': 'SDG6_CleanWater_bilingual_v1.mp4',
+    'BCxuSzg532g': 'SDG4_QualityEducation_bilingual_v2.mp4',
+}
+
+
+def local_video(url):
+    """(small mp4, poster png) for a YouTube link, or None if we have no file for it."""
+    m = re.search(r'v=([\w-]{11})', url or '')
+    name = VIDEOS.get(m.group(1)) if m else None
+    src = os.path.join(VIDEO_DIR, name) if name else ''
+    if not src or not os.path.exists(src):
+        return None
+    os.makedirs(VIDEO_CACHE, exist_ok=True)
+    stem = os.path.join(VIDEO_CACHE, f'{m.group(1)}-{int(os.path.getmtime(src))}')
+    mp4, poster = stem + '.mp4', stem + '.jpg'
+    if not os.path.exists(mp4):
+        subprocess.run([FFMPEG, '-v', 'error', '-y', '-i', src, '-vf', 'scale=1280:-2', '-c:v', 'libx264',
+                        '-preset', 'slow', '-crf', '27', '-profile:v', 'high', '-pix_fmt', 'yuv420p',
+                        '-c:a', 'aac', '-b:a', '96k', '-movflags', '+faststart', mp4], check=True)
+    if not os.path.exists(poster):
+        subprocess.run([FFMPEG, '-v', 'error', '-y', '-ss', '1.5', '-i', mp4, '-frames:v', '1', '-q:v', '3', poster], check=True)
+    return mp4, poster
+
+
 def to_pptx(pdf_path, pptx_path, links=(), scale=2.0):
     import fitz
     from pptx import Presentation
-    from pptx.util import Inches
+    from pptx.util import Inches, Emu
 
     doc = fitz.open(pdf_path)
     prs = Presentation()
     prs.slide_width, prs.slide_height = Inches(13.333), Inches(7.5)
     blank = prs.slide_layouts[6]
+    embedded = 0
     with tempfile.TemporaryDirectory() as tmp:
         for n, page in enumerate(doc):
             pix = page.get_pixmap(matrix=fitz.Matrix(scale, scale))
@@ -188,10 +233,25 @@ def to_pptx(pdf_path, pptx_path, links=(), scale=2.0):
             pick = jpg if os.path.getsize(jpg) < os.path.getsize(png) * 0.7 else png
             s = prs.slides.add_slide(blank)
             pic = s.shapes.add_picture(pick, 0, 0, prs.slide_width, prs.slide_height)
-            if n < len(links) and links[n]:
-                # in Slide Show a click on the picture opens the video in the browser
-                pic.click_action.hyperlink.address = links[n]
+            url = links[n] if n < len(links) else None
+            if not url:
+                continue
+            video = local_video(url)
+            imgs = sorted(page.get_image_info(), key=lambda i: (i['bbox'][2] - i['bbox'][0]) * (i['bbox'][3] - i['bbox'][1]))
+            if video and imgs:
+                # the video sits exactly where the YouTube picture is on the page
+                x0, y0, x1, y1 = imgs[-1]['bbox']
+                kx, ky = prs.slide_width / page.rect.width, prs.slide_height / page.rect.height
+                s.shapes.add_movie(video[0], Emu(int(x0 * kx)), Emu(int(y0 * ky)),
+                                   Emu(int((x1 - x0) * kx)), Emu(int((y1 - y0) * ky)),
+                                   poster_frame_image=video[1], mime_type='video/mp4')
+                embedded += 1
+            else:
+                # no file for this one: in Slide Show a click on the picture opens it in the browser
+                pic.click_action.hyperlink.address = url
     prs.save(pptx_path)
+    if embedded:
+        print(f'    {embedded} video(s) embedded in the PPTX')
     return len(doc)
 
 
