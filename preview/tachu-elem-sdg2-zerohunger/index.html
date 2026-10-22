@@ -223,23 +223,43 @@
     document.getElementById('t').textContent = items.length;
     document.getElementById('fill').style.width = (items.length ? n / items.length * 100 : 0) + '%';
   }
+  var synth = window.speechSynthesis, voice = null;
+  function pickVoice() {
+    if (!synth || voice) return voice;
+    var vs = synth.getVoices().filter(function (v) { return /^en[-_]US/i.test(v.lang); });
+    var like = ['Google US English', 'Samantha', 'Microsoft Aria', 'Microsoft Jenny', 'Microsoft Zira'];
+    for (var i = 0; i < like.length && !voice; i++)
+      voice = vs.filter(function (v) { return v.name.indexOf(like[i]) === 0; })[0] || null;
+    return voice || vs[0] || null;
+  }
+  if (synth) synth.onvoiceschanged = function () { voice = null; pickVoice(); };
   function stop() {
     if (current) current.classList.remove('is-playing');
     current = null; player.pause();
+    if (synth) synth.cancel();
+  }
+  function ended() {
+    stop();
+    if (queue.length) setTimeout(function () { if (queue.length) play(queue.shift()); }, 500);
   }
   function play(btn) {
     stop();
     current = btn.closest('[data-id], .pv-rl, .pv-lines--plain li') || btn;
     current.classList.add('is-playing');
-    player.src = btn.dataset.src;
-    player.playbackRate = slow ? 0.7 : 1;
-    player.preservesPitch = true;
-    player.play().catch(stop);
+    if (btn.dataset.src) {
+      player.src = btn.dataset.src;
+      player.playbackRate = slow ? 0.7 : 1;
+      player.preservesPitch = true;
+      player.play().catch(stop);
+    } else if (synth) {
+      var u = new SpeechSynthesisUtterance(btn.dataset.say);
+      u.lang = 'en-US'; u.rate = slow ? 0.6 : 0.88;
+      var v = pickVoice(); if (v) u.voice = v;
+      u.onend = ended; u.onerror = stop;
+      synth.speak(u);
+    } else stop();
   }
-  player.addEventListener('ended', function () {
-    stop();
-    if (queue.length) setTimeout(function () { if (queue.length) play(queue.shift()); }, 500);
-  });
+  player.addEventListener('ended', ended);
 
   document.addEventListener('click', function (ev) {
     var star = ev.target.closest('.pv-star');

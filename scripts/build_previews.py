@@ -27,13 +27,16 @@ sentences that already have a recording get a speaker button.
 
 Output: /preview/<deck slug>/index.html
 """
+import base64
 import glob
 import hashlib
 import html
 import json
 import os
 import re
+import subprocess
 import sys
+import time
 import urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -58,25 +61,60 @@ def spoken(text):
     return re.sub(r'\s+', ' ', t).strip()
 
 
-def audio(text):
-    """Path of the recording for this text, made now if it does not exist yet."""
-    name = hashlib.sha1((VOICE + '|' + text).encode()).hexdigest()[:14] + '.mp3'
+GEMINI_KEY = os.environ.get('GEMINI_API_KEY', '')
+GEMINI_MODEL = 'gemini-2.5-pro-preview-tts'   # the 3.x TTS models read the style line out loud
+FFMPEG = next((p for p in ('/opt/homebrew/opt/ffmpeg-full/bin/ffmpeg', '/opt/homebrew/bin/ffmpeg', '/usr/local/bin/ffmpeg')
+               if os.path.exists(p)), 'ffmpeg')
+
+
+def audio(text, voice=None):
+    """Path of the recording for this text, made now if it does not exist yet.
+
+    voice: an Azure voice name (the default, VOICE), or 'gemini:<Name>' for a
+    Google voice. Azure's key stopped working on 2026-10-15; pages made since
+    then use Gemini (Leda). A recording is named by voice + text, so an older
+    page keeps finding the files it was built with."""
+    voice = voice or VOICE
+    name = hashlib.sha1((voice + '|' + text).encode()).hexdigest()[:14] + '.mp3'
     rel = f'{AUDIO}/{name}'
     path = os.path.join(ROOT, rel)
     if os.path.exists(path):
         return '/' + rel
-    if not KEY:
-        return ''
-    ssml = (f'<speak version="1.0" xml:lang="en-US"><voice name="{VOICE}">'
-            f'<prosody rate="-10%">{spoken(text)}</prosody></voice></speak>')
-    req = urllib.request.Request(
-        f'https://{REGION}.tts.speech.microsoft.com/cognitiveservices/v1', data=ssml.encode('utf-8'),
-        headers={'Ocp-Apim-Subscription-Key': KEY, 'Content-Type': 'application/ssml+xml',
-                 'X-Microsoft-OutputFormat': 'audio-24khz-48kbitrate-mono-mp3', 'User-Agent': 'mcc-preview'})
-    data = urllib.request.urlopen(req, timeout=60).read()
     os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, 'wb') as f:
-        f.write(data)
+    if voice.startswith('gemini:'):
+        if not GEMINI_KEY:
+            return ''
+        said = re.sub(r'_{3,}', '...', text)
+        body = json.dumps({
+            'contents': [{'parts': [{'text': 'Say clearly and warmly, like a friendly teacher talking to junior high students: ' + said}]}],
+            'generationConfig': {'responseModalities': ['AUDIO'], 'speechConfig': {
+                'voiceConfig': {'prebuiltVoiceConfig': {'voiceName': voice.split(':', 1)[1]}}}}}).encode()
+        req = urllib.request.Request(
+            f'https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent?key={GEMINI_KEY}',
+            data=body, headers={'Content-Type': 'application/json'})
+        for attempt in range(3):
+            try:
+                res = json.load(urllib.request.urlopen(req, timeout=120))
+                pcm = base64.b64decode(res['candidates'][0]['content']['parts'][0]['inlineData']['data'])
+                break
+            except Exception as err:
+                if attempt == 2:
+                    raise
+                time.sleep(4)
+        subprocess.run([FFMPEG, '-v', 'error', '-y', '-f', 's16le', '-ar', '24000', '-ac', '1', '-i', '-',
+                        '-af', 'silenceremove=start_periods=1:start_threshold=-50dB,areverse,silenceremove=start_periods=1:start_threshold=-50dB,areverse',
+                        '-b:a', '64k', path], input=pcm, check=True)
+    else:
+        if not KEY:
+            return ''
+        ssml = (f'<speak version="1.0" xml:lang="en-US"><voice name="{voice}">'
+                f'<prosody rate="-10%">{spoken(text)}</prosody></voice></speak>')
+        req = urllib.request.Request(
+            f'https://{REGION}.tts.speech.microsoft.com/cognitiveservices/v1', data=ssml.encode('utf-8'),
+            headers={'Ocp-Apim-Subscription-Key': KEY, 'Content-Type': 'application/ssml+xml',
+                     'X-Microsoft-OutputFormat': 'audio-24khz-48kbitrate-mono-mp3', 'User-Agent': 'mcc-preview'})
+        with open(path, 'wb') as f:
+            f.write(urllib.request.urlopen(req, timeout=60).read())
     print(f'    recorded  {text[:60]}')
     return '/' + rel
 
@@ -131,11 +169,16 @@ def collect(deck):
     return c
 
 
+SPEAK_VOICE = None   # set by a page builder that records with another voice
+
+
 def speak_btn(text, cls='pv-say'):
-    src = audio(text)
-    if not src:
-        return ''
-    return (f'<button type="button" class="{cls}" data-src="{src}" aria-label="Listen: {e(text)}">'
+    src = audio(text, SPEAK_VOICE)
+    # No recording (no working speech key when the page was built): the button
+    # asks the browser to read the text instead. Re-running the build once a key
+    # works replaces these with recordings.
+    data = f'data-src="{src}"' if src else f'data-say="{e(re.sub(r"_{3,}", "blank", text))}"'
+    return (f'<button type="button" class="{cls}" {data} aria-label="Listen: {e(text)}">'
             '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4z"/>'
             '<path class="w1" d="M16 9.2a4 4 0 0 1 0 5.6"/><path class="w2" d="M18.6 6.6a7.6 7.6 0 0 1 0 10.8"/></svg></button>')
 
@@ -323,23 +366,43 @@ JS = r"""(function () {
     document.getElementById('t').textContent = items.length;
     document.getElementById('fill').style.width = (items.length ? n / items.length * 100 : 0) + '%';
   }
+  var synth = window.speechSynthesis, voice = null;
+  function pickVoice() {
+    if (!synth || voice) return voice;
+    var vs = synth.getVoices().filter(function (v) { return /^en[-_]US/i.test(v.lang); });
+    var like = ['Google US English', 'Samantha', 'Microsoft Aria', 'Microsoft Jenny', 'Microsoft Zira'];
+    for (var i = 0; i < like.length && !voice; i++)
+      voice = vs.filter(function (v) { return v.name.indexOf(like[i]) === 0; })[0] || null;
+    return voice || vs[0] || null;
+  }
+  if (synth) synth.onvoiceschanged = function () { voice = null; pickVoice(); };
   function stop() {
     if (current) current.classList.remove('is-playing');
     current = null; player.pause();
+    if (synth) synth.cancel();
+  }
+  function ended() {
+    stop();
+    if (queue.length) setTimeout(function () { if (queue.length) play(queue.shift()); }, 500);
   }
   function play(btn) {
     stop();
     current = btn.closest('[data-id], .pv-rl, .pv-lines--plain li') || btn;
     current.classList.add('is-playing');
-    player.src = btn.dataset.src;
-    player.playbackRate = slow ? 0.7 : 1;
-    player.preservesPitch = true;
-    player.play().catch(stop);
+    if (btn.dataset.src) {
+      player.src = btn.dataset.src;
+      player.playbackRate = slow ? 0.7 : 1;
+      player.preservesPitch = true;
+      player.play().catch(stop);
+    } else if (synth) {
+      var u = new SpeechSynthesisUtterance(btn.dataset.say);
+      u.lang = 'en-US'; u.rate = slow ? 0.6 : 0.88;
+      var v = pickVoice(); if (v) u.voice = v;
+      u.onend = ended; u.onerror = stop;
+      synth.speak(u);
+    } else stop();
   }
-  player.addEventListener('ended', function () {
-    stop();
-    if (queue.length) setTimeout(function () { if (queue.length) play(queue.shift()); }, 500);
-  });
+  player.addEventListener('ended', ended);
 
   document.addEventListener('click', function (ev) {
     var star = ev.target.closest('.pv-star');
