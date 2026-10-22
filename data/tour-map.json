@@ -729,6 +729,31 @@
      "title_en": "Zero Hunger"
     }
    ]
+  },
+  {
+   "en": "Lukang Elementary",
+   "zh": "鹿港國小",
+   "town_zh": "鹿港鎮",
+   "town_en": "Lugang",
+   "lat": 24.0516679,
+   "lng": 120.4336351,
+   "dates": [
+    "2026.11.24"
+   ],
+   "year": "115",
+   "decks": [
+    {
+     "slug": "lukang-elem-sdg1-nopoverty",
+     "title": "SDG 1 消除貧窮",
+     "title_en": "No Poverty"
+    },
+    {
+     "slug": "lukang-elem-kindness",
+     "title": "品格教育：仁慈",
+     "title_en": "Kindness"
+    }
+   ],
+   "visit": "2026-11-24-lukang-elem"
   }
  ]
 }

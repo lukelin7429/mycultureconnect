@@ -1,0 +1,37 @@
+{
+  "slug": "2026-11-24-lukang-elem",
+  "school": "鹿港國小",
+  "school_en": "Lukang Elementary",
+  "date": "2026.11.24",
+  "weekday_zh": "星期二",
+  "weekday_en": "Tuesday",
+  "items": [
+    {
+      "time": "09:00",
+      "label_en": "Principal interview",
+      "label_zh": "校長採訪",
+      "detail_en": "An interview with Principal Chen Hung-chun (planned — to be confirmed).",
+      "detail_zh": "採訪陳虹君校長（暫定，待確認）。",
+      "note_en": "For the Voices in Education series.",
+      "note_zh": "收錄於「教育之聲」校長專訪系列。"
+    },
+    {
+      "time": "09:30 – 10:10",
+      "class": "Class 5-4 五年丁班",
+      "label_en": "SDG 1 No Poverty",
+      "label_zh": "SDG 1 消除貧窮",
+      "deck": "lukang-elem-sdg1-nopoverty"
+    },
+    {
+      "time": "10:30 – 11:10",
+      "class": "Class 5-1 五年甲班",
+      "label_en": "Character Education: Kindness",
+      "label_zh": "品格教育：仁慈",
+      "deck": "lukang-elem-kindness",
+      "note_en": "A different class — and a different deck.",
+      "note_zh": "換一個班、換一套簡報。"
+    }
+  ],
+  "footnote_en": "Two 40-minute classes with a 20-minute break between them.",
+  "footnote_zh": "兩節課各 40 分鐘，中間休息 20 分鐘。"
+}

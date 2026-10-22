@@ -1,0 +1,491 @@
+{
+  "slug": "lukang-elem-sdg1-nopoverty",
+  "school": "鹿港國小",
+  "school_en": "Lukang Elementary",
+  "date": "2026.11.24",
+  "year": "115",
+  "classes": "Class 5-4 五年丁班",
+  "title": "SDG 1 消除貧窮",
+  "title_en": "No Poverty",
+  "sdg": "1",
+  "theme": "amber",
+  "footer": "Teacher Dom · SDG #1 No Poverty 消除貧窮",
+  "slides": [
+    {
+      "type": "title",
+      "eyebrow_en": "A Bilingual Lesson for Grade 5",
+      "eyebrow_zh": "五年級雙語課程",
+      "chips": [
+        {
+          "en": "What Is Poverty?",
+          "zh": "什麼是貧窮"
+        },
+        {
+          "en": "Needs and Wants",
+          "zh": "需要與想要"
+        },
+        {
+          "en": "Around the World",
+          "zh": "世界各地"
+        },
+        {
+          "en": "Our Actions",
+          "zh": "行動方案"
+        }
+      ],
+      "strip": [
+        {
+          "num": "1",
+          "en": "the first of the 17 Global Goals",
+          "zh": "17 項全球目標的第一項"
+        },
+        {
+          "num": "2030",
+          "en": "the year the world wants to end extreme poverty",
+          "zh": "年，全世界希望消除極端貧窮"
+        },
+        {
+          "num": "1896",
+          "en": "the year your school was born",
+          "zh": "年，你們學校誕生"
+        }
+      ],
+      "img": "lukang-gate.jpg"
+    },
+    {
+      "type": "intro",
+      "head_en": "Hello! I am Dom.",
+      "head_zh": "哈囉！我是 Dom。",
+      "lines": [
+        {
+          "en": "I come from California, USA.",
+          "zh": "我從美國加州來。"
+        },
+        {
+          "en": "I have been teaching students in Taiwan for a couple of years.",
+          "zh": "我在台灣教學生已經有幾年了。"
+        },
+        {
+          "en": "Today: SDG 1 — No Poverty.",
+          "zh": "今天的主題：SDG 1 消除貧窮。"
+        }
+      ],
+      "ask_en": "Think: what do you need every day to live well?",
+      "ask_zh": "想一想：每天要過得好，你需要哪些東西？"
+    },
+    {
+      "type": "map",
+      "head_en": "From California to Changhua",
+      "head_zh": "從加州到彰化",
+      "img": "map-usa-taiwan.svg",
+      "ask_en": "California is rich — but some families there still cannot pay for a home. Poverty can happen anywhere.",
+      "ask_zh": "加州很富有，但還是有些家庭付不起房租。貧窮在哪裡都可能發生。"
+    },
+    {
+      "type": "standup",
+      "head_en": "Stand Up If…",
+      "head_zh": "如果是你，就站起來！",
+      "prompts": [
+        {
+          "en": "Stand up if you have ever saved money for something you wanted.",
+          "zh": "曾經為了想要的東西存錢的，站起來。"
+        },
+        {
+          "en": "Stand up if you have ever given something to a person who needed it.",
+          "zh": "曾經把東西送給需要的人的，站起來。"
+        },
+        {
+          "en": "Stand up if you know the difference between a need and a want.",
+          "zh": "知道「需要」和「想要」差在哪裡的，站起來。"
+        }
+      ],
+      "punch_en": "Today we learn about people who do not have enough — and how we can help.",
+      "punch_zh": "今天我們要認識那些擁有得不夠的人——還有我們可以怎麼幫忙。"
+    },
+    {
+      "type": "topic",
+      "head_en": "What Is SDG 1?",
+      "head_zh": "什麼是 SDG 1？",
+      "body_en": "In 2015, every country agreed on 17 Global Goals for 2030. Goal 1 is No Poverty: no one should live without food, clean water, a safe home, school or a doctor because they do not have enough money.",
+      "body_zh": "2015 年，全世界所有國家訂下 17 項全球目標，要在 2030 年前達成。第 1 項是「消除貧窮」：不該有人因為沒有錢，就沒有食物、乾淨的水、安全的家、學校或醫生。",
+      "keywords": [
+        {
+          "en": "poverty",
+          "zh": "貧窮"
+        },
+        {
+          "en": "need",
+          "zh": "需要"
+        },
+        {
+          "en": "money",
+          "zh": "錢"
+        },
+        {
+          "en": "enough",
+          "zh": "足夠"
+        }
+      ],
+      "img": "sdg1-needs-v"
+    },
+    {
+      "type": "sort",
+      "head_en": "Need or Want?",
+      "head_zh": "需要，還是想要？",
+      "a_en": "NEED",
+      "a_zh": "需要",
+      "b_en": "WANT",
+      "b_zh": "想要",
+      "items": [
+        {
+          "icon": "💧",
+          "en": "Clean water",
+          "zh": "乾淨的水",
+          "a": "a"
+        },
+        {
+          "icon": "🎮",
+          "en": "Video games",
+          "zh": "電玩遊戲",
+          "a": "b"
+        },
+        {
+          "icon": "🏠",
+          "en": "A safe home",
+          "zh": "安全的家",
+          "a": "a"
+        },
+        {
+          "icon": "🍬",
+          "en": "Candy",
+          "zh": "糖果",
+          "a": "b"
+        },
+        {
+          "icon": "💊",
+          "en": "Medicine",
+          "zh": "藥",
+          "a": "a"
+        },
+        {
+          "icon": "📱",
+          "en": "A new phone",
+          "zh": "新手機",
+          "a": "b"
+        },
+        {
+          "icon": "🏫",
+          "en": "School",
+          "zh": "上學",
+          "a": "a"
+        },
+        {
+          "icon": "👟",
+          "en": "Brand-name shoes",
+          "zh": "名牌球鞋",
+          "a": "b"
+        }
+      ],
+      "note_en": "Thumbs up for NEED, thumbs down for WANT!",
+      "note_zh": "需要比讚，想要比倒讚！"
+    },
+    {
+      "type": "people",
+      "head_en": "If the world were a class of 30…",
+      "head_zh": "如果全世界縮成一個 30 人的班…",
+      "total": 30,
+      "mark": 3,
+      "icon": "🧒",
+      "reveal_en": "About 3 would live on less than US$3 a day.",
+      "reveal_zh": "大約有 3 個人，一天的生活費不到 3 美元。",
+      "ask_en": "Guess first: how many?",
+      "ask_zh": "先猜猜看：有幾個？"
+    },
+    {
+      "type": "bigstat",
+      "num": "US$3",
+      "head_en": "a day — for food, water, a home and everything else",
+      "head_zh": "一天——要用來買食物、水、付房租，和其他所有東西",
+      "body_en": "That is about NT$100. About 1 in 10 people on Earth live on less than this.",
+      "body_zh": "大約是新台幣 100 元。全世界大約每 10 個人就有 1 個，一天的生活費比這還少。",
+      "ask_en": "What do you spend NT$100 on?",
+      "ask_zh": "你的 100 元會花在什麼上面？"
+    },
+    {
+      "type": "quiz",
+      "n": 1,
+      "q_en": "Which one can help a child out of poverty for the LONGEST time?",
+      "q_zh": "下列哪一個，最能長久幫助一個孩子脫離貧窮？",
+      "options": [
+        {
+          "en": "A bag of candy",
+          "zh": "一包糖果"
+        },
+        {
+          "en": "Going to school",
+          "zh": "去上學"
+        },
+        {
+          "en": "A new TV",
+          "zh": "一台新電視"
+        },
+        {
+          "en": "Winning one game",
+          "zh": "贏一場比賽"
+        }
+      ],
+      "answer": 1,
+      "explain_en": "Going to school. What you learn stays with you for life — that is why SDG 1 and SDG 4 go together.",
+      "explain_zh": "去上學。學到的東西會跟著你一輩子——所以 SDG 1 和 SDG 4（優質教育）是一起的。"
+    },
+    {
+      "type": "topic",
+      "head_en": "Lukang Has Been Rich — and Poor",
+      "head_zh": "鹿港富過，也窮過",
+      "body_en": "About 200 years ago, Lukang was one of Taiwan's busiest ports. Then sand filled the harbor, the big ships stopped coming, and many families lost their work. Today crafts, food and visitors bring the town to life again.",
+      "body_zh": "大約兩百年前，鹿港是台灣最熱鬧的港口之一。後來港口被泥沙淤積，大船不再來，很多家庭失去了工作。現在，工藝、美食和遊客又讓小鎮熱鬧起來。",
+      "keywords": [
+        {
+          "en": "port",
+          "zh": "港口"
+        },
+        {
+          "en": "ship",
+          "zh": "船"
+        },
+        {
+          "en": "work",
+          "zh": "工作"
+        },
+        {
+          "en": "together",
+          "zh": "一起"
+        }
+      ],
+      "img": "lukang-port-v"
+    },
+    {
+      "type": "quiz",
+      "n": 2,
+      "q_en": "Muhammad Yunus won the Nobel Peace Prize in 2006. What did his bank do?",
+      "q_zh": "尤努斯在 2006 年得到諾貝爾和平獎。他的銀行做了什麼？",
+      "options": [
+        {
+          "en": "Lent small amounts of money to poor people",
+          "zh": "借小額的錢給窮人"
+        },
+        {
+          "en": "Gave everyone free phones",
+          "zh": "送每個人免費手機"
+        },
+        {
+          "en": "Built castles",
+          "zh": "蓋城堡"
+        },
+        {
+          "en": "Printed more money",
+          "zh": "印更多鈔票"
+        }
+      ],
+      "answer": 0,
+      "explain_en": "Small loans — often to women — to start tiny businesses, like selling eggs or making baskets.",
+      "explain_zh": "小額貸款——常常借給女性——讓她們開小生意，像是賣雞蛋或編籃子。"
+    },
+    {
+      "type": "truefalse",
+      "head_en": "True or False?",
+      "head_zh": "真的還假的？手比 ⭕ 或 ❌",
+      "items": [
+        {
+          "en": "Poverty only happens in poor countries.",
+          "zh": "貧窮只會發生在窮的國家。",
+          "answer": false,
+          "note_en": "It happens in every country — including Taiwan and the USA.",
+          "note_zh": "每個國家都有，包括台灣和美國。"
+        },
+        {
+          "en": "Being poor is always a person's own fault.",
+          "zh": "會窮，都是自己的錯。",
+          "answer": false,
+          "note_en": "Illness, disasters, losing a job — many reasons are no one's fault.",
+          "note_zh": "生病、天災、失業——很多原因都不是誰的錯。"
+        },
+        {
+          "en": "Going to school can help children escape poverty.",
+          "zh": "上學可以幫助孩子脫離貧窮。",
+          "answer": true,
+          "note_en": "Education opens doors to better jobs.",
+          "note_zh": "教育能打開通往更好工作的門。"
+        },
+        {
+          "en": "Kids can help fight poverty, too.",
+          "zh": "小孩也可以幫忙對抗貧窮。",
+          "answer": true,
+          "note_en": "Share, give, and treat everyone with respect.",
+          "note_zh": "分享、捐出、尊重每一個人。"
+        }
+      ]
+    },
+    {
+      "type": "phrases",
+      "head_en": "Say It With Me",
+      "head_zh": "跟著我唸",
+      "items": [
+        {
+          "en": "No poverty.",
+          "zh": "消除貧窮。"
+        },
+        {
+          "en": "Everyone deserves enough.",
+          "zh": "每個人都應該擁有足夠的。"
+        },
+        {
+          "en": "Is it a need or a want?",
+          "zh": "這是需要，還是想要？"
+        },
+        {
+          "en": "I can share what I have.",
+          "zh": "我可以分享我擁有的。"
+        },
+        {
+          "en": "Small actions, big change.",
+          "zh": "小行動，大改變。"
+        }
+      ]
+    },
+    {
+      "type": "game",
+      "icon": "⏱",
+      "head_en": "30-Second Challenge",
+      "head_zh": "30 秒挑戰",
+      "rule_en": "In 30 seconds, shout out as many things a family NEEDS as you can — in English. I will count!",
+      "rule_zh": "30 秒內，用英文喊出越多「一個家需要的東西」越好，我來數！",
+      "hints": [
+        "food 食物",
+        "water 水",
+        "home 家",
+        "clothes 衣服",
+        "medicine 藥",
+        "school 學校",
+        "job 工作",
+        "electricity 電"
+      ],
+      "target_en": "Class record to beat: 15",
+      "target_zh": "要打破的班級紀錄：15 個"
+    },
+    {
+      "type": "pairshare",
+      "head_en": "Turn and Talk",
+      "head_zh": "兩人一組，說說看",
+      "prompt_en": "If you had NT$100 to help someone, what would you do with it?",
+      "prompt_zh": "如果你有 100 元可以幫助別人，你會怎麼用？",
+      "sentence_en": "I would use it to ______ because ______.",
+      "sentence_zh": "我會用它來 ______，因為 ______。",
+      "time_en": "60 seconds — then 3 pairs share with the class.",
+      "time_zh": "60 秒，然後請 3 組跟全班分享。"
+    },
+    {
+      "type": "rank",
+      "head_en": "Which One Helps Most?",
+      "head_zh": "哪一個最有效？",
+      "sub_en": "Vote with your hands — 1, 2, 3, or 4 fingers.",
+      "sub_zh": "用手指投票——比 1、2、3 或 4。",
+      "items": [
+        {
+          "en": "Give away clothes you have outgrown",
+          "zh": "捐出穿不下的衣服"
+        },
+        {
+          "en": "Share school supplies",
+          "zh": "分享文具"
+        },
+        {
+          "en": "Treat everyone with respect, rich or poor",
+          "zh": "不論貧富，尊重每個人"
+        },
+        {
+          "en": "Study hard at school",
+          "zh": "在學校認真學習"
+        }
+      ],
+      "reveal_en": "All four help. #3 costs nothing — and anyone can do it today.",
+      "reveal_zh": "四個都有幫助。第 3 個不用花錢——而且今天就做得到。"
+    },
+    {
+      "type": "video",
+      "head_en": "Be the Change",
+      "head_zh": "成為那個改變",
+      "yt": "otT9zA42dK0",
+      "note_en": "Watch — then tell me one word you remember.",
+      "note_zh": "看完之後，告訴我你記得的一個英文單字。"
+    },
+    {
+      "type": "action",
+      "head_en": "3 Things You Can Do This Week",
+      "head_zh": "這週你可以做的 3 件事",
+      "items": [
+        {
+          "num": "1",
+          "en": "Before you buy something, ask: need or want?",
+          "zh": "買東西之前先問：需要，還是想要？"
+        },
+        {
+          "num": "2",
+          "en": "Give what you have outgrown to someone who can use it.",
+          "zh": "把用不到的東西，送給用得到的人。"
+        },
+        {
+          "num": "3",
+          "en": "Never laugh at someone for what they do not have.",
+          "zh": "絕不嘲笑別人沒有的東西。"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "n": 3,
+      "q_en": "The United Nations has a special day to end poverty. When is it?",
+      "q_zh": "聯合國有一個「消除貧窮」的國際日。是哪一天？",
+      "options": [
+        {
+          "en": "January 1",
+          "zh": "1 月 1 日"
+        },
+        {
+          "en": "October 17",
+          "zh": "10 月 17 日"
+        },
+        {
+          "en": "December 25",
+          "zh": "12 月 25 日"
+        },
+        {
+          "en": "April 1",
+          "zh": "4 月 1 日"
+        }
+      ],
+      "answer": 1,
+      "explain_en": "October 17 — the International Day for the Eradication of Poverty.",
+      "explain_zh": "10 月 17 日——國際消除貧窮日。",
+      "bonus": true
+    },
+    {
+      "type": "padlet",
+      "head_en": "Leave a Message for Dom",
+      "head_zh": "留言給 Dom",
+      "body_en": "Go to our School Tour page and find the Lukang Elementary column. No sign-up, no login — just write your comment for Teacher Dom.",
+      "body_zh": "到我們網站的 School Tour 頁面，找到鹿港國小那一欄，免註冊、免登入，直接留言跟 Teacher Dom 互動。",
+      "sentence_en": "Today I learned ______.",
+      "sentence_zh": "今天我學到 ______。",
+      "site": "mycultureconnect.org/dom-school-tour.html"
+    },
+    {
+      "type": "closing",
+      "big_en": "Everyone deserves<br>enough.",
+      "big_zh": "每個人，都應該擁有足夠的。",
+      "sign_en": "Thank you, Lukang Elementary!",
+      "sign_zh": "謝謝鹿港國小！",
+      "img": "sdg1-closing"
+    }
+  ]
+}
