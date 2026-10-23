@@ -173,11 +173,14 @@ def to_pdf(print_html, pdf_path, timeout=180):
 # plays right on the slide with no internet. The copy is shrunk to 720p first
 # (the 1080p masters are 50-90 MB each; this keeps a deck under ~15 MB more).
 # Videos that are not here (general films, or a master not found) keep the link.
-VIDEO_DIR = os.path.expanduser("~/Downloads/工作檔案/4_學校教材/Dom's animations/成品")
+# the finished animations have lived in both places; the first that has the file wins
+VIDEO_DIRS = [os.path.expanduser(p) for p in ("~/Downloads/Dom's animations/成品",
+                                               "~/Downloads/工作檔案/4_學校教材/Dom's animations/成品")]
 VIDEO_CACHE = os.path.expanduser('~/Library/Caches/mcc-deck-videos')
 FFMPEG = next((p for p in ('/opt/homebrew/opt/ffmpeg-full/bin/ffmpeg', '/opt/homebrew/bin/ffmpeg', '/usr/local/bin/ffmpeg')
                if os.path.exists(p)), 'ffmpeg')
-VIDEOS = {  # YouTube id -> finished file in VIDEO_DIR
+VIDEOS = {  # YouTube id -> finished file in one of VIDEO_DIRS
+    'AbowvF_5KYk': 'SDG1_NoPoverty_bilingual_v1.mp4',
     '2SgHi7d4JUQ': 'SDG5_GenderEquality_bilingual_v1.mp4',
     'eZIfSZBYJ4I': 'Character_Honesty_bilingual_v1.mp4',
     '9Lkvbd8x_GI': 'Character_Kindness_bilingual_v1.mp4',
@@ -196,8 +199,8 @@ def local_video(url):
     """(small mp4, poster png) for a YouTube link, or None if we have no file for it."""
     m = re.search(r'v=([\w-]{11})', url or '')
     name = VIDEOS.get(m.group(1)) if m else None
-    src = os.path.join(VIDEO_DIR, name) if name else ''
-    if not src or not os.path.exists(src):
+    src = next((os.path.join(d, name) for d in VIDEO_DIRS if name and os.path.exists(os.path.join(d, name))), '')
+    if not src:
         return None
     os.makedirs(VIDEO_CACHE, exist_ok=True)
     stem = os.path.join(VIDEO_CACHE, f'{m.group(1)}-{int(os.path.getmtime(src))}')
