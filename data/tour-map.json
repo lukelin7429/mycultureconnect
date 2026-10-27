@@ -754,6 +754,20 @@
     }
    ],
    "visit": "2026-11-24-lukang-elem"
+  },
+  {
+   "en": "Huatan Junior High",
+   "zh": "花壇國中",
+   "town_zh": "花壇鄉",
+   "town_en": "Huatan",
+   "lat": 24.0301856,
+   "lng": 120.5501076,
+   "dates": [
+    "2026.12.08"
+   ],
+   "year": "115",
+   "decks": [],
+   "visit": "2026-12-08-huatan-jh"
   }
  ]
 }

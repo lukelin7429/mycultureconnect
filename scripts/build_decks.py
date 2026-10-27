@@ -679,7 +679,8 @@ def visit_page(v):
                 if it.get("period_en") else "")
         klass = (f'<span class="vp-class">{e(it["class"])}</span>' if it.get("class") else "")
         deck = (f'<a class="vp-deck" href="{LIB}{it["deck"]}/">Open the slides 開啟簡報 →</a>'
-                if it.get("deck") else "")
+                if it.get("deck") else
+                f'<a class="vp-deck" href="{e(it["link"])}">{e(it["link_label"])} →</a>' if it.get("link") else "")
         detail = (f'<p class="vp-detail">{e(it["detail_en"])}<em>{e(it["detail_zh"])}</em></p>'
                   if it.get("detail_en") else "")
         note = (f'<p class="vp-note">{e(it["note_en"])} {e(it["note_zh"])}</p>'

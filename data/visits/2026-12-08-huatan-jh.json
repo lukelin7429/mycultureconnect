@@ -1,0 +1,54 @@
+{
+  "slug": "2026-12-08-huatan-jh",
+  "school": "花壇國中",
+  "school_en": "Huatan Junior High",
+  "date": "2026.12.08",
+  "weekday_zh": "星期二",
+  "weekday_en": "Tuesday",
+  "items": [
+    {
+      "time": "13:05 – 13:50",
+      "period_en": "Period 5",
+      "period_zh": "第五節",
+      "label_en": "Students interview Dom",
+      "label_zh": "學生採訪 Dom",
+      "detail_en": "The students ask about Dom's life story and her views on the SDGs.",
+      "detail_zh": "學生採訪 Dom 的個人經歷，以及她對 SDGs 的看法。",
+      "link": "/preview/huatan-jh-meet-dom/",
+      "link_label": "Students' prep page 學生預習頁"
+    },
+    {
+      "time": "14:00 – 14:45",
+      "period_en": "Period 6",
+      "period_zh": "第六節",
+      "label_en": "Students show Dom Huatan",
+      "label_zh": "學生介紹花壇",
+      "detail_en": "The students introduce what makes Huatan special, and share a local snack with Dom.",
+      "detail_zh": "學生向 Dom 介紹花壇特色，並一起品嘗在地點心。"
+    },
+    {
+      "time": "15:00 – 15:45",
+      "period_en": "Period 7",
+      "period_zh": "第七節",
+      "label_en": "Club time",
+      "label_zh": "社團時間",
+      "detail_en": "Dom visits the school's clubs, including the English News Anchor Club led by the school's foreign teacher.",
+      "detail_zh": "Dom 體驗各個社團，包括由校內外師帶領的英語主播社。",
+      "note_en": "The school wrote 15:00–15:15; we are confirming whether it ends at 15:45.",
+      "note_zh": "學校寫的是 15:00–15:15，正在確認是否到 15:45。"
+    },
+    {
+      "time": "15:55 – 16:40",
+      "period_en": "Period 8",
+      "period_zh": "第八節",
+      "label_en": "Club time",
+      "label_zh": "社團時間",
+      "detail_en": "More club visits, as planned by the school.",
+      "detail_zh": "依學校規劃，繼續參觀社團。",
+      "note_en": "We have asked whether this period can become a 15-minute principal interview, so that we can leave around 16:10 for our train back to Taipei.",
+      "note_zh": "已詢問學校：這一節能否改為約 15 分鐘的校長採訪，讓我們 16:10 左右離開、趕火車回台北。"
+    }
+  ],
+  "footnote_en": "An afternoon of exchange led by the students, arranged by Ms. Hsu (許景茵老師). In the morning, Dom is at Tachu Elementary.",
+  "footnote_zh": "由學生主導的下午交流，許景茵老師安排。當天上午 Dom 在大竹國小。"
+}
