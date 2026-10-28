@@ -768,6 +768,30 @@
    "year": "115",
    "decks": [],
    "visit": "2026-12-08-huatan-jh"
+  },
+  {
+   "en": "Yuying Elementary",
+   "zh": "育英國小",
+   "town_zh": "員林市",
+   "town_en": "Yuanlin City",
+   "lat": 23.9518414,
+   "lng": 120.5743544,
+   "dates": [
+    "2026.11.10"
+   ],
+   "year": "115",
+   "decks": [
+    {
+     "slug": "yuying-elem-sdg5-gender-equality",
+     "title": "SDG 5 性別平等",
+     "title_en": "Gender Equality"
+    },
+    {
+     "slug": "yuying-elem-sdg10-inequality",
+     "title": "SDG 10 減少不平等",
+     "title_en": "Reduced Inequalities"
+    }
+   ]
   }
  ]
 }

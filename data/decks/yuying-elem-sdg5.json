@@ -1,0 +1,564 @@
+{
+  "slug": "yuying-elem-sdg5-gender-equality",
+  "school": "育英國小",
+  "school_en": "Yuying Elementary",
+  "date": "2026.11.10",
+  "year": "115",
+  "classes": "Class 4-7 四年庚班",
+  "title": "SDG 5 性別平等",
+  "title_en": "Gender Equality",
+  "sdg": "5",
+  "theme": "amber",
+  "footer": "Teacher Dom · SDG #5 Gender Equality 性別平等",
+  "slides": [
+    {
+      "type": "title",
+      "eyebrow_en": "A Bilingual Lesson for Grade 4",
+      "eyebrow_zh": "四年級雙語課程",
+      "chips": [
+        {
+          "en": "What Is Fair?",
+          "zh": "什麼是公平"
+        },
+        {
+          "en": "Out of the Box",
+          "zh": "跳出框框"
+        },
+        {
+          "en": "Our School's Story",
+          "zh": "育英的故事"
+        },
+        {
+          "en": "Our Actions",
+          "zh": "行動方案"
+        }
+      ],
+      "strip": [
+        {
+          "num": "17",
+          "en": "Global Goals — this is #5",
+          "zh": "項全球目標，這是第 5 項"
+        },
+        {
+          "num": "1933",
+          "en": "your school opened — for girls only",
+          "zh": "年，你們學校創校——當時只收女生"
+        },
+        {
+          "num": "0",
+          "en": "jobs that are only for boys or only for girls",
+          "zh": "種工作只屬於男生或只屬於女生"
+        }
+      ],
+      "img": "yuying-facade.jpg"
+    },
+    {
+      "type": "intro",
+      "head_en": "Hello, I'm Dom!",
+      "head_zh": "大家好，我是 Dom！",
+      "lines": [
+        {
+          "en": "I come from California, USA.",
+          "zh": "我從美國加州來。"
+        },
+        {
+          "en": "I have been teaching students in Taiwan for a couple of years.",
+          "zh": "我在台灣教學生已經有幾年了。"
+        },
+        {
+          "en": "Today: SDG 5 — Gender Equality.",
+          "zh": "今天的主題：SDG 5 性別平等。"
+        }
+      ],
+      "ask_en": "Today's question: can a girl or a boy be anything?",
+      "ask_zh": "今天的問題：女生和男生，都可以成為任何樣子嗎？"
+    },
+    {
+      "type": "map",
+      "head_en": "From California to Changhua",
+      "head_zh": "從加州到彰化",
+      "img": "map-usa-taiwan.svg",
+      "ask_en": "In both places, people used to say: “That is not for girls.” Is it still true today?",
+      "ask_zh": "這兩個地方，以前的人都說過：「那不是女生做的事。」現在還是這樣嗎？"
+    },
+    {
+      "type": "standup",
+      "head_en": "Stand Up If…",
+      "head_zh": "如果是你，就站起來！",
+      "prompts": [
+        {
+          "en": "Stand up if you help with chores at home.",
+          "zh": "在家會幫忙做家事的，站起來。"
+        },
+        {
+          "en": "Stand up if you love sports.",
+          "zh": "喜歡運動的，站起來。"
+        },
+        {
+          "en": "Stand up if you love drawing, singing or dancing.",
+          "zh": "喜歡畫畫、唱歌或跳舞的，站起來。"
+        }
+      ],
+      "punch_en": "Look around — girls AND boys are standing. Chores and hobbies do not have a gender.",
+      "punch_zh": "看看四周——女生和男生都站起來了。家事和興趣，都沒有性別。"
+    },
+    {
+      "type": "topic",
+      "head_en": "What Is SDG 5?",
+      "head_zh": "什麼是 SDG 5？",
+      "body_en": "In 2015, every country agreed on 17 Global Goals for 2030. Goal 5 is Gender Equality: girls and boys should have the same chances and the same respect.",
+      "body_zh": "2015 年，全世界所有國家訂下 17 項全球目標，要在 2030 年前達成。第 5 項是「性別平等」：女生和男生都應該有一樣的機會、一樣的尊重。",
+      "keywords": [
+        {
+          "en": "equal",
+          "zh": "平等"
+        },
+        {
+          "en": "girl",
+          "zh": "女生"
+        },
+        {
+          "en": "boy",
+          "zh": "男生"
+        },
+        {
+          "en": "respect",
+          "zh": "尊重"
+        }
+      ],
+      "img": "sdg5-careers-v"
+    },
+    {
+      "type": "topic",
+      "head_en": "What Is a Stereotype?",
+      "head_zh": "什麼是刻板印象？",
+      "body_en": "A stereotype puts people in a box: “Girls can't play soccer.” “Boys don't cry.” But a real person is much bigger than any box.",
+      "body_zh": "刻板印象，就是把人裝進框框：「女生不會踢足球。」「男生不能哭。」但是一個真實的人，比任何框框都大得多。",
+      "keywords": [
+        {
+          "en": "stereotype",
+          "zh": "刻板印象"
+        },
+        {
+          "en": "box",
+          "zh": "框框"
+        },
+        {
+          "en": "fair",
+          "zh": "公平"
+        },
+        {
+          "en": "choose",
+          "zh": "選擇"
+        }
+      ]
+    },
+    {
+      "type": "sort",
+      "head_en": "Fact or Stereotype?",
+      "head_zh": "事實，還是刻板印象？",
+      "a_en": "FACT",
+      "a_zh": "事實",
+      "b_en": "STEREOTYPE",
+      "b_zh": "刻板印象",
+      "items": [
+        {
+          "icon": "➗",
+          "en": "Girls are bad at math",
+          "zh": "女生數學不好",
+          "a": "b"
+        },
+        {
+          "icon": "✈️",
+          "en": "Women can be pilots",
+          "zh": "女生可以當機師",
+          "a": "a"
+        },
+        {
+          "icon": "😢",
+          "en": "Boys don't cry",
+          "zh": "男生不能哭",
+          "a": "b"
+        },
+        {
+          "icon": "🩺",
+          "en": "Men can be nurses",
+          "zh": "男生可以當護理師",
+          "a": "a"
+        },
+        {
+          "icon": "🎀",
+          "en": "Pink is only for girls",
+          "zh": "粉紅色只屬於女生",
+          "a": "b"
+        },
+        {
+          "icon": "⚽",
+          "en": "Girls can play soccer",
+          "zh": "女生可以踢足球",
+          "a": "a"
+        },
+        {
+          "icon": "🍳",
+          "en": "Cooking is only Mom's job",
+          "zh": "煮飯只是媽媽的事",
+          "a": "b"
+        },
+        {
+          "icon": "💃",
+          "en": "Boys can dance",
+          "zh": "男生可以跳舞",
+          "a": "a"
+        }
+      ],
+      "note_en": "Thumbs up for FACT, thumbs down for STEREOTYPE!",
+      "note_zh": "事實比讚，刻板印象比倒讚！"
+    },
+    {
+      "type": "quiz",
+      "n": 1,
+      "q_en": "A boy is hurt, and his father takes him to the hospital. The doctor says: “He is my son!” But the doctor is not his father. Who is the doctor?",
+      "q_zh": "一個男孩受傷了，爸爸送他到醫院。醫生說：「他是我兒子！」可是醫生不是他爸爸。醫生是誰？",
+      "options": [
+        {
+          "en": "His grandfather",
+          "zh": "他的爺爺"
+        },
+        {
+          "en": "His mother",
+          "zh": "他的媽媽"
+        },
+        {
+          "en": "His teacher",
+          "zh": "他的老師"
+        },
+        {
+          "en": "A robot",
+          "zh": "機器人"
+        }
+      ],
+      "answer": 1,
+      "explain_en": "His mother! If that surprised you, a stereotype was hiding in your head.",
+      "explain_zh": "是他的媽媽！如果你嚇一跳，表示有個刻板印象躲在你的腦袋裡。"
+    },
+    {
+      "type": "quiz",
+      "n": 2,
+      "q_en": "Your school opened in 1933. Who could study here back then?",
+      "q_zh": "你們學校在 1933 年創校。那時候，誰可以在這裡上學？",
+      "options": [
+        {
+          "en": "Only boys",
+          "zh": "只有男生"
+        },
+        {
+          "en": "Only girls",
+          "zh": "只有女生"
+        },
+        {
+          "en": "Boys and girls",
+          "zh": "男生和女生"
+        },
+        {
+          "en": "Only teachers",
+          "zh": "只有老師"
+        }
+      ],
+      "answer": 1,
+      "explain_en": "Only girls! Your school began as Yuanlin Girls' School. Back then, many girls in Taiwan never went to school at all.",
+      "explain_zh": "只有女生！你們學校一開始叫「員林女子公學校」。那個年代，台灣很多女孩根本沒有機會上學。"
+    },
+    {
+      "type": "photo",
+      "head_en": "Our School's Story",
+      "head_zh": "育英的故事",
+      "img": "yuying-banner.jpg",
+      "icon": "🏫",
+      "ask_en": "This is your school! In 1933, only girls studied here. Today, girls and boys learn here together.",
+      "ask_zh": "這是你們的學校！1933 年，這裡只收女生。現在，女生和男生一起在這裡學習。"
+    },
+    {
+      "type": "bigstat",
+      "num": "120 million",
+      "head_en": "girls around the world are not in school",
+      "head_zh": "全世界大約有 1 億 2,000 萬個女孩沒有上學",
+      "body_en": "Some must work at home. Some are told that school is not for girls.",
+      "body_zh": "有的必須在家工作，有的被告知「女生不用念書」。",
+      "ask_en": "What would you miss if you could not come to school?",
+      "ask_zh": "如果你不能來上學，你會想念什麼？"
+    },
+    {
+      "type": "quiz",
+      "n": 3,
+      "q_en": "She spoke up for girls' right to go to school. At 17, she won the Nobel Peace Prize. Who is she?",
+      "q_zh": "她站出來，為女孩爭取上學的權利；17 歲時，她得到諾貝爾和平獎。她是誰？",
+      "options": [
+        {
+          "en": "Malala Yousafzai",
+          "zh": "馬拉拉"
+        },
+        {
+          "en": "Greta Thunberg",
+          "zh": "格蕾塔・童貝里"
+        },
+        {
+          "en": "Marie Curie",
+          "zh": "居禮夫人"
+        },
+        {
+          "en": "Tsai Ing-wen",
+          "zh": "蔡英文"
+        }
+      ],
+      "answer": 0,
+      "explain_en": "Malala, from Pakistan. “One child, one teacher, one book and one pen can change the world.”",
+      "explain_zh": "來自巴基斯坦的馬拉拉。「一個孩子、一位老師、一本書、一支筆，就能改變世界。」"
+    },
+    {
+      "type": "topic",
+      "head_en": "At Yuying, Anyone Can Shine",
+      "head_zh": "在育英，每個人都能發光",
+      "body_en": "Yuying has four dance classes — dancing is for anyone who loves it. And a team of Yuying 4th and 5th graders built a chain-reaction machine and won third place at the 2025 World GreenMech Contest in Changhua.",
+      "body_zh": "育英有 4 班舞蹈班——跳舞屬於每一個喜歡跳舞的人。育英的四、五年級學生組隊做出連鎖反應機關，拿下 2025 世界機關王競賽彰化縣賽第三名。",
+      "keywords": [
+        {
+          "en": "dance",
+          "zh": "跳舞"
+        },
+        {
+          "en": "build",
+          "zh": "建造"
+        },
+        {
+          "en": "machine",
+          "zh": "機器"
+        },
+        {
+          "en": "talent",
+          "zh": "才能"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "head_en": "True or False?",
+      "head_zh": "真的還假的？手比 ⭕ 或 ❌",
+      "items": [
+        {
+          "en": "Gender equality is only about girls.",
+          "zh": "性別平等只跟女生有關。",
+          "answer": false,
+          "note_en": "Boys get put in boxes too — like “boys don't cry.”",
+          "note_zh": "男生也會被裝進框框——像是「男生不能哭」。"
+        },
+        {
+          "en": "A girl can be an engineer, and a boy can be a nurse.",
+          "zh": "女生可以當工程師，男生可以當護理師。",
+          "answer": true,
+          "note_en": "Any job can be done by anyone who learns it.",
+          "note_zh": "任何工作，只要學會了，誰都可以做。"
+        },
+        {
+          "en": "Housework is a job for everyone in the family.",
+          "zh": "家事是家裡每個人的工作。",
+          "answer": true,
+          "note_en": "Yet around the world, women still do about 2.5 times more housework than men.",
+          "note_zh": "但在全世界，女性做的家事還是大約男性的 2.5 倍。"
+        },
+        {
+          "en": "Laughing at a boy for being “like a girl” is just a joke.",
+          "zh": "笑一個男生「像女生」，只是開玩笑。",
+          "answer": false,
+          "note_en": "It tells everyone that being a girl is something bad.",
+          "note_zh": "這等於告訴大家：當女生是一件不好的事。"
+        }
+      ]
+    },
+    {
+      "type": "topic",
+      "head_en": "Strong Has No Gender",
+      "head_zh": "強壯，沒有性別",
+      "body_en": "Kuo Hsing-chun lifted weights and won an Olympic gold medal for Taiwan in Tokyo 2020. Tai Tzu-ying was the world's No. 1 badminton player for more than 200 weeks.",
+      "body_zh": "郭婞淳在 2020 東京奧運為台灣拿下舉重金牌。戴資穎當了世界球后超過 200 週。",
+      "keywords": [
+        {
+          "en": "athlete",
+          "zh": "運動員"
+        },
+        {
+          "en": "practice",
+          "zh": "練習"
+        },
+        {
+          "en": "gold medal",
+          "zh": "金牌"
+        },
+        {
+          "en": "strong",
+          "zh": "強壯"
+        }
+      ]
+    },
+    {
+      "type": "phrases",
+      "head_en": "Say It With Me",
+      "head_zh": "跟著我唸",
+      "items": [
+        {
+          "en": "Anyone can do that.",
+          "zh": "誰都可以做。"
+        },
+        {
+          "en": "That's a stereotype.",
+          "zh": "那是刻板印象。"
+        },
+        {
+          "en": "Boys can cry. Girls can lead.",
+          "zh": "男生可以哭，女生可以領導。"
+        },
+        {
+          "en": "Don't put me in a box.",
+          "zh": "不要把我裝進框框。"
+        },
+        {
+          "en": "Come and play with us!",
+          "zh": "來跟我們一起玩！"
+        }
+      ]
+    },
+    {
+      "type": "game",
+      "icon": "⏱",
+      "head_en": "30-Second Challenge",
+      "head_zh": "30 秒挑戰",
+      "rule_en": "In 30 seconds, shout out as many JOBS in English as you can. I will count!",
+      "rule_zh": "30 秒內，用英文喊出越多「工作」越好，我來數！",
+      "hints": [
+        "engineer 工程師",
+        "nurse 護理師",
+        "pilot 機師",
+        "chef 廚師",
+        "firefighter 消防員",
+        "scientist 科學家",
+        "president 總統",
+        "coach 教練"
+      ],
+      "target_en": "Then tell me: which of these is only for men? (None!)",
+      "target_zh": "然後告訴我：哪一個只有男生能做？（一個都沒有！）"
+    },
+    {
+      "type": "pairshare",
+      "head_en": "Turn and Talk",
+      "head_zh": "兩人一組，說說看",
+      "prompt_en": "What do you love to do? Has anyone ever said it is “only for boys” or “only for girls”?",
+      "prompt_zh": "你喜歡做什麼？有沒有人說過那是「男生才能做」或「女生才能做」的？",
+      "sentence_en": "I love ______. It is for everyone!",
+      "sentence_zh": "我喜歡 ______。每個人都可以做！",
+      "time_en": "60 seconds — then 3 pairs share with the class.",
+      "time_zh": "60 秒，然後請 3 組跟全班分享。"
+    },
+    {
+      "type": "rank",
+      "head_en": "Which One Helps Most?",
+      "head_zh": "哪一個最有效？",
+      "sub_en": "Vote with your hands — 1, 2, 3, or 4 fingers.",
+      "sub_zh": "用手指投票——比 1、2、3 或 4。",
+      "items": [
+        {
+          "en": "Help with the housework at home",
+          "zh": "在家幫忙做家事"
+        },
+        {
+          "en": "Don't laugh at “like a girl” jokes",
+          "zh": "不跟著笑「像女生」的玩笑"
+        },
+        {
+          "en": "Let everyone join the game",
+          "zh": "讓每個人都能加入遊戲"
+        },
+        {
+          "en": "Cheer for girls' and boys' teams the same",
+          "zh": "女生隊和男生隊，一樣大聲加油"
+        }
+      ],
+      "reveal_en": "All four work. #2 is the hardest and the most powerful — it changes what the whole class thinks is okay.",
+      "reveal_zh": "四個都有效。第 2 個最難也最有力量——它會改變全班認為「可以接受」的界線。"
+    },
+    {
+      "type": "video",
+      "head_en": "Dom on Gender Equality",
+      "head_zh": "Dom 談性別平等",
+      "yt": "2SgHi7d4JUQ",
+      "note_en": "Watch — then tell me one stereotype you saw in the video.",
+      "note_zh": "看完之後，告訴我你在影片裡看到的一個刻板印象。"
+    },
+    {
+      "type": "action",
+      "head_en": "3 Things You Can Do This Week",
+      "head_zh": "這週你可以做的 3 件事",
+      "items": [
+        {
+          "num": "1",
+          "en": "Do one chore at home that you never do.",
+          "zh": "在家做一件你從來不做的家事。"
+        },
+        {
+          "num": "2",
+          "en": "When you hear “that's not for girls” — or boys — say: “Anyone can do that.”",
+          "zh": "聽到「那不是女生（或男生）做的」，就說：「誰都可以做。」"
+        },
+        {
+          "num": "3",
+          "en": "Invite someone new to play with you.",
+          "zh": "邀請一個新朋友跟你一起玩。"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "n": 4,
+      "q_en": "In 1893, which country became the first to let women vote?",
+      "q_zh": "1893 年，哪一個國家最先讓女性投票？",
+      "options": [
+        {
+          "en": "The United States",
+          "zh": "美國"
+        },
+        {
+          "en": "New Zealand",
+          "zh": "紐西蘭"
+        },
+        {
+          "en": "Japan",
+          "zh": "日本"
+        },
+        {
+          "en": "France",
+          "zh": "法國"
+        }
+      ],
+      "answer": 1,
+      "explain_en": "New Zealand! Women in the U.S. waited until 1920, and in France until 1944.",
+      "explain_zh": "紐西蘭！美國女性等到 1920 年，法國等到 1944 年。",
+      "bonus": true
+    },
+    {
+      "type": "padlet",
+      "head_en": "Leave a Message for Dom",
+      "head_zh": "留言給 Dom",
+      "body_en": "Go to our School Tour page and find the Yuying Elementary column. No sign-up, no login — just write your comment for Teacher Dom.",
+      "body_zh": "到我們網站的 School Tour 頁面，找到育英國小那一欄，免註冊、免登入，直接留言跟 Teacher Dom 互動。",
+      "site": "mycultureconnect.org/dom-school-tour.html",
+      "sentence_en": "Today I learned ______.",
+      "sentence_zh": "今天我學到 ______。"
+    },
+    {
+      "type": "closing",
+      "big_en": "Anyone can be<br>anything.",
+      "big_zh": "每個人，都可以成為任何樣子。",
+      "sign_en": "Thank you, Yuying Elementary!",
+      "sign_zh": "謝謝育英國小！",
+      "img": "sdg5-closing"
+    }
+  ]
+}
