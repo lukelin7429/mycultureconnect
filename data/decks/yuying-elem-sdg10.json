@@ -542,5 +542,147 @@
       "sign_zh": "謝謝育英國小！",
       "img": "sdg10-closing"
     }
-  ]
+  ],
+  "preview": {
+    "words": [
+      {
+        "en": "equal",
+        "zh": "平等的"
+      },
+      {
+        "en": "inequality",
+        "zh": "不平等"
+      },
+      {
+        "en": "discrimination",
+        "zh": "歧視"
+      },
+      {
+        "en": "welcome",
+        "zh": "歡迎"
+      },
+      {
+        "en": "left out",
+        "zh": "被冷落"
+      },
+      {
+        "en": "invite",
+        "zh": "邀請"
+      },
+      {
+        "en": "classmate",
+        "zh": "同學"
+      },
+      {
+        "en": "barrier",
+        "zh": "障礙"
+      },
+      {
+        "en": "wheelchair",
+        "zh": "輪椅"
+      },
+      {
+        "en": "rule",
+        "zh": "規則"
+      },
+      {
+        "en": "join in",
+        "zh": "加入"
+      },
+      {
+        "en": "speak up",
+        "zh": "說出來"
+      },
+      {
+        "en": "kind",
+        "zh": "善良的"
+      },
+      {
+        "en": "brave",
+        "zh": "勇敢的"
+      },
+      {
+        "en": "change",
+        "zh": "改變"
+      },
+      {
+        "en": "together",
+        "zh": "一起"
+      }
+    ],
+    "groups": [
+      {
+        "en": "In the Story",
+        "zh": "短文裡的字",
+        "words": [
+          {
+            "en": "recess",
+            "zh": "下課時間"
+          },
+          {
+            "en": "basketball",
+            "zh": "籃球"
+          },
+          {
+            "en": "pass",
+            "zh": "傳球"
+          },
+          {
+            "en": "score",
+            "zh": "得分"
+          },
+          {
+            "en": "cheer",
+            "zh": "歡呼"
+          },
+          {
+            "en": "idea",
+            "zh": "點子"
+          },
+          {
+            "en": "history",
+            "zh": "歷史"
+          },
+          {
+            "en": "hometown",
+            "zh": "家鄉"
+          }
+        ]
+      }
+    ],
+    "read": [
+      {
+        "en": "At recess, our class wanted to play basketball.",
+        "zh": "下課時間，我們班想打籃球。"
+      },
+      {
+        "en": "Our new classmate, Kai, uses a wheelchair.",
+        "zh": "我們的新同學 Kai 坐輪椅。"
+      },
+      {
+        "en": "Some kids thought, “He can't play with us.”",
+        "zh": "有些同學心想：「他沒辦法跟我們一起玩。」"
+      },
+      {
+        "en": "Then someone had an idea: “Let's change the rules.”",
+        "zh": "後來有人想到一個點子：「我們來改一下規則吧。」"
+      },
+      {
+        "en": "We made the game slower, and everyone had to pass the ball before shooting.",
+        "zh": "我們讓比賽慢一點，而且每個人都要先傳球才能投籃。"
+      },
+      {
+        "en": "Kai scored the last point, and the whole class cheered.",
+        "zh": "最後一分是 Kai 投進的，全班都歡呼起來。"
+      },
+      {
+        "en": "SDG 10 asks us to remove barriers so everyone can join in.",
+        "zh": "SDG 10 要我們移除障礙，讓每個人都能加入。"
+      },
+      {
+        "en": "Sometimes being fair means changing the game, not changing the person.",
+        "zh": "有時候，公平的意思是改變遊戲，而不是改變那個人。"
+      }
+    ]
+  }
 }

@@ -560,5 +560,131 @@
       "sign_zh": "謝謝育英國小！",
       "img": "sdg5-closing"
     }
-  ]
+  ],
+  "preview": {
+    "words": [
+      {
+        "en": "same",
+        "zh": "一樣的"
+      },
+      {
+        "en": "chance",
+        "zh": "機會"
+      },
+      {
+        "en": "gender",
+        "zh": "性別"
+      },
+      {
+        "en": "job",
+        "zh": "工作"
+      },
+      {
+        "en": "chores",
+        "zh": "家事"
+      },
+      {
+        "en": "hobby",
+        "zh": "興趣"
+      },
+      {
+        "en": "dream",
+        "zh": "夢想"
+      },
+      {
+        "en": "brave",
+        "zh": "勇敢的"
+      },
+      {
+        "en": "join",
+        "zh": "加入"
+      },
+      {
+        "en": "invite",
+        "zh": "邀請"
+      },
+      {
+        "en": "lead",
+        "zh": "領導"
+      },
+      {
+        "en": "laugh at",
+        "zh": "嘲笑"
+      },
+      {
+        "en": "robot",
+        "zh": "機器人"
+      },
+      {
+        "en": "flower",
+        "zh": "花"
+      }
+    ],
+    "groups": [
+      {
+        "en": "Our School",
+        "zh": "我們的學校",
+        "words": [
+          {
+            "en": "dance class",
+            "zh": "舞蹈班"
+          },
+          {
+            "en": "contest",
+            "zh": "比賽"
+          },
+          {
+            "en": "third place",
+            "zh": "第三名"
+          },
+          {
+            "en": "team",
+            "zh": "隊伍"
+          },
+          {
+            "en": "chain reaction",
+            "zh": "連鎖反應"
+          },
+          {
+            "en": "classroom",
+            "zh": "教室"
+          }
+        ]
+      }
+    ],
+    "read": [
+      {
+        "en": "Amy loves to build robots.",
+        "zh": "Amy 喜歡做機器人。"
+      },
+      {
+        "en": "Ken loves to grow flowers.",
+        "zh": "Ken 喜歡種花。"
+      },
+      {
+        "en": "One day, a classmate said, “Robots are for boys, and flowers are for girls.”",
+        "zh": "有一天，一個同學說：「機器人是男生玩的，花是女生種的。」"
+      },
+      {
+        "en": "Amy and Ken looked at each other and smiled.",
+        "zh": "Amy 和 Ken 互相看了一眼，笑了。"
+      },
+      {
+        "en": "“We like what we like,” said Amy.",
+        "zh": "Amy 說：「我們喜歡什麼，就是喜歡什麼。」"
+      },
+      {
+        "en": "A robot does not care who builds it. A flower does not care who waters it.",
+        "zh": "機器人不在乎是誰做的，花也不在乎是誰澆的水。"
+      },
+      {
+        "en": "SDG 5 says girls and boys should have the same chances.",
+        "zh": "SDG 5 說：女生和男生應該有一樣的機會。"
+      },
+      {
+        "en": "So do what you love, and let others do what they love, too.",
+        "zh": "所以，做你喜歡的事，也讓別人做他們喜歡的事。"
+      }
+    ]
+  }
 }
