@@ -1,0 +1,568 @@
+{
+  "slug": "raoming-elem-sdg10-equality-equity",
+  "school": "饒明國小",
+  "school_en": "Raoming Elementary",
+  "date": "2026.11.10",
+  "year": "115",
+  "classes": "Grades 5 & 6 五、六年級",
+  "title": "SDG 10 平等 vs. 公平",
+  "title_en": "Equality vs. Equity",
+  "sdg": "10",
+  "theme": "teal",
+  "footer": "Teacher Dom · SDG #10 Equality vs. Equity 平等與公平",
+  "slides": [
+    {
+      "type": "title",
+      "eyebrow_en": "A Bilingual Lesson for Grades 5 and 6",
+      "eyebrow_zh": "五、六年級雙語課程",
+      "chips": [
+        {
+          "en": "What Is Equal?",
+          "zh": "什麼是平等"
+        },
+        {
+          "en": "What Is Fair?",
+          "zh": "什麼是公平"
+        },
+        {
+          "en": "Our School",
+          "zh": "我們的學校"
+        },
+        {
+          "en": "Our Actions",
+          "zh": "行動方案"
+        }
+      ],
+      "strip": [
+        {
+          "num": "17",
+          "en": "Global Goals, this is #10",
+          "zh": "項全球目標，這是第 10 項"
+        },
+        {
+          "num": "2",
+          "en": "big words today: equal and fair",
+          "zh": "個今天的關鍵字：平等與公平"
+        },
+        {
+          "num": "0",
+          "en": "students should feel left out",
+          "zh": "沒有人該被冷落"
+        }
+      ],
+      "img": "raoming-gate.jpg"
+    },
+    {
+      "type": "intro",
+      "head_en": "Hello, I'm Dom!",
+      "head_zh": "大家好，我是 Dom！",
+      "lines": [
+        {
+          "en": "I grew up in Compton, California.",
+          "zh": "我在美國加州的 Compton 長大。"
+        },
+        {
+          "en": "I have been teaching students in Taiwan for a couple of years.",
+          "zh": "我在台灣教學生已經有幾年了。"
+        },
+        {
+          "en": "I won the UNA 2024 Young Leader of the Year Award.",
+          "zh": "我獲得 2024 年聯合國協會青年領袖獎。"
+        },
+        {
+          "en": "Today: equal or fair — what is the difference?",
+          "zh": "今天要談：平等和公平，差在哪裡？"
+        }
+      ],
+      "ask_en": "Raise your hand: is “the same for everyone” always fair?",
+      "ask_zh": "舉手：「每個人都一樣」，就一定公平嗎？"
+    },
+    {
+      "type": "map",
+      "head_en": "From California to Changhua",
+      "head_zh": "從加州到彰化",
+      "img": "map-usa-taiwan.svg",
+      "ask_en": "Your school has friends in California too — Windship Middle School in Eureka!",
+      "ask_zh": "你們學校在加州也有朋友——尤里卡市的 Windship 中學！"
+    },
+    {
+      "type": "photo",
+      "head_en": "Two Mascots, One Friendship",
+      "head_zh": "兩隻吉祥物，一份友誼",
+      "img": "raoming-mascots.jpg",
+      "icon": "🦁",
+      "ask_en": "Your lion dancer flew to California. Windship's pirate banana slug came to Yuanlin. Different, and still friends.",
+      "ask_zh": "你們的小舞獅飛到了加州，Windship 的海盜香蕉蛞蝓來到員林。不一樣，還是好朋友。"
+    },
+    {
+      "type": "standup",
+      "head_en": "Stand Up If…",
+      "head_zh": "如果是你，就站起來！",
+      "prompts": [
+        {
+          "en": "Stand up if you have ever been the new person somewhere.",
+          "zh": "曾經是某個地方的新來的人，站起來。"
+        },
+        {
+          "en": "Stand up if you have ever felt left out of a game.",
+          "zh": "曾經覺得自己被排除在遊戲外的，站起來。"
+        },
+        {
+          "en": "Stand up if someone once made you feel welcome.",
+          "zh": "曾經有人讓你覺得被歡迎的，站起來。"
+        }
+      ],
+      "punch_en": "That one person changed everything. Today, you can be that person.",
+      "punch_zh": "那一個人改變了一切。今天，你可以當那個人。"
+    },
+    {
+      "type": "topic",
+      "head_en": "What is SDG 10?",
+      "head_zh": "什麼是 SDG 10？",
+      "body_en": "In 2015, every country agreed on 17 Global Goals for 2030. Goal 10 is Reduced Inequalities — no one should be left behind because of where they are from, what they look like, or what they have.",
+      "body_zh": "2015 年，全世界所有國家訂下 17 項全球目標，要在 2030 年前達成。第 10 項是「減少不平等」——不該有人因為出身、長相或擁有的多寡而被丟下。",
+      "keywords": [
+        {
+          "en": "fair",
+          "zh": "公平"
+        },
+        {
+          "en": "include",
+          "zh": "接納"
+        },
+        {
+          "en": "respect",
+          "zh": "尊重"
+        },
+        {
+          "en": "belong",
+          "zh": "歸屬"
+        }
+      ]
+    },
+    {
+      "type": "topic",
+      "head_en": "Two Big Words",
+      "head_zh": "兩個重要的字",
+      "body_en": "Equality means everyone gets the same thing. Equity means everyone gets what they need, so everyone can reach the same goal.",
+      "body_zh": "平等（equality），是每個人拿到一樣的東西。公平（equity），是每個人拿到自己需要的東西，讓大家都能到達同一個目標。",
+      "keywords": [
+        {
+          "en": "equality",
+          "zh": "平等"
+        },
+        {
+          "en": "equity",
+          "zh": "公平"
+        },
+        {
+          "en": "same",
+          "zh": "一樣"
+        },
+        {
+          "en": "need",
+          "zh": "需要"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "n": 1,
+      "q_en": "Two students need to see over a wall. One is tall, one is short. What is FAIR?",
+      "q_zh": "兩個學生要看過一道牆，一高一矮。怎樣才叫「公平」？",
+      "options": [
+        {
+          "en": "Give both the same size box",
+          "zh": "兩個人給一樣高的箱子"
+        },
+        {
+          "en": "Give nobody a box",
+          "zh": "兩個人都不給箱子"
+        },
+        {
+          "en": "Give the shorter one a taller box",
+          "zh": "矮的那個給比較高的箱子"
+        },
+        {
+          "en": "Make the short one leave",
+          "zh": "叫矮的那個離開"
+        }
+      ],
+      "answer": 2,
+      "explain_en": "Equality gives everyone the same. Equity gives everyone what they need to reach the same view.",
+      "explain_zh": "平等是「給一樣的」；公平是「給他所需要的」，讓大家都看得到一樣的風景。",
+      "img": "sdg10-equity"
+    },
+    {
+      "type": "quiz",
+      "n": 2,
+      "q_en": "Our school gives every student new shoes — all size 22. Is that fair?",
+      "q_zh": "學校送每個學生一雙新鞋——全部都是 22 號。這樣公平嗎？",
+      "options": [
+        {
+          "en": "Yes — everyone got the same",
+          "zh": "公平，每個人都一樣"
+        },
+        {
+          "en": "No — feet are different sizes",
+          "zh": "不公平，每個人的腳大小不同"
+        },
+        {
+          "en": "Yes — it saves money",
+          "zh": "公平，這樣比較省錢"
+        },
+        {
+          "en": "Only if you are tall",
+          "zh": "只有高的人才公平"
+        }
+      ],
+      "answer": 1,
+      "explain_en": "Equal, but not fair! Equity means everyone gets shoes that fit.",
+      "explain_zh": "平等，但不公平！公平是每個人都拿到合腳的鞋。"
+    },
+    {
+      "type": "sort",
+      "head_en": "Same for All, or What You Need?",
+      "head_zh": "一樣，還是依需要？",
+      "a_en": "SAME FOR ALL",
+      "a_zh": "每個人一樣",
+      "b_en": "WHAT YOU NEED",
+      "b_zh": "依需要給",
+      "items": [
+        {
+          "icon": "✏️",
+          "en": "Everyone gets one pencil",
+          "zh": "每個人一支鉛筆",
+          "a": "a"
+        },
+        {
+          "icon": "👓",
+          "en": "Glasses for a student who can't see the board",
+          "zh": "給看不清黑板的同學一副眼鏡",
+          "a": "b"
+        },
+        {
+          "icon": "🏀",
+          "en": "Every class gets 30 minutes in the gym",
+          "zh": "每班都有 30 分鐘體育館時間",
+          "a": "a"
+        },
+        {
+          "icon": "♿",
+          "en": "A ramp next to the stairs",
+          "zh": "樓梯旁邊加一條斜坡",
+          "a": "b"
+        },
+        {
+          "icon": "📝",
+          "en": "The same test for everyone",
+          "zh": "每個人考一樣的考卷",
+          "a": "a"
+        },
+        {
+          "icon": "⏱️",
+          "en": "Extra time for a student with a broken arm",
+          "zh": "手骨折的同學考試多一點時間",
+          "a": "b"
+        },
+        {
+          "icon": "🍱",
+          "en": "Everyone gets the same school lunch",
+          "zh": "每個人吃一樣的營養午餐",
+          "a": "a"
+        },
+        {
+          "icon": "💬",
+          "en": "Subtitles for people who cannot hear",
+          "zh": "給聽不到的人看字幕",
+          "a": "b"
+        }
+      ],
+      "note_en": "Both can be good! Ask: can everyone reach the goal?",
+      "note_zh": "兩種都可能是好的！問問看：每個人都到得了目標嗎？"
+    },
+    {
+      "type": "topic",
+      "head_en": "Same Rights, Fair Help",
+      "head_zh": "一樣的權利，公平的幫助",
+      "body_en": "Your school has taught you about children's rights: every child has the right to learn, to play and to be safe. Some children need a little extra help to enjoy those rights. That is not special treatment — that is fair.",
+      "body_zh": "你們學校教過兒童權利公約：每個孩子都有學習、遊戲、受保護的權利。有些孩子需要多一點幫助，才能真正享有這些權利。這不是特別待遇，這就是公平。",
+      "keywords": [
+        {
+          "en": "rights",
+          "zh": "權利"
+        },
+        {
+          "en": "child",
+          "zh": "兒童"
+        },
+        {
+          "en": "help",
+          "zh": "幫助"
+        },
+        {
+          "en": "safe",
+          "zh": "安全"
+        }
+      ]
+    },
+    {
+      "type": "bigstat",
+      "num": "1 in 6",
+      "head_en": "people have felt discriminated against",
+      "head_zh": "每 6 個人就有 1 人感受過被歧視",
+      "body_en": "Because of age, gender, skin color, disability, language, or where they come from.",
+      "body_zh": "原因可能是年齡、性別、膚色、身心障礙、語言，或來自哪裡。",
+      "ask_en": "Which of those could happen at a school?",
+      "ask_zh": "這些原因裡，哪幾個可能發生在學校裡？"
+    },
+    {
+      "type": "quiz",
+      "n": 3,
+      "q_en": "Which of these is the BEST way to include a new classmate?",
+      "q_zh": "下列哪一個是接納新同學最好的方法？",
+      "options": [
+        {
+          "en": "Tell them they can join if they want",
+          "zh": "跟他說他想加入的話可以來"
+        },
+        {
+          "en": "Say their name and ask them to sit with you",
+          "zh": "叫出他的名字，請他坐你旁邊"
+        },
+        {
+          "en": "Wait for them to ask you first",
+          "zh": "等他先來找你"
+        },
+        {
+          "en": "Tell the teacher to assign them a friend",
+          "zh": "請老師指派一個朋友給他"
+        }
+      ],
+      "answer": 1,
+      "explain_en": "Using someone's name is the fastest way to make them feel real to you. An invitation beats permission.",
+      "explain_zh": "叫出名字是讓對方覺得被看見最快的方法。「主動邀請」勝過「允許加入」。"
+    },
+    {
+      "type": "truefalse",
+      "head_en": "True or False?",
+      "head_zh": "真的還假的？手比 ⭕ 或 ❌",
+      "items": [
+        {
+          "en": "Treating everyone exactly the same is always fair.",
+          "zh": "對每個人一模一樣，就一定公平。",
+          "answer": false,
+          "note_en": "People start from different places — fair means giving what is needed.",
+          "note_zh": "每個人的起點不同，公平是給他需要的。"
+        },
+        {
+          "en": "Glasses give a student an unfair advantage.",
+          "zh": "戴眼鏡讓同學佔了便宜。",
+          "answer": false,
+          "note_en": "Glasses don't help you win — they help you see like everyone else.",
+          "note_zh": "眼鏡不是讓你贏，是讓你跟大家一樣看得見。"
+        },
+        {
+          "en": "Every child has the right to learn and to play.",
+          "zh": "每個孩子都有學習和遊戲的權利。",
+          "answer": true,
+          "note_en": "It is in the UN Convention on the Rights of the Child.",
+          "note_zh": "這寫在聯合國《兒童權利公約》裡。"
+        },
+        {
+          "en": "Leaving someone out can hurt as much as saying something mean.",
+          "zh": "把人排除在外，可能跟說難聽話一樣傷人。",
+          "answer": true,
+          "note_en": "Being ignored is one of the most common forms of bullying.",
+          "note_zh": "被忽略是最常見的霸凌形式之一。"
+        }
+      ]
+    },
+    {
+      "type": "topic",
+      "head_en": "A Lion Needs Everyone",
+      "head_zh": "一隻獅子，需要每一個人",
+      "body_en": "In 2024, Raoming's lion dance team won first place in the four-lion event at the County Magistrate's Cup. The head, the tail and the drummer each do a different job — and the team wins only when every member gets what they need to do their part.",
+      "body_zh": "2024 年，饒明舞獅隊在縣長盃拿下四獅比賽第一名。獅頭、獅尾、鼓手各做不同的事——每個隊員都拿到他需要的，才能把自己那一份做好，整隊才會贏。",
+      "keywords": [
+        {
+          "en": "team",
+          "zh": "團隊"
+        },
+        {
+          "en": "job",
+          "zh": "工作"
+        },
+        {
+          "en": "drum",
+          "zh": "鼓"
+        },
+        {
+          "en": "together",
+          "zh": "一起"
+        }
+      ]
+    },
+    {
+      "type": "game",
+      "icon": "🌍",
+      "head_en": "30-Second Challenge",
+      "head_zh": "30 秒挑戰",
+      "rule_en": "In 30 seconds, shout out as many countries in English as you can. I will count!",
+      "rule_zh": "30 秒內，用英文喊出越多國家名越好，我來數！",
+      "hints": [
+        "Japan 日本",
+        "Vietnam 越南",
+        "Thailand 泰國",
+        "Philippines 菲律賓",
+        "Indonesia 印尼",
+        "Korea 韓國",
+        "Canada 加拿大",
+        "Kenya 肯亞"
+      ],
+      "target_en": "Class record to beat: 15",
+      "target_zh": "要打破的班級紀錄：15 個"
+    },
+    {
+      "type": "pairshare",
+      "head_en": "Turn and Talk",
+      "head_zh": "兩人一組，說說看",
+      "prompt_en": "Think of something at school that is the same for everyone. Is it fair for everyone, too?",
+      "prompt_zh": "想一件在學校「每個人都一樣」的事。它對每個人也都公平嗎？",
+      "sentence_en": "At school, ______ is the same for everyone. To make it fair, we could ______.",
+      "sentence_zh": "在學校，______ 每個人都一樣。要讓它更公平，我們可以 ______。",
+      "time_en": "60 seconds — then 3 pairs share with the class.",
+      "time_zh": "60 秒，然後請 3 組跟全班分享。"
+    },
+    {
+      "type": "rank",
+      "head_en": "Which One Helps Most?",
+      "head_zh": "哪一個最有效？",
+      "sub_en": "Vote with your hands — 1, 2, 3, or 4 fingers.",
+      "sub_zh": "用手指投票——比 1、2、3 或 4。",
+      "items": [
+        {
+          "en": "Learn and use people's names",
+          "zh": "記住並叫出別人的名字"
+        },
+        {
+          "en": "Invite someone into your group",
+          "zh": "邀請別人加入你的小組"
+        },
+        {
+          "en": "Speak up when you hear a mean joke",
+          "zh": "聽到傷人的玩笑時出聲"
+        },
+        {
+          "en": "Ask someone about their family's hometown",
+          "zh": "問問對方家人的家鄉"
+        }
+      ],
+      "reveal_en": "All four work. #3 is the hardest and the most powerful — it changes what the whole room thinks is okay.",
+      "reveal_zh": "四個都有效。第 3 個最難也最有力量——它會改變整個班認為「可以接受」的界線。"
+    },
+    {
+      "type": "phrases",
+      "head_en": "Say It With Me",
+      "head_zh": "跟著我唸",
+      "items": [
+        {
+          "en": "Equal means the same.",
+          "zh": "平等，是一樣。"
+        },
+        {
+          "en": "Fair means what you need.",
+          "zh": "公平，是給需要的。"
+        },
+        {
+          "en": "Everyone belongs here.",
+          "zh": "每個人都屬於這裡。"
+        },
+        {
+          "en": "Come sit with us.",
+          "zh": "過來跟我們一起坐。"
+        },
+        {
+          "en": "Be the change.",
+          "zh": "成為那個改變。"
+        }
+      ]
+    },
+    {
+      "type": "video",
+      "head_en": "Be the Change",
+      "head_zh": "成為那個改變",
+      "yt": "otT9zA42dK0",
+      "note_en": "Watch — then tell me one word you remember.",
+      "note_zh": "看完之後，告訴我你記得的一個英文單字。"
+    },
+    {
+      "type": "action",
+      "head_en": "3 Things You Can Do This Week",
+      "head_zh": "這週你可以做的 3 件事",
+      "items": [
+        {
+          "num": "1",
+          "en": "Notice who needs a little help — and offer it.",
+          "zh": "留意誰需要一點幫忙——然後主動幫他。"
+        },
+        {
+          "num": "2",
+          "en": "Invite one person into something you're doing.",
+          "zh": "邀請一個人加入你正在做的事。"
+        },
+        {
+          "num": "3",
+          "en": "If a joke hurts someone, don't laugh.",
+          "zh": "如果一個玩笑傷到人，就不要跟著笑。"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "n": 4,
+      "bonus": true,
+      "q_en": "About how many languages are spoken in Taiwan?",
+      "q_zh": "台灣大約有多少種語言在使用？",
+      "options": [
+        {
+          "en": "Just 1",
+          "zh": "只有 1 種"
+        },
+        {
+          "en": "About 3",
+          "zh": "大約 3 種"
+        },
+        {
+          "en": "More than 20",
+          "zh": "超過 20 種"
+        },
+        {
+          "en": "Exactly 10",
+          "zh": "剛好 10 種"
+        }
+      ],
+      "answer": 2,
+      "explain_en": "Mandarin, Taiwanese, Hakka and 16+ indigenous languages. Difference is normal here.",
+      "explain_zh": "華語、台語、客語，加上 16 種以上的原住民族語。「不一樣」在這裡本來就是常態。"
+    },
+    {
+      "type": "padlet",
+      "head_en": "Leave a Message for Dom",
+      "head_zh": "留言給 Dom",
+      "body_en": "Go to our School Tour page and find the Raoming Elementary column. No sign-up, no login — just write your comment for Teacher Dom.",
+      "body_zh": "到我們網站的 School Tour 頁面，找到饒明國小那一欄，免註冊、免登入，直接留言跟 Teacher Dom 互動。",
+      "site": "mycultureconnect.org/dom-school-tour.html",
+      "sentence_en": "Today I learned ______.",
+      "sentence_zh": "今天我學到 ______。"
+    },
+    {
+      "type": "closing",
+      "big_en": "Equal is the same.<br>Fair is what you need.",
+      "big_zh": "平等是一樣，公平是給需要的。",
+      "sign_en": "Thank you, Raoming Elementary!",
+      "sign_zh": "謝謝饒明國小！",
+      "img": "sdg10-closing"
+    }
+  ]
+}

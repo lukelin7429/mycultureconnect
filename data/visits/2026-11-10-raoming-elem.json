@@ -1,0 +1,37 @@
+{
+  "slug": "2026-11-10-raoming-elem",
+  "school": "饒明國小",
+  "school_en": "Raoming Elementary",
+  "date": "2026.11.10",
+  "weekday_zh": "星期二",
+  "weekday_en": "Tuesday",
+  "items": [
+    {
+      "time": "13:30 – 14:10",
+      "class": "Grade 5 五年級",
+      "label_en": "SDG 10: Equality vs. Equity",
+      "label_zh": "SDG 10：平等 vs. 公平",
+      "deck": "raoming-elem-sdg10-equality-equity"
+    },
+    {
+      "time": "14:20 – 15:00",
+      "class": "Grade 6 六年級",
+      "label_en": "SDG 10: Equality vs. Equity",
+      "label_zh": "SDG 10：平等 vs. 公平",
+      "deck": "raoming-elem-sdg10-equality-equity",
+      "note_en": "Same lesson, a different class.",
+      "note_zh": "同一套簡報，換一個班。"
+    },
+    {
+      "time": "15:00",
+      "label_en": "Principal interview",
+      "label_zh": "校長採訪",
+      "detail_en": "An interview with Principal Jiang Shu-fang.",
+      "detail_zh": "採訪江淑芳校長。",
+      "note_en": "For the Voices in Education series.",
+      "note_zh": "收錄於「教育之聲」校長專訪系列。"
+    }
+  ],
+  "footnote_en": "Everything takes place in the school library. Our contact is the English teacher, Ms. Jiang Ying-xue (江映雪老師). In the morning, Dom is at Yuying Elementary.",
+  "footnote_zh": "全部在學校圖書室進行。聯絡窗口是英文老師江映雪老師。當天上午 Dom 在育英國小。"
+}

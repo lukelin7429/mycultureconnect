@@ -792,6 +792,26 @@
      "title_en": "Reduced Inequalities"
     }
    ]
+  },
+  {
+   "en": "Raoming Elementary",
+   "zh": "饒明國小",
+   "town_zh": "員林市",
+   "town_en": "Yuanlin City",
+   "lat": 23.9391849,
+   "lng": 120.5754232,
+   "dates": [
+    "2026.11.10"
+   ],
+   "year": "115",
+   "decks": [
+    {
+     "slug": "raoming-elem-sdg10-equality-equity",
+     "title": "SDG 10 平等 vs. 公平",
+     "title_en": "Equality vs. Equity"
+    }
+   ],
+   "visit": "2026-11-10-raoming-elem"
   }
  ]
 }
