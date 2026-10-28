@@ -1,0 +1,35 @@
+{
+  "slug": "2026-11-10-yuying-elem",
+  "school": "育英國小",
+  "school_en": "Yuying Elementary",
+  "date": "2026.11.10",
+  "weekday_zh": "星期二",
+  "weekday_en": "Tuesday",
+  "items": [
+    {
+      "time": "9:30 – 10:10",
+      "class": "Class 4-7 四年庚班",
+      "label_en": "SDG 5: Gender Equality",
+      "label_zh": "SDG 5：性別平等",
+      "deck": "yuying-elem-sdg5-gender-equality"
+    },
+    {
+      "time": "10:30 – 11:10",
+      "class": "Class 6-3 六年丙班",
+      "label_en": "SDG 10: Reduced Inequalities",
+      "label_zh": "SDG 10：減少不平等",
+      "deck": "yuying-elem-sdg10-inequality"
+    },
+    {
+      "time": "11:20 – 12:00",
+      "label_en": "Principal interview",
+      "label_zh": "校長採訪",
+      "detail_en": "An interview with Principal Lin Chen-mao.",
+      "detail_zh": "採訪林振茂校長。",
+      "note_en": "For the Voices in Education series.",
+      "note_zh": "收錄於「教育之聲」校長專訪系列。"
+    }
+  ],
+  "footnote_en": "The principal interview is in the last class period of the morning. In the afternoon, Dom is at Raoming Elementary (from 1:30 p.m.).",
+  "footnote_zh": "校長採訪排在上午最後一節。當天下午 Dom 在饒明國小（1:30 開始）。"
+}
