@@ -564,5 +564,147 @@
       "sign_zh": "謝謝饒明國小！",
       "img": "sdg10-closing"
     }
-  ]
+  ],
+  "preview": {
+    "words": [
+      {
+        "en": "equal",
+        "zh": "平等的"
+      },
+      {
+        "en": "fair",
+        "zh": "公平的"
+      },
+      {
+        "en": "different",
+        "zh": "不同的"
+      },
+      {
+        "en": "goal",
+        "zh": "目標"
+      },
+      {
+        "en": "reach",
+        "zh": "到達"
+      },
+      {
+        "en": "support",
+        "zh": "支持"
+      },
+      {
+        "en": "left out",
+        "zh": "被冷落"
+      },
+      {
+        "en": "invite",
+        "zh": "邀請"
+      },
+      {
+        "en": "welcome",
+        "zh": "歡迎"
+      },
+      {
+        "en": "classmate",
+        "zh": "同學"
+      },
+      {
+        "en": "kind",
+        "zh": "善良的"
+      },
+      {
+        "en": "brave",
+        "zh": "勇敢的"
+      },
+      {
+        "en": "discrimination",
+        "zh": "歧視"
+      },
+      {
+        "en": "inequality",
+        "zh": "不平等"
+      },
+      {
+        "en": "change",
+        "zh": "改變"
+      },
+      {
+        "en": "belong",
+        "zh": "歸屬"
+      }
+    ],
+    "groups": [
+      {
+        "en": "Our School",
+        "zh": "我們的學校",
+        "words": [
+          {
+            "en": "lion dance",
+            "zh": "舞獅"
+          },
+          {
+            "en": "mascot",
+            "zh": "吉祥物"
+          },
+          {
+            "en": "friendship",
+            "zh": "友誼"
+          },
+          {
+            "en": "library",
+            "zh": "圖書室"
+          },
+          {
+            "en": "principal",
+            "zh": "校長"
+          },
+          {
+            "en": "California",
+            "zh": "加州"
+          },
+          {
+            "en": "exchange",
+            "zh": "交流"
+          },
+          {
+            "en": "champion",
+            "zh": "冠軍"
+          }
+        ]
+      }
+    ],
+    "read": [
+      {
+        "en": "Imagine a garden with many different plants.",
+        "zh": "想像一座花園，裡面有很多不同的植物。"
+      },
+      {
+        "en": "If we give every plant the same cup of water, is that fair?",
+        "zh": "如果每一株植物都澆一樣多的水，這樣公平嗎？"
+      },
+      {
+        "en": "A cactus needs only a little water, but a thirsty fern needs a lot.",
+        "zh": "仙人掌只需要一點點水，口渴的蕨類卻需要很多。"
+      },
+      {
+        "en": "Giving everyone the same thing is called equality.",
+        "zh": "給每個人一樣的東西，叫做平等。"
+      },
+      {
+        "en": "Giving each one what it needs to grow is called equity.",
+        "zh": "給每一個它成長所需要的，叫做公平。"
+      },
+      {
+        "en": "People are like plants. We are all different, and we need different things.",
+        "zh": "人就像植物。我們都不一樣，需要的東西也不一樣。"
+      },
+      {
+        "en": "SDG 10 asks us to make sure no one is left behind.",
+        "zh": "SDG 10 要我們確保沒有人被丟下。"
+      },
+      {
+        "en": "When we notice what others need and help them, everyone can grow together.",
+        "zh": "當我們留意別人需要什麼、並且幫助他們，每個人都能一起成長。"
+      }
+    ]
+  }
 }
