@@ -23,6 +23,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import build_previews as bp  # noqa: E402
 
 e = bp.e
+MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August',
+          'September', 'October', 'November', 'December']
 bp.SPEAK_VOICE = 'gemini:Leda'
 
 
@@ -119,6 +121,9 @@ def page(d):
         f'<div class="pv-think"><p class="q">{e(t["prompt_en"])}<em>{e(t["prompt_zh"])}</em></p>'
         f'<div class="frame">{bp.speak_btn(t["sentence_en"])}<div><b>{e(t["sentence_en"])}</b><em>{e(t["sentence_zh"])}</em></div></div></div>')
 
+    _, mo, dd = d['date'].split('.')
+    see_en = f'{MONTHS[int(mo) - 1]} {int(dd)}'
+    see_zh = f'{int(mo)} 月 {int(dd)} 日'
     navhtml = ''.join(f'<a href="#s{i}">{e(a)}<em>{e(b)}</em></a>' for a, b, i in nav)
     css = bp.CSS.replace('KEY2', key2).replace('KEY', key).replace('BG', bg).replace('INK', ink) + EXTRA_CSS
     return f'''<!doctype html>
@@ -156,7 +161,7 @@ def page(d):
 
 <main class="wrap">
 {"".join(secs)}
-<div class="pv-done rv"><b>See you on December 8!</b><em>12 月 8 日見！</em></div>
+<div class="pv-done rv"><b>See you on {see_en}!</b><em>{see_zh}見！</em></div>
 </main>
 
 <footer class="pv-foot wrap">Made for {e(d["school_en"])} by <a href="/">My Culture Connect</a> 人師教育協會 · Dom's story from <a href="/dom-jones.html">her page on our site</a></footer>
