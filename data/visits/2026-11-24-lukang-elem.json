@@ -7,11 +7,11 @@
   "weekday_en": "Tuesday",
   "items": [
     {
-      "time": "09:00",
+      "time": "08:50",
       "label_en": "Principal interview",
       "label_zh": "校長採訪",
-      "detail_en": "An interview with Principal Chen Hung-chun (planned — to be confirmed).",
-      "detail_zh": "採訪陳虹君校長（暫定，待確認）。",
+      "detail_en": "An interview with Principal Chen Hung-chun.",
+      "detail_zh": "採訪陳虹君校長。",
       "note_en": "For the Voices in Education series.",
       "note_zh": "收錄於「教育之聲」校長專訪系列。"
     },
@@ -32,6 +32,6 @@
       "note_zh": "換一個班、換一套簡報。"
     }
   ],
-  "footnote_en": "Two 40-minute classes with a 20-minute break between them.",
-  "footnote_zh": "兩節課各 40 分鐘，中間休息 20 分鐘。"
+  "footnote_en": "Two 40-minute classes with a 20-minute break between them. In the afternoon, Dom is at Lushang Elementary in Fangyuan.",
+  "footnote_zh": "兩節課各 40 分鐘，中間休息 20 分鐘。當天下午 Dom 在芳苑鄉路上國小。"
 }
