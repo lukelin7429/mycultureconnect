@@ -813,6 +813,30 @@
     }
    ],
    "visit": "2026-11-10-raoming-elem"
+  },
+  {
+   "en": "Lushang Elementary",
+   "zh": "路上國小",
+   "town_zh": "芳苑鄉",
+   "town_en": "Fangyuan",
+   "lat": 23.8963671,
+   "lng": 120.3284085,
+   "dates": [
+    "2026.11.24"
+   ],
+   "year": "115",
+   "decks": [
+    {
+     "slug": "lushang-elem-sdg13-climate",
+     "title": "SDG 13 氣候行動",
+     "title_en": "Climate Action"
+    },
+    {
+     "slug": "lushang-elem-gratitude",
+     "title": "品格教育：感恩",
+     "title_en": "Gratitude"
+    }
+   ]
   }
  ]
 }
