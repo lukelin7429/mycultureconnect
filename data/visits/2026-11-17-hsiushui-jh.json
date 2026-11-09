@@ -1,0 +1,49 @@
+{
+  "slug": "2026-11-17-hsiushui-jh",
+  "school": "秀水國中",
+  "school_en": "Hsiushui Junior High",
+  "date": "2026.11.17",
+  "weekday_zh": "星期二",
+  "weekday_en": "Tuesday",
+  "items": [
+    {
+      "time": "07:50",
+      "label_en": "Flag-raising ceremony",
+      "label_zh": "升旗典禮"
+    },
+    {
+      "time": "08:15 – 09:00",
+      "class": "Grades 7 & 8 七、八年級",
+      "label_en": "SDG 11: Sustainable Cities and Communities",
+      "label_zh": "SDG 11：永續城市與社區",
+      "deck": "hsiushui-jh-sdg11-communities",
+      "detail_en": "In the audio-visual room, for about 80 students: two classes (about 60) plus the 20 students in the international video-call course.",
+      "detail_zh": "在視聽教室，約 80 位學生：兩個班（約 60 位）加上國際視訊課程的 20 位同學。"
+    },
+    {
+      "time": "09:10 – 09:55",
+      "label_en": "Voices in Education interview",
+      "label_zh": "教育之聲專訪",
+      "detail_en": "An interview with Principal Lai Pei-ling, joined by three or four members of the school's administrative team.",
+      "detail_zh": "專訪賴姵伶校長，3 到 4 位行政同仁一起受訪。",
+      "note_en": "For the Voices in Education series.",
+      "note_zh": "收錄於「教育之聲」校長專訪系列。"
+    },
+    {
+      "time": "10:05 – 10:50",
+      "label_en": "Small-group conversation",
+      "label_zh": "小團體深度對話",
+      "detail_en": "The 20 students in the international video-call course introduce their clubs to Dom: basketball and soccer, Nanguan and Beiguan music, the recorder ensemble, and the Vietnamese language and culture club.",
+      "detail_zh": "國際視訊課程的 20 位同學向 Dom 介紹學校社團：籃球、足球，南管、北管、直笛，以及越語社。",
+      "note_en": "The students lead this one. Dom listens and asks questions.",
+      "note_zh": "這一節由學生主講，Dom 聆聽與提問。"
+    },
+    {
+      "time": "11:00",
+      "label_en": "Free time and conversation",
+      "label_zh": "自由時間與交流"
+    }
+  ],
+  "footnote_en": "Arranged with Principal Lai Pei-ling. The 8:15 lesson ties together the clubs the students will present at 10:05: sports for a healthy community, Nanbeiguan for heritage, and the recorder and Vietnamese clubs for a community where everyone belongs.",
+  "footnote_zh": "與賴姵伶校長安排。8:15 的課會先串起 10:05 同學要介紹的社團：運動讓社區健康、南北管守護文化、直笛與越語社讓每個人都有歸屬。"
+}

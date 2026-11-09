@@ -837,6 +837,26 @@
      "title_en": "Gratitude"
     }
    ]
+  },
+  {
+   "en": "Hsiushui Junior High",
+   "zh": "秀水國中",
+   "town_zh": "秀水鄉",
+   "town_en": "Xiushui",
+   "lat": 24.036495,
+   "lng": 120.5045701,
+   "dates": [
+    "2026.11.17"
+   ],
+   "year": "115",
+   "decks": [
+    {
+     "slug": "hsiushui-jh-sdg11-communities",
+     "title": "SDG 11 永續城市與社區",
+     "title_en": "Sustainable Communities"
+    }
+   ],
+   "visit": "2026-11-17-hsiushui-jh"
   }
  ]
 }
