@@ -857,6 +857,20 @@
     }
    ],
    "visit": "2026-11-17-hsiushui-jh"
+  },
+  {
+   "en": "Chingshan Elementary",
+   "zh": "青山國小",
+   "town_zh": "員林市",
+   "town_en": "Yuanlin",
+   "lat": 23.9449224,
+   "lng": 120.6025418,
+   "dates": [
+    "2026.11.17"
+   ],
+   "year": "115",
+   "decks": [],
+   "visit": "2026-11-17-chingshan-elem"
   }
  ]
 }

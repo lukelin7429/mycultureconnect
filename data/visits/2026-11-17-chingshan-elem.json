@@ -1,0 +1,33 @@
+{
+  "slug": "2026-11-17-chingshan-elem",
+  "school": "青山國小",
+  "school_en": "Chingshan Elementary",
+  "date": "2026.11.17",
+  "weekday_zh": "星期二",
+  "weekday_en": "Tuesday",
+  "items": [
+    {
+      "time": "13:30 – 14:10",
+      "class": "Class 6-1 六年忠班",
+      "label_en": "Character Education: Gratitude",
+      "label_zh": "品格教育：感恩"
+    },
+    {
+      "time": "14:20 – 15:00",
+      "class": "Class 6-2 六年仁班",
+      "label_en": "Life in America",
+      "label_zh": "美國的生活"
+    },
+    {
+      "time": "15:10 – 15:50",
+      "label_en": "Principal interview",
+      "label_zh": "校長採訪",
+      "detail_en": "An interview with Principal Huang Hung-tien.",
+      "detail_zh": "採訪黃宏田校長。",
+      "note_en": "For the Voices in Education series.",
+      "note_zh": "收錄於「教育之聲」校長專訪系列。"
+    }
+  ],
+  "footnote_en": "The visit ends around 3:50 p.m., after the principal interview. In the morning, Dom is at Hsiushui Junior High.",
+  "footnote_zh": "校長採訪結束、約 3:50 離開。當天上午 Dom 在秀水國中。"
+}
