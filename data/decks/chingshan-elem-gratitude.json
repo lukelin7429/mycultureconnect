@@ -1,0 +1,440 @@
+{
+  "slug": "chingshan-elem-gratitude",
+  "school": "青山國小",
+  "school_en": "Chingshan Elementary",
+  "date": "2026.11.17",
+  "year": "115",
+  "classes": "Class 6-1 六年忠班",
+  "title": "品格教育：感恩",
+  "title_en": "Gratitude",
+  "theme": "leaf",
+  "footer": "Teacher Dom · Character Education: Gratitude 品格教育：感恩",
+  "slides": [
+    {
+      "type": "title",
+      "eyebrow_en": "Character Education with Teacher Dom",
+      "eyebrow_zh": "跟 Dom 老師上品格教育",
+      "chips": [
+        {
+          "en": "Who Helps Us?",
+          "zh": "誰在幫我們"
+        },
+        {
+          "en": "Your Principal's Word",
+          "zh": "校長的關鍵字"
+        },
+        {
+          "en": "Say Thank You",
+          "zh": "說謝謝"
+        },
+        {
+          "en": "Our Card",
+          "zh": "我們的感謝卡"
+        }
+      ],
+      "strip": [
+        {
+          "num": "Grade 6",
+          "en": "your last year at Chingshan",
+          "zh": "在青山的最後一年"
+        },
+        {
+          "num": "2025",
+          "en": "the year a library on wheels came to your school",
+          "zh": "一輛書車開進你們學校的那一年"
+        },
+        {
+          "num": "1",
+          "en": "thank-you card from each of you",
+          "zh": "張你親手寫的感謝卡"
+        }
+      ],
+      "img": "chingshan-flower-arch.jpg"
+    },
+    {
+      "type": "intro",
+      "head_en": "Hello, I'm Dom!",
+      "head_zh": "大家好，我是 Dom！",
+      "lines": [
+        {
+          "en": "I come from Huntington Beach, California.",
+          "zh": "我來自加州的杭廷頓海灘。"
+        },
+        {
+          "en": "I have been teaching students in Taiwan for a couple of years.",
+          "zh": "我在台灣教學生已經有幾年了。"
+        },
+        {
+          "en": "Today's word is gratitude.",
+          "zh": "今天的關鍵字是：感恩。"
+        }
+      ],
+      "ask_en": "Since you woke up today, who did something for you?",
+      "ask_zh": "從今天起床到現在，有誰為你做了什麼？"
+    },
+    {
+      "type": "map",
+      "head_en": "From California to Changhua",
+      "head_zh": "從加州到彰化",
+      "img": "map-usa-taiwan.svg",
+      "ask_en": "I flew 13 hours to get here. Many people helped me on the way. Can you guess who?",
+      "ask_zh": "我飛了 13 個小時才到這裡，一路上有很多人幫我。猜猜看是誰？"
+    },
+    {
+      "type": "topic",
+      "head_en": "What Is Gratitude?",
+      "head_zh": "什麼是感恩？",
+      "body_en": "Gratitude means noticing what other people do for you — and then saying thank you, or giving something back.",
+      "body_zh": "感恩，就是注意到別人為你做了什麼——然後說聲謝謝，或是回饋一點什麼。",
+      "keywords": [
+        {
+          "en": "notice",
+          "zh": "注意到"
+        },
+        {
+          "en": "thank",
+          "zh": "感謝"
+        },
+        {
+          "en": "appreciate",
+          "zh": "珍惜"
+        },
+        {
+          "en": "give back",
+          "zh": "回饋"
+        }
+      ],
+      "img": "g5-thanks-v"
+    },
+    {
+      "type": "standup",
+      "head_en": "Stand Up If…",
+      "head_zh": "如果是你，就站起來！",
+      "prompts": [
+        {
+          "en": "Stand up if someone made breakfast for you today.",
+          "zh": "今天有人幫你準備早餐的，站起來。"
+        },
+        {
+          "en": "Stand up if someone brought you to school today.",
+          "zh": "今天有人送你來學校的，站起來。"
+        },
+        {
+          "en": "Stand up if you said thank you to them.",
+          "zh": "有跟他們說謝謝的，站起來。"
+        }
+      ],
+      "punch_en": "So many people help us every day. We just don't always notice.",
+      "punch_zh": "每天有好多人在幫我們，只是我們不一定注意到。"
+    },
+    {
+      "type": "quiz",
+      "n": 1,
+      "q_en": "Principal Huang came to Chingshan this year. His vision has three words: groundedness, growth, and…",
+      "q_zh": "黃校長今年來到青山。他的辦學理念有三個詞：踏實、成長，還有……",
+      "options": [
+        {
+          "en": "Gratitude",
+          "zh": "感恩"
+        },
+        {
+          "en": "Grades",
+          "zh": "成績"
+        },
+        {
+          "en": "Games",
+          "zh": "遊戲"
+        },
+        {
+          "en": "Gold",
+          "zh": "金牌"
+        }
+      ],
+      "answer": 0,
+      "explain_en": "Gratitude! Your principal brought this word to Chingshan. Today, it is our word, too.",
+      "explain_zh": "感恩！這是校長帶來青山的詞。今天，它也是我們的關鍵字。"
+    },
+    {
+      "type": "photo",
+      "head_en": "Climb High, Stay Humble",
+      "head_zh": "青雲有路勤直上，山斗無峰謙自高",
+      "img": "chingshan-motto-monument.jpg",
+      "icon": "⛰️",
+      "ask_en": "Your motto stone says: work hard to climb high, and stay humble. Humble people remember who helped them climb.",
+      "ask_zh": "校訓石上寫著：認真往上爬，也要保持謙虛。謙虛的人，會記得是誰幫他爬上來的。"
+    },
+    {
+      "type": "quiz",
+      "n": 2,
+      "q_en": "In April 2025, a library on wheels came to Chingshan. When its sides opened, they looked like the wings of a…",
+      "q_zh": "2025 年 4 月，一輛書車開進青山。車子兩側打開時，看起來像什麼的翅膀？",
+      "options": [
+        {
+          "en": "Butterfly",
+          "zh": "蝴蝶"
+        },
+        {
+          "en": "Seagull",
+          "zh": "海鷗"
+        },
+        {
+          "en": "Dragon",
+          "zh": "龍"
+        },
+        {
+          "en": "Airplane",
+          "zh": "飛機"
+        }
+      ],
+      "answer": 1,
+      "explain_en": "A seagull! Volunteers like “Uncle Seagull” drive the book truck to schools, so you can fly into the world of reading.",
+      "explain_zh": "海鷗！「海鷗叔叔」這些志工把書車開到學校，讓你們乘著書本的翅膀飛向閱讀的世界。"
+    },
+    {
+      "type": "topic",
+      "head_en": "Helpers You May Not See",
+      "head_zh": "你可能沒看見的幫手",
+      "body_en": "Your Parents' Association helps with the welcome party, sports day, Christmas, Children's Day — and the gifts for graduates. University students from National Chung Hsing University teach you online as your “big partners.” So many people are on your team.",
+      "body_zh": "家長會幫忙辦迎新、運動會、聖誕節、兒童節，還有畢業生的禮物。中興大學的大哥哥大姐姐當你們的「大學伴」，在線上陪你們學習。好多人都站在你們這一邊。",
+      "keywords": [
+        {
+          "en": "volunteer",
+          "zh": "志工"
+        },
+        {
+          "en": "support",
+          "zh": "支持"
+        },
+        {
+          "en": "partner",
+          "zh": "夥伴"
+        },
+        {
+          "en": "give back",
+          "zh": "回饋"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "n": 3,
+      "q_en": "In 2024, the Chingshan recorder team entered the county music contest. How did their ensemble do?",
+      "q_zh": "2024 年，青山直笛隊參加全縣音樂比賽。合奏的成績是？",
+      "options": [
+        {
+          "en": "First place",
+          "zh": "第一名"
+        },
+        {
+          "en": "Second place",
+          "zh": "第二名"
+        },
+        {
+          "en": "Third place",
+          "zh": "第三名"
+        },
+        {
+          "en": "They didn't enter",
+          "zh": "沒有參加"
+        }
+      ],
+      "answer": 0,
+      "explain_en": "First place! And the team said thank you to their teachers and their parents. Winners remember who helped them win.",
+      "explain_zh": "第一名！直笛隊還特別感謝指導老師和家長。贏的人會記得是誰幫他們贏的。"
+    },
+    {
+      "type": "truefalse",
+      "head_en": "True or False?",
+      "head_zh": "真的還假的？手比 ⭕ 或 ❌",
+      "items": [
+        {
+          "en": "You only need to say thank you for big things.",
+          "zh": "只有大事才需要說謝謝。",
+          "answer": false,
+          "note_en": "Small things count too — like holding a door.",
+          "note_zh": "小事也算——像是幫你扶門。"
+        },
+        {
+          "en": "Saying thank you can make YOU happier, too.",
+          "zh": "說謝謝也會讓自己更快樂。",
+          "answer": true,
+          "note_en": "Scientists have studied it: grateful people often feel happier.",
+          "note_zh": "科學家研究過：懂得感恩的人通常比較快樂。"
+        },
+        {
+          "en": "Gratitude is only words.",
+          "zh": "感恩只是說說而已。",
+          "answer": false,
+          "note_en": "Your parents and volunteers show it with actions. So can you.",
+          "note_zh": "家長和志工用行動表現。你也可以。"
+        },
+        {
+          "en": "It's too late to thank someone from years ago.",
+          "zh": "好幾年前幫過你的人，現在謝已經太晚了。",
+          "answer": false,
+          "note_en": "Never too late! Your first-grade teacher would love to hear it.",
+          "note_zh": "永遠不嫌晚！你一年級的老師一定很想聽到。"
+        }
+      ]
+    },
+    {
+      "type": "phrases",
+      "head_en": "Say Thank You in English",
+      "head_zh": "用英文說謝謝",
+      "items": [
+        {
+          "en": "Thank you for ______.",
+          "zh": "謝謝你 ______。"
+        },
+        {
+          "en": "I really appreciate your help.",
+          "zh": "我真的很感謝你的幫忙。"
+        },
+        {
+          "en": "You made my day!",
+          "zh": "你讓我今天好開心！"
+        },
+        {
+          "en": "We couldn't do it without you.",
+          "zh": "沒有你，我們做不到。"
+        },
+        {
+          "en": "Thanks a million!",
+          "zh": "萬分感謝！"
+        }
+      ]
+    },
+    {
+      "type": "game",
+      "icon": "⏱",
+      "head_en": "30-Second Challenge",
+      "head_zh": "30 秒挑戰",
+      "rule_en": "In 30 seconds, shout out as many helpers as you can — in English. I will count!",
+      "rule_zh": "30 秒內，用英文喊出越多「幫助我們的人」越好，我來數！",
+      "hints": [
+        "teacher 老師",
+        "nurse 護理師",
+        "cook 廚師",
+        "driver 司機",
+        "coach 教練",
+        "volunteer 志工",
+        "librarian 圖書館員",
+        "grandma 阿嬤"
+      ],
+      "target_en": "Record to beat: 16",
+      "target_zh": "要打破的紀錄：16 個"
+    },
+    {
+      "type": "pairshare",
+      "head_en": "Turn and Tell Your Partner",
+      "head_zh": "轉過去，告訴你的同學",
+      "prompt_en": "Before you graduate, who is one person at Chingshan you want to thank?",
+      "prompt_zh": "畢業之前，在青山你最想感謝的一個人是誰？",
+      "sentence_en": "I want to thank ______ because ______.",
+      "sentence_zh": "我想感謝 ______，因為 ______。",
+      "time_en": "One minute each. Then I will ask two of you.",
+      "time_zh": "每人一分鐘。然後我會請兩位分享。"
+    },
+    {
+      "type": "card",
+      "head_en": "Write a Thank-You Card",
+      "head_zh": "寫一張感謝卡",
+      "lines": [
+        {
+          "en": "Dear ______,",
+          "zh": "親愛的 ______："
+        },
+        {
+          "en": "Thank you for ______.",
+          "zh": "謝謝你 ______。"
+        },
+        {
+          "en": "Because of you, ______.",
+          "zh": "因為有你，______。"
+        },
+        {
+          "en": "From, ______",
+          "zh": "______ 敬上"
+        }
+      ],
+      "tip_en": "Give it to them yourself — today!",
+      "tip_zh": "今天就親手交給他！"
+    },
+    {
+      "type": "video",
+      "head_en": "Dom on Gratitude",
+      "head_zh": "Dom 談感恩",
+      "yt": "qQQhU5rkwXE",
+      "note_en": "Watch — then tell me: who will get YOUR card?",
+      "note_zh": "看完之後，告訴我：你的卡片要送給誰？"
+    },
+    {
+      "type": "action",
+      "head_en": "3 Things You Can Do Before You Graduate",
+      "head_zh": "畢業前可以做的 3 件事",
+      "items": [
+        {
+          "num": "1",
+          "en": "Say thank you to a helper — and use their name.",
+          "zh": "向一位幫助你的人說謝謝——叫出他的名字。"
+        },
+        {
+          "num": "2",
+          "en": "Give your card to the person you wrote it for.",
+          "zh": "把卡片親手交給你寫給的那個人。"
+        },
+        {
+          "num": "3",
+          "en": "Help a younger student. One day, YOU will be the one who gives back.",
+          "zh": "幫學弟妹一個忙。有一天，你也會是回饋母校的那個人。"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "n": 4,
+      "q_en": "In America, there is a whole holiday just for saying thank you. When is it?",
+      "q_zh": "在美國，有一個專門說謝謝的節日。是哪一天？",
+      "options": [
+        {
+          "en": "4th Thursday of Nov.",
+          "zh": "11 月第 4 個星期四"
+        },
+        {
+          "en": "July 4",
+          "zh": "7 月 4 日"
+        },
+        {
+          "en": "December 25",
+          "zh": "12 月 25 日"
+        },
+        {
+          "en": "January 1",
+          "zh": "1 月 1 日"
+        }
+      ],
+      "answer": 0,
+      "explain_en": "Thanksgiving! This year it is November 26. Families share a big dinner, and each person says one thing they are thankful for.",
+      "explain_zh": "感恩節！今年是 11 月 26 日。全家人一起吃大餐，每個人說一件自己感謝的事。",
+      "bonus": true
+    },
+    {
+      "type": "padlet",
+      "head_en": "Leave a Message for Dom",
+      "head_zh": "留言給 Dom",
+      "body_en": "Go to our School Tour page and find the Chingshan Elementary column. No sign-up, no login — tell Dom who you thanked today.",
+      "body_zh": "到我們網站的 School Tour 頁面，找到青山國小那一欄，免註冊、免登入，告訴 Dom 你今天感謝了誰。",
+      "sentence_en": "Today I thanked ______.",
+      "sentence_zh": "今天我感謝了 ______。",
+      "site": "mycultureconnect.org/dom-school-tour.html"
+    },
+    {
+      "type": "closing",
+      "big_en": "Stay humble.<br>Say thank you.",
+      "big_zh": "謙虛向上，把謝謝說出口。",
+      "sign_en": "Thank you, Chingshan Elementary!",
+      "sign_zh": "謝謝青山國小！",
+      "img": "g5-thanks-closing"
+    }
+  ]
+}

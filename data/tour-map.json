@@ -869,7 +869,18 @@
     "2026.11.17"
    ],
    "year": "115",
-   "decks": [],
+   "decks": [
+    {
+     "slug": "chingshan-elem-gratitude",
+     "title": "品格教育：感恩",
+     "title_en": "Gratitude"
+    },
+    {
+     "slug": "chingshan-elem-life-in-america",
+     "title": "美國的生活",
+     "title_en": "Life in America"
+    }
+   ],
    "visit": "2026-11-17-chingshan-elem"
   }
  ]

@@ -1,0 +1,585 @@
+{
+  "slug": "chingshan-elem-life-in-america",
+  "school": "青山國小",
+  "school_en": "Chingshan Elementary",
+  "date": "2026.11.17",
+  "year": "115",
+  "classes": "Class 6-2 六年仁班",
+  "title": "美國的生活",
+  "title_en": "Life in America",
+  "theme": "sky",
+  "badge": {
+    "icon": "🌎",
+    "label": "CULTURE",
+    "lib": "🌎 Culture 文化"
+  },
+  "footer": "Teacher Dom · Life in America 美國的生活",
+  "slides": [
+    {
+      "type": "title",
+      "eyebrow_en": "Teacher Dom's America",
+      "eyebrow_zh": "Dom 老師眼中的美國",
+      "chips": [
+        {
+          "en": "School Days",
+          "zh": "上學日"
+        },
+        {
+          "en": "Food & Holidays",
+          "zh": "食物與節日"
+        },
+        {
+          "en": "Myth or Fact",
+          "zh": "真的假的"
+        },
+        {
+          "en": "Ask Dom!",
+          "zh": "問 Dom！"
+        }
+      ],
+      "strip": [
+        {
+          "num": "50",
+          "en": "states in the USA",
+          "zh": "美國有 50 個州"
+        },
+        {
+          "num": "1909",
+          "en": "the year Dom's hometown became a city",
+          "zh": "Dom 的家鄉建市那一年"
+        },
+        {
+          "num": "13",
+          "en": "hours Dom flew to get to Taiwan",
+          "zh": "Dom 飛到台灣的時數"
+        }
+      ],
+      "img": "chingshan-mural-building.jpg"
+    },
+    {
+      "type": "intro",
+      "head_en": "Hello, I'm Dom!",
+      "head_zh": "大家好，我是 Dom！",
+      "lines": [
+        {
+          "en": "I come from Huntington Beach, California.",
+          "zh": "我來自加州的杭廷頓海灘。"
+        },
+        {
+          "en": "I have been teaching students in Taiwan for a couple of years.",
+          "zh": "我在台灣教學生已經有幾年了。"
+        },
+        {
+          "en": "Today, I will show you MY America.",
+          "zh": "今天，我要帶你們看看「我的」美國。"
+        }
+      ],
+      "ask_en": "What do you already know about America?",
+      "ask_zh": "關於美國，你已經知道些什麼？"
+    },
+    {
+      "type": "standup",
+      "head_en": "Stand Up If…",
+      "head_zh": "如果是你，就站起來！",
+      "prompts": [
+        {
+          "en": "Stand up if you have eaten a hamburger.",
+          "zh": "吃過漢堡的，站起來。"
+        },
+        {
+          "en": "Stand up if you have watched an American movie.",
+          "zh": "看過美國電影的，站起來。"
+        },
+        {
+          "en": "Stand up if you dressed up for Halloween at Chingshan.",
+          "zh": "在青山萬聖節變裝過的，站起來。"
+        }
+      ],
+      "punch_en": "You already know a little about America. Today, let's meet the real one.",
+      "punch_zh": "你們已經認識一點點美國了。今天，來認識真正的美國。"
+    },
+    {
+      "type": "map",
+      "head_en": "From Surf City to Baiguo Mountain",
+      "head_zh": "從衝浪之城到百果山",
+      "img": "map-usa-taiwan.svg",
+      "ask_en": "I grew up by the ocean. You are growing up by a mountain. Let's compare our lives!",
+      "ask_zh": "我在海邊長大，你們在山腳下長大。來比比看我們的生活！"
+    },
+    {
+      "type": "quiz",
+      "n": 1,
+      "q_en": "About how many Taiwans can fit inside California?",
+      "q_zh": "加州裡面大約放得下幾個台灣？",
+      "options": [
+        {
+          "en": "2",
+          "zh": "2 個"
+        },
+        {
+          "en": "5",
+          "zh": "5 個"
+        },
+        {
+          "en": "About 12",
+          "zh": "大約 12 個"
+        },
+        {
+          "en": "50",
+          "zh": "50 個"
+        }
+      ],
+      "answer": 2,
+      "explain_en": "About 12! California is 11.7 times bigger than Taiwan. And the whole USA? About 270 Taiwans!",
+      "explain_zh": "大約 12 個！加州是台灣的 11.7 倍大。那整個美國呢？大約 270 個台灣！"
+    },
+    {
+      "type": "topic",
+      "head_en": "My Hometown: Surf City USA",
+      "head_zh": "我的家鄉：衝浪之城",
+      "body_en": "Huntington Beach is a beach city in Southern California. Its nickname is “Surf City USA.” It has a long pier that walks you out over the ocean, and every summer, surfers from around the world come to compete there.",
+      "body_zh": "杭廷頓海灘是南加州的海邊城市，綽號叫「美國衝浪之城」。那裡有一座長長的碼頭，可以一路走到海面上；每年夏天，世界各地的衝浪好手都會來這裡比賽。",
+      "keywords": [
+        {
+          "en": "beach",
+          "zh": "海灘"
+        },
+        {
+          "en": "surf",
+          "zh": "衝浪"
+        },
+        {
+          "en": "pier",
+          "zh": "碼頭"
+        },
+        {
+          "en": "hometown",
+          "zh": "家鄉"
+        }
+      ]
+    },
+    {
+      "type": "photo",
+      "head_en": "Palm Trees Here, Too!",
+      "head_zh": "這裡也有棕櫚樹！",
+      "img": "chingshan-courtyard-fountain.jpg",
+      "icon": "🌴",
+      "ask_en": "Palm trees line the beach in my hometown. When I saw your courtyard, I felt right at home.",
+      "ask_zh": "我家鄉的海邊種滿棕櫚樹。看到你們的中庭，我覺得好像回到家了。"
+    },
+    {
+      "type": "sort",
+      "head_en": "Taiwan or USA?",
+      "head_zh": "台灣，還是美國？",
+      "a_en": "TAIWAN",
+      "a_zh": "台灣",
+      "b_en": "USA",
+      "b_zh": "美國",
+      "items": [
+        {
+          "icon": "🚌",
+          "en": "A big yellow bus takes kids to school",
+          "zh": "大大的黃色校車載小孩上學",
+          "a": "b"
+        },
+        {
+          "icon": "😴",
+          "en": "The whole class takes a nap after lunch",
+          "zh": "全班午餐後一起午睡",
+          "a": "a"
+        },
+        {
+          "icon": "🍱",
+          "en": "Lunch is served in the classroom",
+          "zh": "午餐在教室裡打菜",
+          "a": "a"
+        },
+        {
+          "icon": "🔐",
+          "en": "Middle school kids get their own hallway locker",
+          "zh": "國中生在走廊有自己的置物櫃",
+          "a": "b"
+        },
+        {
+          "icon": "🙋",
+          "en": "Kids call out “Teacher!”",
+          "zh": "小朋友叫老師就喊「Teacher！」",
+          "a": "a"
+        },
+        {
+          "icon": "👩‍🏫",
+          "en": "Kids call their teacher “Ms. Lee” or “Mr. Smith”",
+          "zh": "小朋友叫老師「Ms. Lee」或「Mr. Smith」",
+          "a": "b"
+        }
+      ],
+      "note_en": "Tap each card to check",
+      "note_zh": "點每一張卡片看答案"
+    },
+    {
+      "type": "quiz",
+      "n": 2,
+      "q_en": "In most American schools, who cleans the classrooms?",
+      "q_zh": "在大多數的美國學校，誰來打掃教室？",
+      "options": [
+        {
+          "en": "The students",
+          "zh": "學生"
+        },
+        {
+          "en": "A custodian",
+          "zh": "校工（清潔人員）"
+        },
+        {
+          "en": "The parents",
+          "zh": "家長"
+        },
+        {
+          "en": "The principal",
+          "zh": "校長"
+        }
+      ],
+      "answer": 1,
+      "explain_en": "A custodian! Many Americans are surprised that Taiwanese students clean their own school. It teaches you to take care of your place.",
+      "explain_zh": "校工！很多美國人很驚訝：台灣學生自己打掃學校。這讓你們學會照顧自己的地方。"
+    },
+    {
+      "type": "quiz",
+      "n": 3,
+      "q_en": "Thanksgiving is on the fourth Thursday of November. What date is it this year?",
+      "q_zh": "感恩節在 11 月的第四個星期四。今年是幾月幾日？",
+      "options": [
+        {
+          "en": "Nov. 19",
+          "zh": "11 月 19 日"
+        },
+        {
+          "en": "Nov. 26",
+          "zh": "11 月 26 日"
+        },
+        {
+          "en": "Nov. 27",
+          "zh": "11 月 27 日"
+        },
+        {
+          "en": "Nov. 30",
+          "zh": "11 月 30 日"
+        }
+      ],
+      "answer": 1,
+      "explain_en": "November 26, just nine days from today! It is one of the biggest family holidays in America.",
+      "explain_zh": "11 月 26 日，再過 9 天就到了！它是美國最重要的家庭節日之一。"
+    },
+    {
+      "type": "topic",
+      "head_en": "What Is Thanksgiving?",
+      "head_zh": "什麼是感恩節？",
+      "body_en": "Families come together for a big dinner: turkey, mashed potatoes, and pumpkin pie. Before eating, many families go around the table, and each person says one thing they are thankful for.",
+      "body_zh": "全家人聚在一起吃大餐：火雞、馬鈴薯泥和南瓜派。開動之前，很多家庭會繞著餐桌輪流，每個人說一件自己感謝的事。",
+      "keywords": [
+        {
+          "en": "turkey",
+          "zh": "火雞"
+        },
+        {
+          "en": "pumpkin pie",
+          "zh": "南瓜派"
+        },
+        {
+          "en": "family",
+          "zh": "家人"
+        },
+        {
+          "en": "thankful",
+          "zh": "感謝的"
+        }
+      ]
+    },
+    {
+      "type": "topic",
+      "head_en": "Halloween: The American Way",
+      "head_zh": "萬聖節：美國人怎麼過",
+      "body_en": "At Chingshan, you dressed up as ghosts, witches and pirates. In America, kids in costumes walk from house to house in their neighborhood. They knock on the door and say, “Trick or treat!” Neighbors give them candy.",
+      "body_zh": "在青山，你們扮成鬼、女巫和海盜。在美國，穿著變裝的小孩會在社區裡一家一家地走，敲門說「Trick or treat！」，鄰居就會給他們糖果。",
+      "keywords": [
+        {
+          "en": "costume",
+          "zh": "變裝服"
+        },
+        {
+          "en": "neighborhood",
+          "zh": "社區"
+        },
+        {
+          "en": "knock",
+          "zh": "敲門"
+        },
+        {
+          "en": "candy",
+          "zh": "糖果"
+        }
+      ]
+    },
+    {
+      "type": "topic",
+      "head_en": "How Do People Get Around?",
+      "head_zh": "美國人怎麼移動？",
+      "body_en": "In Taiwan, scooters are everywhere. In most of America, families drive cars, because towns are far apart. In California, you can get a driver's license at 16.",
+      "body_zh": "在台灣，到處都是機車。在美國大部分地方，家家戶戶開車，因為城鎮之間離得很遠。在加州，16 歲就可以考駕照。",
+      "keywords": [
+        {
+          "en": "scooter",
+          "zh": "機車"
+        },
+        {
+          "en": "drive",
+          "zh": "開車"
+        },
+        {
+          "en": "far apart",
+          "zh": "離得很遠"
+        },
+        {
+          "en": "license",
+          "zh": "駕照"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "n": 4,
+      "q_en": "On a hot day in Yuanlin, it is 30°C. Americans use Fahrenheit. What is 30°C in °F?",
+      "q_zh": "員林大熱天是攝氏 30 度。美國人用華氏，30°C 是華氏幾度？",
+      "options": [
+        {
+          "en": "30°F",
+          "zh": "華氏 30 度"
+        },
+        {
+          "en": "60°F",
+          "zh": "華氏 60 度"
+        },
+        {
+          "en": "86°F",
+          "zh": "華氏 86 度"
+        },
+        {
+          "en": "100°F",
+          "zh": "華氏 100 度"
+        }
+      ],
+      "answer": 2,
+      "explain_en": "86°F! Multiply by 9, divide by 5, then add 32. So if an American says “It's 100 degrees!”, that's about 38°C.",
+      "explain_zh": "華氏 86 度！乘以 9、除以 5、再加 32。所以美國人說「100 度！」的時候，其實大約是攝氏 38 度。"
+    },
+    {
+      "type": "truefalse",
+      "head_en": "Myth or Fact?",
+      "head_zh": "迷思還是事實？手比 ⭕ 或 ❌",
+      "items": [
+        {
+          "en": "Every American lives in a big house.",
+          "zh": "每個美國人都住大房子。",
+          "answer": false,
+          "note_en": "Myth! Many people live in apartments, just like in Taiwan.",
+          "note_zh": "迷思！很多人住公寓，跟台灣一樣。"
+        },
+        {
+          "en": "Americans eat hamburgers every day.",
+          "zh": "美國人每天都吃漢堡。",
+          "answer": false,
+          "note_en": "Myth! Americans eat tacos, pho, sushi, pizza… and yes, bubble tea!",
+          "note_zh": "迷思！美國人也吃墨西哥捲餅、越南河粉、壽司、披薩……還有珍珠奶茶！"
+        },
+        {
+          "en": "Kids in America have homework, too.",
+          "zh": "美國小孩也有回家功課。",
+          "answer": true,
+          "note_en": "Fact! Sorry, nobody escapes homework.",
+          "note_zh": "事實！抱歉，誰都逃不過回家功課。"
+        },
+        {
+          "en": "All Americans look the same.",
+          "zh": "美國人都長得一樣。",
+          "answer": false,
+          "note_en": "Myth! American families come from every part of the world.",
+          "note_zh": "迷思！美國人的家族來自世界各地。"
+        }
+      ]
+    },
+    {
+      "type": "topic",
+      "head_en": "Many Cultures, One Neighborhood",
+      "head_zh": "很多文化，同一個社區",
+      "body_en": "Near my hometown is Little Saigon, one of the biggest Vietnamese communities outside Vietnam. My neighbors speak Spanish, Vietnamese, Tagalog, Korean and Chinese. I can speak Vietnamese and Tagalog, too!",
+      "body_zh": "我家鄉附近有「小西貢」，是越南以外最大的越南社區之一。我的鄰居說西班牙語、越南語、他加祿語、韓語和中文。我也會說越南語和他加祿語喔！",
+      "keywords": [
+        {
+          "en": "culture",
+          "zh": "文化"
+        },
+        {
+          "en": "community",
+          "zh": "社區"
+        },
+        {
+          "en": "language",
+          "zh": "語言"
+        },
+        {
+          "en": "neighbor",
+          "zh": "鄰居"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "n": 5,
+      "q_en": "In Tagalog, the language of the Philippines, “Salamat” means…",
+      "q_zh": "在菲律賓的他加祿語裡，「Salamat」是什麼意思？",
+      "options": [
+        {
+          "en": "Hello",
+          "zh": "你好"
+        },
+        {
+          "en": "Thank you",
+          "zh": "謝謝"
+        },
+        {
+          "en": "Goodbye",
+          "zh": "再見"
+        },
+        {
+          "en": "Delicious",
+          "zh": "好吃"
+        }
+      ],
+      "answer": 1,
+      "explain_en": "Thank you! In Vietnamese, it's “Cảm ơn.” Every language has a way to say thank you.",
+      "explain_zh": "謝謝！越南語的謝謝是「Cảm ơn」。每一種語言都有說謝謝的方法。"
+    },
+    {
+      "type": "game",
+      "icon": "⏱",
+      "head_en": "30-Second Challenge",
+      "head_zh": "30 秒挑戰",
+      "rule_en": "In 30 seconds, shout out as many foods you can eat in America as you can — in English. I will count!",
+      "rule_zh": "30 秒內，用英文喊出越多「在美國吃得到的食物」越好，我來數！",
+      "hints": [
+        "hamburger 漢堡",
+        "pizza 披薩",
+        "hot dog 熱狗",
+        "pancake 鬆餅",
+        "donut 甜甜圈",
+        "popcorn 爆米花",
+        "taco 墨西哥捲餅",
+        "apple pie 蘋果派"
+      ],
+      "target_en": "Record to beat: 18",
+      "target_zh": "要打破的紀錄：18 個"
+    },
+    {
+      "type": "phrases",
+      "head_en": "Talk Like an American Kid",
+      "head_zh": "像美國小孩一樣說英文",
+      "items": [
+        {
+          "en": "What's up?",
+          "zh": "嘿，最近怎樣？"
+        },
+        {
+          "en": "Good morning, Ms. Lee!",
+          "zh": "李老師早安！（叫姓，不叫 Teacher）"
+        },
+        {
+          "en": "That's awesome!",
+          "zh": "太棒了！"
+        },
+        {
+          "en": "No way!",
+          "zh": "不會吧！"
+        },
+        {
+          "en": "See you later!",
+          "zh": "待會見！"
+        }
+      ]
+    },
+    {
+      "type": "pairshare",
+      "head_en": "Turn and Tell Your Partner",
+      "head_zh": "轉過去，告訴你的同學",
+      "prompt_en": "If you could spend one week in America, what would you want to see or do?",
+      "prompt_zh": "如果可以在美國待一個星期，你最想看什麼、做什麼？",
+      "sentence_en": "I want to ______ because ______.",
+      "sentence_zh": "我想要 ______，因為 ______。",
+      "time_en": "One minute each. Then I will ask two of you.",
+      "time_zh": "每人一分鐘。然後我會請兩位分享。"
+    },
+    {
+      "type": "card",
+      "head_en": "Ask Dom Anything!",
+      "head_zh": "什麼都可以問 Dom！",
+      "lines": [
+        {
+          "en": "Do you ______?",
+          "zh": "你會不會 ______？"
+        },
+        {
+          "en": "What is your favorite ______?",
+          "zh": "你最喜歡的 ______ 是什麼？"
+        },
+        {
+          "en": "Have you ever ______?",
+          "zh": "你有沒有 ______ 過？"
+        },
+        {
+          "en": "What do American kids ______?",
+          "zh": "美國小孩都 ______？"
+        }
+      ],
+      "tip_en": "Write one question. I will answer as many as I can!",
+      "tip_zh": "寫下一個問題，我會盡量每一題都回答！"
+    },
+    {
+      "type": "action",
+      "head_en": "3 Things to Try This Month",
+      "head_zh": "這個月可以試試的 3 件事",
+      "items": [
+        {
+          "num": "1",
+          "en": "Greet your English teacher by name: “Good morning, Ms. ___!”",
+          "zh": "叫英文老師的名字打招呼：「Good morning, Ms. ___！」"
+        },
+        {
+          "num": "2",
+          "en": "On November 26, tell your family one thing you are thankful for.",
+          "zh": "11 月 26 日，跟家人說一件你感謝的事。"
+        },
+        {
+          "num": "3",
+          "en": "Find California and Taiwan on a map, and trace the way I flew.",
+          "zh": "在地圖上找到加州和台灣，畫出我飛來的路線。"
+        }
+      ]
+    },
+    {
+      "type": "padlet",
+      "head_en": "Leave a Message for Dom",
+      "head_zh": "留言給 Dom",
+      "body_en": "Go to our School Tour page and find the Chingshan Elementary column. No sign-up, no login — tell Dom what you want to see in America.",
+      "body_zh": "到我們網站的 School Tour 頁面，找到青山國小那一欄，免註冊、免登入，告訴 Dom 你最想在美國看到什麼。",
+      "sentence_en": "One day, I want to see ______ in America.",
+      "sentence_zh": "有一天，我想去美國看 ______。",
+      "site": "mycultureconnect.org/dom-school-tour.html"
+    },
+    {
+      "type": "closing",
+      "big_en": "Different places.<br>Same hearts.",
+      "big_zh": "不一樣的地方，一樣的心。",
+      "sign_en": "Thank you, Chingshan Elementary!",
+      "sign_zh": "謝謝青山國小！"
+    }
+  ]
+}

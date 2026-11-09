@@ -10,13 +10,15 @@
       "time": "13:30 – 14:10",
       "class": "Class 6-1 六年忠班",
       "label_en": "Character Education: Gratitude",
-      "label_zh": "品格教育：感恩"
+      "label_zh": "品格教育：感恩",
+      "deck": "chingshan-elem-gratitude"
     },
     {
       "time": "14:20 – 15:00",
       "class": "Class 6-2 六年仁班",
       "label_en": "Life in America",
-      "label_zh": "美國的生活"
+      "label_zh": "美國的生活",
+      "deck": "chingshan-elem-life-in-america"
     },
     {
       "time": "15:10 – 15:50",

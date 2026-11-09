@@ -232,6 +232,9 @@ def badge(d):
     character-education deck that belongs to no single goal."""
     if d.get("sdg"):
         return f'<div class="hs-badge"><span>SDG</span><b>{e(d["sdg"])}</b></div>'
+    if d.get("badge"):  # a topic outside both, e.g. culture: {"icon": "🌎", "label": "CULTURE"}
+        b = d["badge"]
+        return f'<div class="hs-badge hs-badge--char"><b>{e(b["icon"])}</b><span>{e(b["label"])}</span></div>'
     return '<div class="hs-badge hs-badge--char"><b>♥</b><span>CHARACTER</span></div>'
 
 
@@ -766,7 +769,7 @@ def library_page(decks):
         interactive = d.get("kind") != "image"
         if interactive:
             cover = (f'<span class="dc-cover" data-theme="{d.get("theme","amber")}">'
-                     f'<span class="dc-sdg">{("SDG " + e(d["sdg"])) if d.get("sdg") else "♥ Character 品格"}</span>'
+                     f'<span class="dc-sdg">{("SDG " + e(d["sdg"])) if d.get("sdg") else (e(d["badge"]["lib"]) if d.get("badge") else "♥ Character 品格")}</span>'
                      f'<span class="dc-en">{e(d["title_en"])}</span>'
                      f'<span class="dc-zh">{e(d["title"])}</span></span>')
             sub = f'{e(d["school_en"])} {e(d["school"])} · {e(d["date"])}'
