@@ -11,6 +11,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "assets", "audio", "lesson")
 VOICE = "en-US-AvaMultilingualNeural"
 RATE = "-8%"
+# Words the default voice says oddly, re-recorded with a voice Luke picked by ear.
+VOICE_FOR = {"genre": "en-US-JennyNeural"}
 
 def phrases():
     found = set()
@@ -23,10 +25,12 @@ def main():
     os.makedirs(OUT, exist_ok=True)
     manifest = {}
     for text in phrases():
-        name = hashlib.sha1(text.encode("utf-8")).hexdigest()[:12] + ".mp3"
+        voice = VOICE_FOR.get(text, VOICE)
+        key = text if voice == VOICE else text + "|" + voice
+        name = hashlib.sha1(key.encode("utf-8")).hexdigest()[:12] + ".mp3"
         dest = os.path.join(OUT, name)
         if not os.path.exists(dest):
-            subprocess.run(["edge-tts", "--voice", VOICE, f"--rate={RATE}",
+            subprocess.run(["edge-tts", "--voice", voice, f"--rate={RATE}",
                             "--text", text, "--write-media", dest], check=True,
                            stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         manifest[text] = name
