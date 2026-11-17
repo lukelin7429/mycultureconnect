@@ -25,6 +25,7 @@ script, never hand-edit the generated HTML.
 | `python3 scripts/export_decks.py` | `slides/<slug>/index.html` | `slides/<slug>/<slug>.pdf` + `.pptx` — offline copies for the classroom PC |
 | `python3 scripts/build_tour_map.py` | `data/tour-map.json`, `data/changhua-map.json` | the map section in `dom-school-tour.html` |
 | `python3 scripts/build_search.py` | every site page | `search.json` + wires the search box in |
+| `python3 scripts/build_lesson_audio.py` | the `say('…')` phrases in `tutoring*.html` | `assets/audio/lesson/*.mp3` + `manifest.json` — natural-voice audio for the 🔊 buttons (needs `edge-tts`; only new phrases are recorded) |
 | `python3 scripts/make_changhua_geo.py` | a national township GeoJSON (see its docstring) | `data/changhua-map.json` — one-off |
 
 **Adding a school to the tour map:** append a record to `data/tour-map.json`
