@@ -1,0 +1,507 @@
+{
+  "slug": "tianzhong-hs-sdg17-partnerships",
+  "school": "田中高中",
+  "school_en": "Tianjhong Senior High",
+  "date": "2026.12.15",
+  "year": "115",
+  "classes": "Classes 203 & 103 高中部 203、103 班",
+  "title": "SDG 17 全球夥伴",
+  "title_en": "Global Partners",
+  "sdg": "17",
+  "theme": "sky",
+  "footer": "Teacher Dom · SDG #17 Partnerships for the Goals 全球夥伴",
+  "slides": [
+    {
+      "type": "title",
+      "eyebrow_en": "A Bilingual Lesson for Senior High Classes 203 & 103",
+      "eyebrow_zh": "高中部 203、103 班雙語課程",
+      "chips": [
+        {
+          "en": "What Is SDG 17?",
+          "zh": "什麼是 SDG 17"
+        },
+        {
+          "en": "Made Together",
+          "zh": "一起做出來"
+        },
+        {
+          "en": "Partners Near You",
+          "zh": "身邊的夥伴"
+        },
+        {
+          "en": "Your Proposal",
+          "zh": "你的合作提案"
+        }
+      ],
+      "strip": [
+        {
+          "num": "17",
+          "en": "Global Goals: this is the last one",
+          "zh": "項全球目標，這是最後一項"
+        },
+        {
+          "num": "1955",
+          "en": "Tianjhong's first students arrive",
+          "zh": "田中第一屆學生入學"
+        },
+        {
+          "num": "2.2B",
+          "en": "people in the world still offline",
+          "zh": "全世界還沒上網的人數"
+        }
+      ],
+      "img": "tianzhong-courtyard.jpg"
+    },
+    {
+      "type": "intro",
+      "head_en": "Hello, I'm Dom!",
+      "head_zh": "大家好，我是 Dom！",
+      "lines": [
+        {
+          "en": "I come from California, USA.",
+          "zh": "我從美國加州來。"
+        },
+        {
+          "en": "I have been teaching students in Taiwan for a couple of years.",
+          "zh": "我在台灣教學生已經有幾年了。"
+        },
+        {
+          "en": "Today: SDG 17, Partnerships for the Goals.",
+          "zh": "今天的主題：SDG 17 全球夥伴關係。"
+        }
+      ],
+      "ask_en": "Today's question: what can we do together that no one can do alone?",
+      "ask_zh": "今天的問題：有什麼事，是我們一起才做得到、一個人做不到的？"
+    },
+    {
+      "type": "map",
+      "head_en": "From California to Tianzhong",
+      "head_zh": "從加州到田中",
+      "img": "map-usa-taiwan.svg",
+      "ask_en": "California and Taiwan are 11,000 km apart, but they build things together every day. The proof is probably in your pocket.",
+      "ask_zh": "加州和台灣相隔一萬一千公里，卻每天一起打造東西。證據可能就在你的口袋裡。"
+    },
+    {
+      "type": "standup",
+      "head_en": "Stand Up If…",
+      "head_zh": "如果是你，就站起來！",
+      "prompts": [
+        {
+          "en": "Stand up if you used something made in another country today.",
+          "zh": "今天用過外國製造的東西的，站起來。"
+        },
+        {
+          "en": "Stand up if you worked on a team project this semester.",
+          "zh": "這學期做過小組專題的，站起來。"
+        },
+        {
+          "en": "Stand up if you have family or friends living in another country.",
+          "zh": "有家人或朋友住在國外的，站起來。"
+        }
+      ],
+      "punch_en": "Look around: you are already part of a global partnership.",
+      "punch_zh": "看看四周：你們早就是全球夥伴關係的一部分了。"
+    },
+    {
+      "type": "topic",
+      "head_en": "What Is SDG 17?",
+      "head_zh": "什麼是 SDG 17？",
+      "body_en": "In 2015, every UN member country agreed on 17 Global Goals for 2030. Goal 17 is the glue that holds the other 16 together: governments, companies, schools and people working as partners and sharing money, technology and knowledge.",
+      "body_zh": "2015 年，聯合國所有會員國訂下 17 項全球目標，要在 2030 年前達成。第 17 項是把其他 16 項黏在一起的膠水：政府、企業、學校和每個人成為夥伴，分享資金、科技和知識。",
+      "keywords": [
+        {
+          "en": "partnership",
+          "zh": "夥伴關係"
+        },
+        {
+          "en": "cooperate",
+          "zh": "合作"
+        },
+        {
+          "en": "share",
+          "zh": "分享"
+        },
+        {
+          "en": "technology",
+          "zh": "科技"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "n": 1,
+      "q_en": "The back of an iPhone says “Designed by Apple in California.” Where are its most advanced chips made?",
+      "q_zh": "iPhone 背面寫著「Designed by Apple in California」。它最先進的晶片在哪裡製造？",
+      "options": [
+        {
+          "en": "Taiwan",
+          "zh": "台灣"
+        },
+        {
+          "en": "California",
+          "zh": "加州"
+        },
+        {
+          "en": "Germany",
+          "zh": "德國"
+        },
+        {
+          "en": "Brazil",
+          "zh": "巴西"
+        }
+      ],
+      "answer": 0,
+      "explain_en": "Taiwan! Engineers in California design the chips, and TSMC makes them in Taiwan. Neither side could do it alone: that is a partnership.",
+      "explain_zh": "台灣！加州的工程師設計晶片，台積電在台灣把它做出來。哪一邊都沒辦法單獨完成——這就是夥伴關係。"
+    },
+    {
+      "type": "topic",
+      "head_en": "Your School Is Part of This Story",
+      "head_zh": "你們學校也在這個故事裡",
+      "body_en": "Tianjhong Senior High now has a Semiconductor Experimental Class that works with universities and industry. In July, students visited National Changhua University of Education and companies in the Central Taiwan Science Park. Partners teach you what no textbook can.",
+      "body_zh": "田中高中現在有半導體實驗班，跟大學和產業合作。七月，學生參訪了彰化師範大學和中部科學園區的企業。夥伴能教你課本教不到的東西。",
+      "keywords": [
+        {
+          "en": "semiconductor",
+          "zh": "半導體"
+        },
+        {
+          "en": "industry",
+          "zh": "產業"
+        },
+        {
+          "en": "university",
+          "zh": "大學"
+        },
+        {
+          "en": "innovation",
+          "zh": "創新"
+        }
+      ]
+    },
+    {
+      "type": "bigstat",
+      "num": "2.2 billion",
+      "head_en": "people in the world are still not online",
+      "head_zh": "全世界還有 22 億人沒有上網",
+      "body_en": "That is about 1 in 4 people (ITU, 2025). Most of them live in low-income countries. SDG 17 asks rich and poor countries to share technology, so no one is left out.",
+      "body_zh": "大約每 4 個人就有 1 個（國際電信聯盟，2025）。他們大多住在低收入國家。SDG 17 要富國和窮國分享科技，不讓任何人被落下。",
+      "ask_en": "How would your life change if you had no internet for a year?",
+      "ask_zh": "如果一整年沒有網路，你的生活會變成什麼樣子？"
+    },
+    {
+      "type": "topic",
+      "head_en": "Partners Right Here",
+      "head_zh": "夥伴就在身邊",
+      "body_en": "This semester, Tianjhong students can take a Saturday English course online with California State University San Marcos, in Southern California. Pass level 4, and you may not need a TOEFL score to apply to study abroad. A partnership just opened a door for you.",
+      "body_zh": "這學期，田中的學生可以在週六上加州州立大學聖馬可斯分校的線上英文課，學校就在南加州。通過第四級，申請出國念書可能就不用考托福。一個夥伴關係，幫你打開了一扇門。",
+      "keywords": [
+        {
+          "en": "course",
+          "zh": "課程"
+        },
+        {
+          "en": "study abroad",
+          "zh": "出國留學"
+        },
+        {
+          "en": "opportunity",
+          "zh": "機會"
+        },
+        {
+          "en": "open a door",
+          "zh": "打開一扇門"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "n": 2,
+      "q_en": "In November, 50 runners named Tanaka flew in from Japan for the Tianzhong Marathon. Who wins from a partnership like this?",
+      "q_zh": "十一月，50 位姓田中的日本跑者飛來參加田中馬拉松。這樣的合作，誰是贏家？",
+      "options": [
+        {
+          "en": "Only the runners",
+          "zh": "只有跑者"
+        },
+        {
+          "en": "Only Tianzhong",
+          "zh": "只有田中"
+        },
+        {
+          "en": "Both towns and countries",
+          "zh": "兩邊的城鎮和國家都贏"
+        },
+        {
+          "en": "Nobody",
+          "zh": "沒有人"
+        }
+      ],
+      "answer": 2,
+      "explain_en": "Both! The runners get a once-in-a-lifetime race, local shops and farmers get visitors, and two countries become friends. Good partnerships are win-win.",
+      "explain_zh": "兩邊都贏！跑者得到一生一次的比賽，在地商家和農民迎來遊客，兩個國家也變成朋友。好的夥伴關係是雙贏。"
+    },
+    {
+      "type": "sort",
+      "head_en": "Win-Win or Win-Lose?",
+      "head_zh": "雙贏，還是一方吃虧？",
+      "a_en": "WIN-WIN",
+      "a_zh": "雙贏",
+      "b_en": "WIN-LOSE",
+      "b_zh": "一方吃虧",
+      "items": [
+        {
+          "icon": "🏫",
+          "en": "Two schools in two countries swap students for a week",
+          "zh": "兩國的學校交換學生一週",
+          "a": "a"
+        },
+        {
+          "icon": "😤",
+          "en": "One teammate does all the work, another takes the credit",
+          "zh": "一個組員做完全部，另一個搶走功勞",
+          "a": "b"
+        },
+        {
+          "icon": "💻",
+          "en": "A university offers online courses to high schools",
+          "zh": "大學開線上課程給高中生",
+          "a": "a"
+        },
+        {
+          "icon": "🗑️",
+          "en": "A rich country ships its trash to a poorer country",
+          "zh": "富國把垃圾運到比較窮的國家",
+          "a": "b"
+        },
+        {
+          "icon": "🌾",
+          "en": "Farmers teach students to plant and harvest rice",
+          "zh": "農民教學生插秧、收割",
+          "a": "a"
+        },
+        {
+          "icon": "📄",
+          "en": "Copying a partner's lab report and handing it in",
+          "zh": "抄同組的實驗報告交出去",
+          "a": "b"
+        }
+      ],
+      "note_en": "Thumbs up for WIN-WIN, thumbs down for WIN-LOSE!",
+      "note_zh": "雙贏比讚，一方吃虧比倒讚！"
+    },
+    {
+      "type": "truefalse",
+      "head_en": "True or False?",
+      "head_zh": "真的還假的？手比 ⭕ 或 ❌",
+      "items": [
+        {
+          "en": "SDG 17 is only a job for governments.",
+          "zh": "SDG 17 只是政府的工作。",
+          "answer": false,
+          "note_en": "Companies, schools and students are partners too.",
+          "note_zh": "企業、學校和學生也都是夥伴。"
+        },
+        {
+          "en": "Sharing technology is one of the targets of SDG 17.",
+          "zh": "分享科技是 SDG 17 的細項目標之一。",
+          "answer": true,
+          "note_en": "Targets 17.6 to 17.8 are all about technology.",
+          "note_zh": "目標 17.6 到 17.8 都跟科技有關。"
+        },
+        {
+          "en": "A partnership works best when both sides benefit.",
+          "zh": "兩邊都受益時，夥伴關係最長久。",
+          "answer": true,
+          "note_en": "Win-win partnerships last. Win-lose ones break.",
+          "note_zh": "雙贏的合作會持續，一方吃虧的會破局。"
+        },
+        {
+          "en": "Taiwan's chip industry depends only on Taiwan.",
+          "zh": "台灣的晶片產業只靠台灣自己。",
+          "answer": false,
+          "note_en": "It needs designers, machines and customers from around the world.",
+          "note_zh": "它需要全世界的設計師、機器和客戶。"
+        }
+      ]
+    },
+    {
+      "type": "rank",
+      "head_en": "Which Partnership Helps Most?",
+      "head_zh": "哪一種合作最能幫助田中？",
+      "sub_en": "Vote with your hands: 1, 2, 3, or 4 fingers.",
+      "sub_zh": "用手指投票——比 1、2、3 或 4。",
+      "items": [
+        {
+          "en": "A sister school abroad",
+          "zh": "國外的姊妹校"
+        },
+        {
+          "en": "Universities and companies",
+          "zh": "大學與企業"
+        },
+        {
+          "en": "International students in Taiwan",
+          "zh": "在台的外籍學生"
+        },
+        {
+          "en": "Online classes from abroad",
+          "zh": "國外大學的線上課"
+        }
+      ],
+      "reveal_en": "No wrong answer. The best partnership is the one you actually start.",
+      "reveal_zh": "沒有標準答案。最好的合作，是你真的開始的那一個。"
+    },
+    {
+      "type": "game",
+      "icon": "⏱",
+      "head_en": "30-Second Challenge",
+      "head_zh": "30 秒挑戰",
+      "rule_en": "In 30 seconds, name as many countries as you can, in English. I will count!",
+      "rule_zh": "30 秒內，用英文說出越多國家越好，我來數！",
+      "hints": [
+        "Japan 日本",
+        "Vietnam 越南",
+        "Indonesia 印尼",
+        "Thailand 泰國",
+        "the Philippines 菲律賓",
+        "Mongolia 蒙古",
+        "Peru 秘魯",
+        "Malaysia 馬來西亞"
+      ],
+      "target_en": "Record to beat: 25",
+      "target_zh": "要打破的紀錄：25 個"
+    },
+    {
+      "type": "phrases",
+      "head_en": "Say It With Me",
+      "head_zh": "跟著我唸",
+      "items": [
+        {
+          "en": "Let's work together.",
+          "zh": "我們一起合作吧。"
+        },
+        {
+          "en": "What can we share?",
+          "zh": "我們可以分享什麼？"
+        },
+        {
+          "en": "Both sides win.",
+          "zh": "兩邊都贏。"
+        },
+        {
+          "en": "No one can do it alone.",
+          "zh": "沒有人能獨自完成。"
+        },
+        {
+          "en": "We are partners for the Goals.",
+          "zh": "我們是一起實現目標的夥伴。"
+        }
+      ]
+    },
+    {
+      "type": "pairshare",
+      "head_en": "Turn and Tell Your Partner",
+      "head_zh": "轉過去，告訴你的同學",
+      "prompt_en": "If Tianjhong could partner with a school in another country, which country would you choose? What project would you do together?",
+      "prompt_zh": "如果田中高中可以跟一所國外的學校合作，你會選哪個國家？你們會一起做什麼專題？",
+      "sentence_en": "We could partner with a school in ______ and work on ______ together.",
+      "sentence_zh": "我們可以跟 ______ 的學校合作，一起做 ______。",
+      "time_en": "One minute each. Then I will ask three pairs.",
+      "time_zh": "每人一分鐘。然後我會請三組分享。"
+    },
+    {
+      "type": "card",
+      "head_en": "Our Partnership Proposal",
+      "head_zh": "我們的合作提案",
+      "lines": [
+        {
+          "en": "Dear friends at ______ School,",
+          "zh": "親愛的 ______ 學校的朋友："
+        },
+        {
+          "en": "We are students at Tianjhong Senior High in Taiwan.",
+          "zh": "我們是台灣田中高中的學生。"
+        },
+        {
+          "en": "We would like to work with you on ______.",
+          "zh": "我們想跟你們一起做 ______。"
+        },
+        {
+          "en": "Together, we can ______.",
+          "zh": "一起，我們可以 ______。"
+        }
+      ],
+      "tip_en": "Write it as a team of four. Then read your best one out loud!",
+      "tip_zh": "四人一組一起寫，再把最好的一份大聲唸出來！"
+    },
+    {
+      "type": "action",
+      "head_en": "3 Things You Can Do This Month",
+      "head_zh": "這個月你可以做的 3 件事",
+      "items": [
+        {
+          "num": "1",
+          "en": "Join one culture session at your school: Vietnam, Indonesia, Thailand or Cambodia.",
+          "zh": "參加一場學校的文化課程：越南、印尼、泰國或柬埔寨。"
+        },
+        {
+          "num": "2",
+          "en": "Teach a foreign visitor one thing about Tianzhong, in English.",
+          "zh": "用英文教外國訪客一件關於田中的事。"
+        },
+        {
+          "num": "3",
+          "en": "Start a project with someone outside your usual group.",
+          "zh": "跟平常不同組的人一起開始一個計畫。"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "n": 3,
+      "bonus": true,
+      "q_en": "One of Taiwan's High Speed Rail stations is in Tianzhong. What is it called?",
+      "q_zh": "台灣高鐵有一站就在田中。它叫什麼名字？",
+      "options": [
+        {
+          "en": "HSR Changhua Station",
+          "zh": "高鐵彰化站"
+        },
+        {
+          "en": "HSR Tianzhong Station",
+          "zh": "高鐵田中站"
+        },
+        {
+          "en": "HSR Taichung Station",
+          "zh": "高鐵台中站"
+        },
+        {
+          "en": "HSR Yunlin Station",
+          "zh": "高鐵雲林站"
+        }
+      ],
+      "answer": 0,
+      "explain_en": "HSR Changhua Station, opened on December 1, 2015. It links Tianzhong to Taipei and Kaohsiung: transportation is a partnership too.",
+      "explain_zh": "高鐵彰化站，2015 年 12 月 1 日通車。它把田中跟台北、高雄連在一起——交通也是一種夥伴關係。"
+    },
+    {
+      "type": "padlet",
+      "head_en": "Leave a Message for Dom",
+      "head_zh": "留言給 Dom",
+      "body_en": "Go to our School Tour page and find the Tianjhong Senior High column. No sign-up, no login: tell Dom which country you would partner with, and why.",
+      "body_zh": "到我們網站的 School Tour 頁面，找到田中高中那一欄，免註冊、免登入，告訴 Dom 你想跟哪個國家合作、為什麼。",
+      "sentence_en": "I would partner with ______ because ______.",
+      "sentence_zh": "我想跟 ______ 合作，因為 ______。",
+      "site": "mycultureconnect.org/dom-school-tour.html"
+    },
+    {
+      "type": "closing",
+      "big_en": "No one reaches<br>the Goals alone.",
+      "big_zh": "沒有人能獨自抵達目標。",
+      "sign_en": "Thank you, Classes 203 & 103!",
+      "sign_zh": "謝謝 203、103 班！",
+      "img": "tianzhong-mountains.jpg"
+    }
+  ]
+}

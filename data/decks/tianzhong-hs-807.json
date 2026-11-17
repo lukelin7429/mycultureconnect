@@ -1,0 +1,612 @@
+{
+  "slug": "tianzhong-hs-807-your-future",
+  "school": "田中高中",
+  "school_en": "Tianjhong Senior High",
+  "date": "2026.12.15",
+  "year": "115",
+  "classes": "Class 807 國中部 807 班",
+  "title": "我的旅程，你的未來",
+  "title_en": "My Journey, Your Future",
+  "sdg": "4",
+  "theme": "violet",
+  "footer": "Teacher Dom · My Journey, Your Future 我的旅程，你的未來",
+  "slides": [
+    {
+      "type": "title",
+      "eyebrow_en": "A Bilingual Lesson for Class 807",
+      "eyebrow_zh": "國中部 807 班雙語課程",
+      "chips": [
+        {
+          "en": "My Journey",
+          "zh": "我的旅程"
+        },
+        {
+          "en": "Courage",
+          "zh": "勇氣"
+        },
+        {
+          "en": "A Global Mindset",
+          "zh": "國際觀"
+        },
+        {
+          "en": "Your Future",
+          "zh": "你的未來"
+        }
+      ],
+      "strip": [
+        {
+          "num": "1st",
+          "en": "Class 807: Tianzhong Marathon cheer champions",
+          "zh": "807 班：田中馬拉松啦啦隊冠軍"
+        },
+        {
+          "num": "17,000",
+          "en": "runners at the 2026 Tianzhong Marathon",
+          "zh": "2026 田中馬拉松的跑者"
+        },
+        {
+          "num": "34",
+          "en": "the season of The Amazing Race Dom raced in",
+          "zh": "Dom 參加的《驚險大挑戰》季數"
+        }
+      ],
+      "img": "tianzhong-windmill.jpg"
+    },
+    {
+      "type": "intro",
+      "head_en": "Hello, I'm Dom!",
+      "head_zh": "大家好，我是 Dom！",
+      "lines": [
+        {
+          "en": "I come from California, USA.",
+          "zh": "我從美國加州來。"
+        },
+        {
+          "en": "I have been teaching students in Taiwan for a couple of years.",
+          "zh": "我在台灣教學生已經有幾年了。"
+        },
+        {
+          "en": "Today: my journey, and your future.",
+          "zh": "今天的主題：我的旅程，和你的未來。"
+        }
+      ],
+      "ask_en": "Today's question: can where you start decide where you go?",
+      "ask_zh": "今天的問題：你從哪裡出發，能決定你會走到哪裡嗎？"
+    },
+    {
+      "type": "map",
+      "head_en": "From California to Tianzhong",
+      "head_zh": "從加州到田中",
+      "img": "map-usa-taiwan.svg",
+      "ask_en": "My journey started 11,000 km from here. Today, let's think about where YOUR journey can go.",
+      "ask_zh": "我的旅程從一萬一千公里外開始。今天，我們來想想你的旅程可以走到哪裡。"
+    },
+    {
+      "type": "standup",
+      "head_en": "Stand Up If…",
+      "head_zh": "如果是你，就站起來！",
+      "prompts": [
+        {
+          "en": "Stand up if you cheered at the Tianzhong Marathon this year.",
+          "zh": "今年有在田中馬拉松加油的，站起來。"
+        },
+        {
+          "en": "Stand up if you tried something new, even though you were scared.",
+          "zh": "曾經害怕、但還是試了新事物的，站起來。"
+        },
+        {
+          "en": "Stand up if you have talked with someone from another country.",
+          "zh": "跟外國人說過話的，站起來。"
+        }
+      ],
+      "punch_en": "Cheering, courage, connecting: that is what today is all about.",
+      "punch_zh": "加油、勇氣、連結——這就是今天的全部。"
+    },
+    {
+      "type": "topic",
+      "head_en": "Where I Started",
+      "head_zh": "我從哪裡出發",
+      "body_en": "I grew up in Compton, a city near Los Angeles. My family was poor, and there were times when we did not have a home. School became my way forward. I kept learning, and I went to college to study psychology.",
+      "body_zh": "我在洛杉磯附近的康普頓長大。我家很窮，有一段時間我們甚至沒有家可以住。學校成了我往前走的路。我一直學下去，後來上了大學，讀心理學。",
+      "keywords": [
+        {
+          "en": "background",
+          "zh": "背景"
+        },
+        {
+          "en": "poverty",
+          "zh": "貧窮"
+        },
+        {
+          "en": "education",
+          "zh": "教育"
+        },
+        {
+          "en": "resilience",
+          "zh": "韌性"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "n": 1,
+      "q_en": "Which word means “to bounce back after something hard”?",
+      "q_zh": "哪個字的意思是「經歷困難之後重新站起來」？",
+      "options": [
+        {
+          "en": "Resilience",
+          "zh": "韌性"
+        },
+        {
+          "en": "Reluctance",
+          "zh": "不情願"
+        },
+        {
+          "en": "Residence",
+          "zh": "住所"
+        },
+        {
+          "en": "Relevance",
+          "zh": "相關性"
+        }
+      ],
+      "answer": 0,
+      "explain_en": "Resilience! It is like a ball: the harder it hits the ground, the higher it can bounce.",
+      "explain_zh": "韌性（resilience）！就像一顆球：落地落得越重，彈得越高。"
+    },
+    {
+      "type": "timeline",
+      "head_en": "My Journey",
+      "head_zh": "我的旅程",
+      "stops": [
+        {
+          "year": "Then",
+          "en": "Growing up in Compton, California",
+          "zh": "在加州康普頓長大"
+        },
+        {
+          "year": "College",
+          "en": "Studying psychology",
+          "zh": "在大學讀心理學"
+        },
+        {
+          "year": "2022",
+          "en": "Racing on CBS's The Amazing Race",
+          "zh": "參加 CBS《驚險大挑戰》"
+        },
+        {
+          "year": "2024",
+          "en": "Running for the California State Assembly",
+          "zh": "參選加州州議會議員"
+        },
+        {
+          "year": "Now",
+          "en": "Teaching students in Taiwan",
+          "zh": "在台灣教學生"
+        }
+      ],
+      "note_en": "Every stop was a little scary. Every stop made me braver.",
+      "note_zh": "每一站都有點可怕，每一站也都讓我更勇敢。"
+    },
+    {
+      "type": "bigstat",
+      "num": "$1,000,000",
+      "head_en": "the prize on The Amazing Race",
+      "head_zh": "《驚險大挑戰》的獎金：一百萬美元",
+      "body_en": "In 2022, I raced on Season 34. Teams of two travel from country to country, solve puzzles, and meet people who speak other languages.",
+      "body_zh": "2022 年，我參加了第 34 季。兩人一隊，一個國家接一個國家地跑，解謎題，遇見說不同語言的人。",
+      "ask_en": "If you could race through any three countries, which ones would you pick?",
+      "ask_zh": "如果你可以跑過任何三個國家，你會選哪三個？"
+    },
+    {
+      "type": "bigstat",
+      "num": "100,000+",
+      "head_en": "people voted for Dom in 2024",
+      "head_zh": "2024 年，超過十萬人投票給 Dom",
+      "body_en": "In 2024, I ran for the California State Assembly. A kid from Compton asked a whole community to trust her, and more than 100,000 people said yes.",
+      "body_zh": "2024 年，我參選加州州議會議員。一個在康普頓長大的孩子，請整個社區信任她，結果有超過十萬人投下了一票。",
+      "ask_en": "What is one thing you want to do that feels a little scary right now?",
+      "ask_zh": "有沒有一件你想做、但現在覺得有點可怕的事？"
+    },
+    {
+      "type": "quiz",
+      "n": 2,
+      "q_en": "Dom speaks English, Vietnamese and Tagalog. Where is Tagalog mostly spoken?",
+      "q_zh": "Dom 會說英文、越南語和他加祿語。他加祿語主要在哪裡使用？",
+      "options": [
+        {
+          "en": "The Philippines",
+          "zh": "菲律賓"
+        },
+        {
+          "en": "Vietnam",
+          "zh": "越南"
+        },
+        {
+          "en": "Thailand",
+          "zh": "泰國"
+        },
+        {
+          "en": "Indonesia",
+          "zh": "印尼"
+        }
+      ],
+      "answer": 0,
+      "explain_en": "The Philippines! Many families in Taiwan have roots in Southeast Asia, and this fall your school is holding culture sessions on Vietnam, Indonesia, Thailand and Cambodia.",
+      "explain_zh": "菲律賓！台灣有很多家庭來自東南亞。這學期你們學校也在辦越南、印尼、泰國、柬埔寨的文化課程。"
+    },
+    {
+      "type": "topic",
+      "head_en": "What Is a Global Mindset?",
+      "head_zh": "什麼是國際觀？",
+      "body_en": "A global mindset means being curious about the world, respecting people who are different, and being brave enough to connect. You do not need a passport to start. You can start right here in Tianzhong.",
+      "body_zh": "國際觀就是對世界好奇、尊重和自己不一樣的人，而且有勇氣去連結。你不需要護照才能開始，在田中這裡就可以開始。",
+      "keywords": [
+        {
+          "en": "curious",
+          "zh": "好奇"
+        },
+        {
+          "en": "respect",
+          "zh": "尊重"
+        },
+        {
+          "en": "connect",
+          "zh": "連結"
+        },
+        {
+          "en": "open-minded",
+          "zh": "心胸開放"
+        }
+      ]
+    },
+    {
+      "type": "topic",
+      "head_en": "Tianzhong Is Already Global",
+      "head_zh": "田中早就很國際",
+      "body_en": "In November, about 17,000 runners came to the Tianzhong Marathon. Fifty runners named Tanaka flew in from Japan, because 田中 is “Tanaka” in Japanese! And who won the cheering contest? Class 807!",
+      "body_zh": "十一月，大約一萬七千名跑者來到田中馬拉松，其中有五十位姓「田中」的跑者從日本飛來，因為田中的日文就是 Tanaka！啦啦隊比賽冠軍是誰？807 班！",
+      "keywords": [
+        {
+          "en": "marathon",
+          "zh": "馬拉松"
+        },
+        {
+          "en": "runner",
+          "zh": "跑者"
+        },
+        {
+          "en": "cheer",
+          "zh": "加油"
+        },
+        {
+          "en": "visitor",
+          "zh": "訪客"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "n": 3,
+      "q_en": "Why did 50 runners from Japan come to the Tianzhong Marathon this year?",
+      "q_zh": "今年為什麼有 50 位日本跑者來參加田中馬拉松？",
+      "options": [
+        {
+          "en": "Their family name is Tanaka (田中)",
+          "zh": "他們都姓田中"
+        },
+        {
+          "en": "They wanted to buy rice",
+          "zh": "他們想來買米"
+        },
+        {
+          "en": "It was a school trip",
+          "zh": "那是畢業旅行"
+        },
+        {
+          "en": "They got lost",
+          "zh": "他們迷路了"
+        }
+      ],
+      "answer": 0,
+      "explain_en": "Tanaka is one of the most common family names in Japan. A town's name became a bridge between two countries!",
+      "explain_zh": "田中是日本很常見的姓氏。一個小鎮的名字，變成了兩個國家之間的橋。"
+    },
+    {
+      "type": "sort",
+      "head_en": "Open Mind or Closed Mind?",
+      "head_zh": "心胸開放，還是封閉？",
+      "a_en": "OPEN",
+      "a_zh": "開放",
+      "b_en": "CLOSED",
+      "b_zh": "封閉",
+      "items": [
+        {
+          "icon": "🙋",
+          "en": "Asking a new classmate about their family's country",
+          "zh": "問新同學家人來自哪個國家",
+          "a": "a"
+        },
+        {
+          "icon": "🙊",
+          "en": "Laughing at someone's accent",
+          "zh": "笑別人的口音",
+          "a": "b"
+        },
+        {
+          "icon": "🍜",
+          "en": "Trying food from another culture",
+          "zh": "嘗試別的文化的食物",
+          "a": "a"
+        },
+        {
+          "icon": "🤐",
+          "en": "Never speaking English in case you make a mistake",
+          "zh": "怕說錯，所以從不說英文",
+          "a": "b"
+        },
+        {
+          "icon": "🎬",
+          "en": "Watching videos in English with subtitles",
+          "zh": "看有字幕的英文影片",
+          "a": "a"
+        },
+        {
+          "icon": "🚫",
+          "en": "Thinking “people like me can't go abroad”",
+          "zh": "覺得「像我這樣的人不可能出國」",
+          "a": "b"
+        }
+      ],
+      "note_en": "Thumbs up for OPEN, thumbs down for CLOSED!",
+      "note_zh": "開放比讚，封閉比倒讚！"
+    },
+    {
+      "type": "truefalse",
+      "head_en": "True or False?",
+      "head_zh": "真的還假的？手比 ⭕ 或 ❌",
+      "items": [
+        {
+          "en": "You need to be rich to have a global mindset.",
+          "zh": "要有錢才能有國際觀。",
+          "answer": false,
+          "note_en": "Curiosity and respect are free.",
+          "note_zh": "好奇心和尊重，都不用錢。"
+        },
+        {
+          "en": "Making mistakes is part of learning English.",
+          "zh": "犯錯是學英文的一部分。",
+          "answer": true,
+          "note_en": "Every fluent speaker made thousands of mistakes first.",
+          "note_zh": "每個說得流利的人，都先犯過幾千個錯。"
+        },
+        {
+          "en": "Your hometown can be part of your global story.",
+          "zh": "你的家鄉可以是你國際故事的一部分。",
+          "answer": true,
+          "note_en": "Tianzhong already brings the world here: just ask the Tanakas!",
+          "note_zh": "田中早就把世界帶來了——問問那些田中先生就知道！"
+        },
+        {
+          "en": "Your background decides your future.",
+          "zh": "你的背景決定你的未來。",
+          "answer": false,
+          "note_en": "It shapes you, but it does not decide for you.",
+          "note_zh": "背景會影響你，但不會替你做決定。"
+        }
+      ]
+    },
+    {
+      "type": "topic",
+      "head_en": "Be Brave, Little One",
+      "head_zh": "勇敢一點，小傢伙",
+      "body_en": "At your school, old cans became homes for plants. One of them says “YOU ROCK! Be brave, little one.” Where you start does not decide how you grow.",
+      "body_zh": "在你們學校，舊罐頭變成了植物的家，其中一個寫著「YOU ROCK! Be brave, little one」。你從哪裡開始，不決定你會長成什麼樣子。",
+      "keywords": [
+        {
+          "en": "brave",
+          "zh": "勇敢"
+        },
+        {
+          "en": "grow",
+          "zh": "成長"
+        },
+        {
+          "en": "start",
+          "zh": "開始"
+        },
+        {
+          "en": "you rock",
+          "zh": "你很棒"
+        }
+      ],
+      "img": "tianzhong-cans.jpg"
+    },
+    {
+      "type": "game",
+      "icon": "⏱",
+      "head_en": "30-Second Challenge",
+      "head_zh": "30 秒挑戰",
+      "rule_en": "In 30 seconds, shout out as many dream jobs as you can, in English. I will count!",
+      "rule_zh": "30 秒內，用英文喊出越多「夢想工作」越好，我來數！",
+      "hints": [
+        "engineer 工程師",
+        "doctor 醫生",
+        "pilot 機師",
+        "designer 設計師",
+        "chef 廚師",
+        "scientist 科學家",
+        "athlete 運動員",
+        "YouTuber 影音創作者"
+      ],
+      "target_en": "Record to beat: 20",
+      "target_zh": "要打破的紀錄：20 個"
+    },
+    {
+      "type": "rank",
+      "head_en": "What Will Help Your Future Most?",
+      "head_zh": "什麼對你的未來最有幫助？",
+      "sub_en": "Vote with your hands: 1, 2, 3, or 4 fingers.",
+      "sub_zh": "用手指投票——比 1、2、3 或 4。",
+      "items": [
+        {
+          "en": "Curiosity",
+          "zh": "好奇心"
+        },
+        {
+          "en": "The courage to try",
+          "zh": "敢嘗試的勇氣"
+        },
+        {
+          "en": "Speaking English",
+          "zh": "會說英文"
+        },
+        {
+          "en": "Kindness",
+          "zh": "善良"
+        }
+      ],
+      "reveal_en": "All four matter. My pick is #2: courage turns a dream into a first step.",
+      "reveal_zh": "四個都重要。我選第 2 個：勇氣，能把夢想變成第一步。"
+    },
+    {
+      "type": "pairshare",
+      "head_en": "Turn and Tell Your Partner",
+      "head_zh": "轉過去，告訴你的同學",
+      "prompt_en": "Where do you want to be in ten years? What is one step you can take this year?",
+      "prompt_zh": "十年後，你想在哪裡？今年你可以踏出的一步是什麼？",
+      "sentence_en": "In ten years, I want to ______. This year, I will ______.",
+      "sentence_zh": "十年後，我想要 ______。今年，我會 ______。",
+      "time_en": "One minute each. Then I will ask three of you.",
+      "time_zh": "每人一分鐘。然後我會請三位分享。"
+    },
+    {
+      "type": "card",
+      "head_en": "A Note to My Future Self",
+      "head_zh": "寫給未來的自己",
+      "lines": [
+        {
+          "en": "Dear Future Me,",
+          "zh": "親愛的未來的我："
+        },
+        {
+          "en": "I am proud that I ______.",
+          "zh": "我很驕傲我 ______。"
+        },
+        {
+          "en": "This year, I will be brave enough to ______.",
+          "zh": "今年，我會勇敢地 ______。"
+        },
+        {
+          "en": "My background is not my limit.",
+          "zh": "我的背景，不是我的極限。"
+        }
+      ],
+      "tip_en": "Write it on paper and keep it. Open it on the day you graduate from high school!",
+      "tip_zh": "寫在紙上收好，高中畢業那天再打開！"
+    },
+    {
+      "type": "video",
+      "head_en": "Dom on Quality Education",
+      "head_zh": "Dom 談優質教育",
+      "yt": "BCxuSzg532g",
+      "note_en": "Watch, then tell me one way school can open a door for you.",
+      "note_zh": "看完之後，告訴我學校可以幫你打開哪一扇門。"
+    },
+    {
+      "type": "action",
+      "head_en": "3 Things You Can Do This Month",
+      "head_zh": "這個月你可以做的 3 件事",
+      "items": [
+        {
+          "num": "1",
+          "en": "Say one English sentence to a foreign teacher or visitor.",
+          "zh": "對外師或外國訪客說一句英文。"
+        },
+        {
+          "num": "2",
+          "en": "Learn one word in a classmate's family language.",
+          "zh": "學一個同學家鄉語言裡的字。"
+        },
+        {
+          "num": "3",
+          "en": "Write down one dream and one first step.",
+          "zh": "寫下一個夢想，和第一步。"
+        }
+      ]
+    },
+    {
+      "type": "phrases",
+      "head_en": "Say It With Me",
+      "head_zh": "跟著我唸",
+      "items": [
+        {
+          "en": "My background is not my limit.",
+          "zh": "我的背景不是我的極限。"
+        },
+        {
+          "en": "I can be brave.",
+          "zh": "我可以很勇敢。"
+        },
+        {
+          "en": "Mistakes help me learn.",
+          "zh": "犯錯幫助我學習。"
+        },
+        {
+          "en": "The world is bigger than my fears.",
+          "zh": "世界比我的害怕還要大。"
+        },
+        {
+          "en": "My future starts today.",
+          "zh": "我的未來從今天開始。"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "n": 4,
+      "bonus": true,
+      "q_en": "Dom's hometown, Huntington Beach, has a famous nickname. What is it?",
+      "q_zh": "Dom 的家鄉杭廷頓海灘有一個有名的綽號，是什麼？",
+      "options": [
+        {
+          "en": "Surf City USA",
+          "zh": "美國衝浪之城"
+        },
+        {
+          "en": "The Big Apple",
+          "zh": "大蘋果"
+        },
+        {
+          "en": "The Windy City",
+          "zh": "風城"
+        },
+        {
+          "en": "Rice City USA",
+          "zh": "美國稻米之城"
+        }
+      ],
+      "answer": 0,
+      "explain_en": "Surf City USA! The Big Apple is New York, and the Windy City is Chicago. Rice City? That sounds like Tianzhong, Taiwan's rice granary!",
+      "explain_zh": "美國衝浪之城！大蘋果是紐約，風城是芝加哥。稻米之城？聽起來比較像田中——台灣的米倉！"
+    },
+    {
+      "type": "padlet",
+      "head_en": "Leave a Message for Dom",
+      "head_zh": "留言給 Dom",
+      "body_en": "Go to our School Tour page and find the Tianjhong Senior High column. No sign-up, no login: tell Dom one dream and one first step.",
+      "body_zh": "到我們網站的 School Tour 頁面，找到田中高中那一欄，免註冊、免登入，告訴 Dom 你的一個夢想和第一步。",
+      "sentence_en": "My dream is ______, and my first step is ______.",
+      "sentence_zh": "我的夢想是 ______，我的第一步是 ______。",
+      "site": "mycultureconnect.org/dom-school-tour.html"
+    },
+    {
+      "type": "closing",
+      "big_en": "Your background<br>is not your limit.",
+      "big_zh": "你的背景，不是你的極限。",
+      "sign_en": "Thank you, Class 807!",
+      "sign_zh": "謝謝 807 班！",
+      "img": "tianzhong-tree.jpg"
+    }
+  ]
+}

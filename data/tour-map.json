@@ -756,6 +756,31 @@
    "visit": "2026-11-24-lukang-elem"
   },
   {
+   "en": "Tianjhong Senior High",
+   "zh": "田中高中",
+   "town_zh": "田中鎮",
+   "town_en": "Tianzhong",
+   "lat": 23.8553758,
+   "lng": 120.5885088,
+   "dates": [
+    "2026.12.15"
+   ],
+   "year": "115",
+   "decks": [
+    {
+     "slug": "tianzhong-hs-807-your-future",
+     "title": "我的旅程，你的未來",
+     "title_en": "My Journey, Your Future"
+    },
+    {
+     "slug": "tianzhong-hs-sdg17-partnerships",
+     "title": "SDG 17 全球夥伴",
+     "title_en": "Global Partners"
+    }
+   ],
+   "visit": "2026-12-15-tianzhong-hs"
+  },
+  {
    "en": "Huatan Junior High",
    "zh": "花壇國中",
    "town_zh": "花壇鄉",

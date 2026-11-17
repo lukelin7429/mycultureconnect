@@ -1,0 +1,46 @@
+{
+  "slug": "2026-12-15-tianzhong-hs",
+  "school": "田中高中",
+  "school_en": "Tianjhong Senior High",
+  "date": "2026.12.15",
+  "weekday_zh": "星期二",
+  "weekday_en": "Tuesday",
+  "items": [
+    {
+      "time": "9:00 – 9:15",
+      "label_en": "Interview with Principal Chang Shu-nu",
+      "label_zh": "採訪張淑女校長",
+      "detail_en": "Two questions: 1) Why did you choose to become a principal? What is your philosophy of education? 2) Why do international connections and English learning matter so much for Tianjhong students?",
+      "detail_zh": "兩個問題：一、校長為何擔任校長，教育理念為何？二、為何國際連結與英語教育對田中高中學生很重要？",
+      "note_en": "For the Voices in Education series.",
+      "note_zh": "收錄於「教育之聲」專訪系列。"
+    },
+    {
+      "time": "9:15 – 10:00",
+      "class": "Junior High Class 807 國中部 807 班",
+      "label_en": "My Journey, Your Future",
+      "label_zh": "我的旅程，你的未來",
+      "deck": "tianzhong-hs-807-your-future",
+      "detail_en": "In the Class 807 classroom. Dom shares her own life journey to help students build a global mindset and think about their future.",
+      "detail_zh": "在 807 教室。以 Dom 自己的經歷，引導學生建立國際觀、思考自己的未來。"
+    },
+    {
+      "time": "10:00 – 10:15",
+      "label_en": "Break and room change",
+      "label_zh": "換場",
+      "detail_en": "15 minutes to move to the senior high session.",
+      "detail_zh": "15 分鐘，移動到高中部的場地。"
+    },
+    {
+      "time": "10:15 – 11:00",
+      "class": "Senior High Classes 203 & 103 高中部 203、103 班",
+      "label_en": "SDG 17 Global Partners",
+      "label_zh": "SDG 17 全球夥伴",
+      "deck": "tianzhong-hs-sdg17-partnerships",
+      "detail_en": "Both classes together, probably in a special classroom (room to be confirmed). The two classes' English teachers will be there.",
+      "detail_zh": "兩班合班，擬借用專科教室（教室待確認）。兩班英文老師隨班陪伴。"
+    }
+  ],
+  "footnote_en": "Arranged by Julie Lien (連淑苓). The morning ends around 11:00 a.m. In the afternoon, Dom is at Huatan Junior High. The school has also asked My Culture Connect to make an English video promoting Tianjhong Senior High.",
+  "footnote_zh": "連淑苓老師安排。上午約 11:00 結束，下午 Dom 在花壇國中。學校另請人師教育協會協助製作推廣田中高中的英語影片。"
+}
