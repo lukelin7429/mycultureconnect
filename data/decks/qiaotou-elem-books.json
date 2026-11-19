@@ -1,0 +1,286 @@
+{
+  "slug": "qiaotou-elem-books-open-doors",
+  "school": "橋頭國小",
+  "school_en": "Qiaotou Elementary",
+  "date": "2026.12.01",
+  "year": "115",
+  "classes": "Grades 1 & 2 一、二年級",
+  "title": "書是一扇門",
+  "title_en": "Books Open Doors",
+  "sdg": "4",
+  "theme": "amber",
+  "footer": "Teacher Dom · Books Open Doors 書是一扇門",
+  "slides": [
+    {
+      "type": "title",
+      "eyebrow_en": "A Bilingual Reading Lesson for Grades 1 & 2",
+      "eyebrow_zh": "一、二年級雙語閱讀課",
+      "chips": [
+        {
+          "en": "Open!",
+          "zh": "打開"
+        },
+        {
+          "en": "Read!",
+          "zh": "讀一讀"
+        },
+        {
+          "en": "Count!",
+          "zh": "數一數"
+        },
+        {
+          "en": "Say It!",
+          "zh": "說說看"
+        }
+      ],
+      "strip": [
+        {
+          "num": "3",
+          "en": "English sentences today",
+          "zh": "今天學三句英文"
+        },
+        {
+          "num": "1",
+          "en": "book opens 1 door",
+          "zh": "一本書打開一扇門"
+        },
+        {
+          "num": "3",
+          "en": "places to read at Qiaotou",
+          "zh": "橋頭有三個讀書的好地方"
+        }
+      ],
+      "img": "qiaotou-reading-mural.jpg"
+    },
+    {
+      "type": "intro",
+      "head_en": "Hello! I am Dom.",
+      "head_zh": "哈囉！我是 Dom。",
+      "lines": [
+        {
+          "en": "I come from California, USA.",
+          "zh": "我從美國加州來。"
+        },
+        {
+          "en": "Do you like stories? Me too!",
+          "zh": "你喜歡故事嗎？我也是！"
+        },
+        {
+          "en": "Today we learn three English sentences.",
+          "zh": "今天我們要學三句英文。"
+        }
+      ],
+      "ask_en": "Wave your hand and say: Hello, Dom!",
+      "ask_zh": "揮揮手，一起說：Hello, Dom！"
+    },
+    {
+      "type": "map",
+      "head_en": "From California to Qiaotou",
+      "head_zh": "從加州到橋頭",
+      "img": "map-usa-taiwan.svg",
+      "ask_en": "So far away! Wave to my home: bye-bye, California!",
+      "ask_zh": "好遠喔！跟我的家揮揮手——bye-bye, California！"
+    },
+    {
+      "type": "standup",
+      "head_en": "Stand Up If…",
+      "head_zh": "如果是你，就站起來！",
+      "prompts": [
+        {
+          "en": "Stand up if you like stories.",
+          "zh": "喜歡聽故事的，站起來。"
+        },
+        {
+          "en": "Stand up if someone reads to you at home.",
+          "zh": "在家有人唸書給你聽的，站起來。"
+        },
+        {
+          "en": "Stand up if you have a favorite book.",
+          "zh": "有一本最喜歡的書的，站起來。"
+        }
+      ],
+      "punch_en": "Wow! Give yourselves a big clap!",
+      "punch_zh": "哇！給自己一個大大的掌聲！"
+    },
+    {
+      "type": "tpr",
+      "head_en": "Show Me: OPEN",
+      "head_zh": "做給我看：打開",
+      "say_en": "Open the book!",
+      "say_zh": "打開書！",
+      "steps": [
+        {
+          "icon": "🙏",
+          "en": "Put your hands together like a book",
+          "zh": "雙手合起來，像一本書"
+        },
+        {
+          "icon": "👐",
+          "en": "Open your hands",
+          "zh": "把手打開"
+        },
+        {
+          "icon": "🗣️",
+          "en": "Say it three times",
+          "zh": "大聲說三次"
+        }
+      ]
+    },
+    {
+      "type": "tpr",
+      "head_en": "Show Me: READ",
+      "head_zh": "做給我看：讀",
+      "say_en": "I can read!",
+      "say_zh": "我會讀！",
+      "steps": [
+        {
+          "icon": "📖",
+          "en": "Hold your hand-book",
+          "zh": "捧著你的「手掌書」"
+        },
+        {
+          "icon": "☝️",
+          "en": "Move your finger along the line",
+          "zh": "用手指跟著一行一行走"
+        },
+        {
+          "icon": "😄",
+          "en": "Big smile and say it!",
+          "zh": "笑咪咪地說出來！"
+        }
+      ],
+      "img": "qiaotou-reading-pavilion.jpg"
+    },
+    {
+      "type": "photo",
+      "head_en": "Look! Our Reading Room",
+      "head_zh": "看！我們的閱讀室",
+      "img": "qiaotou-library.jpg",
+      "ask_en": "There is a tree inside! Can you find it? Point and say: TREE!",
+      "ask_zh": "裡面有一棵樹！找得到嗎？指給我看，說：TREE！"
+    },
+    {
+      "type": "count",
+      "head_en": "How many books?",
+      "head_zh": "有幾本書？",
+      "icon": "📕",
+      "n": 8,
+      "say_en": "Eight books!",
+      "say_zh": "八本書！",
+      "hint_en": "Point and count in English",
+      "hint_zh": "用手指著，用英文一起數"
+    },
+    {
+      "type": "quiz",
+      "n": 1,
+      "q_en": "A book is like a…",
+      "q_zh": "一本書就像一扇…",
+      "options": [
+        {
+          "en": "Door 🚪",
+          "zh": "門"
+        },
+        {
+          "en": "Banana 🍌",
+          "zh": "香蕉"
+        }
+      ],
+      "answer": 0,
+      "explain_en": "A door! Open a book, and you go to a new place.",
+      "explain_zh": "門！打開一本書，你就到了一個新地方。"
+    },
+    {
+      "type": "truefalse",
+      "head_en": "True or False?",
+      "head_zh": "真的還假的？手比 ⭕ 或 ❌",
+      "items": [
+        {
+          "en": "We read with our eyes.",
+          "zh": "我們用眼睛讀書。",
+          "answer": true,
+          "note_en": "Yes! Eyes on the words.",
+          "note_zh": "對！眼睛看著字。"
+        },
+        {
+          "en": "We read with our nose.",
+          "zh": "我們用鼻子讀書。",
+          "answer": false,
+          "note_en": "No! Your nose is for smelling.",
+          "note_zh": "不是！鼻子是用來聞的。"
+        },
+        {
+          "en": "Big kids and little kids can both read.",
+          "zh": "大哥哥大姐姐和小朋友都可以讀書。",
+          "answer": true,
+          "note_en": "Yes! Everyone can read.",
+          "note_zh": "對！每個人都可以讀。"
+        }
+      ]
+    },
+    {
+      "type": "video",
+      "head_en": "Watch with Dom",
+      "head_zh": "跟 Dom 一起看",
+      "yt": "BCxuSzg532g",
+      "note_en": "Watch! Then show me your favorite part.",
+      "note_zh": "看完之後，把你最喜歡的那一段做出來給我看。"
+    },
+    {
+      "type": "chant",
+      "head_en": "Our Reading Chant",
+      "head_zh": "我們的閱讀口訣",
+      "lines": [
+        {
+          "en": "Open the book!",
+          "zh": "打開書！",
+          "do_en": "open your hands",
+          "do_zh": "把手打開"
+        },
+        {
+          "en": "I can read!",
+          "zh": "我會讀！",
+          "do_en": "finger along the line",
+          "do_zh": "手指跟著走"
+        },
+        {
+          "en": "Books open doors!",
+          "zh": "書會打開門！",
+          "do_en": "push open a big door",
+          "do_zh": "雙手推開一扇大門"
+        }
+      ],
+      "note_en": "Three times: louder every time!",
+      "note_zh": "唸三遍——一次比一次大聲！"
+    },
+    {
+      "type": "action",
+      "head_en": "3 Things I Can Do",
+      "head_zh": "我可以做的 3 件事",
+      "items": [
+        {
+          "num": "1",
+          "en": "Read a book with my family.",
+          "zh": "和家人一起讀一本書。"
+        },
+        {
+          "num": "2",
+          "en": "Visit the reading room.",
+          "zh": "去閱讀室逛一逛。"
+        },
+        {
+          "num": "3",
+          "en": "Say “I can read!” every day.",
+          "zh": "每天說一次「I can read!」。"
+        }
+      ]
+    },
+    {
+      "type": "closing",
+      "big_en": "Books open doors.<br>Let's read!",
+      "big_zh": "書是一扇門，<br>一起來讀吧！",
+      "sign_en": "Thank you, Qiaotou!",
+      "sign_zh": "謝謝橋頭國小！",
+      "img": "qiaotou-reading-station.jpg"
+    }
+  ]
+}

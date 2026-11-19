@@ -1,0 +1,39 @@
+{
+  "slug": "2026-12-01-qiaotou-elem",
+  "school": "橋頭國小",
+  "school_en": "Qiaotou Elementary",
+  "date": "2026.12.01",
+  "weekday_zh": "星期二",
+  "weekday_en": "Tuesday",
+  "items": [
+    {
+      "time": "9:30 – 10:10",
+      "class": "Grade 2 (26 students) 二年級（26 人）",
+      "label_en": "Books Open Doors",
+      "label_zh": "書是一扇門",
+      "deck": "qiaotou-elem-books-open-doors",
+      "detail_en": "Period 2. A reading lesson for young learners: three English sentences (Open the book! / I can read! / Books open doors!), actions, counting, and Dom's SDG 4 animation. Classroom to be confirmed.",
+      "detail_zh": "第二大節。給低年級的閱讀課：三句英文（Open the book! / I can read! / Books open doors!）、肢體動作、數一數，以及 Dom 的 SDG 4 動畫。上課地點待確認。"
+    },
+    {
+      "time": "10:30 – 11:10",
+      "class": "Grade 1 (18 students) 一年級（18 人）",
+      "label_en": "Books Open Doors",
+      "label_zh": "書是一扇門",
+      "deck": "qiaotou-elem-books-open-doors",
+      "detail_en": "Period 3. The same lesson as Grade 2. Classroom to be confirmed.",
+      "detail_zh": "第三大節。與二年級同一套課程。上課地點待確認。"
+    },
+    {
+      "time": "11:20 – 12:00",
+      "label_en": "Interview with Principal Chen Chun-wen",
+      "label_zh": "採訪陳俊文校長",
+      "detail_en": "Period 4. Two questions: 1) Why did you choose to lead a school? What is your philosophy of education? 2) Why do international connections and English learning matter so much for students?",
+      "detail_zh": "第四大節。兩個問題：一、為何要擔任校長（教育理念）？二、為何推國際連結與英語教育對學生而言很重要？",
+      "note_en": "For the Voices in Education series.",
+      "note_zh": "收錄於「教育之聲」專訪系列。"
+    }
+  ],
+  "footnote_en": "The school asked for a lesson about reading. Both classes use the same deck, built for first and second graders. The visit ends around 12:00 p.m., after the interview.",
+  "footnote_zh": "學校希望主題與閱讀有關。兩班用同一套簡報，依一、二年級的程度設計。校長採訪結束、約 12:00 離開。"
+}

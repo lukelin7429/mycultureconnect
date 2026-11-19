@@ -707,6 +707,26 @@
    "visit": "2026-10-20-luming-jh"
   },
   {
+   "en": "Qiaotou Elementary",
+   "zh": "橋頭國小",
+   "town_zh": "社頭鄉",
+   "town_en": "Shetou",
+   "lat": 23.9186308,
+   "lng": 120.5827096,
+   "dates": [
+    "2026.12.01"
+   ],
+   "year": "115",
+   "decks": [
+    {
+     "slug": "qiaotou-elem-books-open-doors",
+     "title": "書是一扇門",
+     "title_en": "Books Open Doors"
+    }
+   ],
+   "visit": "2026-12-01-qiaotou-elem"
+  },
+  {
    "en": "Tachu Elementary",
    "zh": "大竹國小",
    "town_zh": "彰化市",
