@@ -193,6 +193,7 @@ VIDEOS = {  # YouTube id -> finished file in one of VIDEO_DIRS
     'A9liiJZ3MVo': 'SDG6_CleanWater_bilingual_v1.mp4',
     'BCxuSzg532g': 'SDG4_QualityEducation_bilingual_v2.mp4',
     '4k-BTYRiWmo': 'SDG10_ReducedInequalities_bilingual_v1.mp4',
+    '40t7A42MZiU': 'SDG17_Partnerships_bilingual_v1.mp4',
 }
 
 
