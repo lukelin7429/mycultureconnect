@@ -727,6 +727,26 @@
    "visit": "2026-12-01-qiaotou-elem"
   },
   {
+   "en": "Erlin Elementary",
+   "zh": "二林國小",
+   "town_zh": "二林鎮",
+   "town_en": "Erlin",
+   "lat": 23.9008874,
+   "lng": 120.3717226,
+   "dates": [
+    "2026.12.01"
+   ],
+   "year": "115",
+   "decks": [
+    {
+     "slug": "erlin-elem-sdg14-ocean",
+     "title": "SDG 14 保育海洋生態",
+     "title_en": "SDG 14 Life Below Water"
+    }
+   ],
+   "visit": "2026-12-01-erlin-elem"
+  },
+  {
    "en": "Tachu Elementary",
    "zh": "大竹國小",
    "town_zh": "彰化市",

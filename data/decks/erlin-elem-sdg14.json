@@ -1,0 +1,316 @@
+{
+  "slug": "erlin-elem-sdg14-ocean",
+  "school": "二林國小",
+  "school_en": "Erlin Elementary",
+  "date": "2026.12.01",
+  "year": "115",
+  "classes": "Grades 3 & 4 中年級",
+  "title": "SDG 14 保育海洋生態",
+  "title_en": "Life Below Water",
+  "sdg": "14",
+  "theme": "teal",
+  "footer": "Teacher Dom · SDG #14 Life Below Water 保育海洋生態",
+  "slides": [
+    {
+      "type": "title",
+      "eyebrow_en": "The sea is closer than you think",
+      "eyebrow_zh": "海，比你以為的還要近",
+      "chips": [
+        {
+          "en": "The Sea",
+          "zh": "大海"
+        },
+        {
+          "en": "Dolphins",
+          "zh": "白海豚"
+        },
+        {
+          "en": "Plastic",
+          "zh": "塑膠"
+        },
+        {
+          "en": "I Can Help!",
+          "zh": "我可以幫忙！"
+        }
+      ],
+      "strip": [
+        {
+          "num": "15 km",
+          "en": "from Erlin to the sea",
+          "zh": "二林到海邊"
+        },
+        {
+          "num": "< 50",
+          "en": "white dolphins left",
+          "zh": "白海豚剩不到"
+        },
+        {
+          "num": "71%",
+          "en": "of the Earth is ocean",
+          "zh": "地球是海洋"
+        }
+      ],
+      "img": "erlin-heritage-hall.jpg"
+    },
+    {
+      "type": "intro",
+      "head_en": "Thank you for the lion dance!",
+      "head_zh": "謝謝你們的舞獅！",
+      "lines": [
+        {
+          "en": "I grew up in California, next to the Pacific Ocean.",
+          "zh": "我在加州長大，就在太平洋旁邊。"
+        },
+        {
+          "en": "The sea was at the end of my street.",
+          "zh": "走到街底就是海。"
+        },
+        {
+          "en": "Today, let's talk about the sea near Erlin.",
+          "zh": "今天，我們來聊聊二林附近的海。"
+        }
+      ],
+      "ask_en": "Hands up — who has been to the beach?",
+      "ask_zh": "舉手看看——誰去過海邊？"
+    },
+    {
+      "type": "map",
+      "head_en": "From California to Erlin",
+      "head_zh": "從加州到二林",
+      "img": "map-usa-taiwan.svg",
+      "ask_en": "Between my home and yours, it is all ocean — one big ocean.",
+      "ask_zh": "我家和你家之間，全部都是海——同一片大海。"
+    },
+    {
+      "type": "standup",
+      "head_en": "Stand Up If…",
+      "head_zh": "如果是你，就站起來！",
+      "prompts": [
+        {
+          "en": "Stand up if you have seen the sea.",
+          "zh": "看過海的，站起來。"
+        },
+        {
+          "en": "Stand up if you have eaten oysters.",
+          "zh": "吃過蚵仔的，站起來。"
+        },
+        {
+          "en": "Stand up if you have seen a dolphin.",
+          "zh": "看過海豚的，站起來。"
+        }
+      ],
+      "punch_en": "Those oysters grew in the sea near Erlin!",
+      "punch_zh": "那些蚵仔，就長在二林附近的海裡！"
+    },
+    {
+      "type": "bigstat",
+      "num": "15 km",
+      "head_en": "from your school to the sea",
+      "head_zh": "從你們學校到海邊",
+      "body_en": "Wanggong Harbor is about 20 minutes away by car.",
+      "body_zh": "開車到王功漁港，大約 20 分鐘。",
+      "ask_en": "The sea is your neighbor!",
+      "ask_zh": "大海是你們的鄰居！",
+      "img": "sdg14-coast-v"
+    },
+    {
+      "type": "bigstat",
+      "num": "< 50",
+      "head_en": "Taiwanese white dolphins are left",
+      "head_zh": "台灣白海豚，剩下不到 50 隻",
+      "body_en": "People call them Matsu fish. They live only near Taiwan's west coast — near Changhua!",
+      "body_zh": "大家叫牠們「媽祖魚」，只住在台灣西海岸——就在彰化附近！",
+      "ask_en": "Your school has more students than the world has white dolphins.",
+      "ask_zh": "你們學校的學生，比全世界的白海豚還多。",
+      "img": "sdg14-dolphin-v"
+    },
+    {
+      "type": "quiz",
+      "n": 1,
+      "q_en": "How much of the Earth is ocean?",
+      "q_zh": "地球表面有多少是海洋？",
+      "options": [
+        {
+          "en": "About 30%",
+          "zh": "大約 30%"
+        },
+        {
+          "en": "About 70%",
+          "zh": "大約 70%"
+        },
+        {
+          "en": "About 100%",
+          "zh": "大約 100%"
+        }
+      ],
+      "answer": 1,
+      "explain_en": "About 70%! Our planet is mostly blue.",
+      "explain_zh": "大約 70%！我們的星球大部分是藍色的。"
+    },
+    {
+      "type": "quiz",
+      "n": 2,
+      "q_en": "Where does most ocean plastic come from?",
+      "q_zh": "海裡的塑膠，大部分是從哪裡來的？",
+      "options": [
+        {
+          "en": "From ships",
+          "zh": "從船上"
+        },
+        {
+          "en": "From the land",
+          "zh": "從陸地"
+        }
+      ],
+      "answer": 1,
+      "explain_en": "From the land! Trash goes into drains and rivers, and rivers carry it to the sea.",
+      "explain_zh": "從陸地！垃圾掉進水溝和河裡，河再把它帶到海裡。"
+    },
+    {
+      "type": "truefalse",
+      "head_en": "True or False?",
+      "head_zh": "真的還假的？手比 ⭕ 或 ❌",
+      "items": [
+        {
+          "en": "A plastic bottle disappears in the sea in one year.",
+          "zh": "塑膠瓶在海裡一年就會消失。",
+          "answer": false,
+          "note_en": "No! It can take about 450 years.",
+          "note_zh": "不是！大約要 450 年。"
+        },
+        {
+          "en": "A sea turtle can think a plastic bag is a jellyfish.",
+          "zh": "海龜會把塑膠袋當成水母。",
+          "answer": true,
+          "note_en": "Yes — and it tries to eat it.",
+          "note_zh": "對——而且牠會想把它吃下去。"
+        },
+        {
+          "en": "About half of the air we breathe comes from the ocean.",
+          "zh": "我們呼吸的空氣，大約一半來自海洋。",
+          "answer": true,
+          "note_en": "Yes! Tiny plants in the sea make it.",
+          "note_zh": "對！是海裡的小小植物做出來的。"
+        }
+      ]
+    },
+    {
+      "type": "topic",
+      "head_en": "Oxen in the Sea!",
+      "head_zh": "走進海裡的牛！",
+      "body_en": "In Fangyuan, next to Erlin, farmers walk oxen onto the mudflat to pick oysters. Only about a dozen of these oxen are left in the world.",
+      "body_zh": "在二林隔壁的芳苑，蚵農牽著牛走進潮間帶採蚵仔。這樣的「海牛」，全世界只剩大約十幾頭。",
+      "keywords": [
+        {
+          "en": "ox",
+          "zh": "牛"
+        },
+        {
+          "en": "oyster",
+          "zh": "蚵仔"
+        },
+        {
+          "en": "mudflat",
+          "zh": "潮間帶"
+        }
+      ],
+      "img": "sdg14-oxcart-v"
+    },
+    {
+      "type": "game",
+      "icon": "⏱",
+      "head_en": "30-Second Challenge",
+      "head_zh": "30 秒挑戰",
+      "rule_en": "In 30 seconds, say as many sea animals in English as you can. I will count!",
+      "rule_zh": "30 秒內，用英文說出越多海洋動物越好，我來數！",
+      "hints": [
+        "fish 魚",
+        "dolphin 海豚",
+        "crab 螃蟹",
+        "shark 鯊魚",
+        "turtle 海龜",
+        "whale 鯨魚",
+        "octopus 章魚",
+        "jellyfish 水母"
+      ],
+      "target_en": "Can we get 10?",
+      "target_zh": "我們能說到 10 個嗎？"
+    },
+    {
+      "type": "video",
+      "head_en": "Dom on Life Below Water",
+      "head_zh": "Dom 談海洋",
+      "yt": "d52PCyPWge8",
+      "note_en": "Watch, then tell me: which sea animal do you want to protect?",
+      "note_zh": "看完之後，告訴我：你想保護哪一種海洋動物？"
+    },
+    {
+      "type": "pairshare",
+      "head_en": "Turn and Tell Your Partner",
+      "head_zh": "轉過去，告訴你的同學",
+      "prompt_en": "Which sea animal do you want to protect?",
+      "prompt_zh": "你想保護哪一種海洋動物？",
+      "sentence_en": "I want to protect the ______.",
+      "sentence_zh": "我想保護 ______。",
+      "time_en": "30 seconds each. Then I will ask three of you.",
+      "time_zh": "每人 30 秒。然後我會請三位分享。"
+    },
+    {
+      "type": "chant",
+      "head_en": "Our Ocean Chant",
+      "head_zh": "我們的海洋口訣",
+      "lines": [
+        {
+          "en": "The ocean is blue!",
+          "zh": "大海是藍色的！",
+          "do_en": "make waves with your arms",
+          "do_zh": "雙手比出海浪"
+        },
+        {
+          "en": "Keep it clean!",
+          "zh": "讓它保持乾淨！",
+          "do_en": "sweep with your hands",
+          "do_zh": "雙手做掃地的動作"
+        },
+        {
+          "en": "I can help!",
+          "zh": "我可以幫忙！",
+          "do_en": "two thumbs up",
+          "do_zh": "比兩個讚"
+        }
+      ],
+      "note_en": "Three times: louder every time!",
+      "note_zh": "唸三遍——一次比一次大聲！"
+    },
+    {
+      "type": "action",
+      "head_en": "3 Things I Can Do",
+      "head_zh": "我可以做的 3 件事",
+      "items": [
+        {
+          "num": "1",
+          "en": "Bring my own water bottle.",
+          "zh": "帶自己的水壺。"
+        },
+        {
+          "num": "2",
+          "en": "Put trash in the trash can, not the drain.",
+          "zh": "垃圾丟進垃圾桶，不丟水溝。"
+        },
+        {
+          "num": "3",
+          "en": "Tell my family: “Keep the ocean clean!”",
+          "zh": "告訴家人：「讓大海保持乾淨！」"
+        }
+      ]
+    },
+    {
+      "type": "closing",
+      "big_en": "The sea is our neighbor.<br>Let's keep it blue!",
+      "big_zh": "大海是我們的鄰居，<br>一起讓它保持藍色！",
+      "sign_en": "Thank you, Erlin Elementary!",
+      "sign_zh": "謝謝二林國小！",
+      "img": "sdg14-closing"
+    }
+  ]
+}

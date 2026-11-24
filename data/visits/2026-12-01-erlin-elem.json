@@ -1,0 +1,46 @@
+{
+  "slug": "2026-12-01-erlin-elem",
+  "school": "二林國小",
+  "school_en": "Erlin Elementary",
+  "date": "2026.12.01",
+  "weekday_zh": "星期二",
+  "weekday_en": "Tuesday",
+  "items": [
+    {
+      "time": "1:30 – 1:35",
+      "label_en": "Lion Dance Welcome",
+      "label_zh": "二小舞獅歡迎",
+      "detail_en": "Erlin's own lion-dance team welcomes Dom.",
+      "detail_zh": "由二林國小舞獅隊表演迎賓。"
+    },
+    {
+      "time": "1:35 – 2:10",
+      "label_en": "Campus Tour and Interview with Principal Chen Fu-shun",
+      "label_zh": "校園巡禮、採訪陳福順校長",
+      "detail_en": "Period 5. Campus tour: the Japanese-era auditorium (1938), the Japanese-era dormitory, the school cafeteria, and the English Village. Then two questions for the principal: 1) Why did you choose to lead a school? What is your philosophy of education? 2) Why do international connections and English learning matter so much for students?",
+      "detail_zh": "第五節。校園巡禮：日式禮堂（1938 年）、日式宿舍、美食堂、英語村。接著採訪校長兩個問題：一、為何要擔任校長（教育理念）？二、為何推國際連結與英語教育對學生而言很重要？",
+      "note_en": "For the Voices in Education series.",
+      "note_zh": "收錄於「教育之聲」專訪系列。"
+    },
+    {
+      "time": "2:20 – 3:00",
+      "class": "Class 4-1 四年一班",
+      "label_en": "SDG 14 Life Below Water",
+      "label_zh": "SDG 14 保育海洋生態",
+      "deck": "erlin-elem-sdg14-ocean",
+      "detail_en": "Period 6. The sea is only 15 km from Erlin: white dolphins, ocean plastic, the oxen of Fangyuan, a sea-animal challenge, and Dom's SDG 14 animation.",
+      "detail_zh": "第六節。二林離海只有 15 公里：白海豚、海洋塑膠、芳苑的海牛、海洋動物挑戰，以及 Dom 的 SDG 14 動畫。"
+    },
+    {
+      "time": "3:00 – 3:50",
+      "class": "Grade 3 or 4 (class to be confirmed) 中年級（班級待確認）",
+      "label_en": "SDG 14 Life Below Water",
+      "label_zh": "SDG 14 保育海洋生態",
+      "deck": "erlin-elem-sdg14-ocean",
+      "detail_en": "Period 7. The same lesson as Class 4-1.",
+      "detail_zh": "第七節。與四年一班同一套課程。"
+    }
+  ],
+  "footnote_en": "Schedule is tentative. Both classes are middle-grade (grades 3–4) and use the same deck. The second class will be confirmed by the school.",
+  "footnote_zh": "流程為暫定。兩班都是中年級，用同一套簡報；第二班由學校確認後再補上。"
+}
