@@ -771,6 +771,26 @@
    ]
   },
   {
+   "en": "Dacun Junior High",
+   "zh": "大村國中",
+   "town_zh": "大村鄉",
+   "town_en": "Dacun",
+   "lat": 23.9879697,
+   "lng": 120.5659331,
+   "dates": [
+    "2026.12.08"
+   ],
+   "year": "115",
+   "decks": [
+    {
+     "slug": "dacun-jh-self-discipline",
+     "title": "品格教育：自律",
+     "title_en": "Self-Discipline"
+    }
+   ],
+   "visit": "2026-12-08-dacun-jh"
+  },
+  {
    "en": "Lukang Elementary",
    "zh": "鹿港國小",
    "town_zh": "鹿港鎮",

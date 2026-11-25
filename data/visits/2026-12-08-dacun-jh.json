@@ -1,0 +1,67 @@
+{
+  "slug": "2026-12-08-dacun-jh",
+  "school": "大村國中",
+  "school_en": "Dacun Junior High",
+  "date": "2026.12.08",
+  "weekday_zh": "星期二",
+  "weekday_en": "Tuesday",
+  "items": [
+    {
+      "time": "13:30 – 13:35",
+      "label_en": "Arrival and Welcome",
+      "label_zh": "貴賓蒞臨、相見歡",
+      "detail_en": "In the principal's office.",
+      "detail_zh": "地點：校長室。"
+    },
+    {
+      "time": "13:35 – 13:55",
+      "label_en": "Interview with Principal Lai Liang-chu",
+      "label_zh": "採訪賴良助校長",
+      "detail_en": "Two questions: 1) What is your philosophy of education? 2) Why do international connections and English learning matter so much for students in Dacun?",
+      "detail_zh": "兩個問題：一、校長的教育理念；二、為何國際連結與英語教育對大村國中的學生很重要？",
+      "note_en": "For the Voices in Education series.",
+      "note_zh": "收錄於「教育之聲」專訪系列。"
+    },
+    {
+      "time": "13:55 – 14:10",
+      "label_en": "Classroom Equipment Check",
+      "label_zh": "教室設備測試",
+      "detail_en": "Break time. Test the projector, sound, and slides.",
+      "detail_zh": "下課時間。測試投影、音響與簡報。"
+    },
+    {
+      "time": "14:10 – 14:55",
+      "class": "Class 804 八〇四班",
+      "label_en": "Self-Discipline",
+      "label_zh": "品格教育：自律",
+      "deck": "dacun-jh-self-discipline",
+      "detail_en": "Period 6. What self-discipline is, 1% better every day, the Marshmallow Test, Dacun's grape farmers, the school's track and cycling teams, an If–Then plan, and a Freeze Challenge.",
+      "detail_zh": "第六節。什麼是自律、每天進步 1%、棉花糖實驗、大村的葡萄農、學校的田徑與自由車隊、「如果……就……」計畫，以及木頭人挑戰。"
+    },
+    {
+      "time": "14:55 – 15:10",
+      "label_en": "Move to the Next Classroom",
+      "label_zh": "轉移場地",
+      "detail_en": "Break time.",
+      "detail_zh": "下課時間。"
+    },
+    {
+      "time": "15:10 – 15:55",
+      "class": "Class 702 七〇二班",
+      "label_en": "Self-Discipline",
+      "label_zh": "品格教育：自律",
+      "deck": "dacun-jh-self-discipline",
+      "detail_en": "Period 7. The same lesson as Class 804.",
+      "detail_zh": "第七節。與八〇四班同一套課程。"
+    },
+    {
+      "time": "15:55 – 16:20",
+      "label_en": "Certificate of Appreciation and Gifts",
+      "label_zh": "致贈感謝狀及紀念品",
+      "detail_en": "In the principal's office.",
+      "detail_zh": "地點：校長室。"
+    }
+  ],
+  "footnote_en": "The school chose self-discipline as the topic. Both classes use the same deck. The visit ends around 4:20 p.m.",
+  "footnote_zh": "講題由學校指定：自律。兩班用同一套簡報。約 16:20 結束。"
+}
