@@ -464,5 +464,107 @@
       "sign_en": "Thank you, Dacun Junior High!",
       "sign_zh": "謝謝大村國中！"
     }
-  ]
+  ],
+  "preview": {
+    "words": [
+      {
+        "en": "alarm",
+        "zh": "鬧鐘"
+      },
+      {
+        "en": "snooze",
+        "zh": "按掉鬧鐘再睡一下"
+      },
+      {
+        "en": "homework",
+        "zh": "功課"
+      },
+      {
+        "en": "focus",
+        "zh": "專心"
+      },
+      {
+        "en": "plan",
+        "zh": "計畫"
+      },
+      {
+        "en": "promise",
+        "zh": "承諾"
+      },
+      {
+        "en": "routine",
+        "zh": "每天固定做的事"
+      },
+      {
+        "en": "schedule",
+        "zh": "時間表"
+      },
+      {
+        "en": "on time",
+        "zh": "準時"
+      },
+      {
+        "en": "screen time",
+        "zh": "使用螢幕的時間"
+      },
+      {
+        "en": "distraction",
+        "zh": "讓人分心的事"
+      },
+      {
+        "en": "give up",
+        "zh": "放棄"
+      },
+      {
+        "en": "keep going",
+        "zh": "堅持下去"
+      },
+      {
+        "en": "improve",
+        "zh": "進步"
+      },
+      {
+        "en": "marshmallow",
+        "zh": "棉花糖"
+      },
+      {
+        "en": "research",
+        "zh": "研究"
+      }
+    ],
+    "read": [
+      {
+        "en": "Self-discipline means doing what you need to do, even when no one reminds you.",
+        "zh": "自律，就是沒有人提醒，也會去做該做的事。"
+      },
+      {
+        "en": "A simple plan can help you get started.",
+        "zh": "一個簡單的計畫，能幫你開始動手。"
+      },
+      {
+        "en": "That game can wait. There will be time to play when the homework is done.",
+        "zh": "遊戲可以等一等。功課寫完之後，就有時間玩了。"
+      },
+      {
+        "en": "Getting ready the night before makes the morning easier.",
+        "zh": "前一晚先準備好，早上就輕鬆多了。"
+      },
+      {
+        "en": "A few notes at a time may not seem like much, but little by little, you get better.",
+        "zh": "一次練幾個音好像不多，但一點一點，你就會越來越好。"
+      },
+      {
+        "en": "It can be hard to stop when you're having fun. When screen time is over, he closes the tablet on his own.",
+        "zh": "玩得正開心時，要停下來不容易。使用螢幕的時間到了，他自己把平板闔上。"
+      },
+      {
+        "en": "Before she leaves, she pushes her chair back into place. No one has to ask.",
+        "zh": "離開之前，她把椅子推回原位，不用任何人提醒。"
+      },
+      {
+        "en": "What's one small habit you can start today?",
+        "zh": "今天，你可以開始養成哪一個小習慣呢？"
+      }
+    ]
+  }
 }
