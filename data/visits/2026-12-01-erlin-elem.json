@@ -24,7 +24,7 @@
     },
     {
       "time": "14:20 – 15:00",
-      "class": "Class 4-1 四年一班",
+      "class": "Class 401 四年一班",
       "label_en": "SDG 14 Life Below Water",
       "label_zh": "SDG 14 保育海洋生態",
       "deck": "erlin-elem-sdg14-ocean",
@@ -33,14 +33,14 @@
     },
     {
       "time": "15:00 – 15:50",
-      "class": "Grade 3 or 4 (class to be confirmed) 中年級（班級待確認）",
+      "class": "Class 402 四年二班",
       "label_en": "SDG 14 Life Below Water",
       "label_zh": "SDG 14 保育海洋生態",
       "deck": "erlin-elem-sdg14-ocean",
-      "detail_en": "Period 7. The same lesson as Class 4-1.",
+      "detail_en": "Period 7. The same lesson as Class 401.",
       "detail_zh": "第七節。與四年一班同一套課程。"
     }
   ],
-  "footnote_en": "Schedule is tentative. Both classes are middle-grade (grades 3–4) and use the same deck. The second class will be confirmed by the school.",
-  "footnote_zh": "流程為暫定。兩班都是中年級，用同一套簡報；第二班由學校確認後再補上。"
+  "footnote_en": "Schedule is tentative. Both classes are fourth grade (401 and 402) and use the same deck.",
+  "footnote_zh": "流程為暫定。兩班都是四年級（401、402），用同一套簡報。"
 }
